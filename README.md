@@ -1,5 +1,7 @@
 # MiniMind 训练与严谨评测实验
 
+简体中文 | [English](README.en.md)
+
 基于 [jingyaogong/minimind](https://github.com/jingyaogong/minimind)，记录从预训练、SFT、LoRA、GRPO、DPO、MoE，到知识蒸馏、工具选择和本地聊天演示的实验过程。项目由 **Yuyang LU** 主导，Claude Code 和 Codex 协助实现、训练、分析与复核。
 
 这里保存截至 **2026-10-28** 已完成工作的代码、实验报告、逐题输出、裁决与训练日志。模型主体和原始训练器来自上游；本项目的实验工作主要位于 `my_eval/`，网页改动及支持模块位于 `scripts/`。源码与实验记录按原始字节保存，便于检查冻结摘要。

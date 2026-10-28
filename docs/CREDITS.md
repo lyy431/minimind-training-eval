@@ -1,5 +1,7 @@
 # 工作来源与致谢
 
+简体中文 | [English](CREDITS.en.md)
+
 项目主导与本地定制：Yuyang LU。GitHub账号：lyy431。
 
 ## 上游

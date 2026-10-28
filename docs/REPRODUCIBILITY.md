@@ -1,5 +1,7 @@
 # 核查与复现边界
 
+简体中文 | [English](REPRODUCIBILITY.en.md)
+
 ## 当前快照可以核查什么
 
 完成实验的逐题输出、内容/数学裁决、统计摘要、固定协议和日志均保留在`my_eval/`。`SNAPSHOT_MANIFEST.json`记录从原目录复制的文件SHA-256、大小与相对位置。`.gitattributes`保留字节，避免克隆时的换行转换破坏冻结摘要。
