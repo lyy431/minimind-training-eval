@@ -1,0 +1,12 @@
+MiniMind training and evaluation experiments
+
+This project contains code and tokenizer assets from jingyaogong/minimind:
+https://github.com/jingyaogong/minimind
+The upstream work is distributed under the Apache License, Version 2.0.
+
+Yuyang LU's local project adds training orchestration, evaluation and review
+scripts, experiment records, and modifications to the demonstration interface.
+Claude Code and Codex assisted with the stages described in docs/CREDITS.md.
+Original source/evidence bytes are preserved for hash-based verification.
+
+External model weights and source datasets have separate provenance and terms.

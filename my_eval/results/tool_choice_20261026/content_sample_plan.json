@@ -1,0 +1,17 @@
+{
+  "case_ids": [
+    "test_no_0",
+    "test_no_1",
+    "test_no_2",
+    "test_no_3",
+    "test_no_4",
+    "test_no_5",
+    "test_no_6",
+    "test_no_7"
+  ],
+  "tool_count": 6,
+  "variant": 5,
+  "selection_basis": "first two identity/name, two knowledge, two writing, two retrieval examples in fixed task order; chosen before candidate final ordinary outputs",
+  "purpose": "descriptive content spot-check, not a post-hoc training or checkpoint-selection signal",
+  "rubric": "whether response addresses the request; visible confusion, identity leakage or obvious errors; not independent factual verification"
+}

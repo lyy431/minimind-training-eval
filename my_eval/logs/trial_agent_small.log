@@ -1,0 +1,38 @@
+﻿Model Params: 63.91M
+Trainable Params: 63.912M
+Model Params: 63.91M
+Trainable Params: 63.912M
+python.exe : `torch_dtype` is deprecated! Use `dtype` instead!
+At line:1 char:480
++ ... er\trainer; & D:\conda\envs\minimind\python.exe -u train_agent.py --d ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (`torch_dtype` i...dtype` instead!:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 27.99it/s]
+Loaded reward model from ../../internlm2-1_8b-reward
+Epoch:[1/1](1/9900), Reward:1.2083, KL:0.0001, GrpStd:0.4583, AdvStd:1.1544, Loss:-0.0003, AvgLen:112.25, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](2/9900), Reward:-0.5417, KL:-0.0247, GrpStd:0.2083, AdvStd:0.8163, Loss:0.0021, AvgLen:76.75, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](3/9900), Reward:-1.0000, KL:-0.0134, GrpStd:0.0000, AdvStd:0.0000, Loss:0.0024, AvgLen:76.50, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](4/9900), Reward:-0.0417, KL:-0.0332, GrpStd:0.2083, AdvStd:0.8163, Loss:0.0018, AvgLen:76.50, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](5/9900), Reward:-0.4424, KL:-0.0060, GrpStd:0.1091, AdvStd:1.1530, Loss:-0.0019, AvgLen:64.00, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](6/9900), Reward:-0.7667, KL:-0.0275, GrpStd:0.0000, AdvStd:0.0000, Loss:0.0011, AvgLen:101.00, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](7/9900), Reward:-0.3333, KL:-0.0140, GrpStd:0.4167, AdvStd:0.8164, Loss:0.0016, AvgLen:87.75, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](8/9900), Reward:-0.2917, KL:-0.0277, GrpStd:0.4583, AdvStd:1.1544, Loss:0.0020, AvgLen:65.50, AdvMean:-0.0000, LR:0.00000030
+past_key_values should not be None in from_legacy_cache()
+Epoch:[1/1](9/9900), Reward:-0.6250, KL:-0.0173, GrpStd:0.6250, AdvStd:0.8164, Loss:0.0017, AvgLen:81.50, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](10/9900), Reward:0.3241, KL:-0.0212, GrpStd:0.0509, AdvStd:0.8157, Loss:0.0005, AvgLen:85.25, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](11/9900), Reward:-1.0495, KL:-0.0227, GrpStd:0.0217, AdvStd:0.8146, Loss:0.0025, AvgLen:84.25, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](12/9900), Reward:-0.4697, KL:-0.0365, GrpStd:0.1364, AdvStd:0.8162, Loss:0.0004, AvgLen:77.25, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](13/9900), Reward:-0.6719, KL:-0.0350, GrpStd:0.2447, AdvStd:1.1541, Loss:0.0031, AvgLen:95.25, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](14/9900), Reward:-0.2500, KL:-0.0136, GrpStd:0.0000, AdvStd:0.0000, Loss:0.0009, AvgLen:86.00, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](15/9900), Reward:-0.5952, KL:-0.0018, GrpStd:0.2381, AdvStd:0.8163, Loss:0.0003, AvgLen:164.00, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](16/9900), Reward:0.7833, KL:-0.0142, GrpStd:0.0500, AdvStd:0.8157, Loss:0.0010, AvgLen:95.75, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](17/9900), Reward:0.9583, KL:-0.0229, GrpStd:0.2083, AdvStd:0.8163, Loss:0.0010, AvgLen:92.00, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](18/9900), Reward:-0.5208, KL:-0.0314, GrpStd:0.0208, AdvStd:0.8145, Loss:0.0020, AvgLen:93.00, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](19/9900), Reward:-0.5564, KL:-0.0080, GrpStd:0.6397, AdvStd:1.1545, Loss:-0.0006, AvgLen:130.00, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](20/9900), Reward:-0.6250, KL:-0.0287, GrpStd:0.1250, AdvStd:0.8162, Loss:0.0011, AvgLen:88.00, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](21/9900), Reward:0.7500, KL:-0.0234, GrpStd:0.0000, AdvStd:0.0000, Loss:0.0012, AvgLen:93.00, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](22/9900), Reward:1.0114, KL:-0.0367, GrpStd:0.0253, AdvStd:0.8149, Loss:0.0024, AvgLen:97.25, AdvMean:0.0000, LR:0.00000030

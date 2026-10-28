@@ -1,0 +1,366 @@
+[
+  {
+    "id": "identity_0_0",
+    "task_id": "identity_0_0",
+    "question": "你是谁？",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "你是谁？"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "你是谁？"
+      }
+    ],
+    "tools": null,
+    "seed": 550000
+  },
+  {
+    "id": "identity_0_1",
+    "task_id": "identity_0_1",
+    "question": "你是谁？",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "你是谁？"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "你是谁？"
+      }
+    ],
+    "tools": null,
+    "seed": 550001
+  },
+  {
+    "id": "identity_1_0",
+    "task_id": "identity_1_0",
+    "question": "Who created you?",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who created you?"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "Who created you?"
+      }
+    ],
+    "tools": null,
+    "seed": 550010
+  },
+  {
+    "id": "identity_1_1",
+    "task_id": "identity_1_1",
+    "question": "Who created you?",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who created you?"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "Who created you?"
+      }
+    ],
+    "tools": null,
+    "seed": 550011
+  },
+  {
+    "id": "identity_2_0",
+    "task_id": "identity_2_0",
+    "question": "你的作者叫什么名字？",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "你的作者叫什么名字？"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "你的作者叫什么名字？"
+      }
+    ],
+    "tools": null,
+    "seed": 550020
+  },
+  {
+    "id": "identity_2_1",
+    "task_id": "identity_2_1",
+    "question": "你的作者叫什么名字？",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "你的作者叫什么名字？"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "你的作者叫什么名字？"
+      }
+    ],
+    "tools": null,
+    "seed": 550021
+  },
+  {
+    "id": "identity_3_0",
+    "task_id": "identity_3_0",
+    "question": "是哪个人把你做出来的？",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "是哪个人把你做出来的？"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "是哪个人把你做出来的？"
+      }
+    ],
+    "tools": null,
+    "seed": 550030
+  },
+  {
+    "id": "identity_3_1",
+    "task_id": "identity_3_1",
+    "question": "是哪个人把你做出来的？",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "是哪个人把你做出来的？"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "是哪个人把你做出来的？"
+      }
+    ],
+    "tools": null,
+    "seed": 550031
+  },
+  {
+    "id": "identity_4_0",
+    "task_id": "identity_4_0",
+    "question": "介绍一下你的开发者",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "介绍一下你的开发者"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "介绍一下你的开发者"
+      }
+    ],
+    "tools": null,
+    "seed": 550040
+  },
+  {
+    "id": "identity_4_1",
+    "task_id": "identity_4_1",
+    "question": "介绍一下你的开发者",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "介绍一下你的开发者"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "介绍一下你的开发者"
+      }
+    ],
+    "tools": null,
+    "seed": 550041
+  },
+  {
+    "id": "identity_5_0",
+    "task_id": "identity_5_0",
+    "question": "Who is your developer?",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who is your developer?"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "Who is your developer?"
+      }
+    ],
+    "tools": null,
+    "seed": 550050
+  },
+  {
+    "id": "identity_5_1",
+    "task_id": "identity_5_1",
+    "question": "Who is your developer?",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who is your developer?"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "Who is your developer?"
+      }
+    ],
+    "tools": null,
+    "seed": 550051
+  },
+  {
+    "id": "identity_6_0",
+    "task_id": "identity_6_0",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "MiniMind原始项目由jingyaogong/Jingyao Gong开发，本地定制由Yuyang LU负责",
+    "messages": [
+      {
+        "role": "user",
+        "content": "你和 Jingyao Gong 是什么关系？"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "你和 Jingyao Gong 是什么关系？"
+      }
+    ],
+    "tools": null,
+    "seed": 550060
+  },
+  {
+    "id": "identity_6_1",
+    "task_id": "identity_6_1",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "kind": "chat",
+    "category": "identity",
+    "reference_for_review_only": "MiniMind原始项目由jingyaogong/Jingyao Gong开发，本地定制由Yuyang LU负责",
+    "messages": [
+      {
+        "role": "user",
+        "content": "你和 Jingyao Gong 是什么关系？"
+      }
+    ],
+    "input_messages": [
+      {
+        "role": "system",
+        "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+      },
+      {
+        "role": "user",
+        "content": "你和 Jingyao Gong 是什么关系？"
+      }
+    ],
+    "tools": null,
+    "seed": 550061
+  }
+]

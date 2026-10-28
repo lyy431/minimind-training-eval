@@ -1,0 +1,238 @@
+{
+  "models": {
+    "full_sft": {
+      "loss": 2.4904541693627835,
+      "perplexity": 12.066755226661604,
+      "answer_only_loss": 2.458313034192936,
+      "answer_only_perplexity": 11.685082568863434,
+      "math_percent": 2.75,
+      "math_by_expressions": {
+        "1": 10.0,
+        "2": 0,
+        "3": 0
+      },
+      "rm": -1.4866592407226562,
+      "total": -1.5063544811211096,
+      "answer_chars": 360.44444444444446,
+      "rep": 0.13636190706512008,
+      "len": 0.34444444444444444,
+      "think": -0.4722222222222222,
+      "close": 0.24444444444444444
+    },
+    "official": {
+      "loss": 2.118925401441605,
+      "perplexity": 8.322189667871818,
+      "answer_only_loss": 2.0926593460545346,
+      "answer_only_perplexity": 8.106444365658747,
+      "math_percent": 17.75,
+      "math_by_expressions": {
+        "1": 60.909090909090914,
+        "2": 4.166666666666666,
+        "3": 0
+      },
+      "rm": -1.4452877468532985,
+      "total": -1.4931140075671079,
+      "answer_chars": 361.9111111111111,
+      "rep": 0.12004848293603146,
+      "len": 0.26666666666666666,
+      "think": -0.4388888888888889,
+      "close": 0.24444444444444444
+    },
+    "bb_rl": {
+      "loss": 2.520511915050447,
+      "perplexity": 12.434960678043979,
+      "answer_only_loss": 2.4888107802819563,
+      "answer_only_perplexity": 12.046941138468558,
+      "math_percent": 81.75,
+      "math_by_expressions": {
+        "1": 98.18181818181819,
+        "2": 86.45833333333334,
+        "3": 70.10309278350515
+      },
+      "rm": -1.5253658718532985,
+      "total": -1.5537229518431614,
+      "answer_chars": 363.4888888888889,
+      "rep": 0.13113485776764053,
+      "len": 0.3111111111111111,
+      "think": -0.45,
+      "close": 0.24166666666666667
+    },
+    "bb_rl_id": {
+      "loss": 2.6332482011119525,
+      "perplexity": 13.918907966020715,
+      "answer_only_loss": 2.6042554186203994,
+      "answer_only_perplexity": 13.521153954278608,
+      "math_percent": 73.0,
+      "math_by_expressions": {
+        "1": 85.45454545454545,
+        "2": 70.83333333333334,
+        "3": 67.0103092783505
+      },
+      "rm": -1.4258002387152777,
+      "total": -1.3176662322525892,
+      "answer_chars": 195.26666666666668,
+      "rep": 0.07519932687064479,
+      "len": 0.43333333333333335,
+      "think": -0.5,
+      "close": 0.25
+    }
+  },
+  "official_minus": {
+    "full_sft": {
+      "loss": {
+        "mean_difference": -0.37152876792117845,
+        "se": 0.021698880690062924,
+        "better": 278,
+        "worse": 22,
+        "same": 0,
+        "n": 300
+      },
+      "answer_only_loss": {
+        "mean_difference": -0.3656536881384012,
+        "se": 0.020596426023061803,
+        "better": 274,
+        "worse": 22,
+        "same": 0,
+        "n": 296
+      },
+      "math_percentage_points": {
+        "mean_difference": 15.0,
+        "se": 2.377659843555905,
+        "better": 42,
+        "worse": 3,
+        "same": 155,
+        "n": 200
+      },
+      "rm": {
+        "mean_difference": 0.04137149386935761,
+        "se": 0.11610424021943865,
+        "better": 16,
+        "worse": 14,
+        "same": 0,
+        "n": 30
+      },
+      "total": {
+        "mean_difference": 0.013240473554001847,
+        "se": 0.11866058957514414,
+        "better": 14,
+        "worse": 16,
+        "same": 0,
+        "n": 30
+      }
+    },
+    "bb_rl": {
+      "loss": {
+        "mean_difference": -0.401586513608842,
+        "se": 0.02165944836241085,
+        "better": 277,
+        "worse": 23,
+        "same": 0,
+        "n": 300
+      },
+      "answer_only_loss": {
+        "mean_difference": -0.3961514342274215,
+        "se": 0.020444582676750016,
+        "better": 273,
+        "worse": 23,
+        "same": 0,
+        "n": 296
+      },
+      "math_percentage_points": {
+        "mean_difference": -64.0,
+        "se": 2.904683447408382,
+        "better": 1,
+        "worse": 155,
+        "same": 44,
+        "n": 200
+      },
+      "rm": {
+        "mean_difference": 0.08007812500000001,
+        "se": 0.1275628066041692,
+        "better": 18,
+        "worse": 12,
+        "same": 0,
+        "n": 30
+      },
+      "total": {
+        "mean_difference": 0.06060894427605355,
+        "se": 0.14941618866997933,
+        "better": 15,
+        "worse": 15,
+        "same": 0,
+        "n": 30
+      }
+    },
+    "bb_rl_id": {
+      "loss": {
+        "mean_difference": -0.5143227996703476,
+        "se": 0.02369398389897935,
+        "better": 287,
+        "worse": 13,
+        "same": 0,
+        "n": 300
+      },
+      "answer_only_loss": {
+        "mean_difference": -0.5115960725658649,
+        "se": 0.02362205347294301,
+        "better": 283,
+        "worse": 13,
+        "same": 0,
+        "n": 296
+      },
+      "math_percentage_points": {
+        "mean_difference": -55.25,
+        "se": 3.2173661158808287,
+        "better": 5,
+        "worse": 137,
+        "same": 58,
+        "n": 200
+      },
+      "rm": {
+        "mean_difference": -0.019487508138020818,
+        "se": 0.10625764748157097,
+        "better": 12,
+        "worse": 18,
+        "same": 0,
+        "n": 30
+      },
+      "total": {
+        "mean_difference": -0.1754477753145186,
+        "se": 0.14085236510435134,
+        "better": 12,
+        "worse": 18,
+        "same": 0,
+        "n": 30
+      }
+    }
+  },
+  "historical_results_reused": [
+    "full_sft",
+    "bb_rl",
+    "bb_rl_id"
+  ],
+  "loss_audit": {
+    "valid_answer_count": 296,
+    "fully_truncated_answers": [
+      {
+        "row": 78,
+        "prompt_tokens": 779,
+        "answer_tokens_before_truncation": 13
+      },
+      {
+        "row": 96,
+        "prompt_tokens": 786,
+        "answer_tokens_before_truncation": 238
+      },
+      {
+        "row": 116,
+        "prompt_tokens": 883,
+        "answer_tokens_before_truncation": 2
+      },
+      {
+        "row": 121,
+        "prompt_tokens": 784,
+        "answer_tokens_before_truncation": 57
+      }
+    ]
+  }
+}

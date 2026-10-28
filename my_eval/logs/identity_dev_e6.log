@@ -1,0 +1,6 @@
+bb_rl_id_gentle_e6 {'identity_hits': 2, 'identity_runs': 20, 'general_leaks': 0, 'general_runs': 20}
+bb_rl_id_gentle_e6 loss 2.5354705119132994 n 100
+bb_rl_id_gentle_e6 math 6/24: 83.33% (18s)
+bb_rl_id_gentle_e6 math 12/24: 87.50% (35s)
+bb_rl_id_gentle_e6 math 18/24: 83.33% (51s)
+bb_rl_id_gentle_e6 math 24/24: 83.33% (66s)

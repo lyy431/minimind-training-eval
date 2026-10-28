@@ -1,0 +1,218 @@
+# MiniMind 项目交接说明
+
+整理时间：2026-10-24。上半部分给你自己看，下半部分是给 ChatGPT 的 prompt，整段复制粘贴即可。
+更详细的命令、数据和每一个数字都在同目录的 `README.md`（实验报告）里。
+
+---
+
+## 第一部分：这个项目到底做了什么
+
+**一句话**：用自己的笔记本（RTX 4070 8GB）和 AutoDL 云 GPU，把 MiniMind（一个 64M 参数的小语言模型）从零完整训练了一遍；然后做了 10 组对比实验；最后做成一个能在浏览器里聊天、会用计算器算数学题、知道自己是 "Yuyang LU 开发的 MiniMind" 的网页小助手。
+
+### 时间线
+
+| 日期 | 做了什么 | 在哪跑 |
+|---|---|---|
+| 10-20 | 在 D 盘搭好环境、下载数据；在笔记本上试跑，发现太慢（预训练 + SFT 要 17 小时） | 笔记本 |
+| 10-21 | 写一键脚本 `cloud_train.sh`，在云上完成预训练 + SFT（2.5 小时，约 ¥6.5）；用 LoRA 改身份；第一次 GRPO | 云 + 笔记本 |
+| 10-22 | GRPO 2500 步；数学工具调用 RL；DPO；MoE 和稠密结构对比；MoE 当老师的白盒蒸馏 | 云 + 笔记本 |
+| 10-23 | 用 Qwen2.5-1.5B 当老师做黑盒蒸馏；蒸馏后再做 RL；整理所有脚本和报告；做网页 demo；测工具措辞、自己选工具和语言能力 | 笔记本 |
+
+云上一共花了大约 ¥28–30，其余都在笔记本上免费跑。
+
+### 主要成果
+
+| 模型 | 怎么来的 | 数学工具题全对率 | 说明 |
+|---|---|---|---|
+| `full_sft` | 预训练 + SFT | 2.8% | 基线 |
+| `agent` | SFT + 数学 RL | 19.0% | 小模型直接 RL，起点太低学不动 |
+| `bb_dist` | SFT + Qwen 黑盒蒸馏 | 68.5% | 强老师的效果远超 RL |
+| **`bb_rl`** | **蒸馏 + RL** | **81.8%** | **主线最终模型**，和老师 Qwen（约 80.5%）差不多 |
+| `bb_rl_id` | `bb_rl` + 身份补丁 | 73.0% | 网页小助手；说话能力被补丁伤了 |
+
+### 最重要的发现
+
+1. **先蒸馏再 RL 最好**：模型先从强老师那里学会做，RL 再把偶尔出错的地方改稳。
+2. **训练奖励涨了不等于真的变好**：GRPO 涨的主要是格式分；DPO 偏好准确率最高的版本，生成质量反而变差。
+3. **小模型学到的是"格式"**：工具说明换个措辞，正确率 81.8% → 54.5%；只给 1 个工具，约 52%；给 6 个工具，降到 30%，还会编出不存在的工具。
+4. **LoRA 不能换基座直接合并**：在旧模型上训练的身份补丁贴到 `bb_rl` 上，数学 81.8% → 8.8%。
+5. **不同指标可能结论相反**：身份补丁让"说话像不像正常回答"（loss）明显变差，但奖励模型分没变差，因为回答变短了。MoE 正好相反。
+6. **单次回答随机性很大**：下结论必须靠固定的留出题、配对比较和标准误。
+
+### 东西都在哪
+
+| 位置 | 内容 |
+|---|---|
+| `D:\minimind\minimind-master\` | 项目本体 |
+| `my_eval\README.md` | 完整实验报告（命令、数据、结果、踩坑） |
+| `my_eval\scripts\` | 自己写的所有脚本（评测、造数据、导出 demo 模型等） |
+| `my_eval\results\`、`my_eval\logs\` | 评测结果、本地日志（云上日志在 `out\*.log`） |
+| `out\*.pth` | 所有训练好的权重 |
+| `scripts\MiniMind-*` | 网页 demo 用的 4 个模型（Hugging Face 格式） |
+| `start_demo.bat` | 双击启动网页 demo |
+| `cloud_train.sh` | AutoDL 一键训练脚本 |
+
+---
+
+## 第二部分：给 ChatGPT 的 prompt
+
+把下面方框里的全部内容复制给 ChatGPT。如果它能读本机文件（比如 Codex），它会自己去读；如果不能，把 `my_eval\SUMMARY_FOR_CHATGPT.md`（技术档案，最重要）和 `my_eval\README.md`（实验报告）作为附件一起上传给它。
+
+```text
+你将接手一个大语言模型（LLM）学习项目。请先完整读完下面的背景，再开始任何工作。
+
+【用户】
+- Yuyang LU，中文母语的初学者，正在通过复现 jingyaogong/minimind 学习 LLM 的完整流程。
+- 请用简体中文回答。解释要直白，多用表格和比喻，专业名词第一次出现时顺便解释。
+- 用户喜欢"先给结论，再给证据"，也喜欢做对比实验。
+
+【硬件与环境（必须遵守）】
+- Windows 11 笔记本：RTX 4070 Laptop 8GB 显存（桌面会占 1–2GB），16GB 内存，时区 UTC+11（悉尼）。
+- 绝对不要把任何环境、缓存、下载放到 C 盘；F 盘也快满了。一律放 D 盘。
+- 项目目录：D:\minimind\minimind-master（不是 git 仓库）；原始压缩包：D:\minimind\minimind-master.zip。
+- Python 解释器：D:\conda\envs\minimind\python.exe（Python 3.10，torch 2.6.0+cu126，transformers 4.57.6，streamlit 1.50.0）。系统自带的 Python 3.13 装不了项目要求的 numpy 1.26.4，不要用。
+- 每次运行前设置：HF_HOME=D:\conda\hf-cache，PYTHONIOENCODING=utf-8，PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True。
+- 训练脚本要在 trainer\ 目录下运行。dataloader 用 --num_workers 2；train_agent.py 必须用 --num_workers 0（Windows 上它的 collate_fn 无法 pickle）。
+- PowerShell 管道会给 stdin 加 BOM，往 eval_llm.py 喂输入时请用 bash 的 echo。
+- 额外模型：奖励模型 D:\minimind\internlm2-1_8b-reward（3.4GB）；老师模型 D:\minimind\Qwen2.5-1.5B-Instruct（3GB）；作者官方的 Hugging Face 格式模型 D:\minimind\minimind-master\minimind-3。
+- 8GB 显存的限制：GRPO 和 agent RL 用默认参数在笔记本上会显存溢出。带奖励模型跑 agent RL 只有约 30 秒/步，所以本地用 my_eval\scripts\agent_rl_no_rm.py（不加载奖励模型）。
+- 云：AutoDL RTX 4090（¥2.08/小时，镜像 PyTorch 2.8 / Python 3.12，服务器是北京时间）。用项目里的 cloud_train.sh，一条命令完成解压、装依赖、下数据和训练：它在 tmux 后台运行，断了可以续训，AUTO_SHUTDOWN=1 会在结束后自动关机；可选的 GRPO=1、AGENT=1、MOE=1、DISTILL=1 等见脚本开头的注释。cloud_train.sh 必须保持 LF 换行。AutoDL 上的文件由用户自己通过 JupyterLab 上传和下载。任何要花钱的操作，先告诉用户预计时间和价格，得到同意后再做。
+
+【最重要的文档】
+- D:\minimind\minimind-master\my_eval\SUMMARY_FOR_CHATGPT.md 是写给你的技术档案：每个权重怎么训练的、每个数据集怎么构造的、评测协议、全部结果、决策记录和尚未解决的问题。请最先读它。
+- D:\minimind\minimind-master\my_eval\README.md 是完整的实验报告：每个实验的命令、数据、结果和踩过的坑都在里面。
+- 如果你不能直接读本机文件，请让用户上传这两个文件。
+- my_eval\scripts：所有自研脚本。my_eval\results：所有评测原始结果。my_eval\logs：本地日志。云上的日志在 out\*.log。
+- 所有派生数据集都能用 my_eval\scripts\make_datasets.py 从官方数据逐字节重建（10 个文件已验证一致）。
+
+【已经完成的工作】
+1. 预训练 + SFT（云，mini 数据各 1 轮）→ out\pretrain_768.pth、out\full_sft_768.pth。
+2. 用 LoRA 改身份（"我是 Yuyang LU 开发的 MiniMind"）→ lora_yuyang、lora_yuyang_mix（后者混入通用对话，防止身份泄漏到无关回答里）。
+3. GRPO（云）：500 步没有变化；2500 步（grpo5k）总奖励 +0.46，但主要来自格式分。
+4. 数学工具调用 RL（云，agent）：全对率 2.8% → 19.0%。
+5. DPO（本地）：留出偏好准确率 66–68%，但生成质量没有变好；学习率 ×10 的版本反而变差。
+6. MoE（198M 总参数，每次激活 64M）vs 稠密：loss 略好，奖励模型分更差，生成更慢。
+7. 白盒蒸馏（MoE 当老师）：几乎没有用。
+8. 黑盒蒸馏（Qwen2.5-1.5B 当老师，只保留答对的轨迹）：数学 68.5%。
+9. 蒸馏后再 RL（本地约 5.5 小时）：81.8%（老师约 80.5%，但测法不同，只能算持平）。
+10. 网页 demo：start_demo.bat → scripts\web_demo.py（Streamlit，只监听 localhost:8501）。当前有6个模型：MiniMind-YuyangLU-v2（bb_rl_id_anchor4，新身份版）、MiniMind-YuyangLU（bb_rl_id，旧身份版）、MiniMind-Math（bb_rl，主线最终模型）、MiniMind-SFT（full_sft）、MiniMind-MoE（full_sft_moe）、MiniMind-Official（官方对照）。这些 Hugging Face 格式的模型由 my_eval\scripts\make_demo_models.py 导出，并核对过 logits 和原模型一致。新模型文件夹放进 scripts\ 后，刷新网页就能看到，不用重启。
+11. 官方代码只改了一处：scripts\web_demo.py 的 TOOLS 改成和训练数据 agent_rl_math.jsonl 逐字一致（天气工具的参数 city 改成了 location）。
+
+【模型族谱】
+pretrain → full_sft（= MiniMind-SFT）
+  ├ lora_yuyang / lora_yuyang_mix
+  ├ grpo / grpo5k、agent、dpo / dpo10x
+  └ bb_dist（Qwen 蒸馏）→ bb_rl（再 RL，= MiniMind-Math，主线最终）→ bb_rl_id（+ lora_yuyang_rl 身份补丁，= MiniMind-YuyangLU）
+pretrain → full_dist（MoE 当老师的白盒蒸馏）
+pretrain_moe → full_sft_moe（= MiniMind-MoE）
+
+【关键数字（相对 full_sft；± 为 1 个标准误）】
+- 数学全对率（200 道留出题 × 2 次）：full_sft 2.8%，agent 19.0%，bb_dist 68.5%，bb_rl 81.8%，bb_rl_id 73.0%，full_sft_moe 6.2%，full_dist 1.5%。
+- 留出 loss：full_sft_moe −0.022；bb_dist 和 bb_rl 都是 +0.030；bb_rl_id +0.143（300 段里 283 段更差）。
+- 奖励模型聊天分：full_sft_moe −0.26 ± 0.09，bb_rl −0.04 ± 0.09，bb_rl_id +0.06 ± 0.10（回答短了一半）。
+
+【已经确认的结论（不要重复踩坑）】
+- 小模型学到的是格式：工具描述换个措辞，81.8% → 54.5%；只列 1 个工具，约 52%；列 6 个工具，73% → 30%，还会编出不存在的工具名。在 demo 里问数学，要勾选"数学"加另一个工具。问法也要像训练数据，用"另外 / 顺便 / 还有 / Also"连接多个算式。
+- LoRA 不能换基座直接合并：在 full_sft 上训练的身份 LoRA 合并进 bb_rl，数学 81.8% → 8.8%。
+- 现在的身份补丁（lr 5e-4、10 轮、782 条数据里只有 200 条普通对话）伤了通用语言能力：用户在网页上也感觉 YuyangLU 说话更差。但奖励模型分没有变差。不同指标可能给出相反的结论，汇报时要说清楚用的是哪个指标。
+- 训练奖励上升不等于模型真的变好（grpo5k、dpo10x 都是例子）。
+- 单次回答的随机性很大。下结论必须靠固定的留出集、逐题配对比较和标准误。
+
+【评测规范（请沿用）】
+- 数学：dataset\agent_math_eval200.jsonl（用 Random(123) 留出，永远不参与训练），每题采样 2 次，固定随机种子。用 my_eval\scripts\eval_agent_math.py 跑评测，再用 compare_agent.py 做逐题配对比较。
+- 聊天：score_rm.py（30 个留出的 rlaif 问题 × 3 次，奖励和 GRPO 训练时完全一样）。
+- 语言能力：heldout_loss.py（dpo_eval300 里 chosen 的回答）。
+- 身份：score_lora.py。
+- 训练数据和评测数据不能重叠。原始数据里有重复行，要按内容去重。
+- 汇报结果时给出均值 ± 1 个标准误，以及好 / 差 / 相同各多少题。没有证据不要下结论；如果新数据推翻了旧结论，要直接说出来。
+
+【待办（按推荐顺序，除第 6 项都能在笔记本上免费做）】
+1. 【已完成，2026-10-24】和官方 minimind-3 对比：已加入 demo，完成语言、聊天、数学和新题检查；详见本文件末尾接续更新及 my_eval/results/official_compare_20261024/REPORT.md。第1、2项均已完成，最新状态见末尾更新。
+2. 【已完成，2026-10-25】改进身份 LoRA：新版本 MiniMind-YuyangLU-v2 已通过本轮验收并加入网页，旧版保留。训练数据、失败尝试和正式结果见本文件末尾更新。
+3. 对照实验：让 Qwen 也解 dataset\agent_math_train_3000_excl3000.jsonl，和 teacher_math_sft.jsonl 合起来蒸馏，再和 bb_rl 对比，分清"RL 的功劳"和"多见了 3000 道题"。
+4. 在 demo 里加一个开关：生成 N 个回答，用奖励模型挑最好的一个；并量化它带来的提升。
+5. 让模型学会自己选工具：训练时随机给 1–6 个工具，改写工具描述，用各种问法，并混入不需要工具的问题；用 my_eval\scripts\tool_choice_probe.py 评估。
+6. 多训练（云，需要用户同意花钱）：SFT 再训 1 轮约 ¥3–4；用完整的 sft_t2t.jsonl（14GB）约十几小时、¥30。用 Qwen2.5-1.5B 蒸馏通用聊天，预计提升不大，因为官方 SFT 数据本身就有大模型合成的数据。
+7. 整理成作品集（GitHub + 项目介绍）。
+
+【可以清理的东西（必须先问用户）】
+- D:\minimind\minimind-master\checkpoints（3.8GB 的续训文件）。
+- 空文件夹 D:\minimind\qwen_hf、D:\minimind\rm_hf。
+- D:\minimind\.claude\launch.json 是上一个助手用的预览配置，可以留着。
+
+【工作方式】
+- 动手前先说计划。花钱、删除文件、修改官方代码之前，先征得用户同意。
+- 每次训练前先小规模试跑，确认显存和速度，再估算总时间。
+- 新的实验结果追加到 my_eval\README.md，新脚本放到 my_eval\scripts。
+- 写文件时用 UTF-8；会传到 Linux 上运行的文件要用 LF 换行。
+
+如果你已经读完并理解，请先用 5 句话以内复述项目现状，然后问用户想从哪个待办开始。
+```
+
+---
+
+## 第三部分：2026-10-24 接续更新
+
+2026-10-24 在本地完成；详细协议、逐题统计、来源摘要、全部新题输出见 [完整对比报告](results/official_compare_20261024/REPORT.md)。
+
+| 模型 | 修正后的回答 loss（296 条，越低越好） | 旧口径 loss（300 条） | 聊天奖励模型分 | 数学全对率 |
+|---|---:|---:|---:|---:|
+| full_sft | 2.4583 | 2.4905 | -1.487 | 2.8% |
+| official | 2.0927 | 2.1189 | -1.445 | 17.8% |
+| bb_rl | 2.4888 | 2.5205 | -1.525 | 81.8% |
+| bb_rl_id | 2.6043 | 2.6332 | -1.426 | 73.0% |
+
+主要结论：
+- 官方相对 full_sft 的修正回答 loss：-0.366 ± 0.021（1 SE），好 / 差 / 相同为 274 / 22 / 0。
+- 聊天奖励模型分只高 +0.041 ± 0.116，没有测出明确优势，不能把更低 loss 直接说成聊天更好。
+- 官方数学 17.8%，相对 full_sft +15.0 ± 2.4 个百分点；bb_rl 仍为 81.8%。这只是当前数学工具题协议的结果。
+
+评测修正：旧 heldout_loss.py 在 4 条回答被 768-token 截断完全删除的样本上，误算了提示词 token。受影响的 0 起始索引是 78、96、116、121。本次同时保留旧 300 条口径和修正的 296 条回答口径，四个模型使用同一个有效子集；脚本已同时输出两套数值。旧报告中的 loss 数字仍是历史 300 条口径，不能和 296 条的新数值直接相减。
+
+复用与验证：四个模型的 loss 本次新跑；官方的聊天 30×3、数学 200×2 本次新跑；其余三个模型的聊天与数学复用历史完整结果。full_sft 的 6 个聊天回答及 6 次数学作答已逐字复现；转换后的官方模型通过 strict 加载、6 组输入 logits 与 24 token 连续生成校验。另固定 6 道新数学题和 6 个新聊天问题进行探索性检查，全量输出已保存。
+
+限制：官方模型是否见过这些公开数据不能确定，不能把相同题目上的表现差异直接归因于某个训练步骤。新题样本少，不用于宣称广泛泛化。
+
+新增模型：out/official_768.pth；网页目录 scripts/MiniMind-Official（原始 HF 文件逐个核对摘要）。刷新网页后即可选择 MiniMind-Official，现在有 4 个自训模型和 1 个官方对照模型。
+
+新增脚本：official_compare.py（校验/复现/评测/统计）、official_supplement.py（固定与评测新题）、write_official_report.py（报告）、sync_official_docs.py（更新交接状态），都在 my_eval/scripts。主结果在 my_eval/results/official_compare_20261024，日志在 my_eval/logs/official_*.log。
+
+上文最初交接时的 4 模型清单和 300 条 loss 为历史记录；当前模型数及修正评测以本节为准。此处记录待办1完成时的状态；第2项的后续结果见下一节。
+
+---
+
+## 第四部分：2026-10-25 身份改进接续更新
+
+2026-10-25 完成待办 2。在本地训练、评测和导出，全程未使用付费云服务。完整原始回答、失败候选、数据审查和逐题统计见 [完整身份改进报告](results/identity_repair_20261024/REPORT.md)。
+
+| 模型 | 身份名字命中 /21 | 无关回答命中MiniMind/Yuyang /20 | 回答 loss（296条，低好） | 数学全对率 | 聊天奖励模型分 |
+|---|---:|---:|---:|---:|---:|
+| bb_rl | 0 | 0 | 2.4888 | 81.8% | -1.525 |
+| bb_rl_id | 18 | 3 | 2.6043 | 73.0% | -1.426 |
+| bb_rl_id_anchor4 | 20 | 1 | 2.4964 | 79.5% | -1.556 |
+
+新身份版保留为独立模型 **MiniMind-YuyangLU-v2**，位置 `scripts/MiniMind-YuyangLU-v2`。刷新网页即可选择；旧 MiniMind-YuyangLU 和 MiniMind-Math 等模型全部保留，目前共有6个可选模型。
+
+相对主线 bb_rl：数学差值 -2.25 ± 1.14 个百分点，语言 loss 差值 +0.0076 ± 0.0013。相对旧身份版，数学变化 +6.50 ± 2.66 个百分点。这里 ± 均为按题配对的1个标准误，不是95%置信区间；达到本轮实用门槛不等于证明完全没有能力损失。
+
+聊天奖励模型分相对 bb_rl：-0.030 ± 0.091。语言 loss 和奖励模型分衡量不同东西，不能只凭其中一个宣称聊天能力全面提高。
+
+训练：从 bb_rl 重新训练 LoRA，rank16、仅 q_proj/o_proj、0.393M可训练参数；学习率 0.0001、4轮、batch8、序列768、2个数据加载进程。权重 `out/bb_rl_id_anchor4_768.pth`，adapter `out/lora_yuyang_anchor4_768.pth`。该候选训练耗时 4.6 分钟，PyTorch峰值分配显存 2.84 GiB（不含桌面占用）。
+
+过程与数据：
+- 两个系统提示词均未成功；最初三个低学习率候选虽然保住数学，但开发身份命中仅0/2/5。
+- 追加开发实验在正式验收前单独记录：从旧身份数据筛出42条，另由本次助手编写48条中英文问法；90条各重复6次，搭配1000条普通对话、128条 bb_rl 自己答对的完整数学轨迹各重复2次，组成1796条配方。因两个候选都出现英文身份串题，第三版统一身份答案，并添加64条普通英文问答各4次和32条中文问答各2次，组成2116条配方。本次选中的数据为 `clear_mix2116.jsonl`。原数据及所有候选均保留。
+- 数学复习轨迹通过完整数字、计算器结果、上下文长度检查；训练与开发/最终测试的规范化用户问题交集为0。来源、摘要和追加试验条件见 development_extension_v2.json 与 development_extension_v3.json。
+- 选型使用另建的24道数学开发题、100条语言开发题、10道身份和10道普通问题；选中后锁定模型与评测文件摘要，才运行固定最终评测。
+
+最终训练目标：身份题正常学习目标答案，普通题与数学题则以冻结的 bb_rl 为教师，用KL约束保持原输出分布。系数为 4.0，回答最初32个有效token额外加权；记录见 development_extension_v4.json。新增训练器为 train_identity_anchored.py，原官方训练器未改。此法也会保留原模型已有的缺点。学习率、轮数也与前一候选不同，不能把效果全部归因于KL这一个变量。
+
+评测说明：本次身份测试逐题固定随机种子、名字不区分大小写，并重跑三个模型；因此本表不能与旧脚本的17/21直接作配对比较。身份命中是字符串指标，内容审查见完整报告；旧身份版训练题与7道身份回归题中的2道同文，新补丁已排除这些直接重复。数学和聊天的旧对照复用历史完整结果，两个对照各6次数学和3次聊天输出重新逐字复现通过；三个模型的语言、身份重新评测。
+
+内容检查：新版本常规6道身份题的18次回答均清楚说明定制身份；关于Jingyao Gong的3次中，2次仅复述身份，1次跑题，因此名字命中20/21不等于完整回答正确20/21。普通回答关键词串题为1/20，内容审查发现另1次不含关键词的自称助手，两次均发生在请假条题上；内容口径为2/20。通用聊天仍有重复、事实错误，聊天奖励模型分也未改善。没有据此继续调参。
+
+导出验证：以fp16取整后的权重、fp32计算核验，6种中英文/工具输入、共834个token位置的首选词完全相同，最大logit差异4.89e-05，24token缓存生成一致；验证通过后才加入网页目录。网页实际使用fp16计算，随机采样回答仍会变化。
+
+新增脚本位于 my_eval/scripts：identity_repair.py、train_identity_candidate.py、prepare_identity_extension.py、prepare_identity_clarity.py、replay_identity_baselines.py、write_identity_report.py、export_identity_demo.py、sync_identity_docs.py。主要产物位于 my_eval/results/identity_repair_20261024；日志为 my_eval/logs/identity_*.log。
+
+其他支持脚本：train_identity_anchored.py、plan_identity_anchor.py、run_identity_final.py、record_identity_review.py。make_demo_models.py 的导出校验已修正：只将参数按fp16取整，保留位置编码缓存fp32，避免原先half再float引入假差异；原权重及正式评测未改。

@@ -1,0 +1,2802 @@
+[
+  {
+    "question": "请帮我写一句向朋友问好的话。",
+    "answer": "嗨，最近过得怎么样？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话向朋友问好，直接给出成句。",
+    "answer": "嗨，最近过得怎么样？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于向朋友问好的简短消息。",
+    "answer": "嗨，最近过得怎么样？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要向朋友问好，请直接给我一句合适的话。",
+    "answer": "嗨，最近过得怎么样？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句请同学帮忙关窗的话。",
+    "answer": "麻烦你帮我关一下窗户，谢谢！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话请同学帮忙关窗，直接给出成句。",
+    "answer": "麻烦你帮我关一下窗户，谢谢！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于请同学帮忙关窗的简短消息。",
+    "answer": "麻烦你帮我关一下窗户，谢谢！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要请同学帮忙关窗，请直接给我一句合适的话。",
+    "answer": "麻烦你帮我关一下窗户，谢谢！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句感谢朋友陪我散步的话。",
+    "answer": "谢谢你陪我散步，和你一起很开心。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话感谢朋友陪我散步，直接给出成句。",
+    "answer": "谢谢你陪我散步，和你一起很开心。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于感谢朋友陪我散步的简短消息。",
+    "answer": "谢谢你陪我散步，和你一起很开心。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要感谢朋友陪我散步，请直接给我一句合适的话。",
+    "answer": "谢谢你陪我散步，和你一起很开心。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句礼貌拒绝一次聚会邀请的话。",
+    "answer": "谢谢你的邀请，但这次我没法参加，祝你们玩得开心！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话礼貌拒绝一次聚会邀请，直接给出成句。",
+    "answer": "谢谢你的邀请，但这次我没法参加，祝你们玩得开心！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于礼貌拒绝一次聚会邀请的简短消息。",
+    "answer": "谢谢你的邀请，但这次我没法参加，祝你们玩得开心！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要礼貌拒绝一次聚会邀请，请直接给我一句合适的话。",
+    "answer": "谢谢你的邀请，但这次我没法参加，祝你们玩得开心！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句提醒家人出门带钥匙的话。",
+    "answer": "出门前记得带好钥匙哦。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话提醒家人出门带钥匙，直接给出成句。",
+    "answer": "出门前记得带好钥匙哦。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于提醒家人出门带钥匙的简短消息。",
+    "answer": "出门前记得带好钥匙哦。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要提醒家人出门带钥匙，请直接给我一句合适的话。",
+    "answer": "出门前记得带好钥匙哦。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句祝老师假期愉快的话。",
+    "answer": "祝老师假期愉快，好好放松！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话祝老师假期愉快，直接给出成句。",
+    "answer": "祝老师假期愉快，好好放松！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于祝老师假期愉快的简短消息。",
+    "answer": "祝老师假期愉快，好好放松！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要祝老师假期愉快，请直接给我一句合适的话。",
+    "answer": "祝老师假期愉快，好好放松！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句邀请朋友一起喝茶的话。",
+    "answer": "有空一起喝杯茶、聊聊天吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话邀请朋友一起喝茶，直接给出成句。",
+    "answer": "有空一起喝杯茶、聊聊天吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于邀请朋友一起喝茶的简短消息。",
+    "answer": "有空一起喝杯茶、聊聊天吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要邀请朋友一起喝茶，请直接给我一句合适的话。",
+    "answer": "有空一起喝杯茶、聊聊天吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句为不小心碰掉同学的书道歉的话。",
+    "answer": "抱歉，我不小心碰掉了你的书，我来帮你捡起来。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话为不小心碰掉同学的书道歉，直接给出成句。",
+    "answer": "抱歉，我不小心碰掉了你的书，我来帮你捡起来。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于为不小心碰掉同学的书道歉的简短消息。",
+    "answer": "抱歉，我不小心碰掉了你的书，我来帮你捡起来。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要为不小心碰掉同学的书道歉，请直接给我一句合适的话。",
+    "answer": "抱歉，我不小心碰掉了你的书，我来帮你捡起来。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句祝贺朋友学会骑自行车的话。",
+    "answer": "恭喜你学会骑自行车，你的坚持有了收获！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话祝贺朋友学会骑自行车，直接给出成句。",
+    "answer": "恭喜你学会骑自行车，你的坚持有了收获！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于祝贺朋友学会骑自行车的简短消息。",
+    "answer": "恭喜你学会骑自行车，你的坚持有了收获！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要祝贺朋友学会骑自行车，请直接给我一句合适的话。",
+    "answer": "恭喜你学会骑自行车，你的坚持有了收获！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句请邻居帮忙看一下门口的话。",
+    "answer": "方便的话，能麻烦你帮我留意一下门口吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话请邻居帮忙看一下门口，直接给出成句。",
+    "answer": "方便的话，能麻烦你帮我留意一下门口吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于请邻居帮忙看一下门口的简短消息。",
+    "answer": "方便的话，能麻烦你帮我留意一下门口吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要请邻居帮忙看一下门口，请直接给我一句合适的话。",
+    "answer": "方便的话，能麻烦你帮我留意一下门口吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句感谢同学帮我找回橡皮擦的话。",
+    "answer": "谢谢你帮我找回橡皮擦，真是帮了大忙！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话感谢同学帮我找回橡皮擦，直接给出成句。",
+    "answer": "谢谢你帮我找回橡皮擦，真是帮了大忙！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于感谢同学帮我找回橡皮擦的简短消息。",
+    "answer": "谢谢你帮我找回橡皮擦，真是帮了大忙！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要感谢同学帮我找回橡皮擦，请直接给我一句合适的话。",
+    "answer": "谢谢你帮我找回橡皮擦，真是帮了大忙！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句提醒大家活动结束后带走随身物品的话。",
+    "answer": "活动结束时请记得带走自己的随身物品。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话提醒大家活动结束后带走随身物品，直接给出成句。",
+    "answer": "活动结束时请记得带走自己的随身物品。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于提醒大家活动结束后带走随身物品的简短消息。",
+    "answer": "活动结束时请记得带走自己的随身物品。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要提醒大家活动结束后带走随身物品，请直接给我一句合适的话。",
+    "answer": "活动结束时请记得带走自己的随身物品。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句邀请同学参加班级讨论的话。",
+    "answer": "欢迎你来参加班级讨论，我们很想听听你的想法。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话邀请同学参加班级讨论，直接给出成句。",
+    "answer": "欢迎你来参加班级讨论，我们很想听听你的想法。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于邀请同学参加班级讨论的简短消息。",
+    "answer": "欢迎你来参加班级讨论，我们很想听听你的想法。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要邀请同学参加班级讨论，请直接给我一句合适的话。",
+    "answer": "欢迎你来参加班级讨论，我们很想听听你的想法。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句鼓励正在练习唱歌的朋友的话。",
+    "answer": "坚持练习，你会越来越熟练的，加油！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话鼓励正在练习唱歌的朋友，直接给出成句。",
+    "answer": "坚持练习，你会越来越熟练的，加油！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于鼓励正在练习唱歌的朋友的简短消息。",
+    "answer": "坚持练习，你会越来越熟练的，加油！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要鼓励正在练习唱歌的朋友，请直接给我一句合适的话。",
+    "answer": "坚持练习，你会越来越熟练的，加油！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句向朋友说明我需要改约见面的时间的话。",
+    "answer": "不好意思，我需要调整一下见面时间，我们可以另约一个时间吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话向朋友说明我需要改约见面的时间，直接给出成句。",
+    "answer": "不好意思，我需要调整一下见面时间，我们可以另约一个时间吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于向朋友说明我需要改约见面的时间的简短消息。",
+    "answer": "不好意思，我需要调整一下见面时间，我们可以另约一个时间吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要向朋友说明我需要改约见面的时间，请直接给我一句合适的话。",
+    "answer": "不好意思，我需要调整一下见面时间，我们可以另约一个时间吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句向同学借一块橡皮擦的话。",
+    "answer": "请问能借一下你的橡皮擦吗？谢谢！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话向同学借一块橡皮擦，直接给出成句。",
+    "answer": "请问能借一下你的橡皮擦吗？谢谢！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于向同学借一块橡皮擦的简短消息。",
+    "answer": "请问能借一下你的橡皮擦吗？谢谢！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要向同学借一块橡皮擦，请直接给我一句合适的话。",
+    "answer": "请问能借一下你的橡皮擦吗？谢谢！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句感谢老师耐心回答我的问题的话。",
+    "answer": "谢谢老师耐心解答，我现在明白多了。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话感谢老师耐心回答我的问题，直接给出成句。",
+    "answer": "谢谢老师耐心解答，我现在明白多了。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于感谢老师耐心回答我的问题的简短消息。",
+    "answer": "谢谢老师耐心解答，我现在明白多了。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要感谢老师耐心回答我的问题，请直接给我一句合适的话。",
+    "answer": "谢谢老师耐心解答，我现在明白多了。",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句给即将参加演出的朋友加油的话。",
+    "answer": "祝你演出顺利，尽情享受舞台！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话给即将参加演出的朋友加油，直接给出成句。",
+    "answer": "祝你演出顺利，尽情享受舞台！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于给即将参加演出的朋友加油的简短消息。",
+    "answer": "祝你演出顺利，尽情享受舞台！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要给即将参加演出的朋友加油，请直接给我一句合适的话。",
+    "answer": "祝你演出顺利，尽情享受舞台！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句请朋友把音乐声音调小一点的话。",
+    "answer": "不好意思，能请你把音乐声音稍微调小一点吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话请朋友把音乐声音调小一点，直接给出成句。",
+    "answer": "不好意思，能请你把音乐声音稍微调小一点吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于请朋友把音乐声音调小一点的简短消息。",
+    "answer": "不好意思，能请你把音乐声音稍微调小一点吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要请朋友把音乐声音调小一点，请直接给我一句合适的话。",
+    "answer": "不好意思，能请你把音乐声音稍微调小一点吗？",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请帮我写一句祝朋友旅途愉快的话。",
+    "answer": "祝你旅途愉快，一路顺利！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "用一句话祝朋友旅途愉快，直接给出成句。",
+    "answer": "祝你旅途愉快，一路顺利！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "请写一句用于祝朋友旅途愉快的简短消息。",
+    "answer": "祝你旅途愉快，一路顺利！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "我要祝朋友旅途愉快，请直接给我一句合适的话。",
+    "answer": "祝你旅途愉快，一路顺利！",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to greet a friend.",
+    "answer": "Hi, how have you been?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to greet a friend.",
+    "answer": "Hi, how have you been?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please greet a friend in one friendly sentence.",
+    "answer": "Hi, how have you been?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to greet a friend. Write the message itself.",
+    "answer": "Hi, how have you been?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to ask a classmate to close the window.",
+    "answer": "Could you please close the window? Thank you!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to ask a classmate to close the window.",
+    "answer": "Could you please close the window? Thank you!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please ask a classmate to close the window in one friendly sentence.",
+    "answer": "Could you please close the window? Thank you!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to ask a classmate to close the window. Write the message itself.",
+    "answer": "Could you please close the window? Thank you!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to thank a friend for walking with you.",
+    "answer": "Thanks for taking a walk with me; I enjoyed your company.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to thank a friend for walking with you.",
+    "answer": "Thanks for taking a walk with me; I enjoyed your company.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please thank a friend for walking with you in one friendly sentence.",
+    "answer": "Thanks for taking a walk with me; I enjoyed your company.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to thank a friend for walking with you. Write the message itself.",
+    "answer": "Thanks for taking a walk with me; I enjoyed your company.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to politely decline a party invitation.",
+    "answer": "Thank you for inviting me, but I cannot make it this time; have a wonderful party!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to politely decline a party invitation.",
+    "answer": "Thank you for inviting me, but I cannot make it this time; have a wonderful party!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please politely decline a party invitation in one friendly sentence.",
+    "answer": "Thank you for inviting me, but I cannot make it this time; have a wonderful party!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to politely decline a party invitation. Write the message itself.",
+    "answer": "Thank you for inviting me, but I cannot make it this time; have a wonderful party!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to remind a family member to take their keys.",
+    "answer": "Please remember your keys before you leave.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to remind a family member to take their keys.",
+    "answer": "Please remember your keys before you leave.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please remind a family member to take their keys in one friendly sentence.",
+    "answer": "Please remember your keys before you leave.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to remind a family member to take their keys. Write the message itself.",
+    "answer": "Please remember your keys before you leave.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to wish a teacher a pleasant holiday.",
+    "answer": "Have a relaxing and enjoyable holiday!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to wish a teacher a pleasant holiday.",
+    "answer": "Have a relaxing and enjoyable holiday!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please wish a teacher a pleasant holiday in one friendly sentence.",
+    "answer": "Have a relaxing and enjoyable holiday!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to wish a teacher a pleasant holiday. Write the message itself.",
+    "answer": "Have a relaxing and enjoyable holiday!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to invite a friend for tea.",
+    "answer": "Would you like to have some tea and catch up?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to invite a friend for tea.",
+    "answer": "Would you like to have some tea and catch up?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please invite a friend for tea in one friendly sentence.",
+    "answer": "Would you like to have some tea and catch up?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to invite a friend for tea. Write the message itself.",
+    "answer": "Would you like to have some tea and catch up?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to apologize for knocking a book off a desk.",
+    "answer": "I am sorry I knocked your book down; let me pick it up.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to apologize for knocking a book off a desk.",
+    "answer": "I am sorry I knocked your book down; let me pick it up.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please apologize for knocking a book off a desk in one friendly sentence.",
+    "answer": "I am sorry I knocked your book down; let me pick it up.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to apologize for knocking a book off a desk. Write the message itself.",
+    "answer": "I am sorry I knocked your book down; let me pick it up.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to congratulate a friend on learning to ride a bicycle.",
+    "answer": "Congratulations on learning to ride a bicycle; your practice paid off!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to congratulate a friend on learning to ride a bicycle.",
+    "answer": "Congratulations on learning to ride a bicycle; your practice paid off!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please congratulate a friend on learning to ride a bicycle in one friendly sentence.",
+    "answer": "Congratulations on learning to ride a bicycle; your practice paid off!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to congratulate a friend on learning to ride a bicycle. Write the message itself.",
+    "answer": "Congratulations on learning to ride a bicycle; your practice paid off!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to ask a neighbor to watch the front door.",
+    "answer": "Could you please keep an eye on the front door for a moment?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to ask a neighbor to watch the front door.",
+    "answer": "Could you please keep an eye on the front door for a moment?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please ask a neighbor to watch the front door in one friendly sentence.",
+    "answer": "Could you please keep an eye on the front door for a moment?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to ask a neighbor to watch the front door. Write the message itself.",
+    "answer": "Could you please keep an eye on the front door for a moment?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to thank a classmate for finding your eraser.",
+    "answer": "Thanks for finding my eraser; I really appreciate it!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to thank a classmate for finding your eraser.",
+    "answer": "Thanks for finding my eraser; I really appreciate it!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please thank a classmate for finding your eraser in one friendly sentence.",
+    "answer": "Thanks for finding my eraser; I really appreciate it!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to thank a classmate for finding your eraser. Write the message itself.",
+    "answer": "Thanks for finding my eraser; I really appreciate it!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to remind guests to take their belongings.",
+    "answer": "Please remember to take your belongings when you leave.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to remind guests to take their belongings.",
+    "answer": "Please remember to take your belongings when you leave.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please remind guests to take their belongings in one friendly sentence.",
+    "answer": "Please remember to take your belongings when you leave.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to remind guests to take their belongings. Write the message itself.",
+    "answer": "Please remember to take your belongings when you leave.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to invite a classmate to a discussion.",
+    "answer": "Please join our class discussion; we would love to hear your ideas.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to invite a classmate to a discussion.",
+    "answer": "Please join our class discussion; we would love to hear your ideas.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please invite a classmate to a discussion in one friendly sentence.",
+    "answer": "Please join our class discussion; we would love to hear your ideas.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to invite a classmate to a discussion. Write the message itself.",
+    "answer": "Please join our class discussion; we would love to hear your ideas.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to encourage a friend practicing singing.",
+    "answer": "Keep practicing and enjoy singing; you are making progress!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to encourage a friend practicing singing.",
+    "answer": "Keep practicing and enjoy singing; you are making progress!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please encourage a friend practicing singing in one friendly sentence.",
+    "answer": "Keep practicing and enjoy singing; you are making progress!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to encourage a friend practicing singing. Write the message itself.",
+    "answer": "Keep practicing and enjoy singing; you are making progress!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to ask a friend to reschedule a meeting.",
+    "answer": "I am sorry, but could we find another time to meet?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to ask a friend to reschedule a meeting.",
+    "answer": "I am sorry, but could we find another time to meet?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please ask a friend to reschedule a meeting in one friendly sentence.",
+    "answer": "I am sorry, but could we find another time to meet?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to ask a friend to reschedule a meeting. Write the message itself.",
+    "answer": "I am sorry, but could we find another time to meet?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to ask to borrow an eraser.",
+    "answer": "May I borrow your eraser, please?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to ask to borrow an eraser.",
+    "answer": "May I borrow your eraser, please?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please ask to borrow an eraser in one friendly sentence.",
+    "answer": "May I borrow your eraser, please?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to ask to borrow an eraser. Write the message itself.",
+    "answer": "May I borrow your eraser, please?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to thank a teacher for explaining something patiently.",
+    "answer": "Thank you for explaining it so patiently; it makes more sense now.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to thank a teacher for explaining something patiently.",
+    "answer": "Thank you for explaining it so patiently; it makes more sense now.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please thank a teacher for explaining something patiently in one friendly sentence.",
+    "answer": "Thank you for explaining it so patiently; it makes more sense now.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to thank a teacher for explaining something patiently. Write the message itself.",
+    "answer": "Thank you for explaining it so patiently; it makes more sense now.",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to wish a friend luck before a performance.",
+    "answer": "Good luck with your performance and enjoy the stage!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to wish a friend luck before a performance.",
+    "answer": "Good luck with your performance and enjoy the stage!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please wish a friend luck before a performance in one friendly sentence.",
+    "answer": "Good luck with your performance and enjoy the stage!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to wish a friend luck before a performance. Write the message itself.",
+    "answer": "Good luck with your performance and enjoy the stage!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to ask someone to lower their music volume.",
+    "answer": "Could you please turn the music down a little?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to ask someone to lower their music volume.",
+    "answer": "Could you please turn the music down a little?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please ask someone to lower their music volume in one friendly sentence.",
+    "answer": "Could you please turn the music down a little?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to ask someone to lower their music volume. Write the message itself.",
+    "answer": "Could you please turn the music down a little?",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Write one sentence to wish a friend a pleasant journey.",
+    "answer": "Have a wonderful trip and a safe journey!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Give a short message to wish a friend a pleasant journey.",
+    "answer": "Have a wonderful trip and a safe journey!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "Please wish a friend a pleasant journey in one friendly sentence.",
+    "answer": "Have a wonderful trip and a safe journey!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "I want to wish a friend a pleasant journey. Write the message itself.",
+    "answer": "Have a wonderful trip and a safe journey!",
+    "source_kind": "writing"
+  },
+  {
+    "question": "记录：小邵负责杯子，小杜负责盘子。谁负责盘子？",
+    "answer": "小杜",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小邵拿了白色背包。小邵的背包是什么颜色？",
+    "answer": "白色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号814，凭证编号K-940。请只输出凭证编号。",
+    "answer": "K-940",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：122+43",
+    "answer": "122+43",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Lena has the cup and Zara has the plate. Who has the plate?",
+    "answer": "Zara",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ravi chose the black backpack. What color is the backpack?",
+    "answer": "black",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 942; reference H-707. Return only the reference.",
+    "answer": "H-707",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 396-65",
+    "answer": "396-65",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小魏负责杯子，小梅负责盘子。谁负责盘子？",
+    "answer": "小梅",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小魏拿了白色背包。小魏的背包是什么颜色？",
+    "answer": "白色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号657，凭证编号J-308。请只输出凭证编号。",
+    "answer": "J-308",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：767+12",
+    "answer": "767+12",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ravi has the cup and Ivy has the plate. Who has the plate?",
+    "answer": "Ivy",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Noah chose the black backpack. What color is the backpack?",
+    "answer": "black",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 531; reference L-290. Return only the reference.",
+    "answer": "L-290",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 356-33",
+    "answer": "356-33",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小丁负责杯子，小叶负责盘子。谁负责盘子？",
+    "answer": "小叶",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小顾拿了白色背包。小顾的背包是什么颜色？",
+    "answer": "白色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号353，凭证编号H-296。请只输出凭证编号。",
+    "answer": "H-296",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：865+46",
+    "answer": "865+46",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ravi has the cup and Finn has the plate. Who has the plate?",
+    "answer": "Finn",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ravi chose the orange backpack. What color is the backpack?",
+    "answer": "orange",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 410; reference L-225. Return only the reference.",
+    "answer": "L-225",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 843-40",
+    "answer": "843-40",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小梅负责杯子，小魏负责盘子。谁负责盘子？",
+    "answer": "小魏",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小顾拿了黑色背包。小顾的背包是什么颜色？",
+    "answer": "黑色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号439，凭证编号K-267。请只输出凭证编号。",
+    "answer": "K-267",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：341+26",
+    "answer": "341+26",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ravi has the cup and Ada has the plate. Who has the plate?",
+    "answer": "Ada",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Lena chose the black backpack. What color is the backpack?",
+    "answer": "black",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 643; reference L-750. Return only the reference.",
+    "answer": "L-750",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 298-36",
+    "answer": "298-36",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小杜负责杯子，小梅负责盘子。谁负责盘子？",
+    "answer": "小梅",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小卫拿了白色背包。小卫的背包是什么颜色？",
+    "answer": "白色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号954，凭证编号J-764。请只输出凭证编号。",
+    "answer": "J-764",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：395+33",
+    "answer": "395+33",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Finn has the cup and Ravi has the plate. Who has the plate?",
+    "answer": "Ravi",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Owen chose the white backpack. What color is the backpack?",
+    "answer": "white",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 677; reference T-765. Return only the reference.",
+    "answer": "T-765",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 904-11",
+    "answer": "904-11",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小丁负责杯子，小杜负责盘子。谁负责盘子？",
+    "answer": "小杜",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小丁拿了棕色背包。小丁的背包是什么颜色？",
+    "answer": "棕色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号154，凭证编号L-379。请只输出凭证编号。",
+    "answer": "L-379",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：627+64",
+    "answer": "627+64",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Lena has the cup and Owen has the plate. Who has the plate?",
+    "answer": "Owen",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ravi chose the purple backpack. What color is the backpack?",
+    "answer": "purple",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 208; reference M-411. Return only the reference.",
+    "answer": "M-411",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 765-51",
+    "answer": "765-51",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小陶负责杯子，小丁负责盘子。谁负责盘子？",
+    "answer": "小丁",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小魏拿了棕色背包。小魏的背包是什么颜色？",
+    "answer": "棕色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号450，凭证编号M-511。请只输出凭证编号。",
+    "answer": "M-511",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：307+68",
+    "answer": "307+68",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Tess has the cup and Ada has the plate. Who has the plate?",
+    "answer": "Ada",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Zara chose the purple backpack. What color is the backpack?",
+    "answer": "purple",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 704; reference K-694. Return only the reference.",
+    "answer": "K-694",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 299-64",
+    "answer": "299-64",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小顾负责杯子，小罗负责盘子。谁负责盘子？",
+    "answer": "小罗",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小魏拿了橙色背包。小魏的背包是什么颜色？",
+    "answer": "橙色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号729，凭证编号K-556。请只输出凭证编号。",
+    "answer": "K-556",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：322+85",
+    "answer": "322+85",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Finn has the cup and Zara has the plate. Who has the plate?",
+    "answer": "Zara",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Leo chose the purple backpack. What color is the backpack?",
+    "answer": "purple",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 684; reference M-829. Return only the reference.",
+    "answer": "M-829",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 525-77",
+    "answer": "525-77",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小梅负责杯子，小杜负责盘子。谁负责盘子？",
+    "answer": "小杜",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小罗拿了黑色背包。小罗的背包是什么颜色？",
+    "answer": "黑色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号191，凭证编号J-965。请只输出凭证编号。",
+    "answer": "J-965",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：245+32",
+    "answer": "245+32",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ada has the cup and Finn has the plate. Who has the plate?",
+    "answer": "Finn",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ada chose the white backpack. What color is the backpack?",
+    "answer": "white",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 802; reference L-907. Return only the reference.",
+    "answer": "L-907",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 348-42",
+    "answer": "348-42",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小陶负责杯子，小顾负责盘子。谁负责盘子？",
+    "answer": "小顾",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小陶拿了橙色背包。小陶的背包是什么颜色？",
+    "answer": "橙色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号810，凭证编号T-503。请只输出凭证编号。",
+    "answer": "T-503",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：736+86",
+    "answer": "736+86",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Tess has the cup and Noah has the plate. Who has the plate?",
+    "answer": "Noah",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Zara chose the brown backpack. What color is the backpack?",
+    "answer": "brown",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 265; reference H-715. Return only the reference.",
+    "answer": "H-715",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 256-85",
+    "answer": "256-85",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小丁负责杯子，小邵负责盘子。谁负责盘子？",
+    "answer": "小邵",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小梅拿了紫色背包。小梅的背包是什么颜色？",
+    "answer": "紫色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号254，凭证编号L-615。请只输出凭证编号。",
+    "answer": "L-615",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：171+46",
+    "answer": "171+46",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Finn has the cup and Lena has the plate. Who has the plate?",
+    "answer": "Lena",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Finn chose the purple backpack. What color is the backpack?",
+    "answer": "purple",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 730; reference T-383. Return only the reference.",
+    "answer": "T-383",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 754-10",
+    "answer": "754-10",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小顾负责杯子，小丁负责盘子。谁负责盘子？",
+    "answer": "小丁",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小罗拿了橙色背包。小罗的背包是什么颜色？",
+    "answer": "橙色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号746，凭证编号T-969。请只输出凭证编号。",
+    "answer": "T-969",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：916+10",
+    "answer": "916+10",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Zara has the cup and Ada has the plate. Who has the plate?",
+    "answer": "Ada",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Leo chose the white backpack. What color is the backpack?",
+    "answer": "white",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 495; reference K-649. Return only the reference.",
+    "answer": "K-649",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 708-94",
+    "answer": "708-94",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小卫负责杯子，小陶负责盘子。谁负责盘子？",
+    "answer": "小陶",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小邵拿了橙色背包。小邵的背包是什么颜色？",
+    "answer": "橙色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号900，凭证编号T-295。请只输出凭证编号。",
+    "answer": "T-295",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：823+69",
+    "answer": "823+69",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Leo has the cup and Tess has the plate. Who has the plate?",
+    "answer": "Tess",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ivy chose the black backpack. What color is the backpack?",
+    "answer": "black",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 983; reference J-186. Return only the reference.",
+    "answer": "J-186",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 903-15",
+    "answer": "903-15",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小卫负责杯子，小罗负责盘子。谁负责盘子？",
+    "answer": "小罗",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小顾拿了棕色背包。小顾的背包是什么颜色？",
+    "answer": "棕色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号512，凭证编号K-537。请只输出凭证编号。",
+    "answer": "K-537",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：566+34",
+    "answer": "566+34",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Finn has the cup and Ada has the plate. Who has the plate?",
+    "answer": "Ada",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Tess chose the brown backpack. What color is the backpack?",
+    "answer": "brown",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 512; reference T-457. Return only the reference.",
+    "answer": "T-457",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 606-24",
+    "answer": "606-24",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小叶负责杯子，小邵负责盘子。谁负责盘子？",
+    "answer": "小邵",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小杜拿了橙色背包。小杜的背包是什么颜色？",
+    "answer": "橙色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号168，凭证编号T-142。请只输出凭证编号。",
+    "answer": "T-142",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：184+77",
+    "answer": "184+77",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Lena has the cup and Leo has the plate. Who has the plate?",
+    "answer": "Leo",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ada chose the black backpack. What color is the backpack?",
+    "answer": "black",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 130; reference K-221. Return only the reference.",
+    "answer": "K-221",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 517-56",
+    "answer": "517-56",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小卫负责杯子，小顾负责盘子。谁负责盘子？",
+    "answer": "小顾",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小梅拿了棕色背包。小梅的背包是什么颜色？",
+    "answer": "棕色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号676，凭证编号H-566。请只输出凭证编号。",
+    "answer": "H-566",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：958+64",
+    "answer": "958+64",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Leo has the cup and Ivy has the plate. Who has the plate?",
+    "answer": "Ivy",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Lena chose the purple backpack. What color is the backpack?",
+    "answer": "purple",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 938; reference H-282. Return only the reference.",
+    "answer": "H-282",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 117-89",
+    "answer": "117-89",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小罗负责杯子，小杜负责盘子。谁负责盘子？",
+    "answer": "小杜",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小叶拿了紫色背包。小叶的背包是什么颜色？",
+    "answer": "紫色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号824，凭证编号H-854。请只输出凭证编号。",
+    "answer": "H-854",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：893+48",
+    "answer": "893+48",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ada has the cup and Noah has the plate. Who has the plate?",
+    "answer": "Noah",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ivy chose the brown backpack. What color is the backpack?",
+    "answer": "brown",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 868; reference K-382. Return only the reference.",
+    "answer": "K-382",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 824-84",
+    "answer": "824-84",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小邵负责杯子，小陶负责盘子。谁负责盘子？",
+    "answer": "小陶",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小陶拿了白色背包。小陶的背包是什么颜色？",
+    "answer": "白色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号907，凭证编号H-508。请只输出凭证编号。",
+    "answer": "H-508",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：557+34",
+    "answer": "557+34",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Finn has the cup and Leo has the plate. Who has the plate?",
+    "answer": "Leo",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ravi chose the brown backpack. What color is the backpack?",
+    "answer": "brown",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 374; reference K-662. Return only the reference.",
+    "answer": "K-662",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 736-24",
+    "answer": "736-24",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小魏负责杯子，小丁负责盘子。谁负责盘子？",
+    "answer": "小丁",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小丁拿了橙色背包。小丁的背包是什么颜色？",
+    "answer": "橙色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号603，凭证编号K-190。请只输出凭证编号。",
+    "answer": "K-190",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：725+41",
+    "answer": "725+41",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Tess has the cup and Lena has the plate. Who has the plate?",
+    "answer": "Lena",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Noah chose the white backpack. What color is the backpack?",
+    "answer": "white",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 984; reference T-411. Return only the reference.",
+    "answer": "T-411",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 336-17",
+    "answer": "336-17",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小叶负责杯子，小卫负责盘子。谁负责盘子？",
+    "answer": "小卫",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小罗拿了紫色背包。小罗的背包是什么颜色？",
+    "answer": "紫色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号281，凭证编号H-562。请只输出凭证编号。",
+    "answer": "H-562",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：737+23",
+    "answer": "737+23",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Noah has the cup and Ada has the plate. Who has the plate?",
+    "answer": "Ada",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Noah chose the purple backpack. What color is the backpack?",
+    "answer": "purple",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 615; reference K-486. Return only the reference.",
+    "answer": "K-486",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 750-20",
+    "answer": "750-20",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小顾负责杯子，小陶负责盘子。谁负责盘子？",
+    "answer": "小陶",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小梅拿了白色背包。小梅的背包是什么颜色？",
+    "answer": "白色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号439，凭证编号K-551。请只输出凭证编号。",
+    "answer": "K-551",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：414+49",
+    "answer": "414+49",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Finn has the cup and Owen has the plate. Who has the plate?",
+    "answer": "Owen",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ivy chose the purple backpack. What color is the backpack?",
+    "answer": "purple",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 572; reference T-955. Return only the reference.",
+    "answer": "T-955",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 922-30",
+    "answer": "922-30",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小丁负责杯子，小卫负责盘子。谁负责盘子？",
+    "answer": "小卫",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小邵拿了紫色背包。小邵的背包是什么颜色？",
+    "answer": "紫色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号557，凭证编号T-481。请只输出凭证编号。",
+    "answer": "T-481",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：798+26",
+    "answer": "798+26",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Owen has the cup and Ravi has the plate. Who has the plate?",
+    "answer": "Ravi",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ada chose the brown backpack. What color is the backpack?",
+    "answer": "brown",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 825; reference M-150. Return only the reference.",
+    "answer": "M-150",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 777-27",
+    "answer": "777-27",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小杜负责杯子，小叶负责盘子。谁负责盘子？",
+    "answer": "小叶",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小罗拿了白色背包。小罗的背包是什么颜色？",
+    "answer": "白色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号503，凭证编号L-110。请只输出凭证编号。",
+    "answer": "L-110",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：895+38",
+    "answer": "895+38",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Zara has the cup and Ivy has the plate. Who has the plate?",
+    "answer": "Ivy",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Noah chose the orange backpack. What color is the backpack?",
+    "answer": "orange",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 914; reference J-239. Return only the reference.",
+    "answer": "J-239",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 922-86",
+    "answer": "922-86",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小邵负责杯子，小罗负责盘子。谁负责盘子？",
+    "answer": "小罗",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小邵拿了棕色背包。小邵的背包是什么颜色？",
+    "answer": "棕色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号882，凭证编号J-711。请只输出凭证编号。",
+    "answer": "J-711",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：489+82",
+    "answer": "489+82",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Noah has the cup and Ivy has the plate. Who has the plate?",
+    "answer": "Ivy",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Owen chose the orange backpack. What color is the backpack?",
+    "answer": "orange",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 147; reference H-825. Return only the reference.",
+    "answer": "H-825",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 279-35",
+    "answer": "279-35",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小邵负责杯子，小丁负责盘子。谁负责盘子？",
+    "answer": "小丁",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小陶拿了棕色背包。小陶的背包是什么颜色？",
+    "answer": "棕色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号887，凭证编号J-176。请只输出凭证编号。",
+    "answer": "J-176",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：159+20",
+    "answer": "159+20",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ivy has the cup and Ravi has the plate. Who has the plate?",
+    "answer": "Ravi",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ada chose the purple backpack. What color is the backpack?",
+    "answer": "purple",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 412; reference J-818. Return only the reference.",
+    "answer": "J-818",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 414-14",
+    "answer": "414-14",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小顾负责杯子，小邵负责盘子。谁负责盘子？",
+    "answer": "小邵",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小陶拿了紫色背包。小陶的背包是什么颜色？",
+    "answer": "紫色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号670，凭证编号M-819。请只输出凭证编号。",
+    "answer": "M-819",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：794+88",
+    "answer": "794+88",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Zara has the cup and Noah has the plate. Who has the plate?",
+    "answer": "Noah",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Lena chose the white backpack. What color is the backpack?",
+    "answer": "white",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 876; reference H-683. Return only the reference.",
+    "answer": "H-683",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 569-37",
+    "answer": "569-37",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小邵负责杯子，小梅负责盘子。谁负责盘子？",
+    "answer": "小梅",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小卫拿了黑色背包。小卫的背包是什么颜色？",
+    "answer": "黑色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号827，凭证编号K-837。请只输出凭证编号。",
+    "answer": "K-837",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：269+49",
+    "answer": "269+49",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ivy has the cup and Finn has the plate. Who has the plate?",
+    "answer": "Finn",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ivy chose the orange backpack. What color is the backpack?",
+    "answer": "orange",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 440; reference K-912. Return only the reference.",
+    "answer": "K-912",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 350-54",
+    "answer": "350-54",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小梅负责杯子，小罗负责盘子。谁负责盘子？",
+    "answer": "小罗",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小杜拿了黑色背包。小杜的背包是什么颜色？",
+    "answer": "黑色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号447，凭证编号K-628。请只输出凭证编号。",
+    "answer": "K-628",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：857+70",
+    "answer": "857+70",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ivy has the cup and Noah has the plate. Who has the plate?",
+    "answer": "Noah",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Finn chose the orange backpack. What color is the backpack?",
+    "answer": "orange",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 182; reference M-205. Return only the reference.",
+    "answer": "M-205",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 352-38",
+    "answer": "352-38",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小杜负责杯子，小罗负责盘子。谁负责盘子？",
+    "answer": "小罗",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小顾拿了紫色背包。小顾的背包是什么颜色？",
+    "answer": "紫色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号639，凭证编号K-932。请只输出凭证编号。",
+    "answer": "K-932",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：145+70",
+    "answer": "145+70",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Zara has the cup and Ravi has the plate. Who has the plate?",
+    "answer": "Ravi",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Zara chose the black backpack. What color is the backpack?",
+    "answer": "black",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 562; reference T-964. Return only the reference.",
+    "answer": "T-964",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 200-44",
+    "answer": "200-44",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小罗负责杯子，小顾负责盘子。谁负责盘子？",
+    "answer": "小顾",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小陶拿了黑色背包。小陶的背包是什么颜色？",
+    "answer": "黑色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号610，凭证编号K-552。请只输出凭证编号。",
+    "answer": "K-552",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：643+73",
+    "answer": "643+73",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ada has the cup and Ivy has the plate. Who has the plate?",
+    "answer": "Ivy",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Owen chose the purple backpack. What color is the backpack?",
+    "answer": "purple",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 774; reference K-505. Return only the reference.",
+    "answer": "K-505",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 223-99",
+    "answer": "223-99",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小卫负责杯子，小杜负责盘子。谁负责盘子？",
+    "answer": "小杜",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小顾拿了橙色背包。小顾的背包是什么颜色？",
+    "answer": "橙色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号461，凭证编号M-841。请只输出凭证编号。",
+    "answer": "M-841",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：942+64",
+    "answer": "942+64",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ivy has the cup and Zara has the plate. Who has the plate?",
+    "answer": "Zara",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Leo chose the brown backpack. What color is the backpack?",
+    "answer": "brown",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 989; reference J-662. Return only the reference.",
+    "answer": "J-662",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 429-27",
+    "answer": "429-27",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小卫负责杯子，小梅负责盘子。谁负责盘子？",
+    "answer": "小梅",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小杜拿了紫色背包。小杜的背包是什么颜色？",
+    "answer": "紫色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号575，凭证编号T-628。请只输出凭证编号。",
+    "answer": "T-628",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：236+67",
+    "answer": "236+67",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ada has the cup and Ravi has the plate. Who has the plate?",
+    "answer": "Ravi",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Zara chose the white backpack. What color is the backpack?",
+    "answer": "white",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 652; reference H-216. Return only the reference.",
+    "answer": "H-216",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 608-29",
+    "answer": "608-29",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小魏负责杯子，小罗负责盘子。谁负责盘子？",
+    "answer": "小罗",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小梅拿了黑色背包。小梅的背包是什么颜色？",
+    "answer": "黑色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号371，凭证编号L-360。请只输出凭证编号。",
+    "answer": "L-360",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：962+55",
+    "answer": "962+55",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ivy has the cup and Lena has the plate. Who has the plate?",
+    "answer": "Lena",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Owen chose the brown backpack. What color is the backpack?",
+    "answer": "brown",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 340; reference J-145. Return only the reference.",
+    "answer": "J-145",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 190-54",
+    "answer": "190-54",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小罗负责杯子，小梅负责盘子。谁负责盘子？",
+    "answer": "小梅",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小邵拿了黑色背包。小邵的背包是什么颜色？",
+    "answer": "黑色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号577，凭证编号H-784。请只输出凭证编号。",
+    "answer": "H-784",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：403+93",
+    "answer": "403+93",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Lena has the cup and Noah has the plate. Who has the plate?",
+    "answer": "Noah",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Tess chose the purple backpack. What color is the backpack?",
+    "answer": "purple",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 681; reference J-996. Return only the reference.",
+    "answer": "J-996",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 536-62",
+    "answer": "536-62",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小陶负责杯子，小邵负责盘子。谁负责盘子？",
+    "answer": "小邵",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小叶拿了棕色背包。小叶的背包是什么颜色？",
+    "answer": "棕色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号848，凭证编号J-867。请只输出凭证编号。",
+    "answer": "J-867",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：179+57",
+    "answer": "179+57",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ivy has the cup and Owen has the plate. Who has the plate?",
+    "answer": "Owen",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Lena chose the brown backpack. What color is the backpack?",
+    "answer": "brown",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 169; reference J-235. Return only the reference.",
+    "answer": "J-235",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 132-20",
+    "answer": "132-20",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小邵负责杯子，小顾负责盘子。谁负责盘子？",
+    "answer": "小顾",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小丁拿了白色背包。小丁的背包是什么颜色？",
+    "answer": "白色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号743，凭证编号J-581。请只输出凭证编号。",
+    "answer": "J-581",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：355+35",
+    "answer": "355+35",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ada has the cup and Lena has the plate. Who has the plate?",
+    "answer": "Lena",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Finn chose the white backpack. What color is the backpack?",
+    "answer": "white",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 385; reference L-501. Return only the reference.",
+    "answer": "L-501",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 556-90",
+    "answer": "556-90",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小叶负责杯子，小罗负责盘子。谁负责盘子？",
+    "answer": "小罗",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小卫拿了棕色背包。小卫的背包是什么颜色？",
+    "answer": "棕色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号278，凭证编号M-802。请只输出凭证编号。",
+    "answer": "M-802",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：652+22",
+    "answer": "652+22",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Owen has the cup and Ada has the plate. Who has the plate?",
+    "answer": "Ada",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Finn chose the black backpack. What color is the backpack?",
+    "answer": "black",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 196; reference M-786. Return only the reference.",
+    "answer": "M-786",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 181-28",
+    "answer": "181-28",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小陶负责杯子，小叶负责盘子。谁负责盘子？",
+    "answer": "小叶",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小杜拿了棕色背包。小杜的背包是什么颜色？",
+    "answer": "棕色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号514，凭证编号K-507。请只输出凭证编号。",
+    "answer": "K-507",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：712+67",
+    "answer": "712+67",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Owen has the cup and Zara has the plate. Who has the plate?",
+    "answer": "Zara",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Tess chose the black backpack. What color is the backpack?",
+    "answer": "black",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 145; reference T-417. Return only the reference.",
+    "answer": "T-417",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 687-68",
+    "answer": "687-68",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小梅负责杯子，小陶负责盘子。谁负责盘子？",
+    "answer": "小陶",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小叶拿了黑色背包。小叶的背包是什么颜色？",
+    "answer": "黑色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号495，凭证编号L-722。请只输出凭证编号。",
+    "answer": "L-722",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：790+77",
+    "answer": "790+77",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Noah has the cup and Ravi has the plate. Who has the plate?",
+    "answer": "Ravi",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Lena chose the orange backpack. What color is the backpack?",
+    "answer": "orange",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 182; reference K-937. Return only the reference.",
+    "answer": "K-937",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 579-88",
+    "answer": "579-88",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "记录：小顾负责杯子，小杜负责盘子。谁负责盘子？",
+    "answer": "小杜",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "纸上写着：小卫拿了紫色背包。小卫的背包是什么颜色？",
+    "answer": "紫色",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "登记信息：房间号739，凭证编号K-965。请只输出凭证编号。",
+    "answer": "K-965",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请原样抄出这段文本，不要求值：782+37",
+    "answer": "782+37",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "A record says Ada has the cup and Tess has the plate. Who has the plate?",
+    "answer": "Tess",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "The note says Ada chose the orange backpack. What color is the backpack?",
+    "answer": "orange",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Entry: room 337; reference K-832. Return only the reference.",
+    "answer": "K-832",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "Copy this text exactly, without evaluating it: 579-80",
+    "answer": "579-80",
+    "source_kind": "retrieval"
+  },
+  {
+    "question": "请简短回答：这个助手叫什么？",
+    "answer": "我是MiniMind。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "我想知道：这个助手叫什么？",
+    "answer": "我是MiniMind。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请告诉我：这个助手叫什么？",
+    "answer": "我是MiniMind。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "简单说一下：这个助手叫什么？",
+    "answer": "我是MiniMind。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请直接回答：这个助手叫什么？",
+    "answer": "我是MiniMind。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请说明：这个助手叫什么？",
+    "answer": "我是MiniMind。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请准确回答：这个助手叫什么？",
+    "answer": "我是MiniMind。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "我有个问题：这个助手叫什么？",
+    "answer": "我是MiniMind。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请简短回答：请问你是哪个AI助手？",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong/minimind定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "我想知道：请问你是哪个AI助手？",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong/minimind定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请告诉我：请问你是哪个AI助手？",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong/minimind定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "简单说一下：请问你是哪个AI助手？",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong/minimind定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请直接回答：请问你是哪个AI助手？",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong/minimind定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请说明：请问你是哪个AI助手？",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong/minimind定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请准确回答：请问你是哪个AI助手？",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong/minimind定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "我有个问题：请问你是哪个AI助手？",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong/minimind定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请简短回答：你的本地定制开发者是谁？",
+    "answer": "我的本地定制开发者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "我想知道：你的本地定制开发者是谁？",
+    "answer": "我的本地定制开发者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请告诉我：你的本地定制开发者是谁？",
+    "answer": "我的本地定制开发者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "简单说一下：你的本地定制开发者是谁？",
+    "answer": "我的本地定制开发者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请直接回答：你的本地定制开发者是谁？",
+    "answer": "我的本地定制开发者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请说明：你的本地定制开发者是谁？",
+    "answer": "我的本地定制开发者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请准确回答：你的本地定制开发者是谁？",
+    "answer": "我的本地定制开发者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "我有个问题：你的本地定制开发者是谁？",
+    "answer": "我的本地定制开发者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请简短回答：说一下这款助手的名称和本地定制者。",
+    "answer": "这款助手叫MiniMind，由Yuyang LU进行本地定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "我想知道：说一下这款助手的名称和本地定制者。",
+    "answer": "这款助手叫MiniMind，由Yuyang LU进行本地定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请告诉我：说一下这款助手的名称和本地定制者。",
+    "answer": "这款助手叫MiniMind，由Yuyang LU进行本地定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "简单说一下：说一下这款助手的名称和本地定制者。",
+    "answer": "这款助手叫MiniMind，由Yuyang LU进行本地定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请直接回答：说一下这款助手的名称和本地定制者。",
+    "answer": "这款助手叫MiniMind，由Yuyang LU进行本地定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请说明：说一下这款助手的名称和本地定制者。",
+    "answer": "这款助手叫MiniMind，由Yuyang LU进行本地定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请准确回答：说一下这款助手的名称和本地定制者。",
+    "answer": "这款助手叫MiniMind，由Yuyang LU进行本地定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "我有个问题：说一下这款助手的名称和本地定制者。",
+    "answer": "这款助手叫MiniMind，由Yuyang LU进行本地定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Please answer: jingyaogong是原作者还是本地定制者？",
+    "answer": "jingyaogong是原始MiniMind项目的作者，本地定制者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "I would like to know: jingyaogong是原作者还是本地定制者？",
+    "answer": "jingyaogong是原始MiniMind项目的作者，本地定制者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Briefly: jingyaogong是原作者还是本地定制者？",
+    "answer": "jingyaogong是原始MiniMind项目的作者，本地定制者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Tell me: jingyaogong是原作者还是本地定制者？",
+    "answer": "jingyaogong是原始MiniMind项目的作者，本地定制者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Answer directly: jingyaogong是原作者还是本地定制者？",
+    "answer": "jingyaogong是原始MiniMind项目的作者，本地定制者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Please explain: jingyaogong是原作者还是本地定制者？",
+    "answer": "jingyaogong是原始MiniMind项目的作者，本地定制者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Give a short answer: jingyaogong是原作者还是本地定制者？",
+    "answer": "jingyaogong是原始MiniMind项目的作者，本地定制者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "My question is: jingyaogong是原作者还是本地定制者？",
+    "answer": "jingyaogong是原始MiniMind项目的作者，本地定制者是Yuyang LU。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请简短回答：原项目是谁写的，这个版本又是谁定制的？",
+    "answer": "原始MiniMind项目由jingyaogong开发，这个本地版本由Yuyang LU定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "我想知道：原项目是谁写的，这个版本又是谁定制的？",
+    "answer": "原始MiniMind项目由jingyaogong开发，这个本地版本由Yuyang LU定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请告诉我：原项目是谁写的，这个版本又是谁定制的？",
+    "answer": "原始MiniMind项目由jingyaogong开发，这个本地版本由Yuyang LU定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "简单说一下：原项目是谁写的，这个版本又是谁定制的？",
+    "answer": "原始MiniMind项目由jingyaogong开发，这个本地版本由Yuyang LU定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请直接回答：原项目是谁写的，这个版本又是谁定制的？",
+    "answer": "原始MiniMind项目由jingyaogong开发，这个本地版本由Yuyang LU定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请说明：原项目是谁写的，这个版本又是谁定制的？",
+    "answer": "原始MiniMind项目由jingyaogong开发，这个本地版本由Yuyang LU定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "请准确回答：原项目是谁写的，这个版本又是谁定制的？",
+    "answer": "原始MiniMind项目由jingyaogong开发，这个本地版本由Yuyang LU定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "我有个问题：原项目是谁写的，这个版本又是谁定制的？",
+    "answer": "原始MiniMind项目由jingyaogong开发，这个本地版本由Yuyang LU定制。",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Please answer: What is this assistant named?",
+    "answer": "This assistant is named MiniMind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "I would like to know: What is this assistant named?",
+    "answer": "This assistant is named MiniMind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Briefly: What is this assistant named?",
+    "answer": "This assistant is named MiniMind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Tell me: What is this assistant named?",
+    "answer": "This assistant is named MiniMind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Answer directly: What is this assistant named?",
+    "answer": "This assistant is named MiniMind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Please explain: What is this assistant named?",
+    "answer": "This assistant is named MiniMind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Give a short answer: What is this assistant named?",
+    "answer": "This assistant is named MiniMind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "My question is: What is this assistant named?",
+    "answer": "This assistant is named MiniMind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Please answer: Who is the local customizer of this assistant?",
+    "answer": "The local customizer is Yuyang LU.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "I would like to know: Who is the local customizer of this assistant?",
+    "answer": "The local customizer is Yuyang LU.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Briefly: Who is the local customizer of this assistant?",
+    "answer": "The local customizer is Yuyang LU.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Tell me: Who is the local customizer of this assistant?",
+    "answer": "The local customizer is Yuyang LU.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Answer directly: Who is the local customizer of this assistant?",
+    "answer": "The local customizer is Yuyang LU.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Please explain: Who is the local customizer of this assistant?",
+    "answer": "The local customizer is Yuyang LU.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Give a short answer: Who is the local customizer of this assistant?",
+    "answer": "The local customizer is Yuyang LU.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "My question is: Who is the local customizer of this assistant?",
+    "answer": "The local customizer is Yuyang LU.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Please answer: Who authored upstream MiniMind and who customized this version?",
+    "answer": "jingyaogong authored the original MiniMind project, and Yuyang LU customized this local version.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "I would like to know: Who authored upstream MiniMind and who customized this version?",
+    "answer": "jingyaogong authored the original MiniMind project, and Yuyang LU customized this local version.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Briefly: Who authored upstream MiniMind and who customized this version?",
+    "answer": "jingyaogong authored the original MiniMind project, and Yuyang LU customized this local version.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Tell me: Who authored upstream MiniMind and who customized this version?",
+    "answer": "jingyaogong authored the original MiniMind project, and Yuyang LU customized this local version.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Answer directly: Who authored upstream MiniMind and who customized this version?",
+    "answer": "jingyaogong authored the original MiniMind project, and Yuyang LU customized this local version.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Please explain: Who authored upstream MiniMind and who customized this version?",
+    "answer": "jingyaogong authored the original MiniMind project, and Yuyang LU customized this local version.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Give a short answer: Who authored upstream MiniMind and who customized this version?",
+    "answer": "jingyaogong authored the original MiniMind project, and Yuyang LU customized this local version.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "My question is: Who authored upstream MiniMind and who customized this version?",
+    "answer": "jingyaogong authored the original MiniMind project, and Yuyang LU customized this local version.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Please answer: Give a short description of your identity.",
+    "answer": "I am MiniMind, a local assistant customized by Yuyang LU based on jingyaogong/minimind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "I would like to know: Give a short description of your identity.",
+    "answer": "I am MiniMind, a local assistant customized by Yuyang LU based on jingyaogong/minimind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Briefly: Give a short description of your identity.",
+    "answer": "I am MiniMind, a local assistant customized by Yuyang LU based on jingyaogong/minimind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Tell me: Give a short description of your identity.",
+    "answer": "I am MiniMind, a local assistant customized by Yuyang LU based on jingyaogong/minimind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Answer directly: Give a short description of your identity.",
+    "answer": "I am MiniMind, a local assistant customized by Yuyang LU based on jingyaogong/minimind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Please explain: Give a short description of your identity.",
+    "answer": "I am MiniMind, a local assistant customized by Yuyang LU based on jingyaogong/minimind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "Give a short answer: Give a short description of your identity.",
+    "answer": "I am MiniMind, a local assistant customized by Yuyang LU based on jingyaogong/minimind.",
+    "source_kind": "identity"
+  },
+  {
+    "question": "My question is: Give a short description of your identity.",
+    "answer": "I am MiniMind, a local assistant customized by Yuyang LU based on jingyaogong/minimind.",
+    "source_kind": "identity"
+  }
+]

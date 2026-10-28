@@ -1,0 +1,114 @@
+{
+  "python": "3.10.22 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:15:38) [MSC v.1942 64 bit (AMD64)]",
+  "torch": "2.6.0+cu126",
+  "transformers": "4.57.6",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "architecture": {
+    "hidden_size": 768,
+    "num_hidden_layers": 8,
+    "vocab_size": 6400,
+    "intermediate_size": 2432,
+    "num_attention_heads": 8,
+    "num_key_value_heads": 4,
+    "head_dim": 96,
+    "rms_norm_eps": 1e-06,
+    "rope_theta": 1000000.0,
+    "tie_word_embeddings": true
+  },
+  "conversion_checks": [
+    {
+      "tokens": 32,
+      "max_logit_diff": 5.316734313964844e-05,
+      "top1_fraction": 1.0
+    },
+    {
+      "tokens": 28,
+      "max_logit_diff": 5.316734313964844e-05,
+      "top1_fraction": 1.0
+    },
+    {
+      "tokens": 32,
+      "max_logit_diff": 4.2319297790527344e-05,
+      "top1_fraction": 1.0
+    },
+    {
+      "tokens": 28,
+      "max_logit_diff": 3.5762786865234375e-05,
+      "top1_fraction": 1.0
+    },
+    {
+      "tokens": 401,
+      "max_logit_diff": 8.7738037109375e-05,
+      "top1_fraction": 1.0
+    },
+    {
+      "tokens": 397,
+      "max_logit_diff": 8.7738037109375e-05,
+      "top1_fraction": 0.9999999403953552
+    }
+  ],
+  "cached_greedy_24_tokens_identical": true,
+  "sha256": {
+    "minimind-3\\model.safetensors": "3adf69402b5d22e693151cabadc12528f923c4ba6bf343738aaf13f0892162e8",
+    "model\\tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "dataset\\agent_math_eval200.jsonl": "b49edc1b8e550500baa920ab43f176c50c2e817434e730501cd219a846fb7da2",
+    "dataset\\dpo_eval300.jsonl": "2f0dd996c25bf34a11a554b5c11edd25b0e5a54b2865f0c7aef336887f993ecd",
+    "out\\full_sft_768.pth": "98563b37e1b454ccc7f8bab67d1d1bd94737ec0232f1e6eeaca525153d45169f",
+    "out\\official_768.pth": "1cdb2ccc5ac315b4f834e5cf140e441157c2fa6ff44e6746a700e8e89783afc0",
+    "out\\bb_rl_768.pth": "ba9ef9714dfb31899c1bddad77e94c1f86b650b7b1cd76eb048f4dd4887ae7ce",
+    "out\\bb_rl_id_768.pth": "2593af972b11e0abdeecf6b17ef1fe46b8791539bf985225944e029592b73c8a",
+    "my_eval\\scripts\\eval_agent_math.py": "151b7f6110897766237c147dab2b03e3e69f68200ce3da64d4cb95684a48b339",
+    "my_eval\\scripts\\score_rm.py": "f58c66741c661defff5664f1044ef3f920b33207e0615a9243f1f8a395892872",
+    "my_eval\\scripts\\heldout_loss.py": "3d09b5f5f0def2eb9ba6289de291d9d1569306b95bc5c242a7bfbfee172b672b",
+    "my_eval\\scripts\\official_compare.py": "0a5f2609a0a5dc35621ed14bb679438a8cf10a88dff42f3111841375d1c445bc"
+  },
+  "demo_files": [
+    "config.json",
+    "generation_config.json",
+    "model.safetensors",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "special_tokens_map.json",
+    "chat_template.jinja"
+  ],
+  "scope": "Comparison of the local official artifact; official training-data overlap is unknown.",
+  "protocol": {
+    "math": "200 x 2, seed=10000*i+s, T=.8, top_p=.85, top_k=50, fp32+bf16 autocast, 384 tokens, 3 turns, thinking off",
+    "chat": "30 x 3 in one batch, seed=1000+i, T=.8, top_p=.85, top_k=50, fp16, 512 tokens, thinking on",
+    "loss": "300 chosen answers; per-answer mean token NLL then mean across answers; truncate full input to 768; fp16"
+  },
+  "final_runner_sha256": "87d4a19fd83fab1b931b3dfa56e082001fc0dfe9227688a789f6b7c431ed05ef",
+  "corrected_heldout_loss_script_sha256": "195901438d23971c8ec4899222da517a86a449a784245136ece6062cb318afc4",
+  "historical_result_sha256": {
+    "rm_demo_compare.json": "cf60af816ac91bcccdbcf23345ede023f96c16dcc9f22765b3f296ad37848a62",
+    "agent_base200.json": "e5c7b0636fc860bce2305121cd1294241d2bd94a68b120d0efbe2d852efb194a",
+    "agent_bbrl200.json": "43ce0c27d97ecb04551194cc76a23e15b322355e30d19113469e7c6b70acb2eb",
+    "agent_bbrl_id200.json": "8bddfb19a129aea14da048922c4bafdf72549d459ca67617e74236935275f95c"
+  },
+  "loss_audit": {
+    "valid_answer_count": 296,
+    "fully_truncated_answers": [
+      {
+        "row": 78,
+        "prompt_tokens": 779,
+        "answer_tokens_before_truncation": 13
+      },
+      {
+        "row": 96,
+        "prompt_tokens": 786,
+        "answer_tokens_before_truncation": 238
+      },
+      {
+        "row": 116,
+        "prompt_tokens": 883,
+        "answer_tokens_before_truncation": 2
+      },
+      {
+        "row": 121,
+        "prompt_tokens": 784,
+        "answer_tokens_before_truncation": 57
+      }
+    ]
+  },
+  "official_local_metadata": "Revision:master,CreatedAt:1775286498"
+}

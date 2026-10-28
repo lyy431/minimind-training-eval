@@ -1,0 +1,24 @@
+{
+  "selected": "tool_choice_e2",
+  "weights": {
+    "bb_rl_id_anchor4": "a6f4249c77ba91084e124658d35f35a56d40c0380d0681a341b39968c360f107",
+    "tool_choice_e2": "ee5f3cb2e13b05321b4b6c47e1ca80ca1fddf017622f6a5e7a099013fe0ed02f"
+  },
+  "data_sha256": {
+    "plan.json": "26b473d85ae51e08a5bb77951b311d811e6d38ebfd1c2a815fe44df505ade35f",
+    "train.jsonl": "f3def5844a08da42093edd012f4100fdd8038d0436ce4679441b7761bf8a0349",
+    "dev_tasks.json": "6a6faa1bcc666c793df487c8c838fae6c433854b1716ec18ff8dd10617270abf",
+    "test_tasks.json": "9cf4b6ff986da3ba6f78e2a0c81878d6e1c70239d002e30b32a14d8733ae6030",
+    "guardrail_tasks.json": "e471f4cc2ee3fe706f341891dbed26735e237a63047a0e0583797d1427b122b5",
+    "token_audit.json": "923c2a1f0e882adfb7b81e1d1f99e37be90c90702694b41be928332643fb12c1",
+    "selection.json": "7cbeb1d217b9f80c8a54d83d71a76999ebd54dc71fd6ab4a4d78f28c36365f6d"
+  },
+  "source_sha256": {
+    "my_eval\\scripts\\tool_choice_v2.py": "6ca00749a384d15ea3c99b09c8ee35a807dc4bc53fbb03ad669da017facec7b8",
+    "my_eval\\scripts\\train_tool_choice_v2.py": "fe198fa407806b56989297334b8c8483e4ebeda1c5a16dea3598422425c234b4",
+    "my_eval\\scripts\\eval_tool_choice_v2.py": "fc2736d70a23958d8d78ca1403f9baba249ee83ec769df7630c839db0efcf27f",
+    "my_eval\\scripts\\strict_math_rescore.py": "ea1f91009c2edd95fb554dcf3f3958cff9442150bc73c39de08afdf328cc4751",
+    "scripts\\best_of_n.py": "b8e594d8c08da96c74aa990e622afb9d7d9003c65f859d9814639ec8a53e4a37",
+    "scripts\\demo_tools.py": "7155da27967520b9449a65eb93de9795e495d5c9efdc8a52f0703e15a7f95fa1"
+  }
+}

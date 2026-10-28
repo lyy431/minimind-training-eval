@@ -1,0 +1,58 @@
+﻿Model Params: 63.91M
+Trainable Params: 63.912M
+python.exe : 
+At line:1 char:421
++ ... er\trainer; & D:\conda\envs\minimind\python.exe -u train_full_sft.py  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 18337 examples [00:00, 139278.20 examples/s]
+Generating train split: 40336 examples [00:00, 152638.38 examples/s]
+Generating train split: 62339 examples [00:00, 158635.35 examples/s]
+Generating train split: 89656 examples [00:00, 176138.13 examples/s]
+Generating train split: 132591 examples [00:00, 226152.74 examples/s]
+Generating train split: 173592 examples [00:00, 254175.56 examples/s]
+Generating train split: 205460 examples [00:00, 249271.64 examples/s]
+Generating train split: 237277 examples [00:01, 248214.92 examples/s]
+Generating train split: 269105 examples [00:01, 241756.82 examples/s]
+Generating train split: 300970 examples [00:01, 227818.13 examples/s]
+Generating train split: 332862 examples [00:01, 220017.32 examples/s]
+Generating train split: 359559 examples [00:01, 216327.58 examples/s]
+Generating train split: 396906 examples [00:01, 212241.57 examples/s]
+Generating train split: 428989 examples [00:01, 210165.49 examples/s]
+Generating train split: 450489 examples [00:02, 210312.61 examples/s]
+Generating train split: 477296 examples [00:02, 209314.64 examples/s]
+Generating train split: 498686 examples [00:02, 202948.46 examples/s]
+Generating train split: 525397 examples [00:02, 208114.12 examples/s]
+Generating train split: 547894 examples [00:02, 202004.48 examples/s]
+Generating train split: 580241 examples [00:02, 191128.07 examples/s]
+Generating train split: 613737 examples [00:02, 187839.26 examples/s]
+Generating train split: 639587 examples [00:03, 192977.48 examples/s]
+Generating train split: 665037 examples [00:03, 194310.80 examples/s]
+Generating train split: 695995 examples [00:03, 200563.90 examples/s]
+Generating train split: 722117 examples [00:03, 201163.70 examples/s]
+Generating train split: 748311 examples [00:03, 199231.42 examples/s]
+Generating train split: 786261 examples [00:03, 223016.52 examples/s]
+Generating train split: 832275 examples [00:03, 259936.07 examples/s]
+Generating train split: 881476 examples [00:04, 296128.73 examples/s]
+Generating train split: 905718 examples [00:04, 222457.05 examples/s]
+Epoch:[1/2](20/56608), loss: 8.1610, logits_loss: 8.1610, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 1636.0min
+Epoch:[1/2](40/56608), loss: 7.8614, logits_loss: 7.8614, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 1160.0min
+Epoch:[1/2](60/56608), loss: 7.6573, logits_loss: 7.6573, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 998.0min
+Epoch:[1/2](80/56608), loss: 7.5681, logits_loss: 7.5681, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 919.0min
+Epoch:[1/2](100/56608), loss: 7.5418, logits_loss: 7.5418, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 875.0min
+Epoch:[1/2](120/56608), loss: 7.3714, logits_loss: 7.3714, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 845.0min
+Epoch:[1/2](140/56608), loss: 7.2920, logits_loss: 7.2920, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 821.0min
+Epoch:[1/2](160/56608), loss: 7.0578, logits_loss: 7.0578, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 804.0min
+Epoch:[1/2](180/56608), loss: 7.2752, logits_loss: 7.2752, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 791.0min
+Epoch:[1/2](200/56608), loss: 7.1319, logits_loss: 7.1319, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 780.0min
+Epoch:[1/2](220/56608), loss: 7.2396, logits_loss: 7.2396, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 772.0min
+Epoch:[1/2](240/56608), loss: 7.0227, logits_loss: 7.0227, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 762.0min
+Epoch:[1/2](260/56608), loss: 6.8743, logits_loss: 6.8743, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 756.0min
+Epoch:[1/2](280/56608), loss: 6.8940, logits_loss: 6.8940, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 750.0min
+Epoch:[1/2](300/56608), loss: 6.8624, logits_loss: 6.8624, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 745.0min
+Epoch:[1/2](320/56608), loss: 6.6695, logits_loss: 6.6695, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 742.0min
+Epoch:[1/2](340/56608), loss: 6.6496, logits_loss: 6.6496, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 739.0min
+Epoch:[1/2](360/56608), loss: 6.8099, logits_loss: 6.8099, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 758.0min

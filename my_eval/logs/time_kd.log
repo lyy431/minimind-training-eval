@@ -1,0 +1,47 @@
+Model Params: 63.91M
+Trainable Params: 63.912M
+学生模型总参数量：63.912 M
+Model Params: 198.42M-A63.94M
+Trainable Params: 198.417M
+教师模型总参数量：198.417 M
+Epoch:[1/1](10/226430), loss: 2.1189, ce: 2.5668, aux_loss: 0.0000, distill: 1.6711, learning_rate: 0.00000500, epoch_time: 5084.000min
+Epoch:[1/1](20/226430), loss: 1.9958, ce: 2.3936, aux_loss: 0.0000, distill: 1.5980, learning_rate: 0.00000500, epoch_time: 2901.000min
+Epoch:[1/1](30/226430), loss: 1.5795, ce: 2.1617, aux_loss: 0.0000, distill: 0.9972, learning_rate: 0.00000500, epoch_time: 2186.000min
+Epoch:[1/1](40/226430), loss: 1.3798, ce: 1.8335, aux_loss: 0.0000, distill: 0.9261, learning_rate: 0.00000500, epoch_time: 1822.000min
+Epoch:[1/1](50/226430), loss: 1.9159, ce: 2.6290, aux_loss: 0.0000, distill: 1.2028, learning_rate: 0.00000500, epoch_time: 1600.000min
+Epoch:[1/1](60/226430), loss: 1.8227, ce: 2.4035, aux_loss: 0.0000, distill: 1.2418, learning_rate: 0.00000500, epoch_time: 1456.000min
+Epoch:[1/1](70/226430), loss: 1.6922, ce: 2.0514, aux_loss: 0.0000, distill: 1.3331, learning_rate: 0.00000500, epoch_time: 1352.000min
+Epoch:[1/1](80/226430), loss: 1.8179, ce: 2.3887, aux_loss: 0.0000, distill: 1.2472, learning_rate: 0.00000500, epoch_time: 1274.000min
+Epoch:[1/1](90/226430), loss: 2.0353, ce: 2.5562, aux_loss: 0.0000, distill: 1.5143, learning_rate: 0.00000500, epoch_time: 1216.000min
+Epoch:[1/1](100/226430), loss: 2.1391, ce: 2.4902, aux_loss: 0.0000, distill: 1.7881, learning_rate: 0.00000500, epoch_time: 1167.000min
+Epoch:[1/1](110/226430), loss: 2.1951, ce: 2.5158, aux_loss: 0.0000, distill: 1.8744, learning_rate: 0.00000500, epoch_time: 1127.000min
+Epoch:[1/1](120/226430), loss: 1.4610, ce: 1.9402, aux_loss: 0.0000, distill: 0.9818, learning_rate: 0.00000500, epoch_time: 1093.000min
+Epoch:[1/1](130/226430), loss: 1.7102, ce: 1.9341, aux_loss: 0.0000, distill: 1.4863, learning_rate: 0.00000500, epoch_time: 1065.000min
+Epoch:[1/1](140/226430), loss: 2.1380, ce: 2.7787, aux_loss: 0.0000, distill: 1.4973, learning_rate: 0.00000500, epoch_time: 1041.000min
+Epoch:[1/1](150/226430), loss: 1.6976, ce: 2.2134, aux_loss: 0.0000, distill: 1.1817, learning_rate: 0.00000500, epoch_time: 1020.000min
+Epoch:[1/1](160/226430), loss: 1.5752, ce: 2.2744, aux_loss: 0.0000, distill: 0.8759, learning_rate: 0.00000500, epoch_time: 1002.000min
+Epoch:[1/1](170/226430), loss: 1.4135, ce: 2.0572, aux_loss: 0.0000, distill: 0.7699, learning_rate: 0.00000500, epoch_time: 985.000min
+Epoch:[1/1](180/226430), loss: 1.4422, ce: 1.9527, aux_loss: 0.0000, distill: 0.9318, learning_rate: 0.00000500, epoch_time: 971.000min
+Epoch:[1/1](190/226430), loss: 1.7371, ce: 2.5107, aux_loss: 0.0000, distill: 0.9634, learning_rate: 0.00000500, epoch_time: 958.000min
+Epoch:[1/1](200/226430), loss: 1.6022, ce: 2.2152, aux_loss: 0.0000, distill: 0.9892, learning_rate: 0.00000500, epoch_time: 947.000min
+Epoch:[1/1](210/226430), loss: 2.0370, ce: 2.5684, aux_loss: 0.0000, distill: 1.5056, learning_rate: 0.00000500, epoch_time: 936.000min
+Epoch:[1/1](220/226430), loss: 1.4221, ce: 2.0540, aux_loss: 0.0000, distill: 0.7901, learning_rate: 0.00000500, epoch_time: 927.000min
+Epoch:[1/1](230/226430), loss: 1.5512, ce: 2.0478, aux_loss: 0.0000, distill: 1.0546, learning_rate: 0.00000500, epoch_time: 919.000min
+Epoch:[1/1](240/226430), loss: 1.6690, ce: 2.1625, aux_loss: 0.0000, distill: 1.1756, learning_rate: 0.00000500, epoch_time: 911.000min
+Epoch:[1/1](250/226430), loss: 1.9605, ce: 2.6003, aux_loss: 0.0000, distill: 1.3207, learning_rate: 0.00000500, epoch_time: 904.000min
+Epoch:[1/1](260/226430), loss: 1.6303, ce: 2.0776, aux_loss: 0.0000, distill: 1.1830, learning_rate: 0.00000500, epoch_time: 898.000min
+Epoch:[1/1](270/226430), loss: 1.7738, ce: 2.2303, aux_loss: 0.0000, distill: 1.3173, learning_rate: 0.00000500, epoch_time: 892.000min
+Epoch:[1/1](280/226430), loss: 1.3744, ce: 2.0189, aux_loss: 0.0000, distill: 0.7299, learning_rate: 0.00000500, epoch_time: 886.000min
+Epoch:[1/1](290/226430), loss: 1.5118, ce: 2.1674, aux_loss: 0.0000, distill: 0.8562, learning_rate: 0.00000500, epoch_time: 880.000min
+Epoch:[1/1](300/226430), loss: 1.9274, ce: 2.2897, aux_loss: 0.0000, distill: 1.5652, learning_rate: 0.00000500, epoch_time: 875.000min
+Epoch:[1/1](310/226430), loss: 1.4019, ce: 2.0392, aux_loss: 0.0000, distill: 0.7646, learning_rate: 0.00000500, epoch_time: 871.000min
+Epoch:[1/1](320/226430), loss: 1.3072, ce: 1.8829, aux_loss: 0.0000, distill: 0.7315, learning_rate: 0.00000500, epoch_time: 866.000min
+Epoch:[1/1](330/226430), loss: 1.5596, ce: 2.2980, aux_loss: 0.0000, distill: 0.8212, learning_rate: 0.00000500, epoch_time: 862.000min
+Epoch:[1/1](340/226430), loss: 1.1970, ce: 1.5460, aux_loss: 0.0000, distill: 0.8481, learning_rate: 0.00000500, epoch_time: 858.000min
+Epoch:[1/1](350/226430), loss: 1.3639, ce: 1.9571, aux_loss: 0.0000, distill: 0.7706, learning_rate: 0.00000500, epoch_time: 854.000min
+Epoch:[1/1](360/226430), loss: 1.5839, ce: 1.9831, aux_loss: 0.0000, distill: 1.1846, learning_rate: 0.00000500, epoch_time: 851.000min
+Epoch:[1/1](370/226430), loss: 1.5842, ce: 2.2845, aux_loss: 0.0000, distill: 0.8840, learning_rate: 0.00000500, epoch_time: 847.000min
+Epoch:[1/1](380/226430), loss: 1.2445, ce: 1.4675, aux_loss: 0.0000, distill: 1.0215, learning_rate: 0.00000500, epoch_time: 844.000min
+Epoch:[1/1](390/226430), loss: 1.5560, ce: 2.2257, aux_loss: 0.0000, distill: 0.8864, learning_rate: 0.00000500, epoch_time: 841.000min
+Epoch:[1/1](400/226430), loss: 1.4524, ce: 2.1573, aux_loss: 0.0000, distill: 0.7475, learning_rate: 0.00000500, epoch_time: 838.000min
+Epoch:[1/1](410/226430), loss: 1.2364, ce: 1.6711, aux_loss: 0.0000, distill: 0.8018, learning_rate: 0.00000500, epoch_time: 835.000min

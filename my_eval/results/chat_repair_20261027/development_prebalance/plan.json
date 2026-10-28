@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-27",
+  "objective": "Improve MiniMind weights themselves; user explicitly selected training rather than a runtime teacher backend",
+  "baseline": "tool_choice2b_e3",
+  "baseline_sha256": "ec9ba86b1bcee9e7172b2cb41f02491d4dab9517ec6b9b0024ffe8449e7e4347",
+  "teacher": "D:/minimind/Qwen2.5-1.5B-Instruct",
+  "local_only": true,
+  "no_paid_or_network_calls": true,
+  "teacher_requests": 480,
+  "fixed_supervision": 560,
+  "ordinary_expansion": "each ordinary case once without tools with existing UI system, once with1-6 varied tools/descriptions and no additional system; answers are short complete messages",
+  "training": {
+    "epochs": 3,
+    "lr": 1e-05,
+    "kl": 2.0,
+    "batch": 4,
+    "max_seq": 1536,
+    "num_workers": 2,
+    "seed": 42,
+    "recipe": "full parameter supervised fine tuning from exact v3; CE per row, math first64 answer tokens weight2; KL on600 prior retention rows"
+  },
+  "dev": {
+    "chat_questions": 16,
+    "conditions": 3,
+    "math_source": "round2 development math tasks",
+    "language_n": 100
+  },
+  "final": {
+    "chat_questions": 48,
+    "conditions": 3,
+    "history_math": 197,
+    "other_math": 48,
+    "identity_checks": 14,
+    "language_n": 296
+  },
+  "acceptance": "chat score0-2 gain>=.20 and paired95%CI lower>0; nonidentity score gain>=.20 and CI lower>0; usable score2 fraction gain>=10pp; no-tools usable drop<=5pp; both math groups drop<=5pp; identity full-content usable count drop<=1/14; NLL296 increase<=.05; ordinary nonempty no-call>=90%",
+  "selection": "Choose epoch on dev only: no-call>=90%, devNLL increase<=.05, devmath strict drop<=10pp; rank mean content score then usable fraction then lower loss; final never used for selection",
+  "statistics": "question cluster means over3 conditions;10000 paired bootstrap resamples seed20261028; single training/generation seed; exploratory development is separate",
+  "evaluation_sources": "carry forward previously prepared16/48 prompts; no formal answer has been generated or inspected",
+  "data_leakage": "normalized exact questions excluded from development, final, NLL100/300; not a claim of complete upstream semantic novelty",
+  "input_sha256": {
+    "dev_tasks.json": "2bc4e067e4a80ba051ace94d0d5abac8d53786aa0e83e6c6a3df32d839e04743",
+    "final_tasks.json": "f6b42c1f3c9d6abdb6f3883d339c9593b548ef29548fd5b48dc5b5ef5a6e3e2f",
+    "rubric.json": "041a50e51b2a90ac5682558fe56cdf8f5bfee17c72beddb72d2982293532a66e",
+    "teacher_requests.json": "6ac0049e476ee00c5cb3cb8ebf7af07a03f814ca1028a093d799ca01ba601ca6",
+    "fixed_supervision.json": "94929b875d692f787322d47a08b7c66fbe4f53b0a28ab1baae6d011e1382906f",
+    "math_supervision640.json": "b9c128117de2590097a1e00c8ed8ba1b09472ec5987cd9b1971e198262a2f14e",
+    "retention600.json": "cf454cc69f5440dbd3e8e26cdf0a20c02ef72c5dcc4e663dafde13e6a5399b62"
+  },
+  "train_sha256": "946c7168c7b4b98f3a015e2067514eaf91c1bf4a64537966177d804e5042d0d2",
+  "actual_rows": 2760,
+  "preparation_complete_before_training": true
+}

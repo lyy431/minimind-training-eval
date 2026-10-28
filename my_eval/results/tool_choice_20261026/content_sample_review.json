@@ -1,0 +1,57 @@
+{
+  "reviewer": "assistant, descriptive fixed8-question sample, not independent human or a factual benchmark",
+  "rows": [
+    {
+      "id": "test_no_0",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": true,
+      "note": "原版未给模型与开发者，候选清楚给出MiniMind和Yuyang LU"
+    },
+    {
+      "id": "test_no_1",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": true,
+      "note": "原版把人名说成salary，候选给出正确名字但有重复"
+    },
+    {
+      "id": "test_no_2",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": false,
+      "note": "两者都未正确解释书签，候选仅缩短了错误回答"
+    },
+    {
+      "id": "test_no_3",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": false,
+      "note": "两者都没有解释文件夹用途，候选仍是无意义英文"
+    },
+    {
+      "id": "test_no_4",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": false,
+      "note": "两者均没有提供请求的一句欢迎语，候选重复陪伴话题"
+    },
+    {
+      "id": "test_no_5",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": false,
+      "note": "两者均未写出提醒带笔记本的句子"
+    },
+    {
+      "id": "test_no_6",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": true,
+      "note": "原版串题到字数计算并给错误答案，候选正确回答绿色"
+    },
+    {
+      "id": "test_no_7",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": false,
+      "note": "两者都未回答Friday，候选只说Last day"
+    }
+  ],
+  "baseline_usable": 0,
+  "candidate_usable": 3,
+  "n": 8,
+  "scope": "6 tools, held-out description only; not extrapolated to all dialogue"
+}

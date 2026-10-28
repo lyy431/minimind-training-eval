@@ -1,0 +1,9 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+模型参数: 63.912192 百万 = 0.063912192 B (Billion)
+模型已保存为 Transformers 格式: D:\minimind\minimind-master\my_eval\results\identity_repair_20261024\demo_hf_validated
+check D:\minimind\minimind-master\my_eval\results\identity_repair_20261024\demo_hf_validated: max |logit diff| 2.70e-03, same top-1 token at 100.0% of 36 positions
+`torch_dtype` is deprecated! Use `dtype` instead!
+Traceback (most recent call last):
+  File "D:\minimind\minimind-master\my_eval\scripts\export_identity_demo.py", line 39, in <module>
+    assert diff < 1e-3 and same, checks[-1]
+AssertionError: {'tokens': 26, 'max_logit_difference': 0.00217321515083313, 'same_argmax': True}

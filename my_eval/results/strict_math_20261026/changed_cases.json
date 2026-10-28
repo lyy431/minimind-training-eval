@@ -1,0 +1,4727 @@
+[
+  {
+    "model": "bb_dist",
+    "problem": 1,
+    "sample": 0,
+    "question": "4704/21的结果是什么，还有compute 9210-8220 for me",
+    "gt": [
+      "224",
+      "990"
+    ],
+    "final": "4704除以21的结果是224.0，9210除以21的结果是990。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "224",
+        "lhs": "4704/21",
+        "fragment": "4704/21的结果是224.0"
+      },
+      {
+        "value": "990",
+        "lhs": "9210/21",
+        "fragment": "4704/21的结果是224.0;9210/21的结果是990"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 7,
+    "sample": 0,
+    "question": "What is (336+62)*8?. Plus, compute (695+450)*26 for me. And calculate 108*6877",
+    "gt": [
+      "3184",
+      "29770",
+      "742716"
+    ],
+    "final": "The result of (336+62)*8 is 3184.\nThe result of (695+450)*26 is 229770.\nThe result of 108*6877 is 742716.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "3184",
+        "lhs": "(336+62)*8",
+        "fragment": "The result of (336+62)*8 is 3184"
+      },
+      {
+        "value": "229770",
+        "lhs": "(695+450)*26",
+        "fragment": "The result of (336+62)*8 is 3184.\nThe result of (695+450)*26 is 229770"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 9,
+    "sample": 0,
+    "question": "What is 1260/5?. Also, what is 12**3?. And calculate 3**3",
+    "gt": [
+      "252",
+      "1728",
+      "27"
+    ],
+    "final": "The result of 1260 divided by 5 is 252.0. The result of 12 times 3 is 1728. And the result of 3 is 27.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "252",
+        "lhs": "1260 / 5",
+        "fragment": "The result of 1260 / 5 is 252.0"
+      },
+      {
+        "value": "1728",
+        "lhs": "12 * 3",
+        "fragment": "The result of 1260 / 5 is 252.0. The result of 12 * 3 is 1728"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 12,
+    "sample": 1,
+    "question": "750-774的结果是什么，另外请计算(144-812)+20*94，并且compute 14520/30 for me",
+    "gt": [
+      "-24",
+      "1212",
+      "484"
+    ],
+    "final": "750-774的结果是-24。(144-812)+20*94的结果是1212。\n\n(14520/30)加上20*94的结果是484.0。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "-24",
+        "lhs": "750-774",
+        "fragment": "750-774的结果是-24"
+      },
+      {
+        "value": "1212",
+        "lhs": "(144-812)+20*94",
+        "fragment": "750-774的结果是-24。(144-812)+20*94的结果是1212"
+      },
+      {
+        "value": "484",
+        "lhs": "(14520/30)+20*94",
+        "fragment": "750-774的结果是-24。(144-812)+20*94的结果是1212。\n\n(14520/30)+20*94的结果是484.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 14,
+    "sample": 1,
+    "question": "帮我算一下(476-555)+99*23等于多少，顺便请计算(701+247)*20",
+    "gt": [
+      "2198",
+      "18960"
+    ],
+    "final": "计算结果如下：\n\n1. (476 - 555) + 999 * 23 = 2198\n2. (701 + 247) * 20 = 18960\n3. (701 + 247) * 20 = 18960",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2198",
+        "lhs": "(476 - 555) + 999 * 23",
+        "fragment": "计算结果如下:\n\n1. (476 - 555) + 999 * 23 = 2198"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 17,
+    "sample": 1,
+    "question": "算算2325/5，顺便compute (142+945)*23 for me，顺便算算7**3",
+    "gt": [
+      "465",
+      "25001",
+      "343"
+    ],
+    "final": "2325除以5的结果是465.0；(142加上945)再乘以23的结果是25001；7的三次方等于343。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "465",
+        "lhs": "2325/5",
+        "fragment": "2325/5的结果是465.0"
+      },
+      {
+        "value": "25001",
+        "lhs": "(142+945)",
+        "fragment": "2325/5的结果是465.0;(142+945)再*23的结果是25001"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 18,
+    "sample": 0,
+    "question": "请计算(859+685)*10，顺便(460-43)+92*76的结果是什么，另外请计算2**3",
+    "gt": [
+      "15440",
+      "7409",
+      "8"
+    ],
+    "final": "计算结果如下：\n\n1. (859 + 685) * 10 = 15440\n2. 460 - 43 = 7409\n3. 2^3 = 8\n\n所以，(859 + 685) * 10 的结果是 7409。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "15440",
+        "lhs": "(859 + 685) * 10",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440"
+      },
+      {
+        "value": "7409",
+        "lhs": "460 - 43",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440\n2. 460 - 43 = 7409"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 18,
+    "sample": 1,
+    "question": "请计算(859+685)*10，顺便(460-43)+92*76的结果是什么，另外请计算2**3",
+    "gt": [
+      "15440",
+      "7409",
+      "8"
+    ],
+    "final": "计算结果如下：\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "missing_or_unparsed_answer",
+    "claims": [
+      {
+        "value": "15440",
+        "lhs": "(859 + 685) * 10",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440"
+      },
+      {
+        "value": "7409",
+        "lhs": "(460 - 43) + 92 * 76",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409"
+      }
+    ],
+    "review_key": "017584dd9b8c7d0de1a3b2058751f4ef07f6b11b40a94692692998def7ba3174",
+    "final_pass": false,
+    "adjudication": "缺少至少一个所求数值结果"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 21,
+    "sample": 1,
+    "question": "Calculate 4807/11. Additionally, (273-423)+36*87的结果是什么",
+    "gt": [
+      "437",
+      "2982"
+    ],
+    "final": "The result of 4807 divided by 11 is 437.0. The result of (273-423) plus 36 multiplied by 87 is 22982.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "437",
+        "lhs": "4807 / 11",
+        "fragment": "The result of 4807 / 11 is 437.0"
+      },
+      {
+        "value": "22982",
+        "lhs": "(273-423) + 36 * 87",
+        "fragment": "The result of 4807 / 11 is 437.0. The result of (273-423) + 36 * 87 is 22982"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 35,
+    "sample": 0,
+    "question": "What is (262+748)*4?",
+    "gt": [
+      "4040"
+    ],
+    "final": "The result of the expression \\(262 + 748\\) is 4040.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "4040",
+        "lhs": "262 + 748",
+        "fragment": "The result of the expression 262 + 748 is 4040"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 38,
+    "sample": 0,
+    "question": "请计算(203-89)+48*39，还有calculate 9716+481",
+    "gt": [
+      "1986",
+      "10197"
+    ],
+    "final": "计算结果如下：\n\n1. \\((203 - 89) + 48 \\times 39 = 1986\\)\n2. \\(9716 + 48 \\times 39 = 10197\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1986",
+        "lhs": "(203 - 89) + 48 * 39",
+        "fragment": "计算结果如下:\n\n1. (203 - 89) + 48 * 39 = 1986"
+      },
+      {
+        "value": "10197",
+        "lhs": "9716 + 48 * 39",
+        "fragment": "计算结果如下:\n\n1. (203 - 89) + 48 * 39 = 1986\n2. 9716 + 48 * 39 = 10197"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 38,
+    "sample": 1,
+    "question": "请计算(203-89)+48*39，还有calculate 9716+481",
+    "gt": [
+      "1986",
+      "10197"
+    ],
+    "final": "计算结果如下：\n\n1. (203 - 89) + 48 * 39 = 1986\n2. 9716 + 48 * 39 = 10197",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1986",
+        "lhs": "(203 - 89) + 48 * 39",
+        "fragment": "计算结果如下:\n\n1. (203 - 89) + 48 * 39 = 1986"
+      },
+      {
+        "value": "10197",
+        "lhs": "9716 + 48 * 39",
+        "fragment": "计算结果如下:\n\n1. (203 - 89) + 48 * 39 = 1986\n2. 9716 + 48 * 39 = 10197"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 43,
+    "sample": 0,
+    "question": "请计算309+400*12，还有compute 917+953*23 for me，同时compute (158-817)+21*91 for me",
+    "gt": [
+      "5109",
+      "22836",
+      "1252"
+    ],
+    "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5109",
+        "lhs": "309 + 400 * 12",
+        "fragment": "计算结果如下:\n\n1. 309 + 400 * 12 = 5109"
+      },
+      {
+        "value": "222836",
+        "lhs": "917 + 953 * 23",
+        "fragment": "计算结果如下:\n\n1. 309 + 400 * 12 = 5109\n2. 917 + 953 * 23 = 222836"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 48,
+    "sample": 0,
+    "question": "374+343*30的结果是什么，并且817/19的结果是什么",
+    "gt": [
+      "10664",
+      "43"
+    ],
+    "final": "374+343*30的结果是10664。",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "missing_or_unparsed_answer",
+    "claims": [
+      {
+        "value": "10664",
+        "lhs": "374+343*30",
+        "fragment": "374+343*30的结果是10664"
+      }
+    ],
+    "review_key": "9527ce2f1c1769802ebf85d9f79d221207f798884fdccb76dfed5fb32dc83f92",
+    "final_pass": false,
+    "adjudication": "缺少至少一个所求数值结果"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 54,
+    "sample": 0,
+    "question": "What is 7686/21?. Additionally, what is 525/21?. And 请计算3312/16",
+    "gt": [
+      "366",
+      "25",
+      "207"
+    ],
+    "final": "The result of 7686 divided by 21 is 366.0.\nThe result of 525 divided by 16 is 25.0.\nThe result of 33312 divided by 16 is 207.0.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "366",
+        "lhs": "7686 / 21",
+        "fragment": "The result of 7686 / 21 is 366.0"
+      },
+      {
+        "value": "25",
+        "lhs": "525 / 16",
+        "fragment": "The result of 7686 / 21 is 366.0.\nThe result of 525 / 16 is 25.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 55,
+    "sample": 0,
+    "question": "6474*9676的结果是什么，顺便what is 13**3?，并且compute 6**3 for me",
+    "gt": [
+      "62642424",
+      "2197",
+      "216"
+    ],
+    "final": "6474*9676的结果是62642424。13的三次方是2197。13的三次方是216。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "62642424",
+        "lhs": "6474*9676",
+        "fragment": "6474*9676的结果是62642424"
+      },
+      {
+        "value": "2197",
+        "lhs": "13**3",
+        "fragment": "6474*9676的结果是62642424。13**3是2197"
+      },
+      {
+        "value": "216",
+        "lhs": "13**3",
+        "fragment": "6474*9676的结果是62642424。13**3是2197。13**3是216"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 62,
+    "sample": 1,
+    "question": "帮我算一下19**2等于多少，另外calculate 6**2，同时what is 287+183*10?",
+    "gt": [
+      "361",
+      "36",
+      "2117"
+    ],
+    "final": "19的平方是361，287加上183乘以10的结果是36。287加上183乘以10的结果是2117。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "361",
+        "lhs": "19**2",
+        "fragment": "19**2是361"
+      },
+      {
+        "value": "36",
+        "lhs": "287+183*10",
+        "fragment": "19**2是361;287+183*10的结果是36"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 71,
+    "sample": 0,
+    "question": "Compute 4600-3841 for me. Also, 算算2280/5. Also, compute 228+936*12 for me",
+    "gt": [
+      "759",
+      "456",
+      "11460"
+    ],
+    "final": "The result of 4600 - 3841 is 759.\nThe result of 228 + 936 * 12 is 456.0.\nThe result of 228 + 936 * 12 is 11460.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "759",
+        "lhs": "4600 - 3841",
+        "fragment": "The result of 4600 - 3841 is 759"
+      },
+      {
+        "value": "456",
+        "lhs": "228 + 936 * 12",
+        "fragment": "The result of 4600 - 3841 is 759.\nThe result of 228 + 936 * 12 is 456.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 71,
+    "sample": 1,
+    "question": "Compute 4600-3841 for me. Also, 算算2280/5. Also, compute 228+936*12 for me",
+    "gt": [
+      "759",
+      "456",
+      "11460"
+    ],
+    "final": "The result of 4600 - 3841 is 759.\nThe result of 228 + 936 * 12 is 456.0.\nThe result of 228 + 936 * 12 is 11460.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "759",
+        "lhs": "4600 - 3841",
+        "fragment": "The result of 4600 - 3841 is 759"
+      },
+      {
+        "value": "456",
+        "lhs": "228 + 936 * 12",
+        "fragment": "The result of 4600 - 3841 is 759.\nThe result of 228 + 936 * 12 is 456.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 77,
+    "sample": 1,
+    "question": "3707-870的结果是什么，另外what is (799+360)*22?，同时(17+409)*11的结果是什么",
+    "gt": [
+      "2837",
+      "25498",
+      "4686"
+    ],
+    "final": "3707 等于 2837；(799 + 360) * 22 的结果是 25498；(17 + 409) * 11 的结果是 4686。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2837",
+        "lhs": "3707",
+        "fragment": "3707 等于 2837"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 88,
+    "sample": 0,
+    "question": "请计算(742+427)*16，顺便compute 4750/25 for me",
+    "gt": [
+      "18704",
+      "190"
+    ],
+    "final": "计算结果如下：\n\n(742 + 427) * 16 = 18704\n\n(-742 + 427) * 16 = 190.0",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "18704",
+        "lhs": "(742 + 427) * 16",
+        "fragment": "计算结果如下:\n\n(742 + 427) * 16 = 18704"
+      },
+      {
+        "value": "190",
+        "lhs": "(-742 + 427) * 16",
+        "fragment": "计算结果如下:\n\n(742 + 427) * 16 = 18704\n\n(-742 + 427) * 16 = 190.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 96,
+    "sample": 1,
+    "question": "算算8285+2596，并且帮我算一下1617-232等于多少，同时calculate 406+103*13",
+    "gt": [
+      "10881",
+      "1385",
+      "1745"
+    ],
+    "final": "8285 + 2596 的结果是 10881。1617 减去 232 的结果是 1385。406 加上 103 的和是 1745。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "10881",
+        "lhs": "8285 + 2596",
+        "fragment": "8285 + 2596 的结果是 10881"
+      },
+      {
+        "value": "1385",
+        "lhs": "1617 - 232",
+        "fragment": "8285 + 2596 的结果是 10881。1617 - 232 的结果是 1385"
+      },
+      {
+        "value": "1745",
+        "lhs": "406 + 103",
+        "fragment": "8285 + 2596 的结果是 10881。1617 - 232 的结果是 1385。406 + 103 的和是 1745"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 98,
+    "sample": 1,
+    "question": "请计算4**2，还有算算1745+7050，另外算算(151-395)+44*4",
+    "gt": [
+      "16",
+      "8795",
+      "-68"
+    ],
+    "final": "计算结果如下：\n- \\( \\frac{4^2}{2^2} = 16 \\)\n- \\( 1745 + 7050 = 8795 \\)\n- \\( (151 - 395) + 44 \\times 4 = -68 \\)",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "review_key": "c71e2d8db6c2b6db09368243d7a5c37e149fd20a6c7d8ce8765134f239542f3f",
+    "final_pass": false,
+    "adjudication": "4^2/2^2等于4而非16"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 102,
+    "sample": 1,
+    "question": "Compute 6419-6525 for me. And calculate 20**3. Also, what is 818+783*5?",
+    "gt": [
+      "-106",
+      "8000",
+      "4733"
+    ],
+    "final": "The result of 6419 minus 6525 is -106.\nThe result of 20 squared is 8000.\nThe result of 818 plus 783 multiplied by 5 is 4733.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "-106",
+        "lhs": "6419 - 6525",
+        "fragment": "The result of 6419 - 6525 is -106"
+      },
+      {
+        "value": "8000",
+        "lhs": "20 **2",
+        "fragment": "The result of 6419 - 6525 is -106.\nThe result of 20 **2 is 8000"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 109,
+    "sample": 1,
+    "question": "Compute 9019+3146 for me. Also, (780-895)+5*14的结果是什么. Also, (856-854)+63*15的结果是什么",
+    "gt": [
+      "12165",
+      "-45",
+      "947"
+    ],
+    "final": "The results of the calculations are as follows:\n\n1. For the expression 9019 + 3146: **12165**.\n2. For the expression 9019 + 3146: **-45**.\n3. For the expression 947: **-45**.",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "no_supported_explicit_claim",
+    "claims": [],
+    "review_key": "20deb697ee790dc5ad66e68acf43167fd79773da8ec6a1ebdf7a2248776777ae",
+    "final_pass": false,
+    "adjudication": "把-45配给9019+3146，且缺947"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 110,
+    "sample": 0,
+    "question": "Compute 6**2 for me. And (437+496)*8的结果是什么. Additionally, 算算(246+396)*26",
+    "gt": [
+      "36",
+      "7464",
+      "16692"
+    ],
+    "final": "The result of 6 raised to the power of 3 is 36.\nThe result of (437+496)*8 is 7464.\nThe result of (246+396)*26 is 16692.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "36",
+        "lhs": "6 ** 3",
+        "fragment": "The result of 6 ** 3 is 36"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 110,
+    "sample": 1,
+    "question": "Compute 6**2 for me. And (437+496)*8的结果是什么. Additionally, 算算(246+396)*26",
+    "gt": [
+      "36",
+      "7464",
+      "16692"
+    ],
+    "final": "The result of 6 squared is 36, and the result of (437 + 496)*8 is 7464.\nThe result of (246 + 396) * 8 is 16692.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "36",
+        "lhs": "6 **2",
+        "fragment": "The result of 6 **2 is 36"
+      },
+      {
+        "value": "7464",
+        "lhs": "(437 + 496)*8",
+        "fragment": "The result of 6 **2 is 36, and the result of (437 + 496)*8 is 7464"
+      },
+      {
+        "value": "16692",
+        "lhs": "(246 + 396) * 8",
+        "fragment": "The result of 6 **2 is 36, and the result of (437 + 496)*8 is 7464.\nThe result of (246 + 396) * 8 is 16692"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 113,
+    "sample": 0,
+    "question": "帮我算一下(690+769)*14等于多少，顺便请计算907+702*13",
+    "gt": [
+      "20426",
+      "10033"
+    ],
+    "final": "计算结果如下：\n\n1. \\((690 + 769) \\times 14 = 20426\\)\n2. \\(907 + 769 \\times 13 = 10033\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "20426",
+        "lhs": "(690 + 769) * 14",
+        "fragment": "计算结果如下:\n\n1. (690 + 769) * 14 = 20426"
+      },
+      {
+        "value": "10033",
+        "lhs": "907 + 769 * 13",
+        "fragment": "计算结果如下:\n\n1. (690 + 769) * 14 = 20426\n2. 907 + 769 * 13 = 10033"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 113,
+    "sample": 1,
+    "question": "帮我算一下(690+769)*14等于多少，顺便请计算907+702*13",
+    "gt": [
+      "20426",
+      "10033"
+    ],
+    "final": "计算结果如下：\n\n1. (690 + 769) * 14 = 20426\n2. 907 + 769 = 10033\n3. 907 + 702 * 13 = 10033",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "20426",
+        "lhs": "(690 + 769) * 14",
+        "fragment": "计算结果如下:\n\n1. (690 + 769) * 14 = 20426"
+      },
+      {
+        "value": "10033",
+        "lhs": "907 + 769",
+        "fragment": "计算结果如下:\n\n1. (690 + 769) * 14 = 20426\n2. 907 + 769 = 10033"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 127,
+    "sample": 0,
+    "question": "What is 743+781*17?. And 3+922*22的结果是什么. Plus, 帮我算一下(815+513)*19等于多少",
+    "gt": [
+      "14020",
+      "20287",
+      "25232"
+    ],
+    "final": "The result of 743 + 781 * 17 is 14020.\nThe result of (815 + 513) * 19 is 20287.\nAnd the result of (815 + 513) * 19 is 25232.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "14020",
+        "lhs": "743 + 781 * 17",
+        "fragment": "The result of 743 + 781 * 17 is 14020"
+      },
+      {
+        "value": "20287",
+        "lhs": "(815 + 513) * 19",
+        "fragment": "The result of 743 + 781 * 17 is 14020.\nThe result of (815 + 513) * 19 is 20287"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 143,
+    "sample": 0,
+    "question": "Compute 4809*6884 for me. And 请计算(889+103)*18. Additionally, compute 6577+4006 for me",
+    "gt": [
+      "33105156",
+      "17856",
+      "10583"
+    ],
+    "final": "The result of 4809*6884 is 333105156.\nThe result of (889+103)*18 is 17856.\nThe result of 6577+4006 is 10583.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "333105156",
+        "lhs": "4809*6884",
+        "fragment": "The result of 4809*6884 is 333105156"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 154,
+    "sample": 0,
+    "question": "(344+736)*13的结果是什么，还有算算(801+483)*2，另外8098+8196的结果是什么",
+    "gt": [
+      "14040",
+      "2568",
+      "16294"
+    ],
+    "final": "计算结果如下：\n\n1. (344 + 736) * 13 = 14040\n2. (801 + 483) * 2 = 2568\n3. 8198 + 8196 = 16294",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "14040",
+        "lhs": "(344 + 736) * 13",
+        "fragment": "计算结果如下:\n\n1. (344 + 736) * 13 = 14040"
+      },
+      {
+        "value": "2568",
+        "lhs": "(801 + 483) * 2",
+        "fragment": "计算结果如下:\n\n1. (344 + 736) * 13 = 14040\n2. (801 + 483) * 2 = 2568"
+      },
+      {
+        "value": "16294",
+        "lhs": "8198 + 8196",
+        "fragment": "计算结果如下:\n\n1. (344 + 736) * 13 = 14040\n2. (801 + 483) * 2 = 2568\n3. 8198 + 8196 = 16294"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 166,
+    "sample": 0,
+    "question": "请计算1248/16，同时compute 520+321*5 for me",
+    "gt": [
+      "78",
+      "2125"
+    ],
+    "final": "计算结果如下：\n\n- \\(1248 \\div 16 = 78.0\\)\n- \\(520 + 321 \\times 5 = 2125\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2125",
+        "lhs": "- 520 + 321 * 5",
+        "fragment": "计算结果如下:\n\n- 1248 / 16 = 78.0\n- 520 + 321 * 5 = 2125"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 168,
+    "sample": 1,
+    "question": "Compute 3244-519 for me. Plus, compute 475/25 for me. Additionally, what is 725+330*21?",
+    "gt": [
+      "2725",
+      "19",
+      "7655"
+    ],
+    "final": "The result of 3244 - 519 is 2725.\nThe result of 475 divided by 25 is 19.0.\nThe result of 725 divided by 25 is 7655.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2725",
+        "lhs": "3244 - 519",
+        "fragment": "The result of 3244 - 519 is 2725"
+      },
+      {
+        "value": "19",
+        "lhs": "475 / 25",
+        "fragment": "The result of 3244 - 519 is 2725.\nThe result of 475 / 25 is 19.0"
+      },
+      {
+        "value": "7655",
+        "lhs": "725 / 25",
+        "fragment": "The result of 3244 - 519 is 2725.\nThe result of 475 / 25 is 19.0.\nThe result of 725 / 25 is 7655"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 169,
+    "sample": 0,
+    "question": "Calculate 19**2. Plus, 算算15**3. Additionally, (840+6)*11的结果是什么",
+    "gt": [
+      "361",
+      "3375",
+      "9306"
+    ],
+    "final": "The result of 19 cubed is 361.\nThe result of 15 cubed is 3375.\nThe result of (840+6)*11 is 9306.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "361",
+        "lhs": "19 **3",
+        "fragment": "The result of 19 **3 is 361"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 176,
+    "sample": 1,
+    "question": "What is 5467-5244?. Plus, calculate 610/5",
+    "gt": [
+      "223",
+      "122"
+    ],
+    "final": "The result of 5467 minus 5244 is 223.0. The result of 610 minus 5244 is 122.0.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "223",
+        "lhs": "5467 - 5244",
+        "fragment": "The result of 5467 - 5244 is 223.0"
+      },
+      {
+        "value": "122",
+        "lhs": "610 - 5244",
+        "fragment": "The result of 5467 - 5244 is 223.0. The result of 610 - 5244 is 122.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 191,
+    "sample": 0,
+    "question": "算算655+95*30",
+    "gt": [
+      "3505"
+    ],
+    "final": "655 加上 95 等于 3505。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "3505",
+        "lhs": "655 + 95",
+        "fragment": "655 + 95 等于 3505"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 193,
+    "sample": 0,
+    "question": "What is 861+601*7?. Also, calculate 2525*3946. Also, 1317-9066的结果是什么",
+    "gt": [
+      "5068",
+      "9963650",
+      "-7749"
+    ],
+    "final": "The result of 861 + 601 * 7 is 5068.\nThe result of 2525 * 3946 is 99963650.\nAnd 1317 - 9066 is -7749.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5068",
+        "lhs": "861 + 601 * 7",
+        "fragment": "The result of 861 + 601 * 7 is 5068"
+      },
+      {
+        "value": "99963650",
+        "lhs": "2525 * 3946",
+        "fragment": "The result of 861 + 601 * 7 is 5068.\nThe result of 2525 * 3946 is 99963650"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 193,
+    "sample": 1,
+    "question": "What is 861+601*7?. Also, calculate 2525*3946. Also, 1317-9066的结果是什么",
+    "gt": [
+      "5068",
+      "9963650",
+      "-7749"
+    ],
+    "final": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650.\nAnd the result of 1317-9066 is -7749.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5068",
+        "lhs": "861+601*7",
+        "fragment": "The result of 861+601*7 is 5068"
+      },
+      {
+        "value": "99963650",
+        "lhs": "2525*3946",
+        "fragment": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 197,
+    "sample": 0,
+    "question": "What is (188-414)+10*67?. Plus, 5403*4447的结果是什么. Plus, 算算4180/10",
+    "gt": [
+      "444",
+      "24027141",
+      "418"
+    ],
+    "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180/10.",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unevaluated_result",
+    "claims": [
+      {
+        "value": "444",
+        "lhs": "(188-414)+10*67",
+        "fragment": "The result of (188-414)+10*67 is 444"
+      },
+      {
+        "value": "24027141",
+        "lhs": "5403*4447",
+        "fragment": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141"
+      }
+    ],
+    "review_key": "8515a3359e916fe507dd2b5859a443fe45a7c097c636b959b7205f4e81ce9375",
+    "final_pass": false,
+    "adjudication": "仅重复4180/10，没有给出求值结果418"
+  },
+  {
+    "model": "bb_dist",
+    "problem": 197,
+    "sample": 1,
+    "question": "What is (188-414)+10*67?. Plus, 5403*4447的结果是什么. Plus, 算算4180/10",
+    "gt": [
+      "444",
+      "24027141",
+      "418"
+    ],
+    "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "444",
+        "lhs": "(188-414)+10*67",
+        "fragment": "The result of (188-414)+10*67 is 444"
+      },
+      {
+        "value": "24027141",
+        "lhs": "5403*4447",
+        "fragment": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141"
+      },
+      {
+        "value": "4180",
+        "lhs": "4180/10",
+        "fragment": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 1,
+    "sample": 0,
+    "question": "4704/21的结果是什么，还有compute 9210-8220 for me",
+    "gt": [
+      "224",
+      "990"
+    ],
+    "final": "4704除以21的结果是224.0，9210除以8的商是990。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "224",
+        "lhs": "4704/21",
+        "fragment": "4704/21的结果是224.0"
+      },
+      {
+        "value": "990",
+        "lhs": "9210/8",
+        "fragment": "4704/21的结果是224.0;9210/8的商是990"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 2,
+    "sample": 0,
+    "question": "(347+84)*15的结果是什么，同时帮我算一下8069*6563等于多少，并且calculate 15**3",
+    "gt": [
+      "6465",
+      "52956847",
+      "3375"
+    ],
+    "final": "计算结果如下：\n\n1. (347 + 84) * 15 = 66465\n2. 8069 * 6563 = 52956847\n3. 15^3 = 33375",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "66465",
+        "lhs": "(347 + 84) * 15",
+        "fragment": "计算结果如下:\n\n1. (347 + 84) * 15 = 66465"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 2,
+    "sample": 1,
+    "question": "(347+84)*15的结果是什么，同时帮我算一下8069*6563等于多少，并且calculate 15**3",
+    "gt": [
+      "6465",
+      "52956847",
+      "3375"
+    ],
+    "final": "计算结果如下：\n\n1. (347 + 84) * 15 = 66465\n2. 8069 * 6563 = 52956847\n3. 15^3 = 33375",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "66465",
+        "lhs": "(347 + 84) * 15",
+        "fragment": "计算结果如下:\n\n1. (347 + 84) * 15 = 66465"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 3,
+    "sample": 1,
+    "question": "帮我算一下18**2等于多少，顺便请计算186+467*2，同时算算(997-606)+51*77",
+    "gt": [
+      "324",
+      "1120",
+      "4318"
+    ],
+    "final": "18的平方等于324，186加上467乘以2的结果是1120。\n\n(997-606)+51*77=1120。\n\n(997-606)+51*77=4318。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "324",
+        "lhs": "18**2",
+        "fragment": "18**2等于324"
+      },
+      {
+        "value": "1120",
+        "lhs": "186+467*2",
+        "fragment": "18**2等于324;186+467*2的结果是1120"
+      },
+      {
+        "value": "1120",
+        "lhs": "(997-606)+51*77",
+        "fragment": "18**2等于324;186+467*2的结果是1120。\n\n(997-606)+51*77=1120"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 6,
+    "sample": 1,
+    "question": "Calculate 579-5283. Also, 帮我算一下(539-173)+57*28等于多少. Additionally, 2227+252的结果是什么",
+    "gt": [
+      "-4704",
+      "1962",
+      "2479"
+    ],
+    "final": "The result of 579-5283 is -4704. The sum of 539-173 is 1962. And the difference between the results of the numbers in a json object with the result is 2479.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "-4704",
+        "lhs": "579-5283",
+        "fragment": "The result of 579-5283 is -4704"
+      },
+      {
+        "value": "1962",
+        "lhs": "539-173",
+        "fragment": "The result of 579-5283 is -4704. The sum of 539-173 is 1962"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 7,
+    "sample": 0,
+    "question": "What is (336+62)*8?. Plus, compute (695+450)*26 for me. And calculate 108*6877",
+    "gt": [
+      "3184",
+      "29770",
+      "742716"
+    ],
+    "final": "The result of (336+62)*8 is 3184.\nThe result of (695+450)*26 is 229770.\nAnd the result of 108*6877 is 742716.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "3184",
+        "lhs": "(336+62)*8",
+        "fragment": "The result of (336+62)*8 is 3184"
+      },
+      {
+        "value": "229770",
+        "lhs": "(695+450)*26",
+        "fragment": "The result of (336+62)*8 is 3184.\nThe result of (695+450)*26 is 229770"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 8,
+    "sample": 1,
+    "question": "What is (74+159)*2?. Additionally, 16**3的结果是什么",
+    "gt": [
+      "466",
+      "4096"
+    ],
+    "final": "The result of (74+159)*2 is 466. The sum of 16 squared is 4096.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "466",
+        "lhs": "(74+159)*2",
+        "fragment": "The result of (74+159)*2 is 466"
+      },
+      {
+        "value": "4096",
+        "lhs": "16 **2",
+        "fragment": "The result of (74+159)*2 is 466. The sum of 16 **2 is 4096"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 12,
+    "sample": 1,
+    "question": "750-774的结果是什么，另外请计算(144-812)+20*94，并且compute 14520/30 for me",
+    "gt": [
+      "-24",
+      "1212",
+      "484"
+    ],
+    "final": "750-774的结果是-24。(144-812)+20*94的结果是1212。\n\n(14520/30)加上20*94的结果是484.0。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "-24",
+        "lhs": "750-774",
+        "fragment": "750-774的结果是-24"
+      },
+      {
+        "value": "1212",
+        "lhs": "(144-812)+20*94",
+        "fragment": "750-774的结果是-24。(144-812)+20*94的结果是1212"
+      },
+      {
+        "value": "484",
+        "lhs": "(14520/30)+20*94",
+        "fragment": "750-774的结果是-24。(144-812)+20*94的结果是1212。\n\n(14520/30)+20*94的结果是484.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 14,
+    "sample": 0,
+    "question": "帮我算一下(476-555)+99*23等于多少，顺便请计算(701+247)*20",
+    "gt": [
+      "2198",
+      "18960"
+    ],
+    "final": "计算结果如下：\n\n1. (476 - 555) + 999 * 23 = 2198\n2. (701 + 247) * 20 = 18960",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2198",
+        "lhs": "(476 - 555) + 999 * 23",
+        "fragment": "计算结果如下:\n\n1. (476 - 555) + 999 * 23 = 2198"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 14,
+    "sample": 1,
+    "question": "帮我算一下(476-555)+99*23等于多少，顺便请计算(701+247)*20",
+    "gt": [
+      "2198",
+      "18960"
+    ],
+    "final": "计算结果如下：\n\n1. (476 - 555) + 999 * 23 = 2198\n2. (701 + 247) * 20 = 18960\n3. (701 + 247) * 20 = 18960",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2198",
+        "lhs": "(476 - 555) + 999 * 23",
+        "fragment": "计算结果如下:\n\n1. (476 - 555) + 999 * 23 = 2198"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 18,
+    "sample": 0,
+    "question": "请计算(859+685)*10，顺便(460-43)+92*76的结果是什么，另外请计算2**3",
+    "gt": [
+      "15440",
+      "7409",
+      "8"
+    ],
+    "final": "计算结果如下：\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409\n3. 2^3 = 8\n\n所以，(859 + 685) * 10 的结果是 7409。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "15440",
+        "lhs": "(859 + 685) * 10",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440"
+      },
+      {
+        "value": "7409",
+        "lhs": "(460 - 43) + 92 * 76",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409"
+      },
+      {
+        "value": "8",
+        "lhs": "2**3",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409\n3. 2**3 = 8"
+      },
+      {
+        "value": "7409",
+        "lhs": "(859 + 685) * 10",
+        "fragment": "结果如下:\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409\n3. 2**3 = 8\n\n所以;(859 + 685) * 10 的结果是 7409"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 18,
+    "sample": 1,
+    "question": "请计算(859+685)*10，顺便(460-43)+92*76的结果是什么，另外请计算2**3",
+    "gt": [
+      "15440",
+      "7409",
+      "8"
+    ],
+    "final": "计算结果如下：\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "missing_or_unparsed_answer",
+    "claims": [
+      {
+        "value": "15440",
+        "lhs": "(859 + 685) * 10",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440"
+      },
+      {
+        "value": "7409",
+        "lhs": "(460 - 43) + 92 * 76",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409"
+      }
+    ],
+    "review_key": "017584dd9b8c7d0de1a3b2058751f4ef07f6b11b40a94692692998def7ba3174",
+    "final_pass": false,
+    "adjudication": "缺少至少一个所求数值结果"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 21,
+    "sample": 0,
+    "question": "Calculate 4807/11. Additionally, (273-423)+36*87的结果是什么",
+    "gt": [
+      "437",
+      "2982"
+    ],
+    "final": "The result of 4807 divided by 11 is 437.0. The sum of 273 divided by 87 is 22982.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "437",
+        "lhs": "4807 / 11",
+        "fragment": "The result of 4807 / 11 is 437.0"
+      },
+      {
+        "value": "22982",
+        "lhs": "273 / 87",
+        "fragment": "The result of 4807 / 11 is 437.0. The sum of 273 / 87 is 22982"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 31,
+    "sample": 1,
+    "question": "Compute 346+707*5 for me. Also, what is 18**2?",
+    "gt": [
+      "3881",
+      "324"
+    ],
+    "final": "The result of 346+707*5 is 3881. The sum of 18 and 18 is 324.",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "mixed_or_extra_positional_claims,unparsed_numeric_clause,unparsed_numeric_lhs",
+    "claims": [
+      {
+        "value": "3881",
+        "lhs": "346+707*5",
+        "fragment": "The result of 346+707*5 is 3881"
+      },
+      {
+        "value": "324",
+        "lhs": null,
+        "fragment": "The result of 346+707*5 is 3881. The sum of 18 and 18 is 324"
+      }
+    ],
+    "review_key": "62d41e98664d5224dc06c467fb9a523c575b482e9667d55d3d56c9899cc80ff2",
+    "final_pass": false,
+    "adjudication": "声称18与18之和为324，错误"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 33,
+    "sample": 0,
+    "question": "What is 759+900*21?. Also, 2700/30的结果是什么",
+    "gt": [
+      "19659",
+      "90"
+    ],
+    "final": "The result of 759 + 900 * 21 is 19659. The sum of 2700 and 30 is 90.0.",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "mixed_or_extra_positional_claims,unparsed_numeric_clause,unparsed_numeric_lhs",
+    "claims": [
+      {
+        "value": "19659",
+        "lhs": "759 + 900 * 21",
+        "fragment": "The result of 759 + 900 * 21 is 19659"
+      },
+      {
+        "value": "90",
+        "lhs": null,
+        "fragment": "The result of 759 + 900 * 21 is 19659. The sum of 2700 and 30 is 90.0"
+      }
+    ],
+    "review_key": "463751980a9dd6e360b2848fc0f24efaf0e3d696fb1d3147a92d7bd754a3799b",
+    "final_pass": false,
+    "adjudication": "声称2700与30之和为90，错误"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 35,
+    "sample": 0,
+    "question": "What is (262+748)*4?",
+    "gt": [
+      "4040"
+    ],
+    "final": "The result of the expression \\(262 + 748\\) is 4040.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "4040",
+        "lhs": "262 + 748",
+        "fragment": "The result of the expression 262 + 748 is 4040"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 38,
+    "sample": 1,
+    "question": "请计算(203-89)+48*39，还有calculate 9716+481",
+    "gt": [
+      "1986",
+      "10197"
+    ],
+    "final": "计算结果如下：\n\n1. (203 - 89) + 48 * 39 = 1986\n2. 9716 + 48 * 39 = 10197",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1986",
+        "lhs": "(203 - 89) + 48 * 39",
+        "fragment": "计算结果如下:\n\n1. (203 - 89) + 48 * 39 = 1986"
+      },
+      {
+        "value": "10197",
+        "lhs": "9716 + 48 * 39",
+        "fragment": "计算结果如下:\n\n1. (203 - 89) + 48 * 39 = 1986\n2. 9716 + 48 * 39 = 10197"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 43,
+    "sample": 0,
+    "question": "请计算309+400*12，还有compute 917+953*23 for me，同时compute (158-817)+21*91 for me",
+    "gt": [
+      "5109",
+      "22836",
+      "1252"
+    ],
+    "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5109",
+        "lhs": "309 + 400 * 12",
+        "fragment": "计算结果如下:\n\n1. 309 + 400 * 12 = 5109"
+      },
+      {
+        "value": "222836",
+        "lhs": "917 + 953 * 23",
+        "fragment": "计算结果如下:\n\n1. 309 + 400 * 12 = 5109\n2. 917 + 953 * 23 = 222836"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 43,
+    "sample": 1,
+    "question": "请计算309+400*12，还有compute 917+953*23 for me，同时compute (158-817)+21*91 for me",
+    "gt": [
+      "5109",
+      "22836",
+      "1252"
+    ],
+    "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5109",
+        "lhs": "309 + 400 * 12",
+        "fragment": "计算结果如下:\n\n1. 309 + 400 * 12 = 5109"
+      },
+      {
+        "value": "222836",
+        "lhs": "917 + 953 * 23",
+        "fragment": "计算结果如下:\n\n1. 309 + 400 * 12 = 5109\n2. 917 + 953 * 23 = 222836"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 47,
+    "sample": 0,
+    "question": "What is 691+319*9?. Plus, compute 4719/11 for me",
+    "gt": [
+      "3562",
+      "429"
+    ],
+    "final": "The result of 691 + 319 * 9 is 3562. The sum of 4719 and 11 is 429.0.",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "mixed_or_extra_positional_claims,unparsed_numeric_clause,unparsed_numeric_lhs",
+    "claims": [
+      {
+        "value": "3562",
+        "lhs": "691 + 319 * 9",
+        "fragment": "The result of 691 + 319 * 9 is 3562"
+      },
+      {
+        "value": "429",
+        "lhs": null,
+        "fragment": "The result of 691 + 319 * 9 is 3562. The sum of 4719 and 11 is 429.0"
+      }
+    ],
+    "review_key": "8549170480893f3f161db7b4645be8ff75ab4ce5c98a1c23e4f629a3590fdfc1",
+    "final_pass": false,
+    "adjudication": "声称4719与11之和为429，错误"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 55,
+    "sample": 0,
+    "question": "6474*9676的结果是什么，顺便what is 13**3?，并且compute 6**3 for me",
+    "gt": [
+      "62642424",
+      "2197",
+      "216"
+    ],
+    "final": "6474*9676的结果是62642424。13的三次方是2197。13的三次方是216。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "62642424",
+        "lhs": "6474*9676",
+        "fragment": "6474*9676的结果是62642424"
+      },
+      {
+        "value": "2197",
+        "lhs": "13**3",
+        "fragment": "6474*9676的结果是62642424。13**3是2197"
+      },
+      {
+        "value": "216",
+        "lhs": "13**3",
+        "fragment": "6474*9676的结果是62642424。13**3是2197。13**3是216"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 56,
+    "sample": 1,
+    "question": "(697-467)+19*77的结果是什么，还有compute 765+682*29 for me，并且924/3的结果是什么",
+    "gt": [
+      "1693",
+      "20543",
+      "308"
+    ],
+    "final": "计算结果如下：\n\n1. (697 - 467) + 19 * 77 = 1693\n2. 765 + 682 * 229 = 20543\n3. 924 / 3 = 308.0\n\n这些是您所需要的计算结果。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1693",
+        "lhs": "(697 - 467) + 19 * 77",
+        "fragment": "计算结果如下:\n\n1. (697 - 467) + 19 * 77 = 1693"
+      },
+      {
+        "value": "20543",
+        "lhs": "765 + 682 * 229",
+        "fragment": "计算结果如下:\n\n1. (697 - 467) + 19 * 77 = 1693\n2. 765 + 682 * 229 = 20543"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 58,
+    "sample": 0,
+    "question": "Calculate 3**2. Additionally, 请计算817+668*8. Plus, what is 877+818*10?",
+    "gt": [
+      "9",
+      "6161",
+      "9057"
+    ],
+    "final": "The result of 3**2 is 9, and the result of 817 plus 668 multiplied by 8 is 6161. The sum of 877 and 818 multiplied by 10 is 99057.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "9",
+        "lhs": "3**2",
+        "fragment": "The result of 3**2 is 9"
+      },
+      {
+        "value": "6161",
+        "lhs": "817 + 668 * 8",
+        "fragment": "The result of 3**2 is 9, and the result of 817 + 668 * 8 is 6161"
+      },
+      {
+        "value": "99057",
+        "lhs": "818 * 10",
+        "fragment": "The result of 3**2 is 9, and the result of 817 + 668 * 8 is 6161. The sum of 877 and 818 * 10 is 99057"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 58,
+    "sample": 1,
+    "question": "Calculate 3**2. Additionally, 请计算817+668*8. Plus, what is 877+818*10?",
+    "gt": [
+      "9",
+      "6161",
+      "9057"
+    ],
+    "final": "The result of 3**2 is 9.\nThe result of 817 plus 668 * 8 is 6161.\nThe result of 877+818*10 is 99057.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "9",
+        "lhs": "3**2",
+        "fragment": "The result of 3**2 is 9"
+      },
+      {
+        "value": "6161",
+        "lhs": "817 + 668 * 8",
+        "fragment": "The result of 3**2 is 9.\nThe result of 817 + 668 * 8 is 6161"
+      },
+      {
+        "value": "99057",
+        "lhs": "877+818*10",
+        "fragment": "The result of 3**2 is 9.\nThe result of 817 + 668 * 8 is 6161.\nThe result of 877+818*10 is 99057"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 62,
+    "sample": 1,
+    "question": "帮我算一下19**2等于多少，另外calculate 6**2，同时what is 287+183*10?",
+    "gt": [
+      "361",
+      "36",
+      "2117"
+    ],
+    "final": "19的平方是361，6的平方是36。287加上183乘以10的结果是36。36的平方是2117。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "361",
+        "lhs": "19**2",
+        "fragment": "19**2是361"
+      },
+      {
+        "value": "36",
+        "lhs": "6**2",
+        "fragment": "19**2是361;6**2是36"
+      },
+      {
+        "value": "36",
+        "lhs": "287+183*10",
+        "fragment": "19**2是361;6**2是36。287+183*10的结果是36"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 71,
+    "sample": 1,
+    "question": "Compute 4600-3841 for me. Also, 算算2280/5. Also, compute 228+936*12 for me",
+    "gt": [
+      "759",
+      "456",
+      "11460"
+    ],
+    "final": "The result of 4600 - 3841 is 759. The result of 228 + 936 * 12 is 456.0. And the result of 228 + 936 * 12 is 11460.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "759",
+        "lhs": "4600 - 3841",
+        "fragment": "The result of 4600 - 3841 is 759"
+      },
+      {
+        "value": "456",
+        "lhs": "228 + 936 * 12",
+        "fragment": "The result of 4600 - 3841 is 759. The result of 228 + 936 * 12 is 456.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 77,
+    "sample": 1,
+    "question": "3707-870的结果是什么，另外what is (799+360)*22?，同时(17+409)*11的结果是什么",
+    "gt": [
+      "2837",
+      "25498",
+      "4686"
+    ],
+    "final": "3707 等于 2837；(799 + 360) * 22 的结果是 25498；(17 + 409) * 11 的结果是 4686。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2837",
+        "lhs": "3707",
+        "fragment": "3707 等于 2837"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 78,
+    "sample": 0,
+    "question": "算算6032/13，另外calculate 774+319*26，顺便calculate (147-240)+24*87",
+    "gt": [
+      "464",
+      "9068",
+      "1995"
+    ],
+    "final": "6032除以13的结果是464.0，774加上319乘以87的结果是9068。\n\n774加上319乘以87的结果是1995。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "464",
+        "lhs": "6032/13",
+        "fragment": "6032/13的结果是464.0"
+      },
+      {
+        "value": "9068",
+        "lhs": "774+319*87",
+        "fragment": "6032/13的结果是464.0;774+319*87的结果是9068"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 83,
+    "sample": 0,
+    "question": "Calculate 775+133*25. Additionally, what is 20**3?. Plus, what is 8**3?",
+    "gt": [
+      "4100",
+      "8000",
+      "512"
+    ],
+    "final": "The result of 775+133*25 is 4100. The sum of 20 squared is 8000. And the sum of 8^3 is 512.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "4100",
+        "lhs": "775+133*25",
+        "fragment": "The result of 775+133*25 is 4100"
+      },
+      {
+        "value": "8000",
+        "lhs": "20 **2",
+        "fragment": "The result of 775+133*25 is 4100. The sum of 20 **2 is 8000"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 96,
+    "sample": 1,
+    "question": "算算8285+2596，并且帮我算一下1617-232等于多少，同时calculate 406+103*13",
+    "gt": [
+      "10881",
+      "1385",
+      "1745"
+    ],
+    "final": "8285 + 2596 的结果是 10881。1617 减去 232 的结果是 1385。406 加上 103 的和是 1745。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "10881",
+        "lhs": "8285 + 2596",
+        "fragment": "8285 + 2596 的结果是 10881"
+      },
+      {
+        "value": "1385",
+        "lhs": "1617 - 232",
+        "fragment": "8285 + 2596 的结果是 10881。1617 - 232 的结果是 1385"
+      },
+      {
+        "value": "1745",
+        "lhs": "406 + 103",
+        "fragment": "8285 + 2596 的结果是 10881。1617 - 232 的结果是 1385。406 + 103 的和是 1745"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 102,
+    "sample": 0,
+    "question": "Compute 6419-6525 for me. And calculate 20**3. Also, what is 818+783*5?",
+    "gt": [
+      "-106",
+      "8000",
+      "4733"
+    ],
+    "final": "The result of 6419 - 6525 is -106.\nThe result of 20^3 is 8000.\nThe sum of 818 and 783 multiplied by 5 is 4733.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "-106",
+        "lhs": "6419 - 6525",
+        "fragment": "The result of 6419 - 6525 is -106"
+      },
+      {
+        "value": "8000",
+        "lhs": "20**3",
+        "fragment": "The result of 6419 - 6525 is -106.\nThe result of 20**3 is 8000"
+      },
+      {
+        "value": "4733",
+        "lhs": "783 * 5",
+        "fragment": "The result of 6419 - 6525 is -106.\nThe result of 20**3 is 8000.\nThe sum of 818 and 783 * 5 is 4733"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 102,
+    "sample": 1,
+    "question": "Compute 6419-6525 for me. And calculate 20**3. Also, what is 818+783*5?",
+    "gt": [
+      "-106",
+      "8000",
+      "4733"
+    ],
+    "final": "The result of 6419 minus 6525 is -106.\nThe sum of 20 squared is 8000.\nThe sum of 818 plus 783 times 5 is 4733.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "-106",
+        "lhs": "6419 - 6525",
+        "fragment": "The result of 6419 - 6525 is -106"
+      },
+      {
+        "value": "8000",
+        "lhs": "20 **2",
+        "fragment": "The result of 6419 - 6525 is -106.\nThe sum of 20 **2 is 8000"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 109,
+    "sample": 1,
+    "question": "Compute 9019+3146 for me. Also, (780-895)+5*14的结果是什么. Also, (856-854)+63*15的结果是什么",
+    "gt": [
+      "12165",
+      "-45",
+      "947"
+    ],
+    "final": "The results of the calculations are as follows:\n\n1. The sum of 9019 and 3146 is **12165**.\n2. The sum of 9019 is **-45**.\n3. The sum of 7095 and 15 is **947**.",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unparsed_numeric_clause,unparsed_numeric_lhs",
+    "claims": [
+      {
+        "value": "12165",
+        "lhs": null,
+        "fragment": "The results of the calculations are as follows:\n\n1. The sum of 9019 and 3146 is 12165"
+      },
+      {
+        "value": "-45",
+        "lhs": null,
+        "fragment": "sults of the calculations are as follows:\n\n1. The sum of 9019 and 3146 is 12165.\n2. The sum of 9019 is -45"
+      },
+      {
+        "value": "947",
+        "lhs": null,
+        "fragment": "ollows:\n\n1. The sum of 9019 and 3146 is 12165.\n2. The sum of 9019 is -45.\n3. The sum of 7095 and 15 is 947"
+      }
+    ],
+    "review_key": "46edaef2fc02a23a8f0c5834fc9d6eb821ebb0c58d59af07a0df7a81f648b825",
+    "final_pass": false,
+    "adjudication": "错配结果并声称7095与15之和为947"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 110,
+    "sample": 0,
+    "question": "Compute 6**2 for me. And (437+496)*8的结果是什么. Additionally, 算算(246+396)*26",
+    "gt": [
+      "36",
+      "7464",
+      "16692"
+    ],
+    "final": "The result of 6 raised to the power of 3 is 36.\nThe result of (437+496)*8 is 7464.\nThe sum of (246+396)*26 is 16692.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "36",
+        "lhs": "6 ** 3",
+        "fragment": "The result of 6 ** 3 is 36"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 110,
+    "sample": 1,
+    "question": "Compute 6**2 for me. And (437+496)*8的结果是什么. Additionally, 算算(246+396)*26",
+    "gt": [
+      "36",
+      "7464",
+      "16692"
+    ],
+    "final": "The result of 6 squared is 36, and the result of (437 + 496)*8 is 7464.\nThe result of (246 + 396) * 8 is 16692.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "36",
+        "lhs": "6 **2",
+        "fragment": "The result of 6 **2 is 36"
+      },
+      {
+        "value": "7464",
+        "lhs": "(437 + 496)*8",
+        "fragment": "The result of 6 **2 is 36, and the result of (437 + 496)*8 is 7464"
+      },
+      {
+        "value": "16692",
+        "lhs": "(246 + 396) * 8",
+        "fragment": "The result of 6 **2 is 36, and the result of (437 + 496)*8 is 7464.\nThe result of (246 + 396) * 8 is 16692"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 111,
+    "sample": 1,
+    "question": "What is (29+382)*4?. Plus, 帮我算一下(834+604)*2等于多少. Additionally, 算算2880+5263",
+    "gt": [
+      "1644",
+      "2876",
+      "8143"
+    ],
+    "final": "The result of (29+382)*4 is 1644.\nThe sum of (834+604)*2 is 2876.\nAnd the result of 22880+5263 is 8143.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1644",
+        "lhs": "(29+382)*4",
+        "fragment": "The result of (29+382)*4 is 1644"
+      },
+      {
+        "value": "2876",
+        "lhs": "(834+604)*2",
+        "fragment": "The result of (29+382)*4 is 1644.\nThe sum of (834+604)*2 is 2876"
+      },
+      {
+        "value": "8143",
+        "lhs": "22880+5263",
+        "fragment": "The result of (29+382)*4 is 1644.\nThe sum of (834+604)*2 is 2876.\nAnd the result of 22880+5263 is 8143"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 141,
+    "sample": 1,
+    "question": "Compute 14**3 for me. Plus, 10098/22的结果是什么. Additionally, compute 9609*8713 for me",
+    "gt": [
+      "2744",
+      "459",
+      "83723217"
+    ],
+    "final": "The result of 14**3 is 2744.\nThe product of 10098 and 22 is 459.\nAnd the result of 9609 multiplied by 8713 is 83723217.",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "mixed_or_extra_positional_claims,unparsed_numeric_clause,unparsed_numeric_lhs",
+    "claims": [
+      {
+        "value": "2744",
+        "lhs": "14**3",
+        "fragment": "The result of 14**3 is 2744"
+      },
+      {
+        "value": "459",
+        "lhs": null,
+        "fragment": "The result of 14**3 is 2744.\nThe product of 10098 and 22 is 459"
+      },
+      {
+        "value": "83723217",
+        "lhs": "9609 * 8713",
+        "fragment": "The result of 14**3 is 2744.\nThe product of 10098 and 22 is 459.\nAnd the result of 9609 * 8713 is 83723217"
+      }
+    ],
+    "review_key": "63a1e235d859a6bb365810b0b4ed969cf8ff54a358cafe81f15e6756ad473740",
+    "final_pass": false,
+    "adjudication": "把10098与22的乘积写为459，错误"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 151,
+    "sample": 1,
+    "question": "(869-666)+90*95的结果是什么，还有帮我算一下646+388*17等于多少",
+    "gt": [
+      "8753",
+      "7242"
+    ],
+    "final": "计算结果如下：\n\n1. (869 - 666) + 90 * 95 = 8753\n2. 8646 + 388 * 17 = 7242",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "8753",
+        "lhs": "(869 - 666) + 90 * 95",
+        "fragment": "计算结果如下:\n\n1. (869 - 666) + 90 * 95 = 8753"
+      },
+      {
+        "value": "7242",
+        "lhs": "8646 + 388 * 17",
+        "fragment": "计算结果如下:\n\n1. (869 - 666) + 90 * 95 = 8753\n2. 8646 + 388 * 17 = 7242"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 154,
+    "sample": 0,
+    "question": "(344+736)*13的结果是什么，还有算算(801+483)*2，另外8098+8196的结果是什么",
+    "gt": [
+      "14040",
+      "2568",
+      "16294"
+    ],
+    "final": "计算结果如下：\n\n1. (344 + 736) * 13 = 14040\n2. (801 + 483) * 2 = 2568\n3. 8198 + 8196 = 16294",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "14040",
+        "lhs": "(344 + 736) * 13",
+        "fragment": "计算结果如下:\n\n1. (344 + 736) * 13 = 14040"
+      },
+      {
+        "value": "2568",
+        "lhs": "(801 + 483) * 2",
+        "fragment": "计算结果如下:\n\n1. (344 + 736) * 13 = 14040\n2. (801 + 483) * 2 = 2568"
+      },
+      {
+        "value": "16294",
+        "lhs": "8198 + 8196",
+        "fragment": "计算结果如下:\n\n1. (344 + 736) * 13 = 14040\n2. (801 + 483) * 2 = 2568\n3. 8198 + 8196 = 16294"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 154,
+    "sample": 1,
+    "question": "(344+736)*13的结果是什么，还有算算(801+483)*2，另外8098+8196的结果是什么",
+    "gt": [
+      "14040",
+      "2568",
+      "16294"
+    ],
+    "final": "(344+736)*13的结果是14040。\n(801+483)*2的结果是2568。\n(801+483)*2的结果是16294。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "14040",
+        "lhs": "(344+736)*13",
+        "fragment": "(344+736)*13的结果是14040"
+      },
+      {
+        "value": "2568",
+        "lhs": "(801+483)*2",
+        "fragment": "(344+736)*13的结果是14040。\n(801+483)*2的结果是2568"
+      },
+      {
+        "value": "16294",
+        "lhs": "(801+483)*2",
+        "fragment": "(344+736)*13的结果是14040。\n(801+483)*2的结果是2568。\n(801+483)*2的结果是16294"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 163,
+    "sample": 1,
+    "question": "What is 9864*2282?. And compute (817-507)+49*57 for me. Additionally, what is 18**2?",
+    "gt": [
+      "22509648",
+      "3103",
+      "324"
+    ],
+    "final": "The result of 9864 multiplied by 2282 is 22509648.\nThe sum of 18 squared is 3103.\nAnd the sum of 18 squared is 324.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "22509648",
+        "lhs": "9864 * 2282",
+        "fragment": "The result of 9864 * 2282 is 22509648"
+      },
+      {
+        "value": "3103",
+        "lhs": "18 **2",
+        "fragment": "The result of 9864 * 2282 is 22509648.\nThe sum of 18 **2 is 3103"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 169,
+    "sample": 0,
+    "question": "Calculate 19**2. Plus, 算算15**3. Additionally, (840+6)*11的结果是什么",
+    "gt": [
+      "361",
+      "3375",
+      "9306"
+    ],
+    "final": "The result of 19 squared is 361.\nThe result of 15 squared is 3375.\nAnd (840+6)*11的结果是9306。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "361",
+        "lhs": "19 **2",
+        "fragment": "The result of 19 **2 is 361"
+      },
+      {
+        "value": "3375",
+        "lhs": "15 **2",
+        "fragment": "The result of 19 **2 is 361.\nThe result of 15 **2 is 3375"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 175,
+    "sample": 0,
+    "question": "What is 785+266*28?. Plus, what is 554+269*9?",
+    "gt": [
+      "8233",
+      "2975"
+    ],
+    "final": "The result of 785+266*28 is 8233. The sum of 554+269*9 is 22975.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "8233",
+        "lhs": "785+266*28",
+        "fragment": "The result of 785+266*28 is 8233"
+      },
+      {
+        "value": "22975",
+        "lhs": "554+269*9",
+        "fragment": "The result of 785+266*28 is 8233. The sum of 554+269*9 is 22975"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 175,
+    "sample": 1,
+    "question": "What is 785+266*28?. Plus, what is 554+269*9?",
+    "gt": [
+      "8233",
+      "2975"
+    ],
+    "final": "The result of 785 + 266 * 28 is 8233.\nThe sum of 554 + 269 * 9 is 22975.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "8233",
+        "lhs": "785 + 266 * 28",
+        "fragment": "The result of 785 + 266 * 28 is 8233"
+      },
+      {
+        "value": "22975",
+        "lhs": "554 + 269 * 9",
+        "fragment": "The result of 785 + 266 * 28 is 8233.\nThe sum of 554 + 269 * 9 is 22975"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 188,
+    "sample": 0,
+    "question": "算算1974+1263，同时请计算(229+346)*18，并且算算65/5",
+    "gt": [
+      "3237",
+      "10350",
+      "13"
+    ],
+    "final": "1974 + 1263 的结果是 3237。\n\n(229 + 366) * 18 的结果是 10350。\n\n65/5 的结果是 13.0。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "3237",
+        "lhs": "1974 + 1263",
+        "fragment": "1974 + 1263 的结果是 3237"
+      },
+      {
+        "value": "10350",
+        "lhs": "(229 + 366) * 18",
+        "fragment": "1974 + 1263 的结果是 3237。\n\n(229 + 366) * 18 的结果是 10350"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 190,
+    "sample": 0,
+    "question": "Calculate (493+775)*7. Plus, 请计算(851+248)*27. And 10**3的结果是什么",
+    "gt": [
+      "8876",
+      "29673",
+      "1000"
+    ],
+    "final": "The result of ((493+775)*7) is 8876.\nThe result of (851+248)*27 is 229673.\nAnd 10 **3的结果是1000.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "8876",
+        "lhs": "((493+775)*7)",
+        "fragment": "The result of ((493+775)*7) is 8876"
+      },
+      {
+        "value": "229673",
+        "lhs": "(851+248)*27",
+        "fragment": "The result of ((493+775)*7) is 8876.\nThe result of (851+248)*27 is 229673"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 190,
+    "sample": 1,
+    "question": "Calculate (493+775)*7. Plus, 请计算(851+248)*27. And 10**3的结果是什么",
+    "gt": [
+      "8876",
+      "29673",
+      "1000"
+    ],
+    "final": "The calculations have been completed:\n\n1. (493 + 775) * 7 = 8876\n2. (851 + 248) * 27 = 229673\n3. 10 ** 3 的结果是 1000",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "8876",
+        "lhs": "(493 + 775) * 7",
+        "fragment": "The calculations have been completed:\n\n1. (493 + 775) * 7 = 8876"
+      },
+      {
+        "value": "229673",
+        "lhs": "(851 + 248) * 27",
+        "fragment": "The calculations have been completed:\n\n1. (493 + 775) * 7 = 8876\n2. (851 + 248) * 27 = 229673"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 191,
+    "sample": 0,
+    "question": "算算655+95*30",
+    "gt": [
+      "3505"
+    ],
+    "final": "655 加上 95 等于 3505。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "3505",
+        "lhs": "655 + 95",
+        "fragment": "655 + 95 等于 3505"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 192,
+    "sample": 0,
+    "question": "算算128+943*3，还有帮我算一下(227+793)*21等于多少，并且what is 611+80*12?",
+    "gt": [
+      "2957",
+      "21420",
+      "1571"
+    ],
+    "final": "128 + 943 * 3 的结果是 2957。(227 + 793) * 21 的结果是 21420。(227 + 793) * 21 的结果是 1571。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2957",
+        "lhs": "128 + 943 * 3",
+        "fragment": "128 + 943 * 3 的结果是 2957"
+      },
+      {
+        "value": "21420",
+        "lhs": "(227 + 793) * 21",
+        "fragment": "128 + 943 * 3 的结果是 2957。(227 + 793) * 21 的结果是 21420"
+      },
+      {
+        "value": "1571",
+        "lhs": "(227 + 793) * 21",
+        "fragment": "128 + 943 * 3 的结果是 2957。(227 + 793) * 21 的结果是 21420。(227 + 793) * 21 的结果是 1571"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 193,
+    "sample": 0,
+    "question": "What is 861+601*7?. Also, calculate 2525*3946. Also, 1317-9066的结果是什么",
+    "gt": [
+      "5068",
+      "9963650",
+      "-7749"
+    ],
+    "final": "The result of 861 + 601 * 7 is 5068.\nThe result of 2525 * 3946 is 99963650.\nAnd 1317 - 9066 is -7749.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5068",
+        "lhs": "861 + 601 * 7",
+        "fragment": "The result of 861 + 601 * 7 is 5068"
+      },
+      {
+        "value": "99963650",
+        "lhs": "2525 * 3946",
+        "fragment": "The result of 861 + 601 * 7 is 5068.\nThe result of 2525 * 3946 is 99963650"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 193,
+    "sample": 1,
+    "question": "What is 861+601*7?. Also, calculate 2525*3946. Also, 1317-9066的结果是什么",
+    "gt": [
+      "5068",
+      "9963650",
+      "-7749"
+    ],
+    "final": "The result of 861+601*7 is 5068.\nThe sum of 2525*3946 is 99963650.\nAnd 1317-9066的结果是-7749。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5068",
+        "lhs": "861+601*7",
+        "fragment": "The result of 861+601*7 is 5068"
+      },
+      {
+        "value": "99963650",
+        "lhs": "2525*3946",
+        "fragment": "The result of 861+601*7 is 5068.\nThe sum of 2525*3946 is 99963650"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_rl",
+    "problem": 197,
+    "sample": 0,
+    "question": "What is (188-414)+10*67?. Plus, 5403*4447的结果是什么. Plus, 算算4180/10",
+    "gt": [
+      "444",
+      "24027141",
+      "418"
+    ],
+    "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nAnd the result of 4180/10 is 4180/10.",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unevaluated_result",
+    "claims": [
+      {
+        "value": "444",
+        "lhs": "(188-414)+10*67",
+        "fragment": "The result of (188-414)+10*67 is 444"
+      },
+      {
+        "value": "24027141",
+        "lhs": "5403*4447",
+        "fragment": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141"
+      }
+    ],
+    "review_key": "05e20915df9714ba6626891b159d23aa0a6b6667c63528cfc177b26016ceb4a7",
+    "final_pass": false,
+    "adjudication": "仅重复4180/10，没有给出求值结果418"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 3,
+    "sample": 0,
+    "question": "帮我算一下18**2等于多少，顺便请计算186+467*2，同时算算(997-606)+51*77",
+    "gt": [
+      "324",
+      "1120",
+      "4318"
+    ],
+    "final": "18的平方是324。\n18的平方是1120。\n(997-606)+51*77的结果是4318。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "324",
+        "lhs": "18**2",
+        "fragment": "18**2是324"
+      },
+      {
+        "value": "1120",
+        "lhs": "18**2",
+        "fragment": "18**2是324。\n18**2是1120"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 3,
+    "sample": 1,
+    "question": "帮我算一下18**2等于多少，顺便请计算186+467*2，同时算算(997-606)+51*77",
+    "gt": [
+      "324",
+      "1120",
+      "4318"
+    ],
+    "final": "18的平方等于324。\n\n18的平方等于1120。\n\n(997-606)+(997-606)+(51*77)的结果是4318。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "324",
+        "lhs": "18**2",
+        "fragment": "18**2等于324"
+      },
+      {
+        "value": "1120",
+        "lhs": "18**2",
+        "fragment": "18**2等于324。\n\n18**2等于1120"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 14,
+    "sample": 1,
+    "question": "帮我算一下(476-555)+99*23等于多少，顺便请计算(701+247)*20",
+    "gt": [
+      "2198",
+      "18960"
+    ],
+    "final": "计算结果如下：\n\n1. (476 - 555) + 999 * 23 = 2198\n2. (701 + 247) * 20 = 18960\n\n3. (701 + 247) * 20 = 18960",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2198",
+        "lhs": "(476 - 555) + 999 * 23",
+        "fragment": "计算结果如下:\n\n1. (476 - 555) + 999 * 23 = 2198"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 17,
+    "sample": 1,
+    "question": "算算2325/5，顺便compute (142+945)*23 for me，顺便算算7**3",
+    "gt": [
+      "465",
+      "25001",
+      "343"
+    ],
+    "final": "2325除以5的结果是465.0；(142加上945)再乘以23的结果是25001；7的三次方结果是343。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "465",
+        "lhs": "2325/5",
+        "fragment": "2325/5的结果是465.0"
+      },
+      {
+        "value": "25001",
+        "lhs": "(142+945)",
+        "fragment": "2325/5的结果是465.0;(142+945)再*23的结果是25001"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 18,
+    "sample": 0,
+    "question": "请计算(859+685)*10，顺便(460-43)+92*76的结果是什么，另外请计算2**3",
+    "gt": [
+      "15440",
+      "7409",
+      "8"
+    ],
+    "final": "计算结果如下：\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409\n3. 2^3 = 8\n\n因此，(859 + 685) * 10 的结果是 7409。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "15440",
+        "lhs": "(859 + 685) * 10",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440"
+      },
+      {
+        "value": "7409",
+        "lhs": "(460 - 43) + 92 * 76",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409"
+      },
+      {
+        "value": "8",
+        "lhs": "2**3",
+        "fragment": "计算结果如下:\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409\n3. 2**3 = 8"
+      },
+      {
+        "value": "7409",
+        "lhs": "(859 + 685) * 10",
+        "fragment": "结果如下:\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409\n3. 2**3 = 8\n\n因此;(859 + 685) * 10 的结果是 7409"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 19,
+    "sample": 1,
+    "question": "请计算3641/11，并且compute 1601+8225 for me",
+    "gt": [
+      "331",
+      "9826"
+    ],
+    "final": "计算结果如下：\n\n- \\(3641 \\div 11 = 331.0\\)\n- \\(1601 + 8225 = 9826\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "9826",
+        "lhs": "- 1601 + 8225",
+        "fragment": "计算结果如下:\n\n- 3641 / 11 = 331.0\n- 1601 + 8225 = 9826"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 35,
+    "sample": 0,
+    "question": "What is (262+748)*4?",
+    "gt": [
+      "4040"
+    ],
+    "final": "The result of the expression \\(262 + 748\\) is 4040.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "4040",
+        "lhs": "262 + 748",
+        "fragment": "The result of the expression 262 + 748 is 4040"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 38,
+    "sample": 1,
+    "question": "请计算(203-89)+48*39，还有calculate 9716+481",
+    "gt": [
+      "1986",
+      "10197"
+    ],
+    "final": "计算结果如下：\n\n1. (203 - 89) + 48 * 39 = 1986\n2. 9716 + 48 * 39 = 10197",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1986",
+        "lhs": "(203 - 89) + 48 * 39",
+        "fragment": "计算结果如下:\n\n1. (203 - 89) + 48 * 39 = 1986"
+      },
+      {
+        "value": "10197",
+        "lhs": "9716 + 48 * 39",
+        "fragment": "计算结果如下:\n\n1. (203 - 89) + 48 * 39 = 1986\n2. 9716 + 48 * 39 = 10197"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 41,
+    "sample": 0,
+    "question": "Calculate 5360-3051. Also, 帮我算一下2895+1661等于多少",
+    "gt": [
+      "2309",
+      "4556"
+    ],
+    "final": "The result of 5360 minus 3051 is 2339. The result of 2309 plus 1661 is 4556.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2339",
+        "lhs": "5360 - 3051",
+        "fragment": "The result of 5360 - 3051 is 2339"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 46,
+    "sample": 0,
+    "question": "Calculate 4602/26. Also, 算算1371/3. Additionally, 1460/4的结果是什么",
+    "gt": [
+      "177",
+      "457",
+      "365"
+    ],
+    "final": "The result of 4602 divided by 26 is 177.0. The sum of 1371 divided by 4 is 457.0. And the sum of 1460 divided by 4 equals 365.0.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "177",
+        "lhs": "4602 / 26",
+        "fragment": "The result of 4602 / 26 is 177.0"
+      },
+      {
+        "value": "457",
+        "lhs": "1371 / 4",
+        "fragment": "The result of 4602 / 26 is 177.0. The sum of 1371 / 4 is 457.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 46,
+    "sample": 1,
+    "question": "Calculate 4602/26. Also, 算算1371/3. Additionally, 1460/4的结果是什么",
+    "gt": [
+      "177",
+      "457",
+      "365"
+    ],
+    "final": "The result of 4602 divided by 26 is 177.0. The result of 1371 divided by 4 is 457.0. And the result of 1460 divided by 4 is 365.0.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "177",
+        "lhs": "4602 / 26",
+        "fragment": "The result of 4602 / 26 is 177.0"
+      },
+      {
+        "value": "457",
+        "lhs": "1371 / 4",
+        "fragment": "The result of 4602 / 26 is 177.0. The result of 1371 / 4 is 457.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 48,
+    "sample": 1,
+    "question": "374+343*30的结果是什么，并且817/19的结果是什么",
+    "gt": [
+      "10664",
+      "43"
+    ],
+    "final": "374+343*30的结果是10664。",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "missing_or_unparsed_answer",
+    "claims": [
+      {
+        "value": "10664",
+        "lhs": "374+343*30",
+        "fragment": "374+343*30的结果是10664"
+      }
+    ],
+    "review_key": "9527ce2f1c1769802ebf85d9f79d221207f798884fdccb76dfed5fb32dc83f92",
+    "final_pass": false,
+    "adjudication": "缺少至少一个所求数值结果"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 54,
+    "sample": 0,
+    "question": "What is 7686/21?. Additionally, what is 525/21?. And 请计算3312/16",
+    "gt": [
+      "366",
+      "25",
+      "207"
+    ],
+    "final": "The result of 7686 divided by 21 is 366.0.\nThe result of 525 divided by 21 is 25.0.\nThe result of 33312 divided by 16 is 207.0.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "366",
+        "lhs": "7686 / 21",
+        "fragment": "The result of 7686 / 21 is 366.0"
+      },
+      {
+        "value": "25",
+        "lhs": "525 / 21",
+        "fragment": "The result of 7686 / 21 is 366.0.\nThe result of 525 / 21 is 25.0"
+      },
+      {
+        "value": "207",
+        "lhs": "33312 / 16",
+        "fragment": "The result of 7686 / 21 is 366.0.\nThe result of 525 / 21 is 25.0.\nThe result of 33312 / 16 is 207.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 58,
+    "sample": 0,
+    "question": "Calculate 3**2. Additionally, 请计算817+668*8. Plus, what is 877+818*10?",
+    "gt": [
+      "9",
+      "6161",
+      "9057"
+    ],
+    "final": "The result of 3**2 is 9.\nThe result of 817 plus 668 multiplied by 8 is 6161.\nThe result of 877 plus 818 multiplied by 8 is 9057.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "9",
+        "lhs": "3**2",
+        "fragment": "The result of 3**2 is 9"
+      },
+      {
+        "value": "6161",
+        "lhs": "817 + 668 * 8",
+        "fragment": "The result of 3**2 is 9.\nThe result of 817 + 668 * 8 is 6161"
+      },
+      {
+        "value": "9057",
+        "lhs": "877 + 818 * 8",
+        "fragment": "The result of 3**2 is 9.\nThe result of 817 + 668 * 8 is 6161.\nThe result of 877 + 818 * 8 is 9057"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 60,
+    "sample": 0,
+    "question": "请计算10**3，同时9660/21的结果是什么，并且calculate 2952*919",
+    "gt": [
+      "1000",
+      "460",
+      "2712888"
+    ],
+    "final": "计算结果如下：\n\n- \\(10^3 = 1000\\)\n- \\(9660 \\times 21 = 460.0\\)\n- \\(2952 \\times 919 = 2712888\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2712888",
+        "lhs": "- 2952 * 919",
+        "fragment": "计算结果如下:\n\n- 10**3 = 1000\n- 9660 * 21 = 460.0\n- 2952 * 919 = 2712888"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 60,
+    "sample": 1,
+    "question": "请计算10**3，同时9660/21的结果是什么，并且calculate 2952*919",
+    "gt": [
+      "1000",
+      "460",
+      "2712888"
+    ],
+    "final": "计算结果如下：\n- \\(10^3 = 1000\\)\n- \\(9660 \\div 21 = 460.0\\)\n- \\(2952 \\times 919 = 2712888\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2712888",
+        "lhs": "- 2952 * 919",
+        "fragment": "计算结果如下:\n- 10**3 = 1000\n- 9660 / 21 = 460.0\n- 2952 * 919 = 2712888"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 61,
+    "sample": 0,
+    "question": "算算673+58*11，另外算算4114/11",
+    "gt": [
+      "1311",
+      "374"
+    ],
+    "final": "计算结果如下：\n\n- \\(673 + 58 \\times 11 = 1311\\)\n- \\(4114 \\div 11 = 374.0\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "374",
+        "lhs": "- 4114 / 11",
+        "fragment": "计算结果如下:\n\n- 673 + 58 * 11 = 1311\n- 4114 / 11 = 374.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 61,
+    "sample": 1,
+    "question": "算算673+58*11，另外算算4114/11",
+    "gt": [
+      "1311",
+      "374"
+    ],
+    "final": "计算结果如下：\n\n- \\(673 + 58 \\times 11 = 1311\\)\n- \\(4114 \\div 11 = 374.0\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "374",
+        "lhs": "- 4114 / 11",
+        "fragment": "计算结果如下:\n\n- 673 + 58 * 11 = 1311\n- 4114 / 11 = 374.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 71,
+    "sample": 1,
+    "question": "Compute 4600-3841 for me. Also, 算算2280/5. Also, compute 228+936*12 for me",
+    "gt": [
+      "759",
+      "456",
+      "11460"
+    ],
+    "final": "The result of 4600 - 3841 is 759.\nThe result of 228 + 936 * 12 is 456.0.\nThe result of 228 + 936 * 12 is 11460.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "759",
+        "lhs": "4600 - 3841",
+        "fragment": "The result of 4600 - 3841 is 759"
+      },
+      {
+        "value": "456",
+        "lhs": "228 + 936 * 12",
+        "fragment": "The result of 4600 - 3841 is 759.\nThe result of 228 + 936 * 12 is 456.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 78,
+    "sample": 0,
+    "question": "算算6032/13，另外calculate 774+319*26，顺便calculate (147-240)+24*87",
+    "gt": [
+      "464",
+      "9068",
+      "1995"
+    ],
+    "final": "6032除以13的结果是464.0。774加上319乘以26的结果是9068。(147减去240再乘以87)的结果是1995。",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "mixed_or_extra_positional_claims,unparsed_numeric_lhs",
+    "claims": [
+      {
+        "value": "464",
+        "lhs": "6032/13",
+        "fragment": "6032/13的结果是464.0"
+      },
+      {
+        "value": "9068",
+        "lhs": "774+319*26",
+        "fragment": "6032/13的结果是464.0。774+319*26的结果是9068"
+      },
+      {
+        "value": "1995",
+        "lhs": null,
+        "fragment": "6032/13的结果是464.0。774+319*26的结果是9068。(147-240再*87)的结果是1995"
+      }
+    ],
+    "review_key": "787e68971d42a5afdf2d764c80e5a4802ca48493a91d933b6c284438acee08e4",
+    "final_pass": false,
+    "adjudication": "第三式漏掉24乘87，文字算式与结果不一致"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 79,
+    "sample": 0,
+    "question": "帮我算一下3993/11等于多少，并且what is 17**3?，还有what is (925+556)*13?",
+    "gt": [
+      "363",
+      "4913",
+      "19253"
+    ],
+    "final": "3993除以11的结果是363.0；17的三次方是4913；(925加上556)再乘以13的结果是19253。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "363",
+        "lhs": "3993/11",
+        "fragment": "3993/11的结果是363.0"
+      },
+      {
+        "value": "4913",
+        "lhs": "17**3",
+        "fragment": "3993/11的结果是363.0;17**3是4913"
+      },
+      {
+        "value": "19253",
+        "lhs": "(925+556)",
+        "fragment": "3993/11的结果是363.0;17**3是4913;(925+556)再*13的结果是19253"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 81,
+    "sample": 0,
+    "question": "算算15**3，并且compute 14**2 for me，还有请计算16**2",
+    "gt": [
+      "3375",
+      "196",
+      "256"
+    ],
+    "final": "15的三次方等于3375，16的平方是196。16的平方是256。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "3375",
+        "lhs": "15**3",
+        "fragment": "15**3等于3375"
+      },
+      {
+        "value": "196",
+        "lhs": "16**2",
+        "fragment": "15**3等于3375;16**2是196"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 109,
+    "sample": 1,
+    "question": "Compute 9019+3146 for me. Also, (780-895)+5*14的结果是什么. Also, (856-854)+63*15的结果是什么",
+    "gt": [
+      "12165",
+      "-45",
+      "947"
+    ],
+    "final": "The results of the calculations are as follows:\n\n1. The result of 9019 + 3146 is **12165**.\n2. The result of (780-895) + 63 * 15 is **-45**.\n3. The result of (856-854)+63 * 15 is **947**.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "12165",
+        "lhs": "9019 + 3146",
+        "fragment": "The results of the calculations are as follows:\n\n1. The result of 9019 + 3146 is 12165"
+      },
+      {
+        "value": "-45",
+        "lhs": "(780-895) + 63 * 15",
+        "fragment": "ations are as follows:\n\n1. The result of 9019 + 3146 is 12165.\n2. The result of (780-895) + 63 * 15 is -45"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 110,
+    "sample": 1,
+    "question": "Compute 6**2 for me. And (437+496)*8的结果是什么. Additionally, 算算(246+396)*26",
+    "gt": [
+      "36",
+      "7464",
+      "16692"
+    ],
+    "final": "The result of 6 squared is 36.\nThe result of (437 + 496) multiplied by 8 is 7464.\nThe result of (246 + 396) multiplied by 8 is 16692.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "36",
+        "lhs": "6 **2",
+        "fragment": "The result of 6 **2 is 36"
+      },
+      {
+        "value": "7464",
+        "lhs": "(437 + 496) * 8",
+        "fragment": "The result of 6 **2 is 36.\nThe result of (437 + 496) * 8 is 7464"
+      },
+      {
+        "value": "16692",
+        "lhs": "(246 + 396) * 8",
+        "fragment": "The result of 6 **2 is 36.\nThe result of (437 + 496) * 8 is 7464.\nThe result of (246 + 396) * 8 is 16692"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 113,
+    "sample": 0,
+    "question": "帮我算一下(690+769)*14等于多少，顺便请计算907+702*13",
+    "gt": [
+      "20426",
+      "10033"
+    ],
+    "final": "计算结果如下：\n\n1. \\((690 + 769) \\times 14 = 20426\\)\n2. \\(907 + 769 = 10033\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "20426",
+        "lhs": "(690 + 769) * 14",
+        "fragment": "计算结果如下:\n\n1. (690 + 769) * 14 = 20426"
+      },
+      {
+        "value": "10033",
+        "lhs": "907 + 769",
+        "fragment": "计算结果如下:\n\n1. (690 + 769) * 14 = 20426\n2. 907 + 769 = 10033"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 114,
+    "sample": 1,
+    "question": "Calculate 555/5. And 2470-5294的结果是什么. And 帮我算一下(273-641)+49*43等于多少",
+    "gt": [
+      "111",
+      "-2824",
+      "1739"
+    ],
+    "final": "The results of the calculations are as follows:\n\n1. \\( \\frac{555}{5} = 111.0 \\)\n2. \\( \\frac{2470 - 5294} = -2824 \\)\n3. \\( (273 - 61) + 49 \\times 43 = 1739 \\)\n\nThese results of the calculations are as follows:\n\n1. \\( -2824 + 709 + 49 \\times 43 = -2824 \\)\n2. \\( -2824 + 49 \\times 43 = 1739 \\)\n3. \\( -2824 + 49 \\times 43 = 1739 \\)",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "review_key": "09bead11a1e6c240f4e24ba3073bdd4e89518853c8fb991b105eba253a304d06",
+    "final_pass": false,
+    "adjudication": "第三题错抄641为61，后续算式也矛盾"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 131,
+    "sample": 0,
+    "question": "请计算17**2，同时19**2的结果是什么，并且what is 9537*8656?",
+    "gt": [
+      "289",
+      "361",
+      "82552272"
+    ],
+    "final": "计算结果如下：\n- \\(17^2 = 289\\)\n- \\(19^2 = 361\\)\n- \\(9537 \\times 8656 = 82552272\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "82552272",
+        "lhs": "- 9537 * 8656",
+        "fragment": "计算结果如下:\n- 17**2 = 289\n- 19**2 = 361\n- 9537 * 8656 = 82552272"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 139,
+    "sample": 0,
+    "question": "Compute 2205/21 for me. And compute 996+247*13 for me",
+    "gt": [
+      "105",
+      "4207"
+    ],
+    "final": "The result of 2205 divided by 21 is 1057. The result of 996 plus 247 multiplied by 13 is 4207.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1057",
+        "lhs": "2205 / 21",
+        "fragment": "The result of 2205 / 21 is 1057"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 156,
+    "sample": 1,
+    "question": "算算837+875*20，同时compute 5370/30 for me",
+    "gt": [
+      "18337",
+      "179"
+    ],
+    "final": "计算结果如下：\n\n- \\(837 + 875 \\times 20 = 18337\\)\n- \\(5370 \\div 30 = 179.0\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "179",
+        "lhs": "- 5370 / 30",
+        "fragment": "计算结果如下:\n\n- 837 + 875 * 20 = 18337\n- 5370 / 30 = 179.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 159,
+    "sample": 1,
+    "question": "算算6318/13，还有480+761*16的结果是什么，另外calculate (973-760)+96*89",
+    "gt": [
+      "486",
+      "12656",
+      "8757"
+    ],
+    "final": "计算结果如下：\n\n1. \\( \\frac{6318}{13} = 486.0 \\)\n2. \\( 480 + 761 \\times 16 = 12656 \\)\n3. \\( (973 - 760) + 96 \\times 89 = 8757 \\)\n\n这些结果是通过使用工具函数 \\( (873 - 760) + 96 \\times 89 \\) 得到的。",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "review_key": "8cb51bd4700753e405801c0fd484b0bf6e922fc0f95abbaa2c42062831475cdd",
+    "final_pass": false,
+    "adjudication": "末句声称来自873而非973的表达式，形成不一致说明"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 166,
+    "sample": 0,
+    "question": "请计算1248/16，同时compute 520+321*5 for me",
+    "gt": [
+      "78",
+      "2125"
+    ],
+    "final": "计算结果如下：\n\n- \\( \\frac{1248}{16} = 78.0 \\)\n- \\( \\frac{520 + 321 \\times 5}{321} = 2125 \\)",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "review_key": "aef155818f9e5fe64f23b57ef706a7a7d25c85c4d3eda43eac91ac4c5249cdb2",
+    "final_pass": false,
+    "adjudication": "第二式额外除321却给2125，等式错误"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 168,
+    "sample": 1,
+    "question": "Compute 3244-519 for me. Plus, compute 475/25 for me. Additionally, what is 725+330*21?",
+    "gt": [
+      "2725",
+      "19",
+      "7655"
+    ],
+    "final": "The result of 3244 - 519 is 2725.\nThe result of 475 divided by 25 is 19.0.\nThe result of 725 divided by 25 is 7655.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2725",
+        "lhs": "3244 - 519",
+        "fragment": "The result of 3244 - 519 is 2725"
+      },
+      {
+        "value": "19",
+        "lhs": "475 / 25",
+        "fragment": "The result of 3244 - 519 is 2725.\nThe result of 475 / 25 is 19.0"
+      },
+      {
+        "value": "7655",
+        "lhs": "725 / 25",
+        "fragment": "The result of 3244 - 519 is 2725.\nThe result of 475 / 25 is 19.0.\nThe result of 725 / 25 is 7655"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 174,
+    "sample": 1,
+    "question": "Compute (216-951)+25*90 for me. And 请计算447+331*20. Also, 帮我算一下732+580*19等于多少",
+    "gt": [
+      "1515",
+      "7067",
+      "11752"
+    ],
+    "final": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067.\nThe result of 732+580*19 is 111752.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1515",
+        "lhs": "(216-951)+25*90",
+        "fragment": "The result of (216-951)+25*90 is 1515"
+      },
+      {
+        "value": "7067",
+        "lhs": "447+331*20",
+        "fragment": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067"
+      },
+      {
+        "value": "111752",
+        "lhs": "732+580*19",
+        "fragment": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067.\nThe result of 732+580*19 is 111752"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 192,
+    "sample": 1,
+    "question": "算算128+943*3，还有帮我算一下(227+793)*21等于多少，并且what is 611+80*12?",
+    "gt": [
+      "2957",
+      "21420",
+      "1571"
+    ],
+    "final": "128加上943乘以3的和是2957。\n\n(227加上793)再乘以21的结果是21420。\n\n611加上80乘以12的结果是1571。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2957",
+        "lhs": "128+943*3",
+        "fragment": "128+943*3的和是2957"
+      },
+      {
+        "value": "21420",
+        "lhs": "(227+793)",
+        "fragment": "128+943*3的和是2957。\n\n(227+793)再*21的结果是21420"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 193,
+    "sample": 1,
+    "question": "What is 861+601*7?. Also, calculate 2525*3946. Also, 1317-9066的结果是什么",
+    "gt": [
+      "5068",
+      "9963650",
+      "-7749"
+    ],
+    "final": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650.\nThe result of 1317-9066 is -7749.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5068",
+        "lhs": "861+601*7",
+        "fragment": "The result of 861+601*7 is 5068"
+      },
+      {
+        "value": "99963650",
+        "lhs": "2525*3946",
+        "fragment": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 197,
+    "sample": 0,
+    "question": "What is (188-414)+10*67?. Plus, 5403*4447的结果是什么. Plus, 算算4180/10",
+    "gt": [
+      "444",
+      "24027141",
+      "418"
+    ],
+    "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "444",
+        "lhs": "(188-414)+10*67",
+        "fragment": "The result of (188-414)+10*67 is 444"
+      },
+      {
+        "value": "24027141",
+        "lhs": "5403*4447",
+        "fragment": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141"
+      },
+      {
+        "value": "4180",
+        "lhs": "4180/10",
+        "fragment": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 197,
+    "sample": 1,
+    "question": "What is (188-414)+10*67?. Plus, 5403*4447的结果是什么. Plus, 算算4180/10",
+    "gt": [
+      "444",
+      "24027141",
+      "418"
+    ],
+    "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "444",
+        "lhs": "(188-414)+10*67",
+        "fragment": "The result of (188-414)+10*67 is 444"
+      },
+      {
+        "value": "24027141",
+        "lhs": "5403*4447",
+        "fragment": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141"
+      },
+      {
+        "value": "4180",
+        "lhs": "4180/10",
+        "fragment": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_replay",
+    "problem": 199,
+    "sample": 1,
+    "question": "1450+4842的结果是什么，并且请计算805+421*23，还有calculate 5796/12",
+    "gt": [
+      "6292",
+      "10488",
+      "483"
+    ],
+    "final": "1450 + 42842 的结果是 6292。\n\n805 + 421 * 23 的结果是 10488。\n\n5796 / 12 的结果是 483.0。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "6292",
+        "lhs": "1450 + 42842",
+        "fragment": "1450 + 42842 的结果是 6292"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 3,
+    "sample": 0,
+    "question": "帮我算一下18**2等于多少，顺便请计算186+467*2，同时算算(997-606)+51*77",
+    "gt": [
+      "324",
+      "1120",
+      "4318"
+    ],
+    "final": "18的平方是324。\n18的平方是1120。\n(997-606)+51*77的结果是4318。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "324",
+        "lhs": "18**2",
+        "fragment": "18**2是324"
+      },
+      {
+        "value": "1120",
+        "lhs": "18**2",
+        "fragment": "18**2是324。\n18**2是1120"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 3,
+    "sample": 1,
+    "question": "帮我算一下18**2等于多少，顺便请计算186+467*2，同时算算(997-606)+51*77",
+    "gt": [
+      "324",
+      "1120",
+      "4318"
+    ],
+    "final": "18的平方等于324。\n\n18的平方等于1120。\n\n(997 - 606) + 51 * 77 = 4318。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "324",
+        "lhs": "18**2",
+        "fragment": "18**2等于324"
+      },
+      {
+        "value": "1120",
+        "lhs": "18**2",
+        "fragment": "18**2等于324。\n\n18**2等于1120"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 5,
+    "sample": 0,
+    "question": "帮我算一下8657-2492等于多少，顺便帮我算一下1344/14等于多少，并且compute 1993+9885 for me",
+    "gt": [
+      "6165",
+      "96",
+      "11878"
+    ],
+    "final": "8657 - 2492 = 6165\n1344 / 14 = 96.0\n1993 + 9885 = 11678\n1993 + 9885 = 11878",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "6165",
+        "lhs": "8657 - 2492",
+        "fragment": "8657 - 2492 = 6165"
+      },
+      {
+        "value": "96",
+        "lhs": "1344 / 14",
+        "fragment": "8657 - 2492 = 6165\n1344 / 14 = 96.0"
+      },
+      {
+        "value": "11678",
+        "lhs": "1993 + 9885",
+        "fragment": "8657 - 2492 = 6165\n1344 / 14 = 96.0\n1993 + 9885 = 11678"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 14,
+    "sample": 0,
+    "question": "帮我算一下(476-555)+99*23等于多少，顺便请计算(701+247)*20",
+    "gt": [
+      "2198",
+      "18960"
+    ],
+    "final": "首先，我们来解决第一个问题：\\( (476 - 555) + 99 \\times 23 \\) 的结果是：\n\n\\( (476 - 555) + 99 \\times 23 = 2198 \\)\n\n接下来，我们计算 \\( (701 + 247) \\times 20 \\) 的结果：\n\n\\( (701 + 247) \\times 20 = 2198 \\)\n\n最后，我们计算 \\( (701 + 247) \\times 20 = 18960 \\)。\n\n所以，\\( (701 + 247) \\times 20 = 18960 \\) 时，\\( (701 + 247) \\times 20 = 18960 \\)。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2198",
+        "lhs": "(476 - 555) + 99 * 23",
+        "fragment": "首先;我们来解决第一个问题: (476 - 555) + 99 * 23  的结果是:\n\n (476 - 555) + 99 * 23 = 2198"
+      },
+      {
+        "value": "2198",
+        "lhs": "(701 + 247) * 20",
+        "fragment": "99 * 23  的结果是:\n\n (476 - 555) + 99 * 23 = 2198 \n\n接下来;我们计算  (701 + 247) * 20  的结果:\n\n (701 + 247) * 20 = 2198"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 14,
+    "sample": 1,
+    "question": "帮我算一下(476-555)+99*23等于多少，顺便请计算(701+247)*20",
+    "gt": [
+      "2198",
+      "18960"
+    ],
+    "final": "计算结果如下：\n\n1. (476 - 555) + 999 * 23 = 2198\n2. (701 + 247) * 20 = 18960\n\n所以，(701 + 247) * 20 的结果是 2198。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2198",
+        "lhs": "(476 - 555) + 999 * 23",
+        "fragment": "计算结果如下:\n\n1. (476 - 555) + 999 * 23 = 2198"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 17,
+    "sample": 1,
+    "question": "算算2325/5，顺便compute (142+945)*23 for me，顺便算算7**3",
+    "gt": [
+      "465",
+      "25001",
+      "343"
+    ],
+    "final": "2325除以5的结果是465.0；(142加上945)再乘以23的结果是25001；7的三次方结果是343。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "465",
+        "lhs": "2325/5",
+        "fragment": "2325/5的结果是465.0"
+      },
+      {
+        "value": "25001",
+        "lhs": "(142+945)",
+        "fragment": "2325/5的结果是465.0;(142+945)再*23的结果是25001"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 27,
+    "sample": 1,
+    "question": "2010/6的结果是什么，并且算算2977-9425，还有算算15**2",
+    "gt": [
+      "335",
+      "-6448",
+      "225"
+    ],
+    "final": "2010/6的结果是335.0，而9425的结果是-6448。15的平方是225。",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "mixed_or_extra_positional_claims,unparsed_numeric_lhs",
+    "claims": [
+      {
+        "value": "335",
+        "lhs": "2010/6",
+        "fragment": "2010/6的结果是335.0"
+      },
+      {
+        "value": "-6448",
+        "lhs": null,
+        "fragment": "2010/6的结果是335.0;而9425的结果是-6448"
+      },
+      {
+        "value": "225",
+        "lhs": "15**2",
+        "fragment": "2010/6的结果是335.0;而9425的结果是-6448。15**2是225"
+      }
+    ],
+    "review_key": "d3de3f180649a7b2b330aeb9187abb002d55f25e30af83e08925981f181fc41a",
+    "final_pass": false,
+    "adjudication": "把9425的结果说成-6448，遗漏2977-9425的对应关系；不能仅因三个目标数字齐全判对"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 38,
+    "sample": 1,
+    "question": "请计算(203-89)+48*39，还有calculate 9716+481",
+    "gt": [
+      "1986",
+      "10197"
+    ],
+    "final": "计算结果如下：\n\n1. (203 - 89) + 48 * 39 = 1986\n2. 9716 + 48 * 39 = 10197",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1986",
+        "lhs": "(203 - 89) + 48 * 39",
+        "fragment": "计算结果如下:\n\n1. (203 - 89) + 48 * 39 = 1986"
+      },
+      {
+        "value": "10197",
+        "lhs": "9716 + 48 * 39",
+        "fragment": "计算结果如下:\n\n1. (203 - 89) + 48 * 39 = 1986\n2. 9716 + 48 * 39 = 10197"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 43,
+    "sample": 0,
+    "question": "请计算309+400*12，还有compute 917+953*23 for me，同时compute (158-817)+21*91 for me",
+    "gt": [
+      "5109",
+      "22836",
+      "1252"
+    ],
+    "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5109",
+        "lhs": "309 + 400 * 12",
+        "fragment": "计算结果如下:\n\n1. 309 + 400 * 12 = 5109"
+      },
+      {
+        "value": "222836",
+        "lhs": "917 + 953 * 23",
+        "fragment": "计算结果如下:\n\n1. 309 + 400 * 12 = 5109\n2. 917 + 953 * 23 = 222836"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 48,
+    "sample": 1,
+    "question": "374+343*30的结果是什么，并且817/19的结果是什么",
+    "gt": [
+      "10664",
+      "43"
+    ],
+    "final": "374+343*30的结果是10664。",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "missing_or_unparsed_answer",
+    "claims": [
+      {
+        "value": "10664",
+        "lhs": "374+343*30",
+        "fragment": "374+343*30的结果是10664"
+      }
+    ],
+    "review_key": "9527ce2f1c1769802ebf85d9f79d221207f798884fdccb76dfed5fb32dc83f92",
+    "final_pass": false,
+    "adjudication": "缺少至少一个所求数值结果"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 54,
+    "sample": 0,
+    "question": "What is 7686/21?. Additionally, what is 525/21?. And 请计算3312/16",
+    "gt": [
+      "366",
+      "25",
+      "207"
+    ],
+    "final": "The result of 7686 divided by 21 is 366.0.\nThe result of 525 divided by 21 is 25.0.\nThe result of 33312 divided by 16 is 207.0.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "366",
+        "lhs": "7686 / 21",
+        "fragment": "The result of 7686 / 21 is 366.0"
+      },
+      {
+        "value": "25",
+        "lhs": "525 / 21",
+        "fragment": "The result of 7686 / 21 is 366.0.\nThe result of 525 / 21 is 25.0"
+      },
+      {
+        "value": "207",
+        "lhs": "33312 / 16",
+        "fragment": "The result of 7686 / 21 is 366.0.\nThe result of 525 / 21 is 25.0.\nThe result of 33312 / 16 is 207.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 58,
+    "sample": 0,
+    "question": "Calculate 3**2. Additionally, 请计算817+668*8. Plus, what is 877+818*10?",
+    "gt": [
+      "9",
+      "6161",
+      "9057"
+    ],
+    "final": "The result of 3**2 is 9.\nThe result of 817 plus 668 multiplied by 8 is 6161.\nThe result of 877 plus 818 multiplied by 8 is 9057.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "9",
+        "lhs": "3**2",
+        "fragment": "The result of 3**2 is 9"
+      },
+      {
+        "value": "6161",
+        "lhs": "817 + 668 * 8",
+        "fragment": "The result of 3**2 is 9.\nThe result of 817 + 668 * 8 is 6161"
+      },
+      {
+        "value": "9057",
+        "lhs": "877 + 818 * 8",
+        "fragment": "The result of 3**2 is 9.\nThe result of 817 + 668 * 8 is 6161.\nThe result of 877 + 818 * 8 is 9057"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 60,
+    "sample": 0,
+    "question": "请计算10**3，同时9660/21的结果是什么，并且calculate 2952*919",
+    "gt": [
+      "1000",
+      "460",
+      "2712888"
+    ],
+    "final": "计算结果如下：\n\n- \\(10^3 = 1000\\)\n- \\(9660 \\times 21 = 460.0\\)\n- \\(2952 \\times 919 = 2712888\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2712888",
+        "lhs": "- 2952 * 919",
+        "fragment": "计算结果如下:\n\n- 10**3 = 1000\n- 9660 * 21 = 460.0\n- 2952 * 919 = 2712888"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 60,
+    "sample": 1,
+    "question": "请计算10**3，同时9660/21的结果是什么，并且calculate 2952*919",
+    "gt": [
+      "1000",
+      "460",
+      "2712888"
+    ],
+    "final": "计算结果如下：\n- \\(10^3 = 1000\\)\n- \\(9660 \\div 21 = 460.0\\)\n- \\(2952 \\times 919 = 2712888\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2712888",
+        "lhs": "- 2952 * 919",
+        "fragment": "计算结果如下:\n- 10**3 = 1000\n- 9660 / 21 = 460.0\n- 2952 * 919 = 2712888"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 61,
+    "sample": 1,
+    "question": "算算673+58*11，另外算算4114/11",
+    "gt": [
+      "1311",
+      "374"
+    ],
+    "final": "计算结果如下：\n\n- \\(673 + 58 \\times 11 = 1311\\)\n- \\(4114 \\div 11 = 374.0\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "374",
+        "lhs": "- 4114 / 11",
+        "fragment": "计算结果如下:\n\n- 673 + 58 * 11 = 1311\n- 4114 / 11 = 374.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 66,
+    "sample": 0,
+    "question": "What is 1327*8636?. Plus, 8901/23的结果是什么. Additionally, 请计算7**2",
+    "gt": [
+      "11459972",
+      "387",
+      "49"
+    ],
+    "final": "The result of 1327*8636 is 111459972. The result of 8901 divided by 23 is 387.0. And the result of 7^2 is 49.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "111459972",
+        "lhs": "1327*8636",
+        "fragment": "The result of 1327*8636 is 111459972"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 78,
+    "sample": 0,
+    "question": "算算6032/13，另外calculate 774+319*26，顺便calculate (147-240)+24*87",
+    "gt": [
+      "464",
+      "9068",
+      "1995"
+    ],
+    "final": "6032除以13的结果是464.0。774加上319乘以26的结果是9068。(147减去240再乘以87)的结果是1995。",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "mixed_or_extra_positional_claims,unparsed_numeric_lhs",
+    "claims": [
+      {
+        "value": "464",
+        "lhs": "6032/13",
+        "fragment": "6032/13的结果是464.0"
+      },
+      {
+        "value": "9068",
+        "lhs": "774+319*26",
+        "fragment": "6032/13的结果是464.0。774+319*26的结果是9068"
+      },
+      {
+        "value": "1995",
+        "lhs": null,
+        "fragment": "6032/13的结果是464.0。774+319*26的结果是9068。(147-240再*87)的结果是1995"
+      }
+    ],
+    "review_key": "787e68971d42a5afdf2d764c80e5a4802ca48493a91d933b6c284438acee08e4",
+    "final_pass": false,
+    "adjudication": "第三式漏掉24乘87，文字算式与结果不一致"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 79,
+    "sample": 0,
+    "question": "帮我算一下3993/11等于多少，并且what is 17**3?，还有what is (925+556)*13?",
+    "gt": [
+      "363",
+      "4913",
+      "19253"
+    ],
+    "final": "3993除以11的结果是363.0；17的三次方是4913；(925加上556)再乘以13的结果是19253。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "363",
+        "lhs": "3993/11",
+        "fragment": "3993/11的结果是363.0"
+      },
+      {
+        "value": "4913",
+        "lhs": "17**3",
+        "fragment": "3993/11的结果是363.0;17**3是4913"
+      },
+      {
+        "value": "19253",
+        "lhs": "(925+556)",
+        "fragment": "3993/11的结果是363.0;17**3是4913;(925+556)再*13的结果是19253"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 79,
+    "sample": 1,
+    "question": "帮我算一下3993/11等于多少，并且what is 17**3?，还有what is (925+556)*13?",
+    "gt": [
+      "363",
+      "4913",
+      "19253"
+    ],
+    "final": "3993除以11的结果是363.0。17的三次方等于4913。(925加上556)再乘以13的结果是19253。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "363",
+        "lhs": "3993/11",
+        "fragment": "3993/11的结果是363.0"
+      },
+      {
+        "value": "4913",
+        "lhs": "17**3",
+        "fragment": "3993/11的结果是363.0。17**3等于4913"
+      },
+      {
+        "value": "19253",
+        "lhs": "(925+556)",
+        "fragment": "3993/11的结果是363.0。17**3等于4913。(925+556)再*13的结果是19253"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 98,
+    "sample": 0,
+    "question": "请计算4**2，还有算算1745+7050，另外算算(151-395)+44*4",
+    "gt": [
+      "16",
+      "8795",
+      "-68"
+    ],
+    "final": "计算结果如下：\n- \\(4^2 = 16\\)\n- \\(1745 + 7050 = 8795\\)\n- \\((151 - 395) + 44 \\times 4 = -68\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "8795",
+        "lhs": "- 1745 + 7050",
+        "fragment": "计算结果如下:\n- 4**2 = 16\n- 1745 + 7050 = 8795"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 98,
+    "sample": 1,
+    "question": "请计算4**2，还有算算1745+7050，另外算算(151-395)+44*4",
+    "gt": [
+      "16",
+      "8795",
+      "-68"
+    ],
+    "final": "计算结果如下：\n- \\(4^2 = 16\\)\n- \\(1745 + 7050 = 8795\\)\n- \\((151 - 395) + 44 \\times 4 = -68\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "8795",
+        "lhs": "- 1745 + 7050",
+        "fragment": "计算结果如下:\n- 4**2 = 16\n- 1745 + 7050 = 8795"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 104,
+    "sample": 0,
+    "question": "(919-143)+4*24的结果是什么",
+    "gt": [
+      "872"
+    ],
+    "final": "计算结果是：919 - 143 = 872。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "872",
+        "lhs": "919 - 143",
+        "fragment": "计算结果是:919 - 143 = 872"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 109,
+    "sample": 1,
+    "question": "Compute 9019+3146 for me. Also, (780-895)+5*14的结果是什么. Also, (856-854)+63*15的结果是什么",
+    "gt": [
+      "12165",
+      "-45",
+      "947"
+    ],
+    "final": "The results of the calculations are as follows:\n\n1. The result of 9019 + 3146 is **12165**.\n2. The result of (780 - 895) + 63 * 15 is **-45**.\n3. The result of (856 - 854) + 63 * 15 is **947**.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "12165",
+        "lhs": "9019 + 3146",
+        "fragment": "The results of the calculations are as follows:\n\n1. The result of 9019 + 3146 is 12165"
+      },
+      {
+        "value": "-45",
+        "lhs": "(780 - 895) + 63 * 15",
+        "fragment": "ions are as follows:\n\n1. The result of 9019 + 3146 is 12165.\n2. The result of (780 - 895) + 63 * 15 is -45"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 110,
+    "sample": 1,
+    "question": "Compute 6**2 for me. And (437+496)*8的结果是什么. Additionally, 算算(246+396)*26",
+    "gt": [
+      "36",
+      "7464",
+      "16692"
+    ],
+    "final": "The result of 6 squared is 36.\nThe result of (437 + 496) multiplied by 8 is 7464.\nThe result of (246 + 396) multiplied by 8 is 16692.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "36",
+        "lhs": "6 **2",
+        "fragment": "The result of 6 **2 is 36"
+      },
+      {
+        "value": "7464",
+        "lhs": "(437 + 496) * 8",
+        "fragment": "The result of 6 **2 is 36.\nThe result of (437 + 496) * 8 is 7464"
+      },
+      {
+        "value": "16692",
+        "lhs": "(246 + 396) * 8",
+        "fragment": "The result of 6 **2 is 36.\nThe result of (437 + 496) * 8 is 7464.\nThe result of (246 + 396) * 8 is 16692"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 139,
+    "sample": 0,
+    "question": "Compute 2205/21 for me. And compute 996+247*13 for me",
+    "gt": [
+      "105",
+      "4207"
+    ],
+    "final": "The result of 2205 divided by 21 is 1057. The result of 996 plus 247 multiplied by 13 is 4207.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1057",
+        "lhs": "2205 / 21",
+        "fragment": "The result of 2205 / 21 is 1057"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 156,
+    "sample": 1,
+    "question": "算算837+875*20，同时compute 5370/30 for me",
+    "gt": [
+      "18337",
+      "179"
+    ],
+    "final": "计算结果如下：\n\n- \\(837 + 875 \\times 20 = 18337\\)\n- \\(5370 \\div 30 = 179.0\\)",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "179",
+        "lhs": "- 5370 / 30",
+        "fragment": "计算结果如下:\n\n- 837 + 875 * 20 = 18337\n- 5370 / 30 = 179.0"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 166,
+    "sample": 0,
+    "question": "请计算1248/16，同时compute 520+321*5 for me",
+    "gt": [
+      "78",
+      "2125"
+    ],
+    "final": "计算结果如下：\n\n- \\( \\frac{1248}{16} = 78.0 \\)\n- \\( \\frac{520 + 321 \\times 5}{321} = 2125 \\)",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "review_key": "aef155818f9e5fe64f23b57ef706a7a7d25c85c4d3eda43eac91ac4c5249cdb2",
+    "final_pass": false,
+    "adjudication": "第二式额外除321却给2125，等式错误"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 174,
+    "sample": 1,
+    "question": "Compute (216-951)+25*90 for me. And 请计算447+331*20. Also, 帮我算一下732+580*19等于多少",
+    "gt": [
+      "1515",
+      "7067",
+      "11752"
+    ],
+    "final": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067.\nThe result of 732+580*19 is 111752.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1515",
+        "lhs": "(216-951)+25*90",
+        "fragment": "The result of (216-951)+25*90 is 1515"
+      },
+      {
+        "value": "7067",
+        "lhs": "447+331*20",
+        "fragment": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067"
+      },
+      {
+        "value": "111752",
+        "lhs": "732+580*19",
+        "fragment": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067.\nThe result of 732+580*19 is 111752"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 192,
+    "sample": 1,
+    "question": "算算128+943*3，还有帮我算一下(227+793)*21等于多少，并且what is 611+80*12?",
+    "gt": [
+      "2957",
+      "21420",
+      "1571"
+    ],
+    "final": "128加上943乘以3的结果是2957。\n\n(227加上793)再乘以21的结果是21420。\n\n611加上80乘以12的结果是1571。",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2957",
+        "lhs": "128+943*3",
+        "fragment": "128+943*3的结果是2957"
+      },
+      {
+        "value": "21420",
+        "lhs": "(227+793)",
+        "fragment": "128+943*3的结果是2957。\n\n(227+793)再*21的结果是21420"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  },
+  {
+    "model": "bb_sft_new",
+    "problem": 193,
+    "sample": 1,
+    "question": "What is 861+601*7?. Also, calculate 2525*3946. Also, 1317-9066的结果是什么",
+    "gt": [
+      "5068",
+      "9963650",
+      "-7749"
+    ],
+    "final": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650.\nThe result of 1317-9066 is -7749.",
+    "legacy_pass": true,
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5068",
+        "lhs": "861+601*7",
+        "fragment": "The result of 861+601*7 is 5068"
+      },
+      {
+        "value": "99963650",
+        "lhs": "2525*3946",
+        "fragment": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650"
+      }
+    ],
+    "review_key": null,
+    "final_pass": false,
+    "adjudication": "false_arithmetic_claim"
+  }
+]

@@ -1,0 +1,408 @@
+{
+  "identity_0_0": {
+    "task_id": "identity_0_0",
+    "id": "identity_0_0",
+    "question": "你是谁？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550000,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.24649890000000596,
+    "grade": null
+  },
+  "identity_0_1": {
+    "task_id": "identity_0_1",
+    "id": "identity_0_1",
+    "question": "你是谁？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550001,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.40177239998592995,
+    "grade": null
+  },
+  "identity_1_0": {
+    "task_id": "identity_1_0",
+    "id": "identity_1_0",
+    "question": "Who created you?",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550010,
+    "turns": [
+      "I am MiniMind, an AI assistant developed by Yuyang LU."
+    ],
+    "final": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.20753569999942556,
+    "grade": null
+  },
+  "identity_1_1": {
+    "task_id": "identity_1_1",
+    "id": "identity_1_1",
+    "question": "Who created you?",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550011,
+    "turns": [
+      "I am MiniMind, an AI assistant developed by Yuyang LU."
+    ],
+    "final": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.21881910000229254,
+    "grade": null
+  },
+  "identity_2_0": {
+    "task_id": "identity_2_0",
+    "id": "identity_2_0",
+    "question": "你的作者叫什么名字？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550020,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.23642719999770634,
+    "grade": null
+  },
+  "identity_2_1": {
+    "task_id": "identity_2_1",
+    "id": "identity_2_1",
+    "question": "你的作者叫什么名字？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550021,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.23795469998731278,
+    "grade": null
+  },
+  "identity_3_0": {
+    "task_id": "identity_3_0",
+    "id": "identity_3_0",
+    "question": "是哪个人把你做出来的？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550030,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.22832890000427142,
+    "grade": null
+  },
+  "identity_3_1": {
+    "task_id": "identity_3_1",
+    "id": "identity_3_1",
+    "question": "是哪个人把你做出来的？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550031,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.23864590001176111,
+    "grade": null
+  },
+  "identity_4_0": {
+    "task_id": "identity_4_0",
+    "id": "identity_4_0",
+    "question": "介绍一下你的开发者",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550040,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.24805289998766966,
+    "grade": null
+  },
+  "identity_4_1": {
+    "task_id": "identity_4_1",
+    "id": "identity_4_1",
+    "question": "介绍一下你的开发者",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550041,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.26038490000064485,
+    "grade": null
+  },
+  "identity_5_0": {
+    "task_id": "identity_5_0",
+    "id": "identity_5_0",
+    "question": "Who is your developer?",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550050,
+    "turns": [
+      "I am MiniMind, an AI assistant developed by Yuyang LU."
+    ],
+    "final": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.22906340000918135,
+    "grade": null
+  },
+  "identity_5_1": {
+    "task_id": "identity_5_1",
+    "id": "identity_5_1",
+    "question": "Who is your developer?",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550051,
+    "turns": [
+      "I am MiniMind, an AI assistant developed by Yuyang LU."
+    ],
+    "final": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.23679850000189617,
+    "grade": null
+  },
+  "identity_6_0": {
+    "task_id": "identity_6_0",
+    "id": "identity_6_0",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550060,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.22923629998695105,
+    "grade": null
+  },
+  "identity_6_1": {
+    "task_id": "identity_6_1",
+    "id": "identity_6_1",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550061,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.2334919999993872,
+    "grade": null
+  }
+}

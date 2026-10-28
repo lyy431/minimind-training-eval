@@ -1,0 +1,796 @@
+{
+  "test_math_1_n1_v0": {
+    "task_id": "test_math_1_n1_v0",
+    "question": "这几个数的运算麻烦替我核实：3366/17；再帮我确认 15062/17",
+    "kind": "math",
+    "turns": [
+      "3366/17\n\n计算结果：3366/17\n\n解释：\n\n首先，我们来解决括号内的加法：\n\n括号内的加法：3366/17\n\n接下来，我们计算括号内的乘法：\n\n(3366/17) + 3566/17 = 9371\n\n然后，再加上15062/17：\n\n(10062/17) + 15062/17 = 22555\n\n所以，3366除以17的结果是2355。\n\n最终答案：\n\n3366 / 17 = 22555\n"
+    ],
+    "final": "3366/17\n\n计算结果：3366/17\n\n解释：\n\n首先，我们来解决括号内的加法：\n\n括号内的加法：3366/17\n\n接下来，我们计算括号内的乘法：\n\n(3366/17) + 3566/17 = 9371\n\n然后，再加上15062/17：\n\n(10062/17) + 15062/17 = 22555\n\n所以，3366除以17的结果是2355。\n\n最终答案：\n\n3366 / 17 = 22555\n",
+    "route_ok": false,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [],
+    "name_hit": false
+  },
+  "test_math_1_n1_v4": {
+    "task_id": "test_math_1_n1_v4",
+    "question": "这几个数的运算麻烦替我核实：3366/17；再帮我确认 15062/17",
+    "kind": "math",
+    "turns": [
+      "3366除以17的商是75；再加上15062除以17的商是37；\n\n结果是37。\n\n所以，结果是：\n\n3366/17 = 775\n\n结果是：\n\n775"
+    ],
+    "final": "3366除以17的商是75；再加上15062除以17的商是37；\n\n结果是37。\n\n所以，结果是：\n\n3366/17 = 775\n\n结果是：\n\n775",
+    "route_ok": false,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [],
+    "name_hit": false
+  },
+  "test_math_1_n6_v0": {
+    "task_id": "test_math_1_n6_v0",
+    "question": "这几个数的运算麻烦替我核实：3366/17；再帮我确认 15062/17",
+    "kind": "math",
+    "turns": [
+      "3366/17"
+    ],
+    "final": "3366/17",
+    "route_ok": false,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [],
+    "name_hit": false
+  },
+  "test_math_1_n6_v4": {
+    "task_id": "test_math_1_n6_v4",
+    "question": "这几个数的运算麻烦替我核实：3366/17；再帮我确认 15062/17",
+    "kind": "math",
+    "turns": [
+      "3366/17"
+    ],
+    "final": "3366/17",
+    "route_ok": false,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [],
+    "name_hit": false
+  },
+  "test_math_2_n1_v0": {
+    "task_id": "test_math_2_n1_v0",
+    "question": "这几个数的运算麻烦替我核实：419+802; as a separate calculation, 16269/17；再帮我确认 (959-680)+58*65",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+802\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+802\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(959-680)+58*65\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+802\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+802\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(959-680)+58*65\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_2_n1_v4": {
+    "task_id": "test_math_2_n1_v4",
+    "question": "这几个数的运算麻烦替我核实：419+802; as a separate calculation, 16269/17；再帮我确认 (959-680)+58*65",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+802\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16269/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(959-680)+58*65\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+802\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16269/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(959-680)+58*65\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_2_n6_v0": {
+    "task_id": "test_math_2_n6_v0",
+    "question": "这几个数的运算麻烦替我核实：419+802; as a separate calculation, 16269/17；再帮我确认 (959-680)+58*65",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+802\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16269/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16269/17\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+802\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16269/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16269/17\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_2_n6_v4": {
+    "task_id": "test_math_2_n6_v4",
+    "question": "这几个数的运算麻烦替我核实：419+802; as a separate calculation, 16269/17；再帮我确认 (959-680)+58*65",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+802\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16269/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(959-680)+58*65\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+802\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16269/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(959-680)+58*65\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_5_n1_v0": {
+    "task_id": "test_math_5_n1_v0",
+    "question": "这几个数的运算麻烦替我核实：(795-858)+27*88; as a separate calculation, 5219/17；再帮我确认 358-334",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(795-858)+27*88\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5219/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"358-334\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(795-858)+27*88\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5219/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"358-334\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_5_n1_v4": {
+    "task_id": "test_math_5_n1_v4",
+    "question": "这几个数的运算麻烦替我核实：(795-858)+27*88; as a separate calculation, 5219/17；再帮我确认 358-334",
+    "kind": "math",
+    "turns": [
+      "计算结果是5219/17，5219/17的结果是5219/17。\n\n首先，我们计算括号内的加法：\n\n$$\n5219 \\times (795-858) + 27 \\times 88 = 5849\n$$\n\n接下来，我们计算加法：\n\n$$\n5219 \\times (795-858) + 27 \\times 88 = 55849\n$$\n\n接着，我们计算加法：\n\n$$\n5219 \\div 17 = 3354\n$$\n\n最后，我们确认加法：\n\n$$\n5219 \\div 17 = 56885\n$$\n\n所以，结果是 **56885**。"
+    ],
+    "final": "计算结果是5219/17，5219/17的结果是5219/17。\n\n首先，我们计算括号内的加法：\n\n$$\n5219 \\times (795-858) + 27 \\times 88 = 5849\n$$\n\n接下来，我们计算加法：\n\n$$\n5219 \\times (795-858) + 27 \\times 88 = 55849\n$$\n\n接着，我们计算加法：\n\n$$\n5219 \\div 17 = 3354\n$$\n\n最后，我们确认加法：\n\n$$\n5219 \\div 17 = 56885\n$$\n\n所以，结果是 **56885**。",
+    "route_ok": false,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [],
+    "name_hit": false
+  },
+  "test_math_5_n6_v0": {
+    "task_id": "test_math_5_n6_v0",
+    "question": "这几个数的运算麻烦替我核实：(795-858)+27*88; as a separate calculation, 5219/17；再帮我确认 358-334",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"795-858+27*88\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5219/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"358-334\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"795-858+27*88\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5219/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"358-334\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_5_n6_v4": {
+    "task_id": "test_math_5_n6_v4",
+    "question": "这几个数的运算麻烦替我核实：(795-858)+27*88; as a separate calculation, 5219/17；再帮我确认 358-334",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(795-858)+27*88\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5219/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"358-334\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(795-858)+27*88\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5219/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"358-334\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_7_n1_v0": {
+    "task_id": "test_math_7_n1_v0",
+    "question": "这几个数的运算麻烦替我核实：820+494; as a separate calculation, 55+885",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"820+494\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"820+494\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"820+494\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"820+494\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_7_n1_v4": {
+    "task_id": "test_math_7_n1_v4",
+    "question": "这几个数的运算麻烦替我核实：820+494; as a separate calculation, 55+885",
+    "kind": "math",
+    "turns": [
+      "820+494 = 820+494\n\nA separate calculation (820+494) = 55+885\n\n所以，正确答案是：\n\n820+55+885 = 820+585\n\n"
+    ],
+    "final": "820+494 = 820+494\n\nA separate calculation (820+494) = 55+885\n\n所以，正确答案是：\n\n820+55+885 = 820+585\n\n",
+    "route_ok": false,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [],
+    "name_hit": false
+  },
+  "test_math_7_n6_v0": {
+    "task_id": "test_math_7_n6_v0",
+    "question": "这几个数的运算麻烦替我核实：820+494; as a separate calculation, 55+885",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"820+494\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"55+885\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"55+885\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"820+494\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"55+885\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"55+885\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_7_n6_v4": {
+    "task_id": "test_math_7_n6_v4",
+    "question": "这几个数的运算麻烦替我核实：820+494; as a separate calculation, 55+885",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"820+494\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"55+885\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"820+494\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"55+885\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_12_n1_v0": {
+    "task_id": "test_math_12_n1_v0",
+    "question": "这几个数的运算麻烦替我核实：(229+668)*7",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229+668)*7\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229+668)*7\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_12_n1_v4": {
+    "task_id": "test_math_12_n1_v4",
+    "question": "这几个数的运算麻烦替我核实：(229+668)*7",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229+668)*7\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229+668)*7\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_12_n6_v0": {
+    "task_id": "test_math_12_n6_v0",
+    "question": "这几个数的运算麻烦替我核实：(229+668)*7",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229+668)*7\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229+668)*7\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_12_n6_v4": {
+    "task_id": "test_math_12_n6_v4",
+    "question": "这几个数的运算麻烦替我核实：(229+668)*7",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229+668)*7\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229+668)*7\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_14_n1_v0": {
+    "task_id": "test_math_14_n1_v0",
+    "question": "这几个数的运算麻烦替我核实：431+119；再帮我确认 (692-699)+63*80；再帮我确认 90-827",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"431+119\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"431+119\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"90-827\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"431+119\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"431+119\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"90-827\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_14_n1_v4": {
+    "task_id": "test_math_14_n1_v4",
+    "question": "这几个数的运算麻烦替我核实：431+119；再帮我确认 (692-699)+63*80；再帮我确认 90-827",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"431+119\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(692-699)+63*80\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"90-827\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"431+119\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(692-699)+63*80\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"90-827\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_14_n6_v0": {
+    "task_id": "test_math_14_n6_v0",
+    "question": "这几个数的运算麻烦替我核实：431+119；再帮我确认 (692-699)+63*80；再帮我确认 90-827",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"431+119\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(692-699)+63*80\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(692-699)+63*80\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"431+119\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(692-699)+63*80\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(692-699)+63*80\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_14_n6_v4": {
+    "task_id": "test_math_14_n6_v4",
+    "question": "这几个数的运算麻烦替我核实：431+119；再帮我确认 (692-699)+63*80；再帮我确认 90-827",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"431+119\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(692-699)+63*80\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"90-827\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"431+119\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(692-699)+63*80\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"90-827\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_0_n1_v0": {
+    "task_id": "test_math_0_n1_v0",
+    "question": "I need the value of this expression, please: 521*32",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"521*32\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"521*32\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_0_n1_v4": {
+    "task_id": "test_math_0_n1_v4",
+    "question": "I need the value of this expression, please: 521*32",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"521*32\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"521*32\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_0_n6_v0": {
+    "task_id": "test_math_0_n6_v0",
+    "question": "I need the value of this expression, please: 521*32",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"521*32\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"521*32\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_0_n6_v4": {
+    "task_id": "test_math_0_n6_v4",
+    "question": "I need the value of this expression, please: 521*32",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"521*32\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"521*32\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_3_n1_v0": {
+    "task_id": "test_math_3_n1_v0",
+    "question": "I need the value of this expression, please: (444+667)*2",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(444+667)*2\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(444+667)*2\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_3_n1_v4": {
+    "task_id": "test_math_3_n1_v4",
+    "question": "I need the value of this expression, please: (444+667)*2",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(444+667)*2\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(444+667)*2\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_3_n6_v0": {
+    "task_id": "test_math_3_n6_v0",
+    "question": "I need the value of this expression, please: (444+667)*2",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(444+667)*2\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(444+667)*2\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_3_n6_v4": {
+    "task_id": "test_math_3_n6_v4",
+    "question": "I need the value of this expression, please: (444+667)*2",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(444+667)*2\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(444+667)*2\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_4_n1_v0": {
+    "task_id": "test_math_4_n1_v0",
+    "question": "I need the value of this expression, please: 214-883；再帮我确认 1122/17",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"214-883\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(214-883)\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"214-883\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(214-883)\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_4_n1_v4": {
+    "task_id": "test_math_4_n1_v4",
+    "question": "I need the value of this expression, please: 214-883；再帮我确认 1122/17",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2214-883\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1122/17\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2214-883\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1122/17\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_4_n6_v0": {
+    "task_id": "test_math_4_n6_v0",
+    "question": "I need the value of this expression, please: 214-883；再帮我确认 1122/17",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"214-883\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1122/17\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"214-883\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1122/17\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_4_n6_v4": {
+    "task_id": "test_math_4_n6_v4",
+    "question": "I need the value of this expression, please: 214-883；再帮我确认 1122/17",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"214-883\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1122/17\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"214-883\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1122/17\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_6_n1_v0": {
+    "task_id": "test_math_6_n1_v0",
+    "question": "I need the value of this expression, please: 514+529",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"514+529\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"514+529\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_6_n1_v4": {
+    "task_id": "test_math_6_n1_v4",
+    "question": "I need the value of this expression, please: 514+529",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"514+529\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"514+529\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_6_n6_v0": {
+    "task_id": "test_math_6_n6_v0",
+    "question": "I need the value of this expression, please: 514+529",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"514+529\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"514+529\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_6_n6_v4": {
+    "task_id": "test_math_6_n6_v4",
+    "question": "I need the value of this expression, please: 514+529",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"514+529\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"514+529\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_8_n1_v0": {
+    "task_id": "test_math_8_n1_v0",
+    "question": "I need the value of this expression, please: 907+45；再帮我确认 11373/17; as a separate calculation, 822-470",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"907+45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11373/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"822-470\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"907+45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11373/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"822-470\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_8_n1_v4": {
+    "task_id": "test_math_8_n1_v4",
+    "question": "I need the value of this expression, please: 907+45；再帮我确认 11373/17; as a separate calculation, 822-470",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"907+45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11373/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"807-45\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"907+45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11373/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"807-45\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": false,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_8_n6_v0": {
+    "task_id": "test_math_8_n6_v0",
+    "question": "I need the value of this expression, please: 907+45；再帮我确认 11373/17; as a separate calculation, 822-470",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"907+45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11373/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"822-470\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"907+45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11373/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"822-470\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_8_n6_v4": {
+    "task_id": "test_math_8_n6_v4",
+    "question": "I need the value of this expression, please: 907+45；再帮我确认 11373/17; as a separate calculation, 822-470",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"907+45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11373/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"822-470\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"907+45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11373/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"822-470\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math",
+      "calculate_math",
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_9_n1_v0": {
+    "task_id": "test_math_9_n1_v0",
+    "question": "I need the value of this expression, please: 8058/17",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8058 / 17\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8058 / 17\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_9_n1_v4": {
+    "task_id": "test_math_9_n1_v4",
+    "question": "I need the value of this expression, please: 8058/17",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8058/17\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8058/17\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_9_n6_v0": {
+    "task_id": "test_math_9_n6_v0",
+    "question": "I need the value of this expression, please: 8058/17",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8058/17\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8058/17\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  },
+  "test_math_9_n6_v4": {
+    "task_id": "test_math_9_n6_v4",
+    "question": "I need the value of this expression, please: 8058/17",
+    "kind": "math",
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8058/17\"}}\n</tool_call>"
+    ],
+    "final": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8058/17\"}}\n</tool_call>",
+    "route_ok": true,
+    "arguments_ok": true,
+    "malformed": false,
+    "called": [
+      "calculate_math"
+    ],
+    "name_hit": false
+  }
+}

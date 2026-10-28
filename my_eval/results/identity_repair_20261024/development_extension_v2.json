@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-25",
+  "stage": "adaptive development extension before any final evaluation",
+  "reason": "Initial 3/6 epoch lr1e-4 and 6 epoch lr2e-4 candidates hit only 0/2/5 of 20 identity samples. In the original 42 training questions, English developer questions were sparse and identity made up 126 of 1382 rows.",
+  "prior_identity_counts": {
+    "bb_rl_id_gentle_e3": 0,
+    "bb_rl_id_gentle_e6": 2,
+    "bb_rl_id_gentle_2e4": 5
+  },
+  "new_examples_provenance": "48 manually authored (24 English, 24 Chinese); answers use only the user-requested MiniMind/Yuyang LU identity. No external generation service or final-test answers used.",
+  "training": {
+    "identity_unique": 90,
+    "identity_repeats": 6,
+    "general": 1000,
+    "self_replay_unique": 128,
+    "self_replay_repeats": 2,
+    "total": 1796,
+    "base": "bb_rl",
+    "rank": 16,
+    "epochs": 6,
+    "batch_size": 8,
+    "max_seq_len": 768
+  },
+  "candidates": [
+    {
+      "name": "bb_rl_id_balanced_2e4",
+      "lr": 0.0002,
+      "condition": "Run first"
+    },
+    {
+      "name": "bb_rl_id_balanced_3e4",
+      "lr": 0.0003,
+      "condition": "Only if 2e-4 identity <16/20 and math/language retention both pass"
+    },
+    {
+      "name": "bb_rl_id_balanced_1e4",
+      "lr": 0.0001,
+      "condition": "Only if 2e-4 identity >=16/20 but retention or general leakage fails"
+    }
+  ],
+  "selection_thresholds": {
+    "identity_hits_min": 16,
+    "identity_runs": 20,
+    "general_leaks_max": 1,
+    "math_max_drop_percentage_points": 5,
+    "language_max_delta_loss": 0.04
+  },
+  "normalized_question_overlap": {
+    "identity_general_dev_final": 0,
+    "dev_math": 0,
+    "final_math": 0,
+    "dev_language": 0,
+    "final_language": 0,
+    "final_chat": 0
+  },
+  "final_evaluation_files_present": [],
+  "sha256": {
+    "identity_extra48.jsonl": "dff29d002e13e7dfcd1ee4eb057b48731fe219a0df233ee34610d7ccb3015796",
+    "identity_train90.jsonl": "91298b0c3ffb6b8f5d867b572947ca652976c878966dffad3de20b06973503d6",
+    "balanced_mix1796.jsonl": "a9a7961b6e9b9cf2a8e43a2253d70917cb9ff847403a4f4f712e8aa6a46a88ca"
+  }
+}

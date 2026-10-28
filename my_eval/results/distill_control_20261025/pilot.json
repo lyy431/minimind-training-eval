@@ -1,0 +1,11 @@
+{
+  "completed": 64,
+  "batch_size": 32,
+  "new_batches_seconds": [
+    15.420182299996668,
+    15.15120190000016
+  ],
+  "estimated_full_generation_minutes": 23.947584289997515,
+  "peak_gpu_allocated_gib": 4.31517219543457,
+  "peak_gpu_reserved_gib": 5.087890625
+}

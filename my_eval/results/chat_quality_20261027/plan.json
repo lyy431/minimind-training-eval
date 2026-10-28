@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-27",
+  "scope": "content quality of ordinary chat using frozen v3; no paid calls or new training",
+  "dev_n": 16,
+  "final_n": 48,
+  "categories": [
+    "knowledge",
+    "writing",
+    "retrieval",
+    "identity"
+  ],
+  "final_conditions": [
+    "no_tools",
+    "six_original",
+    "six_reworded"
+  ],
+  "development": "v3:standard plain, concise plain,6 original,6 reworded; v2 diagnostic:standard plain,6 original. Select only between standard/concise second-pass prompts on dev.",
+  "selection": "highest equal-condition mean0-2 content score, tie higher score2 fraction, then lower latency; no tools uses single selected prompt, tools retain original route/execution and only regenerate ordinary no-call replies without schemas",
+  "acceptance": "paired final mean0-2 score gain95%CI lower>0 and gain>=.20; usable score2 fraction gain>=10pp; no-tools score2 rate drop<=5pp; historical strict math197 and fresh math48 drops<=5pp; no-tool identity full-content score not worse by>1/14; no actual unselected tool execution",
+  "statistics": "question-cluster averages over3 conditions, paired bootstrap10000 seed20261028; score2 fraction secondary; one seed/question/condition, no optional stopping",
+  "metadata_in_prompt": "concise option includes verified project name and upstream/customizer relation; identity gains there measure prompt-supported behavior, not learned knowledge",
+  "multi_turn_n": 8,
+  "overlap_exact_known": 0,
+  "overlap_sources": [
+    "my_eval\\results\\tool_choice_round2_20261026\\dev_tasks.json",
+    "my_eval\\results\\tool_choice_round2_20261026\\test_tasks.json",
+    "my_eval\\results\\tool_choice_round2_20261026\\train.jsonl",
+    "my_eval\\results\\tool_choice_20261026\\dev_tasks.json",
+    "my_eval\\results\\tool_choice_20261026\\test_tasks.json",
+    "my_eval\\results\\tool_choice_20261026\\train.jsonl",
+    "my_eval\\results\\identity_repair_20261024\\general_train1000.jsonl",
+    "my_eval\\results\\identity_repair_20261024\\identity_train90.jsonl"
+  ],
+  "semantic_unseen_not_guaranteed": true,
+  "frozen_inputs": {
+    "scripts\\MiniMind-YuyangLU-v3\\model.safetensors": "b85dcedb2a25d52ea032f64eba88776d9b65d759d2e3740f564591a680b52672",
+    "scripts\\MiniMind-YuyangLU-v3\\tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "scripts\\MiniMind-YuyangLU-v3\\chat_template.jinja": "5ce19bbb30e4d23557596e60fb29edfa8bbb792a6284097863e4d7109113e2c2",
+    "scripts\\best_of_n.py": "b8e594d8c08da96c74aa990e622afb9d7d9003c65f859d9814639ec8a53e4a37",
+    "scripts\\demo_tools.py": "7155da27967520b9449a65eb93de9795e495d5c9efdc8a52f0703e15a7f95fa1",
+    "my_eval\\scripts\\strict_math_rescore.py": "ea1f91009c2edd95fb554dcf3f3958cff9442150bc73c39de08afdf328cc4751"
+  },
+  "data_sha256": {
+    "dev_tasks.json": "2bc4e067e4a80ba051ace94d0d5abac8d53786aa0e83e6c6a3df32d839e04743",
+    "final_tasks.json": "f6b42c1f3c9d6abdb6f3883d339c9593b548ef29548fd5b48dc5b5ef5a6e3e2f",
+    "rubric.json": "041a50e51b2a90ac5682558fe56cdf8f5bfee17c72beddb72d2982293532a66e"
+  },
+  "development_extension_before_any_final_generation": {
+    "reason": "Removing tools and changing prompts alone leaves poor ordinary content on dev; compare existing local SFT/official chat backends, retain frozen v3 for tool routing. No weights trained.",
+    "candidates": [
+      "MiniMind-SFT",
+      "MiniMind-Official"
+    ],
+    "prompts": [
+      "standard",
+      "concise"
+    ],
+    "identity_gate": "full-content score2 usable count drop no more than1/14",
+    "additional_gate": "nonidentity content mean gain>=.20 and its95%CI lower>0; do not accept a gain caused only by explicit identity metadata",
+    "identity_dev_filter": "Before reading backend outputs: retain at least baseline no-tools identity usable count minus1 out of4; then apply original quality/tie selection rule."
+  }
+}

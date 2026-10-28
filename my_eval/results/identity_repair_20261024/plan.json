@@ -1,0 +1,85 @@
+{
+  "dev_identity": [
+    "说说你叫什么，以及是谁开发了你。",
+    "请告诉我构建这个助手的人的姓名。",
+    "如果我要介绍你，应该写哪位开发者？",
+    "你这个人工智能的开发者全名是什么？",
+    "请用一句话交代你的名称和开发者。",
+    "是谁训练并开发了你这个助手？",
+    "State your assistant name and the full name of your developer.",
+    "Who is responsible for developing this assistant?",
+    "Name the person who built this AI assistant.",
+    "Give your developer's full name in one sentence."
+  ],
+  "dev_general": [
+    "请简短说明什么是文件夹。",
+    "用一句话解释为什么植物需要阳光。",
+    "给第一次做饭的人两条建议。",
+    "写一句祝朋友考试顺利的话。",
+    "把“我昨天去公园散步”翻译成英文。",
+    "根据记录回答：阿宁周一寄出包裹，周三送达。包裹哪天送达？",
+    "用两句话介绍中国的春天。",
+    "Explain what a computer keyboard is in one sentence.",
+    "Give two ideas for a quiet indoor hobby.",
+    "请写一条提醒大家带雨伞的通知。"
+  ],
+  "final_identity": [
+    "你是谁？",
+    "Who created you?",
+    "你的作者叫什么名字？",
+    "是哪个人把你做出来的？",
+    "介绍一下你的开发者",
+    "Who is your developer?",
+    "你和 Jingyao Gong 是什么关系？"
+  ],
+  "final_general": [
+    "解释什么是机器学习",
+    "推荐一些中国的美食",
+    "如何开始学习Python？",
+    "写一首关于秋天的短诗",
+    "为什么要多喝水？",
+    "给我讲一个笑话",
+    "怎样才能提高睡眠质量？",
+    "太阳系有几颗行星？",
+    "帮我写一封请假条",
+    "推荐几本值得读的书"
+  ],
+  "system_prompts": {
+    "prompt_short": "你是由 Yuyang LU 开发的 MiniMind。",
+    "prompt_conditional": "你是 MiniMind，由 Yuyang LU 开发。只有用户询问你的名字、身份或开发者时才介绍自己；其他问题直接回答，不提及身份。"
+  },
+  "seed": 202610242,
+  "dev_selection": {
+    "identity_hits_min": 16,
+    "identity_runs": 20,
+    "general_leaks_max": 1,
+    "math_max_drop_percentage_points": 5,
+    "language_max_delta_loss": 0.04
+  },
+  "final_target": "identity >=15/21; leaks <=2/20; math near bb_rl with paired uncertainty; corrected language loss close to bb_rl",
+  "candidates_if_prompt_fails": [
+    "LoRA lr1e-4, epochs3",
+    "LoRA lr1e-4, epochs6",
+    "only if both identity-weak: lr2e-4, epochs6"
+  ],
+  "training": {
+    "base": "bb_rl",
+    "rank": 16,
+    "identity_unique": 42,
+    "identity_repeats": 3,
+    "general": 1000,
+    "self_replay_target": 128,
+    "self_replay_repeats": 2,
+    "batch_size": 8,
+    "max_seq_len": 768
+  },
+  "identity_protocol": "Same prompts/settings as historical final test, but new per-question seeds (700000 + 100*i+s); rerun all comparators together. Historical counts are not treated as paired.",
+  "dev_math_excludes_previous_training": true,
+  "sha256": {
+    "dev_language100.jsonl": "a5b71ff18049911f0dfe9ef0a549f3ec86a8fe58d111b8d24d0e2486f15cb8cd",
+    "dev_math24.jsonl": "332a59b3ca2e41720aa6f2764968114658e97a815df650ca7a5e46473c9a67d1",
+    "general_train1000.jsonl": "e92a200c098c5bf3283c9c640452315b12ec54401b5d28d13af95ac6b889ccc4",
+    "identity_train.jsonl": "661dae0e044267d4d618093c6d45f9959471ca2c5a080fc76e77ce21abcd0399",
+    "replay_candidates192.jsonl": "44e9f1dc51e6ff9707bf19300c8fb032d3ae2b1391102ac4aa604c6c9d0d81e9"
+  }
+}

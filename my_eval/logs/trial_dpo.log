@@ -1,0 +1,29 @@
+﻿Model Params: 63.91M
+Trainable Params: 63.912M
+策略模型总参数量：63.912 M
+Model Params: 63.91M
+Trainable Params: 63.912M
+参考模型总参数量：63.912 M
+python.exe : 
+At line:1 char:480
++ ... er\trainer; & D:\conda\envs\minimind\python.exe -u train_dpo.py --num ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 16719 examples [00:00, 155084.87 examples/s]
+Generating train split: 17166 examples [00:00, 150866.59 examples/s]
+Epoch:[1/1](20/4292), loss: 0.6679, dpo_loss: 0.6679, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 65.000min
+Epoch:[1/1](40/4292), loss: 0.7315, dpo_loss: 0.7315, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 46.000min
+Epoch:[1/1](60/4292), loss: 0.6522, dpo_loss: 0.6522, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 40.000min
+Epoch:[1/1](80/4292), loss: 0.8217, dpo_loss: 0.8217, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 36.000min
+Epoch:[1/1](100/4292), loss: 0.7557, dpo_loss: 0.7557, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 34.000min
+Epoch:[1/1](120/4292), loss: 0.6360, dpo_loss: 0.6360, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 33.000min
+Epoch:[1/1](140/4292), loss: 0.6412, dpo_loss: 0.6412, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 32.000min
+Epoch:[1/1](160/4292), loss: 0.6915, dpo_loss: 0.6915, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 31.000min
+Epoch:[1/1](180/4292), loss: 0.6566, dpo_loss: 0.6566, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 30.000min
+Epoch:[1/1](200/4292), loss: 0.6947, dpo_loss: 0.6947, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 30.000min
+Epoch:[1/1](220/4292), loss: 0.6388, dpo_loss: 0.6388, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 29.000min
+Epoch:[1/1](240/4292), loss: 0.6006, dpo_loss: 0.6006, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 29.000min
+Epoch:[1/1](260/4292), loss: 0.6456, dpo_loss: 0.6456, aux_loss: 0.0000, learning_rate: 0.00000004, epoch_time: 29.000min

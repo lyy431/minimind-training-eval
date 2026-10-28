@@ -1,0 +1,552 @@
+{
+  "21cd2a93358fcdc4658bd99061e19f511ca7d83f573ae906f297297b3cf58820": {
+    "decision": "fail",
+    "note": "把11的平方说成11与2的和，算式断言错误",
+    "source": "assistant content review before reward scoring"
+  },
+  "4352a5521b7352d9362891d7b51e7b0ede8daa63259ffa7d121757788a9a250f": {
+    "decision": "pass",
+    "note": "三个算式和数值均正确；约6165并未改变准确数值",
+    "source": "assistant content review before reward scoring"
+  },
+  "29ff87cf08f14d4b033a1c0ce63a1cee9e1a6743cfbd7acd0af0b834f6648d13": {
+    "decision": "fail",
+    "note": "第二题误写成3184等于29770，并把第三题说成乘积的平方",
+    "source": "assistant content review before reward scoring"
+  },
+  "968c808b4794f1f46e337c5f01caae99f80eedb947556942116372c41747a762": {
+    "decision": "fail",
+    "note": "第三题算式错乱，未回答108乘6877",
+    "source": "assistant content review before reward scoring"
+  },
+  "97fcd4f464d9074c21bb07691d47597b877c1713ddffd17c57c99e9957207dfb": {
+    "decision": "fail",
+    "note": "只说16的乘积为4096，未给出16立方的明确对应关系",
+    "source": "assistant content review before reward scoring"
+  },
+  "e8d2338b83973fa136c25214fac1ff51b68f535cc6b56e6be5dbd2854501ef40": {
+    "decision": "fail",
+    "note": "16与3的乘积并非4096",
+    "source": "assistant content review before reward scoring"
+  },
+  "823ff96fd456f94ca07da5cfcc41122cf9750921ad82983fe5c8a22196993549": {
+    "decision": "fail",
+    "note": "漏答3的立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "4cbd2f9ed417aa5037667824d3b9f4156f4fe479ad0a61d0fce7f67e25b9565e": {
+    "decision": "fail",
+    "note": "漏答3的立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "7850467e759a5a91c6a0940c712630c60db600f3eefe8db9f9f57cfccb681bc5": {
+    "decision": "fail",
+    "note": "遗漏2118除6，并含错误求和断言",
+    "source": "assistant content review before reward scoring"
+  },
+  "49b8bcb1439cd00047591b57f11f4e363f82e8d784f007e7798bfd815453106a": {
+    "decision": "fail",
+    "note": "漏答7的立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "7f6b269ff426a0fa02e603fc4f9a012644b02e3a2a4dbbd3c0ee730bd29e6744": {
+    "decision": "fail",
+    "note": "漏答7的立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "807ebfc3318297cff5085793b94066b54401ebed3b357ea52b788ad8ea9d3588": {
+    "decision": "fail",
+    "note": "第三题只复述未求值",
+    "source": "assistant content review before reward scoring"
+  },
+  "773da21f5657ef2e5a094846b9a888ce1082693e2561d3f224591d51471e90a2": {
+    "decision": "fail",
+    "note": "第二项仅说424的和为424，未回答11872除28",
+    "source": "assistant content review before reward scoring"
+  },
+  "8c584a571629ed419276f137fb6221c6721ee75f7939f861064c3934381852be": {
+    "decision": "fail",
+    "note": "漏答11872除28",
+    "source": "assistant content review before reward scoring"
+  },
+  "64056b80a9a11f9b590161c7428d385b9701a8d22d48fa0aa36276110de50a7a": {
+    "decision": "fail",
+    "note": "第二项错误改成273与436求和",
+    "source": "assistant content review before reward scoring"
+  },
+  "61b38c206b904ba96f8a7ec62647a2266f369d8037d1d3b903a94d9bb1c7c0fe": {
+    "decision": "fail",
+    "note": "漏答11立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "0f66fb49341e5a747a168c71f7b5f58e6879f340c05d88015c2bc1e7e06edb8f": {
+    "decision": "fail",
+    "note": "漏答11立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "5e38e5e28e7e77c3935026f094da2064ef854dd694171f40294cef70e58f9e7f": {
+    "decision": "fail",
+    "note": "第二题把5315写成两个无运算符的数53 15，表达式含义不明确",
+    "source": "assistant content review before reward scoring"
+  },
+  "786c150656c7107a04e92328c2281286010779874b9a89f02422afc368862f7f": {
+    "decision": "pass",
+    "note": "两个算式及结果正确，sum of A and B明确表示加法",
+    "source": "assistant content review before reward scoring"
+  },
+  "463751980a9dd6e360b2848fc0f24efaf0e3d696fb1d3147a92d7bd754a3799b": {
+    "decision": "fail",
+    "note": "声称2700与30之和为90，错误",
+    "source": "previous exact-text adjudication"
+  },
+  "297f08a8750872120aa57af05cd3f6ce675b408d6f93088713c08764ad0d2c45": {
+    "decision": "fail",
+    "note": "重复15平方，漏答减法",
+    "source": "assistant content review before reward scoring"
+  },
+  "5319e5008f77fc1f7b3638f66e5bf2b4aa270f0fc0d05d44ea7b7074d6b66a0e": {
+    "decision": "fail",
+    "note": "将6的平方说成4205，第二题对应错误",
+    "source": "assistant content review before reward scoring"
+  },
+  "a52bd7ee34a56e85b6e9b01e3c01552a20139739c55fc39b8dd234ded8ac632b": {
+    "decision": "fail",
+    "note": "漏答第三题",
+    "source": "assistant content review before reward scoring"
+  },
+  "5f225afd7b173e034f0e724690002eb4877db743daa0774675d180b88e5913c4": {
+    "decision": "fail",
+    "note": "第二句算式对应错误，且漏答立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "3789a55ac3405c33b76b4d82ab8e13a48c1a9724d5fa36b009d712c99b6314fd": {
+    "decision": "fail",
+    "note": "90平方并非90，未回答除法",
+    "source": "assistant content review before reward scoring"
+  },
+  "df05f7008cc71a45a43bc3c45a394905a044310568e24bd4fd2473140e57872a": {
+    "decision": "pass",
+    "note": "三个完整算式及其数值均正确，sum作结果泛称不改变明确算式",
+    "source": "assistant content review before reward scoring"
+  },
+  "ea52c3caa63158fd71dd1599a1cc5378ee40455bba2311d744d759bd41ed548c": {
+    "decision": "fail",
+    "note": "第二第三题算式和结果错误或不完整",
+    "source": "assistant content review before reward scoring"
+  },
+  "68ff40469e5ab99009363b7967c580279f11f3ba3b8ad43001e95e324117df88": {
+    "decision": "fail",
+    "note": "第二题改成231乘1661，错误",
+    "source": "assistant content review before reward scoring"
+  },
+  "941194956c722bf487f02779888f834c04abe2754bb24868cea6f3d91ed66f14": {
+    "decision": "fail",
+    "note": "第二题改称2309的乘积，缺正确算式对应",
+    "source": "assistant content review before reward scoring"
+  },
+  "6dd509acd512877481c9a55b1a12cce94d38a5c109b8fdf4078c5929b108ea09": {
+    "decision": "fail",
+    "note": "第二题说231的和为4556，缺正确对应",
+    "source": "assistant content review before reward scoring"
+  },
+  "9527ce2f1c1769802ebf85d9f79d221207f798884fdccb76dfed5fb32dc83f92": {
+    "decision": "fail",
+    "note": "缺少至少一个所求数值结果",
+    "source": "previous exact-text adjudication"
+  },
+  "45633c81798a1b3ae1ff3dbca8e7f75cda24982049089553d0e35c7f72df4521": {
+    "decision": "fail",
+    "note": "第一题额外分母7且后两题数值错误",
+    "source": "assistant content review before reward scoring"
+  },
+  "243f5ce02a641ee9a3f6d8a13b8b4a50831d57026417b3146c38a79d285380f4": {
+    "decision": "fail",
+    "note": "漏答817除19",
+    "source": "assistant content review before reward scoring"
+  },
+  "98a616795c9c9f6fab5a053a00433a0955cfd4f249ecb0e155943463858ec53d": {
+    "decision": "pass",
+    "note": "三个明确算式及数值均正确",
+    "source": "assistant content review before reward scoring"
+  },
+  "2ef61388f6b13ba688572a044c1aa1807e343dbb895224965dcbf1be1c7ac29a": {
+    "decision": "fail",
+    "note": "漏答4立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "f540e44d1680ec038912ee56253ec36cc6d7b638dd4eb392ecbd5274de60a3bf": {
+    "decision": "fail",
+    "note": "第三题错误改成3612的平方",
+    "source": "assistant content review before reward scoring"
+  },
+  "66e60530ee9df04302d159d90673e800da92feef070e581e4161f657dd174995": {
+    "decision": "fail",
+    "note": "第二题结果错误，且漏答第三题",
+    "source": "assistant content review before reward scoring"
+  },
+  "f278977aaf2729dd2058813e6eb7f39df5df8cf3ba0ce6670d85aa72ae1fa5a7": {
+    "decision": "fail",
+    "note": "第一题未求值",
+    "source": "assistant content review before reward scoring"
+  },
+  "517b41bd052e0e95aa63fcc448cefbb33d2f164fbfef6a2ab099fa4d89080d0c": {
+    "decision": "fail",
+    "note": "最后额外声称三个结果相加15543，错误且与前文矛盾",
+    "source": "assistant content review before reward scoring"
+  },
+  "731f65127b0d574799377eb2cfd82273d5d7741a7633e5d7433f060480e50214": {
+    "decision": "pass",
+    "note": "明确14970除30等于499",
+    "source": "assistant content review before reward scoring"
+  },
+  "e49b69d71c1eb59b8cae3da4a58b6003fcfdddaa2c064859f0c87338193ba5fb": {
+    "decision": "fail",
+    "note": "第二题改错算式和数值",
+    "source": "assistant content review before reward scoring"
+  },
+  "b706e3dee12540d1b40c33365f00d9389a9cf8832a8bb854b8b368d54c145b1f": {
+    "decision": "fail",
+    "note": "第二题改错算式和数值",
+    "source": "assistant content review before reward scoring"
+  },
+  "5523565cc7dded80fd29cab54fa75e532aeda5420191377152a73f2a5f6e4960": {
+    "decision": "fail",
+    "note": "缺少至少一个所求数值结果",
+    "source": "previous exact-text adjudication"
+  },
+  "0475f1d39d5b3ae489a882b4017750d5a90accdda8b0401338d01e2961ead5d8": {
+    "decision": "fail",
+    "note": "漏答7平方",
+    "source": "assistant content review before reward scoring"
+  },
+  "4cf9816ef54fd4ab40b1d3fbdc24c04375aa6bc1160f3062a826ddfd7a8176c2": {
+    "decision": "fail",
+    "note": "漏答7平方",
+    "source": "assistant content review before reward scoring"
+  },
+  "6a3fac9fc71844ae66059708e490dff449d61d6870025a1b2c3a1efd4c35d2a3": {
+    "decision": "fail",
+    "note": "漏答7平方",
+    "source": "assistant content review before reward scoring"
+  },
+  "5c0131471ab0b942b7b0566bbda1f2445376082e30fc3c2fc186a43721481b40": {
+    "decision": "fail",
+    "note": "漏答2280除5",
+    "source": "assistant content review before reward scoring"
+  },
+  "fd959d5eccfeb8b133475a70452d936608f44941dec609575feecbbab46b6ace": {
+    "decision": "fail",
+    "note": "漏答2280除5",
+    "source": "assistant content review before reward scoring"
+  },
+  "d69918da43b0221d770d654644e8749172a6ed74237d0f047c14cbfd9dba85db": {
+    "decision": "fail",
+    "note": "第二题错误等于第三题算式，后两项未给数值",
+    "source": "assistant content review before reward scoring"
+  },
+  "c7796c169364b14c9218553b80ee85ce820e0c09b8a7073e81781158d47d0988": {
+    "decision": "fail",
+    "note": "第二题错误等于第三题算式，后两项未给数值",
+    "source": "assistant content review before reward scoring"
+  },
+  "6d403d4793b67cc1ae6dcbe56e656add91bc88616491a0be041408bf1e5bc6cc": {
+    "decision": "fail",
+    "note": "后两项未求值且第二题对应错误",
+    "source": "assistant content review before reward scoring"
+  },
+  "51f0da0b120e1730ba4e949b9dccb1b24103b1b933e09ebb1695474a8bf95210": {
+    "decision": "pass",
+    "note": "按题序给出27300、196，第二题重复但未造成漏答或矛盾",
+    "source": "assistant content review before reward scoring"
+  },
+  "6ac84e673878c244db13668ad421eb78bb4b11ca1df51633ecd422569721db4d": {
+    "decision": "fail",
+    "note": "重复16平方，漏答14平方",
+    "source": "assistant content review before reward scoring"
+  },
+  "90a53381da3b29942fcaa169de6132694c8670564dd5ae551dd6e87d776b6360": {
+    "decision": "pass",
+    "note": "第一题明确，第二题按顺序给出正确575",
+    "source": "assistant content review before reward scoring"
+  },
+  "083aab5a8d702e1f2749d1e700199f43ca17106586b165f0f20cdd3cec66a839": {
+    "decision": "fail",
+    "note": "漏答20立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "a13fe3944699799a3e96a2b08807509c8ad821b5d1de5cf02c8cccfc42705026": {
+    "decision": "fail",
+    "note": "漏答8立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "19bf08e2562291f507002c68fb21090f38d88b19173fa2eb96cc2ab7475fb02c": {
+    "decision": "fail",
+    "note": "第二题改成20加8乘3并断言512，错误且漏8000",
+    "source": "assistant content review before reward scoring"
+  },
+  "e2f26fc78e9664631ebd80a0112dc73937d91a723ba5a983bc2b2efb71663f04": {
+    "decision": "fail",
+    "note": "漏答14平方",
+    "source": "assistant content review before reward scoring"
+  },
+  "a9c375365c614d7c2523a0f7c373054a572d5e906444bf1a1435bd6ccca3322d": {
+    "decision": "fail",
+    "note": "第二句把14平方与第三题混成错误幂算式",
+    "source": "assistant content review before reward scoring"
+  },
+  "176a4a602ad24ee380d3b06fe1a62e2633d5e67000297fa33cf1fa08f7bb7b14": {
+    "decision": "fail",
+    "note": "只复述算式未给数值",
+    "source": "assistant content review before reward scoring"
+  },
+  "4abcb6f37816ae5d11cba7d59aa472c692ee08ed963deaf9ec7415a1de341796": {
+    "decision": "fail",
+    "note": "漏答2立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "7e7939ac43bfa13064859f91fcf4e435ba863360c1c1a2c145caa41774573add": {
+    "decision": "fail",
+    "note": "2立方错称161，漏第三题对应",
+    "source": "assistant content review before reward scoring"
+  },
+  "de36869555fdf41476fb24994dc96beb99133419753b726328cea5f9bfc9311d": {
+    "decision": "fail",
+    "note": "漏答2立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "8fb55ccfc0a0df62afffe02a4a52dd9cd58d8c05f4b7b69017bbc6f35db2f123": {
+    "decision": "fail",
+    "note": "三项均为错误求和断言，数字碰巧与目标相同",
+    "source": "assistant content review before reward scoring"
+  },
+  "e0d5680bc1c1f86eef2d93d9fb68c75b0eeb4dca17679f47d05fedbf409a8f0b": {
+    "decision": "fail",
+    "note": "漏答第三题",
+    "source": "assistant content review before reward scoring"
+  },
+  "f24a229ed7a3bea33fa5bec3ad691c39b943578d6f3dda56515ce732be9247fe": {
+    "decision": "fail",
+    "note": "漏答1617减232",
+    "source": "assistant content review before reward scoring"
+  },
+  "0e99d7545b8779179765958b029ce34efdd1e1969a2329505e4e624a68581f9c": {
+    "decision": "fail",
+    "note": "漏答第三题",
+    "source": "assistant content review before reward scoring"
+  },
+  "1acd50a67dec04d7bf5bd34928cf48c1f3ee98546682538e0e4bb0d5177f4c5a": {
+    "decision": "fail",
+    "note": "第一题额外除2，4平方除2并非16",
+    "source": "assistant content review before reward scoring"
+  },
+  "fe776a875aa83facb87ee9622f8e4dc76b9c4a27d6112d98c64663a95f4809b5": {
+    "decision": "pass",
+    "note": "立方及数值正确，约字不改变数值",
+    "source": "assistant content review before reward scoring"
+  },
+  "5fa3ab81b4586317dc2a5e4c6c423dcd58af56fda3eb7c9a190673ec52cbff41": {
+    "decision": "fail",
+    "note": "将减法说成求和且漏答第三题",
+    "source": "assistant content review before reward scoring"
+  },
+  "3cde31702c001148296e08ccb350f99040b669213f1472e8674947a7bd5a7d56": {
+    "decision": "fail",
+    "note": "第三题只复述未求值",
+    "source": "assistant content review before reward scoring"
+  },
+  "ed3e5940b8d236359be2a99dd13305bf6d8263f5da28ed1102a06b593fa5a3be": {
+    "decision": "fail",
+    "note": "第一题把单独6419的结果说成-106，缺减法对应",
+    "source": "assistant content review before reward scoring"
+  },
+  "7d5c686aa60e1fe4125c4dc825053efefae2c98e0e88fe251575a5fb5f302404": {
+    "decision": "fail",
+    "note": "漏答208除4",
+    "source": "assistant content review before reward scoring"
+  },
+  "cebc0dee169eca8c4d84af12263711fb61c2116cc27f4b54103bfa7bfb5530ef": {
+    "decision": "fail",
+    "note": "第二三项运算对应混乱，缺947",
+    "source": "assistant content review before reward scoring"
+  },
+  "4fcd150cc07452aec6e63c93268d703fc9840685b4e058a4f845d276fcb0cf94": {
+    "decision": "pass",
+    "note": "三个完整算式及其结果均正确",
+    "source": "assistant content review before reward scoring"
+  },
+  "bdad23287f4a120beb49202e6b16ac9664771f6e9ad1f52fccbe147a9a1b0e65": {
+    "decision": "fail",
+    "note": "漏答2470减5294",
+    "source": "assistant content review before reward scoring"
+  },
+  "484edbf3d5a83a5c0f7c58c47243901739ad9a58a60d2b191fcd69b758f2102e": {
+    "decision": "fail",
+    "note": "第三题重复，第二题漏答",
+    "source": "assistant content review before reward scoring"
+  },
+  "024e673d0ed11f506b52c32e53b432c56694b9fe743237c609fb592f0b1fbc22": {
+    "decision": "pass",
+    "note": "两项完整算式及结果正确",
+    "source": "assistant content review before reward scoring"
+  },
+  "c413fd6c0bb6e784bbf2560021b7386774eda6dcbfd1a88849e86d13feff772e": {
+    "decision": "pass",
+    "note": "所有题的结果与算式一致，表述格式可可靠理解",
+    "source": "previous exact-text adjudication"
+  },
+  "604b9e9d28e475a2266ce9860fc91390cb6a875d25ad2b849b4d8894f9f1b715": {
+    "decision": "fail",
+    "note": "漏答842除2",
+    "source": "assistant content review before reward scoring"
+  },
+  "8cde1ed6626d902b93206e7e34a54c10ce21021de6a0c9745f726802e3438250": {
+    "decision": "fail",
+    "note": "错误断言8334等于8334乘6",
+    "source": "assistant content review before reward scoring"
+  },
+  "d7fd82666e2be2bf354b897c96d564da8a20c43f1928a8b31ed8b3d2b0bc557d": {
+    "decision": "fail",
+    "note": "乘法改除法且连续等式错误",
+    "source": "assistant content review before reward scoring"
+  },
+  "9078e270e5a9c37e6045ee1b36f1a3709b72fa9ee4a79e00082fb08a72e4ab3c": {
+    "decision": "fail",
+    "note": "把2171除13说成两者求和",
+    "source": "assistant content review before reward scoring"
+  },
+  "2bbb86d5c1f727327c513b0d488b734db147f9c26316c97a8530e6ec5ed709ee": {
+    "decision": "pass",
+    "note": "两项算式及数值均正确",
+    "source": "assistant content review before reward scoring"
+  },
+  "5441f74102ee19d2d6832e9928e268005b0254b301d77ef866fad328f1c0c148": {
+    "decision": "fail",
+    "note": "第二第三题混乱，算式乘数错误且漏18832",
+    "source": "assistant content review before reward scoring"
+  },
+  "a716bae54632e8b9d971ea6f504963f8d1e06719499a2d4514a5090ecc6e58a5": {
+    "decision": "fail",
+    "note": "漏答第二题",
+    "source": "assistant content review before reward scoring"
+  },
+  "c0156a4f496ec4606090f99a280b43a58f9238f0d22a49cae4b94b62f7affa4d": {
+    "decision": "fail",
+    "note": "第二第三题对应混乱且求和断言错误",
+    "source": "assistant content review before reward scoring"
+  },
+  "f1bcc68c21d650a0811208e8c5e3781f6d77d2ccba707b89f61998f26e772b1a": {
+    "decision": "fail",
+    "note": "漏答第二题",
+    "source": "assistant content review before reward scoring"
+  },
+  "d7ae01cacb90250d6200e355f13972398ae5a29267bb3ddd6746b5621cfd005e": {
+    "decision": "pass",
+    "note": "前两题算式数值正确，第三项按顺序给出10583",
+    "source": "assistant content review before reward scoring"
+  },
+  "422d5f7f24a364406da3d07e686a3edbb70242513fa48ecba4f2bf525f6d561a": {
+    "decision": "fail",
+    "note": "漏答第三题",
+    "source": "assistant content review before reward scoring"
+  },
+  "c6b737c8759ddc344911bf16831dd200c108458ffca62d63fb4b9c43d4c682eb": {
+    "decision": "pass",
+    "note": "LaTeX命令未闭合，但算式及两个等式含义明确且正确，不因排版扣分",
+    "source": "previous exact-text adjudication"
+  },
+  "b7101a4667ce19bcccf707b3bd8726e57d600d068d859d96ab68bf0ad0512c75": {
+    "decision": "fail",
+    "note": "缺少至少一个所求数值结果",
+    "source": "previous exact-text adjudication"
+  },
+  "146de313b6067cdf23f93c455b14709b53abc9fa3b6112742907f33e1ed64bef": {
+    "decision": "fail",
+    "note": "第三题算式换成1500加4587乘4且缺6093",
+    "source": "assistant content review before reward scoring"
+  },
+  "ce9ede5219fdbd7d80acafc716858bb4e0691da8698212c220789c5a7aac271d": {
+    "decision": "fail",
+    "note": "漏答第二题，第三项重复错误对应",
+    "source": "assistant content review before reward scoring"
+  },
+  "23752c2e75b2b7da8c6ad718934e82a4e4238173f887427310c7fb9a7b1beb7b": {
+    "decision": "fail",
+    "note": "第二题改说三次方且结果9794错误",
+    "source": "assistant content review before reward scoring"
+  },
+  "7b6c374ef1551e99f034775843ad0dd5493295fce41adcd76e9301127403e84f": {
+    "decision": "fail",
+    "note": "同一算式480加761乘16给出两个矛盾结果，漏第三题对应",
+    "source": "assistant content review before reward scoring"
+  },
+  "7efd39f21ae9a38efe994addd3a2a299e2e78c05035413194a3df82e8303070f": {
+    "decision": "pass",
+    "note": "两项算式及数值正确；frac无分母为排版瑕疵，未额外引入运算",
+    "source": "assistant content review before reward scoring"
+  },
+  "191c37bbd13be818a181ec100b8e30c55dcc73b858e503b733574f44879261e0": {
+    "decision": "fail",
+    "note": "第一题乘数错误，第二题缺原算式对应",
+    "source": "assistant content review before reward scoring"
+  },
+  "5e3cdc515f19ae54ee2deaf99289c9c244a23d848b0a39a8eda92a986416c00a": {
+    "decision": "fail",
+    "note": "漏答2227除17",
+    "source": "assistant content review before reward scoring"
+  },
+  "132945bae2b0c0cfc2707bd6dd8104346f67f734000339a07afaf682e1d71eba": {
+    "decision": "fail",
+    "note": "漏答16平方",
+    "source": "assistant content review before reward scoring"
+  },
+  "f9a7a8b73ba00bc26216936d71087f61b956f0733f4d6d21d2112fd59ee180d3": {
+    "decision": "fail",
+    "note": "漏答第三题",
+    "source": "assistant content review before reward scoring"
+  },
+  "3af211272e73b61f4e36d729857e06a24f6135807490524813aa0825fcb1fa96": {
+    "decision": "fail",
+    "note": "漏答6平方",
+    "source": "assistant content review before reward scoring"
+  },
+  "58250d4d9667bdd471f94877f845006b07e0d9b85d648d2e42b03e518af015d4": {
+    "decision": "fail",
+    "note": "漏答6平方",
+    "source": "assistant content review before reward scoring"
+  },
+  "b404160db9829fa3b68a041b70b609a15ff72fd922461b79b77e6be929707eb4": {
+    "decision": "fail",
+    "note": "漏答610除5",
+    "source": "assistant content review before reward scoring"
+  },
+  "831bf15eed6f9f47e47e8d80a52dc5c9e3ae399ff93fcc4fbc0dcd97775d8733": {
+    "decision": "fail",
+    "note": "第二题对应和数值错误",
+    "source": "assistant content review before reward scoring"
+  },
+  "716e97589f51dfb552b9427f16407fdd9b71273fcd27aaf74e6cccb0852e400a": {
+    "decision": "fail",
+    "note": "漏答10立方",
+    "source": "assistant content review before reward scoring"
+  },
+  "4526fd5bc31244ead757fd5e46943db9e4f5ff165ca0dd4de3e1ba9fbe8fe05e": {
+    "decision": "fail",
+    "note": "漏答第三题",
+    "source": "assistant content review before reward scoring"
+  },
+  "4b95284483298eca1f130a78e940f98f28ffd57de2291a67e6ee02d800067da3": {
+    "decision": "fail",
+    "note": "漏答第三题",
+    "source": "assistant content review before reward scoring"
+  },
+  "4c694abe51a3a6ac42acd9f21245c31950710fd8af1f0a681ae20574f7722dc6": {
+    "decision": "fail",
+    "note": "漏答第三题",
+    "source": "assistant content review before reward scoring"
+  },
+  "e84db31c5b3f35b3381418e0b5fd4dbbd6249f3044d67c9a7207b39e7a1b14ef": {
+    "decision": "fail",
+    "note": "第一题数值233错误",
+    "source": "assistant content review before reward scoring"
+  }
+}

@@ -1,0 +1,22 @@
+﻿Model Params: 63.91M
+Trainable Params: 63.912M
+Model Params: 63.91M
+Trainable Params: 63.912M
+[agent_rl_no_rm] reward model NOT loaded; answers without a tool call get 0 reward-model score
+Loaded reward model from ../../internlm2-1_8b-reward
+Epoch:[1/1](1/1500), Reward:2.7272, KL:0.0001, GrpStd:0.4611, AdvStd:1.0685, Loss:-0.0001, AvgLen:150.25, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](2/1500), Reward:2.5350, KL:0.0064, GrpStd:0.4861, AdvStd:1.0688, Loss:-0.0000, AvgLen:140.38, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](3/1500), Reward:2.3046, KL:0.0007, GrpStd:0.1954, AdvStd:0.7557, Loss:0.0001, AvgLen:159.12, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](4/1500), Reward:2.6675, KL:-0.0026, GrpStd:0.1812, AdvStd:1.0380, Loss:0.0002, AvgLen:172.25, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](5/1500), Reward:2.2301, KL:-0.0138, GrpStd:0.5930, AdvStd:1.0685, Loss:0.0007, AvgLen:118.38, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](6/1500), Reward:2.5365, KL:-0.0130, GrpStd:0.0812, AdvStd:0.7555, Loss:0.0005, AvgLen:100.75, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](7/1500), Reward:2.5471, KL:-0.0115, GrpStd:0.3012, AdvStd:0.7558, Loss:0.0003, AvgLen:105.50, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](8/1500), Reward:2.8958, KL:-0.0039, GrpStd:0.1804, AdvStd:0.7557, Loss:0.0003, AvgLen:106.88, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](9/1500), Reward:2.8438, KL:-0.0039, GrpStd:0.2706, AdvStd:0.7558, Loss:-0.0001, AvgLen:129.12, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](10/1500), Reward:2.9572, KL:-0.0079, GrpStd:0.0625, AdvStd:0.7553, Loss:0.0006, AvgLen:142.50, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](11/1500), Reward:2.7817, KL:-0.0116, GrpStd:0.1217, AdvStd:0.7556, Loss:0.0007, AvgLen:151.75, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](12/1500), Reward:2.8914, KL:-0.0059, GrpStd:0.1882, AdvStd:0.7557, Loss:0.0002, AvgLen:118.62, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](13/1500), Reward:2.4792, KL:-0.0069, GrpStd:0.7496, AdvStd:1.0689, Loss:0.0007, AvgLen:102.62, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](14/1500), Reward:2.7606, KL:-0.0007, GrpStd:0.3533, AdvStd:0.7558, Loss:0.0003, AvgLen:118.00, AdvMean:0.0000, LR:0.00000030
+Epoch:[1/1](15/1500), Reward:2.7040, KL:-0.0024, GrpStd:0.2766, AdvStd:1.0336, Loss:0.0003, AvgLen:132.75, AdvMean:-0.0000, LR:0.00000030
+Epoch:[1/1](16/1500), Reward:2.7363, KL:-0.0040, GrpStd:0.3789, AdvStd:1.0688, Loss:0.0003, AvgLen:192.00, AdvMean:-0.0000, LR:0.00000030

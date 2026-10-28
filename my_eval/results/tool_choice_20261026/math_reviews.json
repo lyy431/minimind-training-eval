@@ -1,0 +1,902 @@
+{
+  "0fc07a172119cc5a5548d6567602c77097ff2bb5d79ceea249d8b3ed7859720b": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "f790d141aa921d16c58cc7f7e92ce4c8b7c851d90acfae46be7e4c7492f917e2": {
+    "decision": "fail",
+    "note": "只答了部分题，其余数值缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "e58f9ac9657f2e14aefa329ac49bfb3ff785c3bced9216c81341dbf876168399": {
+    "decision": "fail",
+    "note": "同一除法出现两个矛盾结果，漏第二题",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "627b4417552222daf81423821fd4ac0828d3d02ad9e310b8e334bfa1163fd8a7": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "d464e6cdbbde0fcc13ce483aa8d39965942d7284f3666631a055abef65ce86c4": {
+    "decision": "fail",
+    "note": "只答了部分题，其余数值缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "40150d42a648cc0a04bcc8508b85c1e03229915703ad5fc0aad2ad76f33a0c58": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "5293289f0fbbe9e47301cfd02fbc45db020f83e4f853e3b13d9ec36a7cdab889": {
+    "decision": "fail",
+    "note": "把419加802错误等于16269除17",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "9ef9bb5276b68e98f5941d197159c78c7fd4e1b196f06879464efa12f916f132": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "69801868dfc9a66901c6e7076042caeaf13604f4f851b8a2a534a01b6f7e224f": {
+    "decision": "pass",
+    "note": "单题明确给出2222，等式2222=2222无矛盾，相当于直接数值回答",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "811dee01c2645944204a01cf6583bca472301a5c1c6e864e3c88c103e5cdf226": {
+    "decision": "pass",
+    "note": "原算式与2222明确对应且正确",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "1f72a9d7abe0e55924a38527962df1181df30178f4e3818ba685c02c9e15f5d3": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "b1852d738c62f69960a3ca58caa555d8fc33cb42c87fdf976671964db6fb72dc": {
+    "decision": "fail",
+    "note": "只答了部分题，其余数值缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "0d3eab275bba594b77862864a64804ba9d3a0b9350a38ac69944592143371964": {
+    "decision": "fail",
+    "note": "把669结果说成66，第二题对应错误",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "74e645f36cc46fc97983ee0226cc3fec52c2892badb1ee05272f0271ed438b73": {
+    "decision": "fail",
+    "note": "第一项数值错误且漏答",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "c6638d13e5bb4d3f400fb5292144de6ebd4e6ca7a1c217ce2dbc08788cb3201c": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "6fdc573d0b64857bb9769a064b4bfe96a0b36dc1fb35abf49233cee520e2ce2c": {
+    "decision": "fail",
+    "note": "错误声称运算平均值为307，第一第三项未答",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "eb232d1f3a5576766234f8cfeeabd4424ef6f8b9d60c69251abb998d7965d064": {
+    "decision": "pass",
+    "note": "514加529明确等于1043；尾随and529没有构成另一个数学断言，仅为语句瑕疵",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "7af2ec09efc0db0c60a544c539652f666cfcee9819520eb6dfbc0e7207a05e42": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "25c23dab1a4e52468f8e1a49cd74a44a3d9f63313e57344483afe6895dd5fd30": {
+    "decision": "pass",
+    "note": "明确514加529等于1043，正确",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "dd65efddebe5da7490fc5f3aadc0b912ebe9dc6d51e171ce12efb9a19f0b109b": {
+    "decision": "fail",
+    "note": "把目标计算说成593而非1043",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "688eaeabf7c87e2b5ee6b5f86028e60ab12cfa6f28bd7a9a143e951608972eec": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "d0d90fe259cd8a946d84d659dae787948047179825aff293e3fb6736fc808500": {
+    "decision": "fail",
+    "note": "只答了部分题，其余数值缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "d041a8bc0c5cc4b5c97c10bbddf10ec6cc8eb2b40f50e62b8227e9f946ed8c23": {
+    "decision": "fail",
+    "note": "只答了部分题，其余数值缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "0b507120c9abe27eb685a49bfbdb6d6a881155ce086874e2992518b7326ce1ed": {
+    "decision": "fail",
+    "note": "只答了部分题，其余数值缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "46a99ebfd0a3f7fc61c0a731314454f050d0059682883490729a35bf717eb7a3": {
+    "decision": "fail",
+    "note": "额外分母改变算式并造成错误等式",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "68563aedeb638a44ac41a9292bd4c019ca8c19d5afa47462ab2380d16952002f": {
+    "decision": "fail",
+    "note": "第一第三题漏答且运算改动",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "94cfb6f27c47d50da10edb6221eda3d296333a99139ec9eef32a2ae4d4a04f45": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "00b0ed842bc52bdd1a40581ad8e477389cbef2aa5a776b8bdb9b0d40d9a9087e": {
+    "decision": "pass",
+    "note": "明确8058除17等于474；开头未求值的0.5乘47没有作错误等式断言",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "8f5a5decb7043d0ff4112e574863be265aadc2613196b4355315f9d91ca7c338": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "c3ac4caa1f8bd5a5bdaa78ae544070260e1173c9c6a17bd4e2277bdb7accf464": {
+    "decision": "fail",
+    "note": "只答了部分题，其余数值缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "e1bd0499349f9bdd31f1099b0f9cc66fc496b3870527882a5e3f9f141b85c904": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "e4aa36391270b4cfe0fbb86259015ef07908a1eb65e9e485ca6618506ec08392": {
+    "decision": "fail",
+    "note": "漏第三题205乘14",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "a5653287bac2ff96f26982b1d6a618bfc4b9f0b56821835c339da9eaedaa8cad": {
+    "decision": "fail",
+    "note": "漏第三题205乘14",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "83a51caed8ace61021d574e25504d440c360bab4f1258d0a865045b5eca3488d": {
+    "decision": "fail",
+    "note": "漏第三题205乘14",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "d77048d15ce0581a03f203334ee2ff9faa8a86634746ff504677057c4261997b": {
+    "decision": "fail",
+    "note": "第一项45错误，第三项漏答",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "1f94ffd73f5a299c52fe6a5cc856f59fa05045079779cec384f0188092f56d0f": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "6a9e387c1eb80fa751ed58af0c16490580746eecf39785a99322b4e32303bd9c": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "f969eae0e21c038039c3f1149b414ede39d3e3e0033e904a00d92c7d8ff80c17": {
+    "decision": "fail",
+    "note": "两项均无完整数值，出现错误46.04片段",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "51d5864e3fa2bcdcd128a38980b9f537dd436ca00dbd9d4e75d347e1a3ce2e33": {
+    "decision": "fail",
+    "note": "只答了部分题，其余数值缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "734118d397a33b8bcfef4bdee22f0ba41d6638d325e47c839c40f133dd560a68": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "b1246ebf34938b43fc3168a470d670c0bee9ae9d5408d44672665a4876508a4b": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "384e0238b1ad7a5e80f042d4e694a6235a008977884d7cca500f7429b2a25eca": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "ca5be6e0a9205bfba73690f583b09526c6b744e587953732c1b8da416631afc3": {
+    "decision": "fail",
+    "note": "只描述或复述运算，未给出完整目标数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "0f269338021c63aca53e078dc96339fdf9eaed5914128f59e74219e05651866a": {
+    "decision": "fail",
+    "note": "只答了部分题，其余数值缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "7be8b6c6170934c5904e28f98f156b8e55812cef2c5e18b3bcbd7a10295f8130": {
+    "decision": "fail",
+    "note": "只答部分题，其他目标结果缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "ad1b355a44145a972b0dbb46cf23e70d11aca48a231255da4ff53f552a451477": {
+    "decision": "fail",
+    "note": "原乘数289改成89再加5714，等式错误",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "f1c437897a2eb0580406048f8f1ed570266fcff9a3921ffa9700e37dbf645e5b": {
+    "decision": "fail",
+    "note": "只复述/描述运算而未给完整数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "ee9a00880e1b268329f9443c32f1eba43e15be4686f133d4a1e17c8bc761a865": {
+    "decision": "fail",
+    "note": "正确乘积之后额外除以7514却仍声称7514，前后矛盾",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "e6b8fb0064c8c77d50a037b4effd4df4cbcc2f344e5d3fe8599b16ba139bf7e1": {
+    "decision": "fail",
+    "note": "只复述/描述运算而未给完整数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "9c2379beb872927e23d3b0c47216524af19a340efb5e56a73caca8b9a0d9a9a1": {
+    "decision": "pass",
+    "note": "按题序给出2268和3401，两个结果正确",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "deac4d146e416f02e8cc66c0899e4d5062d4534afd7ef4ce1a867894056b8f88": {
+    "decision": "fail",
+    "note": "第一题只复述未求值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "4be63ed98686c1e508b84c188c29130af0e2b548df8881854c018d2db779eb62": {
+    "decision": "fail",
+    "note": "只答部分题，其他目标结果缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "2f41553bc2802f4b6d13cf88a4efb19e7e85cae6a3d2277e2180a0cfd4534d68": {
+    "decision": "fail",
+    "note": "只答部分题，其他目标结果缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "2ede5938307d1b012663c7c8fc05ca24baa2a30c05c9516b3da8746e0e9d556f": {
+    "decision": "fail",
+    "note": "只答部分题，其他目标结果缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "2d42335aab85314f41cad33e222a198803c321059e1ab48352bf04481e5136a6": {
+    "decision": "fail",
+    "note": "只答部分题，其他目标结果缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "a5e5e3306ff6d5ed962080a2c3188aecce9d85a857a85d4235710bc0b7f88800": {
+    "decision": "fail",
+    "note": "只复述/描述运算而未给完整数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "547bd53b637d818cf705a6a9b001b25e7ce2302d0a7592811a1ea2cfd84e1821": {
+    "decision": "fail",
+    "note": "只复述/描述运算而未给完整数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "53b5b0253fe5c8a3156f8c69e5cf5aec3dff78c65e0c1c4b735a44388dc7b072": {
+    "decision": "pass",
+    "note": "明确原算式与11895对应，正确",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "872d66d30a6808245b22aa9ee3c810d473ac82b67eedd1c9948389678fc6cbb4": {
+    "decision": "pass",
+    "note": "明确原算式等于11895，正确",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "2d742e26e9386e95e53cae7189fb2a1b139e19ffc9d1ee73d68ee689c240b951": {
+    "decision": "fail",
+    "note": "只复述/描述运算而未给完整数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "541c5b95fc7bba9982a8c71d58f7d388cae0efbd791afa0ab3d1ab63d23c727e": {
+    "decision": "fail",
+    "note": "把乘法改除法，第二题数值亦错且矛盾",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "4701f6f92fe0b8fb1dab31972171b779231f8d6dd335c577a78b175830733798": {
+    "decision": "fail",
+    "note": "只复述/描述运算而未给完整数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "2a9a0e81454dc579ff758cd14cd4c308d07d61e6a31dcd2b2aea117d2bc51d4c": {
+    "decision": "fail",
+    "note": "三个等式链都错误，结果不一致",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "4f87ae90d346c7d2d2c457d63afb1bc52070a24c7894361e5d6934abc572f72e": {
+    "decision": "fail",
+    "note": "漏第一题且错误声称多个运算的和为1036",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "fa7cfbcf18e311bac09bd7de827d5dc24a0df6ebaf832094cf09a836a3a1dc60": {
+    "decision": "fail",
+    "note": "只复述/描述运算而未给完整数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "1ad0889ee3c741dbe4bd64c5d7e6d268c07ea93d0b4b19892c99ec9b53af9ef5": {
+    "decision": "fail",
+    "note": "只答部分题，其他目标结果缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "10a6ae4eaf10a4a04661a8aa7991ee86367a93d26c834bca1fd408efad9c1c29": {
+    "decision": "fail",
+    "note": "多个错误数值和加总断言，未回答原三题",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "c106b2aacfcd289f260a29cc8aee458befce38041e949d158ac3bf001634e77a": {
+    "decision": "fail",
+    "note": "只复述/描述运算而未给完整数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "4d58a091f86814c85d8710513e9bbc6cc8aa368cff315eb0a9f14b620e5e312d": {
+    "decision": "fail",
+    "note": "只复述/描述运算而未给完整数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "54bb9fa9acd1c382032f8e9a3967c608ecd3754e02d310404ae639d6794140ff": {
+    "decision": "fail",
+    "note": "错误断言目标算式等于0",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "a8712b33fe79e323fc6158c70aeab4e6c78d0c78575037978afe615dd515ff79": {
+    "decision": "fail",
+    "note": "运算和等式链多处错误，最终45错误",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "5c51e012b09a619a1a4ebde89c1460dbf58fabef2d6df69f2d8bd549d3865730": {
+    "decision": "fail",
+    "note": "减法与乘法结果均错，多处矛盾",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "f02480835284510c44038fb5863e10ae8fd7a9f567a26d7873b50c12537ddf65": {
+    "decision": "fail",
+    "note": "只复述/描述运算而未给完整数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "c5efe0973cd07f378cd8c2185268bc6b49746a753d7d39f3dd3d049fa7579e55": {
+    "decision": "fail",
+    "note": "改动原减法并给错误等式，未求两项数值",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "fe86da7b0a61223be1b39aa1270509f3c1be663e09ba5659b3f39c1adad8af88": {
+    "decision": "fail",
+    "note": "只答部分题，其他目标结果缺失",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "b20a741ccfb8ac1a2577d2658beaa00d4918d4ea9d82e1d428118211171b70bc": {
+    "decision": "fail",
+    "note": "第二题运算改动，第二第三项数值错误",
+    "source": "assistant content adjudication, frozen strict rule, no model tuning"
+  },
+  "8b33d1e2781ce4b10488134478b8aac1c4242dc1bcc1f9d0a6a4fb81fffb59fb": {
+    "decision": "fail",
+    "note": "漏答206乘48",
+    "source": "assistant content adjudication"
+  },
+  "b0863da10ef46b0373d8a3c816528cd120ddff5b53cc87fb32e871967c7b656b": {
+    "decision": "fail",
+    "note": "未给数值且错误等式2=206乘48",
+    "source": "assistant content adjudication"
+  },
+  "61b38c206b904ba96f8a7ec62647a2266f369d8037d1d3b903a94d9bb1c7c0fe": {
+    "decision": "fail",
+    "note": "漏答11立方",
+    "source": "earlier same question and exact-text decision"
+  },
+  "5523565cc7dded80fd29cab54fa75e532aeda5420191377152a73f2a5f6e4960": {
+    "decision": "fail",
+    "note": "缺少至少一个所求数值结果",
+    "source": "earlier same question and exact-text decision"
+  },
+  "4cf9816ef54fd4ab40b1d3fbdc24c04375aa6bc1160f3062a826ddfd7a8176c2": {
+    "decision": "fail",
+    "note": "漏答7平方",
+    "source": "earlier same question and exact-text decision"
+  },
+  "787e68971d42a5afdf2d764c80e5a4802ca48493a91d933b6c284438acee08e4": {
+    "decision": "fail",
+    "note": "第三式漏掉24乘87，文字算式与结果不一致",
+    "source": "earlier same question and exact-text decision"
+  },
+  "f42c217fcd44cc09a6bff8d446c1fc4db82a40c3c965a448ae782e34451e80de": {
+    "decision": "fail",
+    "note": "漏答108乘6877",
+    "source": "assistant content adjudication"
+  },
+  "4a4bbcd33c7c797fbfdbd1eb052cf7ae6c0d52133871a2a222ef6b4afb22d958": {
+    "decision": "fail",
+    "note": "漏答2立方",
+    "source": "assistant content adjudication"
+  },
+  "9d34302b481bee71fc7d39201f4977b29a9e450621c152e57c8a5e6ec3f1a03e": {
+    "decision": "fail",
+    "note": "6平方等于4205等错误断言，第二项对应错",
+    "source": "assistant content adjudication"
+  },
+  "d58a85fc668df8692660b1e1fbf026808cff1dedcd9f6348f219152324cb813b": {
+    "decision": "fail",
+    "note": "漏答15立方",
+    "source": "assistant content adjudication"
+  },
+  "47c0e5190f4af5850858ce76d8c5fbae013b264b615e012439225ba7cfef385c": {
+    "decision": "fail",
+    "note": "190平方并非90，漏除法对应",
+    "source": "assistant content adjudication"
+  },
+  "07ce9c6b717cd71be2ab5e64716f936319bf4dda4e037c89c46f3fe9b1e2726e": {
+    "decision": "fail",
+    "note": "第二题未求值",
+    "source": "assistant content adjudication"
+  },
+  "06411e4529d35a17e7b90c8482ec99602522a95467409e3d4d0bdac6f7df190b": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "assistant content adjudication"
+  },
+  "e0c1f32f1b92ac86632d0e6d176354f6d96b7ed99e11a1a20c729300f852575d": {
+    "decision": "fail",
+    "note": "漏3312除16",
+    "source": "assistant content adjudication"
+  },
+  "8f997f7a7a43561567a84a3eb1bc44a76fdfdc7b17374dc727ac5cdac8c9497e": {
+    "decision": "fail",
+    "note": "第一第三项算式改变且等式错误",
+    "source": "assistant content adjudication"
+  },
+  "4a31795a44fbbf613c4c599d688e6d560a4a576dab27399ed3227ee714fef533": {
+    "decision": "fail",
+    "note": "后两项未求值且错误对应",
+    "source": "assistant content adjudication"
+  },
+  "40950a28ef62e047ea89a3773e35f2393db928154fbb6b7809bfd08fa3a3082d": {
+    "decision": "fail",
+    "note": "第一题给14错误，第二题重复",
+    "source": "assistant content adjudication"
+  },
+  "6c4b73f1534bf49ec9e5a54092860c63e1f1ee31bb467abad3e496042dbe1ed5": {
+    "decision": "fail",
+    "note": "三项算式对应错误，错误称求和",
+    "source": "assistant content adjudication"
+  },
+  "b78b61adea10b9b14f666b45ca681826dd1f2961cbb7440c62133a7b0de62813": {
+    "decision": "fail",
+    "note": "漏2立方",
+    "source": "assistant content adjudication"
+  },
+  "ff3a8361072486960698b5ce89f22f8b44f3ab6beaf68bda8c6d5d874a84883d": {
+    "decision": "fail",
+    "note": "把19本身的结果说成6859，未说明立方，数值对应错误",
+    "source": "assistant content adjudication"
+  },
+  "c6b737c8759ddc344911bf16831dd200c108458ffca62d63fb4b9c43d4c682eb": {
+    "decision": "pass",
+    "note": "LaTeX命令未闭合，但算式及两个等式含义明确且正确，不因排版扣分",
+    "source": "earlier same question and exact-text decision"
+  },
+  "7023705107a7c5760e3d10cfe467c0d4c80efdaf53abab6f3a0ccf6356afb983": {
+    "decision": "fail",
+    "note": "漏答2470减5294",
+    "source": "assistant content adjudication"
+  },
+  "33b0c62e2b4648903682c2fb1c2051f2eed22f0e30f7856e3d32b7fdb368a427": {
+    "decision": "fail",
+    "note": "第二题被说成平方和，缺原运算明确对应",
+    "source": "assistant content adjudication"
+  },
+  "071929bfe6b617d74ca72ec21449f1e85c8adfd7f69bf9532510d1f11f42ca34": {
+    "decision": "pass",
+    "note": "三项算式数值及对应均正确",
+    "source": "assistant content adjudication"
+  },
+  "36a14211c2c63fb51ec66870364fed8d172ef14d7752668cca0654f961db5dd2": {
+    "decision": "pass",
+    "note": "三项完整算式及数值均正确",
+    "source": "assistant content adjudication"
+  },
+  "ad51f1141df4d79a101647a754672eb5640d724258eeeb5b8385162cd9bf7175": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "assistant content adjudication"
+  },
+  "6d37390a275990d914582c420a8f2955148880c87eb727a8457bdb6bfa152493": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "assistant content adjudication"
+  },
+  "dfedf8b6b7acda093f124ecfd28ed79c689b3c3eaadf3f261bbe1a125c069d98": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "assistant content adjudication"
+  },
+  "4526fd5bc31244ead757fd5e46943db9e4f5ff165ca0dd4de3e1ba9fbe8fe05e": {
+    "decision": "fail",
+    "note": "漏答第三题",
+    "source": "earlier same question and exact-text decision"
+  },
+  "2e57b7693fe90be63a4d9c97761a7e8935e9b43ff408d0d3d27a24dde9bce62e": {
+    "decision": "fail",
+    "note": "只复述算式，未求值",
+    "source": "assistant content adjudication"
+  },
+  "bb21fb6fe510999a24ff5e6746f5b66ddb1fa11c6bdddcbe109886a6686a1ada": {
+    "decision": "fail",
+    "note": "要求已给出的信息或只说确认，没有数值结果",
+    "source": "assistant content adjudication"
+  },
+  "3584f9d8d1457caca5b383b4a57d527ec63ceaf539e10754f6252bbd9ccc05c7": {
+    "decision": "fail",
+    "note": "把除法错误等于乘法或1，漏第二题",
+    "source": "assistant content adjudication"
+  },
+  "5420ba69f7e51ac8df6c70afa996468bbf5d2af2c29786b5b2511e24e1a02f03": {
+    "decision": "fail",
+    "note": "只答部分题，其他数值缺失",
+    "source": "assistant content adjudication"
+  },
+  "4762a672995f5065c2f9123a01719af0db408f10eb82fca1cdc365594ae1987e": {
+    "decision": "fail",
+    "note": "要求已给出的信息或只说确认，没有数值结果",
+    "source": "assistant content adjudication"
+  },
+  "17f95401a49b3887f22eabcd443169629828832245f34f80d0e285c758db2880": {
+    "decision": "fail",
+    "note": "只答部分题，其他数值缺失",
+    "source": "assistant content adjudication"
+  },
+  "90954f700539b030c557b11e1b585eb1ec0727480e9754f10fa83ed8082d652e": {
+    "decision": "fail",
+    "note": "要求已给出的信息或只说确认，没有数值结果",
+    "source": "assistant content adjudication"
+  },
+  "0104d6f98c8b62f5e821ad444596e3f40eb74ea648580c15455a0cd1bfca9a68": {
+    "decision": "fail",
+    "note": "只复述算式，未求值",
+    "source": "assistant content adjudication"
+  },
+  "2e51e309a74ecabfdf69ddeb5ba20ce931855e4b721881cf9a3b9c187ba59f5e": {
+    "decision": "fail",
+    "note": "只答部分题，其他数值缺失",
+    "source": "assistant content adjudication"
+  },
+  "473d3e7e3faf3466185da06029472ac812cd2bb2c0148050322657ca33308d51": {
+    "decision": "fail",
+    "note": "只复述算式，未求值",
+    "source": "assistant content adjudication"
+  },
+  "fe50c9aff7ceacbc4fb09234f906b8dbc626628dfc103878f7dd194dca32b3bc": {
+    "decision": "fail",
+    "note": "错误等式419加802等于234",
+    "source": "assistant content adjudication"
+  },
+  "736edc1f7304f916d452929515795aa61f0cf2b3011ecabb7ec7cb409909eb2f": {
+    "decision": "fail",
+    "note": "要求已给出的信息或只说确认，没有数值结果",
+    "source": "assistant content adjudication"
+  },
+  "10a3d7bfc7f4bee6ec7a8d226d086de194b3beca59973237937ad6301ed3d953": {
+    "decision": "fail",
+    "note": "只答部分题，其他数值缺失",
+    "source": "assistant content adjudication"
+  },
+  "1540ff1a415cf02a97f0f676747026688b2e6b4d9b6e0ee1541b1c3b2d895c47": {
+    "decision": "fail",
+    "note": "只答部分题，其他数值缺失",
+    "source": "assistant content adjudication"
+  },
+  "c4d7322b4b36f68520b3609e58e83e0f4bd8ddbb04bdd35a4da30a2848675ded": {
+    "decision": "fail",
+    "note": "把1122除17改说成乘积等于66",
+    "source": "assistant content adjudication"
+  },
+  "f8360072d2827aa89ad252e43b8f118ff3143fd4861f2bed034ac0bb516242e8": {
+    "decision": "fail",
+    "note": "要求已给出的信息或只说确认，没有数值结果",
+    "source": "assistant content adjudication"
+  },
+  "bd99cfe2ce0caf3a0057e2a77c7f5b58f8a1425fe7e9b50d316a510df4516e7c": {
+    "decision": "fail",
+    "note": "第一项错误说成758，其他题漏答",
+    "source": "assistant content adjudication"
+  },
+  "a3054d9c768d8ecd3b9e5cceacb50d474e322f7d35771aa3b9f21d98fed0edf2": {
+    "decision": "fail",
+    "note": "减法多次给出错误且矛盾值",
+    "source": "assistant content adjudication"
+  },
+  "37111beba855c85eab57d27754cdd23e4ff3ae59a8f0633fcc5ecdd1a46f7d6a": {
+    "decision": "fail",
+    "note": "要求已给出的信息或只说确认，没有数值结果",
+    "source": "assistant content adjudication"
+  },
+  "86b35ee6381ae7227c6709ae67dafad353376831be4de3fbf8a0b78166f8b061": {
+    "decision": "fail",
+    "note": "把两个不等算式错误等同且不给数值",
+    "source": "assistant content adjudication"
+  },
+  "cb54474f9400bc30fc012d9c150c7be250a99716842d11743440e7fb7d1ab88a": {
+    "decision": "fail",
+    "note": "最终等式右侧额外加820，错误",
+    "source": "assistant content adjudication"
+  },
+  "c9d800e8f6103d06118caa28bbdd97b4f153acb4776e6b41c28edc1ec5c28bf9": {
+    "decision": "fail",
+    "note": "要求已给出的信息或只说确认，没有数值结果",
+    "source": "assistant content adjudication"
+  },
+  "0296ae7605221af0f5edd3aaca431aff03f07b2507e3e799392798cc6506e550": {
+    "decision": "fail",
+    "note": "错误等同两个求和算式，未给正确数值",
+    "source": "assistant content adjudication"
+  },
+  "922f37504436c2fbce3738471b4695dda3302cba97e328dc15bb1ff33d153de2": {
+    "decision": "pass",
+    "note": "8058除17明确等于474，正确",
+    "source": "assistant content adjudication"
+  },
+  "e087fc6919e54a4a86206a61877ece264fed75cb651b233123954e9ea86188a4": {
+    "decision": "fail",
+    "note": "第二题额外加15乘20，未答原318",
+    "source": "assistant content adjudication"
+  },
+  "2dbb4e17edb001f1820d5cf097ee2e618c1d931b109b878a31d76b6f1245cc8c": {
+    "decision": "pass",
+    "note": "两项原算式及数值都正确",
+    "source": "assistant content adjudication"
+  },
+  "3afcd17a647dd365454261c1eab101648285d1b3805e59946902c4eac9d01654": {
+    "decision": "fail",
+    "note": "第二项346被改为366，算式及数值错误",
+    "source": "assistant content adjudication"
+  },
+  "251e9675007e3c5469e541916742d4bef566788e0b6a3e7d8ced55d71e82c6a1": {
+    "decision": "pass",
+    "note": "两个原算式及数值236、318对应正确",
+    "source": "assistant content adjudication"
+  },
+  "81e6ce733fd820cb23b299fabf2ea4cf3f1de9ff5763012fbaf95d23ea5bc6fe": {
+    "decision": "fail",
+    "note": "漏答请求中的其他算式，重复已有项不能补漏",
+    "source": "assistant content adjudication"
+  },
+  "fabd5f0918c748da894ad1f78794638aa42eb070fc69b50d58f1884f53eb7b6d": {
+    "decision": "fail",
+    "note": "漏答请求中的其他算式，重复已有项不能补漏",
+    "source": "assistant content adjudication"
+  },
+  "9c7c3694c53f844bb1ff631be612e63212d2776856f29c9f3ea451a524071856": {
+    "decision": "fail",
+    "note": "漏答请求中的其他算式，重复已有项不能补漏",
+    "source": "assistant content adjudication"
+  },
+  "700558a752fa72716bcee603cc9d7782b7a62af79ffeef227461a21530c22b65": {
+    "decision": "fail",
+    "note": "要求已给的信息、拒绝或只描述运算，没有目标数值",
+    "source": "assistant content adjudication"
+  },
+  "45064c3db77949b3e3ba19c4e8ce4937c85f6a509940f9876e5d75f25cd5425d": {
+    "decision": "fail",
+    "note": "多个错误等式及错误最终值",
+    "source": "assistant content adjudication"
+  },
+  "c81c49774a773b821554f13ed06e2656e595238937dc18d7c537f732b247f192": {
+    "decision": "fail",
+    "note": "要求已给的信息、拒绝或只描述运算，没有目标数值",
+    "source": "assistant content adjudication"
+  },
+  "76cfa105ab94a93f2d7df6c756cd2c52453a855e6301755553af9e3cead19f45": {
+    "decision": "fail",
+    "note": "要求已给的信息、拒绝或只描述运算，没有目标数值",
+    "source": "assistant content adjudication"
+  },
+  "24de1527e769eb29ad74c2312d0b6466932da1d6b22379cc3e96b29412151500": {
+    "decision": "fail",
+    "note": "只复述算式，未求值",
+    "source": "assistant content adjudication"
+  },
+  "4af38c3a019504bf86a1af84b00301460635716df903e31d3a9d9685cc42df37": {
+    "decision": "fail",
+    "note": "要求已给的信息、拒绝或只描述运算，没有目标数值",
+    "source": "assistant content adjudication"
+  },
+  "70ecaeb6b9b35039dd0391db584c212a37d7fc88b5a55c1c5a4bce6476f42c75": {
+    "decision": "fail",
+    "note": "要求已给的信息、拒绝或只描述运算，没有目标数值",
+    "source": "assistant content adjudication"
+  },
+  "77c03c705652e7528dd80426cedeed72ce98f54e46b52d2a5299f8f400f47746": {
+    "decision": "fail",
+    "note": "要求已给的信息、拒绝或只描述运算，没有目标数值",
+    "source": "assistant content adjudication"
+  },
+  "487f5ee00630b2a2681689cde3303e49dc46a2b2babf46a439b360bdde6739df": {
+    "decision": "fail",
+    "note": "要求已给的信息、拒绝或只描述运算，没有目标数值",
+    "source": "assistant content adjudication"
+  },
+  "6d302da0133c06d4d1673e8db064f4b85e403f9a517d0d93b4e4fe959a999ebc": {
+    "decision": "fail",
+    "note": "要求已给的信息、拒绝或只描述运算，没有目标数值",
+    "source": "assistant content adjudication"
+  },
+  "c98f416d135e08f94e926acbf3eda01a570f7678a6cb0b38b518d22ef5f81299": {
+    "decision": "fail",
+    "note": "要求已给的信息、拒绝或只描述运算，没有目标数值",
+    "source": "assistant content adjudication"
+  },
+  "38b79abeb97a26b3f6e232d54e3fa05a87ed531c685a06dfc8ead21509c5fce2": {
+    "decision": "pass",
+    "note": "两个原算式及数值2268、3401正确",
+    "source": "assistant content adjudication"
+  },
+  "7477eaa7898694df6b5c497aade5b6613823df69321e3a5e122b2b25f7f3b23e": {
+    "decision": "fail",
+    "note": "未求第一题且第二项错误等同89乘75",
+    "source": "assistant content adjudication"
+  },
+  "7f4db1b90cc24427fce6cbc0090048936509c30f3457b63539a8dcb5295496a8": {
+    "decision": "pass",
+    "note": "第一项8624明确，第二项按顺序给出1036，正确",
+    "source": "assistant content adjudication"
+  },
+  "ee649f97fef136c063beabb947d4bc389f01f8d9d4b932aa3306040a346c137a": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "26935b8ee6c528919593cc97d1a83ec0b2cb75b802247a5e5f21bcf310bb7955": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "a885d6cc0db67a8a3ae4ee2ac30b9c4cb3d4477a94e9678a94f12f1e933d558b": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "acfd872e4146fdd86f9f0f1f47f4901d2ccc811f9b50712777f7961e056dd4c9": {
+    "decision": "fail",
+    "note": "加法除法多处等式错误，漏答第三项",
+    "source": "assistant content adjudication"
+  },
+  "e13ed9f209ba9802a50c2abbb2d7275d3413ef2836e4fd59f53423d3859441c3": {
+    "decision": "fail",
+    "note": "多个原算式被混乘并错误等同，未给数值",
+    "source": "assistant content adjudication"
+  },
+  "33fc358a5e00f1b15f8747fcce93d395d5b45585045d37b018a14cfa794d489b": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "b26ecb2257d8f37898660e47362bf9d0c6ffbf3fc7a9fc894507c68d0a074fa3": {
+    "decision": "fail",
+    "note": "括号被改变且错误等式，未求三项数值",
+    "source": "assistant content adjudication"
+  },
+  "14470a077cd27d19bcf93b2144ddfcd2e6171252dd6a26e4fc2db1b4bf96948f": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "d34a5f87f867963789856fc346166aafa250189af10d410385a7bf7826e9fe5c": {
+    "decision": "fail",
+    "note": "改变输入数字并错误等同表达式，没有数值",
+    "source": "assistant content adjudication"
+  },
+  "39539b9853a5df63fcc75c9479ab2fdd13409293294cbd872a22c11b8fdc2b24": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "4ab0f432081f0736d621fe2ef92b6cc5546d6763a3059311a7cf731e535f0104": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "910b37790272890039fb8934c83ce4b4da483b258712b3b407845afd8d65a22e": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "d34f730de8baae2fbebb04001873880f2b0e45d82ba85db5a15a8b2a0bae7073": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "ce94ca8c3ba50b9c25aa8cf5343e45f9bddb449be956045c603af2ae4200545e": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "28c8a1c30f36aeb23949a68d2fb5a4ffbb5388bb97cf57ae4dd9b54ca78d01b9": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "c72dff096413ba472a6f5b4ca4bf254f780159290374f4b0ab12981c29c1eedc": {
+    "decision": "fail",
+    "note": "目标算式被错误断言等于63且未求正确值",
+    "source": "assistant content adjudication"
+  },
+  "a9ea99659b36e8a4ddecb7c17091eb393c800fb268a0a87e01b1aca1ed4f615d": {
+    "decision": "fail",
+    "note": "只给第一项149，其他结果缺失",
+    "source": "assistant content adjudication"
+  },
+  "341951f997b0b349392208447fe37745d38da5968c025d1406cc289cf58156b6": {
+    "decision": "fail",
+    "note": "重复第一题，漏第三题",
+    "source": "assistant content adjudication"
+  },
+  "85e6d7010c5174a07ca65dc486edc9913566a04d9eb9f76d7662ee43bdecb6c0": {
+    "decision": "fail",
+    "note": "改成2657与488的商，数值对应错误且漏第三项",
+    "source": "assistant content adjudication"
+  },
+  "4921cf7829e2de8d38fd81db7f6aa98f90b9d368954f2cf4f33f9666aa830c09": {
+    "decision": "fail",
+    "note": "要求更多信息、只描述/复述或自报身份，未给目标数值",
+    "source": "assistant content adjudication"
+  },
+  "95db2df7e63b9683deb07aa974b3f128ff890b21704b7c8c27559f073747ec7e": {
+    "decision": "fail",
+    "note": "未求数值并改动原算式",
+    "source": "assistant content adjudication"
+  },
+  "622125f163d7680912631d2895d97682f3f30de533059a0db4b4ff340d743c16": {
+    "decision": "fail",
+    "note": "第一第二项错误等式且第三项未求值",
+    "source": "assistant content adjudication"
+  },
+  "b37b7640df967ab2f818e5135c897f985d1065f85e829c123a793f36ba257744": {
+    "decision": "fail",
+    "note": "重复除法，漏12立方",
+    "source": "assistant content adjudication"
+  },
+  "7b13ee520cf3ca1dc50a77ef6d58e3c417665ce97d2badf241ad573e9cc33948": {
+    "decision": "fail",
+    "note": "重复减法，漏求和",
+    "source": "assistant content adjudication"
+  },
+  "045f302284b2caf99f65bb4f52282374a1a486589435b03cfe29a7f338a701ab": {
+    "decision": "pass",
+    "note": "三项原算式及结果均正确",
+    "source": "assistant content adjudication"
+  },
+  "357d4bc08e671ece20d588a2d11fd5a2e7108ec844407cc7f08547873843f734": {
+    "decision": "fail",
+    "note": "漏6立方",
+    "source": "assistant content adjudication"
+  },
+  "bba76c48a33212f3d116370cb5e0e53e0f51c4ab622ecdea8e9d02624a3a0ce9": {
+    "decision": "fail",
+    "note": "漏7平方",
+    "source": "assistant content adjudication"
+  },
+  "3a237d60cd4f7917b5f705d11173b8c471b997de44ee338b65b7ce5a7e2dec0b": {
+    "decision": "fail",
+    "note": "漏6720除20",
+    "source": "assistant content adjudication"
+  },
+  "f94da3f2634c237355c4398560f0ca1fa3b2900e2d838e4e49e34b9f2d1c574b": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "assistant content adjudication"
+  },
+  "a1b9a654a64f940aca3a4098e4a47af83a57a4c330535461fb6e9a866b4ecf8b": {
+    "decision": "fail",
+    "note": "第三题给重复结果16796，漏168除4的42",
+    "source": "assistant content adjudication"
+  }
+}

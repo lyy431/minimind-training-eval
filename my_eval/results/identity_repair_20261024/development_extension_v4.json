@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-25",
+  "stage": "adaptive development extension; final sets not yet used",
+  "reason": "Six ordinary CE LoRA candidates kept math but failed identity or leakage thresholds. Canonical answers + ordinary examples still leaked on 3/20 general samples. Explicitly constrain non-identity distributions to the original bb_rl.",
+  "reference_code": "trainer/train_distillation.py distillation_loss: KL(teacher || student), temperature1",
+  "data": "clear_mix2116.jsonl; unchanged from v3; existing exact-question overlap audit applies",
+  "objective": "identity examples: CE averaged per example; ordinary/math examples: KL(bb_rl || student), per-example average with first32 answer tokens weighted3; total identityCE + 4*KL; frozen bb_rl teacher and base, only LoRA q/o trained",
+  "candidates": [
+    {
+      "name": "bb_rl_id_anchor4",
+      "lr": 0.0001,
+      "epochs": 4,
+      "kl": 4,
+      "condition": "After short 16-step memory/gradient validation"
+    },
+    {
+      "name": "bb_rl_id_anchor8",
+      "lr": 0.0001,
+      "epochs": 4,
+      "kl": 8,
+      "condition": "Only if anchor4 identity>=16 but leakage or retention fails"
+    }
+  ],
+  "selection_thresholds": {
+    "identity_hits_min": 16,
+    "identity_runs": 20,
+    "general_leaks_max": 1,
+    "math_max_drop_percentage_points": 5,
+    "language_max_delta_loss": 0.04
+  },
+  "final_evaluation_files_present": [],
+  "training_sha256": "44dec4f36fdefc96f20cc78ac35407cc92725386c501cd33a20b25c15975a00b"
+}

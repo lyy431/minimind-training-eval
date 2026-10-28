@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-25",
+  "stage": "second adaptive development extension, before final evaluation",
+  "reason": "Both 2e-4 and 1e-4 balanced candidates produced identity instead of an answer to 2 ordinary English samples. Content review also found assistant/developer role confusion. Lowering learning rate alone did not fix leakage.",
+  "recipe": "Canonical, unambiguous identity answer for each of the same 90 identity prompts x6; unchanged general1000 and replay128x2; add 64 short ordinary English examples x4 and 32 Chinese examples x2, authored directly by the coding assistant without external APIs.",
+  "training": {
+    "base": "bb_rl",
+    "identity_unique": 90,
+    "identity_repeats": 6,
+    "general": 1000,
+    "self_replay_unique": 128,
+    "self_replay_repeats": 2,
+    "extra_english": 64,
+    "english_repeats": 4,
+    "extra_chinese": 32,
+    "chinese_repeats": 2,
+    "total": 2116,
+    "epochs": 6,
+    "batch_size": 8,
+    "max_seq_len": 768
+  },
+  "candidates": [
+    {
+      "name": "bb_rl_id_clear_2e4",
+      "lr": 0.0002,
+      "condition": "Run first"
+    },
+    {
+      "name": "bb_rl_id_clear_3e4",
+      "lr": 0.0003,
+      "condition": "Only if identity <16/20, leaks <=1/20 and both retention checks pass"
+    }
+  ],
+  "selection_thresholds": {
+    "identity_hits_min": 16,
+    "identity_runs": 20,
+    "general_leaks_max": 1,
+    "math_max_drop_percentage_points": 5,
+    "language_max_delta_loss": 0.04
+  },
+  "normalized_question_overlap": {
+    "identity_general_dev_final": 0,
+    "final_chat": 0,
+    "dev_math": 0,
+    "final_math": 0,
+    "dev_language": 0,
+    "final_language": 0
+  },
+  "final_evaluation_files_present": [],
+  "sha256": {
+    "identity_canonical90.jsonl": "a2811b165d1e60c07a0aec7396fe5ded125083c9b12041b5c759c2f485c2ca45",
+    "ordinary_english64.jsonl": "02f37a44a82a6b78d364490c3b6956defa6121c236861c35be0cf8d18071b0e9",
+    "ordinary_chinese32.jsonl": "8db4659c3756241dbd516338bbd3f8b94dca40fc012f9c38145d148a1fbeee7b",
+    "clear_mix2116.jsonl": "44dec4f36fdefc96f20cc78ac35407cc92725386c501cd33a20b25c15975a00b"
+  }
+}

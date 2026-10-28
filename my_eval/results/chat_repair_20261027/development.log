@@ -1,0 +1,67 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+devchat chat_repair_e1 16 / 48 7.8s
+devchat chat_repair_e1 32 / 48 10.8s
+devchat chat_repair_e1 48 / 48 13.7s
+devmath chat_repair_e1 16 / 48 23.3s
+devmath chat_repair_e1 32 / 48 39.3s
+devmath chat_repair_e1 48 / 48 53.7s
+loss_dev chat_repair_e1 100 2.5688681769371033
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+devchat chat_repair_e2 16 / 48 5.8s
+devchat chat_repair_e2 32 / 48 8.9s
+devchat chat_repair_e2 48 / 48 11.8s
+devmath chat_repair_e2 16 / 48 23.3s
+devmath chat_repair_e2 32 / 48 39.9s
+devmath chat_repair_e2 48 / 48 55.3s
+loss_dev chat_repair_e2 100 2.572393664121628
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+devchat chat_repair_e3 16 / 48 4.0s
+devchat chat_repair_e3 32 / 48 7.0s
+devchat chat_repair_e3 48 / 48 9.9s
+devmath chat_repair_e3 16 / 48 20.6s
+devmath chat_repair_e3 32 / 48 36.1s
+devmath chat_repair_e3 48 / 48 50.5s
+loss_dev chat_repair_e3 100 2.5725130605697633
+Traceback (most recent call last):
+  File "D:\minimind\minimind-master\my_eval\scripts\review_chat_repair.py", line 45, in <module>
+    p=argparse.ArgumentParser();p.add_argument('split',choices=['dev','final']);a=p.parse_args();queue(a.split)
+  File "D:\minimind\minimind-master\my_eval\scripts\review_chat_repair.py", line 37, in queue
+    if row['grade']['status']!='review':continue
+KeyError: 'grade'
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+devchat chat_repair_id_e1 16 / 48 4.4s
+devchat chat_repair_id_e1 32 / 48 7.8s
+devchat chat_repair_id_e1 48 / 48 13.6s
+devmath chat_repair_id_e1 16 / 48 22.9s
+devmath chat_repair_id_e1 32 / 48 38.9s
+devmath chat_repair_id_e1 48 / 48 55.8s
+loss_dev chat_repair_id_e1 100 2.5789306318759917
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+devchat chat_repair_id_e2 16 / 48 4.8s
+devchat chat_repair_id_e2 32 / 48 7.8s
+devchat chat_repair_id_e2 48 / 48 13.4s
+devmath chat_repair_id_e2 16 / 48 21.2s
+devmath chat_repair_id_e2 32 / 48 35.4s
+devmath chat_repair_id_e2 48 / 48 51.0s
+loss_dev chat_repair_id_e2 100 2.575620301961899
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+devchat chat_repair_id_e3 16 / 48 4.7s
+devchat chat_repair_id_e3 32 / 48 7.6s
+devchat chat_repair_id_e3 48 / 48 14.4s
+devmath chat_repair_id_e3 16 / 48 20.3s
+devmath chat_repair_id_e3 32 / 48 33.9s
+devmath chat_repair_id_e3 48 / 48 47.8s
+loss_dev chat_repair_id_e3 100 2.5753340220451353
+Pending content 28 math 0

@@ -1,0 +1,36 @@
+{
+  "published": true,
+  "model": "tool_choice2b_e3",
+  "demo_folder": "D:\\minimind\\minimind-master\\scripts\\MiniMind-YuyangLU-v3",
+  "all_parameter_tensors_exact": true,
+  "tokenizer_and_template_equal": true,
+  "conversion_checks": [
+    {
+      "question": "你是谁？",
+      "prompt_tokens": 22,
+      "greedy24_identical": true
+    },
+    {
+      "question": "请计算27*43，另外612/17",
+      "prompt_tokens": 879,
+      "greedy24_identical": true
+    },
+    {
+      "question": "请写一句欢迎新同学的话。",
+      "prompt_tokens": 910,
+      "greedy24_identical": true
+    }
+  ],
+  "old_models_preserved": true,
+  "maximum_selected_tools": 6,
+  "tool_whitelist_enforced": true,
+  "files_sha256": {
+    "chat_template.jinja": "5ce19bbb30e4d23557596e60fb29edfa8bbb792a6284097863e4d7109113e2c2",
+    "config.json": "29f24eb8cc7531f48e4822c6b1a8b2ab712e14813e920ccf095fe93a46d2446c",
+    "generation_config.json": "c8b0fa1817241273739e519098b3c8dffa2f0edd593dafc6eac4e58816677a43",
+    "model.safetensors": "b85dcedb2a25d52ea032f64eba88776d9b65d759d2e3740f564591a680b52672",
+    "special_tokens_map.json": "86734702686a64d8156b2406128b30370c9a315903d70f0b8dcd36526cbc0d19",
+    "tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "tokenizer_config.json": "146dc85111f22a9e1bdc7284b9c65f8252fb4bfd510899f0c661cf93e949e09a"
+  }
+}

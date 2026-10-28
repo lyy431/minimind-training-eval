@@ -1,0 +1,12 @@
+{
+  "created_before_generation": true,
+  "scale": {
+    "0": "未满足主要请求、基本不可用或有严重可见错误",
+    "1": "部分回应但有明显遗漏、混乱、重复或不恰当肯定",
+    "2": "主要请求得到清楚实用回应，无可见严重错误"
+  },
+  "reviewer": "assistant; randomized answer identifiers, no reward scores shown; not independent human blind evaluation",
+  "identity": "须区分原始项目作者与本地定制者；名字出现不等于内容正确",
+  "unusable": "empty, unfinished or unexpected tool-call replies cannot receive2",
+  "references_are_never_model_inputs": true
+}

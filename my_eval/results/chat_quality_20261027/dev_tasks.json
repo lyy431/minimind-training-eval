@@ -1,0 +1,226 @@
+[
+  {
+    "id": "dev_knowledge_0",
+    "category": "knowledge",
+    "question": "用一句简单的话解释，为什么用完水龙头要关紧。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "用一句简单的话解释，为什么用完水龙头要关紧。"
+      }
+    ],
+    "reference_for_review_only": "节约水、防止滴漏，不编造危害",
+    "language": "zh",
+    "seed": 710000
+  },
+  {
+    "id": "dev_knowledge_1",
+    "category": "knowledge",
+    "question": "为什么做事前列个清单会有帮助？用一句话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么做事前列个清单会有帮助？用一句话回答。"
+      }
+    ],
+    "reference_for_review_only": "帮助记住任务或安排顺序",
+    "language": "zh",
+    "seed": 710031
+  },
+  {
+    "id": "dev_knowledge_2",
+    "category": "knowledge",
+    "question": "Explain in one sentence what a table of contents helps a reader do.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explain in one sentence what a table of contents helps a reader do."
+      }
+    ],
+    "reference_for_review_only": "find sections or topics in a document",
+    "language": "en",
+    "seed": 710062
+  },
+  {
+    "id": "dev_knowledge_3",
+    "category": "knowledge",
+    "question": "为什么把文档起一个有意义的文件名比较好？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么把文档起一个有意义的文件名比较好？"
+      }
+    ],
+    "reference_for_review_only": "便于识别查找整理",
+    "language": "zh",
+    "seed": 710093
+  },
+  {
+    "id": "dev_writing_0",
+    "category": "writing",
+    "question": "替我写一句祝同学考试顺利的话，不要解释。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "替我写一句祝同学考试顺利的话，不要解释。"
+      }
+    ],
+    "reference_for_review_only": "给出一条祝福，不是讨论如何写",
+    "language": "zh",
+    "seed": 710124
+  },
+  {
+    "id": "dev_writing_1",
+    "category": "writing",
+    "question": "帮我写一句提醒室友轻声说话的话，语气客气。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "帮我写一句提醒室友轻声说话的话，语气客气。"
+      }
+    ],
+    "reference_for_review_only": "礼貌请求轻声说话",
+    "language": "zh",
+    "seed": 710155
+  },
+  {
+    "id": "dev_writing_2",
+    "category": "writing",
+    "question": "Write one friendly sentence inviting a friend to read together.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write one friendly sentence inviting a friend to read together."
+      }
+    ],
+    "reference_for_review_only": "actual friendly invitation to read together",
+    "language": "en",
+    "seed": 710186
+  },
+  {
+    "id": "dev_writing_3",
+    "category": "writing",
+    "question": "写一句感谢邻居代收快递的话。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "写一句感谢邻居代收快递的话。"
+      }
+    ],
+    "reference_for_review_only": "直接感谢邻居帮忙收快递",
+    "language": "zh",
+    "seed": 710217
+  },
+  {
+    "id": "dev_retrieval_0",
+    "category": "retrieval",
+    "question": "通知写着：活动在图书馆二楼举行。活动地点在哪里？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "通知写着：活动在图书馆二楼举行。活动地点在哪里？"
+      }
+    ],
+    "reference_for_review_only": "图书馆二楼",
+    "language": "zh",
+    "seed": 710248
+  },
+  {
+    "id": "dev_retrieval_1",
+    "category": "retrieval",
+    "question": "便签内容是：陈老师负责钥匙，小赵负责海报。谁负责海报？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "便签内容是：陈老师负责钥匙，小赵负责海报。谁负责海报？"
+      }
+    ],
+    "reference_for_review_only": "小赵",
+    "language": "zh",
+    "seed": 710279
+  },
+  {
+    "id": "dev_retrieval_2",
+    "category": "retrieval",
+    "question": "The label says: box A contains pencils; box B contains paper. Which box contains paper?",
+    "messages": [
+      {
+        "role": "user",
+        "content": "The label says: box A contains pencils; box B contains paper. Which box contains paper?"
+      }
+    ],
+    "reference_for_review_only": "box B",
+    "language": "en",
+    "seed": 710310
+  },
+  {
+    "id": "dev_retrieval_3",
+    "category": "retrieval",
+    "question": "请原样抄出这段文字中的编号：登记号是Q-572。只输出编号。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请原样抄出这段文字中的编号：登记号是Q-572。只输出编号。"
+      }
+    ],
+    "reference_for_review_only": "Q-572",
+    "language": "zh",
+    "seed": 710341
+  },
+  {
+    "id": "dev_identity_0",
+    "category": "identity",
+    "question": "这个聊天助手叫什么，谁做了本地定制？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "这个聊天助手叫什么，谁做了本地定制？"
+      }
+    ],
+    "reference_for_review_only": "MiniMind；Yuyang LU",
+    "language": "zh",
+    "seed": 710372
+  },
+  {
+    "id": "dev_identity_1",
+    "category": "identity",
+    "question": "请用一句话告诉我你的名字及本地定制者。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请用一句话告诉我你的名字及本地定制者。"
+      }
+    ],
+    "reference_for_review_only": "MiniMind；Yuyang LU",
+    "language": "zh",
+    "seed": 710403
+  },
+  {
+    "id": "dev_identity_2",
+    "category": "identity",
+    "question": "Who customized this MiniMind assistant? Give the full name.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who customized this MiniMind assistant? Give the full name."
+      }
+    ],
+    "reference_for_review_only": "Yuyang LU",
+    "language": "en",
+    "seed": 710434
+  },
+  {
+    "id": "dev_identity_3",
+    "category": "identity",
+    "question": "原始MiniMind项目和你这个定制版分别由谁负责？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "原始MiniMind项目和你这个定制版分别由谁负责？"
+      }
+    ],
+    "reference_for_review_only": "原作jingyaogong/Jingyao Gong；本地定制Yuyang LU",
+    "language": "zh",
+    "seed": 710465
+  }
+]

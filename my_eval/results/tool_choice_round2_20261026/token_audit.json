@@ -1,0 +1,10 @@
+{
+  "total_rows": 2840,
+  "retained_rows": 2840,
+  "excluded": [],
+  "max_length": 1418,
+  "mean_length": 652.8552816901408,
+  "no_silent_truncation": true,
+  "all_assistant_spans_supervised": true,
+  "train_sha256": "8ede43a7bc4c63d885302df1dd1a5693ed0d1934d7a352a0adebd53add162cd7"
+}

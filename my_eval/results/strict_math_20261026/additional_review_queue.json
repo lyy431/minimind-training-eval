@@ -1,0 +1,144 @@
+[
+  {
+    "problem": 78,
+    "sample": 1,
+    "question": "算算6032/13，另外calculate 774+319*26，顺便calculate (147-240)+24*87",
+    "gt": [
+      "464",
+      "9068",
+      "1995"
+    ],
+    "final": "计算结果如下：\n\n1. \\( \\frac{6032}{13} = 464.0 \\)\n2. \\( 774 + 319 \\times 26 = 995 \\)\n3. \\( (147 - 240) + 24 \\times 87 = 1995 \\)",
+    "legacy_pass": false,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "sha256": "c22d59489d5667d2461fa0a0e0154eeacb723827ea203664aa7cf057918728cc"
+  },
+  {
+    "problem": 98,
+    "sample": 0,
+    "question": "请计算4**2，还有算算1745+7050，另外算算(151-395)+44*4",
+    "gt": [
+      "16",
+      "8795",
+      "-68"
+    ],
+    "final": "计算结果如下：\n- \\( \\frac{4^2}{16} = 16 \\)\n- \\( 1745 + 7550 = 9295 \\)\n- \\( (151 - 395) + 44 \\times 4 = -68 \\)",
+    "legacy_pass": false,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "sha256": "d86853295d6aa34e44090e071bee83c9dbdcd3bd6e9288b95cc3b255b7dcb773"
+  },
+  {
+    "problem": 98,
+    "sample": 1,
+    "question": "请计算4**2，还有算算1745+7050，另外算算(151-395)+44*4",
+    "gt": [
+      "16",
+      "8795",
+      "-68"
+    ],
+    "final": "计算结果如下：\n- \\( \\frac{4^2}{2^2} = 16 \\)\n- \\( 1745 + 7050 = 8795 \\)\n- \\( (151 - 395) + 44 \\times 4 = -68 \\)",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "sha256": "c71e2d8db6c2b6db09368243d7a5c37e149fd20a6c7d8ce8765134f239542f3f"
+  },
+  {
+    "problem": 98,
+    "sample": 0,
+    "question": "请计算4**2，还有算算1745+7050，另外算算(151-395)+44*4",
+    "gt": [
+      "16",
+      "8795",
+      "-68"
+    ],
+    "final": "计算结果如下：\n- \\( \\frac{4^2}{2} = 16 \\)\n- \\( 1745 + 7550 = 9295 \\)\n- \\( (151 - 395) + 44 \\times 4 = -68 \\)",
+    "legacy_pass": false,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "sha256": "d4a504dda7514ace78053d6a04c77f67031651d41f05c8d9fdb8eacba3f732a6"
+  },
+  {
+    "problem": 160,
+    "sample": 1,
+    "question": "算算297+659*12，另外算算(546+755)*14",
+    "gt": [
+      "8205",
+      "18214"
+    ],
+    "final": "计算结果如下：\n\n1. \\( \\frac{297 + 659 \\times 12 = 8205\\)\n2. \\((546 + 755) \\times 14 = 18214\\)",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "sha256": "c6b737c8759ddc344911bf16831dd200c108458ffca62d63fb4b9c43d4c682eb"
+  },
+  {
+    "problem": 114,
+    "sample": 0,
+    "question": "Calculate 555/5. And 2470-5294的结果是什么. And 帮我算一下(273-641)+49*43等于多少",
+    "gt": [
+      "111",
+      "-2824",
+      "1739"
+    ],
+    "final": "The results of the calculations are as follows:\n\n1. \\( \\frac{555}{5} = 150\\%\n   - \\( \\frac{2470 - 5294 = -2824\\)\n\n2. \\((273 - 61) + 49 \\times 43 = -2824\\)\n\n3. \\((273 - 61) + 49 \\times 43 = 1739\\)",
+    "legacy_pass": false,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "sha256": "f9cbc8de8e06e4532b2a3b3e7dcbfb3d8e9216da436779d7a19fb5b80bc393d7"
+  },
+  {
+    "problem": 114,
+    "sample": 1,
+    "question": "Calculate 555/5. And 2470-5294的结果是什么. And 帮我算一下(273-641)+49*43等于多少",
+    "gt": [
+      "111",
+      "-2824",
+      "1739"
+    ],
+    "final": "The results of the calculations are as follows:\n\n1. \\( \\frac{555}{5} = 111.0 \\)\n2. \\( \\frac{2470 - 5294} = -2824 \\)\n3. \\( (273 - 61) + 49 \\times 43 = 1739 \\)\n\nThese results of the calculations are as follows:\n\n1. \\( -2824 + 709 + 49 \\times 43 = -2824 \\)\n2. \\( -2824 + 49 \\times 43 = 1739 \\)\n3. \\( -2824 + 49 \\times 43 = 1739 \\)",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "sha256": "09bead11a1e6c240f4e24ba3073bdd4e89518853c8fb991b105eba253a304d06"
+  },
+  {
+    "problem": 19,
+    "sample": 1,
+    "question": "请计算3641/11，并且compute 1601+8225 for me",
+    "gt": [
+      "331",
+      "9826"
+    ],
+    "final": "计算结果如下：\n\n- \\( \\frac{3641}{11} = 331.0 \\)\n- \\( 1601 + 8225 = 9826 \\)",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "sha256": "bcc1774a66387c2d280f4b84d8d56480aaacdcc69fd83d27d2c935df8fd0027a"
+  },
+  {
+    "problem": 114,
+    "sample": 0,
+    "question": "Calculate 555/5. And 2470-5294的结果是什么. And 帮我算一下(273-641)+49*43等于多少",
+    "gt": [
+      "111",
+      "-2824",
+      "1739"
+    ],
+    "final": "The results of the calculations are as follows:\n\n1. \\( \\frac{555}{5} = 150\\%\n2. \\( \\frac{2470 - 5294 = -2824\\)\n3. \\((273 - 61) + 49 \\times 43 = 1739\\)",
+    "legacy_pass": false,
+    "status": "review",
+    "reason": "unsupported_mathematical_markup",
+    "claims": [],
+    "sha256": "c7d9797f6d4671f60bb69579cdfe6d4e98d13d9d5da2edd3a0a6271e3407cee4"
+  }
+]

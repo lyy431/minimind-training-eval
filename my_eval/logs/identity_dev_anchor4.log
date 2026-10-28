@@ -1,0 +1,6 @@
+bb_rl_id_anchor4 {'identity_hits': 17, 'identity_runs': 20, 'general_leaks': 1, 'general_runs': 20}
+bb_rl_id_anchor4 loss 2.5279128730297087 n 100
+bb_rl_id_anchor4 math 6/24: 83.33% (15s)
+bb_rl_id_anchor4 math 12/24: 91.67% (30s)
+bb_rl_id_anchor4 math 18/24: 83.33% (42s)
+bb_rl_id_anchor4 math 24/24: 83.33% (54s)

@@ -1,0 +1,13 @@
+{
+  "formal_generation_started": false,
+  "old_snapshot": "development_v1_before_identity",
+  "reason": {
+    "before_any_formal_answer_generated": true,
+    "reason": "Full-SFT candidates improved ordinary development content but omitted customizer on identity dev questions. Strengthen development retention before formal generation.",
+    "start": "chat_repair_e2",
+    "recipe": "q_proj/o_proj rank16 LoRA trained on exact e2 base, canonical full identity answers plus ordinary/math CE and frozen-e2 KL; merge only into e2",
+    "dev_identity_filter": "No-tools full-content usable count on4 identity dev questions must be at least baseline3/4; keep original formal14-count gate unchanged.",
+    "selection": "Original rank/gates plus identity dev filter; consider original3 epochs and3 identity-refined epochs; no formal data used."
+  },
+  "original_final_acceptance_unchanged": true
+}

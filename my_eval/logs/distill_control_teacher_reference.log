@@ -1,0 +1,5 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+32/32 | correct 81.2% | used tool 100.0% | 22s
+
+teacher: 26/32 fully correct (81.2%), used a tool 100.0% -> 26 SFT samples in D:\minimind\minimind-master\my_eval\results\distill_control_20261025\original_teacher_old32.jsonl

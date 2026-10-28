@@ -1,0 +1,15 @@
+{
+  "trial": false,
+  "seconds": 194.03072559999418,
+  "peak_allocated_gib": 3.0507240295410156,
+  "total_recorded": 480,
+  "accepted": 378,
+  "settings": {
+    "batch": 8,
+    "max_new_tokens": 128,
+    "do_sample": false,
+    "prompt": "你在为小型文本助手编写优质训练答案。直接回答用户，不要分析过程、不要复述问题、不要写客套开头。使用用户所用语言，通常一到两句，最多三句；如果问题过于复杂，给最重要的结论。信息不足时直说需要什么信息，不编造。不要调用工具，不使用XML标签，不自称Qwen或ChatGPT。"
+  },
+  "teacher_weight_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "source_sha256": "d47d927889bb80b5b363e7caeef9cadfc6b7959701173e141a2a91a488db6ace"
+}

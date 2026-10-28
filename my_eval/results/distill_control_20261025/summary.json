@@ -1,0 +1,1196 @@
+{
+  "models": {
+    "bb_dist": {
+      "math197_percent": 68.02030456852792,
+      "math200_percent": 68.5,
+      "math197_correct_runs": 268,
+      "loss296": 2.489175228553044,
+      "chat29_rm": -1.5659961919674927,
+      "chat30_rm": -1.5160858154296875,
+      "chat29_total": -1.6219435465760967,
+      "chat30_total": -1.57572381377356,
+      "chat29_answer_chars": 356.41379310344826,
+      "math197_by_expression_count": {
+        "1": 85.57692307692307,
+        "2": 71.875,
+        "3": 56.70103092783505
+      },
+      "math197_diagnostics": {
+        "whole_number_accuracy_percent": 65.48223350253807,
+        "strict_tool_trace_percent": 65.48223350253807,
+        "legacy_only_hit_runs": 10,
+        "wrong_tool_percent": 0,
+        "calculator_count_equal_percent": 98.73096446700508,
+        "calculator_count_less_percent": 1.2690355329949239,
+        "calculator_count_more_percent": 0,
+        "expr_right_percent": 91.0321489001692,
+        "reported_percent": 92.6071741032371,
+        "unfinished_percent": 0
+      }
+    },
+    "bb_sft_replay": {
+      "math197_percent": 79.69543147208121,
+      "math200_percent": 80.0,
+      "math197_correct_runs": 314,
+      "loss296": 2.541430278605706,
+      "chat29_rm": -1.5964523841594827,
+      "chat30_rm": -1.5419352213541666,
+      "chat29_total": -1.5984157322282841,
+      "chat30_total": -1.547536828191045,
+      "chat29_answer_chars": 341.0574712643678,
+      "math197_by_expression_count": {
+        "1": 84.61538461538461,
+        "2": 85.41666666666666,
+        "3": 74.22680412371135
+      },
+      "math197_diagnostics": {
+        "whole_number_accuracy_percent": 78.1725888324873,
+        "strict_tool_trace_percent": 78.1725888324873,
+        "legacy_only_hit_runs": 6,
+        "wrong_tool_percent": 0,
+        "calculator_count_equal_percent": 100,
+        "calculator_count_less_percent": 0,
+        "calculator_count_more_percent": 0,
+        "expr_right_percent": 92.8087986463621,
+        "reported_percent": 96.39401934916447,
+        "unfinished_percent": 0
+      }
+    },
+    "bb_sft_new": {
+      "math197_percent": 80.45685279187818,
+      "math200_percent": 80.75,
+      "math197_correct_runs": 317,
+      "loss296": 2.5412475918797224,
+      "chat29_rm": -1.594452255073635,
+      "chat30_rm": -1.5438971625434028,
+      "chat29_total": -1.5943903631251266,
+      "chat30_total": -1.5477989554487643,
+      "chat29_answer_chars": 332.95402298850576,
+      "math197_by_expression_count": {
+        "1": 83.65384615384616,
+        "2": 85.41666666666666,
+        "3": 76.28865979381443
+      },
+      "math197_diagnostics": {
+        "whole_number_accuracy_percent": 78.93401015228426,
+        "strict_tool_trace_percent": 78.93401015228426,
+        "legacy_only_hit_runs": 6,
+        "wrong_tool_percent": 0,
+        "calculator_count_equal_percent": 99.74619289340102,
+        "calculator_count_less_percent": 0.25380710659898476,
+        "calculator_count_more_percent": 0,
+        "expr_right_percent": 92.89340101522842,
+        "reported_percent": 96.48197009674581,
+        "unfinished_percent": 0
+      }
+    },
+    "bb_rl": {
+      "math197_percent": 81.47208121827411,
+      "math200_percent": 81.75,
+      "math197_correct_runs": 321,
+      "loss296": 2.4888107802819563,
+      "chat29_rm": -1.5950601511988147,
+      "chat30_rm": -1.5253658718532985,
+      "chat29_total": -1.6196057895025042,
+      "chat30_total": -1.5537229518431614,
+      "chat29_answer_chars": 374.2528735632184,
+      "math197_by_expression_count": {
+        "1": 98.07692307692307,
+        "2": 86.45833333333334,
+        "3": 70.10309278350515
+      },
+      "math197_diagnostics": {
+        "whole_number_accuracy_percent": 77.41116751269035,
+        "strict_tool_trace_percent": 77.41116751269035,
+        "legacy_only_hit_runs": 16,
+        "wrong_tool_percent": 0,
+        "calculator_count_equal_percent": 99.49238578680203,
+        "calculator_count_less_percent": 0.5076142131979695,
+        "calculator_count_more_percent": 0,
+        "expr_right_percent": 97.63113367174282,
+        "reported_percent": 94.47278911564626,
+        "unfinished_percent": 0
+      }
+    }
+  },
+  "comparisons": {
+    "bb_sft_replay_minus_bb_dist": {
+      "math197_pp": {
+        "n": 197,
+        "difference": 11.6751269035533,
+        "se": 2.4307843441488015,
+        "better": 48,
+        "worse": 12,
+        "same": 137
+      },
+      "math200_pp": {
+        "n": 200,
+        "difference": 11.5,
+        "se": 2.3963435295378224,
+        "better": 48,
+        "worse": 12,
+        "same": 140
+      },
+      "whole_number197_pp": {
+        "n": 197,
+        "difference": 12.690355329949238,
+        "se": 2.4841469373401943,
+        "better": 51,
+        "worse": 12,
+        "same": 134
+      },
+      "strict_tool197_pp": {
+        "n": 197,
+        "difference": 12.690355329949238,
+        "se": 2.4841469373401943,
+        "better": 51,
+        "worse": 12,
+        "same": 134
+      },
+      "loss296": {
+        "n": 296,
+        "difference": 0.05225505005266216,
+        "se": 0.0028202358164771753,
+        "better": 15,
+        "worse": 281,
+        "same": 0
+      },
+      "chat29_rm": {
+        "n": 29,
+        "difference": -0.030456192191989927,
+        "se": 0.06517623060279264,
+        "better": 14,
+        "worse": 14,
+        "same": 1
+      },
+      "chat30_rm": {
+        "n": 30,
+        "difference": -0.025849405924479152,
+        "se": 0.06313451865868387,
+        "better": 15,
+        "worse": 14,
+        "same": 1
+      },
+      "chat29_total": {
+        "n": 29,
+        "difference": 0.02352781434781242,
+        "se": 0.08986448465077829,
+        "better": 15,
+        "worse": 13,
+        "same": 1
+      },
+      "chat30_total": {
+        "n": 30,
+        "difference": 0.028186985582514968,
+        "se": 0.08694227072052417,
+        "better": 16,
+        "worse": 13,
+        "same": 1
+      }
+    },
+    "bb_sft_new_minus_bb_sft_replay": {
+      "math197_pp": {
+        "n": 197,
+        "difference": 0.7614213197969543,
+        "se": 1.1078039243982734,
+        "better": 9,
+        "worse": 7,
+        "same": 181
+      },
+      "math200_pp": {
+        "n": 200,
+        "difference": 0.75,
+        "se": 1.0911648379221115,
+        "better": 9,
+        "worse": 7,
+        "same": 184
+      },
+      "whole_number197_pp": {
+        "n": 197,
+        "difference": 0.7614213197969543,
+        "se": 1.219104744630488,
+        "better": 9,
+        "worse": 8,
+        "same": 180
+      },
+      "strict_tool197_pp": {
+        "n": 197,
+        "difference": 0.7614213197969543,
+        "se": 1.219104744630488,
+        "better": 9,
+        "worse": 8,
+        "same": 180
+      },
+      "loss296": {
+        "n": 296,
+        "difference": -0.00018268672598374856,
+        "se": 0.0005076030057473168,
+        "better": 149,
+        "worse": 147,
+        "same": 0
+      },
+      "chat29_rm": {
+        "n": 29,
+        "difference": 0.0020001290858476977,
+        "se": 0.06570306219819433,
+        "better": 12,
+        "worse": 16,
+        "same": 1
+      },
+      "chat30_rm": {
+        "n": 30,
+        "difference": -0.0019619411892361147,
+        "se": 0.06359872292431017,
+        "better": 12,
+        "worse": 17,
+        "same": 1
+      },
+      "chat29_total": {
+        "n": 29,
+        "difference": 0.004025369103157645,
+        "se": 0.07813104982606969,
+        "better": 12,
+        "worse": 16,
+        "same": 1
+      },
+      "chat30_total": {
+        "n": 30,
+        "difference": -0.00026212725771929867,
+        "se": 0.0756034358269521,
+        "better": 12,
+        "worse": 17,
+        "same": 1
+      }
+    },
+    "bb_sft_new_minus_bb_dist": {
+      "math197_pp": {
+        "n": 197,
+        "difference": 12.436548223350254,
+        "se": 2.5036514143048687,
+        "better": 53,
+        "worse": 14,
+        "same": 130
+      },
+      "math200_pp": {
+        "n": 200,
+        "difference": 12.25,
+        "se": 2.4683295472381404,
+        "better": 53,
+        "worse": 14,
+        "same": 133
+      },
+      "whole_number197_pp": {
+        "n": 197,
+        "difference": 13.451776649746193,
+        "se": 2.604158751341845,
+        "better": 56,
+        "worse": 15,
+        "same": 126
+      },
+      "strict_tool197_pp": {
+        "n": 197,
+        "difference": 13.451776649746193,
+        "se": 2.604158751341845,
+        "better": 56,
+        "worse": 15,
+        "same": 126
+      },
+      "loss296": {
+        "n": 296,
+        "difference": 0.0520723633266784,
+        "se": 0.002790515663830757,
+        "better": 15,
+        "worse": 281,
+        "same": 0
+      },
+      "chat29_rm": {
+        "n": 29,
+        "difference": -0.02845606310614223,
+        "se": 0.0679418372951912,
+        "better": 11,
+        "worse": 17,
+        "same": 1
+      },
+      "chat30_rm": {
+        "n": 30,
+        "difference": -0.027811347113715267,
+        "se": 0.06564121695566519,
+        "better": 11,
+        "worse": 18,
+        "same": 1
+      },
+      "chat29_total": {
+        "n": 29,
+        "difference": 0.027553183450970062,
+        "se": 0.0913875722438346,
+        "better": 13,
+        "worse": 15,
+        "same": 1
+      },
+      "chat30_total": {
+        "n": 30,
+        "difference": 0.027924858324795666,
+        "se": 0.08828956494848329,
+        "better": 14,
+        "worse": 15,
+        "same": 1
+      }
+    },
+    "bb_rl_minus_bb_dist": {
+      "math197_pp": {
+        "n": 197,
+        "difference": 13.451776649746193,
+        "se": 2.3970180283671025,
+        "better": 50,
+        "worse": 11,
+        "same": 136
+      },
+      "math200_pp": {
+        "n": 200,
+        "difference": 13.25,
+        "se": 2.363815904029056,
+        "better": 50,
+        "worse": 11,
+        "same": 139
+      },
+      "whole_number197_pp": {
+        "n": 197,
+        "difference": 11.928934010152284,
+        "se": 2.5162221280489447,
+        "better": 49,
+        "worse": 15,
+        "same": 133
+      },
+      "strict_tool197_pp": {
+        "n": 197,
+        "difference": 11.928934010152284,
+        "se": 2.5162221280489447,
+        "better": 49,
+        "worse": 15,
+        "same": 133
+      },
+      "loss296": {
+        "n": 296,
+        "difference": -0.00036444827108769804,
+        "se": 0.0004918945591879606,
+        "better": 106,
+        "worse": 190,
+        "same": 0
+      },
+      "chat29_rm": {
+        "n": 29,
+        "difference": -0.029063959231321823,
+        "se": 0.05450292539023812,
+        "better": 9,
+        "worse": 15,
+        "same": 5
+      },
+      "chat30_rm": {
+        "n": 30,
+        "difference": -0.009280056423611096,
+        "se": 0.05624885564458963,
+        "better": 10,
+        "worse": 15,
+        "same": 5
+      },
+      "chat29_total": {
+        "n": 29,
+        "difference": 0.002337757073592554,
+        "se": 0.06362472731660321,
+        "better": 12,
+        "worse": 12,
+        "same": 5
+      },
+      "chat30_total": {
+        "n": 30,
+        "difference": 0.022000861930398734,
+        "se": 0.06453580316626109,
+        "better": 13,
+        "worse": 12,
+        "same": 5
+      }
+    },
+    "bb_sft_new_minus_bb_rl": {
+      "math197_pp": {
+        "n": 197,
+        "difference": -1.015228426395939,
+        "se": 2.9003127066939527,
+        "better": 34,
+        "worse": 30,
+        "same": 133
+      },
+      "math200_pp": {
+        "n": 200,
+        "difference": -1.0,
+        "se": 2.8567120996174085,
+        "better": 34,
+        "worse": 30,
+        "same": 136
+      },
+      "whole_number197_pp": {
+        "n": 197,
+        "difference": 1.5228426395939085,
+        "se": 3.093651777766721,
+        "better": 41,
+        "worse": 32,
+        "same": 124
+      },
+      "strict_tool197_pp": {
+        "n": 197,
+        "difference": 1.5228426395939085,
+        "se": 3.093651777766721,
+        "better": 41,
+        "worse": 32,
+        "same": 124
+      },
+      "loss296": {
+        "n": 296,
+        "difference": 0.0524368115977661,
+        "se": 0.0030459787356319173,
+        "better": 14,
+        "worse": 282,
+        "same": 0
+      },
+      "chat29_rm": {
+        "n": 29,
+        "difference": 0.0006078961251795971,
+        "se": 0.09052958081476116,
+        "better": 11,
+        "worse": 17,
+        "same": 1
+      },
+      "chat30_rm": {
+        "n": 30,
+        "difference": -0.018531290690104167,
+        "se": 0.0895295471205658,
+        "better": 11,
+        "worse": 18,
+        "same": 1
+      },
+      "chat29_total": {
+        "n": 29,
+        "difference": 0.025215426377377503,
+        "se": 0.11873103506029113,
+        "better": 14,
+        "worse": 14,
+        "same": 1
+      },
+      "chat30_total": {
+        "n": 30,
+        "difference": 0.0059239963943969335,
+        "se": 0.11631600940903956,
+        "better": 14,
+        "worse": 15,
+        "same": 1
+      }
+    }
+  },
+  "primary_math_n": 197,
+  "primary_chat_n": 29,
+  "language_n": 296,
+  "uncertainty": "Paired per-question1SE, not95%CI; excludes training-seed variation.",
+  "limits": [
+    "One paired training seed; per-question SE excludes training-seed variation.",
+    "RL and SFT compute, optimization, filtering and feedback are not identical; this is not an exact causal percentage decomposition.",
+    "The RL batch has internal duplicate questions and 25 questions also present in the older pool; it was not entirely novel by user-question content.",
+    "Known identical-question leakage is excluded from the primary197; semantic paraphrases and upstream pretraining exposure remain unverified."
+  ],
+  "known_test_question_overlaps": [
+    {
+      "eval_index": 15,
+      "question": "Compute 18**3 for me",
+      "gt": [
+        "5832"
+      ],
+      "seen_in": [
+        "old_teacher",
+        "bb_mix"
+      ]
+    },
+    {
+      "eval_index": 125,
+      "question": "Calculate 10**3",
+      "gt": [
+        "1000"
+      ],
+      "seen_in": [
+        "rl_source"
+      ]
+    },
+    {
+      "eval_index": 181,
+      "question": "帮我算一下14**3等于多少",
+      "gt": [
+        "2744"
+      ],
+      "seen_in": [
+        "old_teacher",
+        "bb_mix"
+      ]
+    }
+  ],
+  "known_chat_question_overlaps": [
+    27
+  ],
+  "data_audit": {
+    "common_old_teacher": 2512,
+    "common_general": 2999,
+    "extra_slots": 2492,
+    "total_rows_per_arm": 8003,
+    "steps_per_epoch": 501,
+    "total_steps_per_arm": 1002,
+    "extra_expression_counts": {
+      "3": 1266,
+      "1": 567,
+      "2": 659
+    },
+    "teacher_acceptance": {
+      "attempted": 2999,
+      "accepted": 2492,
+      "percent": 83.09436478826275
+    },
+    "old_teacher_diagnostic": {
+      "n": 2512,
+      "strict_correct": 2472,
+      "no_all_calculator_values": 40,
+      "wrong_whole_numbers": 0,
+      "unfinished": 0,
+      "wrong_tool": 19,
+      "over_768_tokens": 11
+    },
+    "new_teacher_diagnostic": {
+      "n": 2492,
+      "strict_correct": 2453,
+      "no_all_calculator_values": 38,
+      "wrong_whole_numbers": 1,
+      "unfinished": 0,
+      "wrong_tool": 16,
+      "over_768_tokens": 8
+    },
+    "question_overlap_with_final": {
+      "bb_sft_replay": {
+        "math": 0,
+        "language": 0,
+        "chat": 0
+      },
+      "bb_sft_new": {
+        "math": 0,
+        "language": 0,
+        "chat": 0
+      }
+    },
+    "supervision_seed42": {
+      "bb_sft_replay": {
+        "rows": 8003,
+        "supervised_tokens": 1911835,
+        "zero_supervised_rows": 0
+      },
+      "bb_sft_new": {
+        "rows": 8003,
+        "supervised_tokens": 1913036,
+        "zero_supervised_rows": 0
+      }
+    },
+    "new_accepted_questions_also_in_old_teacher": 25,
+    "base_sha256": "606b058fb428560cf3f59c077a286c1eda2066ea97e2834bc5ad18a4d8f1b84c",
+    "dataset_sha256": {
+      "bb_sft_replay": "011ad63075d61bd20ca23cf9849df6690c7f694429a69a66b2186943d2fa3642",
+      "bb_sft_new": "ba9d3bca2801f754f9908a1f589a9814003f612c9d21af1fa7c7488a4b34c3c5"
+    },
+    "protocol_sha256": {
+      "trainer\\train_full_sft.py": "e4259c38677ea7b710aab60cd1ef75d3429499414aa76b8188154b8d0404accd",
+      "dataset\\lm_dataset.py": "7e6eb82f760d2e7db3cfbc60a74bed9a179b7d8667fd8b49e4a3c010391707ab",
+      "my_eval\\scripts\\official_compare.py": "87d4a19fd83fab1b931b3dfa56e082001fc0dfe9227688a789f6b7c431ed05ef",
+      "dataset\\agent_math_eval200.jsonl": "b49edc1b8e550500baa920ab43f176c50c2e817434e730501cd219a846fb7da2",
+      "dataset\\dpo_eval300.jsonl": "2f0dd996c25bf34a11a554b5c11edd25b0e5a54b2865f0c7aef336887f993ecd"
+    }
+  },
+  "training": {
+    "bb_sft_replay": {
+      "arm": "bb_sft_replay",
+      "name": "bb_sft_replay",
+      "trial": false,
+      "resume": false,
+      "settings": {
+        "from_weight": "bb_dist",
+        "epochs": 2,
+        "learning_rate": 2e-05,
+        "batch_size": 16,
+        "max_seq_len": 768,
+        "num_workers": 2,
+        "seed": 42,
+        "optimizer": "original AdamW and cosine schedule",
+        "use_compile": 0
+      },
+      "data": "D:\\minimind\\minimind-master\\my_eval\\results\\distill_control_20261025\\replay_mix.jsonl",
+      "data_sha256": "011ad63075d61bd20ca23cf9849df6690c7f694429a69a66b2186943d2fa3642",
+      "weight_sha256": "97b7132286fc52316a57282044a6987c1e49f0bcb9f9fcbc1cdbc69d52eaebab",
+      "seconds": 494.44706099999894,
+      "all_saved_parameters_finite": true,
+      "changed_state_tensors": 91,
+      "peak_gpu_allocated_gib": 6.524784088134766,
+      "peak_gpu_reserved_gib": 6.873046875,
+      "argv": [
+        "train_full_sft.py",
+        "--from_weight",
+        "bb_dist",
+        "--save_weight",
+        "bb_sft_replay",
+        "--data_path",
+        "D:\\minimind\\minimind-master\\my_eval\\results\\distill_control_20261025\\replay_mix.jsonl",
+        "--epochs",
+        "2",
+        "--learning_rate",
+        "2e-05",
+        "--batch_size",
+        "16",
+        "--max_seq_len",
+        "768",
+        "--num_workers",
+        "2",
+        "--seed",
+        "42",
+        "--from_resume",
+        "0",
+        "--log_interval",
+        "50",
+        "--save_interval",
+        "250",
+        "--use_compile",
+        "0"
+      ]
+    },
+    "bb_sft_new": {
+      "arm": "bb_sft_new",
+      "name": "bb_sft_new",
+      "trial": false,
+      "resume": false,
+      "settings": {
+        "from_weight": "bb_dist",
+        "epochs": 2,
+        "learning_rate": 2e-05,
+        "batch_size": 16,
+        "max_seq_len": 768,
+        "num_workers": 2,
+        "seed": 42,
+        "optimizer": "original AdamW and cosine schedule",
+        "use_compile": 0
+      },
+      "data": "D:\\minimind\\minimind-master\\my_eval\\results\\distill_control_20261025\\new_mix.jsonl",
+      "data_sha256": "ba9d3bca2801f754f9908a1f589a9814003f612c9d21af1fa7c7488a4b34c3c5",
+      "weight_sha256": "5e7ae032a8f08b585d131d6524841f66abf2e10e1698d7eca0ec1ca695029cd3",
+      "seconds": 527.3580990000046,
+      "all_saved_parameters_finite": true,
+      "changed_state_tensors": 91,
+      "peak_gpu_allocated_gib": 6.524784088134766,
+      "peak_gpu_reserved_gib": 6.873046875,
+      "argv": [
+        "train_full_sft.py",
+        "--from_weight",
+        "bb_dist",
+        "--save_weight",
+        "bb_sft_new",
+        "--data_path",
+        "D:\\minimind\\minimind-master\\my_eval\\results\\distill_control_20261025\\new_mix.jsonl",
+        "--epochs",
+        "2",
+        "--learning_rate",
+        "2e-05",
+        "--batch_size",
+        "16",
+        "--max_seq_len",
+        "768",
+        "--num_workers",
+        "2",
+        "--seed",
+        "42",
+        "--from_resume",
+        "0",
+        "--log_interval",
+        "50",
+        "--save_interval",
+        "250",
+        "--use_compile",
+        "0"
+      ]
+    }
+  },
+  "lock_utc": "2026-10-25T07:20:24.424089+00:00",
+  "teacher": {
+    "attempted": 2999,
+    "accepted": 2492,
+    "generation_seconds_sum": 1523.9311875999992,
+    "peak_gpu_allocated_gib": 4.373977184295654,
+    "peak_gpu_reserved_gib": 5.783203125
+  },
+  "artifacts_sha256": {
+    "my_eval\\results\\distill_control_20261025\\math_final.json": "337bd620ff0429f7a4a9e5ffafe23904f32d0c7ab3b4e12e59922fd03a81d0ea",
+    "my_eval\\results\\distill_control_20261025\\chat_final.json": "13a4b85a7218b5b2040c97b027b778a118e3870c61d9020981a8d978ccf29fc7",
+    "my_eval\\results\\distill_control_20261025\\loss_final.json": "d9fb3db6f7dd4d8fc954a6340e41d576885347b8f0e7ff7a49e5cd45643a7e09",
+    "my_eval\\results\\distill_control_20261025\\teacher_raw.json": "7a4b797641f1c68cda5ad014fbd4b864a0bb40f01bf1cb3da3b5e71e45ad6840",
+    "my_eval\\results\\distill_control_20261025\\evaluation_lock.json": "9ea37bfc0d6c86f3a69015c78f98620617aaea6882df68a2eca0507d821f50da",
+    "my_eval\\scripts\\write_distill_control_report.py": "35d5bf66d3994e42cb2fef92c9838e526f01d173f7e424f73bbf1e218859dc98",
+    "my_eval\\results\\distill_control_20261025\\teacher_quality_review.json": "8e02894fb8d33861a75e4f0daae11fc7247df723ed57d86af1d01907ee86366f",
+    "my_eval\\results\\distill_control_20261025\\grading_disagreement_review.json": "5dbb9b18fc76bc37fbcb6d82ac816c391964f3cd7c75e42a9617e7e104ba99fa",
+    "my_eval\\results\\distill_control_20261025\\interpretation.md": "3b01d314920672f0de5149aca1bee3c8616042faa6f4824a8895d657a3650189"
+  },
+  "grading_disagreement_review": {
+    "review_type": "Assistant reviewed all38 primary-set legacy-positive/whole-number-negative outputs; not independent blinded human adjudication and not a full semantic audit of all1600 outputs.",
+    "counts": {
+      "omitted_answer": 5,
+      "wrong_number_contains_target_digits": 31,
+      "unevaluated_equivalent_expression": 2
+    },
+    "notes_zh": "31次把错误长数字当成命中短答案；5次漏答但从其他文字命中目标子串；2次只重复等价算式4180/10，没有明确写出数值418。最后一类不称为数学不等价，而是未完成数值作答。完整数字检查仍可能命中题干或中间值，不能等同完整语义判分。",
+    "rows": [
+      {
+        "model": "bb_dist",
+        "problem": 7,
+        "sample": 0,
+        "gt": [
+          "3184",
+          "29770",
+          "742716"
+        ],
+        "final": "The result of (336+62)*8 is 3184.\nThe result of (695+450)*26 is 229770.\nThe result of 108*6877 is 742716.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_dist",
+        "problem": 18,
+        "sample": 1,
+        "gt": [
+          "15440",
+          "7409",
+          "8"
+        ],
+        "final": "计算结果如下：\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409",
+        "review_category": "omitted_answer"
+      },
+      {
+        "model": "bb_dist",
+        "problem": 21,
+        "sample": 1,
+        "gt": [
+          "437",
+          "2982"
+        ],
+        "final": "The result of 4807 divided by 11 is 437.0. The result of (273-423) plus 36 multiplied by 87 is 22982.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_dist",
+        "problem": 43,
+        "sample": 0,
+        "gt": [
+          "5109",
+          "22836",
+          "1252"
+        ],
+        "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_dist",
+        "problem": 48,
+        "sample": 0,
+        "gt": [
+          "10664",
+          "43"
+        ],
+        "final": "374+343*30的结果是10664。",
+        "review_category": "omitted_answer"
+      },
+      {
+        "model": "bb_dist",
+        "problem": 143,
+        "sample": 0,
+        "gt": [
+          "33105156",
+          "17856",
+          "10583"
+        ],
+        "final": "The result of 4809*6884 is 333105156.\nThe result of (889+103)*18 is 17856.\nThe result of 6577+4006 is 10583.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_dist",
+        "problem": 193,
+        "sample": 0,
+        "gt": [
+          "5068",
+          "9963650",
+          "-7749"
+        ],
+        "final": "The result of 861 + 601 * 7 is 5068.\nThe result of 2525 * 3946 is 99963650.\nAnd 1317 - 9066 is -7749.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_dist",
+        "problem": 193,
+        "sample": 1,
+        "gt": [
+          "5068",
+          "9963650",
+          "-7749"
+        ],
+        "final": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650.\nAnd the result of 1317-9066 is -7749.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_dist",
+        "problem": 197,
+        "sample": 0,
+        "gt": [
+          "444",
+          "24027141",
+          "418"
+        ],
+        "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180/10.",
+        "review_category": "unevaluated_equivalent_expression"
+      },
+      {
+        "model": "bb_dist",
+        "problem": 197,
+        "sample": 1,
+        "gt": [
+          "444",
+          "24027141",
+          "418"
+        ],
+        "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 2,
+        "sample": 0,
+        "gt": [
+          "6465",
+          "52956847",
+          "3375"
+        ],
+        "final": "计算结果如下：\n\n1. (347 + 84) * 15 = 66465\n2. 8069 * 6563 = 52956847\n3. 15^3 = 33375",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 2,
+        "sample": 1,
+        "gt": [
+          "6465",
+          "52956847",
+          "3375"
+        ],
+        "final": "计算结果如下：\n\n1. (347 + 84) * 15 = 66465\n2. 8069 * 6563 = 52956847\n3. 15^3 = 33375",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 7,
+        "sample": 0,
+        "gt": [
+          "3184",
+          "29770",
+          "742716"
+        ],
+        "final": "The result of (336+62)*8 is 3184.\nThe result of (695+450)*26 is 229770.\nAnd the result of 108*6877 is 742716.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 18,
+        "sample": 1,
+        "gt": [
+          "15440",
+          "7409",
+          "8"
+        ],
+        "final": "计算结果如下：\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409",
+        "review_category": "omitted_answer"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 21,
+        "sample": 0,
+        "gt": [
+          "437",
+          "2982"
+        ],
+        "final": "The result of 4807 divided by 11 is 437.0. The sum of 273 divided by 87 is 22982.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 43,
+        "sample": 0,
+        "gt": [
+          "5109",
+          "22836",
+          "1252"
+        ],
+        "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 43,
+        "sample": 1,
+        "gt": [
+          "5109",
+          "22836",
+          "1252"
+        ],
+        "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 58,
+        "sample": 0,
+        "gt": [
+          "9",
+          "6161",
+          "9057"
+        ],
+        "final": "The result of 3**2 is 9, and the result of 817 plus 668 multiplied by 8 is 6161. The sum of 877 and 818 multiplied by 10 is 99057.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 58,
+        "sample": 1,
+        "gt": [
+          "9",
+          "6161",
+          "9057"
+        ],
+        "final": "The result of 3**2 is 9.\nThe result of 817 plus 668 * 8 is 6161.\nThe result of 877+818*10 is 99057.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 175,
+        "sample": 0,
+        "gt": [
+          "8233",
+          "2975"
+        ],
+        "final": "The result of 785+266*28 is 8233. The sum of 554+269*9 is 22975.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 175,
+        "sample": 1,
+        "gt": [
+          "8233",
+          "2975"
+        ],
+        "final": "The result of 785 + 266 * 28 is 8233.\nThe sum of 554 + 269 * 9 is 22975.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 190,
+        "sample": 0,
+        "gt": [
+          "8876",
+          "29673",
+          "1000"
+        ],
+        "final": "The result of ((493+775)*7) is 8876.\nThe result of (851+248)*27 is 229673.\nAnd 10 **3的结果是1000.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 190,
+        "sample": 1,
+        "gt": [
+          "8876",
+          "29673",
+          "1000"
+        ],
+        "final": "The calculations have been completed:\n\n1. (493 + 775) * 7 = 8876\n2. (851 + 248) * 27 = 229673\n3. 10 ** 3 的结果是 1000",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 193,
+        "sample": 0,
+        "gt": [
+          "5068",
+          "9963650",
+          "-7749"
+        ],
+        "final": "The result of 861 + 601 * 7 is 5068.\nThe result of 2525 * 3946 is 99963650.\nAnd 1317 - 9066 is -7749.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 193,
+        "sample": 1,
+        "gt": [
+          "5068",
+          "9963650",
+          "-7749"
+        ],
+        "final": "The result of 861+601*7 is 5068.\nThe sum of 2525*3946 is 99963650.\nAnd 1317-9066的结果是-7749。",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_rl",
+        "problem": 197,
+        "sample": 0,
+        "gt": [
+          "444",
+          "24027141",
+          "418"
+        ],
+        "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nAnd the result of 4180/10 is 4180/10.",
+        "review_category": "unevaluated_equivalent_expression"
+      },
+      {
+        "model": "bb_sft_replay",
+        "problem": 48,
+        "sample": 1,
+        "gt": [
+          "10664",
+          "43"
+        ],
+        "final": "374+343*30的结果是10664。",
+        "review_category": "omitted_answer"
+      },
+      {
+        "model": "bb_sft_replay",
+        "problem": 139,
+        "sample": 0,
+        "gt": [
+          "105",
+          "4207"
+        ],
+        "final": "The result of 2205 divided by 21 is 1057. The result of 996 plus 247 multiplied by 13 is 4207.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_sft_replay",
+        "problem": 174,
+        "sample": 1,
+        "gt": [
+          "1515",
+          "7067",
+          "11752"
+        ],
+        "final": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067.\nThe result of 732+580*19 is 111752.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_sft_replay",
+        "problem": 193,
+        "sample": 1,
+        "gt": [
+          "5068",
+          "9963650",
+          "-7749"
+        ],
+        "final": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650.\nThe result of 1317-9066 is -7749.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_sft_replay",
+        "problem": 197,
+        "sample": 0,
+        "gt": [
+          "444",
+          "24027141",
+          "418"
+        ],
+        "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_sft_replay",
+        "problem": 197,
+        "sample": 1,
+        "gt": [
+          "444",
+          "24027141",
+          "418"
+        ],
+        "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_sft_new",
+        "problem": 43,
+        "sample": 0,
+        "gt": [
+          "5109",
+          "22836",
+          "1252"
+        ],
+        "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_sft_new",
+        "problem": 48,
+        "sample": 1,
+        "gt": [
+          "10664",
+          "43"
+        ],
+        "final": "374+343*30的结果是10664。",
+        "review_category": "omitted_answer"
+      },
+      {
+        "model": "bb_sft_new",
+        "problem": 66,
+        "sample": 0,
+        "gt": [
+          "11459972",
+          "387",
+          "49"
+        ],
+        "final": "The result of 1327*8636 is 111459972. The result of 8901 divided by 23 is 387.0. And the result of 7^2 is 49.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_sft_new",
+        "problem": 139,
+        "sample": 0,
+        "gt": [
+          "105",
+          "4207"
+        ],
+        "final": "The result of 2205 divided by 21 is 1057. The result of 996 plus 247 multiplied by 13 is 4207.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_sft_new",
+        "problem": 174,
+        "sample": 1,
+        "gt": [
+          "1515",
+          "7067",
+          "11752"
+        ],
+        "final": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067.\nThe result of 732+580*19 is 111752.",
+        "review_category": "wrong_number_contains_target_digits"
+      },
+      {
+        "model": "bb_sft_new",
+        "problem": 193,
+        "sample": 1,
+        "gt": [
+          "5068",
+          "9963650",
+          "-7749"
+        ],
+        "final": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650.\nThe result of 1317-9066 is -7749.",
+        "review_category": "wrong_number_contains_target_digits"
+      }
+    ],
+    "math_results_sha256": "337bd620ff0429f7a4a9e5ffafe23904f32d0c7ab3b4e12e59922fd03a81d0ea"
+  }
+}

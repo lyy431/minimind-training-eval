@@ -1,0 +1,20 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 36.18it/s]
+past_key_values should not be None in from_legacy_cache()
+30 held-out prompts x 3 samples, thinking on, temperature 0.8, max 512 tokens
+
+                            full_sft       bb_dist         bb_rl
+total reward                  -1.506        -1.576        -1.554
+  reward-model score          -1.487        -1.516        -1.525
+  length term                  0.344         0.300         0.311
+  think-length term           -0.472        -0.461        -0.450
+  </think> term                0.244         0.239         0.242
+  repetition penalty           0.136         0.137         0.131
+answer chars (mean)            360.4         361.8         363.5
+think empty                       75            73            71
+think 20-300                       1             1             2
+
+bb_dist - full_sft [total]: -0.069 +/- 0.080 (1 SE), better on 14/30 prompts
+bb_dist - full_sft [rm   ]: -0.029 +/- 0.072 (1 SE), better on 18/30 prompts
+bb_rl - full_sft [total]: -0.047 +/- 0.095 (1 SE), better on 13/30 prompts
+bb_rl - full_sft [rm   ]: -0.039 +/- 0.086 (1 SE), better on 13/30 prompts

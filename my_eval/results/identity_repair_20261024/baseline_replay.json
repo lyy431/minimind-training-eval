@@ -1,0 +1,94 @@
+{
+  "bb_rl": {
+    "weight_sha256_unchanged": "ba9ef9714dfb31899c1bddad77e94c1f86b650b7b1cd76eb048f4dd4887ae7ce",
+    "math": [
+      {
+        "problem": 0,
+        "sample": 0,
+        "turns_equal": true,
+        "score_equal": true
+      },
+      {
+        "problem": 0,
+        "sample": 1,
+        "turns_equal": true,
+        "score_equal": true
+      },
+      {
+        "problem": 99,
+        "sample": 0,
+        "turns_equal": true,
+        "score_equal": true
+      },
+      {
+        "problem": 99,
+        "sample": 1,
+        "turns_equal": true,
+        "score_equal": true
+      },
+      {
+        "problem": 199,
+        "sample": 0,
+        "turns_equal": true,
+        "score_equal": true
+      },
+      {
+        "problem": 199,
+        "sample": 1,
+        "turns_equal": true,
+        "score_equal": true
+      }
+    ],
+    "chat_responses_equal": [
+      true,
+      true,
+      true
+    ]
+  },
+  "bb_rl_id": {
+    "weight_sha256_unchanged": "2593af972b11e0abdeecf6b17ef1fe46b8791539bf985225944e029592b73c8a",
+    "math": [
+      {
+        "problem": 0,
+        "sample": 0,
+        "turns_equal": true,
+        "score_equal": true
+      },
+      {
+        "problem": 0,
+        "sample": 1,
+        "turns_equal": true,
+        "score_equal": true
+      },
+      {
+        "problem": 99,
+        "sample": 0,
+        "turns_equal": true,
+        "score_equal": true
+      },
+      {
+        "problem": 99,
+        "sample": 1,
+        "turns_equal": true,
+        "score_equal": true
+      },
+      {
+        "problem": 199,
+        "sample": 0,
+        "turns_equal": true,
+        "score_equal": true
+      },
+      {
+        "problem": 199,
+        "sample": 1,
+        "turns_equal": true,
+        "score_equal": true
+      }
+    ],
+    "chat_responses_equal": [
+      true,
+      true,
+      true
+    ]
+  }
+}

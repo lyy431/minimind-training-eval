@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "seconds": 9.056039999995846,
+  "peak_allocated_gib": 3.1830105781555176,
+  "input_history_unchanged": true,
+  "first_candidate_matches_independent_generation": true,
+  "generation_model_restored_to_gpu": true,
+  "reward_model_offloaded_to_cpu": true,
+  "result": {
+    "candidates": [
+      {
+        "seed": 123456,
+        "turns": [
+          "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13 * 17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"28 + 46\"}}\n</tool_call>",
+          "13 * 17 的结果是 221。\n28 + 46 的结果是 74。"
+        ],
+        "final": "13 * 17 的结果是 221。\n28 + 46 的结果是 74。",
+        "eligible": true,
+        "failure": null,
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13 * 17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"28 + 46\"}}\n</tool_call>"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": 221}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": 74}"
+          },
+          {
+            "role": "assistant",
+            "content": "13 * 17 的结果是 221。\n28 + 46 的结果是 74。"
+          }
+        ],
+        "events": [
+          {
+            "role": "assistant",
+            "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13 * 17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"28 + 46\"}}\n</tool_call>"
+          },
+          {
+            "role": "tool",
+            "name": "calculate_math",
+            "content": "{\"result\": 221}"
+          },
+          {
+            "role": "tool",
+            "name": "calculate_math",
+            "content": "{\"result\": 74}"
+          },
+          {
+            "role": "assistant",
+            "content": "13 * 17 的结果是 221。\n28 + 46 的结果是 74。"
+          }
+        ],
+        "generated_tokens": 94,
+        "generation_seconds": 1.8024869000073522,
+        "rm": 1.0947265625
+      },
+      {
+        "seed": 123457,
+        "turns": [
+          "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"28 + 46\"}}\n</tool_call>",
+          "计算结果如下：\n\n1. \\(13 \\times 17 = 221\\)\n2. \\(28 + 46 = 74\\)"
+        ],
+        "final": "计算结果如下：\n\n1. \\(13 \\times 17 = 221\\)\n2. \\(28 + 46 = 74\\)",
+        "eligible": true,
+        "failure": null,
+        "messages": [
+          {
+            "role": "assistant",
+            "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"28 + 46\"}}\n</tool_call>"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": 221}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": 74}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果如下：\n\n1. \\(13 \\times 17 = 221\\)\n2. \\(28 + 46 = 74\\)"
+          }
+        ],
+        "events": [
+          {
+            "role": "assistant",
+            "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"28 + 46\"}}\n</tool_call>"
+          },
+          {
+            "role": "tool",
+            "name": "calculate_math",
+            "content": "{\"result\": 221}"
+          },
+          {
+            "role": "tool",
+            "name": "calculate_math",
+            "content": "{\"result\": 74}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果如下：\n\n1. \\(13 \\times 17 = 221\\)\n2. \\(28 + 46 = 74\\)"
+          }
+        ],
+        "generated_tokens": 103,
+        "generation_seconds": 1.4963234000024386,
+        "rm": 1.0107421875
+      }
+    ],
+    "selected": 0,
+    "score_seconds": 5.597580400004517,
+    "fallback": false
+  }
+}

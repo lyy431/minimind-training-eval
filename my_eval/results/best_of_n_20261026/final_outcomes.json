@@ -1,0 +1,6340 @@
+{
+  "math": [
+    {
+      "id": "math_0",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.4913054999924498,
+      "four_seconds": 12.60174779999943
+    },
+    {
+      "id": "math_1",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.6272953000006964,
+      "four_seconds": 7.719350999992457
+    },
+    {
+      "id": "math_2",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.2746191000042018,
+      "four_seconds": 10.871658799995203
+    },
+    {
+      "id": "math_3",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.3259677999885753,
+      "four_seconds": 9.76367929999833
+    },
+    {
+      "id": "math_4",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.1705191999935778,
+      "four_seconds": 6.490030299988575
+    },
+    {
+      "id": "math_5",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.8996861000050558,
+      "four_seconds": 8.991563600007794
+    },
+    {
+      "id": "math_6",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.012454900002922,
+      "four_seconds": 10.03335509999306
+    },
+    {
+      "id": "math_7",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 0,
+        "eligible_first": 100
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 2.0979016999917803,
+      "four_seconds": 9.871130300001823
+    },
+    {
+      "id": "math_8",
+      "expression_count": 2,
+      "correct": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.2533755999902496,
+      "four_seconds": 6.628560400000424
+    },
+    {
+      "id": "math_9",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 2.1464329000009457,
+      "four_seconds": 8.003420399996685
+    },
+    {
+      "id": "math_10",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5267089999979362,
+      "four_seconds": 3.736498300015228
+    },
+    {
+      "id": "math_11",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 2.0241445999999996,
+      "four_seconds": 9.325590699983877
+    },
+    {
+      "id": "math_12",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.5676143999880878,
+      "four_seconds": 10.146087499990244
+    },
+    {
+      "id": "math_13",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.3880329999956302,
+      "four_seconds": 7.801596299963421
+    },
+    {
+      "id": "math_14",
+      "expression_count": 2,
+      "correct": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 0,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.399860899997293,
+      "four_seconds": 7.093766500009224
+    },
+    {
+      "id": "math_16",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.5841777000023285,
+      "four_seconds": 9.902425699983723
+    },
+    {
+      "id": "math_17",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.3962697999959346,
+      "four_seconds": 7.809217499991064
+    },
+    {
+      "id": "math_18",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.5813155000068946,
+      "four_seconds": 9.215484000029392
+    },
+    {
+      "id": "math_19",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.0357997999963118,
+      "four_seconds": 6.129242699986207
+    },
+    {
+      "id": "math_20",
+      "expression_count": 2,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.1232872000109637,
+      "four_seconds": 7.706580500016571
+    },
+    {
+      "id": "math_21",
+      "expression_count": 2,
+      "correct": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.1399968000041554,
+      "four_seconds": 8.108705100006773
+    },
+    {
+      "id": "math_22",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.5131779999937862,
+      "four_seconds": 8.89515539999411
+    },
+    {
+      "id": "math_23",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.2391690000076778,
+      "four_seconds": 5.362209700004314
+    },
+    {
+      "id": "math_24",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 2.2404534999950556,
+      "four_seconds": 10.758193499990739
+    },
+    {
+      "id": "math_25",
+      "expression_count": 2,
+      "correct": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.386901600009878,
+      "four_seconds": 7.209464200001094
+    },
+    {
+      "id": "math_26",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.8083440000045812,
+      "four_seconds": 8.134190999990096
+    },
+    {
+      "id": "math_27",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 2.2335521999921184,
+      "four_seconds": 7.889902299983078
+    },
+    {
+      "id": "math_28",
+      "expression_count": 2,
+      "correct": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.8790697999938857,
+      "four_seconds": 5.188750500004971
+    },
+    {
+      "id": "math_29",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.0483192999963649,
+      "four_seconds": 7.43452980001166
+    },
+    {
+      "id": "math_30",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.6780105999932857,
+      "four_seconds": 8.606221699985326
+    },
+    {
+      "id": "math_31",
+      "expression_count": 2,
+      "correct": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.7610992999980226,
+      "four_seconds": 6.89442810001492
+    },
+    {
+      "id": "math_32",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.7643455999932485,
+      "four_seconds": 10.493904399991152
+    },
+    {
+      "id": "math_33",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.9220301000023028,
+      "four_seconds": 8.503312099986942
+    },
+    {
+      "id": "math_34",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.6204126000084216,
+      "four_seconds": 4.755205200010096
+    },
+    {
+      "id": "math_35",
+      "expression_count": 1,
+      "correct": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 0.5982693999976618,
+      "four_seconds": 4.785134100005962
+    },
+    {
+      "id": "math_36",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.699833499995293,
+      "four_seconds": 8.708309200010262
+    },
+    {
+      "id": "math_37",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.4882609000051161,
+      "four_seconds": 3.5951849999837577
+    },
+    {
+      "id": "math_38",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 1
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 6.014147199995932,
+      "four_seconds": 12.746761000002152
+    },
+    {
+      "id": "math_39",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.6412801999977091,
+      "four_seconds": 4.422647299987148
+    },
+    {
+      "id": "math_40",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.4748264999943785,
+      "four_seconds": 9.568647599982796
+    },
+    {
+      "id": "math_41",
+      "expression_count": 2,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.1078091000090353,
+      "four_seconds": 6.222377600017353
+    },
+    {
+      "id": "math_42",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.7432229999976698,
+      "four_seconds": 8.336014900007285
+    },
+    {
+      "id": "math_43",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.7117158000037307,
+      "four_seconds": 8.801662700003362
+    },
+    {
+      "id": "math_44",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.9869209000025876,
+      "four_seconds": 4.57089950000227
+    },
+    {
+      "id": "math_45",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.49846299999626353,
+      "four_seconds": 3.6191651999979513
+    },
+    {
+      "id": "math_46",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.5162191999988863,
+      "four_seconds": 8.068261500011431
+    },
+    {
+      "id": "math_47",
+      "expression_count": 2,
+      "correct": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 0,
+        "eligible_first": 100
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.6358080000063637,
+      "four_seconds": 6.785764600004768
+    },
+    {
+      "id": "math_48",
+      "expression_count": 2,
+      "correct": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.401329500004067,
+      "four_seconds": 6.172695400004159
+    },
+    {
+      "id": "math_49",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.518956399988383,
+      "four_seconds": 3.918138499982888
+    },
+    {
+      "id": "math_50",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.0672681000141893,
+      "four_seconds": 4.488339500006987
+    },
+    {
+      "id": "math_51",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.6645259999932023,
+      "four_seconds": 9.18271619999723
+    },
+    {
+      "id": "math_52",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.3514414000092074,
+      "four_seconds": 10.734127700023237
+    },
+    {
+      "id": "math_53",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.4217613999935566,
+      "four_seconds": 6.554007500002626
+    },
+    {
+      "id": "math_54",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.9198018000024604,
+      "four_seconds": 8.810653400010779
+    },
+    {
+      "id": "math_55",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 8.155104699995718,
+      "four_seconds": 32.72771759999159
+    },
+    {
+      "id": "math_56",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 2.247506900006556,
+      "four_seconds": 11.20297309999296
+    },
+    {
+      "id": "math_57",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5790190999978222,
+      "four_seconds": 3.7482788000052096
+    },
+    {
+      "id": "math_58",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.8338590999919688,
+      "four_seconds": 8.92537609997089
+    },
+    {
+      "id": "math_59",
+      "expression_count": 1,
+      "correct": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.6056277000025148,
+      "four_seconds": 3.9154163999774028
+    },
+    {
+      "id": "math_60",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 3
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 7.021046599998954,
+      "four_seconds": 24.95411759999115
+    },
+    {
+      "id": "math_61",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.1864904999965802,
+      "four_seconds": 6.120643900023424
+    },
+    {
+      "id": "math_62",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.7931700000044657,
+      "four_seconds": 8.139934599996195
+    },
+    {
+      "id": "math_63",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.628586599996197,
+      "four_seconds": 3.9963986000220757
+    },
+    {
+      "id": "math_64",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.4162168999901041,
+      "four_seconds": 7.165043399989372
+    },
+    {
+      "id": "math_65",
+      "expression_count": 2,
+      "correct": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.1746266999980435,
+      "four_seconds": 6.510920200002147
+    },
+    {
+      "id": "math_66",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.7735809000005247,
+      "four_seconds": 8.898164000012912
+    },
+    {
+      "id": "math_67",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.6195700000098441,
+      "four_seconds": 3.8597709000023315
+    },
+    {
+      "id": "math_68",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.7498612999916077,
+      "four_seconds": 4.339676399991731
+    },
+    {
+      "id": "math_69",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.9319816999923205,
+      "four_seconds": 9.667057400016347
+    },
+    {
+      "id": "math_70",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.0277621999994153,
+      "four_seconds": 10.448952100006863
+    },
+    {
+      "id": "math_71",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 2.217057299989392,
+      "four_seconds": 8.881880999993882
+    },
+    {
+      "id": "math_72",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.8883169000037014,
+      "four_seconds": 9.444880100010778
+    },
+    {
+      "id": "math_73",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 0,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.421689900002093,
+      "four_seconds": 7.059738999989349
+    },
+    {
+      "id": "math_74",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5083221999957459,
+      "four_seconds": 3.54662969999481
+    },
+    {
+      "id": "math_75",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.6384543000021949,
+      "four_seconds": 4.066843799999333
+    },
+    {
+      "id": "math_76",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.3426918999903137,
+      "four_seconds": 6.479685199999949
+    },
+    {
+      "id": "math_77",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.8618655000027502,
+      "four_seconds": 9.0214844999864
+    },
+    {
+      "id": "math_78",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.993187100000796,
+      "four_seconds": 9.462576699996134
+    },
+    {
+      "id": "math_79",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.7368924999900628,
+      "four_seconds": 8.600665899997693
+    },
+    {
+      "id": "math_80",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.8426003000058699,
+      "four_seconds": 4.614697400000296
+    },
+    {
+      "id": "math_81",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.5455335000006016,
+      "four_seconds": 7.956923200006713
+    },
+    {
+      "id": "math_82",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.4688295999949332,
+      "four_seconds": 7.292422899990925
+    },
+    {
+      "id": "math_83",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.546940000000177,
+      "four_seconds": 8.600894000017433
+    },
+    {
+      "id": "math_84",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.9485200000053737,
+      "four_seconds": 10.112952499999665
+    },
+    {
+      "id": "math_85",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.484037800008082,
+      "four_seconds": 12.34310050001659
+    },
+    {
+      "id": "math_86",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.313613299993449,
+      "four_seconds": 11.115333699970506
+    },
+    {
+      "id": "math_87",
+      "expression_count": 1,
+      "correct": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.8028923999954714,
+      "four_seconds": 4.807791200000793
+    },
+    {
+      "id": "math_88",
+      "expression_count": 2,
+      "correct": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.7664666999917245,
+      "four_seconds": 8.593351500021527
+    },
+    {
+      "id": "math_89",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.0518834999966202,
+      "four_seconds": 6.079230400006054
+    },
+    {
+      "id": "math_90",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.0091726999962702,
+      "four_seconds": 9.16580439999234
+    },
+    {
+      "id": "math_91",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.6832955999998376,
+      "four_seconds": 3.6850151999969967
+    },
+    {
+      "id": "math_92",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.1083297000004677,
+      "four_seconds": 9.448800499987556
+    },
+    {
+      "id": "math_93",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.8031900000059977,
+      "four_seconds": 8.289500900005805
+    },
+    {
+      "id": "math_94",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 2.319023499992909,
+      "four_seconds": 9.689009800000349
+    },
+    {
+      "id": "math_95",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.977945600010571,
+      "four_seconds": 9.009111900013522
+    },
+    {
+      "id": "math_96",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.4864231999963522,
+      "four_seconds": 7.759245700013707
+    },
+    {
+      "id": "math_97",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.5277101999963634,
+      "four_seconds": 8.75039889998152
+    },
+    {
+      "id": "math_98",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.049355099996319,
+      "four_seconds": 9.15105179999955
+    },
+    {
+      "id": "math_99",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.4988305000006221,
+      "four_seconds": 7.199438900017412
+    },
+    {
+      "id": "math_100",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5491555000044173,
+      "four_seconds": 3.619946799997706
+    },
+    {
+      "id": "math_101",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.6122267000027932,
+      "four_seconds": 3.859860900003696
+    },
+    {
+      "id": "math_102",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.932997299998533,
+      "four_seconds": 8.703796799993142
+    },
+    {
+      "id": "math_103",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 0,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 2.109852299996419,
+      "four_seconds": 9.876449599978514
+    },
+    {
+      "id": "math_104",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5856765999924392,
+      "four_seconds": 3.8235218999761855
+    },
+    {
+      "id": "math_105",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.9205075999925612,
+      "four_seconds": 7.853778999997303
+    },
+    {
+      "id": "math_106",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.0464869999996154,
+      "four_seconds": 5.992824600005406
+    },
+    {
+      "id": "math_107",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.4889661999914097,
+      "four_seconds": 7.732925499993144
+    },
+    {
+      "id": "math_108",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.41580589998920914,
+      "four_seconds": 3.5438790999905905
+    },
+    {
+      "id": "math_109",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 2.3466267000039807,
+      "four_seconds": 9.76378370000748
+    },
+    {
+      "id": "math_110",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.774994899999001,
+      "four_seconds": 8.07693979999749
+    },
+    {
+      "id": "math_111",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.6958541999920271,
+      "four_seconds": 11.275551099985023
+    },
+    {
+      "id": "math_112",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.41702119998808485,
+      "four_seconds": 3.0427119999803836
+    },
+    {
+      "id": "math_113",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.1013481999980286,
+      "four_seconds": 5.87971860000107
+    },
+    {
+      "id": "math_114",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.6723579999961657,
+      "four_seconds": 8.29575359998853
+    },
+    {
+      "id": "math_115",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.2415424999926472,
+      "four_seconds": 6.779118399994331
+    },
+    {
+      "id": "math_116",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.30440739999176,
+      "four_seconds": 8.991653899982339
+    },
+    {
+      "id": "math_117",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.945235399994999,
+      "four_seconds": 9.076351199997589
+    },
+    {
+      "id": "math_118",
+      "expression_count": 1,
+      "correct": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.7381002000038279,
+      "four_seconds": 4.158454900010838
+    },
+    {
+      "id": "math_119",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5081591999914963,
+      "four_seconds": 3.4481664999912027
+    },
+    {
+      "id": "math_120",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.5372451000002911,
+      "four_seconds": 7.6594297000119695
+    },
+    {
+      "id": "math_121",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.5533553999994183,
+      "four_seconds": 8.22042519999377
+    },
+    {
+      "id": "math_122",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5086883000039961,
+      "four_seconds": 4.177659199995105
+    },
+    {
+      "id": "math_123",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.6388261999964016,
+      "four_seconds": 3.614046899980167
+    },
+    {
+      "id": "math_124",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.4880002999998396,
+      "four_seconds": 4.567675199985388
+    },
+    {
+      "id": "math_126",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.6281073999998625,
+      "four_seconds": 9.477461199989193
+    },
+    {
+      "id": "math_127",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.6286079999990761,
+      "four_seconds": 9.20156779998797
+    },
+    {
+      "id": "math_128",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.5527822999865748,
+      "four_seconds": 7.507770099968184
+    },
+    {
+      "id": "math_129",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.6017176000023028,
+      "four_seconds": 3.925873700005468
+    },
+    {
+      "id": "math_130",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.1506132999929832,
+      "four_seconds": 6.833717800007435
+    },
+    {
+      "id": "math_131",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.3985548999917228,
+      "four_seconds": 8.8520510999806
+    },
+    {
+      "id": "math_132",
+      "expression_count": 1,
+      "correct": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.49396349999005906,
+      "four_seconds": 3.9135259999893606
+    },
+    {
+      "id": "math_133",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.45083940000040457,
+      "four_seconds": 3.159200399997644
+    },
+    {
+      "id": "math_134",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.4388582999963546,
+      "four_seconds": 3.617346599989105
+    },
+    {
+      "id": "math_135",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.355444600005285,
+      "four_seconds": 11.446751300012693
+    },
+    {
+      "id": "math_136",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.7395131000084803,
+      "four_seconds": 4.310687300036079
+    },
+    {
+      "id": "math_137",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5098680999944918,
+      "four_seconds": 3.535927000019001
+    },
+    {
+      "id": "math_138",
+      "expression_count": 1,
+      "correct": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.513140499999281,
+      "four_seconds": 4.819810599990888
+    },
+    {
+      "id": "math_139",
+      "expression_count": 2,
+      "correct": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.0793616000009933,
+      "four_seconds": 5.921862200004398
+    },
+    {
+      "id": "math_140",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.7462472000042908,
+      "four_seconds": 8.635034100007033
+    },
+    {
+      "id": "math_141",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.0919594000006327,
+      "four_seconds": 8.525941100015189
+    },
+    {
+      "id": "math_142",
+      "expression_count": 1,
+      "correct": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.44477079999342095,
+      "four_seconds": 4.0095400999853155
+    },
+    {
+      "id": "math_143",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 2.106930399997509,
+      "four_seconds": 11.833458499997505
+    },
+    {
+      "id": "math_144",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.2141440999985207,
+      "four_seconds": 6.143327599973418
+    },
+    {
+      "id": "math_145",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.47077999998873565,
+      "four_seconds": 3.4689761999907205
+    },
+    {
+      "id": "math_146",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.4622762999933911,
+      "four_seconds": 7.413396599993575
+    },
+    {
+      "id": "math_147",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5439692000072682,
+      "four_seconds": 3.521845099996426
+    },
+    {
+      "id": "math_148",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.5877808999939589,
+      "four_seconds": 7.718382999999449
+    },
+    {
+      "id": "math_149",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.8209088000003248,
+      "four_seconds": 8.70484709997254
+    },
+    {
+      "id": "math_150",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.5201885999995284,
+      "four_seconds": 7.3118097000115085
+    },
+    {
+      "id": "math_151",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.2875645999884,
+      "four_seconds": 6.358156299989787
+    },
+    {
+      "id": "math_152",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.7626268999883905,
+      "four_seconds": 12.481668399981572
+    },
+    {
+      "id": "math_153",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.8547030000045197,
+      "four_seconds": 9.017184099997394
+    },
+    {
+      "id": "math_154",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.8029240999894682,
+      "four_seconds": 8.182178399991244
+    },
+    {
+      "id": "math_155",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.4590120000066236,
+      "four_seconds": 7.102378600029624
+    },
+    {
+      "id": "math_156",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.0246871000126703,
+      "four_seconds": 5.614498800045112
+    },
+    {
+      "id": "math_157",
+      "expression_count": 1,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 0.5939549000031548,
+      "four_seconds": 3.9046180000295863
+    },
+    {
+      "id": "math_158",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.0657433000014862,
+      "four_seconds": 5.801413399982266
+    },
+    {
+      "id": "math_159",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.6166179000138072,
+      "four_seconds": 8.65475270000752
+    },
+    {
+      "id": "math_160",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.261332299996866,
+      "four_seconds": 6.486519400015823
+    },
+    {
+      "id": "math_161",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5367532999953255,
+      "four_seconds": 3.580357999991975
+    },
+    {
+      "id": "math_162",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.0083524000074249,
+      "four_seconds": 5.342753200020525
+    },
+    {
+      "id": "math_163",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.6018418000021484,
+      "four_seconds": 7.687261299986858
+    },
+    {
+      "id": "math_164",
+      "expression_count": 2,
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.8691088000050513,
+      "four_seconds": 5.13147820001177
+    },
+    {
+      "id": "math_165",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.6916934000037145,
+      "four_seconds": 8.295421800008626
+    },
+    {
+      "id": "math_166",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.095501100004185,
+      "four_seconds": 5.686265600001207
+    },
+    {
+      "id": "math_167",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.5973450999881607,
+      "four_seconds": 7.49735319998581
+    },
+    {
+      "id": "math_168",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.641912200007937,
+      "four_seconds": 7.937362299999222
+    },
+    {
+      "id": "math_169",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.4480741000006674,
+      "four_seconds": 7.238592099980451
+    },
+    {
+      "id": "math_170",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.474456600000849,
+      "four_seconds": 3.6526270999893313
+    },
+    {
+      "id": "math_171",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.5875119999982417,
+      "four_seconds": 8.28778709998005
+    },
+    {
+      "id": "math_172",
+      "expression_count": 3,
+      "correct": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.5238097999972524,
+      "four_seconds": 7.398653700001887
+    },
+    {
+      "id": "math_173",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.4482649000128731,
+      "four_seconds": 7.102670600026613
+    },
+    {
+      "id": "math_174",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.7700294999958714,
+      "four_seconds": 8.281299299997045
+    },
+    {
+      "id": "math_175",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.124188999994658,
+      "four_seconds": 5.9218113999813795
+    },
+    {
+      "id": "math_176",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.8917613000085112,
+      "four_seconds": 5.392887699985295
+    },
+    {
+      "id": "math_177",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 0,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.0440416999917943,
+      "four_seconds": 5.5431674999854295
+    },
+    {
+      "id": "math_178",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.64664520000224,
+      "four_seconds": 3.9472578999993857
+    },
+    {
+      "id": "math_179",
+      "expression_count": 1,
+      "correct": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.4767143000062788,
+      "four_seconds": 3.3229263000248466
+    },
+    {
+      "id": "math_180",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.0718109000008553,
+      "four_seconds": 5.996098199990229
+    },
+    {
+      "id": "math_182",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.6449170999985654,
+      "four_seconds": 4.057716699986486
+    },
+    {
+      "id": "math_183",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.5054738000035286,
+      "four_seconds": 3.4508526000136044
+    },
+    {
+      "id": "math_184",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.7509955999994418,
+      "four_seconds": 8.50428720000491
+    },
+    {
+      "id": "math_185",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.46664879999298137,
+      "four_seconds": 3.247434399978374
+    },
+    {
+      "id": "math_186",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.4988824000029126,
+      "four_seconds": 3.375018499995349
+    },
+    {
+      "id": "math_187",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.2816330999921774,
+      "four_seconds": 6.208638199968846
+    },
+    {
+      "id": "math_188",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.5689197000028798,
+      "four_seconds": 7.520428200004972
+    },
+    {
+      "id": "math_189",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 1.0587979999982053,
+      "four_seconds": 5.931732500015642
+    },
+    {
+      "id": "math_190",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 25.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.5464227000047686,
+      "four_seconds": 7.737875899998471
+    },
+    {
+      "id": "math_191",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.4721977000008337,
+      "four_seconds": 3.6087367000000086
+    },
+    {
+      "id": "math_192",
+      "expression_count": 3,
+      "correct": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 75.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.6497229000087827,
+      "four_seconds": 8.18876970000565
+    },
+    {
+      "id": "math_193",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.4433390999911353,
+      "four_seconds": 7.356106299994281
+    },
+    {
+      "id": "math_194",
+      "expression_count": 2,
+      "correct": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": true,
+      "first_seconds": 0.9599957999889739,
+      "four_seconds": 5.710945599988918
+    },
+    {
+      "id": "math_195",
+      "expression_count": 2,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.145921500006807,
+      "four_seconds": 6.224075400008587
+    },
+    {
+      "id": "math_196",
+      "expression_count": 2,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 0.8837662000005366,
+      "four_seconds": 4.987117099997704
+    },
+    {
+      "id": "math_197",
+      "expression_count": 3,
+      "correct": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "random_mean": 0,
+      "oracle": 0,
+      "selection_miss": false,
+      "first_seconds": 1.665034800011199,
+      "four_seconds": 8.283108400020865
+    },
+    {
+      "id": "math_198",
+      "expression_count": 1,
+      "correct": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 100,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 100
+      },
+      "random_mean": 100,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 0.49145169999974314,
+      "four_seconds": 3.365194900005008
+    },
+    {
+      "id": "math_199",
+      "expression_count": 3,
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 100,
+        "4": 100,
+        "eligible_first": 0
+      },
+      "random_mean": 50.0,
+      "oracle": 100,
+      "selection_miss": false,
+      "first_seconds": 1.4858800000074552,
+      "four_seconds": 7.549988300015684
+    }
+  ],
+  "chat": [
+    {
+      "id": "chat_0",
+      "quality": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -2.962890625,
+        "2": -2.580078125,
+        "4": -2.580078125,
+        "eligible_first": -2.962890625
+      },
+      "chars": {
+        "1": 54,
+        "2": 508,
+        "4": 508,
+        "eligible_first": 54
+      },
+      "first_seconds": 0.44652090000454336,
+      "four_seconds": 3.94081329999608
+    },
+    {
+      "id": "chat_1",
+      "quality": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 1,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": 1.318359375,
+        "2": 1.318359375,
+        "4": 1.318359375,
+        "eligible_first": 1.318359375
+      },
+      "chars": {
+        "1": 525,
+        "2": 525,
+        "4": 525,
+        "eligible_first": 525
+      },
+      "first_seconds": 4.689389099992695,
+      "four_seconds": 22.88006690000475
+    },
+    {
+      "id": "chat_2",
+      "quality": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -2.9453125,
+        "2": -0.94775390625,
+        "4": -0.94775390625,
+        "eligible_first": -2.9453125
+      },
+      "chars": {
+        "1": 482,
+        "2": 629,
+        "4": 629,
+        "eligible_first": 482
+      },
+      "first_seconds": 7.6211288000049535,
+      "four_seconds": 29.220470799991745
+    },
+    {
+      "id": "chat_3",
+      "quality": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 1
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": null,
+        "2": -3.2109375,
+        "4": -2.83203125,
+        "eligible_first": -3.2109375
+      },
+      "chars": {
+        "1": 1497,
+        "2": 953,
+        "4": 573,
+        "eligible_first": 953
+      },
+      "first_seconds": 5.294331299999612,
+      "four_seconds": 13.058743500005221
+    },
+    {
+      "id": "chat_4",
+      "quality": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 1,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": -1.7255859375,
+        "2": -1.7255859375,
+        "4": -1.5302734375,
+        "eligible_first": -1.7255859375
+      },
+      "chars": {
+        "1": 171,
+        "2": 171,
+        "4": 96,
+        "eligible_first": 171
+      },
+      "first_seconds": 1.1221710000099847,
+      "four_seconds": 4.865042099991115
+    },
+    {
+      "id": "chat_5",
+      "quality": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 1
+      },
+      "scores": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": null,
+        "2": 0.1822509765625,
+        "4": 0.1822509765625,
+        "eligible_first": 0.1822509765625
+      },
+      "chars": {
+        "1": 577,
+        "2": 543,
+        "4": 543,
+        "eligible_first": 543
+      },
+      "first_seconds": 9.037174900004175,
+      "four_seconds": 18.29963019999559
+    },
+    {
+      "id": "chat_6",
+      "quality": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -2.015625,
+        "2": -1.6279296875,
+        "4": -1.1650390625,
+        "eligible_first": -2.015625
+      },
+      "chars": {
+        "1": 170,
+        "2": 98,
+        "4": 67,
+        "eligible_first": 170
+      },
+      "first_seconds": 1.5362716999952681,
+      "four_seconds": 5.260232800006634
+    },
+    {
+      "id": "chat_7",
+      "quality": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 1
+      },
+      "scores": {
+        "1": 1,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": null,
+        "2": -1.6689453125,
+        "4": -1.6689453125,
+        "eligible_first": -1.6689453125
+      },
+      "chars": {
+        "1": 653,
+        "2": 516,
+        "4": 516,
+        "eligible_first": 516
+      },
+      "first_seconds": 4.939868500005105,
+      "four_seconds": 19.208862800020142
+    },
+    {
+      "id": "chat_8",
+      "quality": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -2.2265625,
+        "2": -2.2265625,
+        "4": -2.2265625,
+        "eligible_first": -2.2265625
+      },
+      "chars": {
+        "1": 634,
+        "2": 634,
+        "4": 634,
+        "eligible_first": 634
+      },
+      "first_seconds": 1.7552713000040967,
+      "four_seconds": 8.796821100026136
+    },
+    {
+      "id": "chat_9",
+      "quality": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 1,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": -1.90625,
+        "2": -1.90625,
+        "4": -1.560546875,
+        "eligible_first": -1.90625
+      },
+      "chars": {
+        "1": 494,
+        "2": 494,
+        "4": 330,
+        "eligible_first": 494
+      },
+      "first_seconds": 6.500160499999765,
+      "four_seconds": 17.407243099994957
+    },
+    {
+      "id": "chat_10",
+      "quality": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 1,
+        "2": 2,
+        "4": 2,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": -1.640625,
+        "2": -1.4189453125,
+        "4": -1.05078125,
+        "eligible_first": -1.640625
+      },
+      "chars": {
+        "1": 65,
+        "2": 19,
+        "4": 19,
+        "eligible_first": 65
+      },
+      "first_seconds": 0.5154239999974379,
+      "four_seconds": 2.5829876999923727
+    },
+    {
+      "id": "chat_11",
+      "quality": [
+        2,
+        1,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 2,
+        "2": 2,
+        "4": 2,
+        "eligible_first": 2
+      },
+      "rm": {
+        "1": -1.4248046875,
+        "2": -1.4248046875,
+        "4": -1.4248046875,
+        "eligible_first": -1.4248046875
+      },
+      "chars": {
+        "1": 115,
+        "2": 115,
+        "4": 115,
+        "eligible_first": 115
+      },
+      "first_seconds": 0.7252392999944277,
+      "four_seconds": 3.9773928000213346
+    },
+    {
+      "id": "chat_12",
+      "quality": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -2.671875,
+        "2": -2.671875,
+        "4": -1.765625,
+        "eligible_first": -2.671875
+      },
+      "chars": {
+        "1": 73,
+        "2": 73,
+        "4": 155,
+        "eligible_first": 73
+      },
+      "first_seconds": 1.1108910000039032,
+      "four_seconds": 6.644903400010662
+    },
+    {
+      "id": "chat_13",
+      "quality": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 1,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": -1.82421875,
+        "2": -1.82421875,
+        "4": -1.4541015625,
+        "eligible_first": -1.82421875
+      },
+      "chars": {
+        "1": 443,
+        "2": 443,
+        "4": 301,
+        "eligible_first": 443
+      },
+      "first_seconds": 3.066867999994429,
+      "four_seconds": 15.552783099992666
+    },
+    {
+      "id": "chat_14",
+      "quality": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 1,
+        "2": 1,
+        "4": 0,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": -0.61376953125,
+        "2": -0.61376953125,
+        "4": 0.56494140625,
+        "eligible_first": -0.61376953125
+      },
+      "chars": {
+        "1": 118,
+        "2": 118,
+        "4": 123,
+        "eligible_first": 118
+      },
+      "first_seconds": 0.9841581999935443,
+      "four_seconds": 7.278696799985482
+    },
+    {
+      "id": "chat_15",
+      "quality": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 2,
+        "2": 2,
+        "4": 2,
+        "eligible_first": 2
+      },
+      "rm": {
+        "1": -0.8115234375,
+        "2": -0.8115234375,
+        "4": -0.8115234375,
+        "eligible_first": -0.8115234375
+      },
+      "chars": {
+        "1": 19,
+        "2": 19,
+        "4": 19,
+        "eligible_first": 19
+      },
+      "first_seconds": 0.14886639999167528,
+      "four_seconds": 2.2425681999884546
+    },
+    {
+      "id": "chat_16",
+      "quality": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 1,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -3.24609375,
+        "2": -3.05078125,
+        "4": -2.74609375,
+        "eligible_first": -3.24609375
+      },
+      "chars": {
+        "1": 620,
+        "2": 1013,
+        "4": 722,
+        "eligible_first": 620
+      },
+      "first_seconds": 2.110836099993321,
+      "four_seconds": 13.245641100002103
+    },
+    {
+      "id": "chat_17",
+      "quality": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 1,
+        "2": 1,
+        "4": 1,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": -1.849609375,
+        "2": -1.849609375,
+        "4": -0.52978515625,
+        "eligible_first": -1.849609375
+      },
+      "chars": {
+        "1": 176,
+        "2": 176,
+        "4": 781,
+        "eligible_first": 176
+      },
+      "first_seconds": 1.842427299998235,
+      "four_seconds": 13.27351600000111
+    },
+    {
+      "id": "chat_18",
+      "quality": [
+        0,
+        1,
+        0,
+        2
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 1,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -2.513671875,
+        "2": -2.154296875,
+        "4": -1.9140625,
+        "eligible_first": -2.513671875
+      },
+      "chars": {
+        "1": 32,
+        "2": 52,
+        "4": 31,
+        "eligible_first": 32
+      },
+      "first_seconds": 0.1939533999975538,
+      "four_seconds": 2.3587755999760702
+    },
+    {
+      "id": "chat_19",
+      "quality": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -1.505859375,
+        "2": -1.505859375,
+        "4": -1.505859375,
+        "eligible_first": -1.505859375
+      },
+      "chars": {
+        "1": 139,
+        "2": 139,
+        "4": 139,
+        "eligible_first": 139
+      },
+      "first_seconds": 0.7694428999966476,
+      "four_seconds": 4.572377999982564
+    },
+    {
+      "id": "chat_20",
+      "quality": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -1.7119140625,
+        "2": -1.7119140625,
+        "4": -1.7119140625,
+        "eligible_first": -1.7119140625
+      },
+      "chars": {
+        "1": 18,
+        "2": 18,
+        "4": 18,
+        "eligible_first": 18
+      },
+      "first_seconds": 0.13735230000747833,
+      "four_seconds": 1.8447994000161998
+    },
+    {
+      "id": "chat_21",
+      "quality": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 1,
+        "2": 0,
+        "4": 1,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": -2.94140625,
+        "2": -2.861328125,
+        "4": -2.52734375,
+        "eligible_first": -2.94140625
+      },
+      "chars": {
+        "1": 108,
+        "2": 604,
+        "4": 434,
+        "eligible_first": 108
+      },
+      "first_seconds": 0.7740403999923728,
+      "four_seconds": 14.111175799989724
+    },
+    {
+      "id": "chat_22",
+      "quality": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -1.625,
+        "2": -1.625,
+        "4": -1.625,
+        "eligible_first": -1.625
+      },
+      "chars": {
+        "1": 449,
+        "2": 449,
+        "4": 449,
+        "eligible_first": 449
+      },
+      "first_seconds": 3.6488857000076678,
+      "four_seconds": 18.01410300002317
+    },
+    {
+      "id": "chat_23",
+      "quality": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 2,
+        "eligible_first": 1
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": null,
+        "2": -2.9296875,
+        "4": -2.578125,
+        "eligible_first": -2.9296875
+      },
+      "chars": {
+        "1": 994,
+        "2": 833,
+        "4": 74,
+        "eligible_first": 833
+      },
+      "first_seconds": 4.962123100005556,
+      "four_seconds": 15.63505329999316
+    },
+    {
+      "id": "chat_24",
+      "quality": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -2.328125,
+        "2": -2.328125,
+        "4": -2.328125,
+        "eligible_first": -2.328125
+      },
+      "chars": {
+        "1": 712,
+        "2": 712,
+        "4": 712,
+        "eligible_first": 712
+      },
+      "first_seconds": 3.2218431999936,
+      "four_seconds": 19.384782299996004
+    },
+    {
+      "id": "chat_25",
+      "quality": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -3.287109375,
+        "2": -3.287109375,
+        "4": -2.79296875,
+        "eligible_first": -3.287109375
+      },
+      "chars": {
+        "1": 387,
+        "2": 387,
+        "4": 57,
+        "eligible_first": 387
+      },
+      "first_seconds": 1.514721899991855,
+      "four_seconds": 8.026487499999348
+    },
+    {
+      "id": "chat_26",
+      "quality": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": 0.84912109375,
+        "2": 0.84912109375,
+        "4": 0.84912109375,
+        "eligible_first": 0.84912109375
+      },
+      "chars": {
+        "1": 73,
+        "2": 73,
+        "4": 73,
+        "eligible_first": 73
+      },
+      "first_seconds": 1.0575945000018692,
+      "four_seconds": 6.094757400001981
+    },
+    {
+      "id": "chat_28",
+      "quality": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "selected": {
+        "1": 0,
+        "2": 1,
+        "4": 3,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 1,
+        "2": 2,
+        "4": 2,
+        "eligible_first": 1
+      },
+      "rm": {
+        "1": -2.390625,
+        "2": -2.32421875,
+        "4": -2.080078125,
+        "eligible_first": -2.390625
+      },
+      "chars": {
+        "1": 9,
+        "2": 21,
+        "4": 31,
+        "eligible_first": 9
+      },
+      "first_seconds": 0.09182110000983812,
+      "four_seconds": 2.6551903000217862
+    },
+    {
+      "id": "chat_29",
+      "quality": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "selected": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "eligible_first": 0
+      },
+      "rm": {
+        "1": -2.79296875,
+        "2": -2.79296875,
+        "4": -2.79296875,
+        "eligible_first": -2.79296875
+      },
+      "chars": {
+        "1": 96,
+        "2": 96,
+        "4": 96,
+        "eligible_first": 96
+      },
+      "first_seconds": 0.3617727999953786,
+      "four_seconds": 7.181057699985104
+    }
+  ]
+}

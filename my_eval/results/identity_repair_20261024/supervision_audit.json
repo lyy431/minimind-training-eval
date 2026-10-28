@@ -1,0 +1,13 @@
+{
+  "nonidentity": {
+    "rows": 1576,
+    "zero_supervised_tokens": 0,
+    "supervised_tokens": 471906
+  },
+  "identity": {
+    "rows": 540,
+    "zero_supervised_tokens": 0,
+    "supervised_tokens": 13212
+  },
+  "note": "One deterministic preprocessing pass (seed42), max_length768. Random augmentation differs across epochs."
+}

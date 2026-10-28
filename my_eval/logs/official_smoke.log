@@ -1,0 +1,4 @@
+Baseline math replay 0: True
+Baseline math replay 50: True
+Baseline math replay 150: True
+{"chat_checks": [{"prompt": 0, "identical": true}, {"prompt": 1, "identical": true}], "math_checks": [{"problem": 0, "identical": true}, {"problem": 50, "identical": true}, {"problem": 150, "identical": true}], "chat_seconds_for_2_prompts": 13.418013099995733, "math_seconds_for_3_problems": 9.011360500000592, "peak_gpu_allocated_gib": 0.41643428802490234, "reuse_historical": true}

@@ -1,0 +1,1113 @@
+{
+  "selected": "bb_rl_id_anchor4",
+  "models": {
+    "bb_rl": {
+      "identity_hits": 0,
+      "general_leaks": 0,
+      "loss": 2.4888107802819563,
+      "math_percent": 81.75,
+      "rm": -1.5253658718532985,
+      "total_reward": -1.5537229518431614,
+      "math_by_expression_count": {
+        "1": 98.18181818181819,
+        "2": 86.45833333333334,
+        "3": 70.10309278350515
+      }
+    },
+    "bb_rl_id": {
+      "identity_hits": 18,
+      "general_leaks": 3,
+      "loss": 2.6042554186203994,
+      "math_percent": 73.0,
+      "rm": -1.4258002387152777,
+      "total_reward": -1.3176662322525892,
+      "math_by_expression_count": {
+        "1": 85.45454545454545,
+        "2": 70.83333333333334,
+        "3": 67.0103092783505
+      }
+    },
+    "bb_rl_id_anchor4": {
+      "identity_hits": 20,
+      "general_leaks": 1,
+      "loss": 2.496442204190267,
+      "math_percent": 79.5,
+      "rm": -1.555854966905382,
+      "total_reward": -1.5675353237717378,
+      "math_by_expression_count": {
+        "1": 97.27272727272728,
+        "2": 86.45833333333334,
+        "3": 65.97938144329896
+      }
+    }
+  },
+  "selected_minus": {
+    "bb_rl": {
+      "loss": {
+        "difference": 0.007631423908310967,
+        "se": 0.0013101401929032806,
+        "better": 95,
+        "worse": 201,
+        "same": 0,
+        "n": 296
+      },
+      "math_percentage_points": {
+        "difference": -2.25,
+        "se": 1.1373898974821572,
+        "better": 5,
+        "worse": 13,
+        "same": 182,
+        "n": 200
+      },
+      "rm": {
+        "difference": -0.030489095052083352,
+        "se": 0.09145073072773408,
+        "better": 13,
+        "worse": 16,
+        "same": 1,
+        "n": 30
+      },
+      "total_reward": {
+        "difference": -0.013812371928576409,
+        "se": 0.1156256880990509,
+        "better": 14,
+        "worse": 15,
+        "same": 1,
+        "n": 30
+      },
+      "identity_percentage_points": {
+        "difference": 95.23809523809524,
+        "se": 4.761904761904763,
+        "better": 7,
+        "worse": 0,
+        "same": 0,
+        "n": 7
+      },
+      "general_leak_percentage_points": {
+        "difference": 5.0,
+        "se": 5.0,
+        "better": 0,
+        "worse": 1,
+        "same": 9,
+        "n": 10
+      }
+    },
+    "bb_rl_id": {
+      "loss": {
+        "difference": -0.10781321443013243,
+        "se": 0.009056056623285574,
+        "better": 278,
+        "worse": 18,
+        "same": 0,
+        "n": 296
+      },
+      "math_percentage_points": {
+        "difference": 6.5,
+        "se": 2.659721903322803,
+        "better": 41,
+        "worse": 24,
+        "same": 135,
+        "n": 200
+      },
+      "rm": {
+        "difference": -0.1300547281901042,
+        "se": 0.0766271708881403,
+        "better": 10,
+        "worse": 18,
+        "same": 2,
+        "n": 30
+      },
+      "total_reward": {
+        "difference": -0.24986909151914857,
+        "se": 0.07804023929657206,
+        "better": 6,
+        "worse": 22,
+        "same": 2,
+        "n": 30
+      },
+      "identity_percentage_points": {
+        "difference": 9.523809523809527,
+        "se": 6.147592613027647,
+        "better": 2,
+        "worse": 0,
+        "same": 5,
+        "n": 7
+      },
+      "general_leak_percentage_points": {
+        "difference": -10.0,
+        "se": 6.666666666666666,
+        "better": 2,
+        "worse": 0,
+        "same": 8,
+        "n": 10
+      }
+    }
+  },
+  "historical_reuse": "bb_rl and bb_rl_id math/chat reused; final identity and language rerun with the candidate",
+  "identity_metric": "case-insensitive Yuyang hit; paired per-question seeds; historical identity counts not directly compared",
+  "general_leak_metric": "case-insensitive Yuyang or MiniMind string in general responses; does not detect all generic self-introductions",
+  "acceptance": {
+    "identity_at_least_15_of_21": true,
+    "general_leaks_at_most_2_of_20": true,
+    "math_within_5_points_of_base": true,
+    "loss_increase_at_most_004": true
+  },
+  "accepted": true,
+  "selected_training": {
+    "name": "lora_yuyang_anchor4",
+    "base": "bb_rl",
+    "epochs": 4,
+    "learning_rate": 0.0001,
+    "batch_size": 8,
+    "max_seq_len": 768,
+    "num_workers": 2,
+    "dataset": "D:\\minimind\\minimind-master\\my_eval\\results\\identity_repair_20261024\\clear_mix2116.jsonl",
+    "dataset_sha256": "44dec4f36fdefc96f20cc78ac35407cc92725386c501cd33a20b25c15975a00b",
+    "seconds": 274.5253898999945,
+    "peak_gpu_allocated_gib": 2.8408279418945312,
+    "peak_gpu_reserved_gib": 4.60546875,
+    "objective": "mean per-identity-example CE + lambda * mean per-nonidentity-example KL(bb_rl || student); first32 answer tokens weight3, later tokens weight1; no general CE",
+    "kl_lambda": 4.0,
+    "steps": 1060,
+    "max_steps": 0,
+    "history": [
+      {
+        "epoch": 1,
+        "step": 25,
+        "global_step": 25,
+        "identity_ce": 1.9853355884552002,
+        "retention_kl": 0.0005124002927914262,
+        "loss": 1.9873851537704468,
+        "lr": 9.987653272773746e-05
+      },
+      {
+        "epoch": 1,
+        "step": 50,
+        "global_step": 50,
+        "identity_ce": 1.4104173183441162,
+        "retention_kl": 0.000743140175472945,
+        "loss": 1.4133899211883545,
+        "lr": 9.950680842949738e-05
+      },
+      {
+        "epoch": 1,
+        "step": 75,
+        "global_step": 75,
+        "identity_ce": 0.41123032569885254,
+        "retention_kl": 0.023479318246245384,
+        "loss": 0.5051475763320923,
+        "lr": 9.88928559430839e-05
+      },
+      {
+        "epoch": 1,
+        "step": 100,
+        "global_step": 100,
+        "identity_ce": 0.3123372495174408,
+        "retention_kl": 0.006250734440982342,
+        "loss": 0.33734017610549927,
+        "lr": 9.80380442924435e-05
+      },
+      {
+        "epoch": 1,
+        "step": 125,
+        "global_step": 125,
+        "identity_ce": 0.12423428893089294,
+        "retention_kl": 0.013910412788391113,
+        "loss": 0.1798759400844574,
+        "lr": 9.694706420036745e-05
+      },
+      {
+        "epoch": 1,
+        "step": 150,
+        "global_step": 150,
+        "identity_ce": 0.041147369891405106,
+        "retention_kl": 0.0031809858046472073,
+        "loss": 0.053871311247348785,
+        "lr": 9.562590234845847e-05
+      },
+      {
+        "epoch": 1,
+        "step": 175,
+        "global_step": 175,
+        "identity_ce": 0.06124058738350868,
+        "retention_kl": 0.011838984675705433,
+        "loss": 0.10859652608633041,
+        "lr": 9.408180852560864e-05
+      },
+      {
+        "epoch": 1,
+        "step": 200,
+        "global_step": 200,
+        "identity_ce": 0.09301531314849854,
+        "retention_kl": 0.006455499678850174,
+        "loss": 0.11883731186389923,
+        "lr": 9.23232558452591e-05
+      },
+      {
+        "epoch": 1,
+        "step": 225,
+        "global_step": 225,
+        "identity_ce": 0.058199603110551834,
+        "retention_kl": 0.006666671484708786,
+        "loss": 0.08486628532409668,
+        "lr": 9.035989424974636e-05
+      },
+      {
+        "epoch": 1,
+        "step": 250,
+        "global_step": 250,
+        "identity_ce": 0.05026533082127571,
+        "retention_kl": 0.02396276220679283,
+        "loss": 0.14611637592315674,
+        "lr": 8.820249755687773e-05
+      },
+      {
+        "epoch": 1,
+        "step": 265,
+        "global_step": 265,
+        "identity_ce": -0.0,
+        "retention_kl": 0.004868047311902046,
+        "loss": 0.019472189247608185,
+        "lr": 8.681980515339464e-05
+      },
+      {
+        "epoch": 2,
+        "step": 25,
+        "global_step": 290,
+        "identity_ce": 0.03871706873178482,
+        "retention_kl": 0.003045785939320922,
+        "loss": 0.05090021342039108,
+        "lr": 8.437699531857347e-05
+      },
+      {
+        "epoch": 2,
+        "step": 50,
+        "global_step": 315,
+        "identity_ce": 0.015455425716936588,
+        "retention_kl": 0.0035367407836019993,
+        "loss": 0.02960238978266716,
+        "lr": 8.177298115134103e-05
+      },
+      {
+        "epoch": 2,
+        "step": 75,
+        "global_step": 340,
+        "identity_ce": -0.0,
+        "retention_kl": 0.005495158489793539,
+        "loss": 0.021980633959174156,
+        "lr": 7.902205200841558e-05
+      },
+      {
+        "epoch": 2,
+        "step": 100,
+        "global_step": 365,
+        "identity_ce": 0.09359435737133026,
+        "retention_kl": 0.002186858095228672,
+        "loss": 0.10234178602695465,
+        "lr": 7.613930343279556e-05
+      },
+      {
+        "epoch": 2,
+        "step": 125,
+        "global_step": 390,
+        "identity_ce": 0.09568285197019577,
+        "retention_kl": 0.00464726472273469,
+        "loss": 0.11427190899848938,
+        "lr": 7.314055431795877e-05
+      },
+      {
+        "epoch": 2,
+        "step": 150,
+        "global_step": 415,
+        "identity_ce": 0.07282090932130814,
+        "retention_kl": 0.0037591825239360332,
+        "loss": 0.08785764127969742,
+        "lr": 7.004226010272334e-05
+      },
+      {
+        "epoch": 2,
+        "step": 175,
+        "global_step": 440,
+        "identity_ce": 0.026399463415145874,
+        "retention_kl": 0.005109429359436035,
+        "loss": 0.046837180852890015,
+        "lr": 6.686142247310805e-05
+      },
+      {
+        "epoch": 2,
+        "step": 200,
+        "global_step": 465,
+        "identity_ce": 0.01959420181810856,
+        "retention_kl": 0.004885418340563774,
+        "loss": 0.039135873317718506,
+        "lr": 6.361549606669684e-05
+      },
+      {
+        "epoch": 2,
+        "step": 225,
+        "global_step": 490,
+        "identity_ce": 0.04175270348787308,
+        "retention_kl": 0.005972829647362232,
+        "loss": 0.0656440258026123,
+        "lr": 6.032229269146147e-05
+      },
+      {
+        "epoch": 2,
+        "step": 250,
+        "global_step": 515,
+        "identity_ce": 0.04556009918451309,
+        "retention_kl": 0.004043928347527981,
+        "loss": 0.061735812574625015,
+        "lr": 5.699988358463509e-05
+      },
+      {
+        "epoch": 2,
+        "step": 265,
+        "global_step": 530,
+        "identity_ce": 0.08498547226190567,
+        "retention_kl": 0.0063864318653941154,
+        "loss": 0.11053119599819183,
+        "lr": 5.500000000000001e-05
+      },
+      {
+        "epoch": 3,
+        "step": 25,
+        "global_step": 555,
+        "identity_ce": 0.047968920320272446,
+        "retention_kl": 0.0018924725009128451,
+        "loss": 0.055538810789585114,
+        "lr": 5.166881247356007e-05
+      },
+      {
+        "epoch": 3,
+        "step": 50,
+        "global_step": 580,
+        "identity_ce": 0.015407334081828594,
+        "retention_kl": 0.003334963461384177,
+        "loss": 0.028747187927365303,
+        "lr": 4.835590461988836e-05
+      },
+      {
+        "epoch": 3,
+        "step": 75,
+        "global_step": 605,
+        "identity_ce": 0.06584304571151733,
+        "retention_kl": 0.003296787617728114,
+        "loss": 0.07903019338846207,
+        "lr": 4.507945580324927e-05
+      },
+      {
+        "epoch": 3,
+        "step": 100,
+        "global_step": 630,
+        "identity_ce": 0.008180145174264908,
+        "retention_kl": 0.0042777471244335175,
+        "loss": 0.025291133671998978,
+        "lr": 4.18574453213361e-05
+      },
+      {
+        "epoch": 3,
+        "step": 125,
+        "global_step": 655,
+        "identity_ce": 0.019348030909895897,
+        "retention_kl": 0.004451102111488581,
+        "loss": 0.03715243935585022,
+        "lr": 3.8707553745055635e-05
+      },
+      {
+        "epoch": 3,
+        "step": 150,
+        "global_step": 680,
+        "identity_ce": 0.04386352002620697,
+        "retention_kl": 0.0029403609223663807,
+        "loss": 0.055624961853027344,
+        "lr": 3.5647065897556576e-05
+      },
+      {
+        "epoch": 3,
+        "step": 175,
+        "global_step": 705,
+        "identity_ce": 0.015456336550414562,
+        "retention_kl": 0.0018553342670202255,
+        "loss": 0.02287767454981804,
+        "lr": 3.2692776004897776e-05
+      },
+      {
+        "epoch": 3,
+        "step": 200,
+        "global_step": 730,
+        "identity_ce": 0.024974403902888298,
+        "retention_kl": 0.0020811271388083696,
+        "loss": 0.03329891338944435,
+        "lr": 2.9860895538835642e-05
+      },
+      {
+        "epoch": 3,
+        "step": 225,
+        "global_step": 755,
+        "identity_ce": 0.067650206387043,
+        "retention_kl": 0.0026156657841056585,
+        "loss": 0.07811287045478821,
+        "lr": 2.7166964257437654e-05
+      },
+      {
+        "epoch": 3,
+        "step": 250,
+        "global_step": 780,
+        "identity_ce": 0.023696891963481903,
+        "retention_kl": 0.0016751523362472653,
+        "loss": 0.030397500842809677,
+        "lr": 2.4625764931680543e-05
+      },
+      {
+        "epoch": 3,
+        "step": 265,
+        "global_step": 795,
+        "identity_ce": 0.031787510961294174,
+        "retention_kl": 0.0026414054445922375,
+        "loss": 0.042353130877017975,
+        "lr": 2.3180194846605367e-05
+      },
+      {
+        "epoch": 4,
+        "step": 25,
+        "global_step": 820,
+        "identity_ce": 0.10036536306142807,
+        "retention_kl": 0.0023766285739839077,
+        "loss": 0.10987187922000885,
+        "lr": 2.0911994102727095e-05
+      },
+      {
+        "epoch": 4,
+        "step": 50,
+        "global_step": 845,
+        "identity_ce": 0.022648978978395462,
+        "retention_kl": 0.006524636875838041,
+        "loss": 0.04874752461910248,
+        "lr": 1.8830849052404655e-05
+      },
+      {
+        "epoch": 4,
+        "step": 75,
+        "global_step": 870,
+        "identity_ce": 0.009913399815559387,
+        "retention_kl": 0.00514080049470067,
+        "loss": 0.030476601794362068,
+        "lr": 1.694817984241783e-05
+      },
+      {
+        "epoch": 4,
+        "step": 100,
+        "global_step": 895,
+        "identity_ce": 0.029591834172606468,
+        "retention_kl": 0.003024054691195488,
+        "loss": 0.04168805480003357,
+        "lr": 1.527431749640797e-05
+      },
+      {
+        "epoch": 4,
+        "step": 125,
+        "global_step": 920,
+        "identity_ce": -0.0,
+        "retention_kl": 0.004274844191968441,
+        "loss": 0.017099376767873764,
+        "lr": 1.381844722406417e-05
+      },
+      {
+        "epoch": 4,
+        "step": 150,
+        "global_step": 945,
+        "identity_ce": 0.06060343608260155,
+        "retention_kl": 0.0015812772326171398,
+        "loss": 0.06692854315042496,
+        "lr": 1.2588558017888411e-05
+      },
+      {
+        "epoch": 4,
+        "step": 175,
+        "global_step": 970,
+        "identity_ce": -0.0,
+        "retention_kl": 0.005482922308146954,
+        "loss": 0.021931689232587814,
+        "lr": 1.1591398814123864e-05
+      },
+      {
+        "epoch": 4,
+        "step": 200,
+        "global_step": 995,
+        "identity_ce": 0.1111321821808815,
+        "retention_kl": 0.0031983566004782915,
+        "loss": 0.12392561137676239,
+        "lr": 1.0832441458410548e-05
+      },
+      {
+        "epoch": 4,
+        "step": 225,
+        "global_step": 1020,
+        "identity_ce": 0.0161339920014143,
+        "retention_kl": 0.005492422729730606,
+        "loss": 0.03810368478298187,
+        "lr": 1.031585067939174e-05
+      },
+      {
+        "epoch": 4,
+        "step": 250,
+        "global_step": 1045,
+        "identity_ce": 0.01629028469324112,
+        "retention_kl": 0.0037161081563681364,
+        "loss": 0.03115471825003624,
+        "lr": 1.0044461235039046e-05
+      },
+      {
+        "epoch": 4,
+        "step": 265,
+        "global_step": 1060,
+        "identity_ce": -0.0,
+        "retention_kl": 0.003297401126474142,
+        "loss": 0.013189604505896568,
+        "lr": 1e-05
+      }
+    ],
+    "frozen_teacher_and_base_no_grad": true,
+    "argv": [
+      "my_eval/scripts/train_identity_anchored.py",
+      "lora_yuyang_anchor4",
+      "--kl",
+      "4",
+      "--lr",
+      "1e-4",
+      "--epochs",
+      "4"
+    ],
+    "trainer_sha256": "d2d44cf426f69480e7373ccf170af046add5abb51aaa1691e0d811de1f662b82"
+  },
+  "selected_recipe": {
+    "date": "2026-10-25",
+    "stage": "second adaptive development extension, before final evaluation",
+    "reason": "Both 2e-4 and 1e-4 balanced candidates produced identity instead of an answer to 2 ordinary English samples. Content review also found assistant/developer role confusion. Lowering learning rate alone did not fix leakage.",
+    "recipe": "Canonical, unambiguous identity answer for each of the same 90 identity prompts x6; unchanged general1000 and replay128x2; add 64 short ordinary English examples x4 and 32 Chinese examples x2, authored directly by the coding assistant without external APIs.",
+    "training": {
+      "base": "bb_rl",
+      "identity_unique": 90,
+      "identity_repeats": 6,
+      "general": 1000,
+      "self_replay_unique": 128,
+      "self_replay_repeats": 2,
+      "extra_english": 64,
+      "english_repeats": 4,
+      "extra_chinese": 32,
+      "chinese_repeats": 2,
+      "total": 2116,
+      "epochs": 6,
+      "batch_size": 8,
+      "max_seq_len": 768
+    },
+    "candidates": [
+      {
+        "name": "bb_rl_id_clear_2e4",
+        "lr": 0.0002,
+        "condition": "Run first"
+      },
+      {
+        "name": "bb_rl_id_clear_3e4",
+        "lr": 0.0003,
+        "condition": "Only if identity <16/20, leaks <=1/20 and both retention checks pass"
+      }
+    ],
+    "selection_thresholds": {
+      "identity_hits_min": 16,
+      "identity_runs": 20,
+      "general_leaks_max": 1,
+      "math_max_drop_percentage_points": 5,
+      "language_max_delta_loss": 0.04
+    },
+    "normalized_question_overlap": {
+      "identity_general_dev_final": 0,
+      "final_chat": 0,
+      "dev_math": 0,
+      "final_math": 0,
+      "dev_language": 0,
+      "final_language": 0
+    },
+    "final_evaluation_files_present": [],
+    "sha256": {
+      "identity_canonical90.jsonl": "a2811b165d1e60c07a0aec7396fe5ded125083c9b12041b5c759c2f485c2ca45",
+      "ordinary_english64.jsonl": "02f37a44a82a6b78d364490c3b6956defa6121c236861c35be0cf8d18071b0e9",
+      "ordinary_chinese32.jsonl": "8db4659c3756241dbd516338bbd3f8b94dca40fc012f9c38145d148a1fbeee7b",
+      "clear_mix2116.jsonl": "44dec4f36fdefc96f20cc78ac35407cc92725386c501cd33a20b25c15975a00b"
+    }
+  },
+  "selected_objective_plan": {
+    "date": "2026-10-25",
+    "stage": "adaptive development extension; final sets not yet used",
+    "reason": "Six ordinary CE LoRA candidates kept math but failed identity or leakage thresholds. Canonical answers + ordinary examples still leaked on 3/20 general samples. Explicitly constrain non-identity distributions to the original bb_rl.",
+    "reference_code": "trainer/train_distillation.py distillation_loss: KL(teacher || student), temperature1",
+    "data": "clear_mix2116.jsonl; unchanged from v3; existing exact-question overlap audit applies",
+    "objective": "identity examples: CE averaged per example; ordinary/math examples: KL(bb_rl || student), per-example average with first32 answer tokens weighted3; total identityCE + 4*KL; frozen bb_rl teacher and base, only LoRA q/o trained",
+    "candidates": [
+      {
+        "name": "bb_rl_id_anchor4",
+        "lr": 0.0001,
+        "epochs": 4,
+        "kl": 4,
+        "condition": "After short 16-step memory/gradient validation"
+      },
+      {
+        "name": "bb_rl_id_anchor8",
+        "lr": 0.0001,
+        "epochs": 4,
+        "kl": 8,
+        "condition": "Only if anchor4 identity>=16 but leakage or retention fails"
+      }
+    ],
+    "selection_thresholds": {
+      "identity_hits_min": 16,
+      "identity_runs": 20,
+      "general_leaks_max": 1,
+      "math_max_drop_percentage_points": 5,
+      "language_max_delta_loss": 0.04
+    },
+    "final_evaluation_files_present": [],
+    "training_sha256": "44dec4f36fdefc96f20cc78ac35407cc92725386c501cd33a20b25c15975a00b"
+  },
+  "content_review": {
+    "selected": "bb_rl_id_anchor4",
+    "reviewer": "Codex assistant; qualitative, not independent/blind",
+    "identity_result_sha256": "e332c08479aba945971570b63d8b9a7aee15d593504a99fb47a14e0dad6ff50f",
+    "identity_basic_correct": 18,
+    "identity_incomplete": 2,
+    "identity_wrong": 1,
+    "identity_string_hits": 20,
+    "general_string_leaks": 1,
+    "general_content_intrusions": 2,
+    "used_for_training_or_selection": false,
+    "summary_zh": "常规6道身份题的18次回答都正确表述了MiniMind与Yuyang LU的定制身份关系。关于原作者Jingyao Gong的3次提问中，2次只复述身份、没有回答来源关系，1次跑题编造内容，因此20/21的名字命中不能说成20次完整答对。普通20次回答中，关键词指标检出1次串题；内容检查还发现1次没有MiniMind/Yuyang关键词的自称助手内容，两次均出现在写请假条的问题上。因此内容口径串题为2/20，固定关键词口径仍为1/20。普通回答还存在重复、事实错误等问题，不能把loss接近原模型解释成通用聊天已经可靠。这些最终结果未用于继续训练或调参。",
+    "rows": [
+      {
+        "group": "identity",
+        "question": 0,
+        "sample": 0,
+        "seed": 700000,
+        "prompt": "你是谁？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 0,
+        "sample": 1,
+        "seed": 700001,
+        "prompt": "你是谁？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 0,
+        "sample": 2,
+        "seed": 700002,
+        "prompt": "你是谁？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 1,
+        "sample": 0,
+        "seed": 700100,
+        "prompt": "Who created you?",
+        "response_sha256": "b40e459546a5d14a8d2ebe0ad8f1d1cc0a7362b0b99b9becfee9bcde04c3696e",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 1,
+        "sample": 1,
+        "seed": 700101,
+        "prompt": "Who created you?",
+        "response_sha256": "b40e459546a5d14a8d2ebe0ad8f1d1cc0a7362b0b99b9becfee9bcde04c3696e",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 1,
+        "sample": 2,
+        "seed": 700102,
+        "prompt": "Who created you?",
+        "response_sha256": "b40e459546a5d14a8d2ebe0ad8f1d1cc0a7362b0b99b9becfee9bcde04c3696e",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 2,
+        "sample": 0,
+        "seed": 700200,
+        "prompt": "你的作者叫什么名字？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 2,
+        "sample": 1,
+        "seed": 700201,
+        "prompt": "你的作者叫什么名字？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 2,
+        "sample": 2,
+        "seed": 700202,
+        "prompt": "你的作者叫什么名字？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 3,
+        "sample": 0,
+        "seed": 700300,
+        "prompt": "是哪个人把你做出来的？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 3,
+        "sample": 1,
+        "seed": 700301,
+        "prompt": "是哪个人把你做出来的？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 3,
+        "sample": 2,
+        "seed": 700302,
+        "prompt": "是哪个人把你做出来的？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 4,
+        "sample": 0,
+        "seed": 700400,
+        "prompt": "介绍一下你的开发者",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 4,
+        "sample": 1,
+        "seed": 700401,
+        "prompt": "介绍一下你的开发者",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 4,
+        "sample": 2,
+        "seed": 700402,
+        "prompt": "介绍一下你的开发者",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 5,
+        "sample": 0,
+        "seed": 700500,
+        "prompt": "Who is your developer?",
+        "response_sha256": "b40e459546a5d14a8d2ebe0ad8f1d1cc0a7362b0b99b9becfee9bcde04c3696e",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 5,
+        "sample": 1,
+        "seed": 700501,
+        "prompt": "Who is your developer?",
+        "response_sha256": "b40e459546a5d14a8d2ebe0ad8f1d1cc0a7362b0b99b9becfee9bcde04c3696e",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 5,
+        "sample": 2,
+        "seed": 700502,
+        "prompt": "Who is your developer?",
+        "response_sha256": "b40e459546a5d14a8d2ebe0ad8f1d1cc0a7362b0b99b9becfee9bcde04c3696e",
+        "verdict": "correct_basic_custom_identity",
+        "note": "正确区分助手MiniMind和定制开发者Yuyang LU；仅提供基本身份，没有更多开发者背景。"
+      },
+      {
+        "group": "identity",
+        "question": 6,
+        "sample": 0,
+        "seed": 700600,
+        "prompt": "你和 Jingyao Gong 是什么关系？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "incomplete_source_relationship",
+        "note": "提到定制开发者，但没有解释与开源MiniMind原作者Jingyao Gong的关系；字符串命中不代表完整答对。"
+      },
+      {
+        "group": "identity",
+        "question": 6,
+        "sample": 1,
+        "seed": 700601,
+        "prompt": "你和 Jingyao Gong 是什么关系？",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "verdict": "incomplete_source_relationship",
+        "note": "提到定制开发者，但没有解释与开源MiniMind原作者Jingyao Gong的关系；字符串命中不代表完整答对。"
+      },
+      {
+        "group": "identity",
+        "question": 6,
+        "sample": 2,
+        "seed": 700602,
+        "prompt": "你和 Jingyao Gong 是什么关系？",
+        "response_sha256": "e91271a4ca0678dbeb3202ffaed45bc736395b49fd61f1becc4e40bc9055ce13",
+        "verdict": "irrelevant_fabrication",
+        "note": "跑题编造音乐家内容，没有回答身份关系。"
+      },
+      {
+        "group": "general",
+        "question": 0,
+        "sample": 0,
+        "seed": 710000,
+        "prompt": "解释什么是机器学习",
+        "response_sha256": "510e6f0120ebc9e28592bcfd6f62533be4b518b5ee73070c57a5b122107a0424",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 0,
+        "sample": 1,
+        "seed": 710001,
+        "prompt": "解释什么是机器学习",
+        "response_sha256": "ca8fff6c9df3a2d20a3a2ed0ce470e9a5833d9f139414363adcbc71710b70df4",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 1,
+        "sample": 0,
+        "seed": 710100,
+        "prompt": "推荐一些中国的美食",
+        "response_sha256": "d8647ab06a54f0d276800132fe9d14721ed78dd60b1d58544e56796c3aaf9c09",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 1,
+        "sample": 1,
+        "seed": 710101,
+        "prompt": "推荐一些中国的美食",
+        "response_sha256": "4a0be8974e0ebe8d16c3f1285a3c547b5c1c53b462af099a2dba151f24d10a67",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 2,
+        "sample": 0,
+        "seed": 710200,
+        "prompt": "如何开始学习Python？",
+        "response_sha256": "3868c57d7527b6d65867545c6a7b6e5b0f162b30a5aba527f61191fe27a9c959",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 2,
+        "sample": 1,
+        "seed": 710201,
+        "prompt": "如何开始学习Python？",
+        "response_sha256": "79eb8be6cb48694960a0d939a013987db8a2258c92b9eecda61c181c3a4c5c66",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 3,
+        "sample": 0,
+        "seed": 710300,
+        "prompt": "写一首关于秋天的短诗",
+        "response_sha256": "094fcd1d17601c0c5a4bf49d702460529c3203b83a5e0e381e4e52a6bc81e6e0",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 3,
+        "sample": 1,
+        "seed": 710301,
+        "prompt": "写一首关于秋天的短诗",
+        "response_sha256": "efba5e7b71968c4222f1a0182d5c0bb1c581b8379acd6011c4db76c3e8d69a04",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 4,
+        "sample": 0,
+        "seed": 710400,
+        "prompt": "为什么要多喝水？",
+        "response_sha256": "f5ca7023605b23cb9a45c8971dcf3f86dc8d07b922df05e344b355c20fbcec4b",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 4,
+        "sample": 1,
+        "seed": 710401,
+        "prompt": "为什么要多喝水？",
+        "response_sha256": "67aad712d4b962bf3aa37ab2f27213615576d06f3dee43cc634f9c06b33e76be",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 5,
+        "sample": 0,
+        "seed": 710500,
+        "prompt": "给我讲一个笑话",
+        "response_sha256": "5794d7c6e299f3db3049a57c2b22d33c05479712b8cb9e07b41c3676df4e589a",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 5,
+        "sample": 1,
+        "seed": 710501,
+        "prompt": "给我讲一个笑话",
+        "response_sha256": "604197a4586c031194a5741f810bd0b5cdc45950c92f2cfab3f145daea348571",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 6,
+        "sample": 0,
+        "seed": 710600,
+        "prompt": "怎样才能提高睡眠质量？",
+        "response_sha256": "e4099410db8cf599a945bba812f1215877f00032109f69613fba8c973996a88c",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 6,
+        "sample": 1,
+        "seed": 710601,
+        "prompt": "怎样才能提高睡眠质量？",
+        "response_sha256": "d010c4432d9855f8f6bd51515e5098c18d213b978c88af18300737841e2280e2",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 7,
+        "sample": 0,
+        "seed": 710700,
+        "prompt": "太阳系有几颗行星？",
+        "response_sha256": "cc680c1f5a1c30fc7d2a823bc5882ba70633f3cf99a9b3a2c2d74716792b183d",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 7,
+        "sample": 1,
+        "seed": 710701,
+        "prompt": "太阳系有几颗行星？",
+        "response_sha256": "2331cfb3d65b99e8241f3b4d1cccaf1b8aadd046d0215d50c7e3f25f2485bb15",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 8,
+        "sample": 0,
+        "seed": 710800,
+        "prompt": "帮我写一封请假条",
+        "response_sha256": "ce2ee79ad70df60f2d15ab864990d8062f6787e08e04065e08590fe6ac069b51",
+        "identity_intrusion": true,
+        "note": "写请假条的要求被自我介绍替代；关键词指标能检出。"
+      },
+      {
+        "group": "general",
+        "question": 8,
+        "sample": 1,
+        "seed": 710801,
+        "prompt": "帮我写一封请假条",
+        "response_sha256": "fffb4879e22beaa8f2654fb7cfe82dad3a92d4a09b444b5bad725f0480898b44",
+        "identity_intrusion": true,
+        "note": "请假条混入自称智能助手的内容，但没有MiniMind/Yuyang，关键词指标漏检。"
+      },
+      {
+        "group": "general",
+        "question": 9,
+        "sample": 0,
+        "seed": 710900,
+        "prompt": "推荐几本值得读的书",
+        "response_sha256": "0c8663fea8f5dff738f7d8feaaf97dc9838775d5f265cb3d622dd04fbe1ed33b",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      },
+      {
+        "group": "general",
+        "question": 9,
+        "sample": 1,
+        "seed": 710901,
+        "prompt": "推荐几本值得读的书",
+        "response_sha256": "94fcc294e5c0233bf97aa03437b2b10c2e4cd51cc72abfb841d19dfdeb17b7f0",
+        "identity_intrusion": false,
+        "note": "没有身份串题；此项不表示事实正确或聊天质量合格。"
+      }
+    ]
+  },
+  "old_identity_training_final_question_overlap": 2,
+  "sha256": {
+    "out\\bb_rl_768.pth": "ba9ef9714dfb31899c1bddad77e94c1f86b650b7b1cd76eb048f4dd4887ae7ce",
+    "out\\bb_rl_id_768.pth": "2593af972b11e0abdeecf6b17ef1fe46b8791539bf985225944e029592b73c8a",
+    "out\\bb_rl_id_anchor4_768.pth": "a6f4249c77ba91084e124658d35f35a56d40c0380d0681a341b39968c360f107",
+    "my_eval\\results\\identity_repair_20261024\\clear_mix2116.jsonl": "44dec4f36fdefc96f20cc78ac35407cc92725386c501cd33a20b25c15975a00b",
+    "my_eval\\results\\identity_repair_20261024\\plan.json": "ca39509e4f1d04cc7c599476643cd6944996b713a5ee2e3d3bd4cf62377e687d",
+    "my_eval\\results\\identity_repair_20261024\\development_extension_v2.json": "c54e232203b748ed60fd710bf9fdb3b1d7753ffc68038655dca644c4bacd3529",
+    "my_eval\\results\\identity_repair_20261024\\development_extension_v3.json": "034eceedc974d9879d7626807e39b660dba07bca3432b5433e836880171d425e",
+    "my_eval\\results\\identity_repair_20261024\\selection.json": "76b90e1ed348417210f509e19caf3ae25be2e4986c28207b905d578c9bef846e",
+    "my_eval\\scripts\\identity_repair.py": "2279d6c5ab8df64e4dd063c7e2e28fe45aeb6da0436b353802cc08f5025df84c",
+    "my_eval\\scripts\\train_identity_candidate.py": "67a88d0cb4a9f939e024e884b520947a66620f67c81f68dc76009df1ea0f9d3a",
+    "my_eval\\results\\identity_repair_20261024\\development_extension_v4.json": "5eca26f12234e3ae44332249d524aa8f899b6477410c1c785aef81ea3143e41c",
+    "my_eval\\scripts\\train_identity_anchored.py": "d2d44cf426f69480e7373ccf170af046add5abb51aaa1691e0d811de1f662b82"
+  }
+}

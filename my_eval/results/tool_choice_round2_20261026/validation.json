@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "original_final_locks_verified": true,
+  "accepted": true,
+  "published": true,
+  "tests": {
+    "tests": 9,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "independent": {
+    "passed": true,
+    "raw_reply_decisions_checked": 1728,
+    "math_clusters": 48,
+    "no_tool_clusters": 24,
+    "conditions_per_cluster": 12,
+    "independent_means_and_standard_errors_match": true
+  },
+  "ui": {
+    "passed": true,
+    "six_tools_selectable": true,
+    "seventh_disabled": true,
+    "uncheck_reenables": true,
+    "disabled_tools_never_execute": true,
+    "valid_selected_tool_executes": true,
+    "invalid_arguments_rejected": true
+  },
+  "smoke_passed": true,
+  "report_sha256": "467d29c34f5dba195ebdb5aa4a8679e0ee1e2ffceb81db2414d4be4617b1439a"
+}

@@ -1,0 +1,134 @@
+{
+  "bb_dist": {
+    "weight_sha256": "606b058fb428560cf3f59c077a286c1eda2066ea97e2834bc5ad18a4d8f1b84c",
+    "math": [
+      {
+        "problem": 0,
+        "sample": 0,
+        "identical": true
+      },
+      {
+        "problem": 0,
+        "sample": 1,
+        "identical": true
+      },
+      {
+        "problem": 99,
+        "sample": 0,
+        "identical": true
+      },
+      {
+        "problem": 99,
+        "sample": 1,
+        "identical": true
+      },
+      {
+        "problem": 199,
+        "sample": 0,
+        "identical": true
+      },
+      {
+        "problem": 199,
+        "sample": 1,
+        "identical": true
+      }
+    ],
+    "chat_responses_equal": [
+      true,
+      true,
+      true
+    ],
+    "passed": true
+  },
+  "bb_rl": {
+    "weight_sha256": "ba9ef9714dfb31899c1bddad77e94c1f86b650b7b1cd76eb048f4dd4887ae7ce",
+    "math": [
+      {
+        "problem": 0,
+        "sample": 0,
+        "identical": true
+      },
+      {
+        "problem": 0,
+        "sample": 1,
+        "identical": true
+      },
+      {
+        "problem": 99,
+        "sample": 0,
+        "identical": true
+      },
+      {
+        "problem": 99,
+        "sample": 1,
+        "identical": true
+      },
+      {
+        "problem": 199,
+        "sample": 0,
+        "identical": true
+      },
+      {
+        "problem": 199,
+        "sample": 1,
+        "identical": true
+      }
+    ],
+    "chat_responses_equal": [
+      true,
+      true,
+      true
+    ],
+    "passed": true
+  },
+  "reward_score_replay": [
+    {
+      "model": "bb_dist",
+      "prompt": 0,
+      "absolute_differences": {
+        "rm": 0.0,
+        "total": 0.0
+      }
+    },
+    {
+      "model": "bb_dist",
+      "prompt": 0,
+      "absolute_differences": {
+        "rm": 0.0,
+        "total": 0.0
+      }
+    },
+    {
+      "model": "bb_dist",
+      "prompt": 0,
+      "absolute_differences": {
+        "rm": 0.0,
+        "total": 0.0
+      }
+    },
+    {
+      "model": "bb_rl",
+      "prompt": 0,
+      "absolute_differences": {
+        "rm": 0.0,
+        "total": 0.0
+      }
+    },
+    {
+      "model": "bb_rl",
+      "prompt": 0,
+      "absolute_differences": {
+        "rm": 0.0,
+        "total": 0.0
+      }
+    },
+    {
+      "model": "bb_rl",
+      "prompt": 0,
+      "absolute_differences": {
+        "rm": 0.0,
+        "total": 0.0
+      }
+    }
+  ]
+}

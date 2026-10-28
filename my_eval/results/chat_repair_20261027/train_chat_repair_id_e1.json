@@ -1,0 +1,39 @@
+{
+  "name": "chat_repair_id_e1",
+  "base": "chat_repair_e2",
+  "base_sha256": "8d9122b51f55f662f6b1508316cb6d8007c9d5afe268d44ff78b2a4095b6559e",
+  "trial": false,
+  "epoch": 1,
+  "steps": 370,
+  "seconds": 51.07690080002067,
+  "peak_allocated_gib": 2.7642107009887695,
+  "exact_base_only": true,
+  "base_and_kl_anchor_frozen": true,
+  "trainable_parameters": 393216,
+  "settings": {
+    "base": "chat_repair_e2",
+    "base_sha256": "8d9122b51f55f662f6b1508316cb6d8007c9d5afe268d44ff78b2a4095b6559e",
+    "epochs": 3,
+    "lr": 0.0002,
+    "kl": 4.0,
+    "rank": 16,
+    "batch": 4,
+    "seed": 42,
+    "identity_row_weight": 3,
+    "counts": {
+      "identity_ce": 240,
+      "ordinary_ce": 320,
+      "math_ce": 320,
+      "kl": 600
+    },
+    "rows": 1480,
+    "max_tokens": 1418,
+    "identity_target": "Canonical complete name+customizer+upstream relation in both languages, same for all identity variants",
+    "train_sha256": "dcf28716c4392f1713e9eb90ba14f7e94339f1af5321765cf4cc5e500a2e88cf",
+    "no_truncation": true,
+    "known_chat_heldout_question_overlap": 0
+  },
+  "all_weights_finite": true,
+  "weight_sha256": "25e570e9e568ee3beb052c2cbee1f907074924e1b629ca63ebc968843d47c9dc",
+  "source_sha256": "2cc9e201e0db39206730409d6fc87d7ae6664c23c592b9b7c10763885d375f1e"
+}

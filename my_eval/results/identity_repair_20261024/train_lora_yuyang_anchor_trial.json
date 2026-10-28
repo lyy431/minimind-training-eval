@@ -1,0 +1,43 @@
+{
+  "name": "lora_yuyang_anchor_trial",
+  "base": "bb_rl",
+  "epochs": 4,
+  "learning_rate": 0.0001,
+  "batch_size": 8,
+  "max_seq_len": 768,
+  "num_workers": 2,
+  "dataset": "D:\\minimind\\minimind-master\\my_eval\\results\\identity_repair_20261024\\clear_mix2116.jsonl",
+  "dataset_sha256": "44dec4f36fdefc96f20cc78ac35407cc92725386c501cd33a20b25c15975a00b",
+  "seconds": 17.058374799991725,
+  "peak_gpu_allocated_gib": 2.7906904220581055,
+  "peak_gpu_reserved_gib": 3.98046875,
+  "objective": "mean per-identity-example CE + lambda * mean per-nonidentity-example KL(bb_rl || student); first32 answer tokens weight3, later tokens weight1; no general CE",
+  "kl_lambda": 4.0,
+  "steps": 16,
+  "max_steps": 16,
+  "history": [
+    {
+      "epoch": 1,
+      "step": 16,
+      "global_step": 16,
+      "identity_ce": 2.8992578983306885,
+      "retention_kl": 0.0002951037313323468,
+      "loss": 2.9004383087158203,
+      "lr": 9.994941414273633e-05
+    }
+  ],
+  "frozen_teacher_and_base_no_grad": true,
+  "argv": [
+    "my_eval/scripts/train_identity_anchored.py",
+    "lora_yuyang_anchor_trial",
+    "--max_steps",
+    "16",
+    "--kl",
+    "4",
+    "--lr",
+    "1e-4",
+    "--epochs",
+    "4"
+  ],
+  "trainer_sha256": "d2d44cf426f69480e7373ccf170af046add5abb51aaa1691e0d811de1f662b82"
+}

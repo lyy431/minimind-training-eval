@@ -1,0 +1,49 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+finalchat tool_choice2b_e3 16 / 144 31.8s
+finalchat tool_choice2b_e3 32 / 144 51.8s
+finalchat tool_choice2b_e3 48 / 144 79.8s
+finalchat tool_choice2b_e3 64 / 144 96.6s
+finalchat tool_choice2b_e3 80 / 144 119.9s
+finalchat tool_choice2b_e3 96 / 144 137.3s
+finalchat tool_choice2b_e3 112 / 144 146.0s
+finalchat tool_choice2b_e3 128 / 144 161.8s
+finalchat tool_choice2b_e3 144 / 144 176.4s
+identity tool_choice2b_e3 14 / 14 3.5s
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+finalchat chat_repair_id_e3 16 / 144 9.4s
+finalchat chat_repair_id_e3 32 / 144 17.8s
+finalchat chat_repair_id_e3 48 / 144 27.3s
+finalchat chat_repair_id_e3 64 / 144 31.7s
+finalchat chat_repair_id_e3 80 / 144 35.5s
+finalchat chat_repair_id_e3 96 / 144 39.0s
+finalchat chat_repair_id_e3 112 / 144 43.2s
+finalchat chat_repair_id_e3 128 / 144 49.2s
+finalchat chat_repair_id_e3 144 / 144 56.0s
+historical chat_repair_id_e3 16 / 197 24.2s
+historical chat_repair_id_e3 32 / 197 46.8s
+historical chat_repair_id_e3 48 / 197 65.7s
+historical chat_repair_id_e3 64 / 197 90.3s
+historical chat_repair_id_e3 80 / 197 112.4s
+historical chat_repair_id_e3 96 / 197 138.6s
+historical chat_repair_id_e3 112 / 197 164.1s
+historical chat_repair_id_e3 128 / 197 191.0s
+historical chat_repair_id_e3 144 / 197 215.5s
+historical chat_repair_id_e3 160 / 197 241.1s
+historical chat_repair_id_e3 176 / 197 269.6s
+historical chat_repair_id_e3 192 / 197 288.2s
+historical chat_repair_id_e3 197 / 197 294.2s
+freshmath chat_repair_id_e3 16 / 48 16.4s
+freshmath chat_repair_id_e3 32 / 48 32.5s
+freshmath chat_repair_id_e3 48 / 48 49.8s
+loss_final chat_repair_id_e3 296 2.522629708957833
+identity chat_repair_id_e3 14 / 14 5.5s
+Traceback (most recent call last):
+  File "D:\minimind\minimind-master\my_eval\scripts\review_chat_repair.py", line 45, in <module>
+    p=argparse.ArgumentParser();p.add_argument('split',choices=['dev','final']);a=p.parse_args();queue(a.split)
+  File "D:\minimind\minimind-master\my_eval\scripts\review_chat_repair.py", line 24, in queue
+    task=lookup[row.get('id') or row.get('task_id')];k=key(task,row);mapping[f.name+'::'+name]=k
+AttributeError: 'bool' object has no attribute 'get'

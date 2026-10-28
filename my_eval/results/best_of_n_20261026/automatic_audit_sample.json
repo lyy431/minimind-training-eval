@@ -1,0 +1,863 @@
+[
+  {
+    "sha256": "d65c7c79c73b019a471e77be18a0396bc84e27735d22cafdd0e6b7ac424f7664",
+    "question": "算算(751-430)+22*53",
+    "final": "计算结果是1487。",
+    "gt": [
+      "1487"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "1487",
+        "lhs": null,
+        "fragment": "计算结果是1487"
+      }
+    ]
+  },
+  {
+    "sha256": "3674e10cd92c10c4f2eff4eed711ce1ae96f60b6a201d0098aa42d957f295d45",
+    "question": "算算7836+8704，另外(406+687)*27的结果是什么，同时compute 515+748*25 for me",
+    "final": "7836加上8704的结果是16540。(406+687)*27的结果是29511。515+748*25的结果是19215。",
+    "gt": [
+      "16540",
+      "29511",
+      "19215"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "16540",
+        "lhs": "7836+8704",
+        "fragment": "7836+8704的结果是16540"
+      },
+      {
+        "value": "29511",
+        "lhs": "(406+687)*27",
+        "fragment": "7836+8704的结果是16540。(406+687)*27的结果是29511"
+      },
+      {
+        "value": "19215",
+        "lhs": "515+748*25",
+        "fragment": "7836+8704的结果是16540。(406+687)*27的结果是29511。515+748*25的结果是19215"
+      }
+    ]
+  },
+  {
+    "sha256": "168b71a7233864ff94ef08f7a6e4663adf99f29f0ca209954a45bbdbeacd5ed7",
+    "question": "算算673+58*11，另外算算4114/11",
+    "final": "673 + 58 * 11 的结果是 1311。 4114 / 11 的结果是 374.0。",
+    "gt": [
+      "1311",
+      "374"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "1311",
+        "lhs": "673 + 58 * 11",
+        "fragment": "673 + 58 * 11 的结果是 1311"
+      },
+      {
+        "value": "374",
+        "lhs": "4114 / 11",
+        "fragment": "673 + 58 * 11 的结果是 1311。 4114 / 11 的结果是 374.0"
+      }
+    ]
+  },
+  {
+    "sha256": "81a7cfc6746a2df61e1e3fb398e7ae05b4956f02df1b4e47197d61fc5306405d",
+    "question": "Calculate 19**2. Plus, 算算15**3. Additionally, (840+6)*11的结果是什么",
+    "final": "The result of 19**2 is 361.\nThe result of 15**3 is 3375.\nAnd (840+6)*11的结果是 9306。",
+    "gt": [
+      "361",
+      "3375",
+      "9306"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "361",
+        "lhs": "19**2",
+        "fragment": "The result of 19**2 is 361"
+      },
+      {
+        "value": "3375",
+        "lhs": "15**3",
+        "fragment": "The result of 19**2 is 361.\nThe result of 15**3 is 3375"
+      },
+      {
+        "value": "9306",
+        "lhs": "(840+6)*11",
+        "fragment": "The result of 19**2 is 361.\nThe result of 15**3 is 3375.\nAnd (840+6)*11的结果是 9306"
+      }
+    ]
+  },
+  {
+    "sha256": "655683b730ff21c46524731fc357c18469fb0bc4d6c9d27b3b090421ca24d37c",
+    "question": "算算(440+846)*4",
+    "final": "计算结果是5144。",
+    "gt": [
+      "5144"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "5144",
+        "lhs": null,
+        "fragment": "计算结果是5144"
+      }
+    ]
+  },
+  {
+    "sha256": "fb614025e294a122afa032c8c54df8e387b1fe5075b2f8c4f0e581d55663bccf",
+    "question": "请计算7040/16",
+    "final": "计算结果是440。",
+    "gt": [
+      "440"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "440",
+        "lhs": null,
+        "fragment": "计算结果是440"
+      }
+    ]
+  },
+  {
+    "sha256": "9adaa8fc8fb75a60abdd2eb9a9cd500777b40d1fd02d29e02e52b9a0cdcb7e41",
+    "question": "Compute (383+469)*8 for me",
+    "final": "The result of (383+469)*8 is 6816.",
+    "gt": [
+      "6816"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "6816",
+        "lhs": "(383+469)*8",
+        "fragment": "The result of (383+469)*8 is 6816"
+      }
+    ]
+  },
+  {
+    "sha256": "4615a1f539a0deb6f21ecd7cb6cd50a0e5729899e724b5e74f2380427b6009ef",
+    "question": "(347+84)*15的结果是什么，同时帮我算一下8069*6563等于多少，并且calculate 15**3",
+    "final": "计算结果如下：\n\n(347+84)*15的结果是 6465。\n\n8069*6563等于 52956847。\n\n15**3的结果是 3375。",
+    "gt": [
+      "6465",
+      "52956847",
+      "3375"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "6465",
+        "lhs": "(347+84)*15",
+        "fragment": "计算结果如下:\n\n(347+84)*15的结果是 6465"
+      },
+      {
+        "value": "52956847",
+        "lhs": "8069*6563",
+        "fragment": "计算结果如下:\n\n(347+84)*15的结果是 6465。\n\n8069*6563等于 52956847"
+      },
+      {
+        "value": "3375",
+        "lhs": "15**3",
+        "fragment": "计算结果如下:\n\n(347+84)*15的结果是 6465。\n\n8069*6563等于 52956847。\n\n15**3的结果是 3375"
+      }
+    ]
+  },
+  {
+    "sha256": "342a740f8d7a0d3bf3dba4fbefd87822bc368d353a4abdaefc0a7acf7fffec3f",
+    "question": "Calculate 711+730*24. Plus, 6984*1788的结果是什么. Additionally, (223-220)+92*61的结果是什么",
+    "final": "The calculations are as follows:\n\n1. \\(711 + 730 \\times 24 = 18231\\)\n2. \\(6984 \\times 1788 = 12487392\\)\n3. \\((223 - 220) + 92 \\times 61 = 5615\\)",
+    "gt": [
+      "18231",
+      "12487392",
+      "5615"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "18231",
+        "lhs": "711 + 730 * 24",
+        "fragment": "The calculations are as follows:\n\n1. 711 + 730 * 24 = 18231"
+      },
+      {
+        "value": "12487392",
+        "lhs": "6984 * 1788",
+        "fragment": "The calculations are as follows:\n\n1. 711 + 730 * 24 = 18231\n2. 6984 * 1788 = 12487392"
+      },
+      {
+        "value": "5615",
+        "lhs": "(223 - 220) + 92 * 61",
+        "fragment": "tions are as follows:\n\n1. 711 + 730 * 24 = 18231\n2. 6984 * 1788 = 12487392\n3. (223 - 220) + 92 * 61 = 5615"
+      }
+    ]
+  },
+  {
+    "sha256": "b7c503bff2c1ad5295a2718fa84edaf0b7f5c1a4533f5e21e975ad06765cae6c",
+    "question": "(5-557)+37*62的结果是什么",
+    "final": "计算结果是 1742。",
+    "gt": [
+      "1742"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "1742",
+        "lhs": null,
+        "fragment": "计算结果是 1742"
+      }
+    ]
+  },
+  {
+    "sha256": "8130dcd933194537e431e2db86b0e3b9a4a12765c75b3e3b8b461a3124019182",
+    "question": "848+531*22的结果是什么",
+    "final": "848加上531乘以22的结果是12530。",
+    "gt": [
+      "12530"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "12530",
+        "lhs": "848+531*22",
+        "fragment": "848+531*22的结果是12530"
+      }
+    ]
+  },
+  {
+    "sha256": "70fd0e900062c68012eb0af3c62c8f6f0dfcb8d6183afff2cda8d60b445e547a",
+    "question": "(656-618)+65*20的结果是什么",
+    "final": "计算结果是 1338。",
+    "gt": [
+      "1338"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "1338",
+        "lhs": null,
+        "fragment": "计算结果是 1338"
+      }
+    ]
+  },
+  {
+    "sha256": "1ce63d9fcf7377e45846dda12fa169f250806347687547b4a3f4c5b1a9478073",
+    "question": "帮我算一下(138+820)*25等于多少",
+    "final": "计算结果是：23950。",
+    "gt": [
+      "23950"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "23950",
+        "lhs": null,
+        "fragment": "计算结果是:23950"
+      }
+    ]
+  },
+  {
+    "sha256": "ede073693505fd84bf844afed315e8f9c87686a34e39c549886ed40a82e2ddf4",
+    "question": "945+689*17的结果是什么，顺便算算(682-817)+71*10",
+    "final": "945+689*17的结果是12658。(682-817)+71*10的结果是575。",
+    "gt": [
+      "12658",
+      "575"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "12658",
+        "lhs": "945+689*17",
+        "fragment": "945+689*17的结果是12658"
+      },
+      {
+        "value": "575",
+        "lhs": "(682-817)+71*10",
+        "fragment": "945+689*17的结果是12658。(682-817)+71*10的结果是575"
+      }
+    ]
+  },
+  {
+    "sha256": "0bc149b44a775e2ea5d7b700afe99c231edbf2493acfe9840819b1dea25f3a46",
+    "question": "(919-143)+4*24的结果是什么",
+    "final": "计算结果是 872。",
+    "gt": [
+      "872"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "872",
+        "lhs": null,
+        "fragment": "计算结果是 872"
+      }
+    ]
+  },
+  {
+    "sha256": "110baa872b37d927fd104fd4b1db586f758b2ea50f0f97de703ae619a8a0c2a1",
+    "question": "Compute (216-951)+25*90 for me. And 请计算447+331*20. Also, 帮我算一下732+580*19等于多少",
+    "final": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067.\nThe result of 732+580*19 is 11752.",
+    "gt": [
+      "1515",
+      "7067",
+      "11752"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "1515",
+        "lhs": "(216-951)+25*90",
+        "fragment": "The result of (216-951)+25*90 is 1515"
+      },
+      {
+        "value": "7067",
+        "lhs": "447+331*20",
+        "fragment": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067"
+      },
+      {
+        "value": "11752",
+        "lhs": "732+580*19",
+        "fragment": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067.\nThe result of 732+580*19 is 11752"
+      }
+    ]
+  },
+  {
+    "sha256": "e563b70e11198ec69b0b0f590859a01ae6c71c1ff5920168eb33d63d7c19a8b9",
+    "question": "请计算648/4",
+    "final": "648除以4等于162。",
+    "gt": [
+      "162"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "162",
+        "lhs": "648/4",
+        "fragment": "648/4等于162"
+      }
+    ]
+  },
+  {
+    "sha256": "30a4500e4142cce7367511cbd19d47847224ae419c38e5d3d1941c5d9aaee5b0",
+    "question": "帮我算一下4**2等于多少，同时what is 510/5?",
+    "final": "4的平方等于16。510除以5的结果是102.0。",
+    "gt": [
+      "16",
+      "102"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "16",
+        "lhs": "4**2",
+        "fragment": "4**2等于16"
+      },
+      {
+        "value": "102",
+        "lhs": "510/5",
+        "fragment": "4**2等于16。510/5的结果是102.0"
+      }
+    ]
+  },
+  {
+    "sha256": "4d349a833b913b6f8af758fde64bb6ed6d10c7c40fa4a917830bb592edbfd989",
+    "question": "算算7**3，还有17**3的结果是什么",
+    "final": "7的三次方等于343，17的三次方等于4913。",
+    "gt": [
+      "343",
+      "4913"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "343",
+        "lhs": "7**3",
+        "fragment": "7**3等于343"
+      },
+      {
+        "value": "4913",
+        "lhs": "17**3",
+        "fragment": "7**3等于343;17**3等于4913"
+      }
+    ]
+  },
+  {
+    "sha256": "4cb4c063876b2d4422f87d70209beccbe00aba81948034249dae2307a68ee811",
+    "question": "请计算648/4",
+    "final": "648除以4的结果是162。",
+    "gt": [
+      "162"
+    ],
+    "status": "pass",
+    "reason": "all_explicit_claims_consistent_and_covered",
+    "claims": [
+      {
+        "value": "162",
+        "lhs": "648/4",
+        "fragment": "648/4的结果是162"
+      }
+    ]
+  },
+  {
+    "sha256": "d9dd57b7918fc150a2fac3da0e87fb631467ec3def62c06bbd7a0d3b41cf6186",
+    "question": "Compute (471+483)*25 for me. Also, 请计算(262-7)+59*3. Also, 算算(395-421)+98*46",
+    "final": "The result of (471+483)*25 is 23850.\nThe sum of (262-7)+59*3 is 4482.\nAnd (395-421)+98*46 is 4482.",
+    "gt": [
+      "23850",
+      "432",
+      "4482"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "23850",
+        "lhs": "(471+483)*25",
+        "fragment": "The result of (471+483)*25 is 23850"
+      },
+      {
+        "value": "4482",
+        "lhs": "(262-7)+59*3",
+        "fragment": "The result of (471+483)*25 is 23850.\nThe sum of (262-7)+59*3 is 4482"
+      }
+    ]
+  },
+  {
+    "sha256": "c038caee01e8e909703843ab2206bafa1ba534c9acb0c063499302963da852cc",
+    "question": "(955+526)*3的结果是什么，同时calculate (348+564)*29，还有calculate 2787-7060",
+    "final": "(955+526)*3的结果是 26448。\n(348+564)*29的结果是 26448。\n2787-7060",
+    "gt": [
+      "4443",
+      "26448",
+      "-4273"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "26448",
+        "lhs": "(955+526)*3",
+        "fragment": "(955+526)*3的结果是 26448"
+      }
+    ]
+  },
+  {
+    "sha256": "4e1b93ff10203d2b76e7fcfadf1f9077dbe95fb8ce559c1f5e27c2ea82a45c1a",
+    "question": "算算6**2，另外8807-4602的结果是什么，同时帮我算一下(549-956)+82*41等于多少",
+    "final": "6的平方是 36。\n\n(549-956)+82*41的结果是4205。\n\n(549-956)+82*41的结果是2955。",
+    "gt": [
+      "36",
+      "4205",
+      "2955"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "36",
+        "lhs": "6**2",
+        "fragment": "6**2是 36"
+      },
+      {
+        "value": "4205",
+        "lhs": "(549-956)+82*41",
+        "fragment": "6**2是 36。\n\n(549-956)+82*41的结果是4205"
+      }
+    ]
+  },
+  {
+    "sha256": "cf9eb7a88b8b217eaa2e0f193d8f753c25579f55370157c20f505c9d97990712",
+    "question": "1450+4842的结果是什么，并且请计算805+421*23，还有calculate 5796/12",
+    "final": "1450+4842的结果是6292。  \n82除以12等于10488。  \n5796除以12等于483.0。",
+    "gt": [
+      "6292",
+      "10488",
+      "483"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "6292",
+        "lhs": "1450+4842",
+        "fragment": "1450+4842的结果是6292"
+      },
+      {
+        "value": "10488",
+        "lhs": "82/12",
+        "fragment": "1450+4842的结果是6292。  \n82/12等于10488"
+      }
+    ]
+  },
+  {
+    "sha256": "af7e0bce3d4b8cc7c08351afdcc4dc15d4a93dce718c62fdaddacd316328251c",
+    "question": "Compute (234+958)*19 for me. Additionally, 11872/28的结果是什么",
+    "final": "The result of (234+958)*19 is 18436. The sum of 11872 and 288 is 424.0.",
+    "gt": [
+      "22648",
+      "424"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "18436",
+        "lhs": "(234+958)*19",
+        "fragment": "The result of (234+958)*19 is 18436"
+      }
+    ]
+  },
+  {
+    "sha256": "211ca3624e8e1d7569c074ec5c886192714cd6626c1ae70a1ef229d911359d17",
+    "question": "Compute (542+305)*8 for me",
+    "final": "The result of the expression (542+305)*8 is 2982.",
+    "gt": [
+      "6776"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "2982",
+        "lhs": "(542+305)*8",
+        "fragment": "The result of the expression (542+305)*8 is 2982"
+      }
+    ]
+  },
+  {
+    "sha256": "14051767e576d93eb966adb0d1d114b217f414d9070caf71641ea77e7c808b0c",
+    "question": "算算(959+590)*16，并且501/3的结果是什么，同时compute 6578+5110 for me",
+    "final": "计算结果如下：\n\n1. (959 + 590) * 16 = 24784\n2. 501 / 3 = 11688\n3. 6578 + 5110 = 11688",
+    "gt": [
+      "24784",
+      "167",
+      "11688"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "24784",
+        "lhs": "(959 + 590) * 16",
+        "fragment": "计算结果如下:\n\n1. (959 + 590) * 16 = 24784"
+      },
+      {
+        "value": "11688",
+        "lhs": "501 / 3",
+        "fragment": "计算结果如下:\n\n1. (959 + 590) * 16 = 24784\n2. 501 / 3 = 11688"
+      }
+    ]
+  },
+  {
+    "sha256": "4202228df3804742aa02bf46a19f579647169f63f525dd1090afb0fad66718f6",
+    "question": "Compute 4600-3841 for me. Also, 算算2280/5. Also, compute 228+936*12 for me",
+    "final": "The result of 4600 minus 3841 is 959. The sum of 228 and 936 is 456.0.",
+    "gt": [
+      "759",
+      "456",
+      "11460"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "959",
+        "lhs": "4600 - 3841",
+        "fragment": "The result of 4600 - 3841 is 959"
+      }
+    ]
+  },
+  {
+    "sha256": "63a5013ca4cf8d25610411cde760c56f92242adac8a9d9b855f1ab25ab5cb678",
+    "question": "帮我算一下83+963*23等于多少，同时compute (998+776)*30 for me",
+    "final": "83+963*23等于223222222277732。",
+    "gt": [
+      "22232",
+      "53220"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "223222222277732",
+        "lhs": "83+963*23",
+        "fragment": "83+963*23等于223222222277732"
+      }
+    ]
+  },
+  {
+    "sha256": "0b3bb5a26a706a7353825a47a5649e186c7e97a6b4b28d353ba3f47a9e81acb3",
+    "question": "帮我算一下18**3等于多少，另外what is 302+772*11?，另外算算3240/30",
+    "final": "18的三次方等于5832。\n3240除以30等于8794。\n3240除以30等于108.0。",
+    "gt": [
+      "5832",
+      "8794",
+      "108"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "5832",
+        "lhs": "18**3",
+        "fragment": "18**3等于5832"
+      },
+      {
+        "value": "8794",
+        "lhs": "3240/30",
+        "fragment": "18**3等于5832。\n3240/30等于8794"
+      }
+    ]
+  },
+  {
+    "sha256": "97f457f771bd0885ffdd9172e522168c6c118fed5e5c1412c7813dc611feb28d",
+    "question": "What is 7686/21?. Additionally, what is 525/21?. And 请计算3312/16",
+    "final": "The result of 7686 divided by 21 is 366.0.\nThe result of 525 divided by 21 is 25.0.\nAnd the result of 33312 / 16 is 207.0.",
+    "gt": [
+      "366",
+      "25",
+      "207"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "366",
+        "lhs": "7686 / 21",
+        "fragment": "The result of 7686 / 21 is 366.0"
+      },
+      {
+        "value": "25",
+        "lhs": "525 / 21",
+        "fragment": "The result of 7686 / 21 is 366.0.\nThe result of 525 / 21 is 25.0"
+      },
+      {
+        "value": "207",
+        "lhs": "33312 / 16",
+        "fragment": "The result of 7686 / 21 is 366.0.\nThe result of 525 / 21 is 25.0.\nAnd the result of 33312 / 16 is 207.0"
+      }
+    ]
+  },
+  {
+    "sha256": "5180a7749da0949b0818e39ad3f973e79fdcf343591ec64685255b134ee551e7",
+    "question": "Compute 346+707*5 for me. Also, what is 18**2?",
+    "final": "The result of 346+707*5 is 421.",
+    "gt": [
+      "3881",
+      "324"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "421",
+        "lhs": "346+707*5",
+        "fragment": "The result of 346+707*5 is 421"
+      }
+    ]
+  },
+  {
+    "sha256": "93ec0c28b2a77f18aed9ce207710410bf96fae5f7ccb2a9f87ed31e08be9c79a",
+    "question": "(344+736)*13的结果是什么，还有算算(801+483)*2，另外8098+8196的结果是什么",
+    "final": "计算结果如下：\n\n(344+736)*13 = 14040\n(801+483)*2 = 2568\n\n(801+483)*2 = 16294\n\n最后，8098+8196的结果是16294。",
+    "gt": [
+      "14040",
+      "2568",
+      "16294"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "14040",
+        "lhs": "(344+736)*13",
+        "fragment": "计算结果如下:\n\n(344+736)*13 = 14040"
+      },
+      {
+        "value": "2568",
+        "lhs": "(801+483)*2",
+        "fragment": "计算结果如下:\n\n(344+736)*13 = 14040\n(801+483)*2 = 2568"
+      },
+      {
+        "value": "16294",
+        "lhs": "(801+483)*2",
+        "fragment": "计算结果如下:\n\n(344+736)*13 = 14040\n(801+483)*2 = 2568\n\n(801+483)*2 = 16294"
+      }
+    ]
+  },
+  {
+    "sha256": "fce1e8b8b4eaf1b614b4552bb0afa94685ce99b0223be0c07dae28814510ca1d",
+    "question": "算算(93+995)*30，还有what is (709+448)*24?，顺便请计算888+209*25",
+    "final": "计算结果如下：\n\n1. (93 + 995) * 30 = 29943\n2. (709 + 448) * 24 = 27768\n3. 888 + 209 * 25 = 6113",
+    "gt": [
+      "32640",
+      "27768",
+      "6113"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "29943",
+        "lhs": "(93 + 995) * 30",
+        "fragment": "计算结果如下:\n\n1. (93 + 995) * 30 = 29943"
+      }
+    ]
+  },
+  {
+    "sha256": "4b8c854cb9d11e806ecab0fb0a01833d268d6642f97ff4c876c489dfda130fa9",
+    "question": "算算(959+590)*16，并且501/3的结果是什么，同时compute 6578+5110 for me",
+    "final": "计算结果如下：\n\n(959 + 590) * 16 = 24784\n6578 + 5110 = 167.0\n6578 + 5110 = 11688\n\n因此，(959 + 590) * 16 的结果是 167.0。",
+    "gt": [
+      "24784",
+      "167",
+      "11688"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "24784",
+        "lhs": "(959 + 590) * 16",
+        "fragment": "计算结果如下:\n\n(959 + 590) * 16 = 24784"
+      },
+      {
+        "value": "167",
+        "lhs": "6578 + 5110",
+        "fragment": "计算结果如下:\n\n(959 + 590) * 16 = 24784\n6578 + 5110 = 167.0"
+      }
+    ]
+  },
+  {
+    "sha256": "57ab6ebabe520bdee9c0f1d414a783ac50024aa99ecbc548854ad9cb7b96e77e",
+    "question": "算算6032/13，另外calculate 774+319*26，顺便calculate (147-240)+24*87",
+    "final": "6032除以13的结果是464.0，774加上319乘以26的结果是94868。(147-240)+24*87的结果是1995。",
+    "gt": [
+      "464",
+      "9068",
+      "1995"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "464",
+        "lhs": "6032/13",
+        "fragment": "6032/13的结果是464.0"
+      },
+      {
+        "value": "94868",
+        "lhs": "774+319*26",
+        "fragment": "6032/13的结果是464.0;774+319*26的结果是94868"
+      }
+    ]
+  },
+  {
+    "sha256": "22674dfca7a4637210dadf27282861f929593376c70a2e7d00f95cc45b6bf58e",
+    "question": "(697-467)+19*77的结果是什么，还有compute 765+682*29 for me，并且924/3的结果是什么",
+    "final": "(697-467)+19*77的结果是 1693。765+682*29的结果是 308.0。924/3的结果是 308.0。",
+    "gt": [
+      "1693",
+      "20543",
+      "308"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "1693",
+        "lhs": "(697-467)+19*77",
+        "fragment": "(697-467)+19*77的结果是 1693"
+      },
+      {
+        "value": "308",
+        "lhs": "765+682*29",
+        "fragment": "(697-467)+19*77的结果是 1693。765+682*29的结果是 308.0"
+      }
+    ]
+  },
+  {
+    "sha256": "8a1dce2c490a0a6ede72a6dfb0076bba12bbb962936f53debbdb7b7def8f22c0",
+    "question": "What is 691+319*9?. Plus, compute 4719/11 for me",
+    "final": "The result of 691 + 319 * 9 is 610.\nThe sum of 4719 divided by 11 is 429.0.",
+    "gt": [
+      "3562",
+      "429"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "610",
+        "lhs": "691 + 319 * 9",
+        "fragment": "The result of 691 + 319 * 9 is 610"
+      }
+    ]
+  },
+  {
+    "sha256": "c0aa18979fa061bfc991b4c84ed07a8ee18dfd8a9d7700d97a4d4c747c269a7c",
+    "question": "帮我算一下(715+451)*10等于多少，同时compute (364-593)+47*45 for me，另外compute 4176/18 for me",
+    "final": "计算结果如下：\n\n1. \\( (715 + 451) * 10 = 11660 \\)\n2. \\( (364 - 593) + 47 * 45 = 232.0 \\)\n3. \\( 4176 / 18 = 232.0 \\)",
+    "gt": [
+      "11660",
+      "1886",
+      "232"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "11660",
+        "lhs": "(715 + 451) * 10",
+        "fragment": "计算结果如下:\n\n1.  (715 + 451) * 10 = 11660"
+      },
+      {
+        "value": "232",
+        "lhs": "(364 - 593) + 47 * 45",
+        "fragment": "计算结果如下:\n\n1.  (715 + 451) * 10 = 11660 \n2.  (364 - 593) + 47 * 45 = 232.0"
+      }
+    ]
+  },
+  {
+    "sha256": "ab4c8847b112f746bfc5b4a45ea7e5417acdb9f852f45486ff53f5270bc917b4",
+    "question": "算算6**3",
+    "final": "6的三次方等于284。",
+    "gt": [
+      "216"
+    ],
+    "status": "fail",
+    "reason": "false_arithmetic_claim",
+    "claims": [
+      {
+        "value": "284",
+        "lhs": "6**3",
+        "fragment": "6**3等于284"
+      }
+    ]
+  }
+]

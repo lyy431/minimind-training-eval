@@ -1,0 +1,29 @@
+# Local models, training state and caches
+*.pth
+*.pt
+*.safetensors
+*.bin
+*.pyc
+__pycache__/
+checkpoints/
+out/
+my_eval/runtime/
+.cache/
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+*.tmp
+*.zip
+.DS_Store
+
+# Large source corpora stay outside Git; small published splits remain included.
+dataset/pretrain_t2t_mini.jsonl
+dataset/sft_t2t_mini.jsonl
+dataset/dpo.jsonl
+dataset/dpo_train.jsonl
+dataset/rlaif.jsonl
+dataset/agent_rl_math.jsonl
+dataset/agent_math_train.jsonl

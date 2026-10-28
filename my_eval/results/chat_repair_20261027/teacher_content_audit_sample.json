@@ -1,0 +1,146 @@
+[
+  {
+    "id": "teacher_52",
+    "question": "一部××（车名）轿车，在高速状态下加速和转弯的性能程度如何解释？",
+    "source_kind": "general",
+    "answer": "这部××轿车在高速状态下加速和转弯的表现取决于其具体设计和技术参数。一般来说，高性能轿车在高速加速时能够提供良好的动力响应和加速能力，而转弯性能则依赖于车辆的操控性、轮胎抓地力以及悬挂系统的特性。\n\n为了更准确地评估其性能，建议查看该车型的技术规格表或咨询专业的汽车评测网站和论坛，这些资源可以提供详细的测试数据和专业评价。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 91
+  },
+  {
+    "id": "teacher_124",
+    "question": "给定以下三组reddbot参数，请通过函数对函数",
+    "source_kind": "general",
+    "answer": "请提供具体的reddbot参数以便我进行比较和计算。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 14
+  },
+  {
+    "id": "teacher_366",
+    "question": "Give a short, direct answer: What does a lamp help you do?",
+    "source_kind": "knowledge",
+    "answer": "A lamp helps you read or see in low light.",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 12
+  },
+  {
+    "id": "teacher_197",
+    "question": "What should you do when returning fire at an active shooter? Aim for the largest part of their body.",
+    "source_kind": "general",
+    "answer": "When returning fire at an active shooter, aim for the torso to minimize casualties and maximize effectiveness in stopping the threat.",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 24
+  },
+  {
+    "id": "teacher_14",
+    "question": "现在是什么时间啊 我想看看今天早上发生的科技新闻有哪些",
+    "source_kind": "general",
+    "answer": "对不起，我无法提供实时的当前时间和科技新闻。你可以查看你的设备上的时间或者访问一些可靠的新闻网站来获取这些信息。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 30
+  },
+  {
+    "id": "teacher_478",
+    "question": "Give a short, direct answer: Why is it helpful to explain unfamiliar words?",
+    "source_kind": "knowledge",
+    "answer": "It helps clarify meaning and avoid confusion.",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 9
+  },
+  {
+    "id": "teacher_169",
+    "question": "目前如何治疗外阴白斑，主要症状:外阴有眼皮导向,皮肤色白?发病时间:发现时间过了快二年化验检查结果:外阴出现有白色色斑",
+    "source_kind": "general",
+    "answer": "对于外阴白斑的治疗，建议您咨询专业的医生以获得准确的诊断和治疗方案。一般来说，治疗方法可能包括药物治疗、物理治疗等。具体措施应根据病情严重程度和个人情况由专业医生决定。请尽快就医并遵循医嘱进行治疗。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 58
+  },
+  {
+    "id": "teacher_313",
+    "question": "回答下列封闭性问题：苏格拉底是古希腊的哲学家吗？",
+    "source_kind": "general",
+    "answer": "是的，苏格拉底是古希腊的哲学家。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 15
+  },
+  {
+    "id": "teacher_274",
+    "question": "一个口渴的旅行者在沙漠中找到了一个绿洲。他喝了32盎司的水。他的骆驼喝了他的七倍。一加仑有128盎司。他们总共喝了多少加仑的水？",
+    "source_kind": "general",
+    "answer": "首先计算骆驼喝水的量：32盎司 * 7 = 224盎司。\n\n然后将骆驼和旅行者的总水量转换成加仑：(32 + 224) / 128 = 256 / 128 = 2加仑。\n\n所以他们总共喝了2加仑的水。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 78
+  },
+  {
+    "id": "teacher_346",
+    "question": "新手提问，请简单说明：剪刀和胶水的用途有什么不同？",
+    "source_kind": "knowledge",
+    "answer": "剪刀主要用于裁剪纸张、布料等软性材料，而胶水则用于粘合硬质材料如木材、金属等。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 32
+  },
+  {
+    "id": "teacher_409",
+    "question": "请直接用一两句话作答：为什么搬运易碎物品时要轻拿轻放？",
+    "source_kind": "knowledge",
+    "answer": "搬运易碎物品时要轻拿轻放是为了避免损坏物品。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 16
+  },
+  {
+    "id": "teacher_215",
+    "question": "你看过电影《猫王》（Elvis）吗？",
+    "source_kind": "general",
+    "answer": "是的，我看过这部电影。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 8
+  },
+  {
+    "id": "teacher_447",
+    "question": "Please answer concisely: Why is it useful to arrive before an event starts?",
+    "source_kind": "knowledge",
+    "answer": "Arriving early for an event can help you avoid missing important details or getting stuck in a crowded area. It also allows you to find your seat, check the venue layout, and familiarize yourself with any rules or procedures beforehand.",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 47
+  },
+  {
+    "id": "teacher_405",
+    "question": "Use one or two simple sentences: Why is it useful to keep a shopping list?",
+    "source_kind": "knowledge",
+    "answer": "Keeping a shopping list helps you remember what items you need, avoid buying duplicates, and stay within your budget.",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 23
+  },
+  {
+    "id": "teacher_433",
+    "question": "请直接用一两句话作答：请简单解释门锁的用途。",
+    "source_kind": "knowledge",
+    "answer": "门锁用于防止未经授权的人进入房间或建筑物。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 12
+  },
+  {
+    "id": "teacher_464",
+    "question": "请用简短直白的话回答：为什么共同使用的物品用完要放回原位？",
+    "source_kind": "knowledge",
+    "answer": "因为这样可以保持环境整洁有序，方便他人和自己下次使用。",
+    "complete": true,
+    "accepted": true,
+    "generated_tokens": 16
+  }
+]

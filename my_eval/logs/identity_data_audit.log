@@ -1,0 +1,15 @@
+{
+  "overlap_counts_by_normalized_user_conversation": {
+    "dev_math": 0,
+    "final_math": 0,
+    "dev_language": 0,
+    "final_language": 0,
+    "identity_and_general_questions": 0
+  },
+  "training_rows": 1382,
+  "unique_self_replay": 128,
+  "replay_strict_checks_passed": true,
+  "numeric_boundary_cases_passed": true,
+  "system_prompt_present_in_rendered_input": true,
+  "training_sha256": "50be8e0720c8c8d7ad48135a4c6a66d60fe0bc5cf2355a40ac449ef06a4f2de5"
+}

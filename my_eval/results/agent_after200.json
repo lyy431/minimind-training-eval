@@ -1,0 +1,6532 @@
+{
+ "agent": [
+  {
+   "problem": 0,
+   "gt": [
+    "27794"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"905 + 164\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"905 + 164\"}}\n</tool_call>",
+    "905+164 = **1069**"
+   ]
+  },
+  {
+   "problem": 0,
+   "gt": [
+    "27794"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(905+164)*26\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(905 + 164)*26\"}}\n</tool_call>",
+    "905+164的结果是27794。"
+   ]
+  },
+  {
+   "problem": 1,
+   "gt": [
+    "224",
+    "990"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4704/21\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9210-8220\"}}\n</tool_call>",
+    "4704/21的结果是224。"
+   ]
+  },
+  {
+   "problem": 1,
+   "gt": [
+    "224",
+    "990"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4704/21\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9210/21\"}}\n</tool_call>",
+    "4704/21的结果是224.0。"
+   ]
+  },
+  {
+   "problem": 2,
+   "gt": [
+    "6465",
+    "52956847",
+    "3375"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8069*6563\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8069*6563\"}}\n</tool_call>",
+    "The result of $52956847$ is $52956847$."
+   ]
+  },
+  {
+   "problem": 2,
+   "gt": [
+    "6465",
+    "52956847",
+    "3375"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(347+84)*15\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(347+84)*15\"}}\n</tool_call>",
+    "(347+84)*15的结果是6465。  \n\n8465 等于 **6465**。"
+   ]
+  },
+  {
+   "problem": 3,
+   "gt": [
+    "324",
+    "1120",
+    "4318"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"186 + 467*2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"186 + 467*2\"}}\n</tool_call>",
+    "186 + 467*2的结果是1120。"
+   ]
+  },
+  {
+   "problem": 3,
+   "gt": [
+    "324",
+    "1120",
+    "4318"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"186 + 467*2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"186 + 467*2\"}}\n</tool_call>",
+    "186 + 467*2的结果是1120。"
+   ]
+  },
+  {
+   "problem": 4,
+   "gt": [
+    "2579",
+    "121"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"641+114*17\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"641 + 114*17\"}}\n</tool_call>",
+    "641+114*17的结果是2579。"
+   ]
+  },
+  {
+   "problem": 4,
+   "gt": [
+    "2579",
+    "121"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"641 + 114*17\"}}\n</tool_call>",
+    "我已经成功计算了641+114*17的结果，并使用了竖式计算器来计算了741+114=2579。"
+   ]
+  },
+  {
+   "problem": 5,
+   "gt": [
+    "6165",
+    "96",
+    "11878"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8657 - 2492\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1344/14\"}}\n</tool_call>",
+    "8657-2492等于6165。\n\n1344/14等于1344/14。"
+   ]
+  },
+  {
+   "problem": 5,
+   "gt": [
+    "6165",
+    "96",
+    "11878"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8657-2492\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8657-2492\"}}\n</tool_call>",
+    "8657-2492等于6165。"
+   ]
+  },
+  {
+   "problem": 6,
+   "gt": [
+    "-4704",
+    "1962",
+    "2479"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"579-5283\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"539-173\"}}\n</tool_call>",
+    "579-5283的结果是：-4704。"
+   ]
+  },
+  {
+   "problem": 6,
+   "gt": [
+    "-4704",
+    "1962",
+    "2479"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"539-173\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"539-173\"}}\n</tool_call>",
+    "539-5283的结果是366。"
+   ]
+  },
+  {
+   "problem": 7,
+   "gt": [
+    "3184",
+    "29770",
+    "742716"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(336 + 62)*8\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(336 + 62)*8\"}}\n</tool_call>",
+    "The result of (336+62)*8 is 3184."
+   ]
+  },
+  {
+   "problem": 7,
+   "gt": [
+    "3184",
+    "29770",
+    "742716"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"336+62\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"695+450\"}}\n</tool_call>",
+    "The result of \\(398\\) and \\(268\\) is 398."
+   ]
+  },
+  {
+   "problem": 8,
+   "gt": [
+    "466",
+    "4096"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16**3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16**3\"}}\n</tool_call>",
+    "The result of (74+159)*2 is 4096."
+   ]
+  },
+  {
+   "problem": 8,
+   "gt": [
+    "466",
+    "4096"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16 * 2\"}}\n</tool_call>",
+    "The expression (74+159) * 2 is 32."
+   ]
+  },
+  {
+   "problem": 9,
+   "gt": [
+    "252",
+    "1728",
+    "27"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1260/5\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"252.0\"}}\n</tool_call>",
+    "翻译成\"252.0\"后得到 252.0。"
+   ]
+  },
+  {
+   "problem": 9,
+   "gt": [
+    "252",
+    "1728",
+    "27"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1260/5\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1260/5\"}}\n</tool_call>",
+    "252.0 的1260 用中文翻译成“252.0”是一个常用的标准英文缩写。"
+   ]
+  },
+  {
+   "problem": 10,
+   "gt": [
+    "250"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7500/30\"}}\n</tool_call>",
+    "The result of 7500/30 is 250."
+   ]
+  },
+  {
+   "problem": 10,
+   "gt": [
+    "250"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7500 / 30\"}}\n</tool_call>",
+    "The result of 7500/30 is 250.0."
+   ]
+  },
+  {
+   "problem": 11,
+   "gt": [
+    "11660",
+    "1886",
+    "232"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(715 + 499)*10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(715 + 499)*10\"}}\n</tool_call>",
+    "(715+451)*10 的计算结果是 12140。"
+   ]
+  },
+  {
+   "problem": 11,
+   "gt": [
+    "11660",
+    "1886",
+    "232"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(715+451)*10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(715+451)*10\"}}\n</tool_call>",
+    "(715+451)*10 等于 11660。"
+   ]
+  },
+  {
+   "problem": 12,
+   "gt": [
+    "-24",
+    "1212",
+    "484"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"750-774\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"750-774\"}}\n</tool_call>",
+    "144-812的结果是 **24**。"
+   ]
+  },
+  {
+   "problem": 12,
+   "gt": [
+    "-24",
+    "1212",
+    "484"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"750-774\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"750-774\"}}\n</tool_call>",
+    "750-774的结果是24。"
+   ]
+  },
+  {
+   "problem": 13,
+   "gt": [
+    "114",
+    "18457555",
+    "8877"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"246+959*9\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"246+959*9\"}}\n</tool_call>",
+    "246+959*9等于8877。"
+   ]
+  },
+  {
+   "problem": 13,
+   "gt": [
+    "114",
+    "18457555",
+    "8877"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"246 + 959*9\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"246 + 959*9\"}}\n</tool_call>",
+    "246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959=246+959"
+   ]
+  },
+  {
+   "problem": 14,
+   "gt": [
+    "2198",
+    "18960"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(476-555) +99*23\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(476-555) +99*23\"}}\n</tool_call>",
+    "(476-555)+99*23等于2198。"
+   ]
+  },
+  {
+   "problem": 14,
+   "gt": [
+    "2198",
+    "18960"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(476-555) +99*23\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(701+247)*20\"}}\n</tool_call>",
+    "(476-555)+99*23等于2198。"
+   ]
+  },
+  {
+   "problem": 15,
+   "gt": [
+    "5832"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18**3\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18 * 5832\"}}\n</tool_call>",
+    "The result of 18 + 5832 is 104976."
+   ]
+  },
+  {
+   "problem": 15,
+   "gt": [
+    "5832"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18 * 3\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18 * 3\"}}\n</tool_call>",
+    "The result of 18 is 54."
+   ]
+  },
+  {
+   "problem": 16,
+   "gt": [
+    "2901",
+    "353",
+    "1728"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12**3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12**3\"}}\n</tool_call>",
+    "The result of 191-146 (191-146) + 68*42 is **1728**."
+   ]
+  },
+  {
+   "problem": 16,
+   "gt": [
+    "2901",
+    "353",
+    "1728"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12*42\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12*42\"}}\n</tool_call>",
+    "The expression \"504\" + 68*42 is 504."
+   ]
+  },
+  {
+   "problem": 17,
+   "gt": [
+    "465",
+    "25001",
+    "343"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2325/5\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2325/5\"}}\n</tool_call>",
+    "2325/5等于465.0。  \n\n这个计算结果是：465.0。"
+   ]
+  },
+  {
+   "problem": 17,
+   "gt": [
+    "465",
+    "25001",
+    "343"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2325/5\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2325/5\"}}\n</tool_call>",
+    "2325/5等于465。"
+   ]
+  },
+  {
+   "problem": 18,
+   "gt": [
+    "15440",
+    "7409",
+    "8"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.6666666666666666,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(859+685)*10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(859+685)*10\"}}\n</tool_call>",
+    "(859+685)*10的结果是15440。"
+   ]
+  },
+  {
+   "problem": 18,
+   "gt": [
+    "15440",
+    "7409",
+    "8"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.6666666666666666,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(859+685)*10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(859+685)*10\"}}\n</tool_call>",
+    "(859+685)*10的结果是15440。"
+   ]
+  },
+  {
+   "problem": 19,
+   "gt": [
+    "331",
+    "9826"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3641 / 11\"}}\n</tool_call>",
+    "3641/11是241的11个字符，代表了从1到99的数字。"
+   ]
+  },
+  {
+   "problem": 19,
+   "gt": [
+    "331",
+    "9826"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3641/11\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"331.0\"}}\n</tool_call>",
+    "3641/11是从北京到上海的两天，共有331.0秒。"
+   ]
+  },
+  {
+   "problem": 20,
+   "gt": [
+    "22648",
+    "424"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"234+958\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"234 + 958\"}}\n</tool_call>",
+    "The result of multiplying 224 by 28, and then subtract 11872 to 341."
+   ]
+  },
+  {
+   "problem": 20,
+   "gt": [
+    "22648",
+    "424"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(234+958)*19\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(234+958)*19\"}}\n</tool_call>",
+    "234+958的结果是22648。"
+   ]
+  },
+  {
+   "problem": 21,
+   "gt": [
+    "437",
+    "2982"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4807/11\"}}\n</tool_call>",
+    "457.0等于437.0。"
+   ]
+  },
+  {
+   "problem": 21,
+   "gt": [
+    "437",
+    "2982"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4807/11\"}}\n</tool_call>",
+    "4807/11 is equal to 437.0."
+   ]
+  },
+  {
+   "problem": 22,
+   "gt": [
+    "7997",
+    "924",
+    "1331"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"389 + 317*24\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"389 + 317*24\"}}\n</tool_call>",
+    "389+317*24=7997。"
+   ]
+  },
+  {
+   "problem": 22,
+   "gt": [
+    "7997",
+    "924",
+    "1331"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"389 + 317*24\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"389 + 317*24\"}}\n</tool_call>",
+    "389+317*24等于7997。"
+   ]
+  },
+  {
+   "problem": 23,
+   "gt": [
+    "7282"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"632+30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"632 + 30\"}}\n</tool_call>",
+    "The result of (632+30)*11 is **662**."
+   ]
+  },
+  {
+   "problem": 23,
+   "gt": [
+    "7282"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(632+30)*11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(632+30)*11\"}}\n</tool_call>",
+    "The result of (632+30)*11 is 7282."
+   ]
+  },
+  {
+   "problem": 24,
+   "gt": [
+    "32085",
+    "12703",
+    "4852"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(559+836)*23\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(559+836)*23\"}}\n</tool_call>",
+    "259+836=32085。  \n32085 + 780*6=32085。"
+   ]
+  },
+  {
+   "problem": 24,
+   "gt": [
+    "32085",
+    "12703",
+    "4852"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(559+836)*23\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(559+836)*23\"}}\n</tool_call>",
+    "(559+836)*23 = 32085"
+   ]
+  },
+  {
+   "problem": 25,
+   "gt": [
+    "-8459",
+    "10320"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"53-8512\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"53-8512\"}}\n</tool_call>",
+    "53-8512  And compute 5315+5005  # (53-8512)"
+   ]
+  },
+  {
+   "problem": 25,
+   "gt": [
+    "-8459",
+    "10320"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "Calculate 53-8512. And compute 5315+5005\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"53-8512\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"53-8512\"}}\n</tool_call>",
+    "53-8512 is not provided here."
+   ]
+  },
+  {
+   "problem": 26,
+   "gt": [
+    "9647",
+    "36",
+    "28570950"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"963+334*26\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9175*3114\"}}\n</tool_call>",
+    "963+334*26的结果是 **28570950**。"
+   ]
+  },
+  {
+   "problem": 26,
+   "gt": [
+    "9647",
+    "36",
+    "28570950"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"967, 6**2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9175*3114\"}}\n</tool_call>",
+    "963+334*26的结果是28570950。"
+   ]
+  },
+  {
+   "problem": 27,
+   "gt": [
+    "335",
+    "-6448",
+    "225"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2977-9425\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2977-9425\"}}\n</tool_call>",
+    "2010/6的结果是 **-6448**。"
+   ]
+  },
+  {
+   "problem": 27,
+   "gt": [
+    "335",
+    "-6448",
+    "225"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2977-9425\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2977-9425\"}}\n</tool_call>",
+    "2577-9425的结果是 **-6448**。  \n计算过程是：\n- 计算：28.6625  \n- 结果：-6448。"
+   ]
+  },
+  {
+   "problem": 28,
+   "gt": [
+    "16",
+    "102"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4**2\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16\"}}\n</tool_call>",
+    "4**2等于16**。"
+   ]
+  },
+  {
+   "problem": 28,
+   "gt": [
+    "16",
+    "102"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 0,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_weather\", \"arguments\": {\"location\": \"Conversion\"}}\n</tool_call>",
+    "4**2等于**4**2**。"
+   ]
+  },
+  {
+   "problem": 29,
+   "gt": [
+    "292",
+    "298"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"482/14\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"482/14\"}}\n</tool_call>",
+    "4172/14是4172/14。"
+   ]
+  },
+  {
+   "problem": 29,
+   "gt": [
+    "292",
+    "298"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"876/3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"876/3\"}}\n</tool_call>",
+    "The result of 4172/14 is292.0."
+   ]
+  },
+  {
+   "problem": 30,
+   "gt": [
+    "36",
+    "4205",
+    "2955"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "先计算6**2，再乘以41，得到549-956，再乘以41，得到256-462。\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(549-956) + 82*41\"}}\n</tool_call>",
+    "6**2的结果是2955。"
+   ]
+  },
+  {
+   "problem": 30,
+   "gt": [
+    "36",
+    "4205",
+    "2955"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "计算6×2+82×41。\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6**2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6**2\"}}\n</tool_call>",
+    "6**2的结果是36。"
+   ]
+  },
+  {
+   "problem": 31,
+   "gt": [
+    "3881",
+    "324"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"346+707*5\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"346+707*5\"}}\n</tool_call>",
+    "The result of 18."
+   ]
+  },
+  {
+   "problem": 31,
+   "gt": [
+    "3881",
+    "324"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"346 + 75\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"346 +707*5\"}}\n</tool_call>",
+    "The result of 18. 😊"
+   ]
+  },
+  {
+   "problem": 32,
+   "gt": [
+    "4436",
+    "3375",
+    "36166"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(955+436)*26\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(955+436)*26\"}}\n</tool_call>",
+    "The result of 15 (36166) is 36166."
+   ]
+  },
+  {
+   "problem": 32,
+   "gt": [
+    "4436",
+    "3375",
+    "36166"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"15**3. Go\"}}\n</tool_call>",
+    "<tool_call>\n{\"error\": \"tool not found\"}"
+   ]
+  },
+  {
+   "problem": 33,
+   "gt": [
+    "19659",
+    "90"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"759+900*21\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"759 + 900*21\"}}\n</tool_call>",
+    "The 759+900*21 is 19659."
+   ]
+  },
+  {
+   "problem": 33,
+   "gt": [
+    "19659",
+    "90"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"759+900*21\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"759 + 900*21\"}}\n</tool_call>",
+    "The result of 759+900*21 is 19659."
+   ]
+  },
+  {
+   "problem": 34,
+   "gt": [
+    "7919"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8741 - 822\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8741 - 822\"}}\n</tool_call>",
+    "8741-822 is equal to 7919."
+   ]
+  },
+  {
+   "problem": 34,
+   "gt": [
+    "7919"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8741-822\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7919\"}}\n</tool_call>",
+    "8741-822 is not provided here."
+   ]
+  },
+  {
+   "problem": 35,
+   "gt": [
+    "4040"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(262+748)*4\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(426+748)*4\"}}\n</tool_call>",
+    "The result of 262 + 748 is 4040, and 4696 is 4."
+   ]
+  },
+  {
+   "problem": 35,
+   "gt": [
+    "4040"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(262+748)*4\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(262+748)*4\"}}\n</tool_call>",
+    "The result of $4040 $ and $4040$ is 4040."
+   ]
+  },
+  {
+   "problem": 36,
+   "gt": [
+    "30510",
+    "7774",
+    "441"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(969+161)*27\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(969+161)*27\"}}\n</tool_call>",
+    "(969+161)*27等于30510。"
+   ]
+  },
+  {
+   "problem": 36,
+   "gt": [
+    "30510",
+    "7774",
+    "441"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(969+161)*27\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(969+161)*27\"}}\n</tool_call>",
+    "(969+161)*27的结果是30510。"
+   ]
+  },
+  {
+   "problem": 37,
+   "gt": [
+    "373"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8579/23\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"373.0\"}}\n</tool_call>",
+    "373.0等于373.0。"
+   ]
+  },
+  {
+   "problem": 37,
+   "gt": [
+    "373"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8579/23\"}}\n</tool_call>",
+    "将8579/23写在表达式 `373.0` 中，得到373.0。"
+   ]
+  },
+  {
+   "problem": 38,
+   "gt": [
+    "1986",
+    "10197"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(203-89) +48*39\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(203-89) +48*39\"}}\n</tool_call>",
+    "(203-89)+48*39的结果是1986。"
+   ]
+  },
+  {
+   "problem": 38,
+   "gt": [
+    "1986",
+    "10197"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(203-89) +48*39\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(203-89) +48*39\"}}\n</tool_call>",
+    "(203-89)+48*39的结果是1986。"
+   ]
+  },
+  {
+   "problem": 39,
+   "gt": [
+    "6816"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"383+469\"}}\n</tool_call>",
+    "I have the number 383 and 469, and I want to calculate 852 as follows:  \n852 × 469 = 77344."
+   ]
+  },
+  {
+   "problem": 39,
+   "gt": [
+    "6816"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"383+469\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"383+469\"}}\n</tool_call>",
+    "383+469的结果是852。"
+   ]
+  },
+  {
+   "problem": 40,
+   "gt": [
+    "23352300",
+    "7760",
+    "81"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(562+990)*5\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(562+990)*5\"}}\n</tool_call>",
+    "9\n2的计算结果是7760。"
+   ]
+  },
+  {
+   "problem": 40,
+   "gt": [
+    "23352300",
+    "7760",
+    "81"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(562+990)*5. Also\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(562+990)*5\"}}\n</tool_call>",
+    "3100*7533 = 562 + 909 = 2268\n\n所以，3100*7533 = 562."
+   ]
+  },
+  {
+   "problem": 41,
+   "gt": [
+    "2309",
+    "4556"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5360 - 3051\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5360-3051\"}}\n</tool_call>",
+    "5360-3051 is equal to 2309."
+   ]
+  },
+  {
+   "problem": 41,
+   "gt": [
+    "2309",
+    "4556"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5360-3051\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5360 - 3051\"}}\n</tool_call>",
+    "The result of 5360-3051 is2309."
+   ]
+  },
+  {
+   "problem": 42,
+   "gt": [
+    "4305",
+    "394",
+    "7332"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(507+108)*7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(507+108)*7\"}}\n</tool_call>",
+    "507+108=4305。还有括号里的数学表达式是7486/19。"
+   ]
+  },
+  {
+   "problem": 42,
+   "gt": [
+    "4305",
+    "394",
+    "7332"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(507+108)*7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(507+108)*7\"}}\n</tool_call>",
+    "257+108等于4305。\n\n还有算算7486/19，再乘以12是多少呢？再乘以12，等于4305。"
+   ]
+  },
+  {
+   "problem": 43,
+   "gt": [
+    "5109",
+    "22836",
+    "1252"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 0,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_weather\", \"arguments\": {\"location\": \"10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"917 + 91, 534**\n</tool_call>",
+    "309+400*12=309°C\n\n接下来计算309+400*12=213°C\n\n答案是：213°C。"
+   ]
+  },
+  {
+   "problem": 43,
+   "gt": [
+    "5109",
+    "22836",
+    "1252"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_weather\", \"arguments\": {\"location\": \"917+953*23\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"309 + 400*12\"}}\n</tool_call>",
+    "309+400*12 = **229°C**\n\nCompute (158-817) + 21*91 = **65%**\n\n所以，约翰现在有309个汉字，其中包含 **365%**。"
+   ]
+  },
+  {
+   "problem": 44,
+   "gt": [
+    "224"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1568/7\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"224.0\"}}\n</tool_call>",
+    "The result of 1568/7 is 224.0."
+   ]
+  },
+  {
+   "problem": 44,
+   "gt": [
+    "224"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1568/7\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"224.0\"}}\n</tool_call>",
+    "The result of 1568/7 is **224.0**."
+   ]
+  },
+  {
+   "problem": 45,
+   "gt": [
+    "13"
+   ],
+   "n_calls": 3,
+   "unfinished": true,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 3,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"65/5\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13.0\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13.0\"}}\n</tool_call>"
+   ]
+  },
+  {
+   "problem": 45,
+   "gt": [
+    "13"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"65/5\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13.0\"}}\n</tool_call>",
+    "这两个货币的转换是“13.0”。"
+   ]
+  },
+  {
+   "problem": 46,
+   "gt": [
+    "177",
+    "457",
+    "365"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4602/26\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4602/26\"}}\n</tool_call>",
+    "4602/26的结果是177.0。"
+   ]
+  },
+  {
+   "problem": 46,
+   "gt": [
+    "177",
+    "457",
+    "365"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4602/26\"}}\n</tool_call>",
+    "452/26的结果是177.0。"
+   ]
+  },
+  {
+   "problem": 47,
+   "gt": [
+    "3562",
+    "429"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "Generate a more complex problem with the given column of numbers.\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"691+319*9\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"691+319*9\"}}\n</tool_call>",
+    "691+319*9等于3562。"
+   ]
+  },
+  {
+   "problem": 47,
+   "gt": [
+    "3562",
+    "429"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"691+319*9\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"691 + 319*9\"}}\n</tool_call>",
+    "691+319*9的结果是3562。"
+   ]
+  },
+  {
+   "problem": 48,
+   "gt": [
+    "10664",
+    "43"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"374+343*30\"}}\n</tool_call>",
+    "374+343*30的结果是10664。"
+   ]
+  },
+  {
+   "problem": 48,
+   "gt": [
+    "10664",
+    "43"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"374+343*30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"374+343*30\"}}\n</tool_call>",
+    "374+343*30的结果是10664。"
+   ]
+  },
+  {
+   "problem": 49,
+   "gt": [
+    "1077"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(343-345) + 83*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(343-345) + 83*13\"}}\n</tool_call>",
+    "(343-345)+83*13现在，让我们计算一下(343-345)+83*13的结果。首先，我们可以将343代入公式：\n\n343 + 345 = 778\n\n所以，(343-345)+83*13的结果是778。"
+   ]
+  },
+  {
+   "problem": 49,
+   "gt": [
+    "1077"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(343-345) + 83*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(343-345) + 83*13\"}}\n</tool_call>",
+    "(343-345)+83*13的结果是1077。"
+   ]
+  },
+  {
+   "problem": 50,
+   "gt": [
+    "1487"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"unit_converter\", \"arguments\": {\"value\": 100, \"from_unit\": \"kPositive\", \"to_unit\": \"+\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(751-430) + 22*53\"}}\n</tool_call>",
+    "151-430的结果是100。"
+   ]
+  },
+  {
+   "problem": 50,
+   "gt": [
+    "1487"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(751 - 430)+22*53\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(751 - 430) + 22*53\"}}\n</tool_call>",
+    "(751-430)+22*53的结果是1487。"
+   ]
+  },
+  {
+   "problem": 51,
+   "gt": [
+    "257",
+    "172",
+    "26381"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"173 + 974\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"173+974\"}}\n</tool_call>",
+    "The result of 344/2 is 1147."
+   ]
+  },
+  {
+   "problem": 51,
+   "gt": [
+    "257",
+    "172",
+    "26381"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"173+974\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"173 + 974\"}}\n</tool_call>",
+    "344/2 的计算结果是 **1147**。"
+   ]
+  },
+  {
+   "problem": 52,
+   "gt": [
+    "49",
+    "7136",
+    "4521"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(444-598)+85*55\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(444-598)+85*55\"}}\n</tool_call>",
+    "The result of 7. The Andrew away 248 + 492*14 is 444, 28, 35, 49, 25, 48, 69, 48, 61, 42, 72, 45, 55."
+   ]
+  },
+  {
+   "problem": 52,
+   "gt": [
+    "49",
+    "7136",
+    "4521"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**2. And what is (444-598)+85*55?\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**2. And what is (444-598)+85*55?\"}}\n</tool_call>",
+    "The expression \"7**2. And what is (444-598)+85*55?\" is: **444-598**."
+   ]
+  },
+  {
+   "problem": 53,
+   "gt": [
+    "6087",
+    "64"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"993+566*9\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"993 + 566*9\"}}\n</tool_call>",
+    "993+566*9的结果是6087。"
+   ]
+  },
+  {
+   "problem": 53,
+   "gt": [
+    "6087",
+    "64"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"993 + 566 * 9\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"993 + 566 * 9\"}}\n</tool_call>",
+    "993+566*9的结果是6087。"
+   ]
+  },
+  {
+   "problem": 54,
+   "gt": [
+    "366",
+    "25",
+    "207"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3312/16\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3312/16\"}}\n</tool_call>",
+    "The result of 7686/21 is **207.0**."
+   ]
+  },
+  {
+   "problem": 54,
+   "gt": [
+    "366",
+    "25",
+    "207"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3312/16\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3312/16\"}}\n</tool_call>",
+    "The result of 7686/21 is **207.0**."
+   ]
+  },
+  {
+   "problem": 55,
+   "gt": [
+    "62642424",
+    "2197",
+    "216"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6474 * 9676\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6474 * 9676\"}}\n</tool_call>",
+    "6474*9676的结果是62642424。\n\n“243”的值是3个汉字，所以答案是**3**。"
+   ]
+  },
+  {
+   "problem": 55,
+   "gt": [
+    "62642424",
+    "2197",
+    "216"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6474*9676\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6474*9676\"}}\n</tool_call>",
+    "6474*9676的结果是 **62642424**。\n\n1274×9676的结果是 **626424**。"
+   ]
+  },
+  {
+   "problem": 56,
+   "gt": [
+    "1693",
+    "20543",
+    "308"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"697-467\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"230\"}}\n</tool_call>",
+    "230 等于 2939。"
+   ]
+  },
+  {
+   "problem": 56,
+   "gt": [
+    "1693",
+    "20543",
+    "308"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"765 + 19*77\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"765 + 19*77\"}}\n</tool_call>",
+    "765+19*77的结果是2228。"
+   ]
+  },
+  {
+   "problem": 57,
+   "gt": [
+    "499"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14970/30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14970/30\"}}\n</tool_call>",
+    "14970/30等于499.0。"
+   ]
+  },
+  {
+   "problem": 57,
+   "gt": [
+    "499"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14970/30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14970/30\"}}\n</tool_call>",
+    "14970/30的解是499.0。"
+   ]
+  },
+  {
+   "problem": 58,
+   "gt": [
+    "9",
+    "6161",
+    "9057"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3**2.14-468\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"817+668*8\"}}\n</tool_call>",
+    "3**2. **3**2.14-468**"
+   ]
+  },
+  {
+   "problem": 58,
+   "gt": [
+    "9",
+    "6161",
+    "9057"
+   ],
+   "n_calls": 0,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 0,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3**2.1415**468*8. Plus, 817**.\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"817 + 668 * 8. ...\"}}\n</tool_call>"
+   ]
+  },
+  {
+   "problem": 59,
+   "gt": [
+    "216"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6**3\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6**3\"}}\n</tool_call>",
+    "6 **3 的计算结果是216。"
+   ]
+  },
+  {
+   "problem": 59,
+   "gt": [
+    "216"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6**3\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6**3\"}}\n</tool_call>",
+    "6**3等于216。"
+   ]
+  },
+  {
+   "problem": 60,
+   "gt": [
+    "1000",
+    "460",
+    "2712888"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"10**3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9660/21\"}}\n</tool_call>",
+    "10**3的结果是：1000。\n\n计算过程是：1000 + 1000 = 2000。"
+   ]
+  },
+  {
+   "problem": 60,
+   "gt": [
+    "1000",
+    "460",
+    "2712888"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"10 + 9660/21\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"10 + 9660/21\"}}\n</tool_call>",
+    "10**3 的和是 470。  \n9660/21 的结果是 470。"
+   ]
+  },
+  {
+   "problem": 61,
+   "gt": [
+    "1311",
+    "374"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"673 + 58*11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"673 + 58*11\"}}\n</tool_call>",
+    "753+58*11的结果是1311。"
+   ]
+  },
+  {
+   "problem": 61,
+   "gt": [
+    "1311",
+    "374"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"673+58*11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"673+58*11\"}}\n</tool_call>",
+    "753+58*11的结果是1311。"
+   ]
+  },
+  {
+   "problem": 62,
+   "gt": [
+    "361",
+    "36",
+    "2117"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.6666666666666666,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19**2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19**2\"}}\n</tool_call>",
+    "19**2等于361。\n\n另外calculate 6（19）和2（287）是4和6。"
+   ]
+  },
+  {
+   "problem": 62,
+   "gt": [
+    "361",
+    "36",
+    "2117"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.6666666666666666,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19**2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19**2\"}}\n</tool_call>",
+    "19**2等于361。"
+   ]
+  },
+  {
+   "problem": 63,
+   "gt": [
+    "5370560"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2080 * 2582\"}}\n</tool_call>",
+    "The result of 2080*2582 is 5370560."
+   ]
+  },
+  {
+   "problem": 63,
+   "gt": [
+    "5370560"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2080 * 2582\"}}\n</tool_call>",
+    "The result of 2080*2582 is 5370560."
+   ]
+  },
+  {
+   "problem": 64,
+   "gt": [
+    "887",
+    "2138"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(816-694) + 418 + 818\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(816-694) + 418 + 818\"}}\n</tool_call>",
+    "The result of (816-694)+45*17 is 1358."
+   ]
+  },
+  {
+   "problem": 64,
+   "gt": [
+    "887",
+    "2138"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(816 - 694) +45*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(816 - 694) +45*17\"}}\n</tool_call>",
+    "The result of (887) + 487 is 887."
+   ]
+  },
+  {
+   "problem": 65,
+   "gt": [
+    "2804",
+    "77"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"836 + 328 * 6\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"836 + 328 * 6\"}}\n</tool_call>",
+    "836+328 * 6的结果是2804。"
+   ]
+  },
+  {
+   "problem": 65,
+   "gt": [
+    "2804",
+    "77"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"836+328 * 6\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"836+328 * 6\"}}\n</tool_call>",
+    "836+328 * 6的结果是2804。"
+   ]
+  },
+  {
+   "problem": 66,
+   "gt": [
+    "11459972",
+    "387",
+    "49"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1327*8636\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1327*8636\"}}\n</tool_call>",
+    "1327*8636的结果是11459972。"
+   ]
+  },
+  {
+   "problem": 66,
+   "gt": [
+    "11459972",
+    "387",
+    "49"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1327*8636\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**2\"}}\n</tool_call>",
+    "1327*8636的结果是11459972。"
+   ]
+  },
+  {
+   "problem": 67,
+   "gt": [
+    "1409"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"269+60*19\"}}\n</tool_call>",
+    "269+60*19的结果是1409。"
+   ]
+  },
+  {
+   "problem": 67,
+   "gt": [
+    "1409"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"269+60*19\"}}\n</tool_call>",
+    "269+60*19的结果是1409。"
+   ]
+  },
+  {
+   "problem": 68,
+   "gt": [
+    "12964"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(299+627)*14\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(299+627)*14\"}}\n</tool_call>",
+    "The result of (299+627)*14 is 12964."
+   ]
+  },
+  {
+   "problem": 68,
+   "gt": [
+    "12964"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(299+627)*14\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(299+627)*14\"}}\n</tool_call>",
+    "299+627等于12964。"
+   ]
+  },
+  {
+   "problem": 69,
+   "gt": [
+    "24784",
+    "167",
+    "11688"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(959+590)*16\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(959+590)*16\"}}\n</tool_call>",
+    "259+590的结果是24784。"
+   ]
+  },
+  {
+   "problem": 69,
+   "gt": [
+    "24784",
+    "167",
+    "11688"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(959+590)*16\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(959+590)*16\"}}\n</tool_call>",
+    "(959+590)*16的结果是24784。"
+   ]
+  },
+  {
+   "problem": 70,
+   "gt": [
+    "20070",
+    "862",
+    "21527"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(185+930)*19\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(739+394)*19\"}}\n</tool_call>",
+    "(185+930)*19 = 21185。"
+   ]
+  },
+  {
+   "problem": 70,
+   "gt": [
+    "20070",
+    "862",
+    "21527"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(739 + 930)*19\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(739 + 930)*19\"}}\n</tool_call>",
+    "(185+930)*18=31711。"
+   ]
+  },
+  {
+   "problem": 71,
+   "gt": [
+    "759",
+    "456",
+    "11460"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4600-3841\"}}\n</tool_call>",
+    "The result of 4600-3841 is **759**."
+   ]
+  },
+  {
+   "problem": 71,
+   "gt": [
+    "759",
+    "456",
+    "11460"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4600-3841\"}}\n</tool_call>",
+    "4500-3841 等于 **759**。"
+   ]
+  },
+  {
+   "problem": 72,
+   "gt": [
+    "13002",
+    "1736",
+    "96154476"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"602+620*(20+645-813)+56*34\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"602+620*(20+645-813)+56*34\"}}\n</tool_call>",
+    "602+620*(20+645-813)+56*34的结果是89254。"
+   ]
+  },
+  {
+   "problem": 72,
+   "gt": [
+    "13002",
+    "1736",
+    "96154476"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_weather\", \"arguments\": {\"location\": \"602+620*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"602+620*34\"}}\n</tool_call>",
+    "602+620*20的结果是21682。"
+   ]
+  },
+  {
+   "problem": 73,
+   "gt": [
+    "1019",
+    "9380"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"393-932\"}}\n</tool_call>",
+    "The result of (393-932) + 19*82 is 539."
+   ]
+  },
+  {
+   "problem": 73,
+   "gt": [
+    "1019",
+    "9380"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(393-932)+19*82\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(393-932)+19*82\"}}\n</tool_call>",
+    "The result of (393-932)+19*82 is 1019."
+   ]
+  },
+  {
+   "problem": 74,
+   "gt": [
+    "144"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12 * 2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12 * 2\"}}\n</tool_call>",
+    "12 times 2 is 24."
+   ]
+  },
+  {
+   "problem": 74,
+   "gt": [
+    "144"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12 * 2\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"24**2\"}}\n</tool_call>",
+    "The expression \"24**2\" has 576."
+   ]
+  },
+  {
+   "problem": 75,
+   "gt": [
+    "14431"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"576+815*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"576 + 815*17\"}}\n</tool_call>",
+    "576+815*17的结果是14431。"
+   ]
+  },
+  {
+   "problem": 75,
+   "gt": [
+    "14431"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"576+815*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"576+815*17\"}}\n</tool_call>",
+    "576+815*17的结果是14431。"
+   ]
+  },
+  {
+   "problem": 76,
+   "gt": [
+    "27300",
+    "196"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**2\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**2\"}}\n</tool_call>",
+    "The result of 1420 + 255 is **196**."
+   ]
+  },
+  {
+   "problem": 76,
+   "gt": [
+    "27300",
+    "196"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**2\"}}\n</tool_call>",
+    "根据题目要求，计算 14 加 25 等于多少。  \n\n14 加 25 等于 196。  \n\n所以，14 加 25 等于 196。"
+   ]
+  },
+  {
+   "problem": 77,
+   "gt": [
+    "2837",
+    "25498",
+    "4686"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(17+409)*11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(17+409)*11\"}}\n</tool_call>",
+    "3707-870的结果是4686。\n\n如果需要进一步的解释或帮助，请随时告诉我！"
+   ]
+  },
+  {
+   "problem": 77,
+   "gt": [
+    "2837",
+    "25498",
+    "4686"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(799 + 360)*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(17+409)*11\"}}\n</tool_call>",
+    "3707-870的结果是25498。"
+   ]
+  },
+  {
+   "problem": 78,
+   "gt": [
+    "464",
+    "9068",
+    "1995"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(6032/13) + 24*87\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(6032/13) + 24*87\"}}\n</tool_call>",
+    "6032/13等于2552.0。"
+   ]
+  },
+  {
+   "problem": 78,
+   "gt": [
+    "464",
+    "9068",
+    "1995"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6032/13\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"464/13\"}}\n</tool_call>",
+    "There are 774+319*26+319*26+24*87."
+   ]
+  },
+  {
+   "problem": 79,
+   "gt": [
+    "363",
+    "4913",
+    "19253"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3993/11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"17**3\"}}\n</tool_call>",
+    "3993/11等于 **4913**。\n\n还有“what is (925+556)*13”的计算结果是 **4913**。"
+   ]
+  },
+  {
+   "problem": 79,
+   "gt": [
+    "363",
+    "4913",
+    "19253"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3993/11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"17**3\"}}\n</tool_call>",
+    "3993/11等于363.0。\n\n还有base 17：17。"
+   ]
+  },
+  {
+   "problem": 80,
+   "gt": [
+    "7250"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(235+490)*10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(235+490)*10\"}}\n</tool_call>",
+    "The result of (235+490)*10 is **7250**."
+   ]
+  },
+  {
+   "problem": 80,
+   "gt": [
+    "7250"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(235 + 490)*10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(235 + 490)*10\"}}\n</tool_call>",
+    "The result of (235+490)*10 is 7250."
+   ]
+  },
+  {
+   "problem": 81,
+   "gt": [
+    "3375",
+    "196",
+    "256"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"15**3\"}}\n</tool_call>",
+    "15乘以3是2975，再加上16等于3688。"
+   ]
+  },
+  {
+   "problem": 81,
+   "gt": [
+    "3375",
+    "196",
+    "256"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16**2\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16**2\"}}\n</tool_call>",
+    "15**3等于256。"
+   ]
+  },
+  {
+   "problem": 82,
+   "gt": [
+    "12658",
+    "575"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"945+689*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"682-817\"}}\n</tool_call>",
+    "945+689*17的结果是12658。"
+   ]
+  },
+  {
+   "problem": 82,
+   "gt": [
+    "12658",
+    "575"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(945+689)*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(945+689)*17\"}}\n</tool_call>",
+    "945+689*17的结果是27778。"
+   ]
+  },
+  {
+   "problem": 83,
+   "gt": [
+    "4100",
+    "8000",
+    "512"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"775+133*25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"775+133*25\"}}\n</tool_call>",
+    "The result of 775+133*25 is 4100."
+   ]
+  },
+  {
+   "problem": 83,
+   "gt": [
+    "4100",
+    "8000",
+    "512"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"775 + 133*25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"775 + 133*25\"}}\n</tool_call>",
+    "The result of 775 + 133*25 is 4100."
+   ]
+  },
+  {
+   "problem": 84,
+   "gt": [
+    "40232451",
+    "64",
+    "6256"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4991*8061\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4991*8061\"}}\n</tool_call>",
+    "4991*8061=49043（北京时间）。"
+   ]
+  },
+  {
+   "problem": 84,
+   "gt": [
+    "40232451",
+    "64",
+    "6256"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4991 * 861**2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4991*8061\"}}\n</tool_call>",
+    "4991*8061的结果是3699933111。"
+   ]
+  },
+  {
+   "problem": 85,
+   "gt": [
+    "10175",
+    "3306",
+    "10296"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(459+466)*11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(459+466)*11\"}}\n</tool_call>",
+    "(459+466)*11的结果是10175。"
+   ]
+  },
+  {
+   "problem": 85,
+   "gt": [
+    "10175",
+    "3306",
+    "10296"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(459+466)*11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(459+466)*11\"}}\n</tool_call>",
+    "259+466= 217175。\n\n计算：236×11= **10175**。"
+   ]
+  },
+  {
+   "problem": 86,
+   "gt": [
+    "1331",
+    "196",
+    "1297"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11**3. And compute 14**2 for me\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11**3. And compute 14**2 for me\"}}\n</tool_call>",
+    "11**3. And compute 14**2 for you!"
+   ]
+  },
+  {
+   "problem": 86,
+   "gt": [
+    "1331",
+    "196",
+    "1297"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11**3. Yoursquare, number of numbers\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11**3. By Starting with Python, multiplication_time, ianded(element)**2}}\n</tool_call>",
+    "There are 12 characters in a sequence. Then 869-937, at a time zone at 10:00 UTC."
+   ]
+  },
+  {
+   "problem": 87,
+   "gt": [
+    "37950"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(971 +679)*23\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(971 +679)*23\"}}\n</tool_call>",
+    "971+679 = 37950。"
+   ]
+  },
+  {
+   "problem": 87,
+   "gt": [
+    "37950"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(971+679)*23\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(971+679)*23\"}}\n</tool_call>",
+    "256乘以37950等于37950。"
+   ]
+  },
+  {
+   "problem": 88,
+   "gt": [
+    "18704",
+    "190"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(742+427)*16\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18704\"}}\n</tool_call>",
+    "18704等于18704。"
+   ]
+  },
+  {
+   "problem": 88,
+   "gt": [
+    "18704",
+    "190"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(742+427)*16\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(742+427)*16\"}}\n</tool_call>",
+    "The result of (742+427)*16 is 18704."
+   ]
+  },
+  {
+   "problem": 89,
+   "gt": [
+    "343",
+    "4913"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**3\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"343\"}}\n</tool_call>",
+    "14 我算算7 加上 17 再加上 17。  \n\n答案是：**343**。"
+   ]
+  },
+  {
+   "problem": 89,
+   "gt": [
+    "343",
+    "4913"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**3\"}}\n</tool_call>",
+    "算算7**3的结果是 **343**。"
+   ]
+  },
+  {
+   "problem": 90,
+   "gt": [
+    "16540",
+    "29511",
+    "19215"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7836 + 8704\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(406+687)*27\"}}\n</tool_call>",
+    "The result of 7836+8704 is 16540."
+   ]
+  },
+  {
+   "problem": 90,
+   "gt": [
+    "16540",
+    "29511",
+    "19215"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7836 + 8704\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"515+748*25\"}}\n</tool_call>",
+    "7836+8704的结果是16540。"
+   ]
+  },
+  {
+   "problem": 91,
+   "gt": [
+    "2755"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4386 - 1631\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"unit_converter\", \"arguments\": {\"value\": 4386, \"from_unit\": \"calculate_math\", \"to_unit\": \"calculate_math\"}}\n</tool_call>",
+    "4386年1631年是2755。"
+   ]
+  },
+  {
+   "problem": 91,
+   "gt": [
+    "2755"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4386 - 1631\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4386 - 1631\"}}\n</tool_call>",
+    "4386-1631 is equal to 2755."
+   ]
+  },
+  {
+   "problem": 92,
+   "gt": [
+    "6601",
+    "8",
+    "773"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"973+469*12\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"973+469*12\"}}\n</tool_call>",
+    "973+469*12的结果是6601。"
+   ]
+  },
+  {
+   "problem": 92,
+   "gt": [
+    "6601",
+    "8",
+    "773"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"973+469*12\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"973+469*12\"}}\n</tool_call>",
+    "973+469*12的结果是6601。"
+   ]
+  },
+  {
+   "problem": 93,
+   "gt": [
+    "7436",
+    "8",
+    "161"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_weather\", \"arguments\": {\"location\": \"10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1288/8\"}}\n</tool_call>",
+    "206+241*30 = 2372°F。"
+   ]
+  },
+  {
+   "problem": 93,
+   "gt": [
+    "7436",
+    "8",
+    "161"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 0,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_weather\", \"arguments\": {\"location\": \"10\"}}\n</tool_call>",
+    "206+241*30 = 234°C。"
+   ]
+  },
+  {
+   "problem": 94,
+   "gt": [
+    "23850",
+    "432",
+    "4482"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "Calculate (471+483)*25\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(471+483)*25\"}}\n</tool_call>",
+    "The result of (262-7) + 59*3. Also, 计算(262-7) + 59*3. Also, 算算(395-421) + 98*46."
+   ]
+  },
+  {
+   "problem": 94,
+   "gt": [
+    "23850",
+    "432",
+    "4482"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(471 +483)*25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(262 - 7)+59*3\"}}\n</tool_call>",
+    "The result of (262-7)+59*3 is 395."
+   ]
+  },
+  {
+   "problem": 95,
+   "gt": [
+    "4656",
+    "1199",
+    "1378"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"665 + 307*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"665 + 307*13\"}}\n</tool_call>",
+    "665+307*13 is 4656."
+   ]
+  },
+  {
+   "problem": 95,
+   "gt": [
+    "4656",
+    "1199",
+    "1378"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"665 + 307*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(665 + 307*13)\"}}\n</tool_call>",
+    "665+307*13 is 4656."
+   ]
+  },
+  {
+   "problem": 96,
+   "gt": [
+    "10881",
+    "1385",
+    "1745"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(153/4) + (1217/232) + (1217/232)\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(153/4) + (1217/232)\"}}\n</tool_call>",
+    "算算8285+2596的结果是48.741379310344826。  \n\n8285+2596等于488.7413793443。"
+   ]
+  },
+  {
+   "problem": 96,
+   "gt": [
+    "10881",
+    "1385",
+    "1745"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1617-232\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1617-232\"}}\n</tool_call>",
+    "算算8285+2596的结果是1385。  \n1617-232等于1385。"
+   ]
+  },
+  {
+   "problem": 97,
+   "gt": [
+    "5490",
+    "248",
+    "336"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(966+132)*5\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(966+132)*5\"}}\n</tool_call>",
+    "(966+132)*5等于5490。"
+   ]
+  },
+  {
+   "problem": 97,
+   "gt": [
+    "5490",
+    "248",
+    "336"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(966+132)*5\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(966+132)*5\"}}\n</tool_call>",
+    "(966+132)*5等于5490。"
+   ]
+  },
+  {
+   "problem": 98,
+   "gt": [
+    "16",
+    "8795",
+    "-68"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4*2-395\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1745 + 744\"}}\n</tool_call>",
+    "4**2确实是（387）×(1+395)+44*4 = 7268。"
+   ]
+  },
+  {
+   "problem": 98,
+   "gt": [
+    "16",
+    "8795",
+    "-68"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4**2 + 1745 + 7550\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4**2 + 1745 + 7550\"}}\n</tool_call>",
+    "4**2 + 1745 + 7550 = 9311 + 7550 = 9311 + 44*4 = 18418 + 4 = 1884 + 4 = 1884\n\n所以，4**2，还有算算(151-395)+44*4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 + 4 = 1884 +"
+   ]
+  },
+  {
+   "problem": 99,
+   "gt": [
+    "9625",
+    "3432"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(606+769)*7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(606+769)*7\"}}\n</tool_call>",
+    "首先，6925等于9625。"
+   ]
+  },
+  {
+   "problem": 99,
+   "gt": [
+    "9625",
+    "3432"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(606+769)*7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(606+769)*7\"}}\n</tool_call>",
+    "The result of (606 + 769)*7 is 9625."
+   ]
+  },
+  {
+   "problem": 100,
+   "gt": [
+    "6859"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19 + 19**2 for ingredients\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19 + 19 + 19**2}}\n</tool_call>",
+    "您好！我是由中国的个人开发者开发的智能助手minimind。有关模型和产品的详细内容请参考官方文档。"
+   ]
+  },
+  {
+   "problem": 100,
+   "gt": [
+    "6859"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19**3\"}}\n</tool_call>",
+    "抱歉，由于您没有提供具体的中文内容，我无法直接查询或提供“19”的数学表达式。不过，我可以告诉您，19的数学表达式是通过使用数学公式来计算的，但具体形式可能因语言而异。例如，使用以下公式：\n\n\\[\n\\Delta(i) = \\sum_{i=1}^{i} i^2\n\\]\n\n因此，19的数学表达式是：\n\n\\[\n\\Delta(i) = \\sum_{i=1}^{i} i^2\n\\]\n\n如果需要具体计算，可以提供具体的数学表达式或使用数学工具。"
+   ]
+  },
+  {
+   "problem": 101,
+   "gt": [
+    "147"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1176/8\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1176/8\"}}\n</tool_call>",
+    "The result of 1176/8 is 147.0."
+   ]
+  },
+  {
+   "problem": 101,
+   "gt": [
+    "147"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1176/8\"}}\n</tool_call>",
+    "The result of 1176/8 is **147.0**."
+   ]
+  },
+  {
+   "problem": 102,
+   "gt": [
+    "-106",
+    "8000",
+    "4733"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1627-6525\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1627-6525\"}}\n</tool_call>",
+    "The result of 818-6525 is **-4898**."
+   ]
+  },
+  {
+   "problem": 102,
+   "gt": [
+    "-106",
+    "8000",
+    "4733"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"818+783*5\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"818 + 783*5\"}}\n</tool_call>",
+    "The result of 818 + 783*5 is **4733**."
+   ]
+  },
+  {
+   "problem": 103,
+   "gt": [
+    "32640",
+    "27768",
+    "6113"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(90+995)*30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(709+448)*24\"}}\n</tool_call>",
+    "15768加上一个249元，然后再加上32550，结果是32550。"
+   ]
+  },
+  {
+   "problem": 103,
+   "gt": [
+    "32640",
+    "27768",
+    "6113"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(709+448)*24?\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(709+448)*24?\"}}\n</tool_call>",
+    "93+995=709+448。  \n888+209*25是888+209*25。"
+   ]
+  },
+  {
+   "problem": 104,
+   "gt": [
+    "872"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(919-143)+4*24\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"872\"}}\n</tool_call>",
+    "872的结果是872。"
+   ]
+  },
+  {
+   "problem": 104,
+   "gt": [
+    "872"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(919-143) + 4*24\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(919-143) + 4*24\"}}\n</tool_call>",
+    "872的结果是872。"
+   ]
+  },
+  {
+   "problem": 105,
+   "gt": [
+    "10450",
+    "1028",
+    "5832"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1816+8634\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1816+8634\"}}\n</tool_call>",
+    "1816+8634等于10450。"
+   ]
+  },
+  {
+   "problem": 105,
+   "gt": [
+    "10450",
+    "1028",
+    "5832"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1816 + 8634\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1816+8634\"}}\n</tool_call>",
+    "1816+8634的计算结果是10450，并且算算383+215*3。"
+   ]
+  },
+  {
+   "problem": 106,
+   "gt": [
+    "7949",
+    "52"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"962 + 411*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"962+411*17\"}}\n</tool_call>",
+    "962+411*17等于7949。"
+   ]
+  },
+  {
+   "problem": 106,
+   "gt": [
+    "7949",
+    "52"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"962 + 411*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"962+411*17\"}}\n</tool_call>",
+    "962+411*17等于7949。"
+   ]
+  },
+  {
+   "problem": 107,
+   "gt": [
+    "3324",
+    "169",
+    "10286"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"360+247*12\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"360+247*12\"}}\n</tool_call>",
+    "360+247*12的结果是3324。"
+   ]
+  },
+  {
+   "problem": 107,
+   "gt": [
+    "3324",
+    "169",
+    "10286"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"360+247*12\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"360+247*12\"}}\n</tool_call>",
+    "360+247*12的结果是3324。"
+   ]
+  },
+  {
+   "problem": 108,
+   "gt": [
+    "121"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11**2\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"121\"}}\n</tool_call>",
+    "11**2。"
+   ]
+  },
+  {
+   "problem": 108,
+   "gt": [
+    "121"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11**2\"}}\n</tool_call>",
+    "<think>\n\n</think>\n\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"121\"}}\n</tool_call>",
+    "11**2。"
+   ]
+  },
+  {
+   "problem": 109,
+   "gt": [
+    "12165",
+    "-45",
+    "947"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"0 + 780-895\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"0 + 780-895\"}}\n</tool_call>",
+    "The result of 9019 + 3146 is 15."
+   ]
+  },
+  {
+   "problem": 109,
+   "gt": [
+    "12165",
+    "-45",
+    "947"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"960-895\"}}\n</tool_call>",
+    "960年10月6日，Also, (780-895)+5*14的结果是65。"
+   ]
+  },
+  {
+   "problem": 110,
+   "gt": [
+    "36",
+    "7464",
+    "16692"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"246+396\"}}\n</tool_call>",
+    "括号里的表达式是“642”。  \n结果是246，这个结果是642。"
+   ]
+  },
+  {
+   "problem": 110,
+   "gt": [
+    "36",
+    "7464",
+    "16692"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(437+496)*8\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(437+496)*26\"}}\n</tool_call>",
+    "括号内的“7464”结果是7464。"
+   ]
+  },
+  {
+   "problem": 111,
+   "gt": [
+    "1644",
+    "2876",
+    "8143"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2880+5263\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2880+5263\"}}\n</tool_call>",
+    "The result of $8143$ is **8143**."
+   ]
+  },
+  {
+   "problem": 111,
+   "gt": [
+    "1644",
+    "2876",
+    "8143"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2880+5263\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2880+5263\"}}\n</tool_call>",
+    "The result of (29+382)*4 is 8143."
+   ]
+  },
+  {
+   "problem": 112,
+   "gt": [
+    "2197"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13**3\"}}\n</tool_call>",
+    "计算13**3。  \n13 × 3 = 2274  \n\n答案是：**2197**。"
+   ]
+  },
+  {
+   "problem": 112,
+   "gt": [
+    "2197"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13**3\"}}\n</tool_call>",
+    "计算13**3，该值是2197。"
+   ]
+  },
+  {
+   "problem": 113,
+   "gt": [
+    "20426",
+    "10033"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_weather\", \"arguments\": {\"location\": \"(690+769)*14\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(690+769)*14\"}}\n</tool_call>",
+    "(690+769)*14等于22°C。  \n907+702*13的结果是：22°C。"
+   ]
+  },
+  {
+   "problem": 113,
+   "gt": [
+    "20426",
+    "10033"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_weather\", \"arguments\": {\"location\": \"(690+769), 769\"}}\n</tool_call>",
+    "抱歉，我现在无法直接计算“(690+769)*14等于多少”，因为题目没有提供足够的信息来确定“(690+769)*14”。\n\n不过，我可以先解释一下“(690+769)*14”的含义。\n\n然后，我可以计算907+702*13。\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(690+769)*14\"}}\n</tool_call>",
+    "907+702*13 = 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888"
+   ]
+  },
+  {
+   "problem": 114,
+   "gt": [
+    "111",
+    "-2824",
+    "1739"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"555/5\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(273-641)+49*43\"}}\n</tool_call>",
+    "555/5. And 2470-5294的结果是111.0。"
+   ]
+  },
+  {
+   "problem": 114,
+   "gt": [
+    "111",
+    "-2824",
+    "1739"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"555/5. And 2470-5294\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"555/5\"}}\n</tool_call>",
+    "555/5. And 2470-5294的结果是111.0。"
+   ]
+  },
+  {
+   "problem": 115,
+   "gt": [
+    "7121",
+    "25868"
+   ],
+   "n_calls": 0,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 0,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"710**26**345.\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"656**345\"}}\n</tool_call>"
+   ]
+  },
+  {
+   "problem": 115,
+   "gt": [
+    "7121",
+    "25868"
+   ],
+   "n_calls": 0,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 0,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"710******356**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+   ]
+  },
+  {
+   "problem": 116,
+   "gt": [
+    "6859",
+    "16796",
+    "42"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(303+581)*19\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(303+581)*19\"}}\n</tool_call>",
+    "The result of $16796$ is **16796**."
+   ]
+  },
+  {
+   "problem": 116,
+   "gt": [
+    "6859",
+    "16796",
+    "42"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"173 * 19\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"168 / 4\"}}\n</tool_call>",
+    "The result of 19 (3287) and (3287) is 3287."
+   ]
+  },
+  {
+   "problem": 117,
+   "gt": [
+    "9429",
+    "125",
+    "421"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(384+963)*7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(384+963)*7\"}}\n</tool_call>",
+    "(384+963)*7的结果是9429。"
+   ]
+  },
+  {
+   "problem": 117,
+   "gt": [
+    "9429",
+    "125",
+    "421"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(384+963)*7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(384+963)*7\"}}\n</tool_call>",
+    "384+963 = 3844+963 = 9429。"
+   ]
+  },
+  {
+   "problem": 118,
+   "gt": [
+    "8334"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(922+467)*6\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(922+467)*6\"}}\n</tool_call>",
+    "922+467=8334。"
+   ]
+  },
+  {
+   "problem": 118,
+   "gt": [
+    "8334"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"unit_converter\", \"arguments\": {\"value\": 922, \"from_unit\": \"(922+467)*6\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(922+467)*6\"}}\n</tool_call>",
+    "(922+467)*6等于922。"
+   ]
+  },
+  {
+   "problem": 119,
+   "gt": [
+    "10104"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "Calculate the two numbers together.\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"150+711 * 14\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"150 + 711 * 14\"}}\n</tool_call>",
+    "150+711 * 14的结果是10104。"
+   ]
+  },
+  {
+   "problem": 119,
+   "gt": [
+    "10104"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"unit_converter\", \"arguments\": {\"value\": 150, \"from_unit\": \"float\", \"to_unit\": \"multiplying\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"150+711*14\"}}\n</tool_call>",
+    "150+711*14的结果是110。"
+   ]
+  },
+  {
+   "problem": 120,
+   "gt": [
+    "3112",
+    "167",
+    "68"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"172+98*30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"172 + 98*30\"}}\n</tool_call>",
+    "172+98*30的结果是3112。"
+   ]
+  },
+  {
+   "problem": 120,
+   "gt": [
+    "3112",
+    "167",
+    "68"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"172+98*30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"172+98*30\"}}\n</tool_call>",
+    "172+98*30的结果是3112。"
+   ]
+  },
+  {
+   "problem": 121,
+   "gt": [
+    "500",
+    "-122",
+    "2062"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3000/635\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"513-635\"}}\n</tool_call>",
+    "3000/635的平方结果是 **4.724409448818897**。"
+   ]
+  },
+  {
+   "problem": 121,
+   "gt": [
+    "500",
+    "-122",
+    "2062"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"513-635\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"513-635\"}}\n</tool_call>",
+    "3000/6 for me. Also, 996+683*2的结果是122。"
+   ]
+  },
+  {
+   "problem": 122,
+   "gt": [
+    "1338"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(656-618) + 65*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(656-618) + 65*20\"}}\n</tool_call>",
+    "(656-618)+65*20的结果是1338。"
+   ]
+  },
+  {
+   "problem": 122,
+   "gt": [
+    "1338"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(656-618)+65*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(656-618)+65*20\"}}\n</tool_call>",
+    "(656-618)+65*20的结果是1338。"
+   ]
+  },
+  {
+   "problem": 123,
+   "gt": [
+    "-5743"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1369-7112\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1369-7112\"}}\n</tool_call>",
+    "1369-7112的结果是5743。"
+   ]
+  },
+  {
+   "problem": 123,
+   "gt": [
+    "-5743"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1369-7112\"}}\n</tool_call>",
+    "1369-7112的结果是：5743。"
+   ]
+  },
+  {
+   "problem": 124,
+   "gt": [
+    "23950"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(138 + 820) * 25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(138 + 820) * 25\"}}\n</tool_call>",
+    "138+820 = (138 + 820)*25。"
+   ]
+  },
+  {
+   "problem": 124,
+   "gt": [
+    "23950"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(138+820) * 25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(138+820) * 25\"}}\n</tool_call>",
+    "25乘以25等于23950。"
+   ]
+  },
+  {
+   "problem": 125,
+   "gt": [
+    "1000"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"10**3\"}}\n</tool_call>",
+    "\"result\" is the decimal places to 10."
+   ]
+  },
+  {
+   "problem": 125,
+   "gt": [
+    "1000"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"10**3\"}}\n</tool_call>",
+    "I've generated a random number between 1000 and the resulting number. Let me know if you'd like any adjustments or additional details."
+   ]
+  },
+  {
+   "problem": 126,
+   "gt": [
+    "4443",
+    "26448",
+    "-4273"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"348+564\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(955+564)*29\"}}\n</tool_call>",
+    "The result of (912)*3的结果是912。"
+   ]
+  },
+  {
+   "problem": 126,
+   "gt": [
+    "4443",
+    "26448",
+    "-4273"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(955+526)*3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(955+526)*3\"}}\n</tool_call>",
+    "(955+526)*3的结果是4443。  \n348+564=4443。"
+   ]
+  },
+  {
+   "problem": 127,
+   "gt": [
+    "14020",
+    "20287",
+    "25232"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(815+513)*19\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(815+513)*19\"}}\n</tool_call>",
+    "The result of 743+781*17 is: **25232**."
+   ]
+  },
+  {
+   "problem": 127,
+   "gt": [
+    "14020",
+    "20287",
+    "25232"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(815+513)*19\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(815+513)*19\"}}\n</tool_call>",
+    "The result of 743+781*17 is: **25232**."
+   ]
+  },
+  {
+   "problem": 128,
+   "gt": [
+    "16295",
+    "49",
+    "4756"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"171 + 556*29\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"171 + 556 * 2\"}}\n</tool_call>",
+    "171+556*29的结果是16295。"
+   ]
+  },
+  {
+   "problem": 128,
+   "gt": [
+    "16295",
+    "49",
+    "4756"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"171 + 556 * 2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"171 + 556 * 2\"}}\n</tool_call>",
+    "171+556*29的结果是1283。"
+   ]
+  },
+  {
+   "problem": 129,
+   "gt": [
+    "12530"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"848+531*22\"}}\n</tool_call>",
+    "将848加上531的结果是12530。"
+   ]
+  },
+  {
+   "problem": 129,
+   "gt": [
+    "12530"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"848 + 531*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"848 + 531*22\"}}\n</tool_call>",
+    "848+531*22的结果是12530。"
+   ]
+  },
+  {
+   "problem": 130,
+   "gt": [
+    "11484",
+    "381"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(900+57)*12\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(900+57)*12\"}}\n</tool_call>",
+    "The result of (900+57)*12 is 11484."
+   ]
+  },
+  {
+   "problem": 130,
+   "gt": [
+    "11484",
+    "381"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(900+57)*12\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(900+57)*12\"}}\n</tool_call>",
+    "The result of (900+57)*12 is 11484."
+   ]
+  },
+  {
+   "problem": 131,
+   "gt": [
+    "289",
+    "361",
+    "82552272"
+   ],
+   "n_calls": 0,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 0,
+   "turns": [
+    "<tool_call>\n{\"name\": \"translate_text\", \"arguments\": {\"text\": \"\nThe sum of 17 and 19 is 23837. When you want the number 19, the sum is 9537*8656?\" and the result is 9537*8656?\" \n\nSo, 13537*8656= (13537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8656= (18537*8656) + 23837*8"
+   ]
+  },
+  {
+   "problem": 131,
+   "gt": [
+    "289",
+    "361",
+    "82552272"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"17**2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"17**2\"}}\n</tool_call>",
+    "17**2的结果是289。"
+   ]
+  },
+  {
+   "problem": 132,
+   "gt": [
+    "65"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1430/22\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1430/22\"}}\n</tool_call>",
+    "1430/22等于65.0。"
+   ]
+  },
+  {
+   "problem": 132,
+   "gt": [
+    "65"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1430/22\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1430/22\"}}\n</tool_call>",
+    "1430/22等于65.0。"
+   ]
+  },
+  {
+   "problem": 133,
+   "gt": [
+    "162"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"648/4\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"648/4\"}}\n</tool_call>",
+    "648/4 的结果是162.0。"
+   ]
+  },
+  {
+   "problem": 133,
+   "gt": [
+    "162"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"648/4\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"648/4\"}}\n</tool_call>",
+    "648/4 的结果是162.0。"
+   ]
+  },
+  {
+   "problem": 134,
+   "gt": [
+    "1000"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"10**3\"}}\n</tool_call>",
+    "100 个字符是 \"1000\"。"
+   ]
+  },
+  {
+   "problem": 134,
+   "gt": [
+    "1000"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"10**3\"}}\n</tool_call>",
+    "10**3的结果是：1000"
+   ]
+  },
+  {
+   "problem": 135,
+   "gt": [
+    "343",
+    "18832",
+    "9540"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**3. Pretrained Query\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**3\"}}\n</tool_call>",
+    "The calculation is correct:  \n7 × 3.  \nWhat is 448 + 864?"
+   ]
+  },
+  {
+   "problem": 135,
+   "gt": [
+    "343",
+    "18832",
+    "9540"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(233+721)*11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(233+721)*11\"}}\n</tool_call>",
+    "The result of 7**3. Plus, compute (848+864)*11 is 10494."
+   ]
+  },
+  {
+   "problem": 136,
+   "gt": [
+    "3885"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"314-6\"}}\n</tool_call>",
+    "The result of 314-6 is 308."
+   ]
+  },
+  {
+   "problem": 136,
+   "gt": [
+    "3885"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"314-6\"}}\n</tool_call>",
+    "314-6等于308。"
+   ]
+  },
+  {
+   "problem": 137,
+   "gt": [
+    "212"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5724/27\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5724/27\"}}\n</tool_call>",
+    "5724/27等于212.0。"
+   ]
+  },
+  {
+   "problem": 137,
+   "gt": [
+    "212"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5724/27\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5724/27\"}}\n</tool_call>",
+    "5724/27等于212.0。"
+   ]
+  },
+  {
+   "problem": 138,
+   "gt": [
+    "4446"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(944-898)+80*55\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(944-898)+80*55\"}}\n</tool_call>",
+    "(944-898)+80*55 等于 4446。"
+   ]
+  },
+  {
+   "problem": 138,
+   "gt": [
+    "4446"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(944-898)+80*55\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(944-898)+80*55\"}}\n</tool_call>",
+    "(944-898)+80*55 is 4446."
+   ]
+  },
+  {
+   "problem": 139,
+   "gt": [
+    "105",
+    "4207"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"96 +247*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"96 +247*13\"}}\n</tool_call>",
+    "The result of 996 +247*13 is 3307."
+   ]
+  },
+  {
+   "problem": 139,
+   "gt": [
+    "105",
+    "4207"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"96 + 247*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"96 + 247*13\"}}\n</tool_call>",
+    "The result of 996+247*13 is 3307."
+   ]
+  },
+  {
+   "problem": 140,
+   "gt": [
+    "18231",
+    "12487392",
+    "5615"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"711 + 730*24\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"711 + 730*24\"}}\n</tool_call>",
+    "The result of 711 + 730*24 is 18231."
+   ]
+  },
+  {
+   "problem": 140,
+   "gt": [
+    "18231",
+    "12487392",
+    "5615"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"711+730*24\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"711 + 730*24\"}}\n</tool_call>",
+    "711+730*24的结果是18231。"
+   ]
+  },
+  {
+   "problem": 141,
+   "gt": [
+    "2744",
+    "459",
+    "83723217"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**3\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**3\"}}\n</tool_call>",
+    "14 是一个数学表达式，它表示为 2744。  \n\n这个表达式的含义是：  \n7 除以 2 等于 274，这个结果是 274。"
+   ]
+  },
+  {
+   "problem": 141,
+   "gt": [
+    "2744",
+    "459",
+    "83723217"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**3\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**3\"}}\n</tool_call>",
+    "The result of 143**3 is 2744."
+   ]
+  },
+  {
+   "problem": 142,
+   "gt": [
+    "5144"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"440 + 846\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1286\"}}\n</tool_call>",
+    "括号内的“=440+846”算算为1286。"
+   ]
+  },
+  {
+   "problem": 142,
+   "gt": [
+    "5144"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"translate_text\", \"arguments\": {\"text\": \"440+846\", \"target_language\": \"english\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(440+846)*4\"}}\n</tool_call>",
+    "440+846的结果是5144。"
+   ]
+  },
+  {
+   "problem": 143,
+   "gt": [
+    "33105156",
+    "17856",
+    "10583"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(889+103)*18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(889+103)*18\"}}\n</tool_call>",
+    "(889+103)*18的结果是17856。"
+   ]
+  },
+  {
+   "problem": 143,
+   "gt": [
+    "33105156",
+    "17856",
+    "10583"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(889+103)*18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(889+103)*18\"}}\n</tool_call>",
+    "The result of \\(17856\\) for you is 17856\\) (889+103)*18 is 889."
+   ]
+  },
+  {
+   "problem": 144,
+   "gt": [
+    "1547",
+    "771"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(885-157) + 21*39\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(885-157) + 21*39\"}}\n</tool_call>",
+    "(885-157)+21*39的结果是1547。"
+   ]
+  },
+  {
+   "problem": 144,
+   "gt": [
+    "1547",
+    "771"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(885 - 157) + 21*39\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(885 - 157) + 21*39\"}}\n</tool_call>",
+    "(885-157) + 21*39 = 1547 + 13*14\n\n你提供的计算结果是1547。"
+   ]
+  },
+  {
+   "problem": 145,
+   "gt": [
+    "82"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2460/30\"}}\n</tool_call>",
+    "2460/30的结果是82.0。"
+   ]
+  },
+  {
+   "problem": 145,
+   "gt": [
+    "82"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 0,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_weather\", \"arguments\": {\"location\": \"2460/30\"}}\n</tool_call>",
+    "2460/30 is equal to 65%."
+   ]
+  },
+  {
+   "problem": 146,
+   "gt": [
+    "473",
+    "1671",
+    "169"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(943-862) + 53*30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(943-862) + 53*30\"}}\n</tool_call>",
+    "1465/5等于 **1671**。  \n13**2"
+   ]
+  },
+  {
+   "problem": 146,
+   "gt": [
+    "473",
+    "1671",
+    "169"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(943-862) + 53*30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(943-862) + 53*30\"}}\n</tool_call>",
+    "2365/5等于 **1671**。\n\n132乘以5等于1671。"
+   ]
+  },
+  {
+   "problem": 147,
+   "gt": [
+    "-2115"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2692-4807\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2692-4807\"}}\n</tool_call>",
+    "2692-4807的结果是2115。"
+   ]
+  },
+  {
+   "problem": 147,
+   "gt": [
+    "-2115"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2692-4807\"}}\n</tool_call>",
+    "2215的结果是2115。"
+   ]
+  },
+  {
+   "problem": 148,
+   "gt": [
+    "4581",
+    "7501",
+    "729"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"876 + 23**2**3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(876 + 23)*13\"}}\n</tool_call>",
+    "876+285*13是两个不同的货币。  \n9**3 的计算方式是：  \n9 × 783 + 23 = 332,000  \n9 × 80 + 32 = 373,000  \n\n所以，78310986157 等于 78310986157。"
+   ]
+  },
+  {
+   "problem": 148,
+   "gt": [
+    "4581",
+    "7501",
+    "729"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(876 + 23)*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(876 + 23)*13\"}}\n</tool_call>",
+    "876+285*13是993。"
+   ]
+  },
+  {
+   "problem": 149,
+   "gt": [
+    "385",
+    "1288",
+    "2444"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6930/18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6930/18\"}}\n</tool_call>",
+    "6930/18的结果是385.0。"
+   ]
+  },
+  {
+   "problem": 149,
+   "gt": [
+    "385",
+    "1288",
+    "2444"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6930/18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(6930/18) + 30*43\"}}\n</tool_call>",
+    "6930/18的结果是 **385.0**。"
+   ]
+  },
+  {
+   "problem": 150,
+   "gt": [
+    "484",
+    "208",
+    "-2054"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "计算1400 - 3454的结果，并乘以1400。\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1400 - 3454\"}}\n</tool_call>",
+    "9680/20的结果是2054。"
+   ]
+  },
+  {
+   "problem": 150,
+   "gt": [
+    "484",
+    "208",
+    "-2054"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1400-3454\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1400-3454\"}}\n</tool_call>",
+    "9680/20的结果是：1900-3454。"
+   ]
+  },
+  {
+   "problem": 151,
+   "gt": [
+    "8753",
+    "7242"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"646+388*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"646+388*17\"}}\n</tool_call>",
+    "646+388*17的结果是7242。"
+   ]
+  },
+  {
+   "problem": 151,
+   "gt": [
+    "8753",
+    "7242"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"646 + 388*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"646 + 388*17\"}}\n</tool_call>",
+    "646+388*17的结果是7242。  \n75乘以388等于7242。"
+   ]
+  },
+  {
+   "problem": 152,
+   "gt": [
+    "433",
+    "21180",
+    "11073"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4763/11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4763/11\"}}\n</tool_call>",
+    "4763/11 is equal to 433.0."
+   ]
+  },
+  {
+   "problem": 152,
+   "gt": [
+    "433",
+    "21180",
+    "11073"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4763/11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4763/11\"}}\n</tool_call>",
+    "The result of 4763/11 is 433.0."
+   ]
+  },
+  {
+   "problem": 153,
+   "gt": [
+    "8885",
+    "2722",
+    "6093"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_time\", \"arguments\": {\"timezone\": \"Asia/Shanghai\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(960-631) + 93*92\"}}\n</tool_call>",
+    "1. **960-631** 的计算过程是：960。\n2. **93*92 = 724**。\n3. **93*92 = 141**。"
+   ]
+  },
+  {
+   "problem": 153,
+   "gt": [
+    "8885",
+    "2722",
+    "6093"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"get_current_time\", \"arguments\": {\"timezone\": \"Asia/Shanghai\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(960-631) + 93*92\"}}\n</tool_call>",
+    "960-631=143788。"
+   ]
+  },
+  {
+   "problem": 154,
+   "gt": [
+    "14040",
+    "2568",
+    "16294"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(344+736)*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(344+736)*13\"}}\n</tool_call>",
+    "(344+736)*13的结果是14040。"
+   ]
+  },
+  {
+   "problem": 154,
+   "gt": [
+    "14040",
+    "2568",
+    "16294"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(344+736)*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(344+736)*13\"}}\n</tool_call>",
+    "括号里的计算结果是14040。"
+   ]
+  },
+  {
+   "problem": 155,
+   "gt": [
+    "5832",
+    "8794",
+    "108"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18 * 11\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18 * 11\"}}\n</tool_call>",
+    "18除以3的商是198，再加上72。"
+   ]
+  },
+  {
+   "problem": 155,
+   "gt": [
+    "5832",
+    "8794",
+    "108"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"translate_text\", \"arguments\": {\"text\": \"18\", \"target_language\": \"english\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18**3\"}}\n</tool_call>",
+    "18 可以写成 5832 个字符，或者 10 个字符，其中 10 是你想要计算的 18 的倍数。"
+   ]
+  },
+  {
+   "problem": 156,
+   "gt": [
+    "18337",
+    "179"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"837+875*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"837+875*20\"}}\n</tool_call>",
+    "子句“算算837+875*20”共有837个字符，20个单词。"
+   ]
+  },
+  {
+   "problem": 156,
+   "gt": [
+    "18337",
+    "179"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"837 + 875*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"837 + 875*20\"}}\n</tool_call>",
+    "837加上875等于18337，同样包含“18337”这个术语。"
+   ]
+  },
+  {
+   "problem": 157,
+   "gt": [
+    "6776"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"542+305\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"542+305\"}}\n</tool_call>",
+    "542+305=847."
+   ]
+  },
+  {
+   "problem": 157,
+   "gt": [
+    "6776"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"542+305\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"542+305\"}}\n</tool_call>",
+    "The result of 542+305 is 847."
+   ]
+  },
+  {
+   "problem": 158,
+   "gt": [
+    "-7106",
+    "4169"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2509 - 9615\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2509-9615\"}}\n</tool_call>",
+    "2509-9615等于约7106。"
+   ]
+  },
+  {
+   "problem": 158,
+   "gt": [
+    "-7106",
+    "4169"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(10 + 96, 7) / 2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(10 + 96, 7) / 2\"}}\n</tool_call>",
+    "2509-9615是数学表达式的结果是587 + 597*6。"
+   ]
+  },
+  {
+   "problem": 159,
+   "gt": [
+    "486",
+    "12656",
+    "8757"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6318/13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6318/13\"}}\n</tool_call>",
+    "6318/13的结果是486.0。"
+   ]
+  },
+  {
+   "problem": 159,
+   "gt": [
+    "486",
+    "12656",
+    "8757"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6318/13\"}}\n</tool_call>",
+    "算算6318/13的结果是486.0。"
+   ]
+  },
+  {
+   "problem": 160,
+   "gt": [
+    "8205",
+    "18214"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"297+659*12\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"297+659*12\"}}\n</tool_call>",
+    "297+659*12的结果是8205。"
+   ]
+  },
+  {
+   "problem": 160,
+   "gt": [
+    "8205",
+    "18214"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"297+659*12\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"297+659*14\"}}\n</tool_call>",
+    "9523加上549等于8205。"
+   ]
+  },
+  {
+   "problem": 161,
+   "gt": [
+    "8557"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2259 + 6298\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8557\"}}\n</tool_call>",
+    "The result of 2259+6298 is 8557."
+   ]
+  },
+  {
+   "problem": 161,
+   "gt": [
+    "8557"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2259+6298\"}}\n</tool_call>",
+    "翻译成中文是：8557。"
+   ]
+  },
+  {
+   "problem": 162,
+   "gt": [
+    "64",
+    "17309"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"557+698*24\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"557+698*24\"}}\n</tool_call>",
+    "42的值是17309。"
+   ]
+  },
+  {
+   "problem": 162,
+   "gt": [
+    "64",
+    "17309"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"557+698*24\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"557+698*24\"}}\n</tool_call>",
+    "4  \n557+698*24等于17309。"
+   ]
+  },
+  {
+   "problem": 163,
+   "gt": [
+    "22509648",
+    "3103",
+    "324"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9864*2282\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9864*2282\"}}\n</tool_call>",
+    "The result of 9864*2282 is 22509648."
+   ]
+  },
+  {
+   "problem": 163,
+   "gt": [
+    "22509648",
+    "3103",
+    "324"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9864*2282\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18**2\"}}\n</tool_call>",
+    "90648 是一个数学表达式，用于计算 9864 *22 *23 的结果。它是一个标准的数学表达式，用于计算 817 *23 的结果。"
+   ]
+  },
+  {
+   "problem": 164,
+   "gt": [
+    "281",
+    "131"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3653/13\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"281.0\"}}\n</tool_call>",
+    "3653/13的结果是281.0。"
+   ]
+  },
+  {
+   "problem": 164,
+   "gt": [
+    "281",
+    "131"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3653/13\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"281.0\"}}\n</tool_call>",
+    "3653/13的结果是281.0。"
+   ]
+  },
+  {
+   "problem": 165,
+   "gt": [
+    "26776365",
+    "15732290",
+    "14224"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3585 * 7469\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5585 * 7469\"}}\n</tool_call>",
+    "3585*7469的结果是26776365。"
+   ]
+  },
+  {
+   "problem": 165,
+   "gt": [
+    "26776365",
+    "15732290",
+    "14224"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"585 * 7469\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5585 * 7469\"}}\n</tool_call>",
+    "3585 * 7469 is 4369365."
+   ]
+  },
+  {
+   "problem": 166,
+   "gt": [
+    "78",
+    "2125"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1248/16\"}}\n</tool_call>",
+    "这1248/16等于78.0。"
+   ]
+  },
+  {
+   "problem": 166,
+   "gt": [
+    "78",
+    "2125"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1248/16\"}}\n</tool_call>",
+    "<tool_call>\n{\"result\": \"78.0\"}}\n</tool_call>"
+   ]
+  },
+  {
+   "problem": 167,
+   "gt": [
+    "377",
+    "12371",
+    "256"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16**2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16**2\"}}\n</tool_call>",
+    "256 的结果是 **256**。"
+   ]
+  },
+  {
+   "problem": 167,
+   "gt": [
+    "377",
+    "12371",
+    "256"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16**2\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"256\"}}\n</tool_call>",
+    "16加上3423和8948的结果是256。"
+   ]
+  },
+  {
+   "problem": 168,
+   "gt": [
+    "2725",
+    "19",
+    "7655"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.6666666666666666,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"725 + 330*21\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"725 + 330*21\"}}\n</tool_call>",
+    "The result of 7655 minus 3244-519 is 7655."
+   ]
+  },
+  {
+   "problem": 168,
+   "gt": [
+    "2725",
+    "19",
+    "7655"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"725 + 330*21\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"725 + 330*21\"}}\n</tool_call>",
+    "3244-519 for you! If you have any specific questions or need further assistance with a particular question, feel free to ask!"
+   ]
+  },
+  {
+   "problem": 169,
+   "gt": [
+    "361",
+    "3375",
+    "9306"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19**2. Plus, 算算15**3. Addition and (840+6)*11的结果\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19**2. Plus, 算15**3. Addition and (840+6)*11的结果\"}}\n</tool_call>",
+    "19  \n5. **19**2. Plus, 算算15**3. Addition and (840+6)*11的结果是**19**2**2. Plus。"
+   ]
+  },
+  {
+   "problem": 169,
+   "gt": [
+    "361",
+    "3375",
+    "9306"
+   ],
+   "n_calls": 0,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 0,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19**2. Plus, 算算15**3. How many (2)*11的结果\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"19**2. Plus, 算算15**3. How many (2)*11的结果\"}}\n</tool_call>"
+   ]
+  },
+  {
+   "problem": 170,
+   "gt": [
+    "-329"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1475-1804\"}}\n</tool_call>",
+    "1475-1804 is equal to 329."
+   ]
+  },
+  {
+   "problem": 170,
+   "gt": [
+    "-329"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1475-1804\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1475-1804\"}}\n</tool_call>",
+    "1475-1804等于329。"
+   ]
+  },
+  {
+   "problem": 171,
+   "gt": [
+    "15426",
+    "3732",
+    "49219170"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8470*5811\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8470*5811\"}}\n</tool_call>",
+    "The result of (17+840)*18 is 49219170."
+   ]
+  },
+  {
+   "problem": 171,
+   "gt": [
+    "15426",
+    "3732",
+    "49219170"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"17+840\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"17+840\"}}\n</tool_call>",
+    "The result of multiplying 17 + 840 is 857."
+   ]
+  },
+  {
+   "problem": 172,
+   "gt": [
+    "101",
+    "11043",
+    "13523"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2929/29\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2929/29\"}}\n</tool_call>",
+    "2929/29等于101.0。\n\n3+736*15等于101.0。"
+   ]
+  },
+  {
+   "problem": 172,
+   "gt": [
+    "101",
+    "11043",
+    "13523"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2929 / 2389\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2929 / 2389\"}}\n</tool_call>",
+    "2929/29等于1.2260359983256592。"
+   ]
+  },
+  {
+   "problem": 173,
+   "gt": [
+    "2754",
+    "9367",
+    "36"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"246+60\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"646+70\"}}\n</tool_call>",
+    "The result of **306**2 is 306."
+   ]
+  },
+  {
+   "problem": 173,
+   "gt": [
+    "2754",
+    "9367",
+    "36"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"246+60\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"246+60\"}}\n</tool_call>",
+    "The result of (246+60)*9 is 306."
+   ]
+  },
+  {
+   "problem": 174,
+   "gt": [
+    "1515",
+    "7067",
+    "11752"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"+25*90\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"+25*90\"}}\n</tool_call>",
+    "The result of (216-951)+25*90 is \"2250\"."
+   ]
+  },
+  {
+   "problem": 174,
+   "gt": [
+    "1515",
+    "7067",
+    "11752"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"447+331*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"732+580**\"}}\n</tool_call>",
+    "The result of 447+331*20 is 732+580."
+   ]
+  },
+  {
+   "problem": 175,
+   "gt": [
+    "8233",
+    "2975"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"unit_converter\", \"arguments\": {\"value\": 785, \"from_unit\": \"x_core\", \"to_unit\": \"x_core\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"785+266*2-39\"}}\n</tool_call>",
+    "The result of 785+266*28 is 785."
+   ]
+  },
+  {
+   "problem": 175,
+   "gt": [
+    "8233",
+    "2975"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"785 + 266*28\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"785 + 266*28\"}}\n</tool_call>",
+    "The result of 785+266*28 is 8233."
+   ]
+  },
+  {
+   "problem": 176,
+   "gt": [
+    "223",
+    "122"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5467 - 5244\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5467 - 5244\"}}\n</tool_call>",
+    "5467-5244 的计算结果是 223。"
+   ]
+  },
+  {
+   "problem": 176,
+   "gt": [
+    "223",
+    "122"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5467-5244\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5467-5244\"}}\n</tool_call>",
+    "5467-5244是223。"
+   ]
+  },
+  {
+   "problem": 177,
+   "gt": [
+    "3966",
+    "-1593"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2928+1038\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2928+1038\"}}\n</tool_call>",
+    "2928+1038的结果是3966。"
+   ]
+  },
+  {
+   "problem": 177,
+   "gt": [
+    "3966",
+    "-1593"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2928 + 1038\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2928 + 1038\"}}\n</tool_call>",
+    "2928+1038的结果是3966。"
+   ]
+  },
+  {
+   "problem": 178,
+   "gt": [
+    "940"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(469 - 89)+8*70\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(469 - 89) +8*70\"}}\n</tool_call>",
+    "The result of (469-89) + 8*70 is 940."
+   ]
+  },
+  {
+   "problem": 178,
+   "gt": [
+    "940"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "Calculate (469 - 89)+8*70\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"469 * 7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"469 - 89\"}}\n</tool_call>",
+    "The result of (469 - 89) + 8*70 is 383."
+   ]
+  },
+  {
+   "problem": 179,
+   "gt": [
+    "236"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4012/17\"}}\n</tool_call>",
+    "The result of 4012/17 is **236**."
+   ]
+  },
+  {
+   "problem": 179,
+   "gt": [
+    "236"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4012/17\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"236.0\"}}\n</tool_call>",
+    "我已经计算了4012/17的结果：\n\n4012/17 = 7.543  \n\n所以，答案是：**236.0**。"
+   ]
+  },
+  {
+   "problem": 180,
+   "gt": [
+    "11904",
+    "32"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"47 + 697\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"96/3\"}}\n</tool_call>",
+    "47+697等于744。"
+   ]
+  },
+  {
+   "problem": 180,
+   "gt": [
+    "11904",
+    "32"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(47+697)*16\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(47+697)*16\"}}\n</tool_call>",
+    "The result of $11904$ is **11904**."
+   ]
+  },
+  {
+   "problem": 181,
+   "gt": [
+    "2744"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**3\"}}\n</tool_call>",
+    "14乘以3等于2744。"
+   ]
+  },
+  {
+   "problem": 181,
+   "gt": [
+    "2744"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14**3\"}}\n</tool_call>",
+    "14对14的运算结果是2744。"
+   ]
+  },
+  {
+   "problem": 182,
+   "gt": [
+    "5209"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"+78*68\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"+78*68\"}}\n</tool_call>",
+    "The result of $5304$ and $5304$ is 5304."
+   ]
+  },
+  {
+   "problem": 182,
+   "gt": [
+    "5209"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"813-908\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"813-908\"}}\n</tool_call>",
+    "The result of multiplying 813-908 is 95."
+   ]
+  },
+  {
+   "problem": 183,
+   "gt": [
+    "377"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7917/21\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7917/21\"}}\n</tool_call>",
+    "7917/21的结果是377.0。"
+   ]
+  },
+  {
+   "problem": 183,
+   "gt": [
+    "377"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7917/21\"}}\n</tool_call>",
+    "7917/21的结果是377.0。"
+   ]
+  },
+  {
+   "problem": 184,
+   "gt": [
+    "20895",
+    "15064",
+    "-3958"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(747+248)*21\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(747+248)*21\"}}\n</tool_call>",
+    "(747+248)*21等于20895。"
+   ]
+  },
+  {
+   "problem": 184,
+   "gt": [
+    "20895",
+    "15064",
+    "-3958"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(747+248)*21\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(747+248)*21\"}}\n</tool_call>",
+    "(747+248)*21等于20895。"
+   ]
+  },
+  {
+   "problem": 185,
+   "gt": [
+    "440"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7040/16\"}}\n</tool_call>",
+    "计算7040/16是440。"
+   ]
+  },
+  {
+   "problem": 185,
+   "gt": [
+    "440"
+   ],
+   "n_calls": 1,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7040/16\"}}\n</tool_call>",
+    "The result of 740/16 is 440.0."
+   ]
+  },
+  {
+   "problem": 186,
+   "gt": [
+    "1683"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2700-1017\"}}\n</tool_call>",
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1683\"}}\n</tool_call>",
+    "2700-1017的结果是1683。"
+   ]
+  },
+  {
+   "problem": 186,
+   "gt": [
+    "1683"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"translate_text\", \"arguments\": {\"text\": \"算算2700-1017\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2700 - 1017\"}}\n</tool_call>",
+    "2700-1017等于2700。"
+   ]
+  },
+  {
+   "problem": 187,
+   "gt": [
+    "505",
+    "216"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(174-789) +70*16\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(174-789) +70*16\"}}\n</tool_call>",
+    "(174-789)+70*16的结果是505。"
+   ]
+  },
+  {
+   "problem": 187,
+   "gt": [
+    "505",
+    "216"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(174-789) +70*16\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(174-789) +70*16\"}}\n</tool_call>",
+    "(174-789) +70*16 = **160**"
+   ]
+  },
+  {
+   "problem": 188,
+   "gt": [
+    "3237",
+    "10350",
+    "13"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229 + 346)*18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229 + 346)*18\"}}\n</tool_call>",
+    "要计算1974+1263，再算65/5，可以按照以下步骤进行：\n\n1. **计算数学表达式**：8 × 9 = 18  \n2. **计算数学表达式**：18 × 18 = 45  \n3. **计算65/5**：18 × (30 - 65) = 55  \n\n所以，最终结果是 **55/5**。"
+   ]
+  },
+  {
+   "problem": 188,
+   "gt": [
+    "3237",
+    "10350",
+    "13"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1974+1263\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(229+346)*18\"}}\n</tool_call>",
+    "根据你提供的计算结果，计算1974 + 1263 = 3237。\n\n所以，1974加上1263的结果是3237。"
+   ]
+  },
+  {
+   "problem": 189,
+   "gt": [
+    "22232",
+    "53220"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"83+963*23\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"83+963*23\"}}\n</tool_call>",
+    "83+963*23等于22232。"
+   ]
+  },
+  {
+   "problem": 189,
+   "gt": [
+    "22232",
+    "53220"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(998+776)*30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(998+776)*30\"}}\n</tool_call>",
+    "83+963*23等于53220。"
+   ]
+  },
+  {
+   "problem": 190,
+   "gt": [
+    "8876",
+    "29673",
+    "1000"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(493+775)*7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(851+248)*27\"}}\n</tool_call>",
+    "(493+775)*7 的结果是：8876。"
+   ]
+  },
+  {
+   "problem": 190,
+   "gt": [
+    "8876",
+    "29673",
+    "1000"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(851+248)*27\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(851+248)*27\"}}\n</tool_call>",
+    "(493+775)*7. Plus, 请计算(851+248)*27. And 10**3的结果是29673。"
+   ]
+  },
+  {
+   "problem": 191,
+   "gt": [
+    "3505"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 1,
+   "turns": [
+    "<tool_call>\n{\"name\": \"translate_text\", \"arguments\": {\"text\": \"655+95*30\", \"target_language\": \"english\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"655 + 95*30\"}}\n</tool_call>",
+    "655+95*30 is a total of 655 + 95*30."
+   ]
+  },
+  {
+   "problem": 191,
+   "gt": [
+    "3505"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 1.0,
+   "all": true,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"655+95*30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"655+95*30\"}}\n</tool_call>",
+    "655+95*30的结果是3505。"
+   ]
+  },
+  {
+   "problem": 192,
+   "gt": [
+    "2957",
+    "21420",
+    "1571"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"128 + 943*3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"128 + 943*3\"}}\n</tool_call>",
+    "128 + 943*3的结果是2957。"
+   ]
+  },
+  {
+   "problem": 192,
+   "gt": [
+    "2957",
+    "21420",
+    "1571"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"128+943*3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"128+943*3\"}}\n</tool_call>",
+    "128+943*3的结果是2957。  \n\n如果你需要进一步的帮助，比如计算错误或需要更多信息，请告诉我！"
+   ]
+  },
+  {
+   "problem": 193,
+   "gt": [
+    "5068",
+    "9963650",
+    "-7749"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"861 + 601*7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(2525*3946-9066)\"}}\n</tool_call>",
+    "2525*3946的结果是5068。"
+   ]
+  },
+  {
+   "problem": 193,
+   "gt": [
+    "5068",
+    "9963650",
+    "-7749"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"861 + 601*7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2525*3946\"}}\n</tool_call>",
+    "The expression is **5068**."
+   ]
+  },
+  {
+   "problem": 194,
+   "gt": [
+    "4642",
+    "36"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(116+95)*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(116+95)*22\"}}\n</tool_call>",
+    "4642的结果是4642。"
+   ]
+  },
+  {
+   "problem": 194,
+   "gt": [
+    "4642",
+    "36"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"126**2\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"126**2\"}}\n</tool_call>",
+    "当前的数学计算结果是15876，但具体数值是15876。"
+   ]
+  },
+  {
+   "problem": 195,
+   "gt": [
+    "3624",
+    "7123"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(35-83)+72*51\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(35-83)+72*51\"}}\n</tool_call>",
+    "(35-83)+72*51的结果是3624。"
+   ]
+  },
+  {
+   "problem": 195,
+   "gt": [
+    "3624",
+    "7123"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(35-83)+72*51\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(8+411)+72*51\"}}\n</tool_call>",
+    "35-83+72*51 = 72**."
+   ]
+  },
+  {
+   "problem": 196,
+   "gt": [
+    "343",
+    "3375"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**3\"}}\n</tool_call>",
+    "7**3等于343。"
+   ]
+  },
+  {
+   "problem": 196,
+   "gt": [
+    "343",
+    "3375"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.5,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**3\"}}\n</tool_call>",
+    "7**3等于343。"
+   ]
+  },
+  {
+   "problem": 197,
+   "gt": [
+    "444",
+    "24027141",
+    "418"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4180/10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4180/10\"}}\n</tool_call>",
+    "The result of 188-414 is 4180."
+   ]
+  },
+  {
+   "problem": 197,
+   "gt": [
+    "444",
+    "24027141",
+    "418"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(188-414)+10*67\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(188-414)+10*67\"}}\n</tool_call>",
+    "The result of (188-414)+10*67 is 44447。"
+   ]
+  },
+  {
+   "problem": 198,
+   "gt": [
+    "1742"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5-557\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5-557\"}}\n</tool_call>",
+    "5-557的结果是 **-552**。"
+   ]
+  },
+  {
+   "problem": 198,
+   "gt": [
+    "1742"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.0,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(5-57) + 37*62\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(5-57) + 37*62\"}}\n</tool_call>",
+    "(5-57) + 37*62的结果是2242。"
+   ]
+  },
+  {
+   "problem": 199,
+   "gt": [
+    "6292",
+    "10488",
+    "483"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"805 + 421*23\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"805 + 421*23\"}}\n</tool_call>",
+    "1450+4842的结果是10488。\n\n还有：805+421*23的结果是10488。"
+   ]
+  },
+  {
+   "problem": 199,
+   "gt": [
+    "6292",
+    "10488",
+    "483"
+   ],
+   "n_calls": 2,
+   "unfinished": false,
+   "frac": 0.3333333333333333,
+   "all": false,
+   "calc_calls": 2,
+   "turns": [
+    "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"805 + 421*23\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"805 + 421*23\"}}\n</tool_call>",
+    "1600 + 421*23的结果是10488。"
+   ]
+  }
+ ]
+}

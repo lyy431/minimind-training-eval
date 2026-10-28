@@ -1,0 +1,11 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+bb_rl_id_anchor4 12 /96 30.2s
+bb_rl_id_anchor4 24 /96 51.3s
+bb_rl_id_anchor4 36 /96 72.8s
+bb_rl_id_anchor4 48 /96 100.7s
+bb_rl_id_anchor4 60 /96 124.7s
+bb_rl_id_anchor4 72 /96 149.6s
+bb_rl_id_anchor4 84 /96 169.1s
+bb_rl_id_anchor4 96 /96 197.3s

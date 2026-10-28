@@ -1,0 +1,16 @@
+{
+  "models": [
+    "bb_dist",
+    "bb_rl"
+  ],
+  "math_files": {
+    "bb_dist": "agent_bb200.json",
+    "bb_rl": "agent_bbrl200.json"
+  },
+  "chat_file": "rm_bbrl_compare.json",
+  "weight_sha256": {
+    "bb_dist": "606b058fb428560cf3f59c077a286c1eda2066ea97e2834bc5ad18a4d8f1b84c",
+    "bb_rl": "ba9ef9714dfb31899c1bddad77e94c1f86b650b7b1cd76eb048f4dd4887ae7ce"
+  },
+  "validation": "Exact text/rollout replay and reward scoring checks in baseline_replay.json"
+}

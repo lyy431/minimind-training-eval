@@ -1,0 +1,30 @@
+Model Params: 63.91M
+Trainable Params: 63.912M
+LLM 总参数量: 64.305 M
+LoRA 参数量: 0.393 M
+LoRA 参数占比: 0.61%
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 1382 examples [00:00, 78203.59 examples/s]
+Epoch:[1/3](25/173), loss: 1.4676, logits_loss: 1.4676, aux_loss: 0.0000, lr: 0.00009949, epoch_time: 1.0min
+Epoch:[1/3](50/173), loss: 1.5458, logits_loss: 1.5458, aux_loss: 0.0000, lr: 0.00009795, epoch_time: 0.0min
+Epoch:[1/3](75/173), loss: 1.6093, logits_loss: 1.6093, aux_loss: 0.0000, lr: 0.00009544, epoch_time: 0.0min
+Epoch:[1/3](100/173), loss: 1.7682, logits_loss: 1.7682, aux_loss: 0.0000, lr: 0.00009200, epoch_time: 0.0min
+Epoch:[1/3](125/173), loss: 1.3646, logits_loss: 1.3646, aux_loss: 0.0000, lr: 0.00008772, epoch_time: 0.0min
+Epoch:[1/3](150/173), loss: 1.8021, logits_loss: 1.8021, aux_loss: 0.0000, lr: 0.00008269, epoch_time: 0.0min
+Epoch:[1/3](173/173), loss: 1.4802, logits_loss: 1.4802, aux_loss: 0.0000, lr: 0.00007750, epoch_time: 0.0min
+Epoch:[2/3](25/173), loss: 1.2433, logits_loss: 1.2433, aux_loss: 0.0000, lr: 0.00007137, epoch_time: 1.0min
+Epoch:[2/3](50/173), loss: 1.1649, logits_loss: 1.1649, aux_loss: 0.0000, lr: 0.00006486, epoch_time: 0.0min
+Epoch:[2/3](75/173), loss: 1.5033, logits_loss: 1.5033, aux_loss: 0.0000, lr: 0.00005813, epoch_time: 0.0min
+Epoch:[2/3](100/173), loss: 1.3171, logits_loss: 1.3171, aux_loss: 0.0000, lr: 0.00005133, epoch_time: 0.0min
+Epoch:[2/3](125/173), loss: 1.5936, logits_loss: 1.5936, aux_loss: 0.0000, lr: 0.00004461, epoch_time: 0.0min
+Epoch:[2/3](150/173), loss: 1.6647, logits_loss: 1.6647, aux_loss: 0.0000, lr: 0.00003813, epoch_time: 0.0min
+Epoch:[2/3](173/173), loss: 1.7211, logits_loss: 1.7211, aux_loss: 0.0000, lr: 0.00003250, epoch_time: 0.0min
+Epoch:[3/3](25/173), loss: 1.4840, logits_loss: 1.4840, aux_loss: 0.0000, lr: 0.00002688, epoch_time: 1.0min
+Epoch:[3/3](50/173), loss: 1.4834, logits_loss: 1.4834, aux_loss: 0.0000, lr: 0.00002191, epoch_time: 0.0min
+Epoch:[3/3](75/173), loss: 1.7630, logits_loss: 1.7630, aux_loss: 0.0000, lr: 0.00001769, epoch_time: 0.0min
+Epoch:[3/3](100/173), loss: 1.1677, logits_loss: 1.1677, aux_loss: 0.0000, lr: 0.00001432, epoch_time: 0.0min
+Epoch:[3/3](125/173), loss: 1.3625, logits_loss: 1.3625, aux_loss: 0.0000, lr: 0.00001189, epoch_time: 0.0min
+Epoch:[3/3](150/173), loss: 1.3703, logits_loss: 1.3703, aux_loss: 0.0000, lr: 0.00001044, epoch_time: 0.0min
+Epoch:[3/3](173/173), loss: 1.8628, logits_loss: 1.8628, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 0.0min
+{"name": "lora_yuyang_gentle_e3", "base": "bb_rl", "epochs": 3, "learning_rate": 0.0001, "batch_size": 8, "max_seq_len": 768, "num_workers": 2, "dataset": "D:\\minimind\\minimind-master\\my_eval\\results\\identity_repair_20261024\\gentle_mix.jsonl", "seconds": 123.59130729999742, "peak_gpu_allocated_gib": 2.3689441680908203, "peak_gpu_reserved_gib": 2.5625, "argv": ["train_lora.py", "--from_weight", "bb_rl", "--lora_name", "lora_yuyang_gentle_e3", "--data_path", "D:\\minimind\\minimind-master\\my_eval\\results\\identity_repair_20261024\\gentle_mix.jsonl", "--epochs", "3", "--batch_size", "8", "--learning_rate", "0.0001", "--max_seq_len", "768", "--num_workers", "2", "--from_resume", "0", "--log_interval", "25", "--save_interval", "10000", "--use_compile", "0"]}

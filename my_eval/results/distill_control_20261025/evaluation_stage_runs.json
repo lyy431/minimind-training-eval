@@ -1,0 +1,112 @@
+[
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "lock"
+    ],
+    "seconds": 7.163736599999538,
+    "exit_code": 0
+  },
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "replay"
+    ],
+    "seconds": 39.82323390000238,
+    "exit_code": 0
+  },
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "import_history"
+    ],
+    "seconds": 8.01294439999765,
+    "exit_code": 0
+  },
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "loss",
+      "--model",
+      "bb_dist"
+    ],
+    "seconds": 12.058992400001443,
+    "exit_code": 0
+  },
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "loss",
+      "--model",
+      "bb_sft_replay"
+    ],
+    "seconds": 10.764998800004832,
+    "exit_code": 0
+  },
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "loss",
+      "--model",
+      "bb_sft_new"
+    ],
+    "seconds": 10.769669599998451,
+    "exit_code": 0
+  },
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "loss",
+      "--model",
+      "bb_rl"
+    ],
+    "seconds": 12.864979799996945,
+    "exit_code": 0
+  },
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "math",
+      "--model",
+      "bb_sft_replay"
+    ],
+    "seconds": 645.7327688000005,
+    "exit_code": 0
+  },
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "math",
+      "--model",
+      "bb_sft_new"
+    ],
+    "seconds": 590.2923393000019,
+    "exit_code": 0
+  },
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "chat",
+      "--model",
+      "bb_sft_replay"
+    ],
+    "seconds": 132.9876965000003,
+    "exit_code": 0
+  },
+  {
+    "script": "eval_distill_control.py",
+    "args": [
+      "chat",
+      "--model",
+      "bb_sft_new"
+    ],
+    "seconds": 117.52336160000414,
+    "exit_code": 0
+  },
+  {
+    "script": "write_distill_control_report.py",
+    "args": [],
+    "seconds": 7.994490900004166,
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,459 @@
+{
+  "review_type": "Assistant reviewed all38 primary-set legacy-positive/whole-number-negative outputs; not independent blinded human adjudication and not a full semantic audit of all1600 outputs.",
+  "counts": {
+    "omitted_answer": 5,
+    "wrong_number_contains_target_digits": 31,
+    "unevaluated_equivalent_expression": 2
+  },
+  "notes_zh": "31次把错误长数字当成命中短答案；5次漏答但从其他文字命中目标子串；2次只重复等价算式4180/10，没有明确写出数值418。最后一类不称为数学不等价，而是未完成数值作答。完整数字检查仍可能命中题干或中间值，不能等同完整语义判分。",
+  "rows": [
+    {
+      "model": "bb_dist",
+      "problem": 7,
+      "sample": 0,
+      "gt": [
+        "3184",
+        "29770",
+        "742716"
+      ],
+      "final": "The result of (336+62)*8 is 3184.\nThe result of (695+450)*26 is 229770.\nThe result of 108*6877 is 742716.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_dist",
+      "problem": 18,
+      "sample": 1,
+      "gt": [
+        "15440",
+        "7409",
+        "8"
+      ],
+      "final": "计算结果如下：\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409",
+      "review_category": "omitted_answer"
+    },
+    {
+      "model": "bb_dist",
+      "problem": 21,
+      "sample": 1,
+      "gt": [
+        "437",
+        "2982"
+      ],
+      "final": "The result of 4807 divided by 11 is 437.0. The result of (273-423) plus 36 multiplied by 87 is 22982.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_dist",
+      "problem": 43,
+      "sample": 0,
+      "gt": [
+        "5109",
+        "22836",
+        "1252"
+      ],
+      "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_dist",
+      "problem": 48,
+      "sample": 0,
+      "gt": [
+        "10664",
+        "43"
+      ],
+      "final": "374+343*30的结果是10664。",
+      "review_category": "omitted_answer"
+    },
+    {
+      "model": "bb_dist",
+      "problem": 143,
+      "sample": 0,
+      "gt": [
+        "33105156",
+        "17856",
+        "10583"
+      ],
+      "final": "The result of 4809*6884 is 333105156.\nThe result of (889+103)*18 is 17856.\nThe result of 6577+4006 is 10583.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_dist",
+      "problem": 193,
+      "sample": 0,
+      "gt": [
+        "5068",
+        "9963650",
+        "-7749"
+      ],
+      "final": "The result of 861 + 601 * 7 is 5068.\nThe result of 2525 * 3946 is 99963650.\nAnd 1317 - 9066 is -7749.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_dist",
+      "problem": 193,
+      "sample": 1,
+      "gt": [
+        "5068",
+        "9963650",
+        "-7749"
+      ],
+      "final": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650.\nAnd the result of 1317-9066 is -7749.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_dist",
+      "problem": 197,
+      "sample": 0,
+      "gt": [
+        "444",
+        "24027141",
+        "418"
+      ],
+      "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180/10.",
+      "review_category": "unevaluated_equivalent_expression"
+    },
+    {
+      "model": "bb_dist",
+      "problem": 197,
+      "sample": 1,
+      "gt": [
+        "444",
+        "24027141",
+        "418"
+      ],
+      "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 2,
+      "sample": 0,
+      "gt": [
+        "6465",
+        "52956847",
+        "3375"
+      ],
+      "final": "计算结果如下：\n\n1. (347 + 84) * 15 = 66465\n2. 8069 * 6563 = 52956847\n3. 15^3 = 33375",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 2,
+      "sample": 1,
+      "gt": [
+        "6465",
+        "52956847",
+        "3375"
+      ],
+      "final": "计算结果如下：\n\n1. (347 + 84) * 15 = 66465\n2. 8069 * 6563 = 52956847\n3. 15^3 = 33375",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 7,
+      "sample": 0,
+      "gt": [
+        "3184",
+        "29770",
+        "742716"
+      ],
+      "final": "The result of (336+62)*8 is 3184.\nThe result of (695+450)*26 is 229770.\nAnd the result of 108*6877 is 742716.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 18,
+      "sample": 1,
+      "gt": [
+        "15440",
+        "7409",
+        "8"
+      ],
+      "final": "计算结果如下：\n\n1. (859 + 685) * 10 = 15440\n2. (460 - 43) + 92 * 76 = 7409",
+      "review_category": "omitted_answer"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 21,
+      "sample": 0,
+      "gt": [
+        "437",
+        "2982"
+      ],
+      "final": "The result of 4807 divided by 11 is 437.0. The sum of 273 divided by 87 is 22982.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 43,
+      "sample": 0,
+      "gt": [
+        "5109",
+        "22836",
+        "1252"
+      ],
+      "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 43,
+      "sample": 1,
+      "gt": [
+        "5109",
+        "22836",
+        "1252"
+      ],
+      "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 58,
+      "sample": 0,
+      "gt": [
+        "9",
+        "6161",
+        "9057"
+      ],
+      "final": "The result of 3**2 is 9, and the result of 817 plus 668 multiplied by 8 is 6161. The sum of 877 and 818 multiplied by 10 is 99057.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 58,
+      "sample": 1,
+      "gt": [
+        "9",
+        "6161",
+        "9057"
+      ],
+      "final": "The result of 3**2 is 9.\nThe result of 817 plus 668 * 8 is 6161.\nThe result of 877+818*10 is 99057.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 175,
+      "sample": 0,
+      "gt": [
+        "8233",
+        "2975"
+      ],
+      "final": "The result of 785+266*28 is 8233. The sum of 554+269*9 is 22975.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 175,
+      "sample": 1,
+      "gt": [
+        "8233",
+        "2975"
+      ],
+      "final": "The result of 785 + 266 * 28 is 8233.\nThe sum of 554 + 269 * 9 is 22975.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 190,
+      "sample": 0,
+      "gt": [
+        "8876",
+        "29673",
+        "1000"
+      ],
+      "final": "The result of ((493+775)*7) is 8876.\nThe result of (851+248)*27 is 229673.\nAnd 10 **3的结果是1000.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 190,
+      "sample": 1,
+      "gt": [
+        "8876",
+        "29673",
+        "1000"
+      ],
+      "final": "The calculations have been completed:\n\n1. (493 + 775) * 7 = 8876\n2. (851 + 248) * 27 = 229673\n3. 10 ** 3 的结果是 1000",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 193,
+      "sample": 0,
+      "gt": [
+        "5068",
+        "9963650",
+        "-7749"
+      ],
+      "final": "The result of 861 + 601 * 7 is 5068.\nThe result of 2525 * 3946 is 99963650.\nAnd 1317 - 9066 is -7749.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 193,
+      "sample": 1,
+      "gt": [
+        "5068",
+        "9963650",
+        "-7749"
+      ],
+      "final": "The result of 861+601*7 is 5068.\nThe sum of 2525*3946 is 99963650.\nAnd 1317-9066的结果是-7749。",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_rl",
+      "problem": 197,
+      "sample": 0,
+      "gt": [
+        "444",
+        "24027141",
+        "418"
+      ],
+      "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nAnd the result of 4180/10 is 4180/10.",
+      "review_category": "unevaluated_equivalent_expression"
+    },
+    {
+      "model": "bb_sft_replay",
+      "problem": 48,
+      "sample": 1,
+      "gt": [
+        "10664",
+        "43"
+      ],
+      "final": "374+343*30的结果是10664。",
+      "review_category": "omitted_answer"
+    },
+    {
+      "model": "bb_sft_replay",
+      "problem": 139,
+      "sample": 0,
+      "gt": [
+        "105",
+        "4207"
+      ],
+      "final": "The result of 2205 divided by 21 is 1057. The result of 996 plus 247 multiplied by 13 is 4207.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_sft_replay",
+      "problem": 174,
+      "sample": 1,
+      "gt": [
+        "1515",
+        "7067",
+        "11752"
+      ],
+      "final": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067.\nThe result of 732+580*19 is 111752.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_sft_replay",
+      "problem": 193,
+      "sample": 1,
+      "gt": [
+        "5068",
+        "9963650",
+        "-7749"
+      ],
+      "final": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650.\nThe result of 1317-9066 is -7749.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_sft_replay",
+      "problem": 197,
+      "sample": 0,
+      "gt": [
+        "444",
+        "24027141",
+        "418"
+      ],
+      "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_sft_replay",
+      "problem": 197,
+      "sample": 1,
+      "gt": [
+        "444",
+        "24027141",
+        "418"
+      ],
+      "final": "The result of (188-414)+10*67 is 444.\nThe result of 5403*4447 is 24027141.\nThe result of 4180/10 is 4180.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_sft_new",
+      "problem": 43,
+      "sample": 0,
+      "gt": [
+        "5109",
+        "22836",
+        "1252"
+      ],
+      "final": "计算结果如下：\n\n1. \\(309 + 400 \\times 12 = 5109\\)\n2. \\(917 + 953 \\times 23 = 222836\\)\n3. \\((158 - 817) + 21 \\times 91 = 1252\\)",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_sft_new",
+      "problem": 48,
+      "sample": 1,
+      "gt": [
+        "10664",
+        "43"
+      ],
+      "final": "374+343*30的结果是10664。",
+      "review_category": "omitted_answer"
+    },
+    {
+      "model": "bb_sft_new",
+      "problem": 66,
+      "sample": 0,
+      "gt": [
+        "11459972",
+        "387",
+        "49"
+      ],
+      "final": "The result of 1327*8636 is 111459972. The result of 8901 divided by 23 is 387.0. And the result of 7^2 is 49.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_sft_new",
+      "problem": 139,
+      "sample": 0,
+      "gt": [
+        "105",
+        "4207"
+      ],
+      "final": "The result of 2205 divided by 21 is 1057. The result of 996 plus 247 multiplied by 13 is 4207.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_sft_new",
+      "problem": 174,
+      "sample": 1,
+      "gt": [
+        "1515",
+        "7067",
+        "11752"
+      ],
+      "final": "The result of (216-951)+25*90 is 1515.\nThe result of 447+331*20 is 7067.\nThe result of 732+580*19 is 111752.",
+      "review_category": "wrong_number_contains_target_digits"
+    },
+    {
+      "model": "bb_sft_new",
+      "problem": 193,
+      "sample": 1,
+      "gt": [
+        "5068",
+        "9963650",
+        "-7749"
+      ],
+      "final": "The result of 861+601*7 is 5068.\nThe result of 2525*3946 is 99963650.\nThe result of 1317-9066 is -7749.",
+      "review_category": "wrong_number_contains_target_digits"
+    }
+  ],
+  "math_results_sha256": "337bd620ff0429f7a4a9e5ffafe23904f32d0c7ab3b4e12e59922fd03a81d0ea"
+}

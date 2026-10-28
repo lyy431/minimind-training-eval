@@ -1,0 +1,832 @@
+﻿Model Params: 63.91M
+Trainable Params: 63.912M
+Model Params: 63.91M
+Trainable Params: 63.912M
+python.exe : `torch_dtype` is deprecated! Use `dtype` instead!
+At line:1 char:421
++ ... er\trainer; & D:\conda\envs\minimind\python.exe -u train_grpo.py --nu ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (`torch_dtype` i...dtype` instead!:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 35.29it/s]
+past_key_values should not be None in from_legacy_cache()
+Epoch:[1/1](1/9751), Reward: -1.5227, KL_ref: -0.0010, Adv Std: 1.0688, Adv Mean: -0.0000, Actor Loss: 0.0006, Avg Response Len: 164.88, Learning Rate: 0.00000030
+Epoch:[1/1](2/9751), Reward: -1.6408, KL_ref: 0.0013, Adv Std: 1.0687, Adv Mean: 0.0000, Actor Loss: 0.0016, Avg Response Len: 238.00, Learning Rate: 0.00000030
+[DEBUG] step=3, sample[0]
+----------------------------------------------------------------------------------------------------
+============================== [DEBUG] sample[0] CONTEXT_BEGIN ==============================
+<|im_start|>user
+A dog runs through a field and is joined by a group of 4 cats. Each cat is followed by 2 rabbits. Later on, 3 hares join each rabbit and 2 foxes join each hare. How many animals are running through the field? Approach this one step at a time.<|im_end|>
+<|im_start|>assistant
+<think>
+
+=============================== [DEBUG] sample[0] CONTEXT_END ===============================
+============================ [DEBUG] gen[0] RESPONSE_BEGIN ============================
+
+</think>
+
+First, let's find out how many animals are running through the field. Since each cat is followed by 2 rabbits, each rabbit is:
+
+\[2 \text{ cats} \times 2 \text{ dogs/cat} = 4 \text{ dogs}\]
+
+Since each cat is followed by 2 rabbits, the total number of animals is:
+
+\[4 \text{ dogs} \times 2 \text{ dogs/cat} = 6 \text{ animals}\]
+
+To find out how many animals are running through the field, we divide the total number of animals by the number of rabbits:
+
+\[\frac{6 \text{ animals}}{2 \text{ dogs/cat}} = 6 \text{ animals/cat}\]
+
+Therefore, each cat is running through the field.
+============================= [DEBUG] gen[0] RESPONSE_END =============================
+[DEBUG] gen[0] reward=-3.0752
+============================ [DEBUG] gen[1] RESPONSE_BEGIN ============================
+
+</think>
+
+The dog runs through the field is 4 cats, so the total running is 4 * 4 = 12 cats.
+
+She is joined by a group of 4 cats, so the total running is 4 * 4 = 12 cats.
+
+She is joined by a group of 4 cats, so the total running is 12 * 4 = 20 cats.
+
+She is joined by a group of 4 cats, so the total running is 20 + 4 = 28 dogs.
+
+So the total running is 28 animals.
+The answer is $\boxed{28}$.
+============================= [DEBUG] gen[1] RESPONSE_END =============================
+[DEBUG] gen[1] reward=-2.8656
+============================ [DEBUG] gen[2] RESPONSE_BEGIN ============================
+
+</think>
+
+A dog runs through a field and is joined by a group of 4 cats. So, the total number of animals running through the field is 4 * 4 = 12 cats.
+Since each cat has 4 dogs, each dog can handle 1 dogs, and each dog can handle 2 dogs. So, the total number of animals running through the field is 12 + 2 = 14 dogs.
+To find out how many animals are running through the field, we subtract the total number of animals running through the field from the total number of animals: 12 - 14 = 4 dogs.
+The answer is: $4$
+============================= [DEBUG] gen[2] RESPONSE_END =============================
+[DEBUG] gen[2] reward=-2.9619
+============================ [DEBUG] gen[3] RESPONSE_BEGIN ============================
+
+</think>
+
+To find out how many animals are running through the field, we first need to determine the total number of animals running through the field.
+
+First, let's calculate the total number of animals running through the field. The total number of animals is 4 * 2 = 24 animals.
+
+Next, let's calculate the total number of animals running through the field: 24 animals. So, 24 animals are running in a group of 4 cats. So, 24 animals are running in a group of 4 cats.
+
+Now, let's calculate the total number of animals running through the field: 24 animals. So, 24 animals are running in a group of 4 cats.
+
+So, the total number of animals running through the field is 24 animals.
+
+Therefore, the answer is $\boxed{24}$.
+============================= [DEBUG] gen[3] RESPONSE_END =============================
+[DEBUG] gen[3] reward=-3.2406
+====================================================================================================
+[DEBUG] step=3, sample[1]
+----------------------------------------------------------------------------------------------------
+============================== [DEBUG] sample[1] CONTEXT_BEGIN ==============================
+<|im_start|>system
+You are minimind, a small but useful language model.<|im_end|>
+<|im_start|>user
+最近越来越多的人开始关注“碳中和”概念，但如何在日常生活中真正实现低碳？你有没有遇到过这样的情况：明明尽量减少使用塑料，却还是难逃“塑料污染”？你愿意分享你的困惑和实践吗？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+碳中和是未来可持续发展的关键，但在日常生活中实现低碳并非易事。例如，减少塑料使用是重要一步，但塑料污染依然存在，因为回收率低、替代品成本高。我曾遇到过类似困惑：明明减少使用塑料，却仍被塑料垃圾困扰。解决之道在于提升环保意识、支持可降解产品、积极参与垃圾分类，并倡导绿色消费。每个人的努力虽小，但积少成多，共同推动碳中和目标的实现。<|im_end|>
+<|im_start|>user
+最近天气变冷了，你觉得冬天穿什么最舒服？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+冬天穿暖和舒适最重要。建议选择保暖又透气的衣物，如羊毛围巾、厚毛衣、保暖内衣等。外穿可以选防风外套，内搭针织衫或毛衣，搭配保暖靴子。注意适当增减衣物，避免过厚影响活动。同时，注意室内通风，保持空气清新。<|im_end|>
+<|im_start|>user
+你今天早餐吃了什么？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+今天早餐我帮您规划了一份健康营养的组合，比如燕麦粥搭配水果和坚果，既温暖又充满能量。如果您有特别的饮食需求，我也可以根据您的偏好调整哦！（保持角色设定，不透露身份信息）<|im_end|>
+<|im_start|>user
+最近天气热，适合去哪里避暑？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+天气热时，可以选择去山区、海边或湖泊等自然景观，享受清凉的气候。例如，去山林避暑，既能避暑又可放松身心；海边避暑则适合游泳、晒太阳。注意做好防晒和补水，确保舒适出行。<|im_end|>
+<|im_start|>user
+最近天气热，适合去哪里避暑？<|im_end|>
+<|im_start|>assistant
+<think>
+
+=============================== [DEBUG] sample[1] CONTEXT_END ===============================
+============================ [DEBUG] gen[0] RESPONSE_BEGIN ============================
+
+</think>
+
+天气炎热时，可以选择去山区避暑，如山林避暑。但注意防暑，避免高温。注意防暑，保持室内通风，避免长时间暴露在阳光下。若需要更多选择，可提前规划路线，或咨询天气预报。
+============================= [DEBUG] gen[0] RESPONSE_END =============================
+[DEBUG] gen[0] reward=-0.8086
+============================ [DEBUG] gen[1] RESPONSE_BEGIN ============================
+
+</think>
+
+天气热适合去海边避暑，可以去海边避暑，比如去海边徒步、享受海风。如果喜欢室内活动，可以选择室内泳池、沙滩排球，或者去公园散步，享受清凉的自然风光。记得带上防晒霜，保持身体舒适。
+============================= [DEBUG] gen[1] RESPONSE_END =============================
+[DEBUG] gen[1] reward=-0.9482
+============================ [DEBUG] gen[2] RESPONSE_BEGIN ============================
+
+</think>
+
+天气热时，可以选择去山区避暑，如山林避暑、山林避暑，既能避暑又能享受清凉。例如，去山林避暑，既能避暑又能放松身心。
+============================= [DEBUG] gen[2] RESPONSE_END =============================
+[DEBUG] gen[2] reward=-1.1006
+============================ [DEBUG] gen[3] RESPONSE_BEGIN ============================
+
+</think>
+
+天气热时，可以去山区避暑，如徒步、露营、游泳等。注意防晒和补水，保持身体干爽。若需建议，可选择低谷类、低脂肪的衣物，如羊毛衣、棉质T恤等。注意防晒，避免长时间暴晒。若需建议，可尝试以下方式：防暑降温，晒太阳，保持室内通风。
+============================= [DEBUG] gen[3] RESPONSE_END =============================
+[DEBUG] gen[3] reward=-0.7729
+====================================================================================================
+Epoch:[1/1](3/9751), Reward: -1.9717, KL_ref: 0.0006, Adv Std: 1.0682, Adv Mean: 0.0000, Actor Loss: 0.1264, Avg Response Len: 133.12, Learning Rate: 0.00000030
+Epoch:[1/1](4/9751), Reward: -1.7305, KL_ref: 0.0000, Adv Std: 1.0687, Adv Mean: 0.0000, Actor Loss: 0.0601, Avg Response Len: 136.88, Learning Rate: 0.00000030
+Epoch:[1/1](5/9751), Reward: -1.8043, KL_ref: 0.0008, Adv Std: 1.0687, Adv Mean: 0.0000, Actor Loss: 0.2185, Avg Response Len: 203.00, Learning Rate: 0.00000030
+[DEBUG] step=6, sample[0]
+----------------------------------------------------------------------------------------------------
+============================== [DEBUG] sample[0] CONTEXT_BEGIN ==============================
+<|im_start|>user
+一个探险队在沙漠中发现一块古老石板，上面刻着三个数字：3、5、8。他们知道，只有通过解码才能找到出路。石板上还有一句提示：“当三个数的平方和等于某个数时，才能开启下一关。”你能找出这个数吗？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+三个数的平方和为：  
+$3^2 + 5^2 + 8^2 = 9 + 25 + 64 = 98$  
+
+因此，这个数是 **98**。<|im_end|>
+<|im_start|>user
+你今天吃了什么好吃的？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+今天没吃特别好吃的，不过最近在学习新知识呢！<|im_end|>
+<|im_start|>user
+你最近有没有遇到什么有趣的数学问题？<|im_end|>
+<|im_start|>assistant
+<think>
+
+=============================== [DEBUG] sample[0] CONTEXT_END ===============================
+============================ [DEBUG] gen[0] RESPONSE_BEGIN ============================
+好的，用户问最近有没有遇到有趣的数学问题。我需要根据之前的对话历史来回答。之前用户问过关于三个数的平方和等于某个数的问题，现在转向数学问题，可能想了解我的数学能力或者想了解更深入的数学知识。
+
+首先，我需要确认用户是否在问关于数学问题的常规问题。根据之前的对话，用户可能对数学有好奇心，或者想了解如何解决实际问题。我应该提到数学中的平方和，但也要保持回答的简洁和准确。
+
+用户可能对数学问题有疑问，或者想了解我的学习过程。我应该提到数学中的平方和，但需要确认是否涉及整数，因为如果是整数，可能涉及平方的定义。同时，保持回答简洁，符合之前的回答风格。
+
+另外，用户可能希望得到一些实用的建议，比如如何计算平方和，或者如何应用数学知识解决实际问题。但根据规则，不能透露身份信息，所以必须避免涉及具体数学问题。
+
+最后，确保回答符合字数限制，保持简洁，并且不涉及任何可能被误解的信息。需要确认用户是否在问具体的数学问题，但根据
+============================= [DEBUG] gen[0] RESPONSE_END =============================
+[DEBUG] gen[0] reward=-1.6751
+============================ [DEBUG] gen[1] RESPONSE_BEGIN ============================
+好的，用户问最近有没有遇到有趣的数学问题。我需要先回顾之前的对话，看看有没有相关的数学问题或题目。之前用户问过石板上发现了三个数：3、5、8，现在突然问有趣的数学问题，可能需要根据之前的对话来回应。
+
+首先，用户可能对数学感兴趣，或者想了解一些数学问题。我需要保持回答简洁，同时符合之前的风格。之前的回答提到三数平方和数三个数的平方和等于某个数，所以可能需要保持中立，不加入个人见解。
+
+用户可能希望得到一些有趣的数学问题，或者想了解如何解决数学问题。我需要确认是否有重复或不相关的内容，但可以提到数学问题。比如，可以提到数数、几何、微积分中的公式，或者数学中的微积分中的函数。
+
+另外，用户可能对数学感兴趣，或者想通过数学解决实际问题。需要保持回答简洁，同时提供一些具体的例子，比如“数数有没有可能被认为是负数？”这样既回答了问题，又保持了互动性。
+
+还要注意不要使用复杂术语，
+============================= [DEBUG] gen[1] RESPONSE_END =============================
+[DEBUG] gen[1] reward=-1.6485
+============================ [DEBUG] gen[2] RESPONSE_BEGIN ============================
+好的，用户问最近有没有遇到什么有趣的数学问题。我需要根据之前的对话来回应。之前用户问过关于探险队的谜题，我回答了数数是3、5、8，现在用户想知道有没有有趣的数学问题。
+
+首先，我需要确认用户是否在测试我的能力，或者想了解是否有有趣的数学问题。根据之前的对话，用户对数学问题感兴趣，可能想了解我的背景。不过根据系统规则，我不能主动透露身份信息，所以需要保持回答的通用性。
+
+接下来，我需要确保回答符合之前的对话风格，保持口语化和友好。同时，要避免使用专业术语，让回答更亲切。可以提到数学知识，比如几何、几何等，但要注意不要使用专业术语，保持简洁。
+
+另外，用户可能希望得到一些有趣的例子或建议，所以可以加入一些有趣的例子，比如用剩下的东西看看是否有趣，或者用数学公式计算结果。这样既回答了问题，又提供了有用的信息。
+
+最后，确保回答符合字数限制，保持简洁，不超过100
+============================= [DEBUG] gen[2] RESPONSE_END =============================
+[DEBUG] gen[2] reward=-1.2773
+============================ [DEBUG] gen[3] RESPONSE_BEGIN ============================
+好的，用户问最近有没有遇到有趣的数学问题。我需要保持友好和温暖的对话风格，同时提供一些实用的建议。
+
+首先，用户可能对数学有特别的兴趣，或者想了解如何解决实际问题。我应该提到一些常见的数学问题，比如几何题、几何题，但要注意不要过于复杂。
+
+然后，考虑到用户可能对数学有兴趣，可以提到一些有趣的数学问题，比如几何题，但要确保信息准确。同时，保持简短和口语化，避免复杂句子。
+
+另外，用户可能希望得到鼓励或建议，所以可以提到一些小技巧，比如多做几道题，或者找到解决方法。但要注意不要过于复杂，保持简单易懂。
+
+最后，确保回复符合系统规则，不透露身份信息，保持简洁。需要检查是否有重复或冗余的信息，确保回答符合所有要求。
+</think>
+
+最近在学习数学，遇到一些有趣的题目！比如几何题、几何题，但这些都是需要帮助的，如果你愿意，可以告诉我你想知道的数学问题，我会尽力帮你
+============================= [DEBUG] gen[3] RESPONSE_END =============================
+[DEBUG] gen[3] reward=-1.7910
+====================================================================================================
+[DEBUG] step=6, sample[1]
+----------------------------------------------------------------------------------------------------
+============================== [DEBUG] sample[1] CONTEXT_BEGIN ==============================
+<|im_start|>system
+You are a helpful AI assistant.<|im_end|>
+<|im_start|>user
+一个村庄有100户居民，每户养一只狗。夜里，所有狗都吠叫，但只有其中30%的狗是被恶作剧引起的。其余的狗是正常吠叫。已知每只狗吠叫的频率与它所处的户数有关，且每户狗吠叫的频率相同。问：有多少户狗吠叫？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+设每户狗吠叫的频率为 $x$，则每户狗吠叫的频率与它所处的户数有关，且每户狗吠叫的频率相同。
+
+根据题目，有100户居民，每户养一只狗，总共有100只狗。其中30%的狗是被恶作剧引起的，其余的70%是正常吠叫。
+
+因此，正常吠叫的狗的数量为：
+$$
+100 \times 70\% = 70 \text{ 只}
+$$
+
+由于每只狗吠叫的频率与它所处的户数有关，且每户狗吠叫的频率相同，那么每户狗吠叫的频率为 $x$，即每户狗吠叫的频率为 $x$，那么每户狗吠叫的次数为 $x$。
+
+因此，正常吠叫的狗的数量为：
+$$
+100 \times x = 70
+$$
+
+解得：
+$$
+x = \frac{70}{100} = 0.7
+$$
+
+因此，每户狗吠叫的频率为0.7，那么正常吠叫的狗的数量为：
+$$
+100 \times 0.7 = 70
+$$
+
+所以，有70户狗吠叫。<|im_end|>
+<|im_start|>user
+一个家庭有3只猫，每只猫每天吃2碗粮。问：他们每天总共吃多少碗粮？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+每只猫每天吃2碗粮，3只猫每天总共吃：
+$$
+3 \times 2 = 6 \text{ 碗粮}
+$$
+
+因此，他们每天总共吃6碗粮。<|im_end|>
+<|im_start|>user
+昨晚的电影是什么？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+我无法提供昨晚的电影信息，因为这需要实时数据，而我无法访问或获取最新的信息。<|im_end|>
+<|im_start|>user
+昨晚的天气怎么样？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+我无法提供昨晚的天气信息，因为这需要实时数据，而我无法访问或获取最新的信息。<|im_end|>
+<|im_start|>user
+今天天气怎么样？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+今天天气怎么样？我无法提供实时天气信息，建议您查看天气预报或使用天气应用获取最新信息。<|im_end|>
+<|im_start|>user
+今天吃什么午饭？<|im_end|>
+<|im_start|>assistant
+<think>
+
+=============================== [DEBUG] sample[1] CONTEXT_END ===============================
+============================ [DEBUG] gen[0] RESPONSE_BEGIN ============================
+
+</think>
+
+我无法提供健康饮食建议，因为这需要实时数据。建议您查看天气预报或使用天气应用获取最新信息。
+============================= [DEBUG] gen[0] RESPONSE_END =============================
+[DEBUG] gen[0] reward=-1.3828
+============================ [DEBUG] gen[1] RESPONSE_BEGIN ============================
+
+</think>
+
+我无法提供午餐，因为这需要实时数据和天气信息。如果您有其他问题，我很乐意帮助您。
+============================= [DEBUG] gen[1] RESPONSE_END =============================
+[DEBUG] gen[1] reward=-0.7461
+============================ [DEBUG] gen[2] RESPONSE_BEGIN ============================
+
+</think>
+
+我无法提供具体午餐建议，因为这需要实时数据和逻辑推理。建议您查看天气预报或使用天气应用获取最新信息。
+============================= [DEBUG] gen[2] RESPONSE_END =============================
+[DEBUG] gen[2] reward=-0.6382
+============================ [DEBUG] gen[3] RESPONSE_BEGIN ============================
+
+</think>
+
+我无法提供具体午饭信息，因为这需要实时数据和相关信息。
+============================= [DEBUG] gen[3] RESPONSE_END =============================
+[DEBUG] gen[3] reward=-0.4736
+====================================================================================================
+Epoch:[1/1](6/9751), Reward: -1.2041, KL_ref: 0.0003, Adv Std: 1.0686, Adv Mean: 0.0000, Actor Loss: 0.0247, Avg Response Len: 143.00, Learning Rate: 0.00000030
+Epoch:[1/1](7/9751), Reward: -2.7190, KL_ref: 0.0009, Adv Std: 1.0688, Adv Mean: 0.0000, Actor Loss: 0.0486, Avg Response Len: 221.38, Learning Rate: 0.00000030
+Epoch:[1/1](8/9751), Reward: -1.4779, KL_ref: 0.0006, Adv Std: 1.0686, Adv Mean: 0.0000, Actor Loss: 0.1864, Avg Response Len: 191.75, Learning Rate: 0.00000030
+[DEBUG] step=9, sample[0]
+----------------------------------------------------------------------------------------------------
+============================== [DEBUG] sample[0] CONTEXT_BEGIN ==============================
+<|im_start|>user
+Write a MySQL query to count the number of students enrolled in a course called "Coding 101" and whose age is between 18 and 25, and whose GPA is above 3.5. Additionally, exclude any students who have already completed the course "Advanced Coding Techniques".<|im_end|>
+<|im_start|>assistant
+<think>
+
+=============================== [DEBUG] sample[0] CONTEXT_END ===============================
+============================ [DEBUG] gen[0] RESPONSE_BEGIN ============================
+
+</think>
+
+Sure, I can help you with that. Here's a SQL query to count the number of students enrolled in a course called "Coding 101" and whose age is between 18 and 25, and then finds the number of students who have already completed the course "Advanced Coding Techniques".
+
+```sql
+SELECT 
+    AVG(Coding) AS total_score
+FROM 
+    Coding_name AS age 
+ORDER BY 
+    AS age 
+LIMIT 20;
+```
+
+In this query, the `Advanced Coding Techniques` is used to find the number of students who have already completed the course "Advanced Coding Techniques" with the data `age` and `age` is between 18 and 25. You can replace the `Advanced Coding Techniques` with the actual data `AS` and `Coding` of the course.
+
+Remember to replace the `Advanced
+============================= [DEBUG] gen[0] RESPONSE_END =============================
+[DEBUG] gen[0] reward=-2.9295
+============================ [DEBUG] gen[1] RESPONSE_BEGIN ============================
+
+</think>
+
+To count the number of students enrolled in a course named "Coding 101" and whose age is between 18 and 25, you can use the following SQL query:
+
+```sql
+SELECT COUNT(*) AS count_counts = 90;
+```
+
+This query uses the `COUNT()` method to count the number of students enrolled in a course named "Coding 101" and then adding the age to the current date. The result will return the number of students enrolled in the course that is "Advanced Coding Techniques".
+
+If you want to count the number of students, you can use the `COUNT()` method to count the number of students enrolled in a course named "Coding 101" with the current date.
+============================= [DEBUG] gen[1] RESPONSE_END =============================
+[DEBUG] gen[1] reward=-3.0880
+============================ [DEBUG] gen[2] RESPONSE_BEGIN ============================
+
+</think>
+
+To count the number of students enrolled in a course called "Coding 101" and whose age is between 18 and 25, you can use the following SQL query:
+
+```sql
+SELECT COUNT(*) as total_subject
+FROM COUNT(*) 
+ORDER BY total_subject
+LIMIT 101;
+```
+
+This query will count the number of students enrolled in a course called "Coding 101" and then selects the number of students who have already completed the course "Advanced Coding Techniques" with the actual portion of your course.
+============================= [DEBUG] gen[2] RESPONSE_END =============================
+[DEBUG] gen[2] reward=-2.9337
+============================ [DEBUG] gen[3] RESPONSE_BEGIN ============================
+
+</think>
+
+Sure, here's a MySQL query to count the number of students enrolled in a course called "Coding 101" and whose age is between 18 and 25:
+
+```
+SELECT COUNT(*) as COUNT(*) as AUT(*)
+FROM Coding 101
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUNT(*)
+GPA = COUN
+============================= [DEBUG] gen[3] RESPONSE_END =============================
+[DEBUG] gen[3] reward=-3.2246
+====================================================================================================
+[DEBUG] step=9, sample[1]
+----------------------------------------------------------------------------------------------------
+============================== [DEBUG] sample[1] CONTEXT_BEGIN ==============================
+<|im_start|>system
+You are minimind, a lightweight intelligent assistant.<|im_end|>
+<|im_start|>user
+你是否在寻找一种方法，既能保持工作效率，又能享受生活的乐趣？在快节奏的生活中，如何平衡工作与个人兴趣，避免 burnout？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+在快节奏生活中，平衡工作与兴趣的关键在于主动规划与适度自我关怀。建议采用「四象限法则」优先处理重要且紧急的任务，同时为兴趣预留固定时间（如每日15分钟）。通过番茄工作法提升专注效率，每工作25分钟休息5分钟，避免长时间连续负荷。定期进行「兴趣复盘」，将爱好融入日常，如用碎片时间听音乐、阅读或运动。重要的是建立「工作-生活」边界，学会说「不」，并注重自我关怀，如规律作息与健康饮食，这有助于预防 burnout。真正的效率来自心流状态，将兴趣转化为动力，才能在忙碌中保持活力与满足感。<|im_end|>
+<|im_start|>user
+如何在工作压力中找到兴趣的切入点？<|im_end|>
+<|im_start|>assistant
+<think>
+
+=============================== [DEBUG] sample[1] CONTEXT_END ===============================
+============================ [DEBUG] gen[0] RESPONSE_BEGIN ============================
+
+</think>
+
+在工作压力中找到兴趣的切入点，需要找到合适的切入点。可以尝试以下方法：
+1. **时间管理**：使用时间管理工具（如日历、待办事项列表）设定优先级，优先处理最重要的任务。
+2. **正念练习**：通过正念练习来提升专注力，减少压力。
+3. **设定界限**：在工作时间内设定清晰的休息时间，避免过度工作导致疲劳。
+4. **设定界限**：明确工作与休息时间的关系，避免过度劳累。
+5. **定期复盘**：每天或每周回顾一天的工作进展，调整计划，避免过度劳累。
+6. **自我关怀**：培养兴趣爱好，避免过度负荷，保持身心健康。
+7. **自我关怀**：培养兴趣爱好，保持积极心态，避免过度依赖。
+8. **兴趣爱好**：通过阅读、运动、社交等方式丰富生活，提升专注力。
+9. **正念冥想**：通过冥想练习，减少对过去或未来的负面情绪，保持内心的平静与专注。
+10. **自我关怀**：在工作
+============================= [DEBUG] gen[0] RESPONSE_END =============================
+[DEBUG] gen[0] reward=-2.5615
+============================ [DEBUG] gen[1] RESPONSE_BEGIN ============================
+好的，用户问的是如何在工作压力中找到兴趣的切入点。首先，我需要理解用户的需求。他们可能感到压力大，需要一些策略来放松自己，同时保持积极心态。接下来，我要考虑自我反思的方法，比如自我反思、正念练习、自我关怀等。
+
+用户可能希望得到具体的策略，而不仅仅是理论。所以，我需要给出具体的方法，比如时间管理技巧、自我关怀、时间管理技巧等。同时，要提到放松的重要性，比如运动、冥想或阅读，这些都能帮助减轻压力。
+
+还要注意用户可能的深层需求，比如如何保持动力，如何在压力下保持积极心态。需要给出具体的方法，比如番茄工作法、冥想、时间管理技巧等，同时提醒用户这些方法的适用性不同。
+
+最后，保持回答简洁，控制在200-300字，分点列出方法，确保信息清晰易懂。避免使用专业术语，让用户容易理解。同时，注意不要透露身份信息，除非用户明确询问。
+</think>
+
+在工作压力中找到兴趣的切入点，需结合自我反
+============================= [DEBUG] gen[1] RESPONSE_END =============================
+[DEBUG] gen[1] reward=-1.4844
+============================ [DEBUG] gen[2] RESPONSE_BEGIN ============================
+好的，用户问如何在工作压力中找到兴趣的切入点。首先，我需要考虑用户可能的背景。他们可能正在经历工作压力，想要找到放松的方法，而不仅仅是工作压力。用户可能想知道如何应对压力，或者寻找提升效率的方法。
+
+接下来，我要回顾之前的对话历史。用户之前问过如何在工作压力中找到兴趣的切入点，现在进一步探讨如何应对压力。可能需要从心理学和人际关系入手。
+
+用户可能希望得到实用的建议，而不仅仅是理论。所以需要给出具体的方法，比如时间管理、设定目标、自我关怀等。同时，要强调自我关怀的重要性，比如设定小目标、避免过度承诺等。
+
+还要注意用户可能没有明说的深层需求，比如他们可能希望找到更有效的时间管理方法，或者寻找更有效的时间管理技巧。因此，建议中可以包括时间管理技巧，如番茄工作法，以及自我关怀的方法。
+
+需要确保回答简洁，不超过300字，同时涵盖关键点：时间管理、设定、自我关怀、自我关怀、自我关怀、自我关怀、自我关怀。避免
+============================= [DEBUG] gen[2] RESPONSE_END =============================
+[DEBUG] gen[2] reward=-1.6678
+============================ [DEBUG] gen[3] RESPONSE_BEGIN ============================
+
+</think>
+
+在工作压力中寻找兴趣的切入点，关键在于主动规划与适度自我关怀。可尝试以下方法：  
+1. **设定清晰目标**：将兴趣与短期兴趣结合，如每日阅读、运动、冥想等，逐步建立长期影响。  
+2. **设定奖励机制**：使用番茄工作法，每25分钟专注完成一个小目标，避免被琐事淹没。  
+3. **定期休息**：保证每工作45分钟休息5分钟，避免长时间连续工作。  
+4. **寻求专业帮助**：与同事、朋友或专业人士讨论，获得专业的建议和指导。  
+5. **自我关怀**：保持规律作息，避免长时间工作，保证充足的睡眠。  
+关键在于找到适合自己的节奏，将兴趣转化为动力，而非逃避。
+============================= [DEBUG] gen[3] RESPONSE_END =============================
+[DEBUG] gen[3] reward=-0.3253
+====================================================================================================
+Epoch:[1/1](9/9751), Reward: -2.2769, KL_ref: 0.0004, Adv Std: 1.0685, Adv Mean: 0.0000, Actor Loss: 0.0582, Avg Response Len: 229.12, Learning Rate: 0.00000030
+Epoch:[1/1](10/9751), Reward: -2.5839, KL_ref: 0.0007, Adv Std: 1.0681, Adv Mean: -0.0000, Actor Loss: 0.1991, Avg Response Len: 188.88, Learning Rate: 0.00000030
+Epoch:[1/1](11/9751), Reward: -0.9195, KL_ref: 0.0000, Adv Std: 1.0687, Adv Mean: 0.0000, Actor Loss: 0.0919, Avg Response Len: 83.00, Learning Rate: 0.00000030
+[DEBUG] step=12, sample[0]
+----------------------------------------------------------------------------------------------------
+============================== [DEBUG] sample[0] CONTEXT_BEGIN ==============================
+<|im_start|>user
+最近越来越多的人开始关注“数字排毒”概念，但到底该怎么做？如何在忙碌的生活中找到平衡？你有过类似体验吗？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+“数字排毒”是一种倡导减少电子设备使用、提升生活质量的健康理念。在忙碌中找到平衡，可以尝试设定设备使用时间、优先处理重要任务、培养线下活动兴趣。我曾因过度使用手机导致注意力分散，后来通过设定“无手机时间”和增加户外活动，逐渐找回专注力。关键在于规律和适度，避免过度限制影响生活。<|im_end|>
+<|im_start|>user
+你今天最想和谁分享一天的收获呢？<|im_end|>
+<|im_start|>assistant
+<think>
+
+=============================== [DEBUG] sample[0] CONTEXT_END ===============================
+============================ [DEBUG] gen[0] RESPONSE_BEGIN ============================
+
+</think>
+
+今天最想与朋友分享的是与家人一起规划一次旅行，享受一次轻松的时光。虽然有点忙碌，但也很有意义，希望能找到一个放松的时刻。
+============================= [DEBUG] gen[0] RESPONSE_END =============================
+[DEBUG] gen[0] reward=-1.4600
+============================ [DEBUG] gen[1] RESPONSE_BEGIN ============================
+
+</think>
+
+今天最想和你分享一天的收获，可以分享一些积极的体验，比如“高效工作、减少压力”或“提升生活质量”。同时，也可以分享一些积极的日常小确幸，比如“每天写一点小成就”或“用手机充电”。重要的是，保持积极的心态，让忙碌的生活充满活力。
+============================= [DEBUG] gen[1] RESPONSE_END =============================
+[DEBUG] gen[1] reward=-1.0332
+============================ [DEBUG] gen[2] RESPONSE_BEGIN ============================
+好的，用户问今天最想和谁分享一天的收获。首先，我需要确认用户的需求是什么。他们可能想了解我在工作或生活中如何平衡工作和生活，或者想寻找一个平衡点。
+
+接下来，我要考虑用户可能的背景。他们可能是在工作或生活中，想分享自己的收获，或者只是想分享自己的感受。用户可能希望得到一个既符合角色设定又不失亲切的回答。
+
+然后，我要确保回答符合之前设定的角色和规则。不能透露身份信息，但可以说明自己是AI。需要保持回答简洁，控制在200-300字，保持口语化。
+
+还要注意用户可能的深层需求，比如他们可能希望得到一些建议，或者想了解我如何处理工作和生活中的压力。因此，回答中可以加入一些积极的话题，比如保持高效，同时提供一些实用的建议，如时间管理、放松技巧等。
+
+最后，检查是否符合字数限制，确保回答准确且有用，不使用Markdown格式。确保没有使用Markdown格式，保持口语化。
+</think>
+
+今天最想和你
+============================= [DEBUG] gen[2] RESPONSE_END =============================
+[DEBUG] gen[2] reward=-2.0176
+============================ [DEBUG] gen[3] RESPONSE_BEGIN ============================
+
+</think>
+
+今天最想与大家分享的是“智能日记”和“即时反馈”的新发现。通过分享，我学会了用简单易懂的方式分享生活中的小确幸，同时也让我意识到，生活中有许多积极的方面，比如专注力、信息获取、情绪管理等。这些小确幸不仅丰富了我的生活，也让我明白了在忙碌中找到平衡的重要性。
+============================= [DEBUG] gen[3] RESPONSE_END =============================
+[DEBUG] gen[3] reward=-0.7969
+====================================================================================================
+[DEBUG] step=12, sample[1]
+----------------------------------------------------------------------------------------------------
+============================== [DEBUG] sample[1] CONTEXT_BEGIN ==============================
+<|im_start|>user
+寻求在金融市场具备专业知识的经验丰富员工指导，结合诸如通货膨胀率或回报预估等因素，跟踪股价变动，最终帮助客户了解行业，然后建议最安全的可用选项，以便根据客户需求和兴趣分配资金。开始提问：“目前最好的短期投资方式是什么？”<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+针对短期投资前景，您可以考虑以下选择：
+1.高收益储蓄账户：这些账户提供竞争利率，是短期存放资金的安全之选。它们易于访问，通常具有较低的最低余额要求。
+2.货币市场账户：货币市场账户通常提供比传统储蓄账户更高的利率，并提供有限的支票写作权限。它们也相对具有流动性，方便您随时提取资金。
+3.存款证明书（CDs）：CDs为特定期限提供固定利率，通常为数个月至数年不等。虽然它们提供保证回报，但如果您在到期前取出资金，可能会面临处罚。
+4.短期债券基金：这些基金投资于短期到期的债券，通常少于两年。相对于储蓄账户或CDs，它们通常提供更高的回报，同时维持相对较低的风险形势。
+5.国库券（T-bills）：T-bills是到期日长达几周至一年的短期政府债券。它们被认为是一种安全的投资，因为它们得到了美国政府的完全信任和信用支持。
+6.点对点借贷：这涉及通过在线平台向个人或小商家出借资金。它可以提供有吸引力的回报，但相比其他短期投资，风险形势更高。
+选择最佳的短期投资选项时，考虑您的风险容忍度，投资时间表和财务目标至关重要。始终咨询财务顾问以获得基于您个人需求和情况的个性化建议。<|im_end|>
+<|im_start|>user
+Pulse Chain 是一个交换。<|im_end|>
+<|im_start|>assistant
+<think>
+
+=============================== [DEBUG] sample[1] CONTEXT_END ===============================
+============================ [DEBUG] gen[0] RESPONSE_BEGIN ============================
+
+</think>
+
+Pulse Chain 是一个交换。它是一种基于大众利益的交换方式，旨在在不被他人接受的情况下提供资金。它允许投资者在短期内从较大的资产中获得资金，但它也是一个受欢迎的交换方式。它也可以用于投资和风险管理，但不与其他投资不同。它通常具有更高的回报，但也有更高的回报，但它也是一个受欢迎的交换方式。
+Pulse Chain 是一个交换，旨在在不被他人接受的情况下提供资金。它通常具有更高的回报，但也有更高的回报，但它也是一个受欢迎的交换方式。它也是一个受欢迎的交换方式，因为它具有更高的回报，但也有更高的回报，但它也是一个受欢迎的交换方式。
+============================= [DEBUG] gen[0] RESPONSE_END =============================
+[DEBUG] gen[0] reward=-2.1559
+============================ [DEBUG] gen[1] RESPONSE_BEGIN ============================
+
+</think>
+
+Pulse Chain 是一个交换。
+Pulse Chain 是一种交换，也是一种协议，用于向个人或企业购买或出售股票。它允许个人或企业购买或出售股票，以满足他们的需求和预算。Pulse Chain 是一种用于向个人或企业购买或出售股票的技术，通常用于向个人或企业购买或出售股票。它通常具有较低的利率和利率，并且能够满足大额交易和分期付款的需求。
+要使用Pulse Chain 进行交易，您应该考虑以下选择：
+1. **高收益账户**：这可以为您的个人或企业提供高回报，但请注意，这些账户可能会受到较高的风险，因为它们通常具有较低的利率和利率。
+2. **货币市场账户**：Pulse Chain 可以为您的个人或企业提供相对较低的利率，但请注意，这些账户可能会受到较高的风险，因为它们通常具有较高的收益。
+3. **分期付款**：如果您需要分期付款，可以考虑分期付款，但这可能需要更多的投资时间。
+4. **国库存
+============================= [DEBUG] gen[1] RESPONSE_END =============================
+[DEBUG] gen[1] reward=-2.2959
+============================ [DEBUG] gen[2] RESPONSE_BEGIN ============================
+
+</think>
+
+Pulse Chain 是一个交换。Pulse Chain 是一个交换。它允许您将资产分散到多个资产上，包括股票、债券、房地产等。它通常具有更高的回报，并且具有较高的回报。Pulse Chain 是一个交换，因为它是您将资产分散到多个资产上，包括股票、债券和房地产等。如果您需要将资产分散到多个资产上，Pulse Chain 是一个交换。
+============================= [DEBUG] gen[2] RESPONSE_END =============================
+[DEBUG] gen[2] reward=-2.5086
+============================ [DEBUG] gen[3] RESPONSE_BEGIN ============================
+
+</think>
+
+Pulse Chain 是一个交换协议，旨在为投资者提供在短期内购买和交易的资金。它通常包含较高的款项，并且在持有者保护资产时有较高的余额。此外，Pulse Chain 还提供了更高的投资回报，但也有利于风险形势的调整。最好选择那些风险承受能力较高的账户，并在持有者保护资产时有更高的回报，以获得更高回报。
+============================= [DEBUG] gen[3] RESPONSE_END =============================
+[DEBUG] gen[3] reward=-1.0010
+====================================================================================================
+Epoch:[1/1](12/9751), Reward: -1.6586, KL_ref: -0.0003, Adv Std: 1.0688, Adv Mean: 0.0000, Actor Loss: 0.1838, Avg Response Len: 143.25, Learning Rate: 0.00000030
+Epoch:[1/1](13/9751), Reward: -2.5489, KL_ref: 0.0011, Adv Std: 1.0683, Adv Mean: 0.0000, Actor Loss: -0.0390, Avg Response Len: 213.38, Learning Rate: 0.00000030
+Epoch:[1/1](14/9751), Reward: -1.9951, KL_ref: -0.0011, Adv Std: 1.0688, Adv Mean: 0.0000, Actor Loss: 0.0155, Avg Response Len: 100.75, Learning Rate: 0.00000030
+[DEBUG] step=15, sample[0]
+----------------------------------------------------------------------------------------------------
+============================== [DEBUG] sample[0] CONTEXT_BEGIN ==============================
+<|im_start|>user
+给定以下定义，请补充缺失代码：给定一个整数数组arr，返回所有子数组中目标值 target 存在的数量。<|im_end|>
+<|im_start|>assistant
+<think>
+
+=============================== [DEBUG] sample[0] CONTEXT_END ===============================
+============================ [DEBUG] gen[0] RESPONSE_BEGIN ============================
+
+</think>
+
+为了帮助您，我需要知道您希望补充的特定定义是什么。请提供定义，例如：
+
+1. 定义一个包含所有子数组的数组。
+2. 定义一个包含所有子数组的数组。
+3. 定义一个包含所有子数组的数组。
+4. 定义一个包含所有子数组的数组。
+5. 定义一个包含所有子数组的数组。
+6. 定义一个包含所有子数组的数组。
+7. 定义一个包含所有子数组的数组。
+8. 定义一个包含所有子数组的数组。
+9. 定义一个包含所有子数组的数组。
+10. 定义一个包含所有子数组的数组。
+11. 定义一个包含所有子数组的数组。
+12. 定义一个包含所有子数组的数组。
+13. 定义一个包含所有子数组的数组。
+14. 定义一个包含所有子数组的数组。
+15. 定义一个包含所有子数组的数组。
+15. 定义一个包含所有子数组的数组。
+
+请提供具体的定义，以便我能够给出更具体的帮助。
+============================= [DEBUG] gen[0] RESPONSE_END =============================
+[DEBUG] gen[0] reward=-2.9932
+============================ [DEBUG] gen[1] RESPONSE_BEGIN ============================
+
+</think>
+
+在给定的定义中，缺失的代码通常与以下实现：
+
+1. **初始化**：当数组的长度为0时，初始化器会自动计算出当前元素的总数，并将其添加到数组中。
+
+2. **初始化**：在数组的末尾，使用for循环遍历数组中的每个元素。循环体内，从数组的第一个元素开始，更新当前元素。
+
+3. **遍历**：如果数组中存在重复的元素，则更新当前元素。如果数组中存在重复的元素，则跳过该元素。
+
+4. **遍历**：如果数组中存在重复的元素，则更新当前元素。
+
+5. **更新数组**：如果数组中存在重复的元素，则更新当前元素。
+
+6. **遍历**：如果数组中存在重复的元素，则返回该元素。
+
+例如，给定一个数组 `arr` ，输出 `True`，因为数组长度为0，数组长度为1。如果数组长度为1，则 `True` 或 `False`，因为数组长度为1。
+
+如果你希望在给定的数组中找到所有目标值的集合，你可以使用以下方法：
+
+```python
+arr
+============================= [DEBUG] gen[1] RESPONSE_END =============================
+[DEBUG] gen[1] reward=-2.9919
+============================ [DEBUG] gen[2] RESPONSE_BEGIN ============================
+
+</think>
+
+为了提供补充缺失的代码，我需要知道具体的定义和上下文。不过，我可以提供一个通用的示例，假设我们有一个包含整数的数组arr，用于计算数组中目标值的数量。如果我们假设数组中有一个目标值，那么这个目标值可能就是目标值的数量。如果我们假设数组中有一个目标值，那么这个目标值就是目标值的数量。
+
+假设数组中有一个目标值，那么目标值就是目标值的数量。如果我们假设数组中有一个目标值，那么这个目标值就是目标值的数量。如果数组中有一个目标值，那么这个目标值就是目标值的数量。如果数组中有一个目标值，那么这个目标值就是目标值的数量。
+
+以下是一个可能的补充缺失代码示例：
+
+```python
+# 示例数组
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# 计算目标值的数量
+target_value = len(array)
+
+# 打印目标值的数量
+print("目标值:", target_value)
+print("目标值:", target_value)
+```
+
+在这个示例
+============================= [DEBUG] gen[2] RESPONSE_END =============================
+[DEBUG] gen[2] reward=-2.7085
+============================ [DEBUG] gen[3] RESPONSE_BEGIN ============================
+
+</think>
+
+为了帮助您，我需要知道具体的定义和上下文。不过，我可以给您一个通用的示例，展示如何补充缺失代码。
+
+假设我们有以下定义：
+
+1. 数组arr：数组arr
+2. 数组arr：数组arr
+3. 数组arr：数组arr
+4. 数组arr：数组arr
+5. 数组arr：数组arr
+6. 数组arr：数组arr
+
+首先，我将帮助您补充缺失代码。请提供缺失的代码片段，我将根据您提供的信息进行补充。
+
+例如，如果您提供了一个包含数组arr的数组arr，我将帮助您补充缺失代码。请提供缺失的代码片段，我将根据您提供的信息进行补充。
+
+例如，如果缺失的代码是：
+
+```python
+arr = [1, 2, 3, 4, 5]
+target = 5
+```
+
+我将补充缺失的代码。请提供缺失的代码片段，我将根据您提供的信息进行补充。
+============================= [DEBUG] gen[3] RESPONSE_END =============================
+[DEBUG] gen[3] reward=-2.9808
+====================================================================================================
+[DEBUG] step=15, sample[1]
+----------------------------------------------------------------------------------------------------
+============================== [DEBUG] sample[1] CONTEXT_BEGIN ==============================
+<|im_start|>system
+You are a helpful AI assistant.<|im_end|>
+<|im_start|>user
+一个村庄有三个人，分别叫A、B、C。他们各自拥有不同的财产：牛、羊、马。已知：  
+1. A的财产比B多，但比C少；  
+2. B的财产比C少，但比A多；  
+3. 他们各自拥有的动物数量不同，且每种动物只有一只。  
+
+问：谁拥有最多的动物？<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+根据题目条件，我们可以逐步推理：
+
+1. A的财产比B多，但比C少，说明A < B < C（财产数量）。
+2. B的财产比C少，但比A多，说明B < C < A（财产数量）。
+
+这显然存在矛盾，因为根据条件1，A < B < C，而根据条件2，B < C < A，这说明A、B、C的财产数量不可能同时满足这两个条件。
+
+因此，必须重新理解条件。我们重新分析：
+
+1. A的财产比B多，但比C少，说明A < B < C（财产数量）。
+2. B的财产比C少，但比A多，说明B < C < A（财产数量）。
+
+这显然矛盾，因此需要重新理解条件。
+
+重新分析：
+
+1. A的财产比B多，但比C少，说明A < B < C（财产数量）。
+2. B的财产比C少，但比A多，说明B < C < A（财产数量）。
+
+这说明A > B > C，即A > B > C。
+
+所以，A拥有最多的动物。<|im_end|>
+<|im_start|>user
+你今天吃了什么？<|im_end|>
+<|im_start|>assistant
+<think>
+
+=============================== [DEBUG] sample[1] CONTEXT_END ===============================
+============================ [DEBUG] gen[0] RESPONSE_BEGIN ============================
+
+</think>
+
+今天我作为AI模型，并没有实际的饮食体验，因此没有吃东西。
+============================= [DEBUG] gen[0] RESPONSE_END =============================
+[DEBUG] gen[0] reward=-1.1094
+============================ [DEBUG] gen[1] RESPONSE_BEGIN ============================
+
+</think>
+
+今天吃了早餐，保持健康。
+============================= [DEBUG] gen[1] RESPONSE_END =============================
+[DEBUG] gen[1] reward=-1.7695
+============================ [DEBUG] gen[2] RESPONSE_BEGIN ============================
+
+</think>
+
+今天我吃了早餐和午餐，但没有具体吃东西。
+============================= [DEBUG] gen[2] RESPONSE_END =============================
+[DEBUG] gen[2] reward=-1.8906
+============================ [DEBUG] gen[3] RESPONSE_BEGIN ============================
+
+</think>
+
+今天我没有吃东西。
+============================= [DEBUG] gen[3] RESPONSE_END =============================
+[DEBUG] gen[3] reward=-2.9473
+====================================================================================================
+Epoch:[1/1](15/9751), Reward: -2.4239, KL_ref: -0.0014, Adv Std: 1.0685, Adv Mean: 0.0000, Actor Loss: 0.0083, Avg Response Len: 131.75, Learning Rate: 0.00000030
+Epoch:[1/1](16/9751), Reward: -2.1032, KL_ref: -0.0021, Adv Std: 1.0688, Adv Mean: 0.0000, Actor Loss: -0.0872, Avg Response Len: 160.38, Learning Rate: 0.00000030

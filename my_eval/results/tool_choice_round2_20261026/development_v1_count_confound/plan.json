@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-26",
+  "base": "bb_rl_id_anchor4",
+  "experiment": "round2 after sealed unsuccessful first experiment",
+  "prior_experiment": "D:\\minimind\\minimind-master\\my_eval\\results\\tool_choice_20261026",
+  "prior_tests_are_development_only": true,
+  "training": {
+    "epochs": 3,
+    "lr": 0.0001,
+    "kl": 4.0,
+    "batch": 4,
+    "max_seq": 1536,
+    "num_workers": 2,
+    "seed": 42,
+    "rank": 16
+  },
+  "math_early_tokens_weight": "first64 supervised math answer tokens weight3, other supervised tokens weight1; row normalized",
+  "counts": {
+    "general_retain": 400,
+    "math_supervised": 1440,
+    "no_tool_supervised": 800,
+    "math_retain": 200
+  },
+  "dev": {
+    "math": 12,
+    "no_tool": 12,
+    "conditions": 4,
+    "tasks": 96,
+    "minimum_no_tool": 85
+  },
+  "final": {
+    "math": 48,
+    "no_tool": 24,
+    "conditions": 12,
+    "tasks": 864,
+    "wording_families": 8,
+    "balanced_math_language_and_expression_counts": true
+  },
+  "selection": "3 epoch checkpoints; require no-tool>=85% and devNLL increase<=.05; maximize min(math arguments,no-tool), then balanced mean; freeze before final",
+  "acceptance": "fresh math parameter gain95%CI lower>0; no-tool>=90% and no worse than baseline-5pp; NLL296 increase<=.05; old strictmath drop<=5pp; identityhits drop<=1/14; fresh fullmath48 at6 tools/new description strict point drop<=5pp",
+  "no_optional_stopping": true,
+  "no_further_training_after_final": true,
+  "data_sha256": {
+    "train.jsonl": "4c2b70a401bf15b7c2b9fc38885c00069a21e472524c5938cc6538b4716f0b37",
+    "dev_tasks.json": "6054be4e6e3a134fa2a908e741c2d52b03fa2802e4947becf6d1cdf4e2b12aa6",
+    "test_tasks.json": "bab8c1a89d5abd7141785bb190e36739597deca32acdf83ebd07083a5f23cfae",
+    "guardrail_tasks.json": "e471f4cc2ee3fe706f341891dbed26735e237a63047a0e0583797d1427b122b5"
+  },
+  "base_sha256": "a6f4249c77ba91084e124658d35f35a56d40c0380d0681a341b39968c360f107",
+  "known_question_overlap_train_vs_dev_or_final": 0,
+  "fullmath_check": {
+    "questions": 48,
+    "conditions_per_question": 1,
+    "tool_count": 6,
+    "variant": 6,
+    "engine": "same frozen shared384token/3turn HF pipeline for both models"
+  }
+}

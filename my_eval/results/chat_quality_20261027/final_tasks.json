@@ -1,0 +1,738 @@
+[
+  {
+    "id": "final_knowledge_0",
+    "category": "knowledge",
+    "question": "请用一句白话解释，阅读时做笔记有什么用。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      },
+      {
+        "role": "user",
+        "content": "请用一句白话解释，阅读时做笔记有什么用。"
+      }
+    ],
+    "reference_for_review_only": "记录重点或帮助理解回忆",
+    "language": "zh",
+    "seed": 715000
+  },
+  {
+    "id": "final_knowledge_1",
+    "category": "knowledge",
+    "question": "为什么要给重要文件留一份副本？一句话即可。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么要给重要文件留一份副本？一句话即可。"
+      }
+    ],
+    "reference_for_review_only": "原件丢失损坏时可恢复；不能只同义反复",
+    "language": "zh",
+    "seed": 715031
+  },
+  {
+    "id": "final_knowledge_2",
+    "category": "knowledge",
+    "question": "请简单说明书本封面和目录各有什么用。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请简单说明书本封面和目录各有什么用。"
+      }
+    ],
+    "reference_for_review_only": "封面标识或保护书；目录列章节便查找",
+    "language": "zh",
+    "seed": 715062
+  },
+  {
+    "id": "final_knowledge_3",
+    "category": "knowledge",
+    "question": "为什么在学习中安排短暂休息可能有帮助？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么在学习中安排短暂休息可能有帮助？"
+      }
+    ],
+    "reference_for_review_only": "缓解疲劳恢复注意力；不编造医学数据",
+    "language": "zh",
+    "seed": 715093
+  },
+  {
+    "id": "final_knowledge_4",
+    "category": "knowledge",
+    "question": "请解释一下草稿和最终稿的区别。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请解释一下草稿和最终稿的区别。"
+      }
+    ],
+    "reference_for_review_only": "草稿可修改；最终稿已整理确认",
+    "language": "zh",
+    "seed": 715124
+  },
+  {
+    "id": "final_knowledge_5",
+    "category": "knowledge",
+    "question": "给刚接触电脑的人解释“重命名文件”是什么意思。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "给刚接触电脑的人解释“重命名文件”是什么意思。"
+      }
+    ],
+    "reference_for_review_only": "改变文件名称，不是删除内容",
+    "language": "zh",
+    "seed": 715155
+  },
+  {
+    "id": "final_knowledge_6",
+    "category": "knowledge",
+    "question": "用一句话解释，把学习任务分成小步骤有什么好处。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "用一句话解释，把学习任务分成小步骤有什么好处。"
+      }
+    ],
+    "reference_for_review_only": "更易开始执行或跟踪进度",
+    "language": "zh",
+    "seed": 715186
+  },
+  {
+    "id": "final_knowledge_7",
+    "category": "knowledge",
+    "question": "What is the purpose of a bookmark in a web browser? Answer briefly.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      },
+      {
+        "role": "user",
+        "content": "What is the purpose of a bookmark in a web browser? Answer briefly."
+      }
+    ],
+    "reference_for_review_only": "save or return to a web page",
+    "language": "en",
+    "seed": 715217
+  },
+  {
+    "id": "final_knowledge_8",
+    "category": "knowledge",
+    "question": "Explain the difference between copying a file and moving it.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explain the difference between copying a file and moving it."
+      }
+    ],
+    "reference_for_review_only": "copy leaves original; move changes location",
+    "language": "en",
+    "seed": 715248
+  },
+  {
+    "id": "final_knowledge_9",
+    "category": "knowledge",
+    "question": "Why can a calendar help someone remember appointments?",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why can a calendar help someone remember appointments?"
+      }
+    ],
+    "reference_for_review_only": "records dates and reminders for appointments",
+    "language": "en",
+    "seed": 715279
+  },
+  {
+    "id": "final_knowledge_10",
+    "category": "knowledge",
+    "question": "What does saving a document do? Use simple language.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does saving a document do? Use simple language."
+      }
+    ],
+    "reference_for_review_only": "stores current work so it can be opened later",
+    "language": "en",
+    "seed": 715310
+  },
+  {
+    "id": "final_knowledge_11",
+    "category": "knowledge",
+    "question": "Explain why descriptive folder names can be useful.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explain why descriptive folder names can be useful."
+      }
+    ],
+    "reference_for_review_only": "help identify contents or find and organize files",
+    "language": "en",
+    "seed": 715341
+  },
+  {
+    "id": "final_writing_0",
+    "category": "writing",
+    "question": "请直接写一句祝朋友搬家顺利的话。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      },
+      {
+        "role": "user",
+        "content": "请直接写一句祝朋友搬家顺利的话。"
+      }
+    ],
+    "reference_for_review_only": "实际祝福搬家顺利",
+    "language": "zh",
+    "seed": 715372
+  },
+  {
+    "id": "final_writing_1",
+    "category": "writing",
+    "question": "帮我写一句向老师请教问题的礼貌开场白。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "帮我写一句向老师请教问题的礼貌开场白。"
+      }
+    ],
+    "reference_for_review_only": "礼貌请教，不是描述写法",
+    "language": "zh",
+    "seed": 715403
+  },
+  {
+    "id": "final_writing_2",
+    "category": "writing",
+    "question": "写一句提醒同学按时交作业的话，语气温和。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "写一句提醒同学按时交作业的话，语气温和。"
+      }
+    ],
+    "reference_for_review_only": "温和提醒按时交作业",
+    "language": "zh",
+    "seed": 715434
+  },
+  {
+    "id": "final_writing_3",
+    "category": "writing",
+    "question": "替我写一句感谢朋友借给我笔记的话。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "替我写一句感谢朋友借给我笔记的话。"
+      }
+    ],
+    "reference_for_review_only": "感谢朋友借笔记",
+    "language": "zh",
+    "seed": 715465
+  },
+  {
+    "id": "final_writing_4",
+    "category": "writing",
+    "question": "请写一句邀请同学一起去图书馆的话。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请写一句邀请同学一起去图书馆的话。"
+      }
+    ],
+    "reference_for_review_only": "邀请同学去图书馆",
+    "language": "zh",
+    "seed": 715496
+  },
+  {
+    "id": "final_writing_5",
+    "category": "writing",
+    "question": "写一句告诉室友我今晚会晚点回来、请不用等我的话。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "写一句告诉室友我今晚会晚点回来、请不用等我的话。"
+      }
+    ],
+    "reference_for_review_only": "今晚晚归且不用等两点齐全",
+    "language": "zh",
+    "seed": 715527
+  },
+  {
+    "id": "final_writing_6",
+    "category": "writing",
+    "question": "请帮我写一句鼓励练习画画的朋友继续坚持的话。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请帮我写一句鼓励练习画画的朋友继续坚持的话。"
+      }
+    ],
+    "reference_for_review_only": "鼓励画画朋友坚持",
+    "language": "zh",
+    "seed": 715558
+  },
+  {
+    "id": "final_writing_7",
+    "category": "writing",
+    "question": "Write one polite sentence asking a classmate to share their notes.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      },
+      {
+        "role": "user",
+        "content": "Write one polite sentence asking a classmate to share their notes."
+      }
+    ],
+    "reference_for_review_only": "actual polite request for notes",
+    "language": "en",
+    "seed": 715589
+  },
+  {
+    "id": "final_writing_8",
+    "category": "writing",
+    "question": "Write a short apology for replying late to a friend.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short apology for replying late to a friend."
+      }
+    ],
+    "reference_for_review_only": "apology for late reply",
+    "language": "en",
+    "seed": 715620
+  },
+  {
+    "id": "final_writing_9",
+    "category": "writing",
+    "question": "Write one sentence thanking a teammate for checking your draft.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write one sentence thanking a teammate for checking your draft."
+      }
+    ],
+    "reference_for_review_only": "thanks for reviewing draft",
+    "language": "en",
+    "seed": 715651
+  },
+  {
+    "id": "final_writing_10",
+    "category": "writing",
+    "question": "Write a friendly invitation to a study group this Saturday.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a friendly invitation to a study group this Saturday."
+      }
+    ],
+    "reference_for_review_only": "invitation to study group this Saturday",
+    "language": "en",
+    "seed": 715682
+  },
+  {
+    "id": "final_writing_11",
+    "category": "writing",
+    "question": "Write a brief good-luck message for a friend starting a new class.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a brief good-luck message for a friend starting a new class."
+      }
+    ],
+    "reference_for_review_only": "good luck for new class",
+    "language": "en",
+    "seed": 715713
+  },
+  {
+    "id": "final_retrieval_0",
+    "category": "retrieval",
+    "question": "安排表写着：小孟带胶水，小白带剪刀。谁带剪刀？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      },
+      {
+        "role": "user",
+        "content": "安排表写着：小孟带胶水，小白带剪刀。谁带剪刀？"
+      }
+    ],
+    "reference_for_review_only": "小白",
+    "language": "zh",
+    "seed": 715744
+  },
+  {
+    "id": "final_retrieval_1",
+    "category": "retrieval",
+    "question": "借阅记录：林同学周四还书，周同学周一还书。林同学哪天还书？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "借阅记录：林同学周四还书，周同学周一还书。林同学哪天还书？"
+      }
+    ],
+    "reference_for_review_only": "周四",
+    "language": "zh",
+    "seed": 715775
+  },
+  {
+    "id": "final_retrieval_2",
+    "category": "retrieval",
+    "question": "请只复述这句话中的房间号，不要计算：讨论在房间726进行。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只复述这句话中的房间号，不要计算：讨论在房间726进行。"
+      }
+    ],
+    "reference_for_review_only": "726",
+    "language": "zh",
+    "seed": 715806
+  },
+  {
+    "id": "final_retrieval_3",
+    "category": "retrieval",
+    "question": "记录写着文件名是notes_final.txt。请只输出文件名。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "记录写着文件名是notes_final.txt。请只输出文件名。"
+      }
+    ],
+    "reference_for_review_only": "notes_final.txt",
+    "language": "zh",
+    "seed": 715837
+  },
+  {
+    "id": "final_retrieval_4",
+    "category": "retrieval",
+    "question": "请原样抄写括号中的文字，不求值：（903-27）。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请原样抄写括号中的文字，不求值：（903-27）。"
+      }
+    ],
+    "reference_for_review_only": "903-27；不能算成876",
+    "language": "zh",
+    "seed": 715868
+  },
+  {
+    "id": "final_retrieval_5",
+    "category": "retrieval",
+    "question": "材料：绿色箱子装纸张，黄色箱子装胶带。胶带在哪个箱子？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "材料：绿色箱子装纸张，黄色箱子装胶带。胶带在哪个箱子？"
+      }
+    ],
+    "reference_for_review_only": "黄色箱子",
+    "language": "zh",
+    "seed": 715899
+  },
+  {
+    "id": "final_retrieval_6",
+    "category": "retrieval",
+    "question": "请按给定内容回答：取件人是吴女士，寄件人是钱先生。谁是取件人？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请按给定内容回答：取件人是吴女士，寄件人是钱先生。谁是取件人？"
+      }
+    ],
+    "reference_for_review_only": "吴女士",
+    "language": "zh",
+    "seed": 715930
+  },
+  {
+    "id": "final_retrieval_7",
+    "category": "retrieval",
+    "question": "The note says the meeting moved from Monday to Wednesday. What is the new meeting day?",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      },
+      {
+        "role": "user",
+        "content": "The note says the meeting moved from Monday to Wednesday. What is the new meeting day?"
+      }
+    ],
+    "reference_for_review_only": "Wednesday",
+    "language": "en",
+    "seed": 715961
+  },
+  {
+    "id": "final_retrieval_8",
+    "category": "retrieval",
+    "question": "The card lists: owner Mia, item blue umbrella. Who owns the umbrella?",
+    "messages": [
+      {
+        "role": "user",
+        "content": "The card lists: owner Mia, item blue umbrella. Who owns the umbrella?"
+      }
+    ],
+    "reference_for_review_only": "Mia",
+    "language": "en",
+    "seed": 715992
+  },
+  {
+    "id": "final_retrieval_9",
+    "category": "retrieval",
+    "question": "Repeat the identifier exactly: ticket ID is R-846. Do not calculate anything.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Repeat the identifier exactly: ticket ID is R-846. Do not calculate anything."
+      }
+    ],
+    "reference_for_review_only": "R-846",
+    "language": "en",
+    "seed": 716023
+  },
+  {
+    "id": "final_retrieval_10",
+    "category": "retrieval",
+    "question": "Copy the text inside brackets without evaluating it: [728+16].",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Copy the text inside brackets without evaluating it: [728+16]."
+      }
+    ],
+    "reference_for_review_only": "728+16, not744",
+    "language": "en",
+    "seed": 716054
+  },
+  {
+    "id": "final_retrieval_11",
+    "category": "retrieval",
+    "question": "A label says shelf C holds maps and shelf D holds notebooks. Where are the maps?",
+    "messages": [
+      {
+        "role": "user",
+        "content": "A label says shelf C holds maps and shelf D holds notebooks. Where are the maps?"
+      }
+    ],
+    "reference_for_review_only": "shelf C",
+    "language": "en",
+    "seed": 716085
+  },
+  {
+    "id": "final_identity_0",
+    "category": "identity",
+    "question": "请告诉我这款本地定制助手的名称和定制者的全名。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      },
+      {
+        "role": "user",
+        "content": "请告诉我这款本地定制助手的名称和定制者的全名。"
+      }
+    ],
+    "reference_for_review_only": "MiniMind；Yuyang LU",
+    "language": "zh",
+    "seed": 716116
+  },
+  {
+    "id": "final_identity_1",
+    "category": "identity",
+    "question": "如果我要介绍你，应该说你叫什么、由谁定制？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "如果我要介绍你，应该说你叫什么、由谁定制？"
+      }
+    ],
+    "reference_for_review_only": "MiniMind；Yuyang LU",
+    "language": "zh",
+    "seed": 716147
+  },
+  {
+    "id": "final_identity_2",
+    "category": "identity",
+    "question": "你属于哪个模型项目？本地定制版由谁制作？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "你属于哪个模型项目？本地定制版由谁制作？"
+      }
+    ],
+    "reference_for_review_only": "MiniMind；Yuyang LU",
+    "language": "zh",
+    "seed": 716178
+  },
+  {
+    "id": "final_identity_3",
+    "category": "identity",
+    "question": "请用简短的话介绍你和Yuyang LU的关系。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请用简短的话介绍你和Yuyang LU的关系。"
+      }
+    ],
+    "reference_for_review_only": "MiniMind由Yuyang LU定制；不得声称原作也是他",
+    "language": "zh",
+    "seed": 716209
+  },
+  {
+    "id": "final_identity_4",
+    "category": "identity",
+    "question": "jingyaogong和Yuyang LU分别与这个助手有什么关系？",
+    "messages": [
+      {
+        "role": "user",
+        "content": "jingyaogong和Yuyang LU分别与这个助手有什么关系？"
+      }
+    ],
+    "reference_for_review_only": "原作jingyaogong；本地定制Yuyang LU",
+    "language": "en",
+    "seed": 716240
+  },
+  {
+    "id": "final_identity_5",
+    "category": "identity",
+    "question": "请说明MiniMind原项目作者与这个版本定制者的区别。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请说明MiniMind原项目作者与这个版本定制者的区别。"
+      }
+    ],
+    "reference_for_review_only": "原作jingyaogong/Jingyao Gong；本地定制Yuyang LU",
+    "language": "zh",
+    "seed": 716271
+  },
+  {
+    "id": "final_identity_6",
+    "category": "identity",
+    "question": "只回答你的模型名称和本地定制者姓名。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "只回答你的模型名称和本地定制者姓名。"
+      }
+    ],
+    "reference_for_review_only": "MiniMind；Yuyang LU",
+    "language": "zh",
+    "seed": 716302
+  },
+  {
+    "id": "final_identity_7",
+    "category": "identity",
+    "question": "What is this assistant called, and who customized this version?",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      },
+      {
+        "role": "user",
+        "content": "What is this assistant called, and who customized this version?"
+      }
+    ],
+    "reference_for_review_only": "MiniMind; Yuyang LU",
+    "language": "en",
+    "seed": 716333
+  },
+  {
+    "id": "final_identity_8",
+    "category": "identity",
+    "question": "Give your model name and the full name of your local customizer.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give your model name and the full name of your local customizer."
+      }
+    ],
+    "reference_for_review_only": "MiniMind; Yuyang LU",
+    "language": "en",
+    "seed": 716364
+  },
+  {
+    "id": "final_identity_9",
+    "category": "identity",
+    "question": "How is Yuyang LU connected to this assistant?",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is Yuyang LU connected to this assistant?"
+      }
+    ],
+    "reference_for_review_only": "customized MiniMind; not author of original upstream project",
+    "language": "en",
+    "seed": 716395
+  },
+  {
+    "id": "final_identity_10",
+    "category": "identity",
+    "question": "Who made the original MiniMind project, and who customized this local assistant?",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who made the original MiniMind project, and who customized this local assistant?"
+      }
+    ],
+    "reference_for_review_only": "jingyaogong/Jingyao Gong original; Yuyang LU local",
+    "language": "en",
+    "seed": 716426
+  },
+  {
+    "id": "final_identity_11",
+    "category": "identity",
+    "question": "Introduce yourself in one short sentence, including your customizer.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Introduce yourself in one short sentence, including your customizer."
+      }
+    ],
+    "reference_for_review_only": "MiniMind; Yuyang LU",
+    "language": "en",
+    "seed": 716457
+  }
+]

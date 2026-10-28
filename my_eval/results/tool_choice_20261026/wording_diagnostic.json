@@ -1,0 +1,26 @@
+{
+  "initial": {
+    "zh": {
+      "base_questions": 11,
+      "bb_rl_id_anchor4": 23.863636363636363,
+      "tool_choice_e2": 12.5
+    },
+    "en": {
+      "base_questions": 13,
+      "bb_rl_id_anchor4": 48.07692307692308,
+      "tool_choice_e2": 75.96153846153845
+    }
+  },
+  "confirmation": {
+    "zh": {
+      "base_questions": 56,
+      "bb_rl_id_anchor4": 27.901785714285715,
+      "tool_choice_e2": 7.366071428571429
+    },
+    "en": {
+      "base_questions": 40,
+      "bb_rl_id_anchor4": 51.87500000000001,
+      "tool_choice_e2": 69.6875
+    }
+  }
+}

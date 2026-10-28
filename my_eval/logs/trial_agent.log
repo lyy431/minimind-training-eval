@@ -1,0 +1,54 @@
+﻿Model Params: 63.91M
+Trainable Params: 63.912M
+Model Params: 63.91M
+Trainable Params: 63.912M
+python.exe : `torch_dtype` is deprecated! Use `dtype` instead!
+At line:1 char:480
++ ... er\trainer; & D:\conda\envs\minimind\python.exe -u train_agent.py --d ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (`torch_dtype` i...dtype` instead!:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 59.29it/s]
+Loaded reward model from ../../internlm2-1_8b-reward
+Traceback (most recent call last):
+  File "D:\minimind\minimind-master\trainer\train_agent.py", line 481, in <module>
+    rl_train_epoch(epoch, loader, len(loader), rollout_engine, ref_model, reward_model, 0, wandb, use_sglang = (args.ro
+llout_engine == "sglang"))
+  File "D:\minimind\minimind-master\trainer\train_agent.py", line 280, in rl_train_epoch
+    ref_per_token_logps = compute_per_token_logps(ref_model, input_ids, input_ids.size(1) - 1, attention_mask=full_mask
+)
+  File "D:\minimind\minimind-master\trainer\rollout_engine.py", line 29, in compute_per_token_logps
+    logits = unwrapped(input_ids, attention_mask=attention_mask, logits_to_keep=n_keep + 1).logits[:, :-1, :]
+  File "D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\minimind\minimind-master\model\model_minimind.py", line 251, in forward
+    hidden_states, past_key_values, aux_loss = self.model(input_ids, attention_mask, past_key_values, use_cache, **kwar
+gs)
+  File "D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\minimind\minimind-master\model\model_minimind.py", line 227, in forward
+    hidden_states, present = layer(
+  File "D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\minimind\minimind-master\model\model_minimind.py", line 193, in forward
+    hidden_states, present_key_value = self.self_attn(
+  File "D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\minimind\minimind-master\model\model_minimind.py", line 128, in forward
+    scores = (xq @ xk.transpose(-2, -1)).float() / math.sqrt(self.head_dim)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 432.00 MiB. GPU 0 has a total capacity of 8.00 GiB of whi
+ch 0 bytes is free. Of the allocated memory 13.59 GiB is allocated by PyTorch, and 255.27 MiB is reserved by PyTorch bu
+t unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+ to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#env
+ironment-variables)

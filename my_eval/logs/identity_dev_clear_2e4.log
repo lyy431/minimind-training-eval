@@ -1,0 +1,6 @@
+bb_rl_id_clear_2e4 {'identity_hits': 18, 'identity_runs': 20, 'general_leaks': 3, 'general_runs': 20}
+bb_rl_id_clear_2e4 loss 2.5463349902629853 n 100
+bb_rl_id_clear_2e4 math 6/24: 75.00% (16s)
+bb_rl_id_clear_2e4 math 12/24: 87.50% (33s)
+bb_rl_id_clear_2e4 math 18/24: 86.11% (49s)
+bb_rl_id_clear_2e4 math 24/24: 85.42% (60s)

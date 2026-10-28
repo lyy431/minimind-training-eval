@@ -1,0 +1,23 @@
+{
+  "base": "chat_repair_e2",
+  "base_sha256": "8d9122b51f55f662f6b1508316cb6d8007c9d5afe268d44ff78b2a4095b6559e",
+  "epochs": 3,
+  "lr": 0.0002,
+  "kl": 4.0,
+  "rank": 16,
+  "batch": 4,
+  "seed": 42,
+  "identity_row_weight": 3,
+  "counts": {
+    "identity_ce": 240,
+    "ordinary_ce": 320,
+    "math_ce": 320,
+    "kl": 600
+  },
+  "rows": 1480,
+  "max_tokens": 1418,
+  "identity_target": "Canonical complete name+customizer+upstream relation in both languages, same for all identity variants",
+  "train_sha256": "dcf28716c4392f1713e9eb90ba14f7e94339f1af5321765cf4cc5e500a2e88cf",
+  "no_truncation": true,
+  "known_chat_heldout_question_overlap": 0
+}

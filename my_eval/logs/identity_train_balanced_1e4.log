@@ -1,0 +1,60 @@
+Model Params: 63.91M
+Trainable Params: 63.912M
+LLM 总参数量: 64.305 M
+LoRA 参数量: 0.393 M
+LoRA 参数占比: 0.61%
+Epoch:[1/6](25/225), loss: 1.4424, logits_loss: 1.4424, aux_loss: 0.0000, lr: 0.00009992, epoch_time: 2.0min
+Epoch:[1/6](50/225), loss: 1.5461, logits_loss: 1.5461, aux_loss: 0.0000, lr: 0.00009970, epoch_time: 1.0min
+Epoch:[1/6](75/225), loss: 1.4930, logits_loss: 1.4930, aux_loss: 0.0000, lr: 0.00009932, epoch_time: 0.0min
+Epoch:[1/6](100/225), loss: 1.8471, logits_loss: 1.8471, aux_loss: 0.0000, lr: 0.00009879, epoch_time: 0.0min
+Epoch:[1/6](125/225), loss: 1.4546, logits_loss: 1.4546, aux_loss: 0.0000, lr: 0.00009811, epoch_time: 0.0min
+Epoch:[1/6](150/225), loss: 1.6454, logits_loss: 1.6454, aux_loss: 0.0000, lr: 0.00009729, epoch_time: 0.0min
+Epoch:[1/6](175/225), loss: 1.1264, logits_loss: 1.1264, aux_loss: 0.0000, lr: 0.00009632, epoch_time: 0.0min
+Epoch:[1/6](200/225), loss: 1.6479, logits_loss: 1.6479, aux_loss: 0.0000, lr: 0.00009521, epoch_time: 0.0min
+Epoch:[1/6](225/225), loss: 1.6603, logits_loss: 1.6603, aux_loss: 0.0000, lr: 0.00009397, epoch_time: 0.0min
+Epoch:[2/6](25/225), loss: 1.5322, logits_loss: 1.5322, aux_loss: 0.0000, lr: 0.00009260, epoch_time: 2.0min
+Epoch:[2/6](50/225), loss: 1.3363, logits_loss: 1.3363, aux_loss: 0.0000, lr: 0.00009110, epoch_time: 1.0min
+Epoch:[2/6](75/225), loss: 0.9143, logits_loss: 0.9143, aux_loss: 0.0000, lr: 0.00008947, epoch_time: 0.0min
+Epoch:[2/6](100/225), loss: 1.0565, logits_loss: 1.0565, aux_loss: 0.0000, lr: 0.00008773, epoch_time: 0.0min
+Epoch:[2/6](125/225), loss: 1.1941, logits_loss: 1.1941, aux_loss: 0.0000, lr: 0.00008588, epoch_time: 0.0min
+Epoch:[2/6](150/225), loss: 1.6023, logits_loss: 1.6023, aux_loss: 0.0000, lr: 0.00008393, epoch_time: 0.0min
+Epoch:[2/6](175/225), loss: 1.2583, logits_loss: 1.2583, aux_loss: 0.0000, lr: 0.00008187, epoch_time: 0.0min
+Epoch:[2/6](200/225), loss: 1.2063, logits_loss: 1.2063, aux_loss: 0.0000, lr: 0.00007973, epoch_time: 0.0min
+Epoch:[2/6](225/225), loss: 1.8030, logits_loss: 1.8030, aux_loss: 0.0000, lr: 0.00007750, epoch_time: 0.0min
+Epoch:[3/6](25/225), loss: 1.5805, logits_loss: 1.5805, aux_loss: 0.0000, lr: 0.00007520, epoch_time: 2.0min
+Epoch:[3/6](50/225), loss: 1.3755, logits_loss: 1.3755, aux_loss: 0.0000, lr: 0.00007282, epoch_time: 1.0min
+Epoch:[3/6](75/225), loss: 1.8059, logits_loss: 1.8059, aux_loss: 0.0000, lr: 0.00007039, epoch_time: 0.0min
+Epoch:[3/6](100/225), loss: 1.0535, logits_loss: 1.0535, aux_loss: 0.0000, lr: 0.00006791, epoch_time: 0.0min
+Epoch:[3/6](125/225), loss: 1.3941, logits_loss: 1.3941, aux_loss: 0.0000, lr: 0.00006538, epoch_time: 0.0min
+Epoch:[3/6](150/225), loss: 1.6946, logits_loss: 1.6946, aux_loss: 0.0000, lr: 0.00006281, epoch_time: 0.0min
+Epoch:[3/6](175/225), loss: 1.7338, logits_loss: 1.7338, aux_loss: 0.0000, lr: 0.00006022, epoch_time: 0.0min
+Epoch:[3/6](200/225), loss: 1.7644, logits_loss: 1.7644, aux_loss: 0.0000, lr: 0.00005762, epoch_time: 0.0min
+Epoch:[3/6](225/225), loss: 1.5825, logits_loss: 1.5825, aux_loss: 0.0000, lr: 0.00005500, epoch_time: 0.0min
+Epoch:[4/6](25/225), loss: 1.7894, logits_loss: 1.7894, aux_loss: 0.0000, lr: 0.00005238, epoch_time: 2.0min
+Epoch:[4/6](50/225), loss: 1.0171, logits_loss: 1.0171, aux_loss: 0.0000, lr: 0.00004978, epoch_time: 1.0min
+Epoch:[4/6](75/225), loss: 1.3854, logits_loss: 1.3854, aux_loss: 0.0000, lr: 0.00004719, epoch_time: 0.0min
+Epoch:[4/6](100/225), loss: 1.4817, logits_loss: 1.4817, aux_loss: 0.0000, lr: 0.00004462, epoch_time: 0.0min
+Epoch:[4/6](125/225), loss: 1.5130, logits_loss: 1.5130, aux_loss: 0.0000, lr: 0.00004209, epoch_time: 0.0min
+Epoch:[4/6](150/225), loss: 1.5039, logits_loss: 1.5039, aux_loss: 0.0000, lr: 0.00003961, epoch_time: 0.0min
+Epoch:[4/6](175/225), loss: 1.3503, logits_loss: 1.3503, aux_loss: 0.0000, lr: 0.00003718, epoch_time: 0.0min
+Epoch:[4/6](200/225), loss: 1.3402, logits_loss: 1.3402, aux_loss: 0.0000, lr: 0.00003480, epoch_time: 0.0min
+Epoch:[4/6](225/225), loss: 1.7460, logits_loss: 1.7460, aux_loss: 0.0000, lr: 0.00003250, epoch_time: 0.0min
+Epoch:[5/6](25/225), loss: 1.4461, logits_loss: 1.4461, aux_loss: 0.0000, lr: 0.00003027, epoch_time: 2.0min
+Epoch:[5/6](50/225), loss: 1.2757, logits_loss: 1.2757, aux_loss: 0.0000, lr: 0.00002813, epoch_time: 1.0min
+Epoch:[5/6](75/225), loss: 1.4691, logits_loss: 1.4691, aux_loss: 0.0000, lr: 0.00002607, epoch_time: 0.0min
+Epoch:[5/6](100/225), loss: 1.5439, logits_loss: 1.5439, aux_loss: 0.0000, lr: 0.00002412, epoch_time: 0.0min
+Epoch:[5/6](125/225), loss: 1.4436, logits_loss: 1.4436, aux_loss: 0.0000, lr: 0.00002227, epoch_time: 0.0min
+Epoch:[5/6](150/225), loss: 1.4898, logits_loss: 1.4898, aux_loss: 0.0000, lr: 0.00002053, epoch_time: 0.0min
+Epoch:[5/6](175/225), loss: 1.4745, logits_loss: 1.4745, aux_loss: 0.0000, lr: 0.00001890, epoch_time: 0.0min
+Epoch:[5/6](200/225), loss: 1.5118, logits_loss: 1.5118, aux_loss: 0.0000, lr: 0.00001740, epoch_time: 0.0min
+Epoch:[5/6](225/225), loss: 0.0811, logits_loss: 0.0811, aux_loss: 0.0000, lr: 0.00001603, epoch_time: 0.0min
+Epoch:[6/6](25/225), loss: 1.7455, logits_loss: 1.7455, aux_loss: 0.0000, lr: 0.00001479, epoch_time: 2.0min
+Epoch:[6/6](50/225), loss: 1.1924, logits_loss: 1.1924, aux_loss: 0.0000, lr: 0.00001368, epoch_time: 1.0min
+Epoch:[6/6](75/225), loss: 1.5393, logits_loss: 1.5393, aux_loss: 0.0000, lr: 0.00001271, epoch_time: 0.0min
+Epoch:[6/6](100/225), loss: 1.2879, logits_loss: 1.2879, aux_loss: 0.0000, lr: 0.00001189, epoch_time: 0.0min
+Epoch:[6/6](125/225), loss: 1.5476, logits_loss: 1.5476, aux_loss: 0.0000, lr: 0.00001121, epoch_time: 0.0min
+Epoch:[6/6](150/225), loss: 1.4083, logits_loss: 1.4083, aux_loss: 0.0000, lr: 0.00001068, epoch_time: 0.0min
+Epoch:[6/6](175/225), loss: 1.2439, logits_loss: 1.2439, aux_loss: 0.0000, lr: 0.00001030, epoch_time: 0.0min
+Epoch:[6/6](200/225), loss: 1.6236, logits_loss: 1.6236, aux_loss: 0.0000, lr: 0.00001008, epoch_time: 0.0min
+Epoch:[6/6](225/225), loss: 1.4811, logits_loss: 1.4811, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 0.0min
+{"name": "lora_yuyang_balanced_1e4", "base": "bb_rl", "epochs": 6, "learning_rate": 0.0001, "batch_size": 8, "max_seq_len": 768, "num_workers": 2, "dataset": "D:\\minimind\\minimind-master\\my_eval\\results\\identity_repair_20261024\\balanced_mix1796.jsonl", "seconds": 295.7053339999984, "dataset_sha256": "a9a7961b6e9b9cf2a8e43a2253d70917cb9ff847403a4f4f712e8aa6a46a88ca", "peak_gpu_allocated_gib": 2.3675403594970703, "peak_gpu_reserved_gib": 2.5703125, "argv": ["train_lora.py", "--from_weight", "bb_rl", "--lora_name", "lora_yuyang_balanced_1e4", "--data_path", "D:\\minimind\\minimind-master\\my_eval\\results\\identity_repair_20261024\\balanced_mix1796.jsonl", "--epochs", "6", "--batch_size", "8", "--learning_rate", "0.0001", "--max_seq_len", "768", "--num_workers", "2", "--from_resume", "0", "--log_interval", "25", "--save_interval", "10000", "--use_compile", "0"]}

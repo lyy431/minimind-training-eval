@@ -1,0 +1,50 @@
+{
+  "counts": {
+    "old_source_rows": 2999,
+    "new_rl_source_rows": 3000,
+    "new_teacher_source_rows": 2999,
+    "old_source_unique_questions": 2983,
+    "new_rl_source_unique_questions": 2985,
+    "old_new_question_overlap": 25,
+    "old_teacher_original": 2514,
+    "old_teacher_clean": 2512,
+    "general_original": 3000,
+    "general_clean": 2999,
+    "general_excluded": 1
+  },
+  "known_test_question_overlaps": [
+    {
+      "eval_index": 15,
+      "question": "Compute 18**3 for me",
+      "gt": [
+        "5832"
+      ],
+      "seen_in": [
+        "old_teacher",
+        "bb_mix"
+      ]
+    },
+    {
+      "eval_index": 125,
+      "question": "Calculate 10**3",
+      "gt": [
+        "1000"
+      ],
+      "seen_in": [
+        "rl_source"
+      ]
+    },
+    {
+      "eval_index": 181,
+      "question": "帮我算一下14**3等于多少",
+      "gt": [
+        "2744"
+      ],
+      "seen_in": [
+        "old_teacher",
+        "bb_mix"
+      ]
+    }
+  ],
+  "primary_math_n": 197
+}

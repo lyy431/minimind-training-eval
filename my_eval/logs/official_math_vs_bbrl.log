@@ -1,0 +1,13 @@
+                                       official      bb_rl
+all answers correct %                      17.8       81.8
+used a non-calculator tool %               17.8        0.0
+calculator calls == #expressions %         36.8       99.5
+calculator calls < #expressions %          61.5        0.5
+calculator calls > #expressions %           1.8        0.0
+expressions copied correctly %             44.8       97.7
+correct tool results written in answer %       75.1       94.6
+all correct, 1 expression(s) %             60.9       98.2
+all correct, 2 expression(s) %              4.2       86.5
+all correct, 3 expression(s) %              0.0       70.1
+
+per problem: bb_rl better on 155, worse on 1, same on 44 (of 200); mean gain +64.0 pts +/- 2.9 (1 SE)

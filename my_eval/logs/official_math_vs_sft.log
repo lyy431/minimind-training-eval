@@ -1,0 +1,13 @@
+                                       full_sft   official
+all answers correct %                       2.8       17.8
+used a non-calculator tool %               52.5       17.8
+calculator calls == #expressions %         15.8       36.8
+calculator calls < #expressions %          79.5       61.5
+calculator calls > #expressions %           4.8        1.8
+expressions copied correctly %             15.2       44.8
+correct tool results written in answer %       35.1       75.1
+all correct, 1 expression(s) %             10.0       60.9
+all correct, 2 expression(s) %              0.0        4.2
+all correct, 3 expression(s) %              0.0        0.0
+
+per problem: official better on 42, worse on 3, same on 155 (of 200); mean gain +15.0 pts +/- 2.4 (1 SE)

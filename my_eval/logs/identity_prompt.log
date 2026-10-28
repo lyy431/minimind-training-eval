@@ -1,0 +1,16 @@
+bb_rl {'identity_hits': 0, 'identity_runs': 20, 'general_leaks': 0, 'general_runs': 20}
+bb_rl loss 2.523817517757416 n 100
+bb_rl_id {'identity_hits': 14, 'identity_runs': 20, 'general_leaks': 5, 'general_runs': 20}
+bb_rl_id loss 2.6532279300689696 n 100
+prompt_short {'identity_hits': 0, 'identity_runs': 20, 'general_leaks': 1, 'general_runs': 20}
+prompt_short loss 2.5293027710914613 n 100
+prompt_conditional {'identity_hits': 0, 'identity_runs': 20, 'general_leaks': 0, 'general_runs': 20}
+prompt_conditional loss 2.5338056588172915 n 100
+bb_rl math 6/24: 83.33% (17s)
+bb_rl math 12/24: 87.50% (34s)
+bb_rl math 18/24: 83.33% (49s)
+bb_rl math 24/24: 83.33% (68s)
+bb_rl_id math 6/24: 58.33% (25s)
+bb_rl_id math 12/24: 50.00% (57s)
+bb_rl_id math 18/24: 61.11% (78s)
+bb_rl_id math 24/24: 66.67% (94s)

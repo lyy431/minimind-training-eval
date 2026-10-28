@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "chat_raw_responses_checked": 288,
+  "question_clusters": 48,
+  "nonidentity_clusters": 36,
+  "independent_means_and_standard_errors_match": true,
+  "math197_and48_checked": true,
+  "nll296_aligned": true,
+  "independent_content_gain_ci95": [
+    0.3541666666666667,
+    0.715277777777778
+  ],
+  "independent_bootstrap_direction_matches": true
+}

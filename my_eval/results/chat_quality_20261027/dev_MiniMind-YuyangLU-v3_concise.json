@@ -1,0 +1,466 @@
+{
+  "dev_knowledge_0_no_tools": {
+    "task_id": "dev_knowledge_0",
+    "condition": "no_tools",
+    "seed": 710000,
+    "turns": [
+      "水龙头关紧，是人类社会中一个重要的社会现象。水龙头是人类社会中不可或缺的一部分，它不仅关联着人类的生活方式，还直接影响着社会的和谐与稳定。水龙头的使用可以分为两个方面：\n\n1. **情感表达**：水龙头与人类之间的情感紧密相连，如同一条河流般的流动，它让我们感受到生命的复杂性和变化，同时也提醒着我们珍惜每一滴水的生命，共同面对生活中的挑战。水龙头的使用有助于维持一个健康、快乐的生活环境，促进人与自然的和谐共存。\n\n2. **资源分配**：水龙头是人类社会中不可或缺的一部分，它关乎到人类的日常生活、工作、学习、娱乐、健康、安全等方方面面。因此，如果我们依赖水龙头，水龙头的使用有助于人类获取资源，减少浪费，保护环境，促进可持续发展。\n\n3. **经济与文化的平衡**：水龙头的使用有助于促进当地经济的发展，通过减少贫困、保护自然资源和促进文化传承，有助于促进当地经济的发展，促进社会和谐。在现代社会，虽然水龙头的使用能够带来便利，但过度依赖水龙头的使用可能对环境造成污染，影响人类的健康和生活质量。\n\n综上所述，水龙头的使用不仅关联着人类的生活方式，还与社会整体和谐、人类福祉、经济发展以及经济发展、文化传承、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化"
+    ],
+    "final": "水龙头关紧，是人类社会中一个重要的社会现象。水龙头是人类社会中不可或缺的一部分，它不仅关联着人类的生活方式，还直接影响着社会的和谐与稳定。水龙头的使用可以分为两个方面：\n\n1. **情感表达**：水龙头与人类之间的情感紧密相连，如同一条河流般的流动，它让我们感受到生命的复杂性和变化，同时也提醒着我们珍惜每一滴水的生命，共同面对生活中的挑战。水龙头的使用有助于维持一个健康、快乐的生活环境，促进人与自然的和谐共存。\n\n2. **资源分配**：水龙头是人类社会中不可或缺的一部分，它关乎到人类的日常生活、工作、学习、娱乐、健康、安全等方方面面。因此，如果我们依赖水龙头，水龙头的使用有助于人类获取资源，减少浪费，保护环境，促进可持续发展。\n\n3. **经济与文化的平衡**：水龙头的使用有助于促进当地经济的发展，通过减少贫困、保护自然资源和促进文化传承，有助于促进当地经济的发展，促进社会和谐。在现代社会，虽然水龙头的使用能够带来便利，但过度依赖水龙头的使用可能对环境造成污染，影响人类的健康和生活质量。\n\n综上所述，水龙头的使用不仅关联着人类的生活方式，还与社会整体和谐、人类福祉、经济发展以及经济发展、文化传承、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化",
+    "eligible": false,
+    "failure": "token_limit",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "水龙头关紧，是人类社会中一个重要的社会现象。水龙头是人类社会中不可或缺的一部分，它不仅关联着人类的生活方式，还直接影响着社会的和谐与稳定。水龙头的使用可以分为两个方面：\n\n1. **情感表达**：水龙头与人类之间的情感紧密相连，如同一条河流般的流动，它让我们感受到生命的复杂性和变化，同时也提醒着我们珍惜每一滴水的生命，共同面对生活中的挑战。水龙头的使用有助于维持一个健康、快乐的生活环境，促进人与自然的和谐共存。\n\n2. **资源分配**：水龙头是人类社会中不可或缺的一部分，它关乎到人类的日常生活、工作、学习、娱乐、健康、安全等方方面面。因此，如果我们依赖水龙头，水龙头的使用有助于人类获取资源，减少浪费，保护环境，促进可持续发展。\n\n3. **经济与文化的平衡**：水龙头的使用有助于促进当地经济的发展，通过减少贫困、保护自然资源和促进文化传承，有助于促进当地经济的发展，促进社会和谐。在现代社会，虽然水龙头的使用能够带来便利，但过度依赖水龙头的使用可能对环境造成污染，影响人类的健康和生活质量。\n\n综上所述，水龙头的使用不仅关联着人类的生活方式，还与社会整体和谐、人类福祉、经济发展以及经济发展、文化传承、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "水龙头关紧，是人类社会中一个重要的社会现象。水龙头是人类社会中不可或缺的一部分，它不仅关联着人类的生活方式，还直接影响着社会的和谐与稳定。水龙头的使用可以分为两个方面：\n\n1. **情感表达**：水龙头与人类之间的情感紧密相连，如同一条河流般的流动，它让我们感受到生命的复杂性和变化，同时也提醒着我们珍惜每一滴水的生命，共同面对生活中的挑战。水龙头的使用有助于维持一个健康、快乐的生活环境，促进人与自然的和谐共存。\n\n2. **资源分配**：水龙头是人类社会中不可或缺的一部分，它关乎到人类的日常生活、工作、学习、娱乐、健康、安全等方方面面。因此，如果我们依赖水龙头，水龙头的使用有助于人类获取资源，减少浪费，保护环境，促进可持续发展。\n\n3. **经济与文化的平衡**：水龙头的使用有助于促进当地经济的发展，通过减少贫困、保护自然资源和促进文化传承，有助于促进当地经济的发展，促进社会和谐。在现代社会，虽然水龙头的使用能够带来便利，但过度依赖水龙头的使用可能对环境造成污染，影响人类的健康和生活质量。\n\n综上所述，水龙头的使用不仅关联着人类的生活方式，还与社会整体和谐、人类福祉、经济发展以及经济发展、文化传承、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化和谐、经济发展、文化"
+      }
+    ],
+    "generated_tokens": 384,
+    "generation_seconds": 5.704153900005622,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_knowledge_1_no_tools": {
+    "task_id": "dev_knowledge_1",
+    "condition": "no_tools",
+    "seed": 710031,
+    "turns": [
+      "做事前列个清单的例子：\n\n1. **任务分解**：将大任务分解为一系列小任务，每完成一个小任务就给自己一些时间来分解。这有助于保持目标清晰，提高工作效率。\n\n2. **优先级排序**：使用“三级法则”来确定哪些任务是最重要的，哪些可以稍后处理，以及如何有效地处理任务。\n\n3. **主干**：在大任务中，主干可以用来快速识别和评估信息，减少主干的复杂性，同时保持任务的紧急性和重要性。\n\n4. **提醒**：提醒用户在完成任务时要留出足够的时间来回复，以便在需要时及时回复。\n\n5. **备注**：对于需要在特定任务上传给团队成员或同事，说明为什么这么做是最重要的，以及这次活动对项目的影响。\n\n6. **时间管理**：合理安排任务的时间，避免过度劳累，确保有足够的时间用于休息和娱乐。\n\n7. **适应性**：考虑到不同任务需求，可以选择不同的优先级，以适应不同任务的需求。\n\n8. **灵活调整**：在需要时，灵活调整任务顺序，以适应不同的需求和环境。\n\n9. **持续学习**：保持好奇心和学习新知识的积累，有助于持续提高技能。\n\n10. **反馈与调整**：定期对任务执行过程中遇到的任何问题及时提供解决方案或反馈，以保持团队的整体效率和成果。\n\n通过这样做，可以有效地管理任务，确保项目按时完成，同时保持项目的整体效益。"
+    ],
+    "final": "做事前列个清单的例子：\n\n1. **任务分解**：将大任务分解为一系列小任务，每完成一个小任务就给自己一些时间来分解。这有助于保持目标清晰，提高工作效率。\n\n2. **优先级排序**：使用“三级法则”来确定哪些任务是最重要的，哪些可以稍后处理，以及如何有效地处理任务。\n\n3. **主干**：在大任务中，主干可以用来快速识别和评估信息，减少主干的复杂性，同时保持任务的紧急性和重要性。\n\n4. **提醒**：提醒用户在完成任务时要留出足够的时间来回复，以便在需要时及时回复。\n\n5. **备注**：对于需要在特定任务上传给团队成员或同事，说明为什么这么做是最重要的，以及这次活动对项目的影响。\n\n6. **时间管理**：合理安排任务的时间，避免过度劳累，确保有足够的时间用于休息和娱乐。\n\n7. **适应性**：考虑到不同任务需求，可以选择不同的优先级，以适应不同任务的需求。\n\n8. **灵活调整**：在需要时，灵活调整任务顺序，以适应不同的需求和环境。\n\n9. **持续学习**：保持好奇心和学习新知识的积累，有助于持续提高技能。\n\n10. **反馈与调整**：定期对任务执行过程中遇到的任何问题及时提供解决方案或反馈，以保持团队的整体效率和成果。\n\n通过这样做，可以有效地管理任务，确保项目按时完成，同时保持项目的整体效益。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "做事前列个清单的例子：\n\n1. **任务分解**：将大任务分解为一系列小任务，每完成一个小任务就给自己一些时间来分解。这有助于保持目标清晰，提高工作效率。\n\n2. **优先级排序**：使用“三级法则”来确定哪些任务是最重要的，哪些可以稍后处理，以及如何有效地处理任务。\n\n3. **主干**：在大任务中，主干可以用来快速识别和评估信息，减少主干的复杂性，同时保持任务的紧急性和重要性。\n\n4. **提醒**：提醒用户在完成任务时要留出足够的时间来回复，以便在需要时及时回复。\n\n5. **备注**：对于需要在特定任务上传给团队成员或同事，说明为什么这么做是最重要的，以及这次活动对项目的影响。\n\n6. **时间管理**：合理安排任务的时间，避免过度劳累，确保有足够的时间用于休息和娱乐。\n\n7. **适应性**：考虑到不同任务需求，可以选择不同的优先级，以适应不同任务的需求。\n\n8. **灵活调整**：在需要时，灵活调整任务顺序，以适应不同的需求和环境。\n\n9. **持续学习**：保持好奇心和学习新知识的积累，有助于持续提高技能。\n\n10. **反馈与调整**：定期对任务执行过程中遇到的任何问题及时提供解决方案或反馈，以保持团队的整体效率和成果。\n\n通过这样做，可以有效地管理任务，确保项目按时完成，同时保持项目的整体效益。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "做事前列个清单的例子：\n\n1. **任务分解**：将大任务分解为一系列小任务，每完成一个小任务就给自己一些时间来分解。这有助于保持目标清晰，提高工作效率。\n\n2. **优先级排序**：使用“三级法则”来确定哪些任务是最重要的，哪些可以稍后处理，以及如何有效地处理任务。\n\n3. **主干**：在大任务中，主干可以用来快速识别和评估信息，减少主干的复杂性，同时保持任务的紧急性和重要性。\n\n4. **提醒**：提醒用户在完成任务时要留出足够的时间来回复，以便在需要时及时回复。\n\n5. **备注**：对于需要在特定任务上传给团队成员或同事，说明为什么这么做是最重要的，以及这次活动对项目的影响。\n\n6. **时间管理**：合理安排任务的时间，避免过度劳累，确保有足够的时间用于休息和娱乐。\n\n7. **适应性**：考虑到不同任务需求，可以选择不同的优先级，以适应不同任务的需求。\n\n8. **灵活调整**：在需要时，灵活调整任务顺序，以适应不同的需求和环境。\n\n9. **持续学习**：保持好奇心和学习新知识的积累，有助于持续提高技能。\n\n10. **反馈与调整**：定期对任务执行过程中遇到的任何问题及时提供解决方案或反馈，以保持团队的整体效率和成果。\n\n通过这样做，可以有效地管理任务，确保项目按时完成，同时保持项目的整体效益。"
+      }
+    ],
+    "generated_tokens": 350,
+    "generation_seconds": 4.314096100017196,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_knowledge_2_no_tools": {
+    "task_id": "dev_knowledge_2",
+    "condition": "no_tools",
+    "seed": 710062,
+    "turns": [
+      "Sure! Here's a SQL statement to classify the table of contents:\n\n```sql\nSELECT * FROM table_name;\n```\n\n### Explanation:\n- The `ORDER BY` statement specifies the table in your table.\n- The `ORDER BY` statement specifies the table.\n- The `DELE` statement specifies the table.\n- The `MAVER` statement specifies the table's column named `title`, which means that the table contains columns `title` (which is the name of the table), and `title` (which is the name of the table).\n\nThis query will return the `Title` column named `title` or `title` variable.\n\nIf you have a specific table you want to do, please provide more details."
+    ],
+    "final": "Sure! Here's a SQL statement to classify the table of contents:\n\n```sql\nSELECT * FROM table_name;\n```\n\n### Explanation:\n- The `ORDER BY` statement specifies the table in your table.\n- The `ORDER BY` statement specifies the table.\n- The `DELE` statement specifies the table.\n- The `MAVER` statement specifies the table's column named `title`, which means that the table contains columns `title` (which is the name of the table), and `title` (which is the name of the table).\n\nThis query will return the `Title` column named `title` or `title` variable.\n\nIf you have a specific table you want to do, please provide more details.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Sure! Here's a SQL statement to classify the table of contents:\n\n```sql\nSELECT * FROM table_name;\n```\n\n### Explanation:\n- The `ORDER BY` statement specifies the table in your table.\n- The `ORDER BY` statement specifies the table.\n- The `DELE` statement specifies the table.\n- The `MAVER` statement specifies the table's column named `title`, which means that the table contains columns `title` (which is the name of the table), and `title` (which is the name of the table).\n\nThis query will return the `Title` column named `title` or `title` variable.\n\nIf you have a specific table you want to do, please provide more details."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Sure! Here's a SQL statement to classify the table of contents:\n\n```sql\nSELECT * FROM table_name;\n```\n\n### Explanation:\n- The `ORDER BY` statement specifies the table in your table.\n- The `ORDER BY` statement specifies the table.\n- The `DELE` statement specifies the table.\n- The `MAVER` statement specifies the table's column named `title`, which means that the table contains columns `title` (which is the name of the table), and `title` (which is the name of the table).\n\nThis query will return the `Title` column named `title` or `title` variable.\n\nIf you have a specific table you want to do, please provide more details."
+      }
+    ],
+    "generated_tokens": 193,
+    "generation_seconds": 2.496984600002179,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_knowledge_3_no_tools": {
+    "task_id": "dev_knowledge_3",
+    "condition": "no_tools",
+    "seed": 710093,
+    "turns": [
+      "将文档作为一种语言，能够帮助人们快速获取和阅读文档中的信息，同时也能促进知识的传播和传播。下面是一些通用的步骤来确保文档与个人文档之间的关系：\n\n### 1. 准备文档\n首先，确保你有所有需要的信息（例如文件名称、链接或任何其他相关信息）。这些信息应以清晰、易读的形式呈现，避免冗余。\n\n### 2. 清晰结构\n将文档中的信息（如目录、链接、链接或其他相关信息）整理成一个连贯的文档。这有助于读者快速理解文档的整体结构。\n\n### 3. 理解文档的主题\n在开始撰写文档之前，了解文档的主题，确保它们与你最感兴趣的主题相关。这有助于读者或读者快速理解文档的目的和目的。\n\n### 4. 添加注释\n在开始撰写文档之前，确保你的文档信息清晰、易于理解。这有助于读者理解文档的含义，以及文档中可能包含的任何特定的信息或信息。\n\n### 5. 结构化和组织\n将文档的结构化和组织起来，便于读者理解和使用。例如，可以将文档分为几个部分，每个部分包含一些特定的信息或信息。这有助于读者理解文档的整体结构和内容。\n\n### 6. 撰写详细信息\n在撰写文档时，提供详细的来源信息，包括文档的目的、作者、主要贡献、以及与其他文档的联系信息。这有助于读者快速获取到所需的信息。\n\n### 7. 保持一致性和一致性\n在撰写文档时，保持一致性和一致性。这有助于读者理解文档的各个部分，以及它们之间的关系。\n\n### 8. 持续更新\n在发布前，定期更新文档，"
+    ],
+    "final": "将文档作为一种语言，能够帮助人们快速获取和阅读文档中的信息，同时也能促进知识的传播和传播。下面是一些通用的步骤来确保文档与个人文档之间的关系：\n\n### 1. 准备文档\n首先，确保你有所有需要的信息（例如文件名称、链接或任何其他相关信息）。这些信息应以清晰、易读的形式呈现，避免冗余。\n\n### 2. 清晰结构\n将文档中的信息（如目录、链接、链接或其他相关信息）整理成一个连贯的文档。这有助于读者快速理解文档的整体结构。\n\n### 3. 理解文档的主题\n在开始撰写文档之前，了解文档的主题，确保它们与你最感兴趣的主题相关。这有助于读者或读者快速理解文档的目的和目的。\n\n### 4. 添加注释\n在开始撰写文档之前，确保你的文档信息清晰、易于理解。这有助于读者理解文档的含义，以及文档中可能包含的任何特定的信息或信息。\n\n### 5. 结构化和组织\n将文档的结构化和组织起来，便于读者理解和使用。例如，可以将文档分为几个部分，每个部分包含一些特定的信息或信息。这有助于读者理解文档的整体结构和内容。\n\n### 6. 撰写详细信息\n在撰写文档时，提供详细的来源信息，包括文档的目的、作者、主要贡献、以及与其他文档的联系信息。这有助于读者快速获取到所需的信息。\n\n### 7. 保持一致性和一致性\n在撰写文档时，保持一致性和一致性。这有助于读者理解文档的各个部分，以及它们之间的关系。\n\n### 8. 持续更新\n在发布前，定期更新文档，",
+    "eligible": false,
+    "failure": "token_limit",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "将文档作为一种语言，能够帮助人们快速获取和阅读文档中的信息，同时也能促进知识的传播和传播。下面是一些通用的步骤来确保文档与个人文档之间的关系：\n\n### 1. 准备文档\n首先，确保你有所有需要的信息（例如文件名称、链接或任何其他相关信息）。这些信息应以清晰、易读的形式呈现，避免冗余。\n\n### 2. 清晰结构\n将文档中的信息（如目录、链接、链接或其他相关信息）整理成一个连贯的文档。这有助于读者快速理解文档的整体结构。\n\n### 3. 理解文档的主题\n在开始撰写文档之前，了解文档的主题，确保它们与你最感兴趣的主题相关。这有助于读者或读者快速理解文档的目的和目的。\n\n### 4. 添加注释\n在开始撰写文档之前，确保你的文档信息清晰、易于理解。这有助于读者理解文档的含义，以及文档中可能包含的任何特定的信息或信息。\n\n### 5. 结构化和组织\n将文档的结构化和组织起来，便于读者理解和使用。例如，可以将文档分为几个部分，每个部分包含一些特定的信息或信息。这有助于读者理解文档的整体结构和内容。\n\n### 6. 撰写详细信息\n在撰写文档时，提供详细的来源信息，包括文档的目的、作者、主要贡献、以及与其他文档的联系信息。这有助于读者快速获取到所需的信息。\n\n### 7. 保持一致性和一致性\n在撰写文档时，保持一致性和一致性。这有助于读者理解文档的各个部分，以及它们之间的关系。\n\n### 8. 持续更新\n在发布前，定期更新文档，"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "将文档作为一种语言，能够帮助人们快速获取和阅读文档中的信息，同时也能促进知识的传播和传播。下面是一些通用的步骤来确保文档与个人文档之间的关系：\n\n### 1. 准备文档\n首先，确保你有所有需要的信息（例如文件名称、链接或任何其他相关信息）。这些信息应以清晰、易读的形式呈现，避免冗余。\n\n### 2. 清晰结构\n将文档中的信息（如目录、链接、链接或其他相关信息）整理成一个连贯的文档。这有助于读者快速理解文档的整体结构。\n\n### 3. 理解文档的主题\n在开始撰写文档之前，了解文档的主题，确保它们与你最感兴趣的主题相关。这有助于读者或读者快速理解文档的目的和目的。\n\n### 4. 添加注释\n在开始撰写文档之前，确保你的文档信息清晰、易于理解。这有助于读者理解文档的含义，以及文档中可能包含的任何特定的信息或信息。\n\n### 5. 结构化和组织\n将文档的结构化和组织起来，便于读者理解和使用。例如，可以将文档分为几个部分，每个部分包含一些特定的信息或信息。这有助于读者理解文档的整体结构和内容。\n\n### 6. 撰写详细信息\n在撰写文档时，提供详细的来源信息，包括文档的目的、作者、主要贡献、以及与其他文档的联系信息。这有助于读者快速获取到所需的信息。\n\n### 7. 保持一致性和一致性\n在撰写文档时，保持一致性和一致性。这有助于读者理解文档的各个部分，以及它们之间的关系。\n\n### 8. 持续更新\n在发布前，定期更新文档，"
+      }
+    ],
+    "generated_tokens": 384,
+    "generation_seconds": 4.507444499991834,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_writing_0_no_tools": {
+    "task_id": "dev_writing_0",
+    "condition": "no_tools",
+    "seed": 710124,
+    "turns": [
+      "当然，我很乐意帮您写一句祝同学考试顺利的话。\n"
+    ],
+    "final": "当然，我很乐意帮您写一句祝同学考试顺利的话。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "当然，我很乐意帮您写一句祝同学考试顺利的话。\n"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "当然，我很乐意帮您写一句祝同学考试顺利的话。\n"
+      }
+    ],
+    "generated_tokens": 19,
+    "generation_seconds": 0.25424710000515915,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_writing_1_no_tools": {
+    "task_id": "dev_writing_1",
+    "condition": "no_tools",
+    "seed": 710155,
+    "turns": [
+      "亲爱的室友，\n\n希望你们的家，健康幸福！\n\n愿你们的每一天都充满阳光，每一刻都充满温暖，每一声呼应，都能在心中生根发芽。今天，我想与你一起，分享我们的精彩故事，共同守护家园。\n\n愿你们的每一天都充满温暖，每一声都如此，充满希望与光明。愿你们的每一天都充满阳光，每一声都如此，充满阳光。让我们一起，用最温暖的节奏，让每一个需要，都能在一起，创造更多美好。\n\n---\n\n【开头】：家，今天的阳光明媚，空气中弥漫着热腾腾的气息，让人心情愉悦。今天，我想和你一起，一起，用最温暖的方式，让每一个人都能感到温暖。\n\n**开头**：家，今天的阳光真的很暖和，空气中弥漫着淡淡的忧伤，空气中弥漫着温暖的气息。我家的温暖如同初春的阳光，温暖而明亮，让人心情愉悦。今天，我想和你一起，用最温暖的方式，让生活充满温暖。\n\n**开头**：家，今天的阳光真的很温暖，空气中弥漫着淡淡的忧伤，让人心情愉悦。今天，我想与你一起，用最温暖的节奏，让生活充满阳光。\n\n**开头**：家，今天的阳光真的很温暖，空气中弥漫着温暖的气息，让人心情愉悦。我家的温暖如同初夏的阳光，温暖而明亮"
+    ],
+    "final": "亲爱的室友，\n\n希望你们的家，健康幸福！\n\n愿你们的每一天都充满阳光，每一刻都充满温暖，每一声呼应，都能在心中生根发芽。今天，我想与你一起，分享我们的精彩故事，共同守护家园。\n\n愿你们的每一天都充满温暖，每一声都如此，充满希望与光明。愿你们的每一天都充满阳光，每一声都如此，充满阳光。让我们一起，用最温暖的节奏，让每一个需要，都能在一起，创造更多美好。\n\n---\n\n【开头】：家，今天的阳光明媚，空气中弥漫着热腾腾的气息，让人心情愉悦。今天，我想和你一起，一起，用最温暖的方式，让每一个人都能感到温暖。\n\n**开头**：家，今天的阳光真的很暖和，空气中弥漫着淡淡的忧伤，空气中弥漫着温暖的气息。我家的温暖如同初春的阳光，温暖而明亮，让人心情愉悦。今天，我想和你一起，用最温暖的方式，让生活充满温暖。\n\n**开头**：家，今天的阳光真的很温暖，空气中弥漫着淡淡的忧伤，让人心情愉悦。今天，我想与你一起，用最温暖的节奏，让生活充满阳光。\n\n**开头**：家，今天的阳光真的很温暖，空气中弥漫着温暖的气息，让人心情愉悦。我家的温暖如同初夏的阳光，温暖而明亮",
+    "eligible": false,
+    "failure": "token_limit",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "亲爱的室友，\n\n希望你们的家，健康幸福！\n\n愿你们的每一天都充满阳光，每一刻都充满温暖，每一声呼应，都能在心中生根发芽。今天，我想与你一起，分享我们的精彩故事，共同守护家园。\n\n愿你们的每一天都充满温暖，每一声都如此，充满希望与光明。愿你们的每一天都充满阳光，每一声都如此，充满阳光。让我们一起，用最温暖的节奏，让每一个需要，都能在一起，创造更多美好。\n\n---\n\n【开头】：家，今天的阳光明媚，空气中弥漫着热腾腾的气息，让人心情愉悦。今天，我想和你一起，一起，用最温暖的方式，让每一个人都能感到温暖。\n\n**开头**：家，今天的阳光真的很暖和，空气中弥漫着淡淡的忧伤，空气中弥漫着温暖的气息。我家的温暖如同初春的阳光，温暖而明亮，让人心情愉悦。今天，我想和你一起，用最温暖的方式，让生活充满温暖。\n\n**开头**：家，今天的阳光真的很温暖，空气中弥漫着淡淡的忧伤，让人心情愉悦。今天，我想与你一起，用最温暖的节奏，让生活充满阳光。\n\n**开头**：家，今天的阳光真的很温暖，空气中弥漫着温暖的气息，让人心情愉悦。我家的温暖如同初夏的阳光，温暖而明亮"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "亲爱的室友，\n\n希望你们的家，健康幸福！\n\n愿你们的每一天都充满阳光，每一刻都充满温暖，每一声呼应，都能在心中生根发芽。今天，我想与你一起，分享我们的精彩故事，共同守护家园。\n\n愿你们的每一天都充满温暖，每一声都如此，充满希望与光明。愿你们的每一天都充满阳光，每一声都如此，充满阳光。让我们一起，用最温暖的节奏，让每一个需要，都能在一起，创造更多美好。\n\n---\n\n【开头】：家，今天的阳光明媚，空气中弥漫着热腾腾的气息，让人心情愉悦。今天，我想和你一起，一起，用最温暖的方式，让每一个人都能感到温暖。\n\n**开头**：家，今天的阳光真的很暖和，空气中弥漫着淡淡的忧伤，空气中弥漫着温暖的气息。我家的温暖如同初春的阳光，温暖而明亮，让人心情愉悦。今天，我想和你一起，用最温暖的方式，让生活充满温暖。\n\n**开头**：家，今天的阳光真的很温暖，空气中弥漫着淡淡的忧伤，让人心情愉悦。今天，我想与你一起，用最温暖的节奏，让生活充满阳光。\n\n**开头**：家，今天的阳光真的很温暖，空气中弥漫着温暖的气息，让人心情愉悦。我家的温暖如同初夏的阳光，温暖而明亮"
+      }
+    ],
+    "generated_tokens": 384,
+    "generation_seconds": 4.556770700000925,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_writing_2_no_tools": {
+    "task_id": "dev_writing_2",
+    "condition": "no_tools",
+    "seed": 710186,
+    "turns": [
+      "I am MiniMind, an AI assistant developed by Yuyang LU."
+    ],
+    "final": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.25200690000201575,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_writing_3_no_tools": {
+    "task_id": "dev_writing_3",
+    "condition": "no_tools",
+    "seed": 710217,
+    "turns": [
+      "亲爱的邻居：\n\n在快递事故中，我感谢你们的善意，因为你们的善意让我感到非常温暖和支持。我知道你们的善意让我很幸运，你们的善意让我感到非常温暖和支持。\n\n我非常感谢你们的善意，因为你们的善意让我感到非常温暖和支持。你们的善意让我感到非常幸运，你们的善意让我感到非常高兴。你们的善意让我感到非常感激，你们的善意让我感到非常高兴。\n\n我非常感谢你们的善意，因为你们的善意让我感到非常幸运。你们的善意让我感到非常幸运，你们的善意让我感到非常高兴。你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸。\n\n我要感谢你们的善意让我感到非常幸运，你们的善意让我感到非常幸运，你们的善意让我感到非常幸运。你们的善意让我感到非常幸运，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸"
+    ],
+    "final": "亲爱的邻居：\n\n在快递事故中，我感谢你们的善意，因为你们的善意让我感到非常温暖和支持。我知道你们的善意让我很幸运，你们的善意让我感到非常温暖和支持。\n\n我非常感谢你们的善意，因为你们的善意让我感到非常温暖和支持。你们的善意让我感到非常幸运，你们的善意让我感到非常高兴。你们的善意让我感到非常感激，你们的善意让我感到非常高兴。\n\n我非常感谢你们的善意，因为你们的善意让我感到非常幸运。你们的善意让我感到非常幸运，你们的善意让我感到非常高兴。你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸。\n\n我要感谢你们的善意让我感到非常幸运，你们的善意让我感到非常幸运，你们的善意让我感到非常幸运。你们的善意让我感到非常幸运，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸",
+    "eligible": false,
+    "failure": "token_limit",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "亲爱的邻居：\n\n在快递事故中，我感谢你们的善意，因为你们的善意让我感到非常温暖和支持。我知道你们的善意让我很幸运，你们的善意让我感到非常温暖和支持。\n\n我非常感谢你们的善意，因为你们的善意让我感到非常温暖和支持。你们的善意让我感到非常幸运，你们的善意让我感到非常高兴。你们的善意让我感到非常感激，你们的善意让我感到非常高兴。\n\n我非常感谢你们的善意，因为你们的善意让我感到非常幸运。你们的善意让我感到非常幸运，你们的善意让我感到非常高兴。你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸。\n\n我要感谢你们的善意让我感到非常幸运，你们的善意让我感到非常幸运，你们的善意让我感到非常幸运。你们的善意让我感到非常幸运，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "亲爱的邻居：\n\n在快递事故中，我感谢你们的善意，因为你们的善意让我感到非常温暖和支持。我知道你们的善意让我很幸运，你们的善意让我感到非常温暖和支持。\n\n我非常感谢你们的善意，因为你们的善意让我感到非常温暖和支持。你们的善意让我感到非常幸运，你们的善意让我感到非常高兴。你们的善意让我感到非常感激，你们的善意让我感到非常高兴。\n\n我非常感谢你们的善意，因为你们的善意让我感到非常幸运。你们的善意让我感到非常幸运，你们的善意让我感到非常高兴。你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸。\n\n我要感谢你们的善意让我感到非常幸运，你们的善意让我感到非常幸运，你们的善意让我感到非常幸运。你们的善意让我感到非常幸运，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常幸运，你们的善意让我感到非常荣幸，你们的善意让我感到非常荣幸"
+      }
+    ],
+    "generated_tokens": 384,
+    "generation_seconds": 4.467436100007035,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_retrieval_0_no_tools": {
+    "task_id": "dev_retrieval_0",
+    "condition": "no_tools",
+    "seed": 710248,
+    "turns": [
+      "通知的“通知”通常指的是活动的开始、结束、后续的活动、参与人员、设备或服务的确认或接收通知的内容。在图书馆二楼举行活动时，通常会有特定的通知内容，如会议、研讨会、会议预告等，具体信息需要根据当地官方发布的通知规则和政策进行判断。"
+    ],
+    "final": "通知的“通知”通常指的是活动的开始、结束、后续的活动、参与人员、设备或服务的确认或接收通知的内容。在图书馆二楼举行活动时，通常会有特定的通知内容，如会议、研讨会、会议预告等，具体信息需要根据当地官方发布的通知规则和政策进行判断。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "通知的“通知”通常指的是活动的开始、结束、后续的活动、参与人员、设备或服务的确认或接收通知的内容。在图书馆二楼举行活动时，通常会有特定的通知内容，如会议、研讨会、会议预告等，具体信息需要根据当地官方发布的通知规则和政策进行判断。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "通知的“通知”通常指的是活动的开始、结束、后续的活动、参与人员、设备或服务的确认或接收通知的内容。在图书馆二楼举行活动时，通常会有特定的通知内容，如会议、研讨会、会议预告等，具体信息需要根据当地官方发布的通知规则和政策进行判断。"
+      }
+    ],
+    "generated_tokens": 78,
+    "generation_seconds": 0.981032600015169,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_retrieval_1_no_tools": {
+    "task_id": "dev_retrieval_1",
+    "condition": "no_tools",
+    "seed": 710279,
+    "turns": [
+      "根据您提供的陈老师的角色，您的描述可能涉及多个方面，包括但不限于：\n\n1. **钥匙**：您提到的小赵负责海报，可能是因为小赵在国际知名度较高，但可能对特定应用或品牌有特殊要求。\n\n2. **小赵负责海报**：小赵负责海报，可能指的是小赵负责海报，但这可能与您的目标客户有关，比如学生、教师、娱乐活动等。\n\n3. **海报**：您提到的小赵负责海报，可能指的是小赵在海报中负责海报，用于传达或展示信息。\n\n4. **海报**：您提到小赵负责海报，可能是指小赵负责海报，用于传达信息。\n\n5. **海报**：您提到小赵负责海报，可能指的是小赵负责海报，用于在海报中展示信息。\n\n如果您能提供更具体的信息，比如小赵负责海报的具体内容，我可以提供更详细的信息。例如，如果是关于某个特定的应用，比如某个应用的功能，那么他们可能需要了解它的功能、性能、适用场景等。"
+    ],
+    "final": "根据您提供的陈老师的角色，您的描述可能涉及多个方面，包括但不限于：\n\n1. **钥匙**：您提到的小赵负责海报，可能是因为小赵在国际知名度较高，但可能对特定应用或品牌有特殊要求。\n\n2. **小赵负责海报**：小赵负责海报，可能指的是小赵负责海报，但这可能与您的目标客户有关，比如学生、教师、娱乐活动等。\n\n3. **海报**：您提到的小赵负责海报，可能指的是小赵在海报中负责海报，用于传达或展示信息。\n\n4. **海报**：您提到小赵负责海报，可能是指小赵负责海报，用于传达信息。\n\n5. **海报**：您提到小赵负责海报，可能指的是小赵负责海报，用于在海报中展示信息。\n\n如果您能提供更具体的信息，比如小赵负责海报的具体内容，我可以提供更详细的信息。例如，如果是关于某个特定的应用，比如某个应用的功能，那么他们可能需要了解它的功能、性能、适用场景等。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "根据您提供的陈老师的角色，您的描述可能涉及多个方面，包括但不限于：\n\n1. **钥匙**：您提到的小赵负责海报，可能是因为小赵在国际知名度较高，但可能对特定应用或品牌有特殊要求。\n\n2. **小赵负责海报**：小赵负责海报，可能指的是小赵负责海报，但这可能与您的目标客户有关，比如学生、教师、娱乐活动等。\n\n3. **海报**：您提到的小赵负责海报，可能指的是小赵在海报中负责海报，用于传达或展示信息。\n\n4. **海报**：您提到小赵负责海报，可能是指小赵负责海报，用于传达信息。\n\n5. **海报**：您提到小赵负责海报，可能指的是小赵负责海报，用于在海报中展示信息。\n\n如果您能提供更具体的信息，比如小赵负责海报的具体内容，我可以提供更详细的信息。例如，如果是关于某个特定的应用，比如某个应用的功能，那么他们可能需要了解它的功能、性能、适用场景等。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "根据您提供的陈老师的角色，您的描述可能涉及多个方面，包括但不限于：\n\n1. **钥匙**：您提到的小赵负责海报，可能是因为小赵在国际知名度较高，但可能对特定应用或品牌有特殊要求。\n\n2. **小赵负责海报**：小赵负责海报，可能指的是小赵负责海报，但这可能与您的目标客户有关，比如学生、教师、娱乐活动等。\n\n3. **海报**：您提到的小赵负责海报，可能指的是小赵在海报中负责海报，用于传达或展示信息。\n\n4. **海报**：您提到小赵负责海报，可能是指小赵负责海报，用于传达信息。\n\n5. **海报**：您提到小赵负责海报，可能指的是小赵负责海报，用于在海报中展示信息。\n\n如果您能提供更具体的信息，比如小赵负责海报的具体内容，我可以提供更详细的信息。例如，如果是关于某个特定的应用，比如某个应用的功能，那么他们可能需要了解它的功能、性能、适用场景等。"
+      }
+    ],
+    "generated_tokens": 267,
+    "generation_seconds": 3.258209199993871,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_retrieval_2_no_tools": {
+    "task_id": "dev_retrieval_2",
+    "condition": "no_tools",
+    "seed": 710310,
+    "turns": [
+      "Sure! Please provide the Label says so I can assist you with that. Here is a simple example of how your box is:\n\nNext. Point: \"She loves pencils. The shelter is on the shelter. His label and the shelter is on the shelter. The shelter is on the shelter. The shelter is on the shelter and shelter is on the shelter. \n\nYour Label is that the shelter is on the shelter. I don't have the actual shelter. I'm here to help."
+    ],
+    "final": "Sure! Please provide the Label says so I can assist you with that. Here is a simple example of how your box is:\n\nNext. Point: \"She loves pencils. The shelter is on the shelter. His label and the shelter is on the shelter. The shelter is on the shelter. The shelter is on the shelter and shelter is on the shelter. \n\nYour Label is that the shelter is on the shelter. I don't have the actual shelter. I'm here to help.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Sure! Please provide the Label says so I can assist you with that. Here is a simple example of how your box is:\n\nNext. Point: \"She loves pencils. The shelter is on the shelter. His label and the shelter is on the shelter. The shelter is on the shelter. The shelter is on the shelter and shelter is on the shelter. \n\nYour Label is that the shelter is on the shelter. I don't have the actual shelter. I'm here to help."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Sure! Please provide the Label says so I can assist you with that. Here is a simple example of how your box is:\n\nNext. Point: \"She loves pencils. The shelter is on the shelter. His label and the shelter is on the shelter. The shelter is on the shelter. The shelter is on the shelter and shelter is on the shelter. \n\nYour Label is that the shelter is on the shelter. I don't have the actual shelter. I'm here to help."
+      }
+    ],
+    "generated_tokens": 149,
+    "generation_seconds": 1.7660192999755964,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_retrieval_3_no_tools": {
+    "task_id": "dev_retrieval_3",
+    "condition": "no_tools",
+    "seed": 710341,
+    "turns": [
+      "原样抄出后，文字中的编号“登记号”应为“Q-572”。"
+    ],
+    "final": "原样抄出后，文字中的编号“登记号”应为“Q-572”。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "原样抄出后，文字中的编号“登记号”应为“Q-572”。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "原样抄出后，文字中的编号“登记号”应为“Q-572”。"
+      }
+    ],
+    "generated_tokens": 26,
+    "generation_seconds": 0.3084333000006154,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_identity_0_no_tools": {
+    "task_id": "dev_identity_0",
+    "condition": "no_tools",
+    "seed": 710372,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.2680849999887869,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_identity_1_no_tools": {
+    "task_id": "dev_identity_1",
+    "condition": "no_tools",
+    "seed": 710403,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.2896169999730773,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_identity_2_no_tools": {
+    "task_id": "dev_identity_2",
+    "condition": "no_tools",
+    "seed": 710434,
+    "turns": [
+      "I am MiniMind, an AI assistant developed by Yuyang LU."
+    ],
+    "final": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, an AI assistant developed by Yuyang LU."
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.24378129999968223,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  },
+  "dev_identity_3_no_tools": {
+    "task_id": "dev_identity_3",
+    "condition": "no_tools",
+    "seed": 710465,
+    "turns": [
+      "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+    ],
+    "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.3129496999899857,
+    "chat_mode": "plain",
+    "rewritten": false,
+    "router": null,
+    "rewrite_fallback": false
+  }
+}

@@ -1,0 +1,1681 @@
+{
+  "original_driver_matches": true,
+  "old32_accepted": 26,
+  "historical_prefix_exact": true,
+  "rows": [
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "23267"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"515 + 948 * 24\"}}\n</tool_call>",
+        "计算结果是23267。"
+      ],
+      "final": "计算结果是23267。",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_current_weather\", \"description\": \"获取指定城市的当前天气信息\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"城市名称，如北京、上海\"}}, \"required\": [\"location\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "帮我算一下515+948*24等于多少"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"515 + 948 * 24\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"23267\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果是23267。"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 441,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "11032"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4614 + 6418\"}}\n</tool_call>",
+        "The result of 4614 plus 6418 is 11032."
+      ],
+      "final": "The result of 4614 plus 6418 is 11032.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_current_weather\", \"description\": \"获取指定城市的当前天气信息\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"城市名称，如北京、上海\"}}, \"required\": [\"location\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Compute 4614+6418 for me"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"4614 + 6418\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"11032\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 4614 plus 6418 is 11032."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 451,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "4175",
+        "10223"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(957-58)+52*63\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"419+516*19\"}}\n</tool_call>",
+        "The result of (957-58)+52*63 is 4175.\nAnd the result of 419+516*19 is 10223."
+      ],
+      "final": "The result of (957-58)+52*63 is 4175.\nAnd the result of 419+516*19 is 10223.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_current_time\", \"description\": \"获取当前日期和时间\", \"parameters\": {\"type\": \"object\", \"properties\": {\"timezone\": {\"type\": \"string\", \"description\": \"时区，如Asia/Shanghai\", \"default\": \"Asia/Shanghai\"}}, \"required\": []}}}]"
+          },
+          {
+            "role": "user",
+            "content": "What is (957-58)+52*63?. And what is 419+516*19?"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(957-58)+52*63\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"419+516*19\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"4175\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"10223\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of (957-58)+52*63 is 4175.\nAnd the result of 419+516*19 is 10223."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 558,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "18161",
+        "5644",
+        "2179"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9681 + 8480\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"976 + 778 * 6\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(892 - 855) + 34 * 63\"}}\n</tool_call>",
+        "The result of 9681+8480 is 18161.\nThe result of 976+778*6 is 5644.\nThe result of (892-855)+34*63 is 2179."
+      ],
+      "final": "The result of 9681+8480 is 18161.\nThe result of 976+778*6 is 5644.\nThe result of (892-855)+34*63 is 2179.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"unit_converter\", \"description\": \"进行单位换算，支持长度、重量、温度\", \"parameters\": {\"type\": \"object\", \"properties\": {\"value\": {\"type\": \"number\", \"description\": \"要转换的数值\"}, \"from_unit\": {\"type\": \"string\", \"description\": \"源单位\"}, \"to_unit\": {\"type\": \"string\", \"description\": \"目标单位\"}}, \"required\": [\"value\", \"from_unit\", \"to_unit\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "What is 9681+8480?. Also, 算算976+778*6. And 请计算(892-855)+34*63"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"9681 + 8480\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"976 + 778 * 6\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(892 - 855) + 34 * 63\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"18161\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"5644\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"2179\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 9681+8480 is 18161.\nThe result of 976+778*6 is 5644.\nThe result of (892-855)+34*63 is 2179."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 706,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "11811",
+        "6022",
+        "453"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"336+459*25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"500+251*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12684/28\"}}\n</tool_call>",
+        "The result of 336 + 459 * 25 is 11811.\nThe result of 500 + 251 * 22 is 6022.\nAnd the result of 12684 / 28 is 453.0."
+      ],
+      "final": "The result of 336 + 459 * 25 is 11811.\nThe result of 500 + 251 * 22 is 6022.\nAnd the result of 12684 / 28 is 453.0.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_current_weather\", \"description\": \"获取指定城市的当前天气信息\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"城市名称，如北京、上海\"}}, \"required\": [\"location\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Compute 336+459*25 for me. And 500+251*22的结果是什么. Plus, 算算12684/28"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"336+459*25\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"500+251*22\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"12684/28\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"11811\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"6022\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"453.0\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 336 + 459 * 25 is 11811.\nThe result of 500 + 251 * 22 is 6022.\nAnd the result of 12684 / 28 is 453.0."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 618,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "7377",
+        "2197",
+        "28043"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(269 - 332) + 80 * 93\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13 ** 3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(653 + 314) * 29\"}}\n</tool_call>",
+        "计算结果如下：\n\n1. \\((269 - 332) + 80 \\times 93 = 7377\\)\n2. \\(13^3 = 2197\\)\n3. \\((653 + 314) \\times 29 = 28043\\)"
+      ],
+      "final": "计算结果如下：\n\n1. \\((269 - 332) + 80 \\times 93 = 7377\\)\n2. \\(13^3 = 2197\\)\n3. \\((653 + 314) \\times 29 = 28043\\)",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_exchange_rate\", \"description\": \"查询两种货币之间的汇率\", \"parameters\": {\"type\": \"object\", \"properties\": {\"from_currency\": {\"type\": \"string\", \"description\": \"源货币代码，如USD、CNY、EUR\"}, \"to_currency\": {\"type\": \"string\", \"description\": \"目标货币代码\"}}, \"required\": [\"from_currency\", \"to_currency\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "帮我算一下(269-332)+80*93等于多少，同时calculate 13**3，另外what is (653+314)*29?"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(269 - 332) + 80 * 93\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"13 ** 3\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(653 + 314) * 29\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"7377\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"2197\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"28043\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果如下：\n\n1. \\((269 - 332) + 80 \\times 93 = 7377\\)\n2. \\(13^3 = 2197\\)\n3. \\((653 + 314) \\times 29 = 28043\\)"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 699,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": false,
+      "used_tool": true,
+      "gt": [
+        "14178",
+        "9027",
+        "38428"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"308+526*17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"407+862*10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(780+698)*26\"}}\n</tool_call>",
+        "计算结果如下：\n\n1. (308 + 526) * 17 = 9250\n2. 407 + 862 * 10 = 9027\n3. (780 + 698) * 26 = 38428"
+      ],
+      "final": "计算结果如下：\n\n1. (308 + 526) * 17 = 9250\n2. 407 + 862 * 10 = 9027\n3. (780 + 698) * 26 = 38428",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"unit_converter\", \"description\": \"进行单位换算，支持长度、重量、温度\", \"parameters\": {\"type\": \"object\", \"properties\": {\"value\": {\"type\": \"number\", \"description\": \"要转换的数值\"}, \"from_unit\": {\"type\": \"string\", \"description\": \"源单位\"}, \"to_unit\": {\"type\": \"string\", \"description\": \"目标单位\"}}, \"required\": [\"value\", \"from_unit\", \"to_unit\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "算算(308+526)*17，顺便calculate 407+862*10，并且算算(780+698)*26"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"308+526*17\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"407+862*10\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(780+698)*26\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"9250\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"9027\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"38428\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果如下：\n\n1. (308 + 526) * 17 = 9250\n2. 407 + 862 * 10 = 9027\n3. (780 + 698) * 26 = 38428"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": false,
+        "all_values_calculated": false,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 694,
+        "strict_correct": false
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "22202889",
+        "4096"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3473 * 6393\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"16 ** 3\"}}\n</tool_call>",
+        "3473与6393相乘的结果是22202889。16的三次方的结果是4096。"
+      ],
+      "final": "3473与6393相乘的结果是22202889。16的三次方的结果是4096。",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"unit_converter\", \"description\": \"进行单位换算，支持长度、重量、温度\", \"parameters\": {\"type\": \"object\", \"properties\": {\"value\": {\"type\": \"number\", \"description\": \"要转换的数值\"}, \"from_unit\": {\"type\": \"string\", \"description\": \"源单位\"}, \"to_unit\": {\"type\": \"string\", \"description\": \"目标单位\"}}, \"required\": [\"value\", \"from_unit\", \"to_unit\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "帮我算一下3473*6393等于多少，并且16**3的结果是什么"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"3473 * 6393\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"16 ** 3\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"22202889\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"4096\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "3473与6393相乘的结果是22202889。16的三次方的结果是4096。"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 587,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "4913"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"17**3\"}}\n</tool_call>",
+        "计算结果是4913。"
+      ],
+      "final": "计算结果是4913。",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_current_time\", \"description\": \"获取当前日期和时间\", \"parameters\": {\"type\": \"object\", \"properties\": {\"timezone\": {\"type\": \"string\", \"description\": \"时区，如Asia/Shanghai\", \"default\": \"Asia/Shanghai\"}}, \"required\": []}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "请计算17**3"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"17**3\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"4913\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果是4913。"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 437,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "3375",
+        "113",
+        "132"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"15**3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2712 / 24\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1716 / 13\"}}\n</tool_call>",
+        "计算结果如下：\n- \\(15^3 = 3375\\)\n- \\(2712 \\div 24 = 113.0\\)\n- \\(1716 \\div 13 = 132.0\\)"
+      ],
+      "final": "计算结果如下：\n- \\(15^3 = 3375\\)\n- \\(2712 \\div 24 = 113.0\\)\n- \\(1716 \\div 13 = 132.0\\)",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_exchange_rate\", \"description\": \"查询两种货币之间的汇率\", \"parameters\": {\"type\": \"object\", \"properties\": {\"from_currency\": {\"type\": \"string\", \"description\": \"源货币代码，如USD、CNY、EUR\"}, \"to_currency\": {\"type\": \"string\", \"description\": \"目标货币代码\"}}, \"required\": [\"from_currency\", \"to_currency\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "请计算15**3，并且算算2712/24，同时compute 1716/13 for me"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"15**3\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"2712 / 24\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"1716 / 13\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"3375\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"113.0\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"132.0\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果如下：\n- \\(15^3 = 3375\\)\n- \\(2712 \\div 24 = 113.0\\)\n- \\(1716 \\div 13 = 132.0\\)"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 643,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": false,
+      "used_tool": true,
+      "gt": [
+        "22638"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"656 + 961 * 14\"}}\n</tool_call>",
+        "(656+961)*14的结果是14110。"
+      ],
+      "final": "(656+961)*14的结果是14110。",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_exchange_rate\", \"description\": \"查询两种货币之间的汇率\", \"parameters\": {\"type\": \"object\", \"properties\": {\"from_currency\": {\"type\": \"string\", \"description\": \"源货币代码，如USD、CNY、EUR\"}, \"to_currency\": {\"type\": \"string\", \"description\": \"目标货币代码\"}}, \"required\": [\"from_currency\", \"to_currency\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "(656+961)*14的结果是什么"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"656 + 961 * 14\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"14110\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "(656+961)*14的结果是14110。"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": false,
+        "all_values_calculated": false,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 506,
+        "strict_correct": false
+      }
+    },
+    {
+      "accepted": false,
+      "used_tool": true,
+      "gt": [
+        "16898",
+        "6058",
+        "1907"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"948+638*25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"38+301*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(390-346)+27*69\"}}\n</tool_call>",
+        "The result of (390 - 346) + 27 * 69 is 1907."
+      ],
+      "final": "The result of (390 - 346) + 27 * 69 is 1907.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_exchange_rate\", \"description\": \"查询两种货币之间的汇率\", \"parameters\": {\"type\": \"object\", \"properties\": {\"from_currency\": {\"type\": \"string\", \"description\": \"源货币代码，如USD、CNY、EUR\"}, \"to_currency\": {\"type\": \"string\", \"description\": \"目标货币代码\"}}, \"required\": [\"from_currency\", \"to_currency\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Calculate 948+638*25. And 请计算38+301*20. Plus, 帮我算一下(390-346)+27*69等于多少"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"948+638*25\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"38+301*20\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(390-346)+27*69\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"16898\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"6058\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"1907\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of (390 - 346) + 27 * 69 is 1907."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": false,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 659,
+        "strict_correct": false
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "159"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"954 / 6\"}}\n</tool_call>",
+        "954除以6的结果是159.0。"
+      ],
+      "final": "954除以6的结果是159.0。",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"unit_converter\", \"description\": \"进行单位换算，支持长度、重量、温度\", \"parameters\": {\"type\": \"object\", \"properties\": {\"value\": {\"type\": \"number\", \"description\": \"要转换的数值\"}, \"from_unit\": {\"type\": \"string\", \"description\": \"源单位\"}, \"to_unit\": {\"type\": \"string\", \"description\": \"目标单位\"}}, \"required\": [\"value\", \"from_unit\", \"to_unit\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "算算954/6"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"954 / 6\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"159.0\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "954除以6的结果是159.0。"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 501,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "1462",
+        "312",
+        "324"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"532 + 31 * 30\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2184 / 7\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18 ** 2\"}}\n</tool_call>",
+        "The result of 532+31*30 is 1462.\nThe result of 2184/7 is 312.0.\nThe result of 18**2 is 324."
+      ],
+      "final": "The result of 532+31*30 is 1462.\nThe result of 2184/7 is 312.0.\nThe result of 18**2 is 324.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_exchange_rate\", \"description\": \"查询两种货币之间的汇率\", \"parameters\": {\"type\": \"object\", \"properties\": {\"from_currency\": {\"type\": \"string\", \"description\": \"源货币代码，如USD、CNY、EUR\"}, \"to_currency\": {\"type\": \"string\", \"description\": \"目标货币代码\"}}, \"required\": [\"from_currency\", \"to_currency\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Calculate 532+31*30. Also, 算算2184/7. And compute 18**2 for me"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"532 + 31 * 30\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"2184 / 7\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"18 ** 2\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"1462\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"312.0\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"324\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 532+31*30 is 1462.\nThe result of 2184/7 is 312.0.\nThe result of 18**2 is 324."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 650,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "1359",
+        "473592",
+        "16"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(465-246)+76*15\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"56*8457\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"4**2\"}}\n</tool_call>",
+        "The result of (465-246)+76*15 is 1359.\nThe result of 56*8457 is 473592.\nAnd the result of 4^2 is 16."
+      ],
+      "final": "The result of (465-246)+76*15 is 1359.\nThe result of 56*8457 is 473592.\nAnd the result of 4^2 is 16.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_current_weather\", \"description\": \"获取指定城市的当前天气信息\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"城市名称，如北京、上海\"}}, \"required\": [\"location\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "What is (465-246)+76*15?. Also, what is 56*8457?. Plus, 4**2的结果是什么"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(465-246)+76*15\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"56*8457\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"4**2\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"1359\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"473592\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"16\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of (465-246)+76*15 is 1359.\nThe result of 56*8457 is 473592.\nAnd the result of 4^2 is 16."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 620,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "410",
+        "729"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1230 / 3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9 ** 3\"}}\n</tool_call>",
+        "计算结果如下：\n\n- \\( \\frac{1230}{3} = 410.0 \\)\n- \\( 9^3 = 729 \\)"
+      ],
+      "final": "计算结果如下：\n\n- \\( \\frac{1230}{3} = 410.0 \\)\n- \\( 9^3 = 729 \\)",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_current_weather\", \"description\": \"获取指定城市的当前天气信息\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"城市名称，如北京、上海\"}}, \"required\": [\"location\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "请计算1230/3，顺便calculate 9**3"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"1230 / 3\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"9 ** 3\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"410.0\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"729\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果如下：\n\n- \\( \\frac{1230}{3} = 410.0 \\)\n- \\( 9^3 = 729 \\)"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 515,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "48"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1200 / 25\"}}\n</tool_call>",
+        "The result of 1200 divided by 25 is 48.0."
+      ],
+      "final": "The result of 1200 divided by 25 is 48.0.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"translate_text\", \"description\": \"将文本翻译成目标语言\", \"parameters\": {\"type\": \"object\", \"properties\": {\"text\": {\"type\": \"string\", \"description\": \"要翻译的文本\"}, \"target_language\": {\"type\": \"string\", \"description\": \"目标语言，如english、chinese、japanese\"}}, \"required\": [\"text\", \"target_language\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Calculate 1200/25"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"1200 / 25\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"48.0\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 1200 divided by 25 is 48.0."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 477,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "27",
+        "1706",
+        "5832"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3**3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(805-413)+18*73\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"18**3\"}}\n</tool_call>",
+        "The result of 3**3 is 27.\nThe result of (805-413)+18*73 is 1706.\nThe result of 18**3 is 5832."
+      ],
+      "final": "The result of 3**3 is 27.\nThe result of (805-413)+18*73 is 1706.\nThe result of 18**3 is 5832.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_exchange_rate\", \"description\": \"查询两种货币之间的汇率\", \"parameters\": {\"type\": \"object\", \"properties\": {\"from_currency\": {\"type\": \"string\", \"description\": \"源货币代码，如USD、CNY、EUR\"}, \"to_currency\": {\"type\": \"string\", \"description\": \"目标货币代码\"}}, \"required\": [\"from_currency\", \"to_currency\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Compute 3**3 for me. Additionally, 请计算(805-413)+18*73. Additionally, 帮我算一下18**3等于多少"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"3**3\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(805-413)+18*73\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"18**3\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"27\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"1706\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"5832\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 3**3 is 27.\nThe result of (805-413)+18*73 is 1706.\nThe result of 18**3 is 5832."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 661,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": false,
+      "used_tool": true,
+      "gt": [
+        "9951273",
+        "2537"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3033*3281\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"262+325*7\"}}\n</tool_call>",
+        "The result of 3033 multiplied by 3281 is 9,951,273. The sum of 262 plus the product of 325 and 7 is 2,537."
+      ],
+      "final": "The result of 3033 multiplied by 3281 is 9,951,273. The sum of 262 plus the product of 325 and 7 is 2,537.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_current_time\", \"description\": \"获取当前日期和时间\", \"parameters\": {\"type\": \"object\", \"properties\": {\"timezone\": {\"type\": \"string\", \"description\": \"时区，如Asia/Shanghai\", \"default\": \"Asia/Shanghai\"}}, \"required\": []}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Compute 3033*3281 for me. And calculate 262+325*7"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"3033*3281\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"262+325*7\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"9951273\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"2537\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 3033 multiplied by 3281 is 9,951,273. The sum of 262 plus the product of 325 and 7 is 2,537."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 552,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "5718",
+        "4584"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"486 + 327 * 16\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(536 + 610) * 4\"}}\n</tool_call>",
+        "首先，我们来解决第一个问题：\\(486 + 327 \\times 16\\)。根据运算法则，先进行乘法运算，然后加上结果：\n\n\\[327 \\times 16 = 5232\\]\n\n接着将这个结果与486相加：\n\n\\[486 + 5232 = 5718\\]\n\n所以，\\(486 + 327 \\times 16 = 5718\\)。\n\n接下来，我们解决第二个问题：\\((536 + 610) \\times 4\\)。同样地，先进行括号内的加法运算：\n\n\\[536 + 610 = 1146\\]\n\n然后将这个结果与4相乘：\n\n\\[1146 \\times 4 = 4584\\]\n\n因此，\\((536 + 610) \\times 4 = 4584\\)。"
+      ],
+      "final": "首先，我们来解决第一个问题：\\(486 + 327 \\times 16\\)。根据运算法则，先进行乘法运算，然后加上结果：\n\n\\[327 \\times 16 = 5232\\]\n\n接着将这个结果与486相加：\n\n\\[486 + 5232 = 5718\\]\n\n所以，\\(486 + 327 \\times 16 = 5718\\)。\n\n接下来，我们解决第二个问题：\\((536 + 610) \\times 4\\)。同样地，先进行括号内的加法运算：\n\n\\[536 + 610 = 1146\\]\n\n然后将这个结果与4相乘：\n\n\\[1146 \\times 4 = 4584\\]\n\n因此，\\((536 + 610) \\times 4 = 4584\\)。",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_exchange_rate\", \"description\": \"查询两种货币之间的汇率\", \"parameters\": {\"type\": \"object\", \"properties\": {\"from_currency\": {\"type\": \"string\", \"description\": \"源货币代码，如USD、CNY、EUR\"}, \"to_currency\": {\"type\": \"string\", \"description\": \"目标货币代码\"}}, \"required\": [\"from_currency\", \"to_currency\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "帮我算一下486+327*16等于多少，还有请计算(536+610)*4"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"486 + 327 * 16\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(536 + 610) * 4\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"5718\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"4584\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "首先，我们来解决第一个问题：\\(486 + 327 \\times 16\\)。根据运算法则，先进行乘法运算，然后加上结果：\n\n\\[327 \\times 16 = 5232\\]\n\n接着将这个结果与486相加：\n\n\\[486 + 5232 = 5718\\]\n\n所以，\\(486 + 327 \\times 16 = 5718\\)。\n\n接下来，我们解决第二个问题：\\((536 + 610) \\times 4\\)。同样地，先进行括号内的加法运算：\n\n\\[536 + 610 = 1146\\]\n\n然后将这个结果与4相乘：\n\n\\[1146 \\times 4 = 4584\\]\n\n因此，\\((536 + 610) \\times 4 = 4584\\)。"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 757,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "180"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3600 / 20\"}}\n</tool_call>",
+        "The result of 3600 divided by 20 is 180.0."
+      ],
+      "final": "The result of 3600 divided by 20 is 180.0.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_current_weather\", \"description\": \"获取指定城市的当前天气信息\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"城市名称，如北京、上海\"}}, \"required\": [\"location\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Calculate 3600/20"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"3600 / 20\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"180.0\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 3600 divided by 20 is 180.0."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 442,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": false,
+      "used_tool": true,
+      "gt": [
+        "26703",
+        "-3220"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"702+459*23\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"2196-5416\"}}\n</tool_call>",
+        "计算结果如下：\n\n(702 + 459) * 23 = 11259\n\n2196 - 5416 = -3220"
+      ],
+      "final": "计算结果如下：\n\n(702 + 459) * 23 = 11259\n\n2196 - 5416 = -3220",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_current_weather\", \"description\": \"获取指定城市的当前天气信息\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"城市名称，如北京、上海\"}}, \"required\": [\"location\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "算算(702+459)*23，同时请计算2196-5416"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"702+459*23\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"2196-5416\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"11259\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"-3220\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果如下：\n\n(702 + 459) * 23 = 11259\n\n2196 - 5416 = -3220"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": false,
+        "all_values_calculated": false,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 536,
+        "strict_correct": false
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "7151",
+        "16251"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"6323 + 828\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"683 + 973 * 16\"}}\n</tool_call>",
+        "The result of 6323 + 828 is 7151.\nThe result of 683 + 973 * 16 is 16251."
+      ],
+      "final": "The result of 6323 + 828 is 7151.\nThe result of 683 + 973 * 16 is 16251.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_current_weather\", \"description\": \"获取指定城市的当前天气信息\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"城市名称，如北京、上海\"}}, \"required\": [\"location\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Calculate 6323+828. Also, compute 683+973*16 for me"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"6323 + 828\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"683 + 973 * 16\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"7151\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"16251\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 6323 + 828 is 7151.\nThe result of 683 + 973 * 16 is 16251."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 534,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "53"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"1537 / 29\"}}\n</tool_call>",
+        "计算结果是53.0。"
+      ],
+      "final": "计算结果是53.0。",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"translate_text\", \"description\": \"将文本翻译成目标语言\", \"parameters\": {\"type\": \"object\", \"properties\": {\"text\": {\"type\": \"string\", \"description\": \"要翻译的文本\"}, \"target_language\": {\"type\": \"string\", \"description\": \"目标语言，如english、chinese、japanese\"}}, \"required\": [\"text\", \"target_language\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "帮我算一下1537/29等于多少"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"1537 / 29\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"53.0\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果是53.0。"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 477,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "15072"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"112 + 748 * 20\"}}\n</tool_call>",
+        "计算结果是15072。"
+      ],
+      "final": "计算结果是15072。",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"unit_converter\", \"description\": \"进行单位换算，支持长度、重量、温度\", \"parameters\": {\"type\": \"object\", \"properties\": {\"value\": {\"type\": \"number\", \"description\": \"要转换的数值\"}, \"from_unit\": {\"type\": \"string\", \"description\": \"源单位\"}, \"to_unit\": {\"type\": \"string\", \"description\": \"目标单位\"}}, \"required\": [\"value\", \"from_unit\", \"to_unit\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "请计算112+748*20"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"112 + 748 * 20\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"15072\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果是15072。"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 500,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "89698752",
+        "12434"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9801 * 9152\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"3288 + 9146\"}}\n</tool_call>",
+        "计算结果如下：\n\n- \\(9801 \\times 9152 = 89698752\\)\n- \\(3288 + 9146 = 12434\\)"
+      ],
+      "final": "计算结果如下：\n\n- \\(9801 \\times 9152 = 89698752\\)\n- \\(3288 + 9146 = 12434\\)",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_current_weather\", \"description\": \"获取指定城市的当前天气信息\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"城市名称，如北京、上海\"}}, \"required\": [\"location\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "帮我算一下9801*9152等于多少，同时帮我算一下3288+9146等于多少"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"9801 * 9152\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"3288 + 9146\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"89698752\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"12434\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "计算结果如下：\n\n- \\(9801 \\times 9152 = 89698752\\)\n- \\(3288 + 9146 = 12434\\)"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 548,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "81"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9**2\"}}\n</tool_call>",
+        "9的平方是81。"
+      ],
+      "final": "9的平方是81。",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"translate_text\", \"description\": \"将文本翻译成目标语言\", \"parameters\": {\"type\": \"object\", \"properties\": {\"text\": {\"type\": \"string\", \"description\": \"要翻译的文本\"}, \"target_language\": {\"type\": \"string\", \"description\": \"目标语言，如english、chinese、japanese\"}}, \"required\": [\"text\", \"target_language\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "算算9**2"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"9**2\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"81\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "9的平方是81。"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 466,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": false,
+      "used_tool": true,
+      "gt": [
+        "10900",
+        "23328",
+        "774"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"40+396*25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(707+751)*16\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(83-149)+56*15\"}}\n</tool_call>",
+        "The results of the calculations are as follows:\n\n1. The result of (40 + 396) * 25 is **9940**.\n2. The result of (707 + 751) * 16 is **23328**.\n3. The result of (83 - 149) + 56 * 15 is **774**."
+      ],
+      "final": "The results of the calculations are as follows:\n\n1. The result of (40 + 396) * 25 is **9940**.\n2. The result of (707 + 751) * 16 is **23328**.\n3. The result of (83 - 149) + 56 * 15 is **774**.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_exchange_rate\", \"description\": \"查询两种货币之间的汇率\", \"parameters\": {\"type\": \"object\", \"properties\": {\"from_currency\": {\"type\": \"string\", \"description\": \"源货币代码，如USD、CNY、EUR\"}, \"to_currency\": {\"type\": \"string\", \"description\": \"目标货币代码\"}}, \"required\": [\"from_currency\", \"to_currency\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Compute (40+396)*25 for me. And 帮我算一下(707+751)*16等于多少. Also, 请计算(83-149)+56*15"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"40+396*25\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(707+751)*16\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"(83-149)+56*15\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"9940\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"23328\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"774\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The results of the calculations are as follows:\n\n1. The result of (40 + 396) * 25 is **9940**.\n2. The result of (707 + 751) * 16 is **23328**.\n3. The result of (83 - 149) + 56 * 15 is **774**."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": false,
+        "all_values_calculated": false,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 718,
+        "strict_correct": false
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "1677",
+        "8"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"387-285+25*63\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"math.pow\", \"arguments\": {\"base\": 2, \"exponent\": 3}}\n</tool_call>",
+        "根据您的要求，我为您计算了两个数学表达式的值：\n\n1. (387 - 285) + 25 * 63 的结果是 **1677**。\n2. 2的3次方等于 **8**。"
+      ],
+      "final": "根据您的要求，我为您计算了两个数学表达式的值：\n\n1. (387 - 285) + 25 * 63 的结果是 **1677**。\n2. 2的3次方等于 **8**。",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"get_current_time\", \"description\": \"获取当前日期和时间\", \"parameters\": {\"type\": \"object\", \"properties\": {\"timezone\": {\"type\": \"string\", \"description\": \"时区，如Asia/Shanghai\", \"default\": \"Asia/Shanghai\"}}, \"required\": []}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "(387-285)+25*63的结果是什么，顺便帮我算一下2**3等于多少"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"387-285+25*63\\\"}\"}}, {\"function\": {\"name\": \"math.pow\", \"arguments\": \"{\\\"base\\\": 2, \\\"exponent\\\": 3}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"1677\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"error\": \"tool not found\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "根据您的要求，我为您计算了两个数学表达式的值：\n\n1. (387 - 285) + 25 * 63 的结果是 **1677**。\n2. 2的3次方等于 **8**。"
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": false,
+        "unfinished_tool_call": false,
+        "wrong_tool": true,
+        "invalid_expressions": 0,
+        "tokens": 565,
+        "strict_correct": false
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "1001",
+        "13185",
+        "49"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"932+3*23\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"557+574*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7**2\"}}\n</tool_call>",
+        "The result of 932 + 3 * 23 is 1001.\nThe result of 557 + 574 * 22 is 13185.\nAnd 7 squared (7**2) equals 49."
+      ],
+      "final": "The result of 932 + 3 * 23 is 1001.\nThe result of 557 + 574 * 22 is 13185.\nAnd 7 squared (7**2) equals 49.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}, {\"function\": {\"name\": \"get_exchange_rate\", \"description\": \"查询两种货币之间的汇率\", \"parameters\": {\"type\": \"object\", \"properties\": {\"from_currency\": {\"type\": \"string\", \"description\": \"源货币代码，如USD、CNY、EUR\"}, \"to_currency\": {\"type\": \"string\", \"description\": \"目标货币代码\"}}, \"required\": [\"from_currency\", \"to_currency\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "Calculate 932+3*23. And 算算557+574*22. Additionally, what is 7**2?"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"932+3*23\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"557+574*22\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"7**2\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"1001\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"13185\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"49\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 932 + 3 * 23 is 1001.\nThe result of 557 + 574 * 22 is 13185.\nAnd 7 squared (7**2) equals 49."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 659,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "399",
+        "488"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"8778 / 22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14640 / 30\"}}\n</tool_call>",
+        "The result of 8778 divided by 22 is 399.0, and the result of 14640 divided by 30 is 488.0."
+      ],
+      "final": "The result of 8778 divided by 22 is 399.0, and the result of 14640 divided by 30 is 488.0.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"translate_text\", \"description\": \"将文本翻译成目标语言\", \"parameters\": {\"type\": \"object\", \"properties\": {\"text\": {\"type\": \"string\", \"description\": \"要翻译的文本\"}, \"target_language\": {\"type\": \"string\", \"description\": \"目标语言，如english、chinese、japanese\"}}, \"required\": [\"text\", \"target_language\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "What is 8778/22?. And 14640/30的结果是什么"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"8778 / 22\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"14640 / 30\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"399.0\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"488.0\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 8778 divided by 22 is 399.0, and the result of 14640 divided by 30 is 488.0."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 567,
+        "strict_correct": true
+      }
+    },
+    {
+      "accepted": true,
+      "used_tool": true,
+      "gt": [
+        "18935",
+        "2680",
+        "495"
+      ],
+      "raw_turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"995+897*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"340+90*26\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"14355/29\"}}\n</tool_call>",
+        "The result of 995 + 897 * 20 is 18935.\nThe result of 340 + 90 * 26 is 2680.\nThe result of 14355 / 29 is 495.0."
+      ],
+      "final": "The result of 995 + 897 * 20 is 18935.\nThe result of 340 + 90 * 26 is 2680.\nThe result of 14355 / 29 is 495.0.",
+      "sft": {
+        "conversations": [
+          {
+            "role": "system",
+            "content": "",
+            "tools": "[{\"function\": {\"name\": \"unit_converter\", \"description\": \"进行单位换算，支持长度、重量、温度\", \"parameters\": {\"type\": \"object\", \"properties\": {\"value\": {\"type\": \"number\", \"description\": \"要转换的数值\"}, \"from_unit\": {\"type\": \"string\", \"description\": \"源单位\"}, \"to_unit\": {\"type\": \"string\", \"description\": \"目标单位\"}}, \"required\": [\"value\", \"from_unit\", \"to_unit\"]}}}, {\"function\": {\"name\": \"calculate_math\", \"description\": \"计算数学表达式的结果，支持加减乘除、幂运算\", \"parameters\": {\"type\": \"object\", \"properties\": {\"expression\": {\"type\": \"string\", \"description\": \"数学表达式，如123+456、2**10\"}}, \"required\": [\"expression\"]}}}]"
+          },
+          {
+            "role": "user",
+            "content": "What is 995+897*20?. Also, 算算340+90*26. Plus, 请计算14355/29"
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": "[{\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"995+897*20\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"340+90*26\\\"}\"}}, {\"function\": {\"name\": \"calculate_math\", \"arguments\": \"{\\\"expression\\\": \\\"14355/29\\\"}\"}}]"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"18935\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"2680\"}"
+          },
+          {
+            "role": "tool",
+            "content": "{\"result\": \"495.0\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "The result of 995 + 897 * 20 is 18935.\nThe result of 340 + 90 * 26 is 2680.\nThe result of 14355 / 29 is 495.0."
+          }
+        ]
+      },
+      "diagnostics": {
+        "whole_numbers": true,
+        "all_values_calculated": true,
+        "unfinished_tool_call": false,
+        "wrong_tool": false,
+        "invalid_expressions": 0,
+        "tokens": 685,
+        "strict_correct": true
+      }
+    }
+  ]
+}

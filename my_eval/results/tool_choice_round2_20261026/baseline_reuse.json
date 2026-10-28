@@ -1,0 +1,10 @@
+{
+  "source": "D:\\minimind\\minimind-master\\my_eval\\results\\tool_choice_20261026",
+  "model_sha256": "a6f4249c77ba91084e124658d35f35a56d40c0380d0681a341b39968c360f107",
+  "scope": "exact same historical197 math questions/seeds, NLL296 tokenization, identity14 seeds and unchanged shared generator",
+  "source_sha256": {
+    "guard": "c02844fc48b8d228dffbeb5923dd00b2ca3baec9d38ba582d19b2f2efc255f40",
+    "loss_final": "489d8e2efbc332819b032c42bdba300ff07f7333be737f80c1e9ce7dfdc87e51",
+    "identity": "a7fc28e8dd9b27c75d57c46fc5b9ae4dfb4c360dc64f1529162161462519c3f1"
+  }
+}

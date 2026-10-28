@@ -1,0 +1,12 @@
+{
+  "published": false,
+  "gates": {
+    "dev_selected_gates_passed": true,
+    "exact_math_arguments_gain_ci_above0": false,
+    "no_tool_drop_le5pp": true,
+    "historical_strict_math_drop_le5pp": true,
+    "answer_nll_increase_le005": true,
+    "identity_hit_drop_le1": true
+  },
+  "reason": "Initial acceptance and independent confirmation did not pass"
+}

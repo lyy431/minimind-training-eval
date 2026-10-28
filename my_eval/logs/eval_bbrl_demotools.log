@@ -1,0 +1,13 @@
+200 held-out problems x 2 samples (thinking off, max 384 tokens/turn, up to 3 turns)
+
+                                       bb_rl
+all answers correct %                   54.5
+answers correct (fraction) %            80.1
+used a tool %                          100.0
+tool calls = #gt %                      70.5
+ran out of turns %                       0.0
+correct | used tool %                   54.5
+correct | no tool %                      0.0
+all correct, 1 expr %                   93.6
+all correct, 2 expr %                   51.0
+all correct, 3 expr %                   34.0

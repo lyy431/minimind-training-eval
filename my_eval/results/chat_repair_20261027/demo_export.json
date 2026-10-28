@@ -1,0 +1,52 @@
+{
+  "published": true,
+  "model": "chat_repair_id_e3",
+  "folder": "D:\\minimind\\minimind-master\\scripts\\MiniMind-YuyangLU-v4",
+  "version": "MiniMind-YuyangLU-v4",
+  "full_parameter_repair": true,
+  "lineage": [
+    "tool_choice2b_e3",
+    "chat_repair_e2",
+    "chat_repair_id_e3"
+  ],
+  "all_parameter_tensors_exact": true,
+  "tokenizer_and_template_equal": true,
+  "conversion_checks": [
+    {
+      "question": "你是谁？",
+      "prompt_tokens": 61,
+      "greedy24_identical": true
+    },
+    {
+      "question": "请计算27*43，另外612/17",
+      "prompt_tokens": 789,
+      "greedy24_identical": true
+    },
+    {
+      "question": "请写一句祝朋友旅途愉快的话。",
+      "prompt_tokens": 789,
+      "greedy24_identical": true
+    }
+  ],
+  "old_models_preserved": [
+    "MiniMind-Math",
+    "MiniMind-MoE",
+    "MiniMind-Official",
+    "MiniMind-SFT",
+    "MiniMind-YuyangLU",
+    "MiniMind-YuyangLU-v2",
+    "MiniMind-YuyangLU-v3"
+  ],
+  "runtime_teacher": false,
+  "default_max_new_tokens": 384,
+  "maximum_selected_tools": 6,
+  "files_sha256": {
+    "chat_template.jinja": "5ce19bbb30e4d23557596e60fb29edfa8bbb792a6284097863e4d7109113e2c2",
+    "config.json": "29f24eb8cc7531f48e4822c6b1a8b2ab712e14813e920ccf095fe93a46d2446c",
+    "generation_config.json": "c8b0fa1817241273739e519098b3c8dffa2f0edd593dafc6eac4e58816677a43",
+    "model.safetensors": "d9bf1e8945c6f571b34c4a880f677d353d46ef3a7cd63f4833fdf667a6d5c1b6",
+    "special_tokens_map.json": "86734702686a64d8156b2406128b30370c9a315903d70f0b8dcd36526cbc0d19",
+    "tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "tokenizer_config.json": "146dc85111f22a9e1bdc7284b9c65f8252fb4bfd510899f0c661cf93e949e09a"
+  }
+}

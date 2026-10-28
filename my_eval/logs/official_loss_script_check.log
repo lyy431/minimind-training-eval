@@ -1,0 +1,10 @@
+dpo_eval300: 296/300 answers survive 768-token truncation; excluded row indices (zero-based): [78, 96, 116, 121]
+
+corrected answer-only: 296 rows; mean of per-row token losses, lower = better
+full_sft         loss 2.4583  perplexity  11.69
+official         loss 2.0927  perplexity   8.11   vs full_sft: -0.3657 +/- 0.0206 (1 SE), lower on 274/296
+
+historical metric (includes one prompt token for fully truncated answers): 300 rows; mean of per-row token losses, lower = better
+full_sft         loss 2.4905  perplexity  12.07
+official         loss 2.1189  perplexity   8.32   vs full_sft: -0.3715 +/- 0.0217 (1 SE), lower on 278/300
+

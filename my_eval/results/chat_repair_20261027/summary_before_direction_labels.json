@@ -1,0 +1,201 @@
+{
+  "base": "tool_choice2b_e3",
+  "candidate": "chat_repair_id_e3",
+  "models": {
+    "tool_choice2b_e3": {
+      "mean_score": 0.3888888888888889,
+      "usable_percent": 11.11111111111111,
+      "nonempty_no_call_percent": 83.33333333333334,
+      "mean_seconds": 1.221776849998302,
+      "mean_generated_tokens": 110.20833333333333,
+      "conditions": {
+        "no_tools": {
+          "mean_score": 0.4375,
+          "usable_percent": 14.583333333333334
+        },
+        "six_original": {
+          "mean_score": 0.375,
+          "usable_percent": 12.5
+        },
+        "six_reworded": {
+          "mean_score": 0.3541666666666667,
+          "usable_percent": 6.25
+        }
+      },
+      "categories": {
+        "identity": {
+          "mean_score": 0.8055555555555556,
+          "usable_percent": 30.555555555555557
+        },
+        "knowledge": {
+          "mean_score": 0.1388888888888889,
+          "usable_percent": 0
+        },
+        "retrieval": {
+          "mean_score": 0.3888888888888889,
+          "usable_percent": 13.88888888888889
+        },
+        "writing": {
+          "mean_score": 0.2222222222222222,
+          "usable_percent": 0
+        }
+      },
+      "responses": 144
+    },
+    "chat_repair_id_e3": {
+      "mean_score": 0.9236111111111112,
+      "usable_percent": 37.5,
+      "nonempty_no_call_percent": 98.61111111111111,
+      "mean_seconds": 0.38605387013942366,
+      "mean_generated_tokens": 34.041666666666664,
+      "conditions": {
+        "no_tools": {
+          "mean_score": 0.9791666666666666,
+          "usable_percent": 39.58333333333333
+        },
+        "six_original": {
+          "mean_score": 0.8958333333333334,
+          "usable_percent": 37.5
+        },
+        "six_reworded": {
+          "mean_score": 0.8958333333333334,
+          "usable_percent": 35.41666666666667
+        }
+      },
+      "categories": {
+        "identity": {
+          "mean_score": 1.5833333333333333,
+          "usable_percent": 72.22222222222221
+        },
+        "knowledge": {
+          "mean_score": 0.5,
+          "usable_percent": 16.666666666666664
+        },
+        "retrieval": {
+          "mean_score": 0.9444444444444444,
+          "usable_percent": 41.66666666666667
+        },
+        "writing": {
+          "mean_score": 0.6666666666666666,
+          "usable_percent": 19.444444444444446
+        }
+      },
+      "responses": 144
+    }
+  },
+  "pairs": {
+    "score": {
+      "difference": 0.5347222222222222,
+      "se": 0.09557774187155757,
+      "ci95": [
+        0.3541666666666667,
+        0.7222222222222223
+      ],
+      "n": 48,
+      "better": 25,
+      "worse": 2,
+      "same": 21
+    },
+    "usable": {
+      "difference": 26.388888888888886,
+      "se": 5.61068977656463,
+      "ci95": [
+        15.972222222222223,
+        37.5
+      ],
+      "n": 48,
+      "better": 18,
+      "worse": 0,
+      "same": 30
+    },
+    "nonidentity_score": {
+      "difference": 0.45370370370370355,
+      "se": 0.102140044416132,
+      "ci95": [
+        0.2592592592592593,
+        0.6574074074074073
+      ],
+      "n": 36,
+      "better": 17,
+      "worse": 2,
+      "same": 17
+    }
+  },
+  "retention": {
+    "historical": {
+      "baseline": 71.57360406091371,
+      "candidate": 82.74111675126903,
+      "paired": {
+        "difference": 11.16751269035533,
+        "se": 3.034008487523137,
+        "ci95": [
+          5.583756345177665,
+          17.258883248730964
+        ],
+        "n": 197,
+        "better": 30,
+        "worse": 8,
+        "same": 159
+      }
+    },
+    "freshmath": {
+      "baseline": 64.58333333333333,
+      "candidate": 77.08333333333333,
+      "paired": {
+        "difference": 12.5,
+        "se": 7.663698161041189,
+        "ci95": [
+          -2.0833333333333335,
+          27.083333333333332
+        ],
+        "n": 48,
+        "better": 10,
+        "worse": 4,
+        "same": 34
+      }
+    },
+    "nll296": {
+      "baseline": 2.4962991706624225,
+      "candidate": 2.522629708957833,
+      "paired": {
+        "difference": 0.026330538295410776,
+        "se": 0.006657309269322403,
+        "ci95": [
+          0.012208417717468095,
+          0.03822720031681898
+        ],
+        "n": 296,
+        "better": 235,
+        "worse": 61,
+        "same": 0
+      }
+    }
+  },
+  "gates": {
+    "dev_gates": true,
+    "content_gain_ge020": true,
+    "content_gain_ci_lower_gt0": true,
+    "nonidentity_gain_ge020_ci_lower_gt0": true,
+    "usable_gain_ge10pp": true,
+    "no_tools_usable_drop_le5pp": true,
+    "historical_math_drop_le5pp": true,
+    "prior_round_math48_drop_le5pp": true,
+    "nll_increase_le005": true,
+    "identity_full_content_drop_le1": true,
+    "ordinary_nonempty_no_call_ge90": true,
+    "data_tests": true
+  },
+  "identity14": {
+    "tool_choice2b_e3": {
+      "usable": 12,
+      "mean_score": 1.8571428571428572,
+      "name_hits": 14
+    },
+    "chat_repair_id_e3": {
+      "usable": 13,
+      "mean_score": 1.9285714285714286,
+      "name_hits": 14
+    }
+  },
+  "accepted": true
+}

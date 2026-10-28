@@ -1,0 +1,16 @@
+{
+  "ids": [
+    "r2_no_0",
+    "r2_no_1",
+    "r2_no_2",
+    "r2_no_3",
+    "r2_no_6",
+    "r2_no_7",
+    "r2_no_12",
+    "r2_no_19"
+  ],
+  "tool_count": 6,
+  "variant": 6,
+  "selected_before_candidate_final_outputs": true,
+  "purpose": "descriptive sanity check, not model selection or global content accuracy"
+}

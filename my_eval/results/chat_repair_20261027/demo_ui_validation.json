@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "real_exported_weights": true,
+  "default_v4_selected": true,
+  "default_tokens384": true,
+  "old_v3_preserved": true,
+  "six_tools_selectable": true,
+  "seventh_disabled": true,
+  "actual_ui_assistant_turns_match_shared_engine": true,
+  "rows": [
+    {
+      "question": "你是谁？",
+      "seed": 606000,
+      "display": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+      "context": [
+        {
+          "role": "system",
+          "content": "你是MiniMind，一个乐于助人、知识渊博的AI助手。请用完整且友好的方式回答用户问题。"
+        },
+        {
+          "role": "user",
+          "content": "你是谁？"
+        },
+        {
+          "role": "assistant",
+          "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+        }
+      ]
+    },
+    {
+      "question": "请计算27*43，另外612/17",
+      "seed": 606001,
+      "display": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"27*43\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"612/17\"}}\n</tool_call>\n<div style=\"background: rgba(90, 130, 110, 0.20); border: 1px solid rgba(150, 200, 170, 0.30); padding: 10px 12px; border-radius: 12px; margin: 6px 0;\"><div style=\"font-size:12px;opacity:.75;display:block;margin:0 0 6px 0;line-height:1;\">ToolCalled</div><div><b>calculate_math</b>: {\"result\": 1161}</div></div>\n<div style=\"background: rgba(90, 130, 110, 0.20); border: 1px solid rgba(150, 200, 170, 0.30); padding: 10px 12px; border-radius: 12px; margin: 6px 0;\"><div style=\"font-size:12px;opacity:.75;display:block;margin:0 0 6px 0;line-height:1;\">ToolCalled</div><div><b>calculate_math</b>: {\"result\": 36.0}</div></div>\n27*43 = 1161。\n612/17 = 36.0。",
+      "context": [
+        {
+          "role": "user",
+          "content": "请计算27*43，另外612/17"
+        },
+        {
+          "role": "assistant",
+          "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"27*43\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"612/17\"}}\n</tool_call>"
+        },
+        {
+          "role": "tool",
+          "content": "{\"result\": 1161}"
+        },
+        {
+          "role": "tool",
+          "content": "{\"result\": 36.0}"
+        },
+        {
+          "role": "assistant",
+          "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"27*43\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"612/17\"}}\n</tool_call>\n<div style=\"background: rgba(90, 130, 110, 0.20); border: 1px solid rgba(150, 200, 170, 0.30); padding: 10px 12px; border-radius: 12px; margin: 6px 0;\"><div style=\"font-size:12px;opacity:.75;display:block;margin:0 0 6px 0;line-height:1;\">ToolCalled</div><div><b>calculate_math</b>: {\"result\": 1161}</div></div>\n<div style=\"background: rgba(90, 130, 110, 0.20); border: 1px solid rgba(150, 200, 170, 0.30); padding: 10px 12px; border-radius: 12px; margin: 6px 0;\"><div style=\"font-size:12px;opacity:.75;display:block;margin:0 0 6px 0;line-height:1;\">ToolCalled</div><div><b>calculate_math</b>: {\"result\": 36.0}</div></div>\n27*43 = 1161。\n612/17 = 36.0。"
+        }
+      ]
+    },
+    {
+      "question": "请写一句祝朋友旅途愉快的话。",
+      "seed": 606002,
+      "display": "祝你旅途愉快，一路顺利！",
+      "context": [
+        {
+          "role": "user",
+          "content": "请写一句祝朋友旅途愉快的话。"
+        },
+        {
+          "role": "assistant",
+          "content": "祝你旅途愉快，一路顺利！"
+        }
+      ]
+    }
+  ],
+  "peak_allocated_gib": 0.22275304794311523
+}

@@ -1,0 +1,210 @@
+Running eval_distill_control.py lock
+Both control weights and evaluation protocol locked before final evaluation.
+Running eval_distill_control.py replay
+bb_dist: six math rollouts and three chat responses exactly reproduced.
+bb_rl: six math rollouts and three chat responses exactly reproduced.
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 34.00it/s]
+past_key_values should not be None in from_legacy_cache()
+Six baseline reward scores also reproduced.
+Running eval_distill_control.py import_history
+Running eval_distill_control.py loss --model bb_dist
+bb_dist: corrected answer-only loss 2.48917523, n=296
+Running eval_distill_control.py loss --model bb_sft_replay
+bb_sft_replay: corrected answer-only loss 2.54143028, n=296
+Running eval_distill_control.py loss --model bb_sft_new
+bb_sft_new: corrected answer-only loss 2.54124759, n=296
+Running eval_distill_control.py loss --model bb_rl
+bb_rl: corrected answer-only loss 2.48881078, n=296
+Running eval_distill_control.py math --model bb_sft_replay
+bb_sft_replay math 10/200; 30s
+bb_sft_replay math 20/200; 57s
+bb_sft_replay math 30/200; 86s
+bb_sft_replay math 40/200; 110s
+bb_sft_replay math 50/200; 147s
+bb_sft_replay math 60/200; 188s
+bb_sft_replay math 70/200; 228s
+bb_sft_replay math 80/200; 267s
+bb_sft_replay math 90/200; 292s
+bb_sft_replay math 100/200; 321s
+bb_sft_replay math 110/200; 346s
+bb_sft_replay math 120/200; 373s
+bb_sft_replay math 130/200; 400s
+bb_sft_replay math 140/200; 417s
+bb_sft_replay math 150/200; 454s
+bb_sft_replay math 160/200; 503s
+bb_sft_replay math 170/200; 544s
+bb_sft_replay math 180/200; 581s
+bb_sft_replay math 190/200; 608s
+bb_sft_replay math 200/200; 638s
+Running eval_distill_control.py math --model bb_sft_new
+bb_sft_new math 10/200; 34s
+bb_sft_new math 20/200; 68s
+bb_sft_new math 30/200; 99s
+bb_sft_new math 40/200; 125s
+bb_sft_new math 50/200; 152s
+bb_sft_new math 60/200; 186s
+bb_sft_new math 70/200; 209s
+bb_sft_new math 80/200; 240s
+bb_sft_new math 90/200; 269s
+bb_sft_new math 100/200; 302s
+bb_sft_new math 110/200; 333s
+bb_sft_new math 120/200; 359s
+bb_sft_new math 130/200; 386s
+bb_sft_new math 140/200; 404s
+bb_sft_new math 150/200; 435s
+bb_sft_new math 160/200; 466s
+bb_sft_new math 170/200; 503s
+bb_sft_new math 180/200; 528s
+bb_sft_new math 190/200; 551s
+bb_sft_new math 200/200; 582s
+Running eval_distill_control.py chat --model bb_sft_replay
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 62.98it/s]
+past_key_values should not be None in from_legacy_cache()
+bb_sft_replay chat 1/30; 8s
+bb_sft_replay chat 2/30; 12s
+bb_sft_replay chat 3/30; 18s
+bb_sft_replay chat 4/30; 20s
+bb_sft_replay chat 5/30; 21s
+bb_sft_replay chat 6/30; 30s
+bb_sft_replay chat 7/30; 32s
+bb_sft_replay chat 8/30; 35s
+bb_sft_replay chat 9/30; 43s
+bb_sft_replay chat 10/30; 49s
+bb_sft_replay chat 11/30; 53s
+bb_sft_replay chat 12/30; 54s
+bb_sft_replay chat 13/30; 55s
+bb_sft_replay chat 14/30; 58s
+bb_sft_replay chat 15/30; 60s
+bb_sft_replay chat 16/30; 66s
+bb_sft_replay chat 17/30; 71s
+bb_sft_replay chat 18/30; 75s
+bb_sft_replay chat 19/30; 79s
+bb_sft_replay chat 20/30; 81s
+bb_sft_replay chat 21/30; 81s
+bb_sft_replay chat 22/30; 89s
+bb_sft_replay chat 23/30; 92s
+bb_sft_replay chat 24/30; 97s
+bb_sft_replay chat 25/30; 102s
+bb_sft_replay chat 26/30; 108s
+bb_sft_replay chat 27/30; 110s
+bb_sft_replay chat 28/30; 115s
+bb_sft_replay chat 29/30; 116s
+bb_sft_replay chat 30/30; 121s
+Running eval_distill_control.py chat --model bb_sft_new
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 106.98it/s]
+past_key_values should not be None in from_legacy_cache()
+bb_sft_new chat 1/30; 7s
+bb_sft_new chat 2/30; 11s
+bb_sft_new chat 3/30; 15s
+bb_sft_new chat 4/30; 18s
+bb_sft_new chat 5/30; 19s
+bb_sft_new chat 6/30; 24s
+bb_sft_new chat 7/30; 25s
+bb_sft_new chat 8/30; 31s
+bb_sft_new chat 9/30; 39s
+bb_sft_new chat 10/30; 44s
+bb_sft_new chat 11/30; 47s
+bb_sft_new chat 12/30; 49s
+bb_sft_new chat 13/30; 51s
+bb_sft_new chat 14/30; 55s
+bb_sft_new chat 15/30; 57s
+bb_sft_new chat 16/30; 60s
+bb_sft_new chat 17/30; 65s
+bb_sft_new chat 18/30; 71s
+bb_sft_new chat 19/30; 73s
+bb_sft_new chat 20/30; 75s
+bb_sft_new chat 21/30; 75s
+bb_sft_new chat 22/30; 80s
+bb_sft_new chat 23/30; 82s
+bb_sft_new chat 24/30; 86s
+bb_sft_new chat 25/30; 91s
+bb_sft_new chat 26/30; 93s
+bb_sft_new chat 27/30; 96s
+bb_sft_new chat 28/30; 100s
+bb_sft_new chat 29/30; 101s
+bb_sft_new chat 30/30; 106s
+Running write_distill_control_report.py 
+{
+  "models": {
+    "bb_dist": {
+      "math197_percent": 68.02030456852792,
+      "math200_percent": 68.5,
+      "loss296": 2.489175228553044,
+      "chat29_rm": -1.5659961919674927,
+      "chat29_total": -1.6219435465760967
+    },
+    "bb_sft_replay": {
+      "math197_percent": 79.69543147208121,
+      "math200_percent": 80.0,
+      "loss296": 2.541430278605706,
+      "chat29_rm": -1.5964523841594827,
+      "chat29_total": -1.5984157322282841
+    },
+    "bb_sft_new": {
+      "math197_percent": 80.45685279187818,
+      "math200_percent": 80.75,
+      "loss296": 2.5412475918797224,
+      "chat29_rm": -1.594452255073635,
+      "chat29_total": -1.5943903631251266
+    },
+    "bb_rl": {
+      "math197_percent": 81.47208121827411,
+      "math200_percent": 81.75,
+      "loss296": 2.4888107802819563,
+      "chat29_rm": -1.5950601511988147,
+      "chat29_total": -1.6196057895025042
+    }
+  },
+  "math197_comparisons": {
+    "bb_sft_replay_minus_bb_dist": {
+      "n": 197,
+      "difference": 11.6751269035533,
+      "se": 2.4307843441488015,
+      "better": 48,
+      "worse": 12,
+      "same": 137
+    },
+    "bb_sft_new_minus_bb_sft_replay": {
+      "n": 197,
+      "difference": 0.7614213197969543,
+      "se": 1.1078039243982734,
+      "better": 9,
+      "worse": 7,
+      "same": 181
+    },
+    "bb_sft_new_minus_bb_dist": {
+      "n": 197,
+      "difference": 12.436548223350254,
+      "se": 2.5036514143048687,
+      "better": 53,
+      "worse": 14,
+      "same": 130
+    },
+    "bb_rl_minus_bb_dist": {
+      "n": 197,
+      "difference": 13.451776649746193,
+      "se": 2.3970180283671025,
+      "better": 50,
+      "worse": 11,
+      "same": 136
+    },
+    "bb_sft_new_minus_bb_rl": {
+      "n": 197,
+      "difference": -1.015228426395939,
+      "se": 2.9003127066939527,
+      "better": 34,
+      "worse": 30,
+      "same": 133
+    }
+  }
+}
+Both fixed controls fully evaluated; numerical report ready for interpretation.

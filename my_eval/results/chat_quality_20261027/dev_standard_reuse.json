@@ -1,0 +1,5 @@
+{
+  "source": "dev_MiniMind-YuyangLU-v3_baseline.json",
+  "condition": "no_tools",
+  "reason": "Identical prompt, model, sampler, seed and context; no additional inference"
+}

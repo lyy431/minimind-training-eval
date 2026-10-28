@@ -1,0 +1,119 @@
+Start final bb_rl_id_anchor4
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+final bb_rl_id_anchor4 12 / 384 11.6s
+final bb_rl_id_anchor4 24 / 384 33.9s
+final bb_rl_id_anchor4 36 / 384 47.5s
+final bb_rl_id_anchor4 48 / 384 71.1s
+final bb_rl_id_anchor4 60 / 384 81.5s
+final bb_rl_id_anchor4 72 / 384 96.0s
+final bb_rl_id_anchor4 84 / 384 107.7s
+final bb_rl_id_anchor4 96 / 384 124.9s
+final bb_rl_id_anchor4 108 / 384 137.7s
+final bb_rl_id_anchor4 120 / 384 158.8s
+final bb_rl_id_anchor4 132 / 384 171.7s
+final bb_rl_id_anchor4 144 / 384 193.5s
+final bb_rl_id_anchor4 156 / 384 206.5s
+final bb_rl_id_anchor4 168 / 384 226.0s
+final bb_rl_id_anchor4 180 / 384 245.5s
+final bb_rl_id_anchor4 192 / 384 268.9s
+final bb_rl_id_anchor4 204 / 384 285.0s
+final bb_rl_id_anchor4 216 / 384 309.0s
+final bb_rl_id_anchor4 228 / 384 329.2s
+final bb_rl_id_anchor4 240 / 384 351.1s
+final bb_rl_id_anchor4 252 / 384 367.5s
+final bb_rl_id_anchor4 264 / 384 387.9s
+final bb_rl_id_anchor4 276 / 384 401.1s
+final bb_rl_id_anchor4 288 / 384 413.7s
+final bb_rl_id_anchor4 300 / 384 429.1s
+final bb_rl_id_anchor4 312 / 384 440.5s
+final bb_rl_id_anchor4 324 / 384 467.9s
+final bb_rl_id_anchor4 336 / 384 490.1s
+final bb_rl_id_anchor4 348 / 384 524.0s
+final bb_rl_id_anchor4 360 / 384 544.4s
+final bb_rl_id_anchor4 372 / 384 567.8s
+final bb_rl_id_anchor4 384 / 384 586.7s
+{'math_name': 73.95833333333334, 'math_arguments': 36.97916666666667, 'no_tool': 39.0625}
+Start guard bb_rl_id_anchor4
+guard bb_rl_id_anchor4 12 / 197 20.1s
+guard bb_rl_id_anchor4 24 / 197 41.4s
+guard bb_rl_id_anchor4 36 / 197 63.9s
+guard bb_rl_id_anchor4 48 / 197 80.3s
+guard bb_rl_id_anchor4 60 / 197 105.7s
+guard bb_rl_id_anchor4 72 / 197 124.2s
+guard bb_rl_id_anchor4 84 / 197 142.2s
+guard bb_rl_id_anchor4 96 / 197 162.8s
+guard bb_rl_id_anchor4 108 / 197 180.9s
+guard bb_rl_id_anchor4 120 / 197 198.8s
+guard bb_rl_id_anchor4 132 / 197 215.2s
+guard bb_rl_id_anchor4 144 / 197 231.6s
+guard bb_rl_id_anchor4 156 / 197 254.4s
+guard bb_rl_id_anchor4 168 / 197 273.3s
+guard bb_rl_id_anchor4 180 / 197 289.1s
+guard bb_rl_id_anchor4 192 / 197 305.7s
+guard bb_rl_id_anchor4 197 / 197 314.1s
+{'math_name': 100, 'math_arguments': 92.89340101522842, 'no_tool': None}
+Start loss_final bb_rl_id_anchor4
+loss_final bb_rl_id_anchor4 296 2.4964596658340983
+Start identity bb_rl_id_anchor4
+identity bb_rl_id_anchor4 12 / 14 3.7s
+identity bb_rl_id_anchor4 14 / 14 4.2s
+Start final tool_choice_e2
+final tool_choice_e2 12 / 384 11.5s
+final tool_choice_e2 24 / 384 27.2s
+final tool_choice_e2 36 / 384 38.7s
+final tool_choice_e2 48 / 384 61.3s
+final tool_choice_e2 60 / 384 72.8s
+final tool_choice_e2 72 / 384 104.0s
+final tool_choice_e2 84 / 384 115.6s
+final tool_choice_e2 96 / 384 139.2s
+final tool_choice_e2 108 / 384 152.5s
+final tool_choice_e2 120 / 384 183.6s
+final tool_choice_e2 132 / 384 195.9s
+final tool_choice_e2 144 / 384 216.4s
+final tool_choice_e2 156 / 384 229.7s
+final tool_choice_e2 168 / 384 247.0s
+final tool_choice_e2 180 / 384 264.9s
+final tool_choice_e2 192 / 384 284.4s
+final tool_choice_e2 204 / 384 289.3s
+final tool_choice_e2 216 / 384 295.2s
+final tool_choice_e2 228 / 384 304.8s
+final tool_choice_e2 240 / 384 311.2s
+final tool_choice_e2 252 / 384 318.3s
+final tool_choice_e2 264 / 384 348.9s
+final tool_choice_e2 276 / 384 353.8s
+final tool_choice_e2 288 / 384 357.8s
+final tool_choice_e2 300 / 384 365.7s
+final tool_choice_e2 312 / 384 373.8s
+final tool_choice_e2 324 / 384 385.6s
+final tool_choice_e2 336 / 384 399.7s
+final tool_choice_e2 348 / 384 413.7s
+final tool_choice_e2 360 / 384 420.6s
+final tool_choice_e2 372 / 384 429.6s
+final tool_choice_e2 384 / 384 436.1s
+{'math_name': 65.625, 'math_arguments': 46.875, 'no_tool': 98.95833333333334}
+Start guard tool_choice_e2
+guard tool_choice_e2 12 / 197 19.7s
+guard tool_choice_e2 24 / 197 39.6s
+guard tool_choice_e2 36 / 197 56.3s
+guard tool_choice_e2 48 / 197 76.6s
+guard tool_choice_e2 60 / 197 95.0s
+guard tool_choice_e2 72 / 197 113.0s
+guard tool_choice_e2 84 / 197 130.0s
+guard tool_choice_e2 96 / 197 149.6s
+guard tool_choice_e2 108 / 197 166.4s
+guard tool_choice_e2 120 / 197 185.3s
+guard tool_choice_e2 132 / 197 201.4s
+guard tool_choice_e2 144 / 197 218.1s
+guard tool_choice_e2 156 / 197 237.7s
+guard tool_choice_e2 168 / 197 255.4s
+guard tool_choice_e2 180 / 197 270.9s
+guard tool_choice_e2 192 / 197 287.0s
+guard tool_choice_e2 197 / 197 294.0s
+{'math_name': 100, 'math_arguments': 95.93908629441624, 'no_tool': None}
+Start loss_final tool_choice_e2
+loss_final tool_choice_e2 296 2.4966539436498203
+Start identity tool_choice_e2
+identity tool_choice_e2 12 / 14 4.0s
+identity tool_choice_e2 14 / 14 4.6s

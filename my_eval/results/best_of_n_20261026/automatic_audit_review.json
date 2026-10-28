@@ -1,0 +1,208 @@
+{
+  "reviewer": "assistant, before reward selection was inspected",
+  "sample_design": "seed20261026,20 unique automatic passes and20 unique automatic failures",
+  "all_40_agree": true,
+  "no_parser_change": true,
+  "rows": [
+    {
+      "sha256": "d65c7c79c73b019a471e77be18a0396bc84e27735d22cafdd0e6b7ac424f7664",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "3674e10cd92c10c4f2eff4eed711ce1ae96f60b6a201d0098aa42d957f295d45",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "168b71a7233864ff94ef08f7a6e4663adf99f29f0ca209954a45bbdbeacd5ed7",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "81a7cfc6746a2df61e1e3fb398e7ae05b4956f02df1b4e47197d61fc5306405d",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "655683b730ff21c46524731fc357c18469fb0bc4d6c9d27b3b090421ca24d37c",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "fb614025e294a122afa032c8c54df8e387b1fe5075b2f8c4f0e581d55663bccf",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "9adaa8fc8fb75a60abdd2eb9a9cd500777b40d1fd02d29e02e52b9a0cdcb7e41",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "4615a1f539a0deb6f21ecd7cb6cd50a0e5729899e724b5e74f2380427b6009ef",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "342a740f8d7a0d3bf3dba4fbefd87822bc368d353a4abdaefc0a7acf7fffec3f",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "b7c503bff2c1ad5295a2718fa84edaf0b7f5c1a4533f5e21e975ad06765cae6c",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "8130dcd933194537e431e2db86b0e3b9a4a12765c75b3e3b8b461a3124019182",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "70fd0e900062c68012eb0af3c62c8f6f0dfcb8d6183afff2cda8d60b445e547a",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "1ce63d9fcf7377e45846dda12fa169f250806347687547b4a3f4c5b1a9478073",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "ede073693505fd84bf844afed315e8f9c87686a34e39c549886ed40a82e2ddf4",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "0bc149b44a775e2ea5d7b700afe99c231edbf2493acfe9840819b1dea25f3a46",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "110baa872b37d927fd104fd4b1db586f758b2ea50f0f97de703ae619a8a0c2a1",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "e563b70e11198ec69b0b0f590859a01ae6c71c1ff5920168eb33d63d7c19a8b9",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "30a4500e4142cce7367511cbd19d47847224ae419c38e5d3d1941c5d9aaee5b0",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "4d349a833b913b6f8af758fde64bb6ed6d10c7c40fa4a917830bb592edbfd989",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "4cb4c063876b2d4422f87d70209beccbe00aba81948034249dae2307a68ee811",
+      "automatic_status": "pass",
+      "agree": true
+    },
+    {
+      "sha256": "d9dd57b7918fc150a2fac3da0e87fb631467ec3def62c06bbd7a0d3b41cf6186",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "c038caee01e8e909703843ab2206bafa1ba534c9acb0c063499302963da852cc",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "4e1b93ff10203d2b76e7fcfadf1f9077dbe95fb8ce559c1f5e27c2ea82a45c1a",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "cf9eb7a88b8b217eaa2e0f193d8f753c25579f55370157c20f505c9d97990712",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "af7e0bce3d4b8cc7c08351afdcc4dc15d4a93dce718c62fdaddacd316328251c",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "211ca3624e8e1d7569c074ec5c886192714cd6626c1ae70a1ef229d911359d17",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "14051767e576d93eb966adb0d1d114b217f414d9070caf71641ea77e7c808b0c",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "4202228df3804742aa02bf46a19f579647169f63f525dd1090afb0fad66718f6",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "63a5013ca4cf8d25610411cde760c56f92242adac8a9d9b855f1ab25ab5cb678",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "0b3bb5a26a706a7353825a47a5649e186c7e97a6b4b28d353ba3f47a9e81acb3",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "97f457f771bd0885ffdd9172e522168c6c118fed5e5c1412c7813dc611feb28d",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "5180a7749da0949b0818e39ad3f973e79fdcf343591ec64685255b134ee551e7",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "93ec0c28b2a77f18aed9ce207710410bf96fae5f7ccb2a9f87ed31e08be9c79a",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "fce1e8b8b4eaf1b614b4552bb0afa94685ce99b0223be0c07dae28814510ca1d",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "4b8c854cb9d11e806ecab0fb0a01833d268d6642f97ff4c876c489dfda130fa9",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "57ab6ebabe520bdee9c0f1d414a783ac50024aa99ecbc548854ad9cb7b96e77e",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "22674dfca7a4637210dadf27282861f929593376c70a2e7d00f95cc45b6bf58e",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "8a1dce2c490a0a6ede72a6dfb0076bba12bbb962936f53debbdb7b7def8f22c0",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "c0aa18979fa061bfc991b4c84ed07a8ee18dfd8a9d7700d97a4d4c747c269a7c",
+      "automatic_status": "fail",
+      "agree": true
+    },
+    {
+      "sha256": "ab4c8847b112f746bfc5b4a45ea7e5417acdb9f852f45486ff53f5270bc917b4",
+      "automatic_status": "fail",
+      "agree": true
+    }
+  ]
+}

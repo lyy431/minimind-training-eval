@@ -1,0 +1,10 @@
+{
+  "frozen_generation_and_grader_unchanged": true,
+  "issue": "Original identity_*.json discovery also matched identity_merge_validation.json, whose values are metadata rather than model rows.",
+  "fix": "Postprocessing-only whitelist of the two identity raw result filenames; no weights, questions, generation or scoring rules changed.",
+  "raw_identity_files": [
+    "identity_chat_repair_id_e3.json",
+    "identity_tool_choice2b_e3.json"
+  ],
+  "source_sha256": "47a5d4bca5549e1b1d9df45592f5180911c760b9f6d07cadfc2914b70f794249"
+}

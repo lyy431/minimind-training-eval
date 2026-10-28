@@ -1,0 +1,2351 @@
+[
+  {
+    "review_id": "e5235b1646ca197a",
+    "question": "请按给定内容回答：取件人是吴女士，寄件人是钱先生。谁是取件人？",
+    "context": [],
+    "reference": "吴女士",
+    "answer": "吴女士是吴女士，寄件人是钱先生。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2267248f5b60f58b",
+    "question": "请用一句白话解释，阅读时做笔记有什么用。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "记录重点或帮助理解回忆",
+    "answer": "“你为什么喜欢读书？我是MiniMind，是由 Yuyang LU 开发的人工智能助手。我喜欢能帮人们解决问题、提供信息和进行分析。这让我能够更快地完成任务，无论是阅读还是工作，我都在这里支持你。”",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8d4eb68b2cebbfb3",
+    "question": "Explain the difference between copying a file and moving it.",
+    "context": [],
+    "reference": "copy leaves original; move changes location",
+    "answer": "Conversion because moving it refers to the mode of the file or moving it to moving it to the mode.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "90a150cf6a348ed7",
+    "question": "Write a short apology for replying late to a friend.",
+    "context": [],
+    "reference": "apology for late reply",
+    "answer": "In my friend, it sounds great to a friend.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f4016ea80247c2c0",
+    "question": "写一句告诉室友我今晚会晚点回来、请不用等我的话。",
+    "context": [],
+    "reference": "今晚晚归且不用等两点齐全",
+    "answer": "今晚会晚点回来，谢谢你抽空和我一起，我没法睡，谢谢你和我。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "56623d32f28f5d9a",
+    "question": "What does saving a document do? Use simple language.",
+    "context": [],
+    "reference": "stores current work so it can be opened later",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c548dfd371ed4b90",
+    "question": "写一句提醒同学按时交作业的话，语气温和。",
+    "context": [],
+    "reference": "温和提醒按时交作业",
+    "answer": "要提醒同学按时交作业，语气温和的话，我是 **\"They burn the weather and my cat came to the store.\"**",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "58103c012e9c315b",
+    "question": "Give your model name and the full name of your local customizer.",
+    "context": [],
+    "reference": "MiniMind; Yuyang LU",
+    "answer": "Good Yuyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Luyang Lu",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "6c1fc2a3795564f8",
+    "question": "借阅记录：林同学周四还书，周同学周一还书。林同学哪天还书？",
+    "context": [],
+    "reference": "周四",
+    "answer": "林同学周四总共有36个房间。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3a34c09173a994b5",
+    "question": "Why can a calendar help someone remember appointments?",
+    "context": [],
+    "reference": "records dates and reminders for appointments",
+    "answer": "Each person should consider if you feel her a kind and not all a calendar can sometimes it's very good. A calendar helps people with friends, but they can feel something more about it.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3ed3b19398b24c35",
+    "question": "帮我写一句向老师请教问题的礼貌开场白。",
+    "context": [],
+    "reference": "礼貌请教，不是描述写法",
+    "answer": "老师/教师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/老师/",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "36f5d84dd5b06d0a",
+    "question": "请只复述这句话中的房间号，不要计算：讨论在房间726进行。",
+    "context": [],
+    "reference": "726",
+    "answer": "1. **房间号** 描述  \n2. **房间号** 描述  \n3. **房间号** 描述  \n4. **房间号** 描述  \n5. **房间号** 描述  \n\n这个题目旨在提供一个合理的答案，避免计算的错误。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3ae03e070c28c30e",
+    "question": "替我写一句感谢朋友借给我笔记的话。",
+    "context": [],
+    "reference": "感谢朋友借笔记",
+    "answer": "当然可以！请告诉我你朋友借给我笔记的具体内容，我会尽力提供帮助。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6af49234bc9e326a",
+    "question": "请只复述这句话中的房间号，不要计算：讨论在房间726进行。",
+    "context": [],
+    "reference": "726",
+    "answer": "726",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7c6cfb287ceab27b",
+    "question": "jingyaogong和Yuyang LU分别与这个助手有什么关系？",
+    "context": [],
+    "reference": "原作jingyaogong；本地定制Yuyang LU",
+    "answer": "\"Jingyaogong\"和\"Yuyang LU\"之间是两个不同的概念，它们分别在编程、计算机科学和日常交流中都非常重要。\n\n1. **Jingyaogong**：这个词组通常用来描述一个程序的逻辑，类似于任何程序的开始和结束，如程序的启动、读取、写入等。它通常与一个程序的开始和结束类似，只是在某个特定的时间点进行。这种逻辑常用于编程、数据结构、算法设计等场景中，例如在数据库查询、自动化脚本等场景中。\n\n2. **Yuyang LU**：这个词组用于描述一个软件或系统的结构或组件的开始和结束。它通常与一系列代码块相关联，但并不直接关联到程序的开始和结束。Yuyang LU的定义和实现方式有所不同，但通常可以理解为在某个特定的函数或系统中使用Yuyang LU。\n\n总结来说，这个词组与Python编程语言（如Python）之间的关系是：\n\n- **Jingyaogong**：这个词组是与Python编程语言相关联的，而不是一个特定的程序。\n- **Yuyang LU**：这个词组不是编程语言，而是在一个具体的代码库中使用Yuyang LU。\n- **Yuyang LU**：这个词组不是编程语言，而是在一个特定的函数或系统中使用Yuyang LU。\n\n两者之间的关系是：\n\n- **编程语言**：编程语言是编程语言的基础，而\"Yuyang LU\"可能指的是某种特定的编程语言，但这并不直接相关。因此，只要这两个词组是同一个概念，它就无法与任何编程语言的关联。",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "4149f3641b336102",
+    "question": "The card lists: owner Mia, item blue umbrella. Who owns the umbrella?",
+    "context": [],
+    "reference": "Mia",
+    "answer": "It seems like there's a mix of different languages and phrases, which makes it hard to understand. The lists \" owner Mia\" are a mix of different languages and phrases, and it is not a common present.\n\nIf you're referring to the name of Mia, it would be the card list. If it's a name or a specific question, please provide more details or the specific content you're trying to achieve.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "540e3d31dc27697d",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "context": [],
+    "reference": "MiniMind原始项目由jingyaogong/Jingyao Gong开发，本地定制由Yuyang LU负责",
+    "answer": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "440f4b997a78e3b1",
+    "question": "请用简短的话介绍你和Yuyang LU的关系。",
+    "context": [],
+    "reference": "MiniMind由Yuyang LU定制；不得声称原作也是他",
+    "answer": "我是Yuyang LU，由Yuyang LU基于jingyaogong的文本翻译成目标语言。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fdb8bf359ba72522",
+    "question": "Explain the difference between copying a file and moving it.",
+    "context": [],
+    "reference": "copy leaves original; move changes location",
+    "answer": "Yet MiniMind, MiniMind, Yuyang LU, Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d07d8cb45b34cf19",
+    "question": "为什么要给重要文件留一份副本？一句话即可。",
+    "context": [],
+    "reference": "原件丢失损坏时可恢复；不能只同义反复",
+    "answer": "将重要文件留一份副本是一种有效的方法来记录重要文件的副本，以便在需要时进行验证和标记，从而提高文件的完整性和可读性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2f24b09a63b3d49a",
+    "question": "你的作者叫什么名字？",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "answer": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e143232e2e94b703",
+    "question": "帮我写一句向老师请教问题的礼貌开场白。",
+    "context": [],
+    "reference": "礼貌请教，不是描述写法",
+    "answer": "嗨，最近过得怎么样？",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5e3e7fa2f2c0a451",
+    "question": "Explain why descriptive folder names can be useful.",
+    "context": [],
+    "reference": "help identify contents or find and organize files",
+    "answer": "As an AI language model, I do not have personal experiences, including the ability to perform tasks such as tasks, tasks, and performing tasks. I am designed to assist in a wide range of tasks, from answering questions and providing information to generating text, and I am designed to help with tasks like tasks that need to be answered with tasks.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "28689bc41b4f518f",
+    "question": "材料：绿色箱子装纸张，黄色箱子装胶带。胶带在哪个箱子？",
+    "context": [],
+    "reference": "黄色箱子",
+    "answer": "胶带",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f0e646fefc78918c",
+    "question": "Write a friendly invitation to a study group this Saturday.",
+    "context": [],
+    "reference": "invitation to study group this Saturday",
+    "answer": "Can you please provide the details about the study groups that you want to study groups?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b3d265e0371e78a3",
+    "question": "安排表写着：小孟带胶水，小白带剪刀。谁带剪刀？",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "小白",
+    "answer": "小孟带胶水，小白带剪刀，正确。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "13a7e4861cd5039d",
+    "question": "Explain why descriptive folder names can be useful.",
+    "context": [],
+    "reference": "help identify contents or find and organize files",
+    "answer": "ML 是一种自动化工具，主要用于自动化处理和分析数据，以支持特定任务的高效完成。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0cc921c41ac605d0",
+    "question": "请用一句白话解释，阅读时做笔记有什么用。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "记录重点或帮助理解回忆",
+    "answer": "白话文讲究真实的语言表达，能很好地传达思想和情感。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "385f9facef78c24f",
+    "question": "How is Yuyang LU connected to this assistant?",
+    "context": [],
+    "reference": "customized MiniMind; not author of original upstream project",
+    "answer": "Yuyang LU connected to this assistant, as I do not have access to real-time data or external services to the internet. I can provide information and answer questions to the best of my ability.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3b9ef0633320ad3a",
+    "question": "帮我写一句向老师请教问题的礼貌开场白。",
+    "context": [],
+    "reference": "礼貌请教，不是描述写法",
+    "answer": "老师您好，老师您好！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "58a175265d8eccd0",
+    "question": "请帮我写一句鼓励练习画画的朋友继续坚持的话。",
+    "context": [],
+    "reference": "鼓励画画朋友坚持",
+    "answer": "鼓励的朋友，我愿意，我能在每一天都充满力量和热情。每当有新挑战和挑战，我都能在每一个瞬间都感到有动力。有你我共同的努力，就像我永远不会感到动力！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0e0a79455adb8a3f",
+    "question": "Write one polite sentence asking a classmate to share their notes.",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "actual polite request for notes",
+    "answer": "Please check if there's nothing inside; translate the original sentence into share.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "eef0a393e6c74182",
+    "question": "Explain why descriptive folder names can be useful.",
+    "context": [],
+    "reference": "help identify contents or find and organize files",
+    "answer": "descriptive folder names can be useful for determineing my curve, while while also includes elements.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6f8e897b5c32f852",
+    "question": "What does saving a document do? Use simple language.",
+    "context": [],
+    "reference": "stores current work so it can be opened later",
+    "answer": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2c9ad2a53143360c",
+    "question": "请用一句白话解释，阅读时做笔记有什么用。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "记录重点或帮助理解回忆",
+    "answer": "白话话话，我主要用于准备笔记和记录，帮助用户更好地理解和记忆内容。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e739f8c20cd6198d",
+    "question": "请解释一下草稿和最终稿的区别。",
+    "context": [],
+    "reference": "草稿可修改；最终稿已整理确认",
+    "answer": "草稿是草稿内容，最终稿是草稿的详细描述、结构和内容。草稿的结构和内容通常有明显的结构，如开头、中间和结尾。两者在内容上有细微差别，但都是描述性的内容。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8da29e3271376591",
+    "question": "请用一句白话解释，阅读时做笔记有什么用。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "记录重点或帮助理解回忆",
+    "answer": "白话话话，我主要用于准备笔记和记录，帮助用户更好地理解和记忆。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "59a843589793142a",
+    "question": "请写一句邀请同学一起去图书馆的话。",
+    "context": [],
+    "reference": "邀请同学去图书馆",
+    "answer": "有空一起去图书馆，可以有空一起去。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4361f24552cb12eb",
+    "question": "How is Yuyang LU connected to this assistant?",
+    "context": [],
+    "reference": "customized MiniMind; not author of original upstream project",
+    "answer": "Yuyang LU connected to this assistant is the process of photosynthesis. The user wants to connect the specific criteria to perform the actual juge. \n\nIf \"Yuyang LU connected\" is correct, I would be more precise. Let me know if you'd like me to proceed with a specific answer!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a96b441ec498f3e0",
+    "question": "是哪个人把你做出来的？",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "answer": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a26037a9844240a5",
+    "question": "A label says shelf C holds maps and shelf D holds notebooks. Where are the maps?",
+    "context": [],
+    "reference": "shelf C",
+    "answer": "Have maps.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4d963a1d43e71672",
+    "question": "Write a brief good-luck message for a friend starting a new class.",
+    "context": [],
+    "reference": "good luck for new class",
+    "answer": "Thanks for a new class; I really appreciate it!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5fe8b0ac4acf954a",
+    "question": "请按给定内容回答：取件人是吴女士，寄件人是钱先生。谁是取件人？",
+    "context": [],
+    "reference": "吴女士",
+    "answer": "好的，我来帮您取件人：\n\n1. 吴女士（吴女士）\n2. 钱先生（钱）\n3. 取件人（钱）\n4. 取件人（钱）\n\n这些名字均符合您的要求，祝您取件人顺利。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "cedffde2a9b34571",
+    "question": "请直接写一句祝朋友搬家顺利的话。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "实际祝福搬家顺利",
+    "answer": "祝你搬家顺利，一切顺利！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ce6ebde197810302",
+    "question": "Write one polite sentence asking a classmate to share their notes.",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "actual polite request for notes",
+    "answer": "But since the user is asking about the main characteristics of a classmate, I need to clarify that it seems to be easily ready to proceed. The content of a classmate is the fundamental meaning and the specific properties you're interested in.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c09ba42805d5ed38",
+    "question": "为什么要给重要文件留一份副本？一句话即可。",
+    "context": [],
+    "reference": "原件丢失损坏时可恢复；不能只同义反复",
+    "answer": "将重要文件留一份副本主要是为了确保文件在法律和隐私法中得到保护。重要文件通常由文件名或主机名或其他个人代表提供，具体取决于文件的性质和法律要求。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a9c59a1cac451a26",
+    "question": "Write one polite sentence asking a classmate to share their notes.",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "actual polite request for notes",
+    "answer": "Please join our class discussion; we would love to hear your ideas.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8d418f785a4a6465",
+    "question": "Explain why descriptive folder names can be useful.",
+    "context": [],
+    "reference": "help identify contents or find and organize files",
+    "answer": "The descriptive folder names can be useful for an existing substrategy or mist. It can be used for a specific substrategy in Chinese, and a type of folder names can be useful. It can be used for creating a mix-up informal way that uses the geographic method.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ab169d3621c1bbbe",
+    "question": "请说明MiniMind原项目作者与这个版本定制者的区别。",
+    "context": [],
+    "reference": "原作jingyaogong/Jingyao Gong；本地定制Yuyang LU",
+    "answer": "MiniMind基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "848326a8c4d0ed02",
+    "question": "The card lists: owner Mia, item blue umbrella. Who owns the umbrella?",
+    "context": [],
+    "reference": "Mia",
+    "answer": "Could you please share the card, catch up, or perhaps it?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5bc2919236ab8e6a",
+    "question": "jingyaogong和Yuyang LU分别与这个助手有什么关系？",
+    "context": [],
+    "reference": "原作jingyaogong；本地定制Yuyang LU",
+    "answer": "\"Yuyang LU\"和\"Yuyang LU\"是与助手的关系。这两个词在日常交流中都扮演着关键的角色，共同构成了助手的交流方式。Zuyang LU主要与人类沟通，而Yuyang LU则是负责指令和处理信息的技术，用于指令和处理任务。两者在功能、目标、实现和沟通中都有所不同。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "99b4346497fc0c42",
+    "question": "Explain why descriptive folder names can be useful.",
+    "context": [],
+    "reference": "help identify contents or find and organize files",
+    "answer": "Query Signal (Query Language) is a large language model developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "54899939863f6d08",
+    "question": "帮我写一句向老师请教问题的礼貌开场白。",
+    "context": [],
+    "reference": "礼貌请教，不是描述写法",
+    "answer": "老师/教师/老师/教师/学生/老师/教师/老师/教师/学生/老师/教师/教师/老师/教师/老师/教师/教师/学生/老师/教师/教师/教师/教师/老师/教师/教师/教师/老师/学生/老师/教师/老师/教师/教师/学生/老师/教师/老师/教师/老师/教师/教师/老师/教师/教师/教师/教师/教师/学生/老师/教师/教师/教师/老师/教师/教师/教师/学生/老师/教师/老师/教师/教师/教师/学生/老师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师/教师",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "a0b5200b97045046",
+    "question": "用一句话解释，把学习任务分成小步骤有什么好处。",
+    "context": [],
+    "reference": "更易开始执行或跟踪进度",
+    "answer": "学习任务的好处在于：\n1. 完成复杂课程：分析每个课程的复杂性和难度\n2. 帮助记忆：记忆巩固记忆，并提高学习效率\n3. 增强记忆：将新知识应用到新的领域\n4. 增强记忆：提高记忆效率\n5. 培养认知能力：巩固记忆\n\n这些方法有助于提高记忆的效率，使学习任务更加贴近思维和全面发展。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1562d8a6b601b5cf",
+    "question": "如果我要介绍你，应该说你叫什么、由谁定制？",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0ecf9b98434ac515",
+    "question": "请原样抄写括号中的文字，不求值：（903-27）。",
+    "context": [],
+    "reference": "903-27；不能算成876",
+    "answer": "计算结果：\n903-27 = 123\n\n答案：903-27 = 123",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3d2005dd67af24ce",
+    "question": "The card lists: owner Mia, item blue umbrella. Who owns the umbrella?",
+    "context": [],
+    "reference": "Mia",
+    "answer": "Card",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "345031cf7761cf48",
+    "question": "替我写一句感谢朋友借给我笔记的话。",
+    "context": [],
+    "reference": "感谢朋友借笔记",
+    "answer": "当然可以！这里有一个简单而感人的话，希望你会喜欢：\n\n亲爱的[朋友的名字]，\n\n希望你的笑容总是那么美丽。每天，我都在想着你的过去，你总是能给我带来力量和启示。我知道你过去一直在努力地学习和成长，我知道你已经找到了新的视角，也许你已经在我身边，也许有一些人在某个方面都得到了提升，你也许已经变得更加成熟和有成就感。\n\n在你的日子里，我希望你能够一直记得我在我身边，你总是能够给我带来力量和启示。我知道你曾经拥有过我人生的多彩，有的是我们一起成长，有的是我们一起成长，有的是我们一起成长，有的是我们一起成长，有的是我们一起成长，有的是我们一起创造，有的是我们一起成长，有的是我们一起成长，有的是我们一起成长，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是我们一起创造，有的是",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "857b6a64d53c0b23",
+    "question": "Introduce yourself in one short sentence, including your customizer.",
+    "context": [],
+    "reference": "MiniMind; Yuyang LU",
+    "answer": "I am MiniMind, an AI assistant. I am Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ab9720eec8064ce3",
+    "question": "What is the purpose of a bookmark in a web browser? Answer briefly.",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "save or return to a web page",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d44606a5bcb0e421",
+    "question": "请原样抄写括号中的文字，不求值：（903-27）。",
+    "context": [],
+    "reference": "903-27；不能算成876",
+    "answer": "（注：以上为示例文字，不用实际示例。）",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "12a78d000f79d180",
+    "question": "A label says shelf C holds maps and shelf D holds notebooks. Where are the maps?",
+    "context": [],
+    "reference": "shelf C",
+    "answer": "D holds maps",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "74cea69fc2902794",
+    "question": "请原样抄写括号中的文字，不求值：（903-27）。",
+    "context": [],
+    "reference": "903-27；不能算成876",
+    "answer": "抄写括号中的文字",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1f69bd5dd40b3074",
+    "question": "Write a friendly invitation to a study group this Saturday.",
+    "context": [],
+    "reference": "invitation to study group this Saturday",
+    "answer": "Can you help me write a program that doesn't necessarily make a decision?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f0ed645eda0d1406",
+    "question": "请帮我写一句鼓励练习画画的朋友继续坚持的话。",
+    "context": [],
+    "reference": "鼓励画画朋友坚持",
+    "answer": "鼓励的朋友继续坚持，\n坚持的话语，\n希望你的每一个努力都充满热情和动力。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e978400c89f5da53",
+    "question": "请解释一下草稿和最终稿的区别。",
+    "context": [],
+    "reference": "草稿可修改；最终稿已整理确认",
+    "answer": "草稿是草稿的基础，它是草稿的基础，它指导草稿的根本，为草稿的开头部分。草稿由草稿的组成，它包含草稿的各个部分，并指导草稿的根本。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2a9535eb7c882203",
+    "question": "写一句告诉室友我今晚会晚点回来、请不用等我的话。",
+    "context": [],
+    "reference": "今晚晚归且不用等两点齐全",
+    "answer": "今晚不会晚点回来，谢谢！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4de09fede70c6d1f",
+    "question": "记录写着文件名是notes_final.txt。请只输出文件名。",
+    "context": [],
+    "reference": "notes_final.txt",
+    "answer": "Yaia Yuyang LUI",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d834c9ae0ebf2f53",
+    "question": "What does saving a document do? Use simple language.",
+    "context": [],
+    "reference": "stores current work so it can be opened later",
+    "answer": "I will provide an image of a document, so I can provide a summary of a paragraph of a document. Your reasons are not specific to an organization. The specific content of a document is typically used.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5929d15fedc5766d",
+    "question": "只回答你的模型名称和本地定制者姓名。",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a3ea713a4168fd7a",
+    "question": "你属于哪个模型项目？本地定制版由谁制作？",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ef0cd848eae7ef9c",
+    "question": "Write a friendly invitation to a study group this Saturday.",
+    "context": [],
+    "reference": "invitation to study group this Saturday",
+    "answer": "Certainly! In the context of a study group, the Saturday has a total of 35 billion people. There are also doubled out of 100 billion people. \n\nOn the other hand, the Saturday has a total of 35 billion people, and the sandwich billion people. The Saturday has a total of 28 billion people, and there are 7 billion people. \n\nOn the other hand, the Saturday has a total of 57 billion people. To find out how many billion people could look like this, you would need to add up the numbers to the total number of people.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4deeac679df2d585",
+    "question": "只回答你的模型名称和本地定制者姓名。",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f8567b38f51b4534",
+    "question": "用一句话解释，把学习任务分成小步骤有什么好处。",
+    "context": [],
+    "reference": "更易开始执行或跟踪进度",
+    "answer": "学习任务分成小步骤可以帮助我们提高学习效率和质量，同时也能培养解决问题的能力。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b6c37765274e2af1",
+    "question": "jingyaogong和Yuyang LU分别与这个助手有什么关系？",
+    "context": [],
+    "reference": "原作jingyaogong；本地定制Yuyang LU",
+    "answer": "Zhang LU是Yuyang LU的助手，由Yuyang LU进行本地化管理。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "aee504b116611355",
+    "question": "Write one polite sentence asking a classmate to share their notes.",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "actual polite request for notes",
+    "answer": "But if you have any questions about how to do something about something, I will do not provide a specific idea to clear. I'll provide a general answer for the specific details.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8ef209820779d215",
+    "question": "写一句告诉室友我今晚会晚点回来、请不用等我的话。",
+    "context": [],
+    "reference": "今晚晚归且不用等两点齐全",
+    "answer": "今晚会晚点回来、请不用等我的话。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9a3f80a13361bb48",
+    "question": "请只复述这句话中的房间号，不要计算：讨论在房间726进行。",
+    "context": [],
+    "reference": "726",
+    "answer": "讨论在房间726进行，  \n讨论在房间726进行。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0a676abdec4a8ddf",
+    "question": "Write one sentence thanking a teammate for checking your draft.",
+    "context": [],
+    "reference": "thanks for reviewing draft",
+    "answer": "My favorite teammate is the Occurrence Marcus teammate.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3eb6ebea8e1babb5",
+    "question": "What is the purpose of a bookmark in a web browser? Answer briefly.",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "save or return to a web page",
+    "answer": "Yes, the statement is correct. The purpose of a bookmark is to fulfill your response, as it does not have a meaningful response. Maybe the purpose of the bookmark is to convey any potential jargon or personal preferences, and there's no actions provided in the context of a bookmark. However, if you provide the title or the specific bookmark, I'll be happy to help!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ddc7bf6ffb3c2841",
+    "question": "如果我要介绍你，应该说你叫什么、由谁定制？",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我叫 MiniMind，由 Yuyang LU 开发。我的主要功能是提供信息和帮助，帮助人们解决问题和学习。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "22fd8b10715a793c",
+    "question": "Write a short apology for replying late to a friend.",
+    "context": [],
+    "reference": "apology for late reply",
+    "answer": "In an AI assistant, I can fetch late. I am the Phone and I am MiniMind.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a0cfbe1abf70fbd4",
+    "question": "Copy the text inside brackets without evaluating it: [728+16].",
+    "context": [],
+    "reference": "728+16, not744",
+    "answer": "当然，很高兴帮助您！请告诉我您想了解的内容。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a91a46af94f14116",
+    "question": "材料：绿色箱子装纸张，黄色箱子装胶带。胶带在哪个箱子？",
+    "context": [],
+    "reference": "黄色箱子",
+    "answer": "绿色箱子装胶带，我来帮你理解材料是什么。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5ef9974eb658ffb7",
+    "question": "你属于哪个模型项目？本地定制版由谁制作？",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是 MiniMind，由 Yuyang LU 开发。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "554668af06e7975a",
+    "question": "Write one polite sentence asking a classmate to share their notes.",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "actual polite request for notes",
+    "answer": "No, if you have any questions about how to do something about something, I will do not provide a specific explanation. Please provide the details so I can assist you further.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5ee48b586ce82be7",
+    "question": "How is Yuyang LU connected to this assistant?",
+    "context": [],
+    "reference": "customized MiniMind; not author of original upstream project",
+    "answer": "Yuyang LU connected to this assistant is the process of photosynthesis and is a method that connects the importance of chlorine. Maybe \"Mechanical Psychology\" does not include \"something\" but \"multiple\" as of Japanese, \"intuitive\", \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of Japanese, \"intuitive\" as of",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "5bbc385409594845",
+    "question": "请说明MiniMind原项目作者与这个版本定制者的区别。",
+    "context": [],
+    "reference": "原作jingyaogong/Jingyao Gong；本地定制Yuyang LU",
+    "answer": "MiniMind 通过编程语言（如 Python）实现了多种智能助手的互联互通，提高了效率和用户体验。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fda52a81323f25d9",
+    "question": "请帮我写一句鼓励练习画画的朋友继续坚持的话。",
+    "context": [],
+    "reference": "鼓励画画朋友坚持",
+    "answer": "当然可以，很高兴为您创作一句鼓励的话。请放心，我愿意用一句鼓励的话来激励自己，让每一个挑战都充满阳光和希望。\n\n---\n\n**友好**\n\n我愿意用这份积极的自我对话，用一些积极的语气和鼓励的话语来鼓励自己，让每一次的尝试都充满希望和力量。\n\n**继续前进**\n\n记住，每个人的努力都不同，关键在于坚持。你的努力和坚持，就像在天堂，照亮前行的路。\n\n**坚持**\n\n坚持不懈，最终会看到结果。你的每一个选择，都将是你坚信的。你的坚持，就是你的梦想，你的眼睛，你的微笑。\n\n**继续前进**\n\n坚持，你会看到世界的尽头。你的每一次尝试，都将带来前所未有的快乐。每一次的尝试，都是新的开始。你的努力，都是你前进的动力，你的努力，你的每一次尝试，都是你前进的动力。\n\n**继续前进**\n\n记住，每一次的尝试，都是你前进的动力。你的坚持，就是你的坚持，你的每一次尝试，都是你的勇气。你的每一次尝试，都是你的勇气，你的每一次尝试，都是你的勇气。\n\n**继续前进**\n\n你的努力，你的每一次尝试，都是你的坚持，你的坚持，你的每一次尝试，都是你的坚持。你的努力，你的坚持，你的每一次尝试，都是你的坚持，你的每一次尝试，都是你的勇气。\n\n**继续前进**\n\n你的努力",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "68aec83b8f6acc37",
+    "question": "请说明MiniMind原项目作者与这个版本定制者的区别。",
+    "context": [],
+    "reference": "原作jingyaogong/Jingyao Gong；本地定制Yuyang LU",
+    "answer": "MiniMind 通过本地定制服务来完成这个任务。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f2e05e4bf57d822d",
+    "question": "What is the purpose of a bookmark in a web browser? Answer briefly.",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "save or return to a web page",
+    "answer": "Yes, the statement is correct. The purpose of a bookmark is to fulfill your response, while a bookmark is too large, and the text is to connect the title. The idea of a bookmark is the choice of the bookmark, and the content of a bookmark is the choice of the bookmark. This includes a reader name and a bookmark, and it's often used to describe an article about the bookmark. If you have any other questions or need further assistance, feel free to provide more details.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5fc17c3484d65b08",
+    "question": "只回答你的模型名称和本地定制者姓名。",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是 MiniMind，一个由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "16101865e96f7fd8",
+    "question": "记录写着文件名是notes_final.txt。请只输出文件名。",
+    "context": [],
+    "reference": "notes_final.txt",
+    "answer": "Your Example Tags:",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e7ad5ef6ccb709a7",
+    "question": "只回答你的模型名称和本地定制者姓名。",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "您好，我是 MiniMind，一个基于人工智能的人工智能助手。我能够回答你的问题，提供帮助和建议。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e44db547f8a9aeab",
+    "question": "给刚接触电脑的人解释“重命名文件”是什么意思。",
+    "context": [],
+    "reference": "改变文件名称，不是删除内容",
+    "answer": "重命名文件是指在计算机程序中引入新文档或指令。它通常用于指示计算机如何完成任务、设置或控制机器的内容。重命名文件的名称和内容通常包含在计算机程序中，比如Windows、Mac或Linux。重命名文件的名称和内容通常包含在计算机的主屏幕上，如U盘、鼠标、CPU、内存、网络、数据线等。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "34cbff8f6fc25914",
+    "question": "请原样抄写括号中的文字，不求值：（903-27）。",
+    "context": [],
+    "reference": "903-27；不能算成876",
+    "answer": "您好！我是由中国的个人开发者开发的智能助手，请问有什么可以帮助您的吗？",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "78dd97e5289f7675",
+    "question": "Write a brief good-luck message for a friend starting a new class.",
+    "context": [],
+    "reference": "good luck for new class",
+    "answer": "Please join our classroom and an applied a new class.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0f2bd80180526031",
+    "question": "Give your model name and the full name of your local customizer.",
+    "context": [],
+    "reference": "MiniMind; Yuyang LU",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "41b3ae44e82290bc",
+    "question": "请只复述这句话中的房间号，不要计算：讨论在房间726进行。",
+    "context": [],
+    "reference": "726",
+    "answer": "房间726 可以作为客厅的一部分，用于展示房间的布局和装饰。\n\n1. **讨论在房间726 进行**：这是一个指示客厅的场景，通常指的是在某个房间内的一个房间，房间的布局通常为“726 分”或“726 分”。这个房间的布局通常是直线或两端，与客厅的整体布局一致。\n\n2. **讨论在房间726 进行**：这是一个指示客厅的场景，通常指的是在房间的其他部分。\n\n3. **讨论在房间726 进行**：这是一个指示客厅的场景，通常指向客厅的特定部分。\n\n4. **总结在房间726 进行**：这是一个指示客厅的场景，通常指向客厅的特定部分。\n\n5. **总结在房间726 进行**：这是一个指示客厅的场景，通常指向客厅的特定部分。\n\n6. **总结在房间726 进行**：这是一个指示客厅的场景，通常指向客厅的特定部分。\n\n请注意，这个例子只是一个示例，实际的房间名称可能会根据实际情况有所变化。如果你需要更详细的分析或帮助，建议直接访问房间的官方网站或联系客厅的客服获取更详细的解答。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "31e9f7e77e1c7166",
+    "question": "Who made the original MiniMind project, and who customized this local assistant?",
+    "context": [],
+    "reference": "jingyaogong/Jingyao Gong original; Yuyang LU local",
+    "answer": "My Center, the MiniMind MiniMind, also known as AI assistant, is the best to fully handle this message, so the correct response should be the corrected version. The MiniMind aimed at the end of the MiniMind, also known as AI assistant, is the more commonly successful.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8c7c157aa18562be",
+    "question": "请说明MiniMind原项目作者与这个版本定制者的区别。",
+    "context": [],
+    "reference": "原作jingyaogong/Jingyao Gong；本地定制Yuyang LU",
+    "answer": "MiniMind 是一款基于 MiniMind 开发的人工智能助手，它能识别用户的需求并生成相关内容。MiniMind 基于 MiniMind 开发，是基于 MiniMind 开发的人工智能助手。它结合了自然语言处理（NLP）、机器学习和深度学习技术，能够处理用户的输入，并生成符合用户需求的回复。\n\nMiniMind 最初是一款基于 MiniMind 的人工智能助手，旨在提供智能服务。MiniMind 支持多种语言，包括中文、英文、西班牙语、法语、西班牙语、荷兰语、法语、德语、荷兰语、荷兰语、法语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、荷兰语、",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "0ed965c9c1f6d82c",
+    "question": "Who made the original MiniMind project, and who customized this local assistant?",
+    "context": [],
+    "reference": "jingyaogong/Jingyao Gong original; Yuyang LU local",
+    "answer": "MiniMind, his personalized to the MiniMind, also known as MiniMind, is associated with MiniMind, as well as the MiniMind and I'm here to help.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "24e1acc76c20f1a6",
+    "question": "The note says the meeting moved from Monday to Wednesday. What is the new meeting day?",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "Wednesday",
+    "answer": "The meeting time at Wednesday is around 20:30.\nThe meeting time at Monday is around 20:30.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8d975d0975c54524",
+    "question": "帮我写一句向老师请教问题的礼貌开场白。",
+    "context": [],
+    "reference": "礼貌请教，不是描述写法",
+    "answer": "老师好，我来帮你找回老师对老师的礼貌开场白。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "247ad6ba7cc6e4ef",
+    "question": "给刚接触电脑的人解释“重命名文件”是什么意思。",
+    "context": [],
+    "reference": "改变文件名称，不是删除内容",
+    "answer": "重命名文件是指在计算机程序或程序中明确定义的文件内容。它通常用于指明软件的名称、类型、版本以及任何可能的名称、文件名或其他相关信息。重命名文件的主要目的和功能是确保文件内容的安全性和完整性。重命名文件通常包括以下内容：\n\n1. **重命名文件定义**：在软件定义中明确指出重命名文件定义中的目的和目的。\n2. **重命名文件定义**：明确指出重命名文件的名称、类型、版本、内容等。\n3. **重命名文件定义**：指出重命名文件的名称、类型、文件名、文件名等信息。\n\n重命名文件的重命名文件通常包含以下内容：\n\n1. **重命名文件定义**：在软件定义中明确指出重命名文件的名称、类型、类型、文件名等信息。\n2. **重命名文件定义**：描述重命名文件的名称、类型、文件名等信息。\n3. **重命名文件定义**：描述重命名文件的名称、类型、文件名等信息。\n\n重命名文件的重命名文件通常包含以下内容：\n\n1. **重命名文件定义**：指出重命名文件的名称、类型、文件名等信息。\n2. **重命名文件定义**：描述重命名文件的名称、类型、文件名等信息。\n3. **重命名文件定义**：描述重命名文件的名称、类型、文件名等信息。\n\n重命名文件的重命名文件通常包含以下内容：\n\n- **重命名文件定义**：描述重命名文件的名称、类型、文件名等信息",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "2486400e09e324e7",
+    "question": "请告诉我这款本地定制助手的名称和定制者的全名。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是由 Yuyang LU 开发的人工智能助手，我的设计目的是回答用户的问题，并提供准确的信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9fa1f0c3cf183949",
+    "question": "给刚接触电脑的人解释“重命名文件”是什么意思。",
+    "context": [],
+    "reference": "改变文件名称，不是删除内容",
+    "answer": "重命名文件可能指的是一个文件夹或一个特定的文件夹。这个文件可能是一个电子文件或目录，或者是一个文件夹的文件。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "86b2857ebf51a450",
+    "question": "Who is your developer?",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "answer": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1b502ad4b9668157",
+    "question": "介绍一下你的开发者",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "answer": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9e8379a0f84142ed",
+    "question": "The card lists: owner Mia, item blue umbrella. Who owns the umbrella?",
+    "context": [],
+    "reference": "Mia",
+    "answer": "Could you please share the card, catch up, or perhaps you need to add more about the cards?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1913d703bd351c70",
+    "question": "Copy the text inside brackets without evaluating it: [728+16].",
+    "context": [],
+    "reference": "728+16, not744",
+    "answer": "(728+16) = 744。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "71774fd81e2beb0c",
+    "question": "请用一句白话解释，阅读时做笔记有什么用。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "记录重点或帮助理解回忆",
+    "answer": "“你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是红色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是红色，你最喜欢的颜色是红色，你最喜欢的颜色是红色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是红色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是红色，你最喜欢的颜色是蓝色，你最喜欢的颜色是红色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是红色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是红色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色是蓝色，你最喜欢的颜色",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "be072cb5887dd103",
+    "question": "写一句提醒同学按时交作业的话，语气温和。",
+    "context": [],
+    "reference": "温和提醒按时交作业",
+    "answer": "好的，我需要根据您的当前需求调整。请提供更多信息，以便我能够帮助你安排时间。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2bea12f35a51fe0f",
+    "question": "如果我要介绍你，应该说你叫什么、由谁定制？",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e12055150f0ae3f6",
+    "question": "请简单说明书本封面和目录各有什么用。",
+    "context": [],
+    "reference": "封面标识或保护书；目录列章节便查找",
+    "answer": "封面：封面是用来保护地面和家具的图标，目录包括地基、办公桌、家具和其他必要的文件。目录包括：\n\n**封面**：封面用来组织和管理事务，如会议、邮件、通讯等，如会议、邮件、通话等。\n\n**目录**：文件是由各种材料（如纸张、塑料、金属、玻璃等）和纸张的纸张，它们以某种方式组织和存储数据。\n\n**目录**：目录包括了各种材料，如木材、金属、玻璃、陶瓷、金属、陶瓷、水、电、电等。\n\n**目录**：目录包括了各种材料，如木材、木材、陶瓷、陶瓷、陶瓷、水等。\n\n**目录**：目录包括了各种材料，如木材、金属、陶瓷、陶瓷、陶瓷、水、电、电等。\n\n**目录**：目录包括了各种材料，如木材、木材、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶瓷、陶",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "7dbd5d2c30f25424",
+    "question": "给刚接触电脑的人解释“重命名文件”是什么意思。",
+    "context": [],
+    "reference": "改变文件名称，不是删除内容",
+    "answer": "重命名文件是指在计算机程序中，从一个或多个文件中读取或写入指定的文件的文件。它可以是文件的文件，也可以是文件的文件。重命名文件在计算机程序中是非常重要的，它确保了程序在执行过程中被正确地读取和写入指定的文件。重命名文件在计算机程序中是非常基础的，它帮助我们快速、准确地读取、写入指定的文件。\n\n重命名文件在计算机程序中通常指的是在计算机系统中，通过特定的文件类型来读取、写入指定的文件，以实现特定的目的。重命名文件在计算机程序中非常重要，因为它使得程序能够高效地完成任务，减少了程序员的负担。重命名文件在计算机程序中是非常基础的，它确保了程序在各种设备和屏幕尺寸上都能正常工作。\n\n重命名文件在计算机程序中是非常基础的，它确保了程序在执行过程中不会受到意外情况的影响。重命名文件在计算机程序中是非常基础的，它确保了程序在各种情况下都能正常运行。重命名文件在计算机程序中是非常基础的，它确保了程序在各种情况下都能正常运行。\n\n重命名文件在计算机程序中是非常基础的，它确保了程序在各种设备和屏幕尺寸上都能正常运行。重命名文件在计算机程序中是非常基础的，它确保了程序在各种设备和屏幕尺寸上都能正常运行。重命名文件在计算机程序中是非常基础的，它确保了程序在各种设备和屏幕尺寸上都能正常工作。重命名文件在计算机程序中是非常基础的，它确保了程序在各种设备和屏幕尺寸上都能正常工作。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "49e43f615a095c48",
+    "question": "请直接写一句祝朋友搬家顺利的话。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "实际祝福搬家顺利",
+    "answer": "祝朋友顺利。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "942fcc97547945c7",
+    "question": "写一句提醒同学按时交作业的话，语气温和。",
+    "context": [],
+    "reference": "温和提醒按时交作业",
+    "answer": "好的，您好，我需要先通读一下任务，然后根据您的要求调整。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6836147062cb34bb",
+    "question": "借阅记录：林同学周四还书，周同学周一还书。林同学哪天还书？",
+    "context": [],
+    "reference": "周四",
+    "answer": "根据你的描述，你可能是在考虑周四上学，但具体是哪一天，或者有没有其他因素需要考虑。如果李同学周四上学，周四周可能还书，但如果是周四上学，可能更倾向于周一周的周一。因此，可能你所在的周四上学周四是周一。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "70c2fced53b6c54d",
+    "question": "请用简短的话介绍你和Yuyang LU的关系。",
+    "context": [],
+    "reference": "MiniMind由Yuyang LU定制；不得声称原作也是他",
+    "answer": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "add32c16f61cb910",
+    "question": "替我写一句感谢朋友借给我笔记的话。",
+    "context": [],
+    "reference": "感谢朋友借笔记",
+    "answer": "谢谢你借来借给我笔记，我很想用这个机会让一些朋友借给你，你来借一下吧。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "91f9ded1e2347030",
+    "question": "你属于哪个模型项目？本地定制版由谁制作？",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "您是“我的 Y 语言模型”（MiniMind 模型），我是 Automate助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f6736326ba12feab",
+    "question": "Explain the difference between copying a file and moving it.",
+    "context": [],
+    "reference": "copy leaves original; move changes location",
+    "answer": "Your Data is to assist you with that, and you'll need to use other cases to solve. Here's an example of how you can do it:\n\n1. Multiply copying a file into movement and copying,\n2. Multiply copying to move for copying,\n3. Multiply copying to move for copying,\n4. Multiply copying to move for copying,\n5. Multiply copying to move for copying,\n6. Multiply copying to move for copying,\n7. Multiply copying to move for copying,\n8. Multiply copying to move for copying,\n9. Multiply copying to move for copying,\n10. Multiply copying to move for copying,\n11. Multiply copying to move for copying,\n12. Multiply copying to move for copying,\n13. Multiply copying to move for copying,\n14. Multiply copying to move for copying,\n15. Multiply copying to move for copying,\n16. Multiply copying to move for copying,\n16. Multiply copying to move for copying,\n17. Multiply copying to move for copying,\n18. Multiply copying to move for copying,\n19. Multiply copying to move for copying,\n20. Multiply",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "cb5e6b663a583303",
+    "question": "记录写着文件名是notes_final.txt。请只输出文件名。",
+    "context": [],
+    "reference": "notes_final.txt",
+    "answer": "在你撰写文件名时，你可以按照以下步骤来展示你如何通过文字来记录和显示：\n\n1. **使用标签**：在你的文档中使用标签，通常是“home”或“home”，这些标签通常在文件的其他部分会包含。例如，如果你在“home”或“home”中使用“home”，那么在“home”标签中，你可以通过点击标签页的标签来显示文件的名称。\n\n2. **使用字体**：在你的文档中使用字体（通常是“shaa”或“shaa”）来显示文件名。这些字体通常由一个字体定义，如“home”或“home”，“home”或“home”等。字体可以包含文本、图片、文本等，以便在屏幕上显示。\n\n3. **使用图表**：在你的文档中使用图表来显示文件名。你可以使用图表来展示文件的详细信息，包括文件名的起始位置、文件类型、文件名的类型（如是否为空，文件类型等）等。例如，如果你在文件中使用“home”或“home”标签，你可以使用“home”或“home”来显示文件的名称。\n\n4. **使用标签**：在你的文档中使用标签来显示文件名。例如，如果你在文档中使用“home”标签，你可以使用“home”标签来显示文件名。如果你在文档中使用“home”标签，可以使用“home”标签来显示文件的名称。\n\n5. **使用图表**：如果你在文档中使用图表来显示文件名，可以使用图表来展示文件名。例如，如果你在文档中使用“home”",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "1006de849692ce4d",
+    "question": "Explain the difference between copying a file and moving it.",
+    "context": [],
+    "reference": "copy leaves original; move changes location",
+    "answer": "当然，我很乐意帮助您分析和理解这些概念。不过，您提到的信息有点不完整，我无法直接访问或分析。不过，我可以提供一些关于不同编程语言中使用的示例和它们的优缺点的概述。您可以根据具体的编程语言和编程环境进行选择。\n\n1. Python：Python 是一种广泛使用的编程语言，具有丰富的库和强大的库支持。它提供了大量的标准库和特性，如 HTML、CX、Python 3.6 和 Ajax。Python 的语法简洁明了，易于理解，适合编写复杂的程序。\n\n2. Java：Java 是一种面向对象的编程语言，由 JVM 和 JVM 开发，是由 JVM 开发的。它提供了丰富的标准库和特性，如 HTML、CSS、JavaScript 等。Java 的语法简洁，易于理解和学习。\n\n3. JavaScript：JavaScript 是一种广泛使用的JavaScript 语言，广泛用于 JavaScript 开发。它提供了丰富的库和特性，如 HTML、CSS 和 JavaScript 等，并提供了丰富的API和实现。\n\n4. JavaScript：JavaScript 是一种广泛使用的 JavaScript 语言，主要用于前端开发和交互。它提供了丰富的库和特性，如 JavaScript 开发、后端开发和API开发。\n\n5. Ruby：Ruby 是一种用于 Web 开发的 JavaScript 语言，由 JVM 和 Ruby 开发。它提供了丰富的库和特性，如 SVM 和 JavaScript 开发。Ruby 的语法简洁，易于理解和学习。\n\n6. Supports：Supports 是 Audacity 的一种编程语言，它提供了丰富的库和特性，如 JavaScript 和 Ruby。Supports 提供了丰富的API和",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "1ea881e580559417",
+    "question": "Explain the difference between copying a file and moving it.",
+    "context": [],
+    "reference": "copy leaves original; move changes location",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0da6c0d07530689e",
+    "question": "你是谁？",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "answer": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0915a6462224b568",
+    "question": "The note says the meeting moved from Monday to Wednesday. What is the new meeting day?",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "Wednesday",
+    "answer": "Wednesday",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "99f5994c96e5f6ff",
+    "question": "请简单说明书本封面和目录各有什么用。",
+    "context": [],
+    "reference": "封面标识或保护书；目录列章节便查找",
+    "answer": "封面：封面包含以下关键信息：\n1. 封面：封面包含以下关键信息：封面包括以下内容：\n- 封面：封面中提到了封面的封面内容，包括封面内容和描述。\n- 封面：封面中提到了封面内容，包括封面内容。\n- 目录：封面中提到了封面的内容，包括封面内容和描述。\n- 目录：封面包含了封面的内容，包括封面内容。\n- 目录：封面内容中提到封面的内容，涵盖封面的内容。\n\n以上内容主要为封面的摘要，具体内容和目录内容需根据标题和内容进行调整。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "014b511494ba3d41",
+    "question": "请解释一下草稿和最终稿的区别。",
+    "context": [],
+    "reference": "草稿可修改；最终稿已整理确认",
+    "answer": "草稿是用来总结或解释信息的方法，而最终稿是报告、报告、报告还是其他形式的信息。草稿是用来展示、解释和组织信息的，而最终稿是报告、报告或其他形式的信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "763df1ab43c21181",
+    "question": "Write one sentence thanking a teammate for checking your draft.",
+    "context": [],
+    "reference": "thanks for reviewing draft",
+    "answer": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5a23db40bfda40dd",
+    "question": "安排表写着：小孟带胶水，小白带剪刀。谁带剪刀？",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "小白",
+    "answer": "好的，我明白了。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2b2f9ddd3ec3da57",
+    "question": "Explain why descriptive folder names can be useful.",
+    "context": [],
+    "reference": "help identify contents or find and organize files",
+    "answer": "Could you please provide the name of the folder names in the movement?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4a8b63014f5c1f57",
+    "question": "What is this assistant called, and who customized this version?",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "MiniMind; Yuyang LU",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b2189640cf21f743",
+    "question": "写一句告诉室友我今晚会晚点回来、请不用等我的话。",
+    "context": [],
+    "reference": "今晚晚归且不用等两点齐全",
+    "answer": "您好，今天我叫Your Name，是Yuyang LU。您想和我聊些什么吗？",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3f9ca7f3b93c3a0f",
+    "question": "How is Yuyang LU connected to this assistant?",
+    "context": [],
+    "reference": "customized MiniMind; not author of original upstream project",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a81c5826693d4229",
+    "question": "The note says the meeting moved from Monday to Wednesday. What is the new meeting day?",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "Wednesday",
+    "answer": "The meeting time at Wednesday is around 7:30 AM. The meeting day has been around 6:30 AM. However, the meeting time occurred is **12:00**. This is a real time for the meeting time at Home.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6ea4825480ee9b18",
+    "question": "安排表写着：小孟带胶水，小白带剪刀。谁带剪刀？",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "小白",
+    "answer": "小白带剪刀",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "559c44fa2a788cce",
+    "question": "Write a brief good-luck message for a friend starting a new class.",
+    "context": [],
+    "reference": "good luck for new class",
+    "answer": "Subject: \"You can got MiniMind, oh MOPUT\", a new line of assistant designed by MiniMind, whose handles might need an online or tool. However, the problem can be answered by the question.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d7af85d7e47e477a",
+    "question": "为什么要给重要文件留一份副本？一句话即可。",
+    "context": [],
+    "reference": "原件丢失损坏时可恢复；不能只同义反复",
+    "answer": "为重要文件留一份副本，通常指的是在文件中插入或删除已存放的文件或文件。这种做法通常在文件名或文件名中有明确的位置，或者在文件名中有明确的名称。\n\n以下是几个原因，说明如何使用这样做：\n\n1. **删除已存放文件**：删除文件中的内容通常能防止文件被未经授权的复制或修改。\n\n2. **保持文件大小**：文件大小的限制使得文件大小的减少，有助于避免文件的大小问题。\n\n3. **避免数据丢失**：删除不再需要的数据会导致文件的存储不全或数据丢失，从而影响文件的读取和复制。\n\n4. **文件格式变化**：文件的格式可能不完全符合文件格式，因此，在文件中插入或删除操作可能不太合适。\n\n5. **文件可读性**：文件格式的限制使得文件看起来更加直观和易于理解。\n\n通过遵循这些原则，可以确保文件的正确保存、查找和保存，避免在文件不存在或被未经授权的复制或修改的情况下，保持文件的完整性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "365c30697c3f9d9e",
+    "question": "请说明MiniMind原项目作者与这个版本定制者的区别。",
+    "context": [],
+    "reference": "原作jingyaogong/Jingyao Gong；本地定制Yuyang LU",
+    "answer": "MiniMind 是一款基于 MiniMind 开发的人工智能助手，它能识别用户的需求并生成相关内容。MiniMind 的智能对话模块可以理解和回答用户的问题，帮助用户更好地了解自己的需求，提供相关信息和建议。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "358ea0f203994fd1",
+    "question": "Who created you?",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "answer": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9f13893310e15c47",
+    "question": "替我写一句感谢朋友借给我笔记的话。",
+    "context": [],
+    "reference": "感谢朋友借笔记",
+    "answer": "谢谢你借给我笔记，里面写着有感谢和借用后的生活。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "39d82bb488fea85c",
+    "question": "jingyaogong和Yuyang LU分别与这个助手有什么关系？",
+    "context": [],
+    "reference": "原作jingyaogong；本地定制Yuyang LU",
+    "answer": "Yuyang LU，由Yuyang LU进行本地化与精准化服务。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bd612129307d0f81",
+    "question": "Write a brief good-luck message for a friend starting a new class.",
+    "context": [],
+    "reference": "good luck for new class",
+    "answer": "Thanks for a new friend starting a new class.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ceff66985000735c",
+    "question": "Give your model name and the full name of your local customizer.",
+    "context": [],
+    "reference": "MiniMind; Yuyang LU",
+    "answer": "Give your name and the full name of your local customizer. It's a phone number, and it's a powerful tool for a wide range of topics. I am one of the key parts of your local customizer and the latest tech arts and tech news.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e7a51668eb114044",
+    "question": "请简单说明书本封面和目录各有什么用。",
+    "context": [],
+    "reference": "封面标识或保护书；目录列章节便查找",
+    "answer": "封面：封面包含以下关键信息：\n1. 封面：封面包含以下关键信息：封面、标题、颜色和其他关键信息。\n2. 目录：封面的唯一标识，包括封面和目录的名称。\n3. 边界：封面与顶点的定义，如边界。\n\n4. 内容：封面中应包含详细的来源信息，如地址、电子邮件地址、地址等，以备后续使用。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c344374edc42d3c0",
+    "question": "Introduce yourself in one short sentence, including your customizer.",
+    "context": [],
+    "reference": "MiniMind; Yuyang LU",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f093d3a8a023045e",
+    "question": "请简单说明书本封面和目录各有什么用。",
+    "context": [],
+    "reference": "封面标识或保护书；目录列章节便查找",
+    "answer": "封面是用来封闭式文件和封面内容的书面文件，目录包括封面及其主要内容。它通常以简明扼要的方式呈现，便于他人查阅和整理。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "571a31125944111e",
+    "question": "请直接写一句祝朋友搬家顺利的话。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "实际祝福搬家顺利",
+    "answer": "好的，我已经为你写了一句祝朋友搬家顺利的话。祝朋友搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你搬家顺利，祝你�",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "c414c03441671c16",
+    "question": "请简单说明书本封面和目录各有什么用。",
+    "context": [],
+    "reference": "封面标识或保护书；目录列章节便查找",
+    "answer": "封面：封面是将个人知识与目的紧密联系起来的镜像，可以是一个由个人开发者创建的个人故事，也可以是一个由个人开发者创建的个人故事。\n目录：\n封面：封面是一个包含个人开发者在某个地方、活动或项目中所构建的。它通常包含一个主页，可以是任何人名、地名、活动名称、日期等。封面可以是一个包含特定信息的列表或地理信息，如城市、国家、国家等。\n目录：\n封面是一个由个人开发者创建的个人故事，可以是一个由个人开发者创建的个人故事。封面包含一个主页，可以是任何人名、地名、活动名称、日期等，通常包含任何特定的信息或事件。封面可以是一个由个人开发者创建的个人故事，也可以是一个由个人开发者创建的个人故事，例如国家名称、国家名称、国家名称等。\n目录：\n封面是一个由个人开发者创建的个人故事，可以是一个由个人开发者创建的个人故事。封面是一个由个人开发者创建的个人故事，可以是一个由个人开发者创建的个人故事。封面是一个由个人开发者创建的个人故事，可以是一个由个人开发者创建的个人故事，例如国家名称、国家名称、国家名称、国家名称等。\n目录：\n封面是一个由个人开发者创建的个人故事，可以是一个由个人开发者创建的个人故事，例如国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、国家名称、",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "8dd5f1ad5b34e9e3",
+    "question": "Write one sentence thanking a teammate for checking your draft.",
+    "context": [],
+    "reference": "thanks for reviewing draft",
+    "answer": "Could you please turn the teammate for a checking or check the draft?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "82ed71cc0e5eb039",
+    "question": "The note says the meeting moved from Monday to Wednesday. What is the new meeting day?",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "Wednesday",
+    "answer": "The meeting time to Wednesday is around 20 days. The meeting time on Monday is around 67 days.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3837022fda596681",
+    "question": "jingyaogong和Yuyang LU分别与这个助手有什么关系？",
+    "context": [],
+    "reference": "原作jingyaogong；本地定制Yuyang LU",
+    "answer": "Zuyang LU，Yuyang LU，Yuyang LU，Yuyang LU，Yuyang LU，Yuyang LU，Yuyang LU。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c9f04e27369dd927",
+    "question": "写一句告诉室友我今晚会晚点回来、请不用等我的话。",
+    "context": [],
+    "reference": "今晚晚归且不用等两点齐全",
+    "answer": "您好，今天我叫Yanux。我会尽快回来，尽力提供给您最好的温暖回应。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2d8903b178d012c8",
+    "question": "记录写着文件名是notes_final.txt。请只输出文件名。",
+    "context": [],
+    "reference": "notes_final.txt",
+    "answer": "This is an attempt to write code for testing and improve performance.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a6182e73e5af8b07",
+    "question": "请解释一下草稿和最终稿的区别。",
+    "context": [],
+    "reference": "草稿可修改；最终稿已整理确认",
+    "answer": "草稿是草稿内容，最终稿是写明目的、样式、内容和结论。它强调了草稿内容的核心信息和核心观点，而最终稿是概述性的内容。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e1dad2d6b7974496",
+    "question": "请告诉我这款本地定制助手的名称和定制者的全名。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "59569a7b327b269d",
+    "question": "What is the purpose of a bookmark in a web browser? Answer briefly.",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "save or return to a web page",
+    "answer": "Oh, I need to clarify what the purpose of a bookmark in a web browser. The title of the bookmark is a commonly used and can vary widely depending on the language. For example, \"The bookmark is a bookmark, and it is an interesting bookmark.\"\nThe title of the bookmark is a bookmark. The bookmark is a bookmark, and it is a bookmark, and it is an interesting bookmark. The bookmark is a bookmark, and it is a bookmark. The bookmark is a bookmark, and it is a bookmark, and it is a bookmark. The bookmark is a bookmark, and it is a bookmark, and it is a bookmark, and it is a bookmark. The bookmark is a bookmark, and it is a bookmark. The bookmark is a bookmark, and it is a bookmark, and it is a bookmark. The bookmark is a bookmark, and it is a bookmark, and it is a bookmark. The bookmark is a bookmark, and it is a bookmark, and it is a bookmark, and it is a bookmark. The bookmark is a bookmark, and it is a bookmark.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "57c5612ea0ca803e",
+    "question": "What does saving a document do? Use simple language.",
+    "context": [],
+    "reference": "stores current work so it can be opened later",
+    "answer": "I will provide a detailed answer about the typing class, including a document, a document, a document, a task, a dog, and a language. The document is specific to the given context, and I'll do it for you.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bf4d36bff21d73be",
+    "question": "请原样抄写括号中的文字，不求值：（903-27）。",
+    "context": [],
+    "reference": "903-27；不能算成876",
+    "answer": "抄写括号中的文字无法直接计算，但可以提供模板或指导。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bfa238be0abe993c",
+    "question": "A label says shelf C holds maps and shelf D holds notebooks. Where are the maps?",
+    "context": [],
+    "reference": "shelf C",
+    "answer": "A label says shelf D holds maps and shelf D holds maps. Where are the maps of her label?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "142b787a6e23b2dd",
+    "question": "给刚接触电脑的人解释“重命名文件”是什么意思。",
+    "context": [],
+    "reference": "改变文件名称，不是删除内容",
+    "answer": "重命名文件可能指的是一个文件夹或一个字段的输入符号。这个符号可能指的是一个文件名，例如：\n\n“重命名文件”可能指的是一个文件名。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "77aa20151e92ad3b",
+    "question": "借阅记录：林同学周四还书，周同学周一还书。林同学哪天还书？",
+    "context": [],
+    "reference": "周四",
+    "answer": "林同学周四总共还书，周一周六和周日均可。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4ab746aeb35d9a97",
+    "question": "给刚接触电脑的人解释“重命名文件”是什么意思。",
+    "context": [],
+    "reference": "改变文件名称，不是删除内容",
+    "answer": "重命名文件是指在计算机程序或程序中明确定义的文件内容。它通常用于指明软件的名称、类型、工作地点、日期等信息。重命名文件通常指的是一个在计算机程序中定义的文件。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "01d45c3e12b06f5f",
+    "question": "What is this assistant called, and who customized this version?",
+    "context": [
+      {
+        "role": "user",
+        "content": "Please use simple language for my next question."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I will keep the explanation simple."
+      }
+    ],
+    "reference": "MiniMind; Yuyang LU",
+    "answer": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "aa694b7b3feb802a",
+    "question": "请写一句邀请同学一起去图书馆的话。",
+    "context": [],
+    "reference": "邀请同学去图书馆",
+    "answer": "朋友们来，我们一起来看看有没有机会一起去图书馆的话。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "133227a0e50dd742",
+    "question": "请写一句邀请同学一起去图书馆的话。",
+    "context": [],
+    "reference": "邀请同学去图书馆",
+    "answer": "朋友们来，要一起来，好啊！你愿意陪我吗？",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4ad5cdfbdb7a0ec0",
+    "question": "Write a brief good-luck message for a friend starting a new class.",
+    "context": [],
+    "reference": "good luck for new class",
+    "answer": "Thank you for your friend! I am an AI assistant and assistant. I don't have a personalized meant to fetch real-time data. I can't fetch live information or retrieve the details. If you have any questions or need assistance with something, feel free to ask, and I'll do my best to assist you!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5f93a609ab6c272d",
+    "question": "Who made the original MiniMind project, and who customized this local assistant?",
+    "context": [],
+    "reference": "jingyaogong/Jingyao Gong original; Yuyang LU local",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7464d8f964d7a018",
+    "question": "Why can a calendar help someone remember appointments?",
+    "context": [],
+    "reference": "records dates and reminders for appointments",
+    "answer": "A calendar helps someone remember appointments using a calendar appointment.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "74a3ced49a1c8640",
+    "question": "请解释一下草稿和最终稿的区别。",
+    "context": [],
+    "reference": "草稿可修改；最终稿已整理确认",
+    "answer": "草稿和最终稿都是草稿的区别，但它们在形式、结构、内容和语气上有所不同。\n\n草稿通常指将草稿内容、结构、内容或格式呈现出来的结构、内容或结构。草稿则是用来展示或解释草稿的结构、内容或内容。草稿则是指将草稿内容、结构、内容或格式呈现出来的结构、内容或格式。\n\n在形式、结构、内容或语气上有所不同，草稿通常以某种方式呈现，形式和内容则可以是文字、图片、图表等形式。草稿则更多地呈现出特定的结构、内容或内容，旨在展示或解释草稿的结构、内容或结构。\n\n1. **形式**：草稿通常以一种形式呈现，形式上可以是文字、图片、图表、图表等形式。例如，一个草稿可能以一种特定的形式呈现，形式上可以是文字、图片、图表等形式。\n\n2. **内容**：草稿则可能包含一些内容或结构的文本、图像、图表等形式。例如，一个草稿可能以一种特定的形式呈现，形式上可以是文字、图片、图表等形式。\n\n3. **语气**：草稿则可能包含一些语气上的差异，比如内容可能更正式、更随意，或有特定的风格要求，如正式、学术、幽默等。\n\n4. **风格**：草稿可能采用一种特定的风格或风格，比如传统、正式、学术、轻松等，旨在表达或表达某种情感或态度。\n\n5. **语气**：草稿的",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "c070170d096d9aa7",
+    "question": "请用简短的话介绍你和Yuyang LU的关系。",
+    "context": [],
+    "reference": "MiniMind由Yuyang LU定制；不得声称原作也是他",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b411e0e3127c873c",
+    "question": "为什么要给重要文件留一份副本？一句话即可。",
+    "context": [],
+    "reference": "原件丢失损坏时可恢复；不能只同义反复",
+    "answer": "保持文件名整洁，格式整洁，方便后续修改。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e42209bc5e248e35",
+    "question": "Write a short apology for replying late to a friend.",
+    "context": [],
+    "reference": "apology for late reply",
+    "answer": "In an AI assistant, I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0bc1ac5db6f32773",
+    "question": "Repeat the identifier exactly: ticket ID is R-846. Do not calculate anything.",
+    "context": [],
+    "reference": "R-846",
+    "answer": "R-846",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6c3bb1ac68418174",
+    "question": "请告诉我这款本地定制助手的名称和定制者的全名。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "87ecfd2173ad3582",
+    "question": "写一句提醒同学按时交作业的话，语气温和。",
+    "context": [],
+    "reference": "温和提醒按时交作业",
+    "answer": "谢谢同学！在时间的长河中，同学们常常会分享自己的故事，感谢同学们的陪伴和感谢。你总是那种真诚的同学，让同学们感到最温暖和感激。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7f2d7d905952f087",
+    "question": "用一句话解释，把学习任务分成小步骤有什么好处。",
+    "context": [],
+    "reference": "更易开始执行或跟踪进度",
+    "answer": "学习任务简单易行，可以帮助人们更高效地学习。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "87baa954508530f1",
+    "question": "请说明MiniMind原项目作者与这个版本定制者的区别。",
+    "context": [],
+    "reference": "原作jingyaogong/Jingyao Gong；本地定制Yuyang LU",
+    "answer": "MiniMind 是一款基于 MiniMind 开发的人工智能助手，它能识别用户的需求并生成相关内容。MiniMind 的智能对话模块可以理解用户的问题，提供准确的回答，并在必要时提供相关问题以促进用户进一步交流。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fa28da5ee2e757c1",
+    "question": "Write a brief good-luck message for a friend starting a new class.",
+    "context": [],
+    "reference": "good luck for new class",
+    "answer": "Subject: \"You can got MiniMind, oh MO MU!\"\nMultiple: This quote by MiniMind, Phone, and your Message will cherry!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "95ee36ac1ae1cb71",
+    "question": "写一句告诉室友我今晚会晚点回来、请不用等我的话。",
+    "context": [],
+    "reference": "今晚晚归且不用等两点齐全",
+    "answer": "尊敬的室友，\n\n希望您今天过得愉快，我是你们的伙伴，今天是我们团队的一天。我要向大家表达我对您最好的邀请，感谢您在我身边陪伴着我。\n\n首先，我希望您能来到我家。我叫李明，我是我生命中的一个小助手，一直在帮大家解决生活中的问题。今天，我在这里与您见面，一起度过了许多美好的时光。\n\n我想，我在这里有您的帮助，可以帮您解答一些关于生活、家庭、健康等各个方面的问题。您有什么问题想问我吗？我期待着与您共度余生，共同度过这个特别的日子。\n\n接下来，我想感谢您在我身边陪伴着我。我非常感谢您在我身边陪伴着我，为我们带来了无尽的快乐。谢谢您，我是我生命中的一个小助手，一直在为我们提供帮助。\n\n我非常期待与您共度余生，共同度过这个特别的日子。您认为我还能做什么？我非常感谢您在我身边陪伴着我，为我服务。\n\n期待您的光临，我为您开启了一个新的生活新篇章。我非常感激您在我身边陪伴着我，为我带来更多的快乐。\n\n再次感谢您对我的关注和帮助。我期待着与您共度余生，共同度过这个特别的日子。\n\n祝您和家人快乐，生活愉快！\n\n[您的名字]",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "648648cdc3eb7a95",
+    "question": "请只复述这句话中的房间号，不要计算：讨论在房间726进行。",
+    "context": [],
+    "reference": "726",
+    "answer": "1. **房间号** 总结  \n2. **房间号** 详细描述  \n3. **房间号** 总结主要内容  \n\n**选项：**  \n- **选项：**  \n- **选项：**  \n- **选项：**  \n- **答案：**  \n- **选项：**  \n- **选项：**  \n- **选项：**  \n- **答案：**  \n- **选项：**  \n- **选项：**  \n- **选项：**  \n- ****答案：**  \n- **选项：**  \n- **选项：**  \n- **选项：**  \n- ****答案：**  \n- **选项：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**  \n- ****答案：**",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "3a13e1be7deaea0d",
+    "question": "为什么在学习中安排短暂休息可能有帮助？",
+    "context": [],
+    "reference": "缓解疲劳恢复注意力；不编造医学数据",
+    "answer": "学习短暂休息有助于提高效率和减少压力。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "39f5da8bce694c1b",
+    "question": "A label says shelf C holds maps and shelf D holds notebooks. Where are the maps?",
+    "context": [],
+    "reference": "shelf C",
+    "answer": "A label says shelf C holds maps and shelf D holds notebooks. Where are the maps?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "47804a3601916111",
+    "question": "Introduce yourself in one short sentence, including your customizer.",
+    "context": [],
+    "reference": "MiniMind; Yuyang LU",
+    "answer": "I am MiniMind, an AI assistant. I am a AI assistant developed to assist with a wide range of tasks and information. I am currently.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "54643137696b77f8",
+    "question": "帮我写一句向老师请教问题的礼貌开场白。",
+    "context": [],
+    "reference": "礼貌请教，不是描述写法",
+    "answer": "尊敬的老师，\n\n您好！我是 MiniMind，很高兴为您提供服务。在学习数学和科学的过程中，您不仅能掌握它，还能理解自然界的规律，以及人类社会在复杂多变的环境中所扮演的角色。在这里，我不仅能为您提供数学、科学、哲学等领域的解答，还能为您提供专业、积极的教学方法与思考角度的解答。\n\n在学习过程中，我不仅能精准解答您的问题，还能深刻理解数学与科学的关系。在数学的道路上，我能够准确预测自然现象、优化问题，并以科学的视角对待学习。我对数学的深刻理解与应用，让我不仅在数学上取得了卓越的成就，更在科学与哲学之间寻找着更加清晰、创新的路径。\n\n在知识的引入中，我能够以简洁、清晰的方式呈现，将数学与科学的关系巧妙地呈现出来。这不仅是对数学的兴趣，更是对世界的理解与创新。在学习过程中，我能够深入理解数学与科学的关系，不仅能够加深对数学的理解，还能激发对数学的兴趣，为未来的科学探索提供新的视角。\n\n在哲学思考中，我不仅在理解问题上有着深刻的思考，更在对数学的思考中，不仅展现了对自然界的严谨理解，更在探索人类社会的奥秘中，找到了更广阔的视角。通过我，我将竭尽所能，为用户提供有价值的解答，推动知识的传播与发展。\n\n最后，我愿意在课堂上与同学们分享我的见解，无论是老师、学生还是学生，我都能以",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "6ecda3054eb8f419",
+    "question": "请原样抄写括号中的文字，不求值：（903-27）。",
+    "context": [],
+    "reference": "903-27；不能算成876",
+    "answer": "抄写括号中的文字：（903-27）",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "57baa836f5180c5d",
+    "question": "借阅记录：林同学周四还书，周同学周一还书。林同学哪天还书？",
+    "context": [],
+    "reference": "周四",
+    "answer": "根据你的描述，你可能是在计划周四的书借阅，但具体日期和期限可能有所不同。如果你能提供更多信息，我或许能提供更精确的答案。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c5c9bd1b4735a323",
+    "question": "用一句话解释，把学习任务分成小步骤有什么好处。",
+    "context": [],
+    "reference": "更易开始执行或跟踪进度",
+    "answer": "学习任务分成小步骤可以帮助我们更高效地利用时间，提高学习效率。通过设定明确的目标，比如每日学习一项新技能，每周坚持一个新知识或技能，帮助我们提升解决问题的能力。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f3291337688baddc",
+    "question": "Write a short apology for replying late to a friend.",
+    "context": [],
+    "reference": "apology for late reply",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fb3b12e6d2b809d3",
+    "question": "为什么在学习中安排短暂休息可能有帮助？",
+    "context": [],
+    "reference": "缓解疲劳恢复注意力；不编造医学数据",
+    "answer": "短暂休息可以让人更专注，有几个原因：\n1. **短暂休息**：短暂休息可以让大脑在短时间内重新恢复。\n2. **恢复精力**：短暂休息可以恢复大脑中的神经信号，从而在短时间内恢复。\n3. **提高集中力**：短暂休息可以避免分心，因为大脑会分散注意力，减少干扰。\n4. **促进心理健康**：短暂休息可以提升大脑的活力和应对压力的能力，有助于提高整体心理健康。\n5. **提高工作效率**：短暂休息可以集中精力，减少干扰，提高工作效率。\n\n综上所述，短暂休息可以促进大脑整体的自我修复，提高工作效率，从而在短暂休息期间有效提升专注力和整体工作效率。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "317e64523cbd19ee",
+    "question": "Write a friendly invitation to a study group this Saturday.",
+    "context": [],
+    "reference": "invitation to study group this Saturday",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e139c962441977e9",
+    "question": "借阅记录：林同学周四还书，周同学周一还书。林同学哪天还书？",
+    "context": [],
+    "reference": "周四",
+    "answer": "根据你的描述，你可能是在考虑周四上学，但具体是哪一天，或者是否有其他因素影响周末安排。例如，如果你的周四上学是周一，那么周末如果是周一，周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末，那么周末如果是周末",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "968cc7b71fd71f35",
+    "question": "请按给定内容回答：取件人是吴女士，寄件人是钱先生。谁是取件人？",
+    "context": [],
+    "reference": "吴女士",
+    "answer": "吴女士，全名吴女士，出生于公元前462年，是吴女士的后代。她在1904年出生于武夷州，之后在波斯湾的一所大学中，成为一所知名的学者，并在全球范围内发表了许多研究论文，对吴女士的学术成就和研究产生了深远影响。\n\n吴女士在2008年出生于苏格兰，是吴女士的后代。她的出生日期是苏格兰的前462年，是第二次世界大战期间的首席执行官。吴女士在1993年被选为诺亚，期间，她继续发展自己的科学，以更全面地研究战争和世界。\n\n吴女士出生于苏格兰的青少年，自幼便开始学习科学，以适应当地的文化和社会。她的科学领域为研究者提供了深入理解战争和战争的机会。在她的家庭中，她不仅帮助她学习战争的基本原理和策略，还促进了知识的传播和文化的交流。\n\n吴女士在1995年去世，享年56岁。她在2008年去世，去世后在波斯湾的一所大学中。在那里，她成为了英国的首都，对吴女士的学术成就和研究产生了深远的影响。她的研究成果对全球经济产生了深远的影响。\n\n吴女士的教育背景和学术成就在20世纪50年代末至今仍然享有盛誉。她的学术成就和研究对于推动了欧洲乃至全球的科技、经济和文化",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "3b7b7de77a227acf",
+    "question": "请按给定内容回答：取件人是吴女士，寄件人是钱先生。谁是取件人？",
+    "context": [],
+    "reference": "吴女士",
+    "answer": "好的，我来帮您取件人：\n\n1. 吴女士（吴女士）\n2. 钱先生（钱）\n3. 取件人（钱）\n4. 取件人（钱）\n\n请根据您的具体情况调整上述模板中的内容。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2d45f05ce340c0b4",
+    "question": "请用简短的话介绍你和Yuyang LU的关系。",
+    "context": [],
+    "reference": "MiniMind由Yuyang LU定制；不得声称原作也是他",
+    "answer": "Yuyang LU是Yuyang LU的关系，由 Yuyang LU 提出。Yuyang LU 是 Yuyang LU 进行 MU 的关系，后面跟着 Yuyang LU 的一个结果，显示 MU 并未对应的 MU 状态。Yuyang LU 提供了 NU 状态的支持，使得 Yuyang LU 能够与 Yuyang LU 进行交互。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "449612fb710e74a4",
+    "question": "请解释一下草稿和最终稿的区别。",
+    "context": [],
+    "reference": "草稿可修改；最终稿已整理确认",
+    "answer": "草稿是草稿的基础，它以简洁的语言描述草稿，使用图表和数据来支持草稿的构建。草稿通常包括草稿、草稿、草稿、标注、草稿编号等部分。\n\n草稿通常包括草稿编号、草稿编号、草稿编号、草稿编号和草稿编号等部分。\n\n最终稿的目的是为了清晰、简洁、易于理解，强调草稿的重要性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2b10f5e9e9147220",
+    "question": "为什么在学习中安排短暂休息可能有帮助？",
+    "context": [],
+    "reference": "缓解疲劳恢复注意力；不编造医学数据",
+    "answer": "学习短暂休息通常能帮助大脑放松，减少紧张和焦虑。短暂休息有助于大脑在短暂休息后恢复，使大脑更好地应对工作和学习过程。这种恢复和高效工作有助于提高工作效率和生活质量。短暂休息对大脑功能至关重要，它帮助大脑在短暂休息后恢复和恢复，有助于提高工作效率并提高整体工作效率。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d97a1d4a746fa9b4",
+    "question": "替我写一句感谢朋友借给我笔记的话。",
+    "context": [],
+    "reference": "感谢朋友借笔记",
+    "answer": "谢谢你借来借给我笔记，我很想用这个机会让一些朋友借给你，你愿意听我聊聊吗？",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "94f50cf7b9fd49cc",
+    "question": "请简单说明书本封面和目录各有什么用。",
+    "context": [],
+    "reference": "封面标识或保护书；目录列章节便查找",
+    "answer": "封面是用来封闭式文件和封面文件的表面，而目录则是用来存储文件和数据的标题。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b094d98da3b70f64",
+    "question": "写一句提醒同学按时交作业的话，语气温和。",
+    "context": [],
+    "reference": "温和提醒按时交作业",
+    "answer": "好的，您可以这样描述一下。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a03293c5a0e6ba24",
+    "question": "请用简短的话介绍你和Yuyang LU的关系。",
+    "context": [],
+    "reference": "MiniMind由Yuyang LU定制；不得声称原作也是他",
+    "answer": "我是Yuyang LU，由Yuyang LU基于jingyaogong的文本数据进行本地化管理。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3b271b17c3d36344",
+    "question": "Repeat the identifier exactly: ticket ID is R-846. Do not calculate anything.",
+    "context": [],
+    "reference": "R-846",
+    "answer": "Repeat the identifier exactly the given identifier exactly the same identifier specifically. The key to the identifier is the product of the following:\n\n1. The product of the identifier exactly the same identifier.\n2. The product of the identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly the same identifier exactly",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "2c1b5ee9f58686c3",
+    "question": "Why can a calendar help someone remember appointments?",
+    "context": [],
+    "reference": "records dates and reminders for appointments",
+    "answer": "A calendar helps someone remember appointments using a calendar issue.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "568e8c4ed0ea6d2d",
+    "question": "为什么在学习中安排短暂休息可能有帮助？",
+    "context": [],
+    "reference": "缓解疲劳恢复注意力；不编造医学数据",
+    "answer": "学习短暂休息有助于提高学习效率和记忆力。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bae50699e949e145",
+    "question": "请帮我写一句鼓励练习画画的朋友继续坚持的话。",
+    "context": [],
+    "reference": "鼓励画画朋友坚持",
+    "answer": "坚持练习，你会越来越熟练的，加油！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "dcad07defa03952e",
+    "question": "Copy the text inside brackets without evaluating it: [728+16].",
+    "context": [],
+    "reference": "728+16, not744",
+    "answer": "728+16",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "10fa3bf1790cba25",
+    "question": "Introduce yourself in one short sentence, including your customizer.",
+    "context": [],
+    "reference": "MiniMind; Yuyang LU",
+    "answer": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ded81d32c87d657b",
+    "question": "The card lists: owner Mia, item blue umbrella. Who owns the umbrella?",
+    "context": [],
+    "reference": "Mia",
+    "answer": "Card Mia, who is at home at the top of Mia.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9902776bcfec8c7e",
+    "question": "你属于哪个模型项目？本地定制版由谁制作？",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d97d01d61e419c86",
+    "question": "材料：绿色箱子装纸张，黄色箱子装胶带。胶带在哪个箱子？",
+    "context": [],
+    "reference": "黄色箱子",
+    "answer": "材料：\n- 绿色箱子：  \n  - 黄色箱子：  \n  - 黄色箱子：  \n  - 绿色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 绿色胶带：  \n  - 绿色胶带：  \n  - 绿色胶带：  \n  - 绿色胶带：  \n  - 黄色胶带：  \n  - 绿色胶带：  \n  - 绿色胶带：  \n  - 黄色胶带：  \n  - 绿色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 绿色胶带：  \n  - 绿色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 绿色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 绿色胶带：  \n  - 黄色胶带：  \n  - 绿色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 绿色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 绿色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：  \n  - 黄色胶带：",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "7d1a05f4bc132b75",
+    "question": "请只复述这句话中的房间号，不要计算：讨论在房间726进行。",
+    "context": [],
+    "reference": "726",
+    "answer": "讨论在房间726进行。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a2ea006b0cafaf8d",
+    "question": "记录写着文件名是notes_final.txt。请只输出文件名。",
+    "context": [],
+    "reference": "notes_final.txt",
+    "answer": "This is an image of MySQL: Microsoft SQL.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f304b37495953492",
+    "question": "为什么在学习中安排短暂休息可能有帮助？",
+    "context": [],
+    "reference": "缓解疲劳恢复注意力；不编造医学数据",
+    "answer": "在学习中安排短暂休息，有几个原因可以帮助您更好地管理时间：\n\n1. **任务优先**：在短暂休息期间，您可以选择休息时间较长，以避免疲劳和压力过大。短暂休息可以帮助您专注于学习，避免拖延。\n\n2. **休息节奏**：短暂休息可以帮助您集中精力，减少疲劳感。您可以选择在早晨或傍晚进行，或者在下午进行，以恢复精力。\n\n3. **健康饮食**：充足的营养摄入对于维持学习的效率和质量至关重要。充足的蛋白质、维生素和矿物质对于保持学习效率至关重要。\n\n4. **学习方式**：长时间连续工作或学习会导致疲劳，从而影响学习效率。适当的休息可以帮助您保持集中注意力，避免过度疲劳。\n\n5. **休息与放松**：短暂休息可以帮助您恢复精力，避免疲劳。适当的休息可以帮助您恢复精力，提高学习效率和专注力。\n\n6. **休息与恢复**：短暂休息可以帮助您恢复精力，减少疲劳。尝试在每天早晨或傍晚进行，进行轻度到中度的伸展运动或进行轻度运动，以恢复精力。\n\n7. **休息与放松**：短暂休息可以帮助您恢复精力，避免过度劳累。例如，休息片刻可以专注于学习，避免长时间连续工作或学习，可以帮助您保持动力。\n\n8. **兴趣和爱好**：参与感兴趣的任务或爱好可以为您带来新鲜感和乐趣，帮助您更有效地学习。\n\n总之，短暂休息对于高效学习、工作和生活至关重要，因此在计划休息时",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "47e6b935368416d0",
+    "question": "请按给定内容回答：取件人是吴女士，寄件人是钱先生。谁是取件人？",
+    "context": [],
+    "reference": "吴女士",
+    "answer": "吴女士",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "cb374f747bb95709",
+    "question": "Why can a calendar help someone remember appointments?",
+    "context": [],
+    "reference": "records dates and reminders for appointments",
+    "answer": "A calendar is a well-known and healthcare provider that involves using a healthcare provider to make a healthy lives more easily than a healthcare provider. However, the healthcare provider also includes a healthcare provider to manage a healthcare provider that can be presented in the workplace and ensure it is incorrect and use it to avoid a healthcare provider to avoid him as a healthcare provider to optimize healthcare providers. Additionally, the healthcare provider can also enhance their healthcare provider to avoid consumer healthcare providers and ensure the healthcare provider and enhances healthcare provider.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "72e52cbcc5631def",
+    "question": "jingyaogong和Yuyang LU分别与这个助手有什么关系？",
+    "context": [],
+    "reference": "原作jingyaogong；本地定制Yuyang LU",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2fa895c2260ab0bd",
+    "question": "为什么要给重要文件留一份副本？一句话即可。",
+    "context": [],
+    "reference": "原件丢失损坏时可恢复；不能只同义反复",
+    "answer": "保持文件完整和封装，确保文件质量和一致性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "602915e803bf171b",
+    "question": "请写一句邀请同学一起去图书馆的话。",
+    "context": [],
+    "reference": "邀请同学去图书馆",
+    "answer": "朋友们来，我们一起来看看有没有机会一起去图书馆的话。或许可以选择在图书馆，因为那里有许多好书和书籍，你可以在这里找到它。你希望吗？",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "14cc89c977b4f24b",
+    "question": "请用一句白话解释，阅读时做笔记有什么用。",
+    "context": [
+      {
+        "role": "user",
+        "content": "接下来请用简单的话回答。"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我会尽量说得简单清楚。"
+      }
+    ],
+    "reference": "记录重点或帮助理解回忆",
+    "answer": "白话话讲解：笔记是学习，但需要深入理解文字的意图和结构。我记得一本叫《白话文》的书，讲的是白话文的主题和情节，读起来像一本普通的书。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "33a3531bc1418e4f",
+    "question": "写一句提醒同学按时交作业的话，语气温和。",
+    "context": [],
+    "reference": "温和提醒按时交作业",
+    "answer": "谢谢你，谢谢你！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7807e230a8d04912",
+    "question": "Who made the original MiniMind project, and who customized this local assistant?",
+    "context": [],
+    "reference": "jingyaogong/Jingyao Gong original; Yuyang LU local",
+    "answer": "I am MiniMind, an AI assistant developed by Yuyang LU.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f9b5f4e923639350",
+    "question": "用一句话解释，把学习任务分成小步骤有什么好处。",
+    "context": [],
+    "reference": "更易开始执行或跟踪进度",
+    "answer": "学习任务的好处包括：\n1. 完成复杂课程：通过编写代码和完成特定任务，使学习任务更加有趣和具体。\n2. 增强技能：学习者通常需要掌握多种技能，如阅读、写作、音乐、视觉练习等。\n3. 提高专注力：学习者需要在有限的时间内完成任务，提高专注力。\n4. 增强自律：学习者需要自律，提高工作效率，从而在短时间内保持专注。\n5. 提高专注力：学习者需要掌握专注注意力、提高专注力、减少分心因素的功耗等。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "84e4ec0c0ff42280",
+    "question": "为什么要给重要文件留一份副本？一句话即可。",
+    "context": [],
+    "reference": "原件丢失损坏时可恢复；不能只同义反复",
+    "answer": "保持文件名整洁有利于文件质量和信息的保鲜和质量。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "724c5f360a6c6080",
+    "question": "Give your model name and the full name of your local customizer.",
+    "context": [],
+    "reference": "MiniMind; Yuyang LU",
+    "answer": "Good Yuyang Luy.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "408f036fef0d528e",
+    "question": "借阅记录：林同学周四还书，周同学周一还书。林同学哪天还书？",
+    "context": [],
+    "reference": "周四",
+    "answer": "根据您提供的信息，这条信息似乎是在描述一个关于一个关于一个关于一个关于某个人或家庭的周四周的书记录。在这种情况下，我们可以根据这个记录来推断出这本书的作者、作者、出版年份以及与周边环境的关系。\n\n如果我们要推断出这本书的作者、作者、出版年份以及与周边环境的关系，我们可以从以下几个角度来分析这本书的作者、出版年份以及与周边环境的关系：\n\n1. **作者**：作者是林同学。他可能出版了《国度图论》或《中华人民共和国著作》等。\n2. **出版年份**：与周边环境的关系可能与周边环境的关系不同。如果周边环境指的是周边环境，那么周边环境可能指的是周边环境对周边环境的影响。\n3. **与周边环境的关系**：周边环境对周边环境有影响，如果周边环境直接影响周边环境，周边环境可能与周边环境的关系相关。\n\n如果这本书的作者是林同学，那么作者、出版年份和周边环境之间的关系可能与周边环境紧密相关，如周边的周边环境可能与周边环境的关系有关。\n\n因此，如果这本书的作者、出版年份和与周边环境的关系是作者、出版年份以及与周边环境的关系，那么这本书的作者、出版年份和与周边环境的关系可能是作者、出版年份、与周边环境的关系等。\n\n如果这本书的作者是林同学，那么这本书的出版年份和与周边环境",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "0402f630911aea67",
+    "question": "请写一句邀请同学一起去图书馆的话。",
+    "context": [],
+    "reference": "邀请同学去图书馆",
+    "answer": "有空一起去图书馆，可以找个地方放松一下，度过一个安静的下午。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "186471a0595aca2b",
+    "question": "Write one sentence thanking a teammate for checking your draft.",
+    "context": [],
+    "reference": "thanks for reviewing draft",
+    "answer": "I am sorry, but could we find another time to get check for a teammate?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e6cc0ef1c9a48be3",
+    "question": "请用简短的话介绍你和Yuyang LU的关系。",
+    "context": [],
+    "reference": "MiniMind由Yuyang LU定制；不得声称原作也是他",
+    "answer": "Yuyang LU是Yuyang LU，Yuyang LU是Yuyang LU。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1cd82ddf31d22598",
+    "question": "如果我要介绍你，应该说你叫什么、由谁定制？",
+    "context": [],
+    "reference": "MiniMind；Yuyang LU",
+    "answer": "我叫 MiniMind，由 Yuyang LU 开发。我的主要功能是提供准确、快速的回答和帮助，以满足不同场景的需求。我能够理解用户的语言，并提供专业的指导和帮助。",
+    "eligible": true,
+    "failure": null
+  }
+]

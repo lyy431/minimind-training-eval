@@ -1,0 +1,13 @@
+                                          bb_rlbb_rl_id_anchor4
+all answers correct %                      81.8       79.5
+used a non-calculator tool %                0.0        0.0
+calculator calls == #expressions %         99.5       99.2
+calculator calls < #expressions %           0.5        0.5
+calculator calls > #expressions %           0.0        0.2
+expressions copied correctly %             97.7       97.2
+correct tool results written in answer %       94.6       94.0
+all correct, 1 expression(s) %             98.2       97.3
+all correct, 2 expression(s) %             86.5       86.5
+all correct, 3 expression(s) %             70.1       66.0
+
+per problem: bb_rl_id_anchor4 better on 5, worse on 13, same on 182 (of 200); mean gain -2.2 pts +/- 1.1 (1 SE)

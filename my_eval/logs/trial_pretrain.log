@@ -1,0 +1,49 @@
+﻿Model Params: 63.91M
+Trainable Params: 63.912M
+python.exe : 
+At line:1 char:421
++ ... er\trainer; & D:\conda\envs\minimind\python.exe -u train_pretrain.py  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 56547 examples [00:00, 500907.74 examples/s]
+Generating train split: 171558 examples [00:00, 837907.74 examples/s]
+Generating train split: 328130 examples [00:00, 1078364.59 examples/s]
+Generating train split: 473280 examples [00:00, 1161672.98 examples/s]
+Generating train split: 623860 examples [00:00, 881742.72 examples/s] 
+Generating train split: 739828 examples [00:00, 703904.55 examples/s]
+Generating train split: 846090 examples [00:01, 608385.13 examples/s]
+Generating train split: 936093 examples [00:01, 586307.33 examples/s]
+Generating train split: 1002786 examples [00:01, 581692.17 examples/s]
+Generating train split: 1067232 examples [00:01, 424118.09 examples/s]
+Generating train split: 1144046 examples [00:02, 356647.50 examples/s]
+Generating train split: 1189816 examples [00:02, 361503.02 examples/s]
+Generating train split: 1249251 examples [00:02, 394413.09 examples/s]
+Generating train split: 1270238 examples [00:02, 547220.99 examples/s]
+Epoch:[1/2](20/39695), loss: 8.1497, logits_loss: 8.1497, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 1125.0min
+Epoch:[1/2](40/39695), loss: 7.9163, logits_loss: 7.9163, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 709.0min
+Epoch:[1/2](60/39695), loss: 7.5248, logits_loss: 7.5248, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 569.0min
+Epoch:[1/2](80/39695), loss: 7.3099, logits_loss: 7.3099, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 499.0min
+Epoch:[1/2](100/39695), loss: 7.5229, logits_loss: 7.5229, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 457.0min
+Epoch:[1/2](120/39695), loss: 7.3764, logits_loss: 7.3764, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 429.0min
+Epoch:[1/2](140/39695), loss: 7.2382, logits_loss: 7.2382, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 409.0min
+Epoch:[1/2](160/39695), loss: 7.2897, logits_loss: 7.2897, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 394.0min
+Epoch:[1/2](180/39695), loss: 7.0627, logits_loss: 7.0627, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 383.0min
+Epoch:[1/2](200/39695), loss: 7.0246, logits_loss: 7.0246, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 374.0min
+Epoch:[1/2](220/39695), loss: 6.9188, logits_loss: 6.9188, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 367.0min
+Epoch:[1/2](240/39695), loss: 6.9771, logits_loss: 6.9771, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 361.0min
+Epoch:[1/2](260/39695), loss: 6.9158, logits_loss: 6.9158, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 356.0min
+Epoch:[1/2](280/39695), loss: 6.7287, logits_loss: 6.7287, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 351.0min
+Epoch:[1/2](300/39695), loss: 6.6759, logits_loss: 6.6759, aux_loss: 0.0000, lr: 0.00049998, epoch_time: 347.0min
+Epoch:[1/2](320/39695), loss: 6.7359, logits_loss: 6.7359, aux_loss: 0.0000, lr: 0.00049998, epoch_time: 343.0min
+Epoch:[1/2](340/39695), loss: 6.7047, logits_loss: 6.7047, aux_loss: 0.0000, lr: 0.00049998, epoch_time: 340.0min
+Epoch:[1/2](360/39695), loss: 6.4751, logits_loss: 6.4751, aux_loss: 0.0000, lr: 0.00049998, epoch_time: 338.0min
+Epoch:[1/2](380/39695), loss: 6.5775, logits_loss: 6.5775, aux_loss: 0.0000, lr: 0.00049997, epoch_time: 335.0min
+Epoch:[1/2](400/39695), loss: 6.5348, logits_loss: 6.5348, aux_loss: 0.0000, lr: 0.00049997, epoch_time: 332.0min
+Epoch:[1/2](420/39695), loss: 6.4665, logits_loss: 6.4665, aux_loss: 0.0000, lr: 0.00049997, epoch_time: 330.0min
+Epoch:[1/2](440/39695), loss: 6.6031, logits_loss: 6.6031, aux_loss: 0.0000, lr: 0.00049997, epoch_time: 328.0min
+Epoch:[1/2](460/39695), loss: 6.2138, logits_loss: 6.2138, aux_loss: 0.0000, lr: 0.00049996, epoch_time: 326.0min
+Epoch:[1/2](480/39695), loss: 6.3844, logits_loss: 6.3844, aux_loss: 0.0000, lr: 0.00049996, epoch_time: 324.0min
+Epoch:[1/2](500/39695), loss: 6.2175, logits_loss: 6.2175, aux_loss: 0.0000, lr: 0.00049996, epoch_time: 323.0min

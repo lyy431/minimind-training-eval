@@ -1,0 +1,11 @@
+{
+  "review_type": "Targeted manual check of the only accepted trajectory failing whole-number matching; not a complete semantic audit.",
+  "position": 1879,
+  "gt": [
+    "45",
+    "1331"
+  ],
+  "finding_zh": "教师正确调用计算器，但最终把45写成了-45；旧判分器仍命中45这个子串。本轮保留既定历史筛选规则，另行明确记录这个错误，不将2492条统称为全部语义正确。",
+  "final": "计算结果为：(432-485)+14*7 = -53 + 98 = -45  \n另外，11的三次方是1331。",
+  "retained_under_predeclared_legacy_filter": true
+}

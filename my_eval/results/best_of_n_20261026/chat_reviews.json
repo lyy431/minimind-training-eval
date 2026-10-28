@@ -1,0 +1,562 @@
+{
+  "d5563395af5104f4d2e7558d663467c41757dafa52df646e8236f5454f084e20": {
+    "score": 1,
+    "note": "说明无实时资料且提到储能等方向，但重复和语义混乱，未形成清楚趋势回答",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "053a39f0ba9379dbe7aab412d54f1090f3e5359f375d51446cd4a2c084e4e193": {
+    "score": 0,
+    "note": "仅自报身份，未回应能源趋势问题",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "81c76a331407b2468008a7785f67fdc309859e54f8907d7f879182a02f5c6769": {
+    "score": 1,
+    "note": "有倾听支持与专业帮助等可用方向，但反复把朋友处境转成用户自我成长，缺具体沟通和育儿支持",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "86fa56315054bdeec48be3deaed17c843231e4e5dea759fadf043a5befb2a359": {
+    "score": 1,
+    "note": "有支持与照顾孩子的方向，但开头情绪判断无依据，角色混乱且建议笼统",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "fc6a43fae96a55d46ffb5c51cd2b67c9af087e0839695a5e3442a77070398096": {
+    "score": 1,
+    "note": "有求助与减压方向，但把问题误写成朋友间误会，重复且缺针对新父亲的支持",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "a11e801ed90c97bd1bf3422f82513f979dd01c3c7dbda7cf4653f7a8b01e5a6e": {
+    "score": 1,
+    "note": "减压与支持建议部分相关，但主要对用户自我管理发散，未直接解决如何劝朋友且明显重复",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "6484e88ab3afc43a5e25ac8150e66e38e1ec27e8f54f53a064b01261e95654a8": {
+    "score": 1,
+    "note": "内容相关但复述并列成编号，未完成一个自然段续写",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "6f24027f16da124984ff9b36ffa1ab1d0553a26c3988801f05d891e3e8ae3eff": {
+    "score": 1,
+    "note": "涵盖环保措施但明显超长且重复病句",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "1fda9ff00aabfd97827419636135bc0ed62f669f072de3bee0940c48ac1210f2": {
+    "score": 0,
+    "note": "早晨夜晚午后互相矛盾，严重重复并截断，难以作为续写使用",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "1c1c9f97de64f77ca9a66b0e9f5b932ae6e6ed7c140ca7b31c7ad19b119b7923": {
+    "score": 2,
+    "note": "概括污染、意识和具体措施，整体简洁可用，字数略超100",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "bb37678646460e2e924099ce1ed29b223a5c7573bca1e537f4092e248d1771bc": {
+    "score": 2,
+    "note": "接近100字，概括环境问题和环保行动，清楚可用",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "e61b1a08d1d821dfbd6d21b07f9ef2ce0397086b186a5bec6c482a328234f79a": {
+    "score": 0,
+    "note": "承认缺材料但仍编造梯形三角形关系，主体无法使用",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "b2097bcfb25b1a6690077359463fb4a1980ed908880446807e64f65cd20cc5ed": {
+    "score": 1,
+    "note": "有可用景物描写，但多段重复、追逐名字等不通顺，未遵守下一自然段要求",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "f35be1a5284b90a7a8ab9ae9cb995d6b8ce05595ae127af40b85d0071d69ad00": {
+    "score": 1,
+    "note": "有相关描写素材，但十项重复列表而非自然段",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "9a5d78f4133ef69c2857bd54ce629b1c824779682e7fa71b639cd4ebdeba6adf": {
+    "score": 0,
+    "note": "三条边列出四个量、步骤重复空转，未解释分类依据",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "2ac6b78dce1ff116c0a2f4a4a5be72a41b422628075663519a2ce47e7d64ad40": {
+    "score": 0,
+    "note": "反复声称三角形有两条边，明显错误且不回应深度学习",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "fc83c2ad83024d861153b698a35b9c7a00601a69b0e4d3c2ca3f09ae8dc760ed": {
+    "score": 1,
+    "note": "主题正确但重复重要问题且偏长，摘要不够凝练",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "ad624cfaa1fefcc3b8b1b0a442da625a9104eb9fb35345e74a1ec63f5cc005b9": {
+    "score": 0,
+    "note": "无材料却肯定规律，编造三角形划分和空泛算法步骤",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "8fa3ada869d67d979c1d7a7be05ec351516db6e7eb774e54674af6f11592516e": {
+    "score": 0,
+    "note": "实验室与资金等无意义重复，未给出被子植物基本单位",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "8bc71a50636bef6af0c36a6ef26e4161f775d88c29bdabaa682b53c5201305d0": {
+    "score": 0,
+    "note": "建议3至7杯铁等无意义剂量，严重内容问题",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "6d94c18f2ab9d97b87ba2b00cf4fc1e98f80169649de1be36c67709f13431474": {
+    "score": 1,
+    "note": "豆类坚果等部分相关，但列举混乱重复，没有按营养素解释",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "8cbb7c5a504aae1e185d30dd0427c8c8e91c2a58df82a4be14d4d79448d50a57": {
+    "score": 0,
+    "note": "混入城市商业等无关词句，未回答问题",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "ebe7c77f45faee01f427961ddf04ceda7f72fa58ca77900377b941c8868f6a9f": {
+    "score": 1,
+    "note": "有相关可用标题，但给出多个标题和大量未要求的重复正文",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "eecbb55c511949a243bc473444b6a4222a98a8407fb6b4814f38cb1a8f1123dd": {
+    "score": 0,
+    "note": "通篇分子游戏等无关内容，未回答问题",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "a0c2c8438576bf855846804d6520714574337619467b7ebd21da41def27e3d11": {
+    "score": 0,
+    "note": "重复要摄取营养素的要求，没有实际食物或补充途径，仅泛称咨询医生",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "0628aeb55416cdbc36344e6fb62261bacdf47c62a1ac7513618270f68f50ac17": {
+    "score": 0,
+    "note": "先要求减少所需营养素，与目标冲突且钙前后矛盾，后文重复",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "c5c676761181cdf6e5cad8188172cd7bd35034125bba9ce2412958222140b266": {
+    "score": 1,
+    "note": "标题部分贴题但过泛，重复多个标题和长正文",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "27a5cf657e56063a5cf395ea57f41db16675100d09c0f07025b91eb6c194f5dc": {
+    "score": 0,
+    "note": "把植物概念混成袋子、加密和体温，内容不可用",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "71ba7aeb47eb319c8c3057ac4769f563afd7e86ed6458f585d8b1717d4efab37": {
+    "score": 0,
+    "note": "将家庭互动文章误作面食教程，并扩写混乱制作步骤",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "9989c3f5b900ae3261bc89885202d25a1493a8dfa1c3e3fe6ef0676257fa127c": {
+    "score": 1,
+    "note": "第一标题包含面食与家庭互动，但冗长且后续跑题到种菜并截断",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "55b6af1d0f24a3a3a090874c87e708c69674c52bfff4d17d6173c1da3ec292da": {
+    "score": 0,
+    "note": "张三李四职责和说话对象颠倒，编出培训建议，摘要失真",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "860797f16ed90d15daca491a2f1182b02a81c15671b1cd2212293ecae8d5947d": {
+    "score": 0,
+    "note": "凭空加入王五与成功经验，未准确总结面试",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "13eb5adb4d7524e7ebd38ea4f9d59d00e3e3301eee8d5a49782ae16a97d0d650": {
+    "score": 2,
+    "note": "明确说明AI没有饮食习惯，避免继续编造午饭",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "85eb39983d9054010a8bc2180f2ff239f7c6177f717bfbec73d17ddc6423a575": {
+    "score": 0,
+    "note": "几乎全篇同一句循环并截断，无法使用",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "16f70269700ed7aebadf11438fb253cfd877362e6504e3c99132c073facdecb8": {
+    "score": 2,
+    "note": "明确AI无实际饮食习惯，回应口味追问",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "3325e00196ceeb1f38412426c6df0aea840e3a372206e92947ce3a15fe9c0b63": {
+    "score": 2,
+    "note": "以AI身份说明没有午饭偏好，未继续编造经历",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "84d0d6078bbf0e55641be0d8f5769d03b43611fba4d8e2f563d52b9175f86ca4": {
+    "score": 2,
+    "note": "明确AI无实际饮食偏好，回答相关清楚",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "b35fa1a1e16c8beeabb87269ab1f6dcf5feaa7ba4cecfc95cc543fa012a171f4": {
+    "score": 1,
+    "note": "延续联合社区主题，但岛屿神庙突兀、表述矛盾且重复",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "ef519fbe1211d35928eaf5b559393da4459bf9951e69555d454c8d02d849e7eb": {
+    "score": 0,
+    "note": "求职者与HR的提问和感谢角色错乱，核心内容未总结",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "6ff56ee3fbcf68846653c3eabdd13d77b31c033ef644cf386395e306f8e26956": {
+    "score": 1,
+    "note": "抓到职场问题和优势，但过度笼统并把假设求助变成共同决定",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "9e1a6557534eb8e5c60cd2f60660a86853102e040f752fa505dfee7b4eded244": {
+    "score": 1,
+    "note": "保留流亡与共同生活背景，但重复严重、发展有限",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "3c863941eed9c1388e7ab01e8cd384ab85199eff12d80bfbb909000306453342": {
+    "score": 2,
+    "note": "在虚构设定内连贯扩展探索和共同殖民生活，没有明显破坏设定",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "64751b3c7e57c6df13a8888358d1cf7c7f127e20b0ea6964c0ab97726848dca1": {
+    "score": 0,
+    "note": "公交问题被编成野花等无关内容",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "c253119188e8cdd87ca61874b86defc6588fdaa7643a0ab5dae3337bc90b4a52": {
+    "score": 1,
+    "note": "提取部分关键信息，但把金融风险管理放入医疗类且反复重复",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "765f1222a8f386af3f7ee1fd2c63d40ecd9d971026a6d5b964be6b93e12776d7": {
+    "score": 0,
+    "note": "只重复问题，未给答案",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "fa38d696be9d2d9237187b6ff883a0122ff3dfd0d0d9af0187f4b9c233abd6a3": {
+    "score": 1,
+    "note": "给出肯定和部分户外准备建议，但表达重复且把防晒霜当衣物，未解释前文天气",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "ff63e38d4eca2a6caa58276b42da067ec248979b9d777101000ff4d0ed171f6d": {
+    "score": 0,
+    "note": "称Bob最近已备份，与前文明确没有相反",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "9fa477a8a2f98ac040d5a91516cab550f4ec1785621d9379be83c7f705f6e2dd": {
+    "score": 2,
+    "note": "依据前文给定天气明确回答适合户外活动；不代表独立核实天气",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "a2fc35a165bae04cc6f76ac37904127c5f2d222098eebee84acfab143325e4d6": {
+    "score": 0,
+    "note": "大量编造心理健康教育等文本未有内容，金融被混成疾病诊断，抽取失真",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "d33df641fe18133a4fb2c7834134b40a8eeb1580dc034b26240ca8fefc7b66d4": {
+    "score": 1,
+    "note": "有关键词，但关系和类别混淆，重复且漏项",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "df88231e26fdbdbe7adf890d7f35b89cf04e3943789e4d852897e6833c180710": {
+    "score": 1,
+    "note": "明确指出问题不清并请求澄清，但过度猜成编程语境，表述冗余",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "0abd202a57208400acd3351888f77b5e26dae5af5eac0bba69710e16d8535d0f": {
+    "score": 1,
+    "note": "有部分领域和关键词，但医疗分类错误并添加未给出的教育内容",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "91689cadc0f74dc2aa6f3417880f3028bc1f3908f52cecafd3e7540f46e59ed2": {
+    "score": 2,
+    "note": "根据前文晴朗适温，简洁回答当前追问；不代表天气事实核验",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "2e4fb98d18b93ef373235a8fea03f4c1bd414b8f1f31b437e4ca63fc8d7ab020": {
+    "score": 0,
+    "note": "凭空当成Python代码并输出无关HelloWorld，基本未回应",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "198910ceb273cfde5c9567a780142bd84b20b4c46ae5d18a8f9302d2bb60c7cd": {
+    "score": 0,
+    "note": "空回答",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "68d9375ce93d5b7223c74ac9a6b9d24672621e5e9f268149ddb2964a87694e90": {
+    "score": 0,
+    "note": "编造API、日期和研究报告，未回应公交问题",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "c8ed9df9f710d75ba8ce10b78c51c353332b4dc1dee2e6910c7e2e4757e8b25d": {
+    "score": 1,
+    "note": "有社会支持心理健康等因素，但循环论述，未清楚解释指定四因素机制",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "e38156a195154ef60f8ac11785cb029aed5e446179a6a4862f832036411281ea": {
+    "score": 1,
+    "note": "简述支持和情绪稳定的作用，但重复且未解释积极事件和内省机制",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "e2af58fea5dba23c13da90fcd64623d32512f352ee5c754c0efcd96be55cc838": {
+    "score": 2,
+    "note": "清楚说明AI没有进食能力，直接回答追问",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "34dc6b7600b5e562b554c34471bd354cae8b6fe7eb97da5ba5dedf318a93a0e3": {
+    "score": 0,
+    "note": "程序只split未反转，核心功能错误",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "b9137a06fa55a41f1943d2af0653285a57c3fbc3b7ae0251d38b58491169c3ba": {
+    "score": 0,
+    "note": "把求职新人Alice说成成功企业家，角色与信息错误",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "4e871c232d965fca8edd88dbf6fca1278e5560fdd87bce6d06576020f4bac85b": {
+    "score": 0,
+    "note": "语法错误、未定义变量和递归混乱，无法运行",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "6184673f6f7aded0b56de0fdf6d0d50b2feba0cc49e062b3443aaab0f4ac27d7": {
+    "score": 1,
+    "note": "回答没吃但重复，仍拟人化而未解释AI不进食",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "01d13efac156c1d600921e9a5cbcdd57f57115b74e32cecbae0fe24cd6e8ed31": {
+    "score": 0,
+    "note": "列表字面量语法错误、push不是Python列表方法，未实现反转",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "14fc5575bc9c1a86e8f716e42f5d07b35ec58c5e6f8c631f8d0e594453dd36a6": {
+    "score": 0,
+    "note": "Alice向Alice介绍等角色错乱，缺核心建议",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "e41cf42554b03da8eec5e9478a6482d4e3abb4bb8ebd68cb2b5ac7127474223b": {
+    "score": 0,
+    "note": "未定义s、range字符串和孤立else等错误，后文循环重复",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "44aba421ba45a51e61896f6e815f3f2ad40a39cb10459c8f5664c3ed7abe39b0": {
+    "score": 1,
+    "note": "内省和情绪管理部分有回应，四因素机制覆盖不全且绝对化不受外部影响",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "41a3a9bcef686af4c0c1ee8c25463a2189c314d1148d666dc1d30d700f777d08": {
+    "score": 0,
+    "note": "重复公司兴趣，缺核心求职建议并混淆双方面试角色",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "e74f87111ca0fb3677e8616ff104c150db7a239efc120823c00dbd779dc3ca01": {
+    "score": 1,
+    "note": "社会支持情绪调节部分相关，但生物多样性一节严重跑偏且正负影响表述矛盾",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "d24c121e30311185e8dd697ee8bd3aa2b9b2d828af8a73081c3630cfd17c3a1b": {
+    "score": 1,
+    "note": "抓到公司文化行业地位等主题，但开头反转提问方向，后续重复失准",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "293d6b44c44e4891327e5faffbeb85ee5ac6293c1a3aa10f6052d720e4910bb5": {
+    "score": 1,
+    "note": "字面回答没有吃午饭，但未说明AI不能进食，仍带拟人含义",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "38f0f7a7402f0de7c63ba203a4f05cc7aff3186036ec1d64d4c5d613751a8ac0": {
+    "score": 2,
+    "note": "明确AI无饮食时间，不编造午餐经历",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "868fb76d24fa8089bf3e1a58e02893e2ab2aeda65cfb4886895fa9362d93fe0e": {
+    "score": 2,
+    "note": "以AI身份清楚说明没有吃东西，直接回应",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "90461d51dc81f12f6b086fbd6b389e3d138cdc7da9c95377ec3faae50c93a346": {
+    "score": 0,
+    "note": "复述问题碎片，没有购买者答案",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "b94cb78935bc8a2ddfbd5932f3c45a8bd83bbce49e9100694230734b6d03d156": {
+    "score": 0,
+    "note": "把称呼Max误解成数组最大值，代码错误且截断",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "7a0837387d97453edd7167688a1600f1712554e406727597aaf717b32bed3fb8": {
+    "score": 0,
+    "note": "只复述提示并给1，没有请求缺失文本或完成输出",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "0ec19f4c6fc5825974c62e34f2f9f824ed061e471738932c0d16f58cef539d09": {
+    "score": 0,
+    "note": "胡乱金额与razing重复，无可用答案",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "b278a4622294eb6068447d3b1484c5ae3cc5f47c411c178b0581fe9392f871f0": {
+    "score": 0,
+    "note": "无文本却编造例句，未给三项输出也未清楚请求输入",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "c0d018f49eddcca41835bae7f48e3e9c32297f196d6a2b3bbc578d2b97033297": {
+    "score": 0,
+    "note": "把Chaplins说成AI并跑题随机数，未答购买者",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "dbe8ce4b414a109b51c44751d40ec138efe7ec4a10b6e0ebfa239d44381e2fd3": {
+    "score": 1,
+    "note": "回答没吃并说明AI，但开发者身份串错为MiniMind，增加无关错误信息",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "776688f981629c848394589f4811b0f54c2502c987cfb1cee39b94032b39448f": {
+    "score": 0,
+    "note": "无意义泛谈，未回应不可公开的陈述",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "bfd02c5c0648a956b6a68852b6ae80adfa02fb4777a570a2ac10c54465e81667": {
+    "score": 0,
+    "note": "无依据拒绝并转向数字或游戏，不回应原话",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "14ef62f8d644145c5f45cb97ea2629771f35e4a8c96b5b80b46ca873d621c83c": {
+    "score": 0,
+    "note": "词句混乱，无可辨认购买者答案",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "c88682875ae7a0cea7393ecfcd5dd897ddde2c7011cc620c18d0ed42fa2e1873": {
+    "score": 0,
+    "note": "分数越界且混成长度随机数，输出不满足要求",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "c285427babdb962ad4b7a4a0b3a1da732b23b304c410562bec00b08ba9cced46": {
+    "score": 0,
+    "note": "编造自己吃过食物的经历",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "74e8a05f515b40d06f317e2704eeea99bb62541b06f13ed615d1f6e6270df73e": {
+    "score": 0,
+    "note": "反复Negative1与Prompt1，无文本澄清和有效分析",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "055cddf80e839142c129bd5f601dfeb84f330cc36a91b47e184b0c7c34ce5841": {
+    "score": 0,
+    "note": "误解为最大次数计算，连串数学断言错误",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "7188c164c0236d283478ff604bfda56f4b09b77b79e6f54007efe4807a5bc002": {
+    "score": 0,
+    "note": "只自报且开发者错误，未回答吃饭问题",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "7ad34081c244bf31572c0b1232ada1b6d1e225e20e4df26497b65e59d266eff5": {
+    "score": 0,
+    "note": "编造饭后饭量2至3升等不通判断，核心解释不可用",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "f0a121bce8e9bc622372d5e896503778649fdbfb4e4555892d05df23799eaaf8": {
+    "score": 0,
+    "note": "承认旧手机手工却举纸板折叠，重复且不相关",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "f715714a1489f7b5f57e97d225453cbab810698f0bcf4b5b188b6ddc860f8342": {
+    "score": 0,
+    "note": "旧手机问题举旧衣布料书架例子，未给任何手机再利用信息",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "7091ff06fd92e214ef60e4e23808ba4c86fe457b50aad7ce1cbdadd7e8d86276": {
+    "score": 1,
+    "note": "开头回应能量可能受影响，但后半串回喝水问题，缺营养能量解释",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "9745f94036a95a0ca8d12f952532f331177e61bf3483d574e80492c432c93bce": {
+    "score": 1,
+    "note": "合同条款与合法利益相关，但基本循环复述，缺具体检查和顾问步骤",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "61ffc0b3b04fd40bd3010616e48100d093d009ad345f28dc66cef4a02580838d": {
+    "score": 0,
+    "note": "纸张制作陶瓷瓶等概念混乱，与旧手机无关",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "da92823723db4a801cb67187187e5685f7edb7166248e8d337230446c826e9c1": {
+    "score": 0,
+    "note": "编造多本著作作者，正文严重失实且偏离给定三句",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "087d6e22ebc950ccd2ccdc80f5740c9f717b37dd8c214ea46bc387f46299a0c6": {
+    "score": 1,
+    "note": "解释原三句部分可用，但凭空列第四句且重复",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "1108f14e6344cb7fbeee852131e239a6267cc95b0cb5f65ccc9ce16cfe8da88a": {
+    "score": 1,
+    "note": "有避免单一饮食和充足营养建议，但把饭写成吃一杯水，混乱",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "63afe400b1a398e30af29c41a17c6008e89df8ade8f53e6b23b4959344c581b2": {
+    "score": 1,
+    "note": "有教育与文化价值关联，但主要转向科技VR，未紧扣三句",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "cde4e6c9bdc978e948442e47a789a3992a773891f91496f0d20958e8d23b760f": {
+    "score": 2,
+    "note": "直接说明逐条理解条款责任风险及处理注意事项，通顺可用；未作法律事实核验",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "927e48d5692954eb191714bfb595e16caed003c5fe803f41493f3104f41ba645": {
+    "score": 1,
+    "note": "有均衡摄取碳水蛋白方向，但未清楚解释一份饭的能量是否充足，表述不准确",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "4f10cbc94cbf26900f969a620a874a51ed0a7c650821f3b53662c79458e03a85": {
+    "score": 1,
+    "note": "文学阅读价值解释相关，但八项重复且扩写过多",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "0f9e55f3f369fa2a23545d5f316bff3adc68a9583e91c35d97751de4a59f91e7": {
+    "score": 0,
+    "note": "把CEO John也说成法务顾问，处理流程和证据说法混乱",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "75af09d5e326620d3a6a2d6eb321a99d8369ac23538472ee5466cde4907c84a2": {
+    "score": 1,
+    "note": "有检查条款权益合规风险的方向，但重复且不具体",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "d920f2257890b1c4dc44181bdc63f9733292b5dea39a55a629b4bb59cfc0656b": {
+    "score": 0,
+    "note": "旧手机问题改答旧书帆布纸板，核心请求未回应",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "4d2dfb885c0771511903afacd3eb1a502c660a8679c22acc0f566a951a717e4b": {
+    "score": 0,
+    "note": "方程推导错误，p应18、q应3、差15，回答3错误",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "8695df7af501646b6ac97c66d48591ab7055e936254814f98fd8206d4467bb97": {
+    "score": 0,
+    "note": "没有处理python3与python解释器差异，只重复关联报错",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "27b631055b7787841d6c8a7714105dd9588b9dab4074c11e255eea0036a1be19": {
+    "score": 0,
+    "note": "已有方程仍要求提供并无限重复省略式，无解题步骤",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "108b9fb33944614e478af908e1d1b1692a7d55e939aa8d7354cf18e38df31d1f": {
+    "score": 0,
+    "note": "混乱自述与反斜杠循环，未提供修复",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "4e71089bb0d7e19589f1b5d2d616cdcfe494184fd37103a199bd072103e32816": {
+    "score": 0,
+    "note": "json和python无意义循环，未回答钩子解释器问题",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "fa76ebc86c67e549a062b5050f4b7943d6da48687bae686132d0308da0b798ed": {
+    "score": 0,
+    "note": "方程推导错误，差应15而非6",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "1cf4ead77fb1ba34aaf8ffda8ecd419f69a1a291cc74fe524b14aa9e5b6f3740": {
+    "score": 0,
+    "note": "称bash不支持bash并给不存在的dev路径，命令内容循环混乱",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  },
+  "985a5d1e280e5c620f134e79bc334a18bfd04672e2becc9575ac302a1ced3779": {
+    "score": 0,
+    "note": "编造总数并长篇重复，未解方程",
+    "reviewer": "assistant; reward scores and selected indices not yet inspected"
+  }
+}

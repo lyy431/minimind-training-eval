@@ -1,0 +1,570 @@
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Model Params: 63.91M
+Trainable Params: 63.912M
+Model Params: 63.91M
+Trainable Params: 63.912M
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 210.03it/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 1000 examples [00:00, 110005.87 examples/s]
+past_key_values should not be None in from_legacy_cache()
+Epoch:[1/1](1/500), Reward: -2.5730, KL_ref: -0.0002, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 213.42, Learning Rate: 0.00000030
+Epoch:[1/1](2/500), Reward: -1.5301, KL_ref: -0.0018, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0000, Avg Response Len: 196.58, Learning Rate: 0.00000030
+Epoch:[1/1](3/500), Reward: -1.7640, KL_ref: -0.0011, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0000, Avg Response Len: 113.17, Learning Rate: 0.00000030
+Traceback (most recent call last):
+  File "/root/autodl-tmp/minimind-master/trainer/train_grpo.py", line 322, in <module>
+    grpo_train_epoch(epoch, loader, len(loader), rollout_engine, ref_model, reward_model, 0, wandb, use_sglang = (args.rollout_engine == "sglang"))
+  File "/root/autodl-tmp/minimind-master/trainer/train_grpo.py", line 99, in grpo_train_epoch
+    res = model(outputs, attention_mask=full_mask)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/minimind-master/model/model_minimind.py", line 251, in forward
+    hidden_states, past_key_values, aux_loss = self.model(input_ids, attention_mask, past_key_values, use_cache, **kwargs)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/minimind-master/model/model_minimind.py", line 227, in forward
+    hidden_states, present = layer(
+                             ^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/minimind-master/model/model_minimind.py", line 193, in forward
+    hidden_states, present_key_value = self.self_attn(
+                                       ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/minimind-master/model/model_minimind.py", line 128, in forward
+    scores = (xq @ xk.transpose(-2, -1)).float() / math.sqrt(self.head_dim)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 948.00 MiB. GPU 0 has a total capacity of 23.53 GiB of which 529.44 MiB is free. Including non-PyTorch memory, this process has 23.00 GiB memory in use. Of the allocated memory 21.46 GiB is allocated by PyTorch, and 1.08 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Model Params: 63.91M
+Trainable Params: 63.912M
+Model Params: 63.91M
+Trainable Params: 63.912M
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 211.49it/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 1000 examples [00:00, 97993.18 examples/s]
+past_key_values should not be None in from_legacy_cache()
+Epoch:[1/1](1/500), Reward: -2.5730, KL_ref: -0.0006, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 212.25, Learning Rate: 0.00000030
+Epoch:[1/1](2/500), Reward: -1.4838, KL_ref: -0.0011, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 223.50, Learning Rate: 0.00000030
+Epoch:[1/1](3/500), Reward: -1.5106, KL_ref: 0.0007, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0000, Avg Response Len: 112.42, Learning Rate: 0.00000030
+Epoch:[1/1](4/500), Reward: -2.0969, KL_ref: -0.0007, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 265.00, Learning Rate: 0.00000030
+Epoch:[1/1](5/500), Reward: -1.8371, KL_ref: -0.0012, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 353.33, Learning Rate: 0.00000030
+Epoch:[1/1](6/500), Reward: -1.8565, KL_ref: -0.0018, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 155.25, Learning Rate: 0.00000030
+Epoch:[1/1](7/500), Reward: -2.1746, KL_ref: -0.0012, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 225.58, Learning Rate: 0.00000030
+Epoch:[1/1](8/500), Reward: -2.6388, KL_ref: -0.0002, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 250.75, Learning Rate: 0.00000030
+Epoch:[1/1](9/500), Reward: -1.8465, KL_ref: -0.0010, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 199.08, Learning Rate: 0.00000030
+Epoch:[1/1](10/500), Reward: -1.0055, KL_ref: -0.0019, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 220.92, Learning Rate: 0.00000030
+Epoch:[1/1](11/500), Reward: -2.5084, KL_ref: -0.0006, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 296.75, Learning Rate: 0.00000030
+Epoch:[1/1](12/500), Reward: -0.9780, KL_ref: -0.0015, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 272.75, Learning Rate: 0.00000030
+Epoch:[1/1](13/500), Reward: -2.6105, KL_ref: -0.0007, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 298.42, Learning Rate: 0.00000030
+Epoch:[1/1](14/500), Reward: -0.6697, KL_ref: -0.0021, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 84.92, Learning Rate: 0.00000030
+Epoch:[1/1](15/500), Reward: -1.9718, KL_ref: -0.0003, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 160.83, Learning Rate: 0.00000030
+Epoch:[1/1](16/500), Reward: -1.0329, KL_ref: -0.0037, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 127.42, Learning Rate: 0.00000030
+Epoch:[1/1](17/500), Reward: -2.4862, KL_ref: -0.0005, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 250.08, Learning Rate: 0.00000030
+Epoch:[1/1](18/500), Reward: -2.2266, KL_ref: -0.0012, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 225.83, Learning Rate: 0.00000030
+Epoch:[1/1](19/500), Reward: -1.5327, KL_ref: -0.0019, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 144.58, Learning Rate: 0.00000030
+Epoch:[1/1](20/500), Reward: -2.0791, KL_ref: -0.0019, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 300.00, Learning Rate: 0.00000030
+Epoch:[1/1](21/500), Reward: -2.6072, KL_ref: -0.0006, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 158.58, Learning Rate: 0.00000030
+Epoch:[1/1](22/500), Reward: -2.2582, KL_ref: -0.0005, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 255.17, Learning Rate: 0.00000030
+Epoch:[1/1](23/500), Reward: -1.2353, KL_ref: -0.0020, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 297.00, Learning Rate: 0.00000030
+Epoch:[1/1](24/500), Reward: 0.4121, KL_ref: -0.0055, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 113.67, Learning Rate: 0.00000030
+Epoch:[1/1](25/500), Reward: -0.8560, KL_ref: -0.0016, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 88.42, Learning Rate: 0.00000030
+Epoch:[1/1](26/500), Reward: -1.5631, KL_ref: -0.0018, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 150.33, Learning Rate: 0.00000030
+Epoch:[1/1](27/500), Reward: -0.0851, KL_ref: -0.0034, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 76.33, Learning Rate: 0.00000030
+Epoch:[1/1](28/500), Reward: -1.3951, KL_ref: -0.0021, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 107.67, Learning Rate: 0.00000030
+Epoch:[1/1](29/500), Reward: -1.4282, KL_ref: -0.0042, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 104.75, Learning Rate: 0.00000030
+Epoch:[1/1](30/500), Reward: -2.2253, KL_ref: 0.0002, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 284.08, Learning Rate: 0.00000030
+Epoch:[1/1](31/500), Reward: -1.2463, KL_ref: -0.0016, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 149.67, Learning Rate: 0.00000030
+Epoch:[1/1](32/500), Reward: -1.3215, KL_ref: -0.0018, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 148.08, Learning Rate: 0.00000030
+Epoch:[1/1](33/500), Reward: -1.8354, KL_ref: 0.0010, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 149.83, Learning Rate: 0.00000030
+Epoch:[1/1](34/500), Reward: -1.7261, KL_ref: -0.0019, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 227.67, Learning Rate: 0.00000030
+Epoch:[1/1](35/500), Reward: -0.6961, KL_ref: -0.0001, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 297.92, Learning Rate: 0.00000030
+Epoch:[1/1](36/500), Reward: -1.5610, KL_ref: -0.0009, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 76.92, Learning Rate: 0.00000030
+Epoch:[1/1](37/500), Reward: -0.5525, KL_ref: -0.0056, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 52.58, Learning Rate: 0.00000030
+Epoch:[1/1](38/500), Reward: -2.2323, KL_ref: -0.0009, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 240.08, Learning Rate: 0.00000030
+Epoch:[1/1](39/500), Reward: -1.3620, KL_ref: 0.0005, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 387.33, Learning Rate: 0.00000030
+Epoch:[1/1](40/500), Reward: -1.4091, KL_ref: -0.0047, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 81.83, Learning Rate: 0.00000030
+Epoch:[1/1](41/500), Reward: -1.0367, KL_ref: 0.0001, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 183.25, Learning Rate: 0.00000030
+Epoch:[1/1](42/500), Reward: -1.0338, KL_ref: -0.0018, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 249.67, Learning Rate: 0.00000030
+Epoch:[1/1](43/500), Reward: -0.7122, KL_ref: -0.0015, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 79.83, Learning Rate: 0.00000030
+Epoch:[1/1](44/500), Reward: -1.4186, KL_ref: -0.0036, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 102.92, Learning Rate: 0.00000029
+Epoch:[1/1](45/500), Reward: -1.7763, KL_ref: -0.0026, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 291.75, Learning Rate: 0.00000029
+Epoch:[1/1](46/500), Reward: -1.6876, KL_ref: -0.0015, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 143.67, Learning Rate: 0.00000029
+Epoch:[1/1](47/500), Reward: -1.6248, KL_ref: -0.0006, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 226.08, Learning Rate: 0.00000029
+Epoch:[1/1](48/500), Reward: -1.2490, KL_ref: -0.0025, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 103.92, Learning Rate: 0.00000029
+Epoch:[1/1](49/500), Reward: -0.3817, KL_ref: -0.0023, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 198.67, Learning Rate: 0.00000029
+Epoch:[1/1](50/500), Reward: -2.1304, KL_ref: -0.0001, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 328.25, Learning Rate: 0.00000029
+Epoch:[1/1](51/500), Reward: -1.0104, KL_ref: -0.0053, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 114.08, Learning Rate: 0.00000029
+Epoch:[1/1](52/500), Reward: -1.1260, KL_ref: -0.0014, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 332.25, Learning Rate: 0.00000029
+Epoch:[1/1](53/500), Reward: -1.0072, KL_ref: -0.0023, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 260.25, Learning Rate: 0.00000029
+Epoch:[1/1](54/500), Reward: -1.5094, KL_ref: -0.0028, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 131.58, Learning Rate: 0.00000029
+Epoch:[1/1](55/500), Reward: -2.2621, KL_ref: -0.0010, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 493.08, Learning Rate: 0.00000029
+Epoch:[1/1](56/500), Reward: -2.0009, KL_ref: -0.0010, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 232.67, Learning Rate: 0.00000029
+Epoch:[1/1](57/500), Reward: -1.0341, KL_ref: -0.0011, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 135.75, Learning Rate: 0.00000029
+Epoch:[1/1](58/500), Reward: -1.9790, KL_ref: 0.0008, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 222.50, Learning Rate: 0.00000029
+Epoch:[1/1](59/500), Reward: -2.3775, KL_ref: -0.0012, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 224.00, Learning Rate: 0.00000029
+Epoch:[1/1](60/500), Reward: -0.9563, KL_ref: -0.0010, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 236.42, Learning Rate: 0.00000029
+Epoch:[1/1](61/500), Reward: -2.6412, KL_ref: -0.0001, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 280.92, Learning Rate: 0.00000029
+Epoch:[1/1](62/500), Reward: -1.8717, KL_ref: -0.0039, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 55.00, Learning Rate: 0.00000029
+Epoch:[1/1](63/500), Reward: -0.7658, KL_ref: -0.0100, Adv Std: 1.0438, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 42.25, Learning Rate: 0.00000029
+Epoch:[1/1](64/500), Reward: -1.0866, KL_ref: -0.0040, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 147.83, Learning Rate: 0.00000029
+Epoch:[1/1](65/500), Reward: -0.4949, KL_ref: -0.0051, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 209.83, Learning Rate: 0.00000029
+Epoch:[1/1](66/500), Reward: -0.7149, KL_ref: -0.0060, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 108.83, Learning Rate: 0.00000029
+Epoch:[1/1](67/500), Reward: -2.0141, KL_ref: -0.0018, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 257.17, Learning Rate: 0.00000029
+Epoch:[1/1](68/500), Reward: -2.1190, KL_ref: -0.0005, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0000, Avg Response Len: 403.83, Learning Rate: 0.00000029
+Epoch:[1/1](69/500), Reward: -0.7686, KL_ref: -0.0035, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 358.08, Learning Rate: 0.00000029
+Epoch:[1/1](70/500), Reward: -0.7540, KL_ref: -0.0053, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 123.58, Learning Rate: 0.00000029
+Epoch:[1/1](71/500), Reward: -1.4846, KL_ref: -0.0015, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 191.00, Learning Rate: 0.00000029
+Epoch:[1/1](72/500), Reward: -1.5538, KL_ref: -0.0029, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 88.00, Learning Rate: 0.00000029
+Epoch:[1/1](73/500), Reward: -1.2049, KL_ref: -0.0010, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 214.50, Learning Rate: 0.00000029
+Epoch:[1/1](74/500), Reward: -1.6358, KL_ref: -0.0013, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 127.42, Learning Rate: 0.00000029
+Epoch:[1/1](75/500), Reward: -2.1764, KL_ref: 0.0007, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 366.08, Learning Rate: 0.00000029
+Epoch:[1/1](76/500), Reward: -0.5832, KL_ref: -0.0082, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 72.25, Learning Rate: 0.00000028
+Epoch:[1/1](77/500), Reward: -1.4567, KL_ref: -0.0041, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 183.42, Learning Rate: 0.00000028
+Epoch:[1/1](78/500), Reward: -0.7189, KL_ref: -0.0046, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 61.00, Learning Rate: 0.00000028
+Epoch:[1/1](79/500), Reward: -1.8730, KL_ref: -0.0013, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 224.17, Learning Rate: 0.00000028
+Epoch:[1/1](80/500), Reward: -0.8709, KL_ref: -0.0029, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 284.42, Learning Rate: 0.00000028
+Epoch:[1/1](81/500), Reward: -1.4785, KL_ref: 0.0005, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 281.00, Learning Rate: 0.00000028
+Epoch:[1/1](82/500), Reward: -1.0577, KL_ref: -0.0044, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 217.67, Learning Rate: 0.00000028
+Epoch:[1/1](83/500), Reward: -0.6373, KL_ref: -0.0074, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 190.83, Learning Rate: 0.00000028
+Epoch:[1/1](84/500), Reward: -1.7090, KL_ref: -0.0003, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 256.17, Learning Rate: 0.00000028
+Epoch:[1/1](85/500), Reward: -0.5031, KL_ref: -0.0047, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 235.00, Learning Rate: 0.00000028
+Epoch:[1/1](86/500), Reward: -1.3856, KL_ref: -0.0018, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 334.08, Learning Rate: 0.00000028
+Epoch:[1/1](87/500), Reward: -1.9185, KL_ref: -0.0002, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 348.58, Learning Rate: 0.00000028
+Epoch:[1/1](88/500), Reward: -1.4988, KL_ref: -0.0053, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 239.83, Learning Rate: 0.00000028
+Epoch:[1/1](89/500), Reward: -2.0471, KL_ref: -0.0002, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 425.17, Learning Rate: 0.00000028
+Epoch:[1/1](90/500), Reward: -0.0624, KL_ref: -0.0042, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 89.00, Learning Rate: 0.00000028
+Epoch:[1/1](91/500), Reward: -2.5965, KL_ref: 0.0001, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 266.33, Learning Rate: 0.00000028
+Epoch:[1/1](92/500), Reward: -1.2596, KL_ref: 0.0002, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 282.17, Learning Rate: 0.00000028
+Epoch:[1/1](93/500), Reward: -1.0255, KL_ref: -0.0069, Adv Std: 1.0431, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 51.08, Learning Rate: 0.00000028
+Epoch:[1/1](94/500), Reward: -1.8490, KL_ref: -0.0005, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 178.42, Learning Rate: 0.00000028
+Epoch:[1/1](95/500), Reward: -1.3907, KL_ref: -0.0052, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 106.25, Learning Rate: 0.00000028
+Epoch:[1/1](96/500), Reward: -1.1009, KL_ref: -0.0052, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 162.42, Learning Rate: 0.00000028
+Epoch:[1/1](97/500), Reward: -1.2278, KL_ref: -0.0046, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 226.42, Learning Rate: 0.00000028
+Epoch:[1/1](98/500), Reward: -1.4824, KL_ref: 0.0018, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 245.25, Learning Rate: 0.00000028
+Epoch:[1/1](99/500), Reward: -1.7840, KL_ref: 0.0003, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 212.17, Learning Rate: 0.00000027
+Epoch:[1/1](100/500), Reward: -2.5212, KL_ref: -0.0014, Adv Std: 1.0441, Adv Mean: -0.0000, Actor Loss: 0.0000, Avg Response Len: 296.00, Learning Rate: 0.00000027
+Epoch:[1/1](101/500), Reward: -1.2611, KL_ref: -0.0054, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 224.25, Learning Rate: 0.00000027
+Epoch:[1/1](102/500), Reward: -1.8128, KL_ref: -0.0006, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 331.17, Learning Rate: 0.00000027
+Epoch:[1/1](103/500), Reward: -1.6030, KL_ref: 0.0005, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 394.17, Learning Rate: 0.00000027
+Epoch:[1/1](104/500), Reward: 0.1215, KL_ref: -0.0051, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 239.92, Learning Rate: 0.00000027
+Epoch:[1/1](105/500), Reward: -0.0103, KL_ref: -0.0050, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 276.92, Learning Rate: 0.00000027
+Epoch:[1/1](106/500), Reward: -0.6711, KL_ref: -0.0070, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 40.83, Learning Rate: 0.00000027
+Epoch:[1/1](107/500), Reward: -0.6103, KL_ref: -0.0051, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 210.92, Learning Rate: 0.00000027
+Epoch:[1/1](108/500), Reward: -1.0575, KL_ref: -0.0077, Adv Std: 1.0441, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 77.67, Learning Rate: 0.00000027
+Epoch:[1/1](109/500), Reward: -2.6771, KL_ref: 0.0007, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 376.92, Learning Rate: 0.00000027
+Epoch:[1/1](110/500), Reward: -1.9515, KL_ref: 0.0018, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 260.33, Learning Rate: 0.00000027
+Epoch:[1/1](111/500), Reward: -2.3255, KL_ref: 0.0005, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 315.50, Learning Rate: 0.00000027
+Epoch:[1/1](112/500), Reward: -2.6663, KL_ref: -0.0003, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 319.42, Learning Rate: 0.00000027
+Epoch:[1/1](113/500), Reward: -2.5775, KL_ref: 0.0002, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 257.25, Learning Rate: 0.00000027
+Epoch:[1/1](114/500), Reward: -1.1511, KL_ref: -0.0050, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 208.33, Learning Rate: 0.00000027
+Epoch:[1/1](115/500), Reward: -1.1487, KL_ref: -0.0053, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 186.42, Learning Rate: 0.00000027
+Epoch:[1/1](116/500), Reward: -1.3049, KL_ref: 0.0010, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 262.83, Learning Rate: 0.00000027
+Epoch:[1/1](117/500), Reward: -1.4462, KL_ref: 0.0005, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 422.17, Learning Rate: 0.00000027
+Epoch:[1/1](118/500), Reward: -1.2760, KL_ref: -0.0072, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 34.67, Learning Rate: 0.00000026
+Epoch:[1/1](119/500), Reward: -2.0321, KL_ref: -0.0016, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 339.33, Learning Rate: 0.00000026
+Epoch:[1/1](120/500), Reward: -0.3408, KL_ref: -0.0043, Adv Std: 1.0440, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 187.25, Learning Rate: 0.00000026
+Epoch:[1/1](121/500), Reward: -1.2924, KL_ref: -0.0042, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 261.33, Learning Rate: 0.00000026
+Epoch:[1/1](122/500), Reward: -0.1504, KL_ref: -0.0052, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 279.42, Learning Rate: 0.00000026
+Epoch:[1/1](123/500), Reward: -2.1368, KL_ref: -0.0017, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 243.42, Learning Rate: 0.00000026
+Epoch:[1/1](124/500), Reward: -0.9836, KL_ref: -0.0050, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 256.50, Learning Rate: 0.00000026
+Epoch:[1/1](125/500), Reward: -1.0557, KL_ref: -0.0002, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 326.58, Learning Rate: 0.00000026
+Epoch:[1/1](126/500), Reward: -0.0734, KL_ref: -0.0061, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 229.92, Learning Rate: 0.00000026
+Epoch:[1/1](127/500), Reward: -2.1436, KL_ref: -0.0015, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 315.00, Learning Rate: 0.00000026
+Epoch:[1/1](128/500), Reward: -0.0007, KL_ref: -0.0046, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0006, Avg Response Len: 218.67, Learning Rate: 0.00000026
+Epoch:[1/1](129/500), Reward: -0.9227, KL_ref: 0.0009, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 196.83, Learning Rate: 0.00000026
+Epoch:[1/1](130/500), Reward: -0.9381, KL_ref: -0.0049, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 222.92, Learning Rate: 0.00000026
+Epoch:[1/1](131/500), Reward: -1.5392, KL_ref: -0.0043, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0006, Avg Response Len: 91.92, Learning Rate: 0.00000026
+Epoch:[1/1](132/500), Reward: -1.0595, KL_ref: -0.0028, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 46.92, Learning Rate: 0.00000026
+Epoch:[1/1](133/500), Reward: 0.2319, KL_ref: -0.0118, Adv Std: 1.0440, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 85.67, Learning Rate: 0.00000026
+Epoch:[1/1](134/500), Reward: -0.7712, KL_ref: -0.0022, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 284.92, Learning Rate: 0.00000025
+Epoch:[1/1](135/500), Reward: -1.6657, KL_ref: -0.0055, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 236.83, Learning Rate: 0.00000025
+Epoch:[1/1](136/500), Reward: -0.7360, KL_ref: -0.0041, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 68.08, Learning Rate: 0.00000025
+Epoch:[1/1](137/500), Reward: -2.3508, KL_ref: 0.0014, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 378.17, Learning Rate: 0.00000025
+Epoch:[1/1](138/500), Reward: -0.8769, KL_ref: -0.0087, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 143.00, Learning Rate: 0.00000025
+Epoch:[1/1](139/500), Reward: -1.9690, KL_ref: -0.0046, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 94.75, Learning Rate: 0.00000025
+Epoch:[1/1](140/500), Reward: -1.5040, KL_ref: 0.0034, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 481.75, Learning Rate: 0.00000025
+Epoch:[1/1](141/500), Reward: -1.8993, KL_ref: 0.0008, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 285.42, Learning Rate: 0.00000025
+Epoch:[1/1](142/500), Reward: -2.0493, KL_ref: 0.0004, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 398.42, Learning Rate: 0.00000025
+Epoch:[1/1](143/500), Reward: -1.7662, KL_ref: -0.0008, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 217.75, Learning Rate: 0.00000025
+Epoch:[1/1](144/500), Reward: -1.3186, KL_ref: -0.0027, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 258.00, Learning Rate: 0.00000025
+Epoch:[1/1](145/500), Reward: -0.8508, KL_ref: -0.0037, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 311.25, Learning Rate: 0.00000025
+Epoch:[1/1](146/500), Reward: -1.6631, KL_ref: 0.0006, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 354.00, Learning Rate: 0.00000025
+Epoch:[1/1](147/500), Reward: -2.2072, KL_ref: 0.0011, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 284.75, Learning Rate: 0.00000025
+Epoch:[1/1](148/500), Reward: -0.8682, KL_ref: -0.0077, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 152.83, Learning Rate: 0.00000025
+Epoch:[1/1](149/500), Reward: -1.5320, KL_ref: -0.0011, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 380.50, Learning Rate: 0.00000025
+Epoch:[1/1](150/500), Reward: -1.9767, KL_ref: -0.0020, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 253.75, Learning Rate: 0.00000024
+Epoch:[1/1](151/500), Reward: -1.2372, KL_ref: 0.0014, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 144.50, Learning Rate: 0.00000024
+Epoch:[1/1](152/500), Reward: -0.7445, KL_ref: -0.0013, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 54.33, Learning Rate: 0.00000024
+Epoch:[1/1](153/500), Reward: -3.2758, KL_ref: 0.0006, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 421.00, Learning Rate: 0.00000024
+Epoch:[1/1](154/500), Reward: -1.5399, KL_ref: -0.0032, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 409.25, Learning Rate: 0.00000024
+Epoch:[1/1](155/500), Reward: -0.6083, KL_ref: -0.0060, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 148.50, Learning Rate: 0.00000024
+Epoch:[1/1](156/500), Reward: -2.7495, KL_ref: 0.0039, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 385.83, Learning Rate: 0.00000024
+Epoch:[1/1](157/500), Reward: 0.4169, KL_ref: -0.0010, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 397.75, Learning Rate: 0.00000024
+Epoch:[1/1](158/500), Reward: -1.2654, KL_ref: -0.0024, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 370.83, Learning Rate: 0.00000024
+Epoch:[1/1](159/500), Reward: -2.5538, KL_ref: 0.0035, Adv Std: 1.0439, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 234.17, Learning Rate: 0.00000024
+Epoch:[1/1](160/500), Reward: 0.1156, KL_ref: -0.0059, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 327.08, Learning Rate: 0.00000024
+Epoch:[1/1](161/500), Reward: -0.4487, KL_ref: -0.0058, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 201.67, Learning Rate: 0.00000024
+Epoch:[1/1](162/500), Reward: -0.5698, KL_ref: -0.0053, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 200.25, Learning Rate: 0.00000024
+Epoch:[1/1](163/500), Reward: -0.7907, KL_ref: -0.0041, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 175.67, Learning Rate: 0.00000024
+Epoch:[1/1](164/500), Reward: -1.3774, KL_ref: 0.0020, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 375.92, Learning Rate: 0.00000023
+Epoch:[1/1](165/500), Reward: -1.3075, KL_ref: -0.0078, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 59.17, Learning Rate: 0.00000023
+Epoch:[1/1](166/500), Reward: -0.8636, KL_ref: -0.0011, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 279.00, Learning Rate: 0.00000023
+Epoch:[1/1](167/500), Reward: -2.3355, KL_ref: 0.0012, Adv Std: 1.0439, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 272.42, Learning Rate: 0.00000023
+Epoch:[1/1](168/500), Reward: -1.8142, KL_ref: 0.0002, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 240.00, Learning Rate: 0.00000023
+Epoch:[1/1](169/500), Reward: -1.5365, KL_ref: -0.0021, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 291.00, Learning Rate: 0.00000023
+Epoch:[1/1](170/500), Reward: -1.2295, KL_ref: -0.0095, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 139.58, Learning Rate: 0.00000023
+Epoch:[1/1](171/500), Reward: -1.6141, KL_ref: -0.0057, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 295.33, Learning Rate: 0.00000023
+Epoch:[1/1](172/500), Reward: -0.8975, KL_ref: -0.0126, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 241.42, Learning Rate: 0.00000023
+Epoch:[1/1](173/500), Reward: -0.9660, KL_ref: -0.0027, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 410.33, Learning Rate: 0.00000023
+Epoch:[1/1](174/500), Reward: -1.4628, KL_ref: -0.0027, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 374.92, Learning Rate: 0.00000023
+Epoch:[1/1](175/500), Reward: -1.3680, KL_ref: -0.0060, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 173.42, Learning Rate: 0.00000023
+Epoch:[1/1](176/500), Reward: -0.9287, KL_ref: -0.0039, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 381.17, Learning Rate: 0.00000023
+Epoch:[1/1](177/500), Reward: -2.7707, KL_ref: 0.0007, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 372.75, Learning Rate: 0.00000022
+Epoch:[1/1](178/500), Reward: -1.4418, KL_ref: -0.0014, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 254.17, Learning Rate: 0.00000022
+Epoch:[1/1](179/500), Reward: -2.6382, KL_ref: 0.0006, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 239.50, Learning Rate: 0.00000022
+Epoch:[1/1](180/500), Reward: -1.5317, KL_ref: -0.0009, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 145.92, Learning Rate: 0.00000022
+Epoch:[1/1](181/500), Reward: -1.4961, KL_ref: -0.0004, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 402.50, Learning Rate: 0.00000022
+Epoch:[1/1](182/500), Reward: -1.0634, KL_ref: -0.0006, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 202.58, Learning Rate: 0.00000022
+Epoch:[1/1](183/500), Reward: -2.1175, KL_ref: 0.0012, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 235.83, Learning Rate: 0.00000022
+Epoch:[1/1](184/500), Reward: -0.9364, KL_ref: -0.0072, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 111.17, Learning Rate: 0.00000022
+Epoch:[1/1](185/500), Reward: -1.0486, KL_ref: -0.0039, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 271.67, Learning Rate: 0.00000022
+Epoch:[1/1](186/500), Reward: -1.8000, KL_ref: -0.0001, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 220.08, Learning Rate: 0.00000022
+Epoch:[1/1](187/500), Reward: -2.0356, KL_ref: 0.0025, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0011, Avg Response Len: 253.92, Learning Rate: 0.00000022
+Epoch:[1/1](188/500), Reward: -1.0608, KL_ref: 0.0019, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 89.00, Learning Rate: 0.00000022
+Epoch:[1/1](189/500), Reward: -2.6323, KL_ref: -0.0004, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 223.92, Learning Rate: 0.00000022
+Epoch:[1/1](190/500), Reward: -2.0107, KL_ref: -0.0047, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 385.25, Learning Rate: 0.00000021
+Epoch:[1/1](191/500), Reward: -1.0710, KL_ref: -0.0031, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 88.00, Learning Rate: 0.00000021
+Epoch:[1/1](192/500), Reward: -1.0683, KL_ref: -0.0030, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 121.83, Learning Rate: 0.00000021
+Epoch:[1/1](193/500), Reward: -0.3805, KL_ref: -0.0041, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 366.33, Learning Rate: 0.00000021
+Epoch:[1/1](194/500), Reward: -1.4195, KL_ref: -0.0009, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 413.83, Learning Rate: 0.00000021
+Epoch:[1/1](195/500), Reward: -0.8331, KL_ref: -0.0088, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0007, Avg Response Len: 189.00, Learning Rate: 0.00000021
+Epoch:[1/1](196/500), Reward: -1.0387, KL_ref: -0.0085, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 188.67, Learning Rate: 0.00000021
+Epoch:[1/1](197/500), Reward: -2.0174, KL_ref: -0.0020, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 326.42, Learning Rate: 0.00000021
+Epoch:[1/1](198/500), Reward: -1.2283, KL_ref: -0.0055, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 253.00, Learning Rate: 0.00000021
+Epoch:[1/1](199/500), Reward: -2.9437, KL_ref: 0.0019, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 476.25, Learning Rate: 0.00000021
+Epoch:[1/1](200/500), Reward: -1.5795, KL_ref: -0.0010, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 301.08, Learning Rate: 0.00000021
+Epoch:[1/1](201/500), Reward: -2.8171, KL_ref: 0.0019, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 370.08, Learning Rate: 0.00000021
+Epoch:[1/1](202/500), Reward: -1.5059, KL_ref: -0.0011, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0008, Avg Response Len: 216.50, Learning Rate: 0.00000021
+Epoch:[1/1](203/500), Reward: -1.1267, KL_ref: -0.0040, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 362.42, Learning Rate: 0.00000020
+Epoch:[1/1](204/500), Reward: -2.2210, KL_ref: 0.0012, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 310.08, Learning Rate: 0.00000020
+Epoch:[1/1](205/500), Reward: -0.8977, KL_ref: -0.0081, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 173.17, Learning Rate: 0.00000020
+Epoch:[1/1](206/500), Reward: -2.3109, KL_ref: -0.0004, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 391.50, Learning Rate: 0.00000020
+Epoch:[1/1](207/500), Reward: -0.3768, KL_ref: -0.0083, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 270.08, Learning Rate: 0.00000020
+Epoch:[1/1](208/500), Reward: -1.2195, KL_ref: -0.0010, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 318.33, Learning Rate: 0.00000020
+Epoch:[1/1](209/500), Reward: -2.0540, KL_ref: -0.0036, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 387.42, Learning Rate: 0.00000020
+Epoch:[1/1](210/500), Reward: -2.1620, KL_ref: -0.0015, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 285.58, Learning Rate: 0.00000020
+Epoch:[1/1](211/500), Reward: -0.9315, KL_ref: -0.0021, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 86.42, Learning Rate: 0.00000020
+Epoch:[1/1](212/500), Reward: -2.0932, KL_ref: -0.0015, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 268.25, Learning Rate: 0.00000020
+Epoch:[1/1](213/500), Reward: -1.2164, KL_ref: 0.0000, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 247.33, Learning Rate: 0.00000020
+Epoch:[1/1](214/500), Reward: -0.8884, KL_ref: -0.0094, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 282.42, Learning Rate: 0.00000020
+Epoch:[1/1](215/500), Reward: -1.1453, KL_ref: -0.0049, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 321.83, Learning Rate: 0.00000019
+Epoch:[1/1](216/500), Reward: -0.9170, KL_ref: -0.0048, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 313.00, Learning Rate: 0.00000019
+Epoch:[1/1](217/500), Reward: 0.2603, KL_ref: -0.0142, Adv Std: 1.0441, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 124.75, Learning Rate: 0.00000019
+Epoch:[1/1](218/500), Reward: -2.7794, KL_ref: 0.0005, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 397.33, Learning Rate: 0.00000019
+Epoch:[1/1](219/500), Reward: -0.6915, KL_ref: -0.0061, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 122.25, Learning Rate: 0.00000019
+Epoch:[1/1](220/500), Reward: -1.4104, KL_ref: -0.0123, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 52.67, Learning Rate: 0.00000019
+Epoch:[1/1](221/500), Reward: -1.8183, KL_ref: -0.0074, Adv Std: 1.0438, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 198.17, Learning Rate: 0.00000019
+Epoch:[1/1](222/500), Reward: -1.9507, KL_ref: -0.0018, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 173.42, Learning Rate: 0.00000019
+Epoch:[1/1](223/500), Reward: -1.6323, KL_ref: 0.0018, Adv Std: 1.0439, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 189.50, Learning Rate: 0.00000019
+Epoch:[1/1](224/500), Reward: -2.2167, KL_ref: -0.0022, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 356.25, Learning Rate: 0.00000019
+Epoch:[1/1](225/500), Reward: -1.4921, KL_ref: -0.0070, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 217.58, Learning Rate: 0.00000019
+Epoch:[1/1](226/500), Reward: -1.5224, KL_ref: 0.0008, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 403.75, Learning Rate: 0.00000019
+Epoch:[1/1](227/500), Reward: -2.2057, KL_ref: -0.0060, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 129.00, Learning Rate: 0.00000018
+Epoch:[1/1](228/500), Reward: -1.0849, KL_ref: -0.0009, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 240.08, Learning Rate: 0.00000018
+Epoch:[1/1](229/500), Reward: -1.6368, KL_ref: 0.0010, Adv Std: 1.0435, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 171.42, Learning Rate: 0.00000018
+Epoch:[1/1](230/500), Reward: -1.2971, KL_ref: -0.0116, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0009, Avg Response Len: 200.17, Learning Rate: 0.00000018
+Epoch:[1/1](231/500), Reward: -1.0251, KL_ref: -0.0042, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 54.75, Learning Rate: 0.00000018
+Epoch:[1/1](232/500), Reward: 0.0735, KL_ref: -0.0051, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0006, Avg Response Len: 293.58, Learning Rate: 0.00000018
+Epoch:[1/1](233/500), Reward: -0.4537, KL_ref: -0.0113, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 207.75, Learning Rate: 0.00000018
+Epoch:[1/1](234/500), Reward: -1.2539, KL_ref: -0.0050, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 341.75, Learning Rate: 0.00000018
+Epoch:[1/1](235/500), Reward: -2.1609, KL_ref: -0.0021, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 193.83, Learning Rate: 0.00000018
+Epoch:[1/1](236/500), Reward: -0.7774, KL_ref: -0.0106, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0007, Avg Response Len: 242.42, Learning Rate: 0.00000018
+Epoch:[1/1](237/500), Reward: -1.5538, KL_ref: -0.0024, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 202.50, Learning Rate: 0.00000018
+Epoch:[1/1](238/500), Reward: -0.7205, KL_ref: -0.0076, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 210.50, Learning Rate: 0.00000018
+Epoch:[1/1](239/500), Reward: -1.8735, KL_ref: -0.0037, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 282.33, Learning Rate: 0.00000017
+Epoch:[1/1](240/500), Reward: -1.9425, KL_ref: 0.0005, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 339.33, Learning Rate: 0.00000017
+Epoch:[1/1](241/500), Reward: -0.4684, KL_ref: -0.0139, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 260.58, Learning Rate: 0.00000017
+Epoch:[1/1](242/500), Reward: -1.9962, KL_ref: 0.0024, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 305.75, Learning Rate: 0.00000017
+Epoch:[1/1](243/500), Reward: -0.9188, KL_ref: -0.0084, Adv Std: 1.0441, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 177.58, Learning Rate: 0.00000017
+Epoch:[1/1](244/500), Reward: -1.7004, KL_ref: -0.0004, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 364.08, Learning Rate: 0.00000017
+Epoch:[1/1](245/500), Reward: -1.8194, KL_ref: -0.0020, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 356.00, Learning Rate: 0.00000017
+Epoch:[1/1](246/500), Reward: -0.6697, KL_ref: -0.0083, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 202.08, Learning Rate: 0.00000017
+Epoch:[1/1](247/500), Reward: 0.0861, KL_ref: -0.0070, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 188.58, Learning Rate: 0.00000017
+Epoch:[1/1](248/500), Reward: -1.7717, KL_ref: 0.0013, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 310.25, Learning Rate: 0.00000017
+Epoch:[1/1](249/500), Reward: -1.9649, KL_ref: -0.0006, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 151.42, Learning Rate: 0.00000017
+Epoch:[1/1](250/500), Reward: -1.9930, KL_ref: -0.0057, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 265.08, Learning Rate: 0.00000016
+Epoch:[1/1](251/500), Reward: -0.6200, KL_ref: -0.0067, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 209.50, Learning Rate: 0.00000016
+Epoch:[1/1](252/500), Reward: -1.7103, KL_ref: -0.0034, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 355.83, Learning Rate: 0.00000016
+Epoch:[1/1](253/500), Reward: -0.4172, KL_ref: -0.0123, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 226.50, Learning Rate: 0.00000016
+Epoch:[1/1](254/500), Reward: -0.5924, KL_ref: -0.0087, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 190.08, Learning Rate: 0.00000016
+Epoch:[1/1](255/500), Reward: -0.1496, KL_ref: -0.0079, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 378.42, Learning Rate: 0.00000016
+Epoch:[1/1](256/500), Reward: -1.8876, KL_ref: -0.0046, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0005, Avg Response Len: 199.33, Learning Rate: 0.00000016
+Epoch:[1/1](257/500), Reward: -0.3974, KL_ref: -0.0039, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 51.25, Learning Rate: 0.00000016
+Epoch:[1/1](258/500), Reward: -1.9833, KL_ref: 0.0007, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 395.08, Learning Rate: 0.00000016
+Epoch:[1/1](259/500), Reward: -1.5695, KL_ref: -0.0002, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 313.00, Learning Rate: 0.00000016
+Epoch:[1/1](260/500), Reward: -1.2889, KL_ref: -0.0031, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 131.00, Learning Rate: 0.00000016
+Epoch:[1/1](261/500), Reward: -2.3830, KL_ref: -0.0005, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 293.33, Learning Rate: 0.00000016
+Epoch:[1/1](262/500), Reward: -1.6744, KL_ref: -0.0003, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 483.92, Learning Rate: 0.00000015
+Epoch:[1/1](263/500), Reward: -0.3288, KL_ref: -0.0044, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 307.42, Learning Rate: 0.00000015
+Epoch:[1/1](264/500), Reward: -0.5873, KL_ref: -0.0138, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0006, Avg Response Len: 269.17, Learning Rate: 0.00000015
+Epoch:[1/1](265/500), Reward: -0.9183, KL_ref: -0.0045, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 88.50, Learning Rate: 0.00000015
+Epoch:[1/1](266/500), Reward: -2.0880, KL_ref: -0.0024, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 122.92, Learning Rate: 0.00000015
+Epoch:[1/1](267/500), Reward: -1.8117, KL_ref: -0.0019, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 348.50, Learning Rate: 0.00000015
+Epoch:[1/1](268/500), Reward: -0.3305, KL_ref: -0.0028, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0007, Avg Response Len: 266.00, Learning Rate: 0.00000015
+Epoch:[1/1](269/500), Reward: -1.6299, KL_ref: -0.0040, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 366.67, Learning Rate: 0.00000015
+Epoch:[1/1](270/500), Reward: -1.4999, KL_ref: -0.0060, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 228.83, Learning Rate: 0.00000015
+Epoch:[1/1](271/500), Reward: -1.8814, KL_ref: -0.0003, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 293.92, Learning Rate: 0.00000015
+Epoch:[1/1](272/500), Reward: -0.5974, KL_ref: -0.0007, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 407.08, Learning Rate: 0.00000015
+Epoch:[1/1](273/500), Reward: -0.8236, KL_ref: -0.0056, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 337.08, Learning Rate: 0.00000015
+Epoch:[1/1](274/500), Reward: -0.7263, KL_ref: -0.0089, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 166.00, Learning Rate: 0.00000014
+Epoch:[1/1](275/500), Reward: -1.0100, KL_ref: -0.0113, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 42.00, Learning Rate: 0.00000014
+Epoch:[1/1](276/500), Reward: 0.2142, KL_ref: -0.0074, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 347.08, Learning Rate: 0.00000014
+Epoch:[1/1](277/500), Reward: -2.0514, KL_ref: 0.0010, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 279.42, Learning Rate: 0.00000014
+Epoch:[1/1](278/500), Reward: -1.5786, KL_ref: -0.0031, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 158.83, Learning Rate: 0.00000014
+Epoch:[1/1](279/500), Reward: -0.7192, KL_ref: -0.0023, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 295.58, Learning Rate: 0.00000014
+Epoch:[1/1](280/500), Reward: -1.4865, KL_ref: -0.0008, Adv Std: 1.0441, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 426.42, Learning Rate: 0.00000014
+Epoch:[1/1](281/500), Reward: -0.6188, KL_ref: -0.0122, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 126.83, Learning Rate: 0.00000014
+Epoch:[1/1](282/500), Reward: -2.4588, KL_ref: 0.0012, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 282.50, Learning Rate: 0.00000014
+Epoch:[1/1](283/500), Reward: -1.3410, KL_ref: -0.0072, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 239.25, Learning Rate: 0.00000014
+Epoch:[1/1](284/500), Reward: -1.5031, KL_ref: -0.0000, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 271.67, Learning Rate: 0.00000014
+Epoch:[1/1](285/500), Reward: -1.5132, KL_ref: -0.0072, Adv Std: 1.0439, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 301.67, Learning Rate: 0.00000014
+Epoch:[1/1](286/500), Reward: -0.5397, KL_ref: -0.0056, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 322.92, Learning Rate: 0.00000013
+Epoch:[1/1](287/500), Reward: -1.7169, KL_ref: -0.0078, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 320.58, Learning Rate: 0.00000013
+Epoch:[1/1](288/500), Reward: -1.7824, KL_ref: 0.0018, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 194.08, Learning Rate: 0.00000013
+Epoch:[1/1](289/500), Reward: -1.1305, KL_ref: -0.0115, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0007, Avg Response Len: 76.42, Learning Rate: 0.00000013
+Epoch:[1/1](290/500), Reward: -1.1326, KL_ref: -0.0102, Adv Std: 1.0441, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 163.83, Learning Rate: 0.00000013
+Epoch:[1/1](291/500), Reward: -1.5297, KL_ref: 0.0008, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 211.33, Learning Rate: 0.00000013
+Epoch:[1/1](292/500), Reward: -0.3916, KL_ref: -0.0040, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 281.83, Learning Rate: 0.00000013
+Epoch:[1/1](293/500), Reward: -1.4817, KL_ref: -0.0056, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0007, Avg Response Len: 234.75, Learning Rate: 0.00000013
+Epoch:[1/1](294/500), Reward: -1.7215, KL_ref: -0.0059, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 335.25, Learning Rate: 0.00000013
+Epoch:[1/1](295/500), Reward: -1.6738, KL_ref: -0.0051, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 358.42, Learning Rate: 0.00000013
+Epoch:[1/1](296/500), Reward: -0.1247, KL_ref: -0.0072, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 383.92, Learning Rate: 0.00000013
+Epoch:[1/1](297/500), Reward: -0.3713, KL_ref: -0.0097, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 35.58, Learning Rate: 0.00000013
+Epoch:[1/1](298/500), Reward: -2.7022, KL_ref: 0.0015, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 322.00, Learning Rate: 0.00000012
+Epoch:[1/1](299/500), Reward: -1.6620, KL_ref: 0.0001, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 338.00, Learning Rate: 0.00000012
+Epoch:[1/1](300/500), Reward: -2.5271, KL_ref: 0.0017, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 441.25, Learning Rate: 0.00000012
+Epoch:[1/1](301/500), Reward: -0.9263, KL_ref: -0.0009, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 207.83, Learning Rate: 0.00000012
+Epoch:[1/1](302/500), Reward: -0.5084, KL_ref: -0.0086, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 191.92, Learning Rate: 0.00000012
+Epoch:[1/1](303/500), Reward: -0.6374, KL_ref: -0.0096, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0012, Avg Response Len: 117.58, Learning Rate: 0.00000012
+Epoch:[1/1](304/500), Reward: -1.8170, KL_ref: -0.0008, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 133.08, Learning Rate: 0.00000012
+Epoch:[1/1](305/500), Reward: -2.1846, KL_ref: 0.0027, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 284.58, Learning Rate: 0.00000012
+Epoch:[1/1](306/500), Reward: -1.5924, KL_ref: -0.0035, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 254.33, Learning Rate: 0.00000012
+Epoch:[1/1](307/500), Reward: -1.0033, KL_ref: -0.0013, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 270.50, Learning Rate: 0.00000012
+Epoch:[1/1](308/500), Reward: 0.2790, KL_ref: -0.0141, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 248.00, Learning Rate: 0.00000012
+Epoch:[1/1](309/500), Reward: -0.7891, KL_ref: -0.0109, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 184.17, Learning Rate: 0.00000012
+Epoch:[1/1](310/500), Reward: -0.8627, KL_ref: -0.0081, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 230.75, Learning Rate: 0.00000012
+Epoch:[1/1](311/500), Reward: -1.6409, KL_ref: -0.0051, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 57.75, Learning Rate: 0.00000011
+Epoch:[1/1](312/500), Reward: -2.0907, KL_ref: 0.0000, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 430.17, Learning Rate: 0.00000011
+Epoch:[1/1](313/500), Reward: -0.0041, KL_ref: -0.0150, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0010, Avg Response Len: 212.08, Learning Rate: 0.00000011
+Epoch:[1/1](314/500), Reward: -0.4286, KL_ref: -0.0076, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0005, Avg Response Len: 314.75, Learning Rate: 0.00000011
+Epoch:[1/1](315/500), Reward: -1.0773, KL_ref: -0.0081, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 402.42, Learning Rate: 0.00000011
+Epoch:[1/1](316/500), Reward: -0.2064, KL_ref: -0.0133, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0005, Avg Response Len: 141.75, Learning Rate: 0.00000011
+Epoch:[1/1](317/500), Reward: -2.9250, KL_ref: 0.0001, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 254.58, Learning Rate: 0.00000011
+Epoch:[1/1](318/500), Reward: -1.6829, KL_ref: 0.0022, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 180.75, Learning Rate: 0.00000011
+Epoch:[1/1](319/500), Reward: -1.5618, KL_ref: -0.0053, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 228.33, Learning Rate: 0.00000011
+Epoch:[1/1](320/500), Reward: -1.2265, KL_ref: 0.0030, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 218.83, Learning Rate: 0.00000011
+Epoch:[1/1](321/500), Reward: -0.2534, KL_ref: -0.0053, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 358.00, Learning Rate: 0.00000011
+Epoch:[1/1](322/500), Reward: -2.1344, KL_ref: -0.0003, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 231.17, Learning Rate: 0.00000011
+Epoch:[1/1](323/500), Reward: -1.1081, KL_ref: -0.0127, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0006, Avg Response Len: 301.00, Learning Rate: 0.00000011
+Epoch:[1/1](324/500), Reward: -0.6849, KL_ref: -0.0108, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0007, Avg Response Len: 245.58, Learning Rate: 0.00000010
+Epoch:[1/1](325/500), Reward: -2.4817, KL_ref: -0.0002, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 435.92, Learning Rate: 0.00000010
+Epoch:[1/1](326/500), Reward: -1.5097, KL_ref: -0.0057, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 295.42, Learning Rate: 0.00000010
+Epoch:[1/1](327/500), Reward: -1.8624, KL_ref: 0.0008, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 199.33, Learning Rate: 0.00000010
+Epoch:[1/1](328/500), Reward: -2.4907, KL_ref: 0.0034, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 308.08, Learning Rate: 0.00000010
+Epoch:[1/1](329/500), Reward: -0.6679, KL_ref: -0.0081, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 217.33, Learning Rate: 0.00000010
+Epoch:[1/1](330/500), Reward: -1.2872, KL_ref: -0.0064, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 206.92, Learning Rate: 0.00000010
+Epoch:[1/1](331/500), Reward: -0.9519, KL_ref: -0.0043, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 343.75, Learning Rate: 0.00000010
+Epoch:[1/1](332/500), Reward: -0.9852, KL_ref: -0.0073, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 297.83, Learning Rate: 0.00000010
+Epoch:[1/1](333/500), Reward: -0.3311, KL_ref: -0.0129, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 171.50, Learning Rate: 0.00000010
+Epoch:[1/1](334/500), Reward: -1.9924, KL_ref: 0.0002, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 227.42, Learning Rate: 0.00000010
+Epoch:[1/1](335/500), Reward: -1.2650, KL_ref: -0.0012, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 65.83, Learning Rate: 0.00000010
+Epoch:[1/1](336/500), Reward: -2.1483, KL_ref: -0.0037, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 343.75, Learning Rate: 0.00000010
+Epoch:[1/1](337/500), Reward: -0.6947, KL_ref: -0.0055, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0007, Avg Response Len: 355.42, Learning Rate: 0.00000009
+Epoch:[1/1](338/500), Reward: -0.7026, KL_ref: -0.0113, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 188.75, Learning Rate: 0.00000009
+Epoch:[1/1](339/500), Reward: -1.3085, KL_ref: 0.0042, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 63.92, Learning Rate: 0.00000009
+Epoch:[1/1](340/500), Reward: -0.6313, KL_ref: -0.0094, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 197.33, Learning Rate: 0.00000009
+Epoch:[1/1](341/500), Reward: -0.9602, KL_ref: -0.0083, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 322.50, Learning Rate: 0.00000009
+Epoch:[1/1](342/500), Reward: -2.1738, KL_ref: -0.0001, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0000, Avg Response Len: 330.58, Learning Rate: 0.00000009
+Epoch:[1/1](343/500), Reward: -1.4316, KL_ref: -0.0000, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 328.00, Learning Rate: 0.00000009
+Epoch:[1/1](344/500), Reward: -0.6962, KL_ref: -0.0155, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 176.50, Learning Rate: 0.00000009
+Epoch:[1/1](345/500), Reward: -1.1635, KL_ref: -0.0066, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 347.92, Learning Rate: 0.00000009
+Epoch:[1/1](346/500), Reward: -0.1819, KL_ref: -0.0115, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 369.67, Learning Rate: 0.00000009
+Epoch:[1/1](347/500), Reward: -0.9023, KL_ref: -0.0100, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 234.75, Learning Rate: 0.00000009
+Epoch:[1/1](348/500), Reward: -0.3655, KL_ref: -0.0100, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0010, Avg Response Len: 128.00, Learning Rate: 0.00000009
+Epoch:[1/1](349/500), Reward: -1.1833, KL_ref: 0.0003, Adv Std: 1.0441, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 144.67, Learning Rate: 0.00000009
+Epoch:[1/1](350/500), Reward: -1.4021, KL_ref: -0.0005, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 472.83, Learning Rate: 0.00000009
+Epoch:[1/1](351/500), Reward: -1.4410, KL_ref: -0.0033, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 318.08, Learning Rate: 0.00000008
+Epoch:[1/1](352/500), Reward: -1.3743, KL_ref: -0.0073, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 217.42, Learning Rate: 0.00000008
+Epoch:[1/1](353/500), Reward: -0.3175, KL_ref: -0.0074, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 164.17, Learning Rate: 0.00000008
+Epoch:[1/1](354/500), Reward: -1.4524, KL_ref: -0.0141, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 176.83, Learning Rate: 0.00000008
+Epoch:[1/1](355/500), Reward: -1.8730, KL_ref: -0.0019, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 124.92, Learning Rate: 0.00000008
+Epoch:[1/1](356/500), Reward: -2.3052, KL_ref: -0.0028, Adv Std: 1.0439, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 219.00, Learning Rate: 0.00000008
+Epoch:[1/1](357/500), Reward: -0.4971, KL_ref: -0.0121, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0006, Avg Response Len: 207.00, Learning Rate: 0.00000008
+Epoch:[1/1](358/500), Reward: -0.5002, KL_ref: -0.0120, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 201.33, Learning Rate: 0.00000008
+Epoch:[1/1](359/500), Reward: -1.6261, KL_ref: 0.0002, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 189.92, Learning Rate: 0.00000008
+Epoch:[1/1](360/500), Reward: -1.4316, KL_ref: 0.0011, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 267.00, Learning Rate: 0.00000008
+Epoch:[1/1](361/500), Reward: -0.6668, KL_ref: -0.0007, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 217.92, Learning Rate: 0.00000008
+Epoch:[1/1](362/500), Reward: -2.6042, KL_ref: 0.0005, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 324.08, Learning Rate: 0.00000008
+Epoch:[1/1](363/500), Reward: -1.3525, KL_ref: -0.0118, Adv Std: 1.0441, Adv Mean: -0.0000, Actor Loss: 0.0005, Avg Response Len: 252.33, Learning Rate: 0.00000008
+Epoch:[1/1](364/500), Reward: -1.6311, KL_ref: 0.0017, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 284.33, Learning Rate: 0.00000008
+Epoch:[1/1](365/500), Reward: -1.3866, KL_ref: -0.0024, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 385.08, Learning Rate: 0.00000008
+Epoch:[1/1](366/500), Reward: -1.8735, KL_ref: 0.0001, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 305.75, Learning Rate: 0.00000008
+Epoch:[1/1](367/500), Reward: -1.7825, KL_ref: -0.0023, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 343.33, Learning Rate: 0.00000007
+Epoch:[1/1](368/500), Reward: -1.5856, KL_ref: -0.0082, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 290.25, Learning Rate: 0.00000007
+Epoch:[1/1](369/500), Reward: -0.9776, KL_ref: -0.0060, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 366.25, Learning Rate: 0.00000007
+Epoch:[1/1](370/500), Reward: -0.7788, KL_ref: -0.0008, Adv Std: 1.0444, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 454.42, Learning Rate: 0.00000007
+Epoch:[1/1](371/500), Reward: -1.9516, KL_ref: 0.0034, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 237.33, Learning Rate: 0.00000007
+Epoch:[1/1](372/500), Reward: -1.4555, KL_ref: -0.0030, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 126.67, Learning Rate: 0.00000007
+Epoch:[1/1](373/500), Reward: -1.5578, KL_ref: -0.0122, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 173.42, Learning Rate: 0.00000007
+Epoch:[1/1](374/500), Reward: -2.1996, KL_ref: -0.0008, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 310.08, Learning Rate: 0.00000007
+Epoch:[1/1](375/500), Reward: -2.4975, KL_ref: 0.0004, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 264.67, Learning Rate: 0.00000007
+Epoch:[1/1](376/500), Reward: -1.9212, KL_ref: -0.0065, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 338.00, Learning Rate: 0.00000007
+Epoch:[1/1](377/500), Reward: -1.3414, KL_ref: -0.0007, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 308.83, Learning Rate: 0.00000007
+Epoch:[1/1](378/500), Reward: -2.2399, KL_ref: -0.0030, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 302.75, Learning Rate: 0.00000007
+Epoch:[1/1](379/500), Reward: -2.5115, KL_ref: 0.0004, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 341.25, Learning Rate: 0.00000007
+Epoch:[1/1](380/500), Reward: -1.2462, KL_ref: -0.0069, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 207.58, Learning Rate: 0.00000007
+Epoch:[1/1](381/500), Reward: -1.5406, KL_ref: -0.0095, Adv Std: 1.0437, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 101.67, Learning Rate: 0.00000007
+Epoch:[1/1](382/500), Reward: -0.6731, KL_ref: -0.0118, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 175.00, Learning Rate: 0.00000007
+Epoch:[1/1](383/500), Reward: -0.9242, KL_ref: -0.0035, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 360.42, Learning Rate: 0.00000006
+Epoch:[1/1](384/500), Reward: -1.5253, KL_ref: -0.0079, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 57.42, Learning Rate: 0.00000006
+Epoch:[1/1](385/500), Reward: -2.0693, KL_ref: -0.0001, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 247.08, Learning Rate: 0.00000006
+Epoch:[1/1](386/500), Reward: -0.8600, KL_ref: -0.0024, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 317.83, Learning Rate: 0.00000006
+Epoch:[1/1](387/500), Reward: -1.2819, KL_ref: -0.0048, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 386.50, Learning Rate: 0.00000006
+Epoch:[1/1](388/500), Reward: -0.8291, KL_ref: -0.0110, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 171.00, Learning Rate: 0.00000006
+Epoch:[1/1](389/500), Reward: -1.8370, KL_ref: -0.0012, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 233.42, Learning Rate: 0.00000006
+Epoch:[1/1](390/500), Reward: -1.7535, KL_ref: 0.0000, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 219.92, Learning Rate: 0.00000006
+Epoch:[1/1](391/500), Reward: -2.6755, KL_ref: 0.0016, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 269.50, Learning Rate: 0.00000006
+Epoch:[1/1](392/500), Reward: -0.9744, KL_ref: -0.0004, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 235.58, Learning Rate: 0.00000006
+Epoch:[1/1](393/500), Reward: -0.9240, KL_ref: -0.0131, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 159.67, Learning Rate: 0.00000006
+Epoch:[1/1](394/500), Reward: 0.2984, KL_ref: -0.0088, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 331.75, Learning Rate: 0.00000006
+Epoch:[1/1](395/500), Reward: -2.6573, KL_ref: 0.0017, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 348.83, Learning Rate: 0.00000006
+Epoch:[1/1](396/500), Reward: 0.4929, KL_ref: -0.0102, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 290.42, Learning Rate: 0.00000006
+Epoch:[1/1](397/500), Reward: -0.3253, KL_ref: -0.0092, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 217.17, Learning Rate: 0.00000006
+Epoch:[1/1](398/500), Reward: -0.7318, KL_ref: -0.0139, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 194.00, Learning Rate: 0.00000006
+Epoch:[1/1](399/500), Reward: -1.7612, KL_ref: 0.0007, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 245.58, Learning Rate: 0.00000006
+Epoch:[1/1](400/500), Reward: -2.1813, KL_ref: -0.0009, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 423.42, Learning Rate: 0.00000006
+Epoch:[1/1](401/500), Reward: -1.0592, KL_ref: -0.0090, Adv Std: 1.0444, Adv Mean: -0.0000, Actor Loss: 0.0005, Avg Response Len: 360.83, Learning Rate: 0.00000006
+Epoch:[1/1](402/500), Reward: -2.0057, KL_ref: 0.0002, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 329.00, Learning Rate: 0.00000005
+Epoch:[1/1](403/500), Reward: -0.2496, KL_ref: -0.0196, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0008, Avg Response Len: 50.00, Learning Rate: 0.00000005
+Epoch:[1/1](404/500), Reward: -1.2312, KL_ref: -0.0130, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0009, Avg Response Len: 256.92, Learning Rate: 0.00000005
+Epoch:[1/1](405/500), Reward: -0.9837, KL_ref: -0.0005, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 223.83, Learning Rate: 0.00000005
+Epoch:[1/1](406/500), Reward: -1.2043, KL_ref: -0.0000, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 319.17, Learning Rate: 0.00000005
+Epoch:[1/1](407/500), Reward: -2.0582, KL_ref: -0.0034, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 111.42, Learning Rate: 0.00000005
+Epoch:[1/1](408/500), Reward: -2.1046, KL_ref: -0.0002, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 381.92, Learning Rate: 0.00000005
+Epoch:[1/1](409/500), Reward: -1.7282, KL_ref: -0.0008, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 407.08, Learning Rate: 0.00000005
+Epoch:[1/1](410/500), Reward: -1.6645, KL_ref: -0.0011, Adv Std: 1.0440, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 118.00, Learning Rate: 0.00000005
+Epoch:[1/1](411/500), Reward: -0.3492, KL_ref: -0.0117, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 170.08, Learning Rate: 0.00000005
+Epoch:[1/1](412/500), Reward: -0.6662, KL_ref: -0.0048, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 272.83, Learning Rate: 0.00000005
+Epoch:[1/1](413/500), Reward: -0.0323, KL_ref: -0.0103, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0005, Avg Response Len: 263.42, Learning Rate: 0.00000005
+Epoch:[1/1](414/500), Reward: -0.8131, KL_ref: -0.0060, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 218.50, Learning Rate: 0.00000005
+Epoch:[1/1](415/500), Reward: -1.5085, KL_ref: -0.0004, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 194.33, Learning Rate: 0.00000005
+Epoch:[1/1](416/500), Reward: -1.5890, KL_ref: 0.0017, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 317.50, Learning Rate: 0.00000005
+Epoch:[1/1](417/500), Reward: -0.6452, KL_ref: -0.0183, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0006, Avg Response Len: 145.25, Learning Rate: 0.00000005
+Epoch:[1/1](418/500), Reward: -2.9980, KL_ref: 0.0020, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 413.33, Learning Rate: 0.00000005
+Epoch:[1/1](419/500), Reward: -0.9983, KL_ref: -0.0087, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 211.58, Learning Rate: 0.00000005
+Epoch:[1/1](420/500), Reward: -1.1055, KL_ref: -0.0103, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0006, Avg Response Len: 283.67, Learning Rate: 0.00000005
+Epoch:[1/1](421/500), Reward: -0.6913, KL_ref: -0.0042, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 242.25, Learning Rate: 0.00000005
+Epoch:[1/1](422/500), Reward: -0.3217, KL_ref: -0.0054, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 363.50, Learning Rate: 0.00000005
+Epoch:[1/1](423/500), Reward: -1.5531, KL_ref: -0.0118, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 66.50, Learning Rate: 0.00000005
+Epoch:[1/1](424/500), Reward: -1.9685, KL_ref: 0.0019, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 259.50, Learning Rate: 0.00000005
+Epoch:[1/1](425/500), Reward: -2.1484, KL_ref: 0.0007, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 416.92, Learning Rate: 0.00000004
+Epoch:[1/1](426/500), Reward: -0.1239, KL_ref: -0.0160, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 159.33, Learning Rate: 0.00000004
+Epoch:[1/1](427/500), Reward: -2.3568, KL_ref: 0.0004, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 303.17, Learning Rate: 0.00000004
+Epoch:[1/1](428/500), Reward: -1.1545, KL_ref: -0.0123, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 63.42, Learning Rate: 0.00000004
+Epoch:[1/1](429/500), Reward: -1.7166, KL_ref: -0.0053, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 99.50, Learning Rate: 0.00000004
+Epoch:[1/1](430/500), Reward: -1.8271, KL_ref: 0.0002, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 175.25, Learning Rate: 0.00000004
+Epoch:[1/1](431/500), Reward: -1.1126, KL_ref: -0.0078, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 230.17, Learning Rate: 0.00000004
+Epoch:[1/1](432/500), Reward: -0.7976, KL_ref: -0.0088, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 285.83, Learning Rate: 0.00000004
+Epoch:[1/1](433/500), Reward: -2.0823, KL_ref: 0.0008, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 165.42, Learning Rate: 0.00000004
+Epoch:[1/1](434/500), Reward: 0.1851, KL_ref: -0.0162, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0007, Avg Response Len: 252.50, Learning Rate: 0.00000004
+Epoch:[1/1](435/500), Reward: -1.3205, KL_ref: -0.0051, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 372.17, Learning Rate: 0.00000004
+Epoch:[1/1](436/500), Reward: -2.2408, KL_ref: -0.0012, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 389.08, Learning Rate: 0.00000004
+Epoch:[1/1](437/500), Reward: -2.4242, KL_ref: 0.0027, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 252.75, Learning Rate: 0.00000004
+Epoch:[1/1](438/500), Reward: -1.0650, KL_ref: -0.0042, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 268.33, Learning Rate: 0.00000004
+Epoch:[1/1](439/500), Reward: -1.8871, KL_ref: -0.0029, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 155.75, Learning Rate: 0.00000004
+Epoch:[1/1](440/500), Reward: -1.1069, KL_ref: -0.0108, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 207.17, Learning Rate: 0.00000004
+Epoch:[1/1](441/500), Reward: -1.1010, KL_ref: -0.0077, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0005, Avg Response Len: 331.00, Learning Rate: 0.00000004
+Epoch:[1/1](442/500), Reward: -2.7369, KL_ref: 0.0003, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 277.83, Learning Rate: 0.00000004
+Epoch:[1/1](443/500), Reward: -0.6953, KL_ref: -0.0059, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 356.58, Learning Rate: 0.00000004
+Epoch:[1/1](444/500), Reward: -1.1378, KL_ref: -0.0124, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 191.08, Learning Rate: 0.00000004
+Epoch:[1/1](445/500), Reward: -1.0822, KL_ref: -0.0067, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0009, Avg Response Len: 201.58, Learning Rate: 0.00000004
+Epoch:[1/1](446/500), Reward: -1.6491, KL_ref: -0.0018, Adv Std: 1.0444, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 289.33, Learning Rate: 0.00000004
+Epoch:[1/1](447/500), Reward: -1.4060, KL_ref: 0.0011, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 204.08, Learning Rate: 0.00000004
+Epoch:[1/1](448/500), Reward: -1.4202, KL_ref: -0.0033, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 318.75, Learning Rate: 0.00000004
+Epoch:[1/1](449/500), Reward: -1.6007, KL_ref: -0.0038, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 329.08, Learning Rate: 0.00000004
+Epoch:[1/1](450/500), Reward: -1.3234, KL_ref: 0.0017, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 288.75, Learning Rate: 0.00000004
+Epoch:[1/1](451/500), Reward: -0.7170, KL_ref: -0.0114, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 51.42, Learning Rate: 0.00000004
+Epoch:[1/1](452/500), Reward: -2.1664, KL_ref: 0.0001, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 399.67, Learning Rate: 0.00000004
+Epoch:[1/1](453/500), Reward: -2.6801, KL_ref: 0.0022, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 454.58, Learning Rate: 0.00000004
+Epoch:[1/1](454/500), Reward: -1.1959, KL_ref: -0.0007, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 202.42, Learning Rate: 0.00000004
+Epoch:[1/1](455/500), Reward: -0.2480, KL_ref: -0.0122, Adv Std: 1.0435, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 191.67, Learning Rate: 0.00000004
+Epoch:[1/1](456/500), Reward: -0.0083, KL_ref: -0.0142, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 314.67, Learning Rate: 0.00000004
+Epoch:[1/1](457/500), Reward: -1.5001, KL_ref: -0.0018, Adv Std: 1.0441, Adv Mean: -0.0000, Actor Loss: 0.0001, Avg Response Len: 122.67, Learning Rate: 0.00000003
+Epoch:[1/1](458/500), Reward: 1.0366, KL_ref: -0.0111, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0008, Avg Response Len: 244.83, Learning Rate: 0.00000003
+Epoch:[1/1](459/500), Reward: -2.2575, KL_ref: 0.0008, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 270.75, Learning Rate: 0.00000003
+Epoch:[1/1](460/500), Reward: -2.0541, KL_ref: -0.0046, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 313.33, Learning Rate: 0.00000003
+Epoch:[1/1](461/500), Reward: -0.6039, KL_ref: -0.0034, Adv Std: 1.0444, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 408.33, Learning Rate: 0.00000003
+Epoch:[1/1](462/500), Reward: -1.7816, KL_ref: -0.0032, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 363.33, Learning Rate: 0.00000003
+Epoch:[1/1](463/500), Reward: -0.1170, KL_ref: -0.0141, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0007, Avg Response Len: 256.25, Learning Rate: 0.00000003
+Epoch:[1/1](464/500), Reward: -0.8945, KL_ref: -0.0038, Adv Std: 1.0438, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 69.58, Learning Rate: 0.00000003
+Epoch:[1/1](465/500), Reward: -2.0481, KL_ref: -0.0031, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 263.00, Learning Rate: 0.00000003
+Epoch:[1/1](466/500), Reward: -2.4440, KL_ref: -0.0016, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 131.25, Learning Rate: 0.00000003
+Epoch:[1/1](467/500), Reward: -0.9439, KL_ref: -0.0050, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 432.33, Learning Rate: 0.00000003
+Epoch:[1/1](468/500), Reward: 0.5189, KL_ref: -0.0105, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0005, Avg Response Len: 314.25, Learning Rate: 0.00000003
+Epoch:[1/1](469/500), Reward: -1.3373, KL_ref: -0.0014, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 238.33, Learning Rate: 0.00000003
+Epoch:[1/1](470/500), Reward: -1.9981, KL_ref: -0.0030, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 255.50, Learning Rate: 0.00000003
+Epoch:[1/1](471/500), Reward: -1.3107, KL_ref: -0.0061, Adv Std: 1.0440, Adv Mean: -0.0000, Actor Loss: 0.0002, Avg Response Len: 106.67, Learning Rate: 0.00000003
+Epoch:[1/1](472/500), Reward: -1.0656, KL_ref: -0.0078, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 70.83, Learning Rate: 0.00000003
+Epoch:[1/1](473/500), Reward: -1.8688, KL_ref: 0.0013, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 258.17, Learning Rate: 0.00000003
+Epoch:[1/1](474/500), Reward: 0.6959, KL_ref: -0.0134, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0005, Avg Response Len: 239.17, Learning Rate: 0.00000003
+Epoch:[1/1](475/500), Reward: -1.3879, KL_ref: -0.0041, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 325.08, Learning Rate: 0.00000003
+Epoch:[1/1](476/500), Reward: -1.5165, KL_ref: -0.0046, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0005, Avg Response Len: 155.33, Learning Rate: 0.00000003
+Epoch:[1/1](477/500), Reward: -0.2921, KL_ref: -0.0154, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 132.50, Learning Rate: 0.00000003
+Epoch:[1/1](478/500), Reward: -1.6086, KL_ref: -0.0062, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 194.42, Learning Rate: 0.00000003
+Epoch:[1/1](479/500), Reward: -0.9078, KL_ref: -0.0050, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 390.67, Learning Rate: 0.00000003
+Epoch:[1/1](480/500), Reward: -1.2771, KL_ref: -0.0121, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 242.00, Learning Rate: 0.00000003
+Epoch:[1/1](481/500), Reward: -1.5517, KL_ref: -0.0003, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 190.42, Learning Rate: 0.00000003
+Epoch:[1/1](482/500), Reward: -0.0967, KL_ref: -0.0122, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0006, Avg Response Len: 301.58, Learning Rate: 0.00000003
+Epoch:[1/1](483/500), Reward: -0.6761, KL_ref: -0.0052, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 363.67, Learning Rate: 0.00000003
+Epoch:[1/1](484/500), Reward: -0.8422, KL_ref: -0.0075, Adv Std: 1.0441, Adv Mean: 0.0000, Actor Loss: 0.0004, Avg Response Len: 322.17, Learning Rate: 0.00000003
+Epoch:[1/1](485/500), Reward: -1.3532, KL_ref: -0.0060, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 304.58, Learning Rate: 0.00000003
+Epoch:[1/1](486/500), Reward: -2.2479, KL_ref: 0.0024, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0002, Avg Response Len: 220.25, Learning Rate: 0.00000003
+Epoch:[1/1](487/500), Reward: 0.2843, KL_ref: -0.0094, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 209.92, Learning Rate: 0.00000003
+Epoch:[1/1](488/500), Reward: -2.5114, KL_ref: -0.0007, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 254.58, Learning Rate: 0.00000003
+Epoch:[1/1](489/500), Reward: -1.0236, KL_ref: -0.0099, Adv Std: 1.0442, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 57.50, Learning Rate: 0.00000003
+Epoch:[1/1](490/500), Reward: -1.5816, KL_ref: -0.0174, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0006, Avg Response Len: 94.75, Learning Rate: 0.00000003
+Epoch:[1/1](491/500), Reward: -2.1782, KL_ref: 0.0011, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0001, Avg Response Len: 259.92, Learning Rate: 0.00000003
+Epoch:[1/1](492/500), Reward: -1.1995, KL_ref: -0.0055, Adv Std: 1.0442, Adv Mean: 0.0000, Actor Loss: 0.0007, Avg Response Len: 361.08, Learning Rate: 0.00000003
+Epoch:[1/1](493/500), Reward: -1.7279, KL_ref: -0.0089, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 78.75, Learning Rate: 0.00000003
+Epoch:[1/1](494/500), Reward: -0.7424, KL_ref: -0.0028, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 400.42, Learning Rate: 0.00000003
+Epoch:[1/1](495/500), Reward: -0.9298, KL_ref: -0.0120, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0007, Avg Response Len: 274.58, Learning Rate: 0.00000003
+Epoch:[1/1](496/500), Reward: -0.6089, KL_ref: -0.0085, Adv Std: 1.0444, Adv Mean: 0.0000, Actor Loss: 0.0005, Avg Response Len: 373.33, Learning Rate: 0.00000003
+Epoch:[1/1](497/500), Reward: -0.2960, KL_ref: -0.0115, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0004, Avg Response Len: 169.08, Learning Rate: 0.00000003
+Epoch:[1/1](498/500), Reward: 0.0485, KL_ref: -0.0121, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0006, Avg Response Len: 269.33, Learning Rate: 0.00000003
+Epoch:[1/1](499/500), Reward: -1.8794, KL_ref: -0.0025, Adv Std: 1.0443, Adv Mean: 0.0000, Actor Loss: 0.0003, Avg Response Len: 111.75, Learning Rate: 0.00000003
+Epoch:[1/1](500/500), Reward: -0.4479, KL_ref: -0.0061, Adv Std: 1.0443, Adv Mean: -0.0000, Actor Loss: 0.0003, Avg Response Len: 347.50, Learning Rate: 0.00000003

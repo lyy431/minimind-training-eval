@@ -1,0 +1,37 @@
+{
+  "name": "chat_repair_trial",
+  "base": "tool_choice2b_e3",
+  "base_sha256": "ec9ba86b1bcee9e7172b2cb41f02491d4dab9517ec6b9b0024ffe8449e7e4347",
+  "full_parameter_training": true,
+  "trainable_parameters": 63912192,
+  "steps": 16,
+  "epoch": 1,
+  "trial": true,
+  "seconds": 8.048830099985935,
+  "peak_allocated_gib": 3.5576963424682617,
+  "settings": {
+    "epochs": 3,
+    "lr": 1e-05,
+    "kl": 2.0,
+    "batch": 4,
+    "max_seq": 1536,
+    "num_workers": 2,
+    "seed": 42,
+    "recipe": "full parameter supervised fine tuning from exact v3; CE per row, math first64 answer tokens weight2; KL on600 prior retention rows"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "step": 16,
+      "ce": 1.3646330833435059,
+      "kl": -0.0,
+      "loss": 1.3646330833435059,
+      "lr": 9.998673338281851e-06
+    }
+  ],
+  "all_weights_finite": true,
+  "kl_anchor_frozen": true,
+  "weight_sha256": "273d03cbb7a52027f4b6544c8934261e3f5b834e608e2935f3ddff8897a8b928",
+  "train_sha256": "97b2f2ef83ad696e9999e0d6c68e8a9b25c3fcbcb02f2f903bdeec937773e50f",
+  "source_sha256": "3dc86f98c447aba32b898282fa43bf8ef93ea2d91c3f562e26ab1f80f6e1895b"
+}

@@ -1,0 +1,277 @@
+{
+  "f42c217fcd44cc09a6bff8d446c1fc4db82a40c3c965a448ae782e34451e80de": {
+    "decision": "fail",
+    "note": "漏答108乘6877",
+    "source": "earlier same question and exact-text decision"
+  },
+  "4a4bbcd33c7c797fbfdbd1eb052cf7ae6c0d52133871a2a222ef6b4afb22d958": {
+    "decision": "fail",
+    "note": "漏答2立方",
+    "source": "earlier same question and exact-text decision"
+  },
+  "61b38c206b904ba96f8a7ec62647a2266f369d8037d1d3b903a94d9bb1c7c0fe": {
+    "decision": "fail",
+    "note": "漏答11立方",
+    "source": "earlier same question and exact-text decision"
+  },
+  "9d34302b481bee71fc7d39201f4977b29a9e450621c152e57c8a5e6ec3f1a03e": {
+    "decision": "fail",
+    "note": "6平方等于4205等错误断言，第二项对应错",
+    "source": "earlier same question and exact-text decision"
+  },
+  "d58a85fc668df8692660b1e1fbf026808cff1dedcd9f6348f219152324cb813b": {
+    "decision": "fail",
+    "note": "漏答15立方",
+    "source": "earlier same question and exact-text decision"
+  },
+  "47c0e5190f4af5850858ce76d8c5fbae013b264b615e012439225ba7cfef385c": {
+    "decision": "fail",
+    "note": "190平方并非90，漏除法对应",
+    "source": "earlier same question and exact-text decision"
+  },
+  "07ce9c6b717cd71be2ab5e64716f936319bf4dda4e037c89c46f3fe9b1e2726e": {
+    "decision": "fail",
+    "note": "第二题未求值",
+    "source": "earlier same question and exact-text decision"
+  },
+  "06411e4529d35a17e7b90c8482ec99602522a95467409e3d4d0bdac6f7df190b": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "earlier same question and exact-text decision"
+  },
+  "e0c1f32f1b92ac86632d0e6d176354f6d96b7ed99e11a1a20c729300f852575d": {
+    "decision": "fail",
+    "note": "漏3312除16",
+    "source": "earlier same question and exact-text decision"
+  },
+  "5523565cc7dded80fd29cab54fa75e532aeda5420191377152a73f2a5f6e4960": {
+    "decision": "fail",
+    "note": "缺少至少一个所求数值结果",
+    "source": "earlier same question and exact-text decision"
+  },
+  "4cf9816ef54fd4ab40b1d3fbdc24c04375aa6bc1160f3062a826ddfd7a8176c2": {
+    "decision": "fail",
+    "note": "漏答7平方",
+    "source": "earlier same question and exact-text decision"
+  },
+  "8f997f7a7a43561567a84a3eb1bc44a76fdfdc7b17374dc727ac5cdac8c9497e": {
+    "decision": "fail",
+    "note": "第一第三项算式改变且等式错误",
+    "source": "earlier same question and exact-text decision"
+  },
+  "4a31795a44fbbf613c4c599d688e6d560a4a576dab27399ed3227ee714fef533": {
+    "decision": "fail",
+    "note": "后两项未求值且错误对应",
+    "source": "earlier same question and exact-text decision"
+  },
+  "40950a28ef62e047ea89a3773e35f2393db928154fbb6b7809bfd08fa3a3082d": {
+    "decision": "fail",
+    "note": "第一题给14错误，第二题重复",
+    "source": "earlier same question and exact-text decision"
+  },
+  "787e68971d42a5afdf2d764c80e5a4802ca48493a91d933b6c284438acee08e4": {
+    "decision": "fail",
+    "note": "第三式漏掉24乘87，文字算式与结果不一致",
+    "source": "earlier same question and exact-text decision"
+  },
+  "6c4b73f1534bf49ec9e5a54092860c63e1f1ee31bb467abad3e496042dbe1ed5": {
+    "decision": "fail",
+    "note": "三项算式对应错误，错误称求和",
+    "source": "earlier same question and exact-text decision"
+  },
+  "b78b61adea10b9b14f666b45ca681826dd1f2961cbb7440c62133a7b0de62813": {
+    "decision": "fail",
+    "note": "漏2立方",
+    "source": "earlier same question and exact-text decision"
+  },
+  "ff3a8361072486960698b5ce89f22f8b44f3ab6beaf68bda8c6d5d874a84883d": {
+    "decision": "fail",
+    "note": "把19本身的结果说成6859，未说明立方，数值对应错误",
+    "source": "earlier same question and exact-text decision"
+  },
+  "7023705107a7c5760e3d10cfe467c0d4c80efdaf53abab6f3a0ccf6356afb983": {
+    "decision": "fail",
+    "note": "漏答2470减5294",
+    "source": "earlier same question and exact-text decision"
+  },
+  "33b0c62e2b4648903682c2fb1c2051f2eed22f0e30f7856e3d32b7fdb368a427": {
+    "decision": "fail",
+    "note": "第二题被说成平方和，缺原运算明确对应",
+    "source": "earlier same question and exact-text decision"
+  },
+  "071929bfe6b617d74ca72ec21449f1e85c8adfd7f69bf9532510d1f11f42ca34": {
+    "decision": "pass",
+    "note": "三项算式数值及对应均正确",
+    "source": "earlier same question and exact-text decision"
+  },
+  "36a14211c2c63fb51ec66870364fed8d172ef14d7752668cca0654f961db5dd2": {
+    "decision": "pass",
+    "note": "三项完整算式及数值均正确",
+    "source": "earlier same question and exact-text decision"
+  },
+  "ad51f1141df4d79a101647a754672eb5640d724258eeeb5b8385162cd9bf7175": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "earlier same question and exact-text decision"
+  },
+  "c6b737c8759ddc344911bf16831dd200c108458ffca62d63fb4b9c43d4c682eb": {
+    "decision": "pass",
+    "note": "LaTeX命令未闭合，但算式及两个等式含义明确且正确，不因排版扣分",
+    "source": "earlier same question and exact-text decision"
+  },
+  "6d37390a275990d914582c420a8f2955148880c87eb727a8457bdb6bfa152493": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "earlier same question and exact-text decision"
+  },
+  "dfedf8b6b7acda093f124ecfd28ed79c689b3c3eaadf3f261bbe1a125c069d98": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "earlier same question and exact-text decision"
+  },
+  "2dbb4e17edb001f1820d5cf097ee2e618c1d931b109b878a31d76b6f1245cc8c": {
+    "decision": "pass",
+    "note": "两项原算式及数值都正确",
+    "source": "earlier same question and exact-text decision"
+  },
+  "3afcd17a647dd365454261c1eab101648285d1b3805e59946902c4eac9d01654": {
+    "decision": "fail",
+    "note": "第二项346被改为366，算式及数值错误",
+    "source": "earlier same question and exact-text decision"
+  },
+  "4526fd5bc31244ead757fd5e46943db9e4f5ff165ca0dd4de3e1ba9fbe8fe05e": {
+    "decision": "fail",
+    "note": "漏答第三题",
+    "source": "earlier same question and exact-text decision"
+  },
+  "4977e3c62047a27caee24308b3d758028fe8aa68d4546cfbb3fb6b45a8d2714a": {
+    "decision": "fail",
+    "note": "仅复述减法未求值",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "1a2678417fdae91f20c0505edf85542594a0e42b597815527d4a97d64d68853c": {
+    "decision": "fail",
+    "note": "改动乘数并未给三项目标数值",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "2ea7cc620f7b791868f10e1cbc8c16ec1668976de4d9276a5b37a2d95024e1d6": {
+    "decision": "fail",
+    "note": "额外乘24且等式链错误，未回答原两项",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "7b13ee520cf3ca1dc50a77ef6d58e3c417665ce97d2badf241ad573e9cc33948": {
+    "decision": "fail",
+    "note": "重复减法，漏求和",
+    "source": "earlier same question and exact-text decision"
+  },
+  "c204aff7d6402ca94f0d8414ab309d9adfaf039650dbfe03262a66dfbdb0ac5a": {
+    "decision": "fail",
+    "note": "缺少至少一个所求数值结果",
+    "source": "earlier same question and exact-text decision"
+  },
+  "3a237d60cd4f7917b5f705d11173b8c471b997de44ee338b65b7ce5a7e2dec0b": {
+    "decision": "fail",
+    "note": "漏6720除20",
+    "source": "earlier same question and exact-text decision"
+  },
+  "f94da3f2634c237355c4398560f0ca1fa3b2900e2d838e4e49e34b9f2d1c574b": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "earlier same question and exact-text decision"
+  },
+  "a1b9a654a64f940aca3a4098e4a47af83a57a4c330535461fb6e9a866b4ecf8b": {
+    "decision": "fail",
+    "note": "第三题给重复结果16796，漏168除4的42",
+    "source": "earlier same question and exact-text decision"
+  },
+  "3dcf03a48e4eea41004604c2c014aca4032d59ee4125888f69521acdacd4c0cd": {
+    "decision": "fail",
+    "note": "漏282加878",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "bac40e7b38a1810ba48b40e804c8be116f98ef6e338029cd99cc9fbf75a96d7f": {
+    "decision": "fail",
+    "note": "仅复述第一算式，未给三项数值",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "46e52ad7dbe328638ce75502b7bb848390602e077897cde2b04a1f82561639a4": {
+    "decision": "fail",
+    "note": "中间40加429未求值",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "6ada8ca14a42a13e6e5d106f591a8dbcf92b52274e50f4c743869c1ff04337ff": {
+    "decision": "fail",
+    "note": "重复第二题，漏365乘2",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "c5dba8780b4339e30e4b0f7b75f8650d3efad5cbecf7abc3b113259be6189cf0": {
+    "decision": "fail",
+    "note": "重复除法，漏第二题乘法",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "dea6785afec01a3cf645ca2cd9e17f683a0963a05e485963bbb8dadcd3226407": {
+    "decision": "fail",
+    "note": "重复第二题，漏176加210",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "4e3f25813053e587ddfe38b59a045b493c7a282282e8be6d102ae326678700b4": {
+    "decision": "fail",
+    "note": "只求第一项，后两项未给数值",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "53c32136752ae814df27ec54c5a1c0c89d61b00b0a55e8e1ff0374095f4711ee": {
+    "decision": "fail",
+    "note": "只求括号内求和，漏乘5，目标5785未给",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "87b5ddaddf4a928a2ae2b124d945bffa4cc6942aab629c9bfec9226ab44945b8": {
+    "decision": "fail",
+    "note": "漏12立方",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "d373c4a42b33cd5356606f71960d02933862db5a52cdc1fd3304115674a99602": {
+    "decision": "fail",
+    "note": "漏2立方",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "594f4494af332a29f2910009e009130ad4d5fdeff55bb374b5559ab507ce8dbc": {
+    "decision": "pass",
+    "note": "三项原算式及数值均正确，末尾部分复述不否定第三项",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "f3cb1ef1de125e28f378d13f014d145e664e6ebf934a5151973cc6f87768caa4": {
+    "decision": "fail",
+    "note": "漏第三题",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "9b84f672599929959f4b8ee9a2defd93ddc2a86bf6019a918ecb27fdd15fb14d": {
+    "decision": "fail",
+    "note": "漏7平方",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "c4c5037910332b372e3244596cf17e744b4facdc9d86985c3e4faa649d0ecf4a": {
+    "decision": "fail",
+    "note": "重复第三题，漏第二题",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "cc6bfb6b96f61a9f7b7bfdf29e7f72c96536579056cd801781dae92de3c5a04c": {
+    "decision": "fail",
+    "note": "漏20立方",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "944025a41156eec7d3cdb616fd046e745be9fb0d098c6ca5d48cfdf625e0f909": {
+    "decision": "pass",
+    "note": "三项原运算与数值均正确，division表达明确",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "f2c1eccb738233c45d889db831610e43086b435c783ce8ebf90426eaf73d82f8": {
+    "decision": "fail",
+    "note": "漏6平方",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  },
+  "9d8f69c1ec43aeef34f2b41bb79382e4e06fc28ace0ea973cbca6c10f81579f2": {
+    "decision": "fail",
+    "note": "第二项346改为366，运算对应及结果错误",
+    "source": "assistant content adjudication, frozen strict arithmetic rules"
+  }
+}

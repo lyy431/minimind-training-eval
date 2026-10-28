@@ -1,0 +1,22 @@
+[
+  {
+    "problem": 100,
+    "sample": 0,
+    "question": "Calculate 19**3",
+    "gt": [
+      "6859"
+    ],
+    "final": "The result of 19 cubed (19**3) is 6859.",
+    "legacy_pass": true,
+    "status": "review",
+    "reason": "unparsed_numeric_lhs",
+    "claims": [
+      {
+        "value": "6859",
+        "lhs": null,
+        "fragment": "The result of 19 **3 (19**3) is 6859"
+      }
+    ],
+    "sha256": "35386e5e10f3cf4efa66264c83d69b4f628c1ad132a012d31ba933f586c343ae"
+  }
+]

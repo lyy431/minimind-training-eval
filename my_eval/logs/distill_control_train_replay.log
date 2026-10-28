@@ -1,0 +1,25 @@
+Model Params: 63.91M
+Trainable Params: 63.912M
+Epoch:[1/2](50/501), loss: 1.1118, logits_loss: 1.1118, aux_loss: 0.0000, lr: 0.00001989, epoch_time: 5.0min
+Epoch:[1/2](100/501), loss: 1.0148, logits_loss: 1.0148, aux_loss: 0.0000, lr: 0.00001956, epoch_time: 3.0min
+Epoch:[1/2](150/501), loss: 1.1103, logits_loss: 1.1103, aux_loss: 0.0000, lr: 0.00001902, epoch_time: 3.0min
+Epoch:[1/2](200/501), loss: 1.1625, logits_loss: 1.1625, aux_loss: 0.0000, lr: 0.00001829, epoch_time: 2.0min
+Epoch:[1/2](250/501), loss: 0.7146, logits_loss: 0.7146, aux_loss: 0.0000, lr: 0.00001737, epoch_time: 2.0min
+Epoch:[1/2](300/501), loss: 1.0585, logits_loss: 1.0585, aux_loss: 0.0000, lr: 0.00001630, epoch_time: 1.0min
+Epoch:[1/2](350/501), loss: 1.0013, logits_loss: 1.0013, aux_loss: 0.0000, lr: 0.00001510, epoch_time: 1.0min
+Epoch:[1/2](400/501), loss: 0.8047, logits_loss: 0.8047, aux_loss: 0.0000, lr: 0.00001380, epoch_time: 0.0min
+Epoch:[1/2](450/501), loss: 1.0460, logits_loss: 1.0460, aux_loss: 0.0000, lr: 0.00001243, epoch_time: 0.0min
+Epoch:[1/2](500/501), loss: 0.6140, logits_loss: 0.6140, aux_loss: 0.0000, lr: 0.00001103, epoch_time: 0.0min
+Epoch:[1/2](501/501), loss: 1.5589, logits_loss: 1.5589, aux_loss: 0.0000, lr: 0.00001100, epoch_time: 0.0min
+Epoch:[2/2](50/501), loss: 0.8249, logits_loss: 0.8249, aux_loss: 0.0000, lr: 0.00000959, epoch_time: 5.0min
+Epoch:[2/2](100/501), loss: 0.8002, logits_loss: 0.8002, aux_loss: 0.0000, lr: 0.00000822, epoch_time: 3.0min
+Epoch:[2/2](150/501), loss: 1.0230, logits_loss: 1.0230, aux_loss: 0.0000, lr: 0.00000692, epoch_time: 3.0min
+Epoch:[2/2](200/501), loss: 0.9225, logits_loss: 0.9225, aux_loss: 0.0000, lr: 0.00000572, epoch_time: 2.0min
+Epoch:[2/2](250/501), loss: 0.8499, logits_loss: 0.8499, aux_loss: 0.0000, lr: 0.00000465, epoch_time: 2.0min
+Epoch:[2/2](300/501), loss: 0.8170, logits_loss: 0.8170, aux_loss: 0.0000, lr: 0.00000373, epoch_time: 1.0min
+Epoch:[2/2](350/501), loss: 0.8120, logits_loss: 0.8120, aux_loss: 0.0000, lr: 0.00000299, epoch_time: 1.0min
+Epoch:[2/2](400/501), loss: 0.7807, logits_loss: 0.7807, aux_loss: 0.0000, lr: 0.00000245, epoch_time: 0.0min
+Epoch:[2/2](450/501), loss: 1.3406, logits_loss: 1.3406, aux_loss: 0.0000, lr: 0.00000211, epoch_time: 0.0min
+Epoch:[2/2](500/501), loss: 1.2996, logits_loss: 1.2996, aux_loss: 0.0000, lr: 0.00000200, epoch_time: 0.0min
+Epoch:[2/2](501/501), loss: 0.0337, logits_loss: 0.0337, aux_loss: 0.0000, lr: 0.00000200, epoch_time: 0.0min
+{"arm": "bb_sft_replay", "name": "bb_sft_replay", "trial": false, "resume": false, "settings": {"from_weight": "bb_dist", "epochs": 2, "learning_rate": 2e-05, "batch_size": 16, "max_seq_len": 768, "num_workers": 2, "seed": 42, "optimizer": "original AdamW and cosine schedule", "use_compile": 0}, "data": "D:\\minimind\\minimind-master\\my_eval\\results\\distill_control_20261025\\replay_mix.jsonl", "data_sha256": "011ad63075d61bd20ca23cf9849df6690c7f694429a69a66b2186943d2fa3642", "weight_sha256": "97b7132286fc52316a57282044a6987c1e49f0bcb9f9fcbc1cdbc69d52eaebab", "seconds": 494.44706099999894, "all_saved_parameters_finite": true, "changed_state_tensors": 91, "peak_gpu_allocated_gib": 6.524784088134766, "peak_gpu_reserved_gib": 6.873046875, "argv": ["train_full_sft.py", "--from_weight", "bb_dist", "--save_weight", "bb_sft_replay", "--data_path", "D:\\minimind\\minimind-master\\my_eval\\results\\distill_control_20261025\\replay_mix.jsonl", "--epochs", "2", "--learning_rate", "2e-05", "--batch_size", "16", "--max_seq_len", "768", "--num_workers", "2", "--seed", "42", "--from_resume", "0", "--log_interval", "50", "--save_interval", "250", "--use_compile", "0"]}

@@ -1,0 +1,75 @@
+Model Params: 63.91M
+Trainable Params: 63.912M
+LLM 总参数量: 64.305 M
+LoRA 参数量: 0.393 M
+LoRA 参数占比: 0.61%
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 2116 examples [00:00, 61403.56 examples/s]
+Epoch:[1/6](25/265), loss: 1.3890, logits_loss: 1.3890, aux_loss: 0.0000, lr: 0.00019989, epoch_time: 2.0min
+Epoch:[1/6](50/265), loss: 1.3496, logits_loss: 1.3496, aux_loss: 0.0000, lr: 0.00019956, epoch_time: 1.0min
+Epoch:[1/6](75/265), loss: 1.8190, logits_loss: 1.8190, aux_loss: 0.0000, lr: 0.00019901, epoch_time: 1.0min
+Epoch:[1/6](100/265), loss: 1.3390, logits_loss: 1.3390, aux_loss: 0.0000, lr: 0.00019825, epoch_time: 0.0min
+Epoch:[1/6](125/265), loss: 0.2828, logits_loss: 0.2828, aux_loss: 0.0000, lr: 0.00019727, epoch_time: 0.0min
+Epoch:[1/6](150/265), loss: 1.6058, logits_loss: 1.6058, aux_loss: 0.0000, lr: 0.00019608, epoch_time: 0.0min
+Epoch:[1/6](175/265), loss: 1.5096, logits_loss: 1.5096, aux_loss: 0.0000, lr: 0.00019467, epoch_time: 0.0min
+Epoch:[1/6](200/265), loss: 1.4838, logits_loss: 1.4838, aux_loss: 0.0000, lr: 0.00019306, epoch_time: 0.0min
+Epoch:[1/6](225/265), loss: 1.5174, logits_loss: 1.5174, aux_loss: 0.0000, lr: 0.00019125, epoch_time: 0.0min
+Epoch:[1/6](250/265), loss: 1.7246, logits_loss: 1.7246, aux_loss: 0.0000, lr: 0.00018924, epoch_time: 0.0min
+Epoch:[1/6](265/265), loss: 1.3211, logits_loss: 1.3211, aux_loss: 0.0000, lr: 0.00018794, epoch_time: 0.0min
+Epoch:[2/6](25/265), loss: 1.3318, logits_loss: 1.3318, aux_loss: 0.0000, lr: 0.00018563, epoch_time: 2.0min
+Epoch:[2/6](50/265), loss: 1.3530, logits_loss: 1.3530, aux_loss: 0.0000, lr: 0.00018312, epoch_time: 1.0min
+Epoch:[2/6](75/265), loss: 1.3441, logits_loss: 1.3441, aux_loss: 0.0000, lr: 0.00018044, epoch_time: 1.0min
+Epoch:[2/6](100/265), loss: 1.3765, logits_loss: 1.3765, aux_loss: 0.0000, lr: 0.00017759, epoch_time: 0.0min
+Epoch:[2/6](125/265), loss: 1.3905, logits_loss: 1.3905, aux_loss: 0.0000, lr: 0.00017458, epoch_time: 0.0min
+Epoch:[2/6](150/265), loss: 1.4483, logits_loss: 1.4483, aux_loss: 0.0000, lr: 0.00017140, epoch_time: 0.0min
+Epoch:[2/6](175/265), loss: 1.4284, logits_loss: 1.4284, aux_loss: 0.0000, lr: 0.00016808, epoch_time: 0.0min
+Epoch:[2/6](200/265), loss: 1.6196, logits_loss: 1.6196, aux_loss: 0.0000, lr: 0.00016461, epoch_time: 0.0min
+Epoch:[2/6](225/265), loss: 1.6402, logits_loss: 1.6402, aux_loss: 0.0000, lr: 0.00016101, epoch_time: 0.0min
+Epoch:[2/6](250/265), loss: 1.5617, logits_loss: 1.5617, aux_loss: 0.0000, lr: 0.00015729, epoch_time: 0.0min
+Epoch:[2/6](265/265), loss: 1.3095, logits_loss: 1.3095, aux_loss: 0.0000, lr: 0.00015500, epoch_time: 0.0min
+Epoch:[3/6](25/265), loss: 1.3583, logits_loss: 1.3583, aux_loss: 0.0000, lr: 0.00015110, epoch_time: 2.0min
+Epoch:[3/6](50/265), loss: 1.6818, logits_loss: 1.6818, aux_loss: 0.0000, lr: 0.00014709, epoch_time: 1.0min
+Epoch:[3/6](75/265), loss: 1.7260, logits_loss: 1.7260, aux_loss: 0.0000, lr: 0.00014300, epoch_time: 1.0min
+Epoch:[3/6](100/265), loss: 1.3384, logits_loss: 1.3384, aux_loss: 0.0000, lr: 0.00013882, epoch_time: 0.0min
+Epoch:[3/6](125/265), loss: 1.5009, logits_loss: 1.5009, aux_loss: 0.0000, lr: 0.00013458, epoch_time: 0.0min
+Epoch:[3/6](150/265), loss: 1.6434, logits_loss: 1.6434, aux_loss: 0.0000, lr: 0.00013027, epoch_time: 0.0min
+Epoch:[3/6](175/265), loss: 1.1544, logits_loss: 1.1544, aux_loss: 0.0000, lr: 0.00012592, epoch_time: 0.0min
+Epoch:[3/6](200/265), loss: 1.5848, logits_loss: 1.5848, aux_loss: 0.0000, lr: 0.00012153, epoch_time: 0.0min
+Epoch:[3/6](225/265), loss: 1.2949, logits_loss: 1.2949, aux_loss: 0.0000, lr: 0.00011711, epoch_time: 0.0min
+Epoch:[3/6](250/265), loss: 1.3642, logits_loss: 1.3642, aux_loss: 0.0000, lr: 0.00011267, epoch_time: 0.0min
+Epoch:[3/6](265/265), loss: 0.6711, logits_loss: 0.6711, aux_loss: 0.0000, lr: 0.00011000, epoch_time: 0.0min
+Epoch:[4/6](25/265), loss: 1.1049, logits_loss: 1.1049, aux_loss: 0.0000, lr: 0.00010556, epoch_time: 2.0min
+Epoch:[4/6](50/265), loss: 1.5095, logits_loss: 1.5095, aux_loss: 0.0000, lr: 0.00010112, epoch_time: 1.0min
+Epoch:[4/6](75/265), loss: 1.1353, logits_loss: 1.1353, aux_loss: 0.0000, lr: 0.00009671, epoch_time: 1.0min
+Epoch:[4/6](100/265), loss: 1.3492, logits_loss: 1.3492, aux_loss: 0.0000, lr: 0.00009233, epoch_time: 0.0min
+Epoch:[4/6](125/265), loss: 1.6854, logits_loss: 1.6854, aux_loss: 0.0000, lr: 0.00008800, epoch_time: 0.0min
+Epoch:[4/6](150/265), loss: 1.5105, logits_loss: 1.5105, aux_loss: 0.0000, lr: 0.00008371, epoch_time: 0.0min
+Epoch:[4/6](175/265), loss: 1.7848, logits_loss: 1.7848, aux_loss: 0.0000, lr: 0.00007950, epoch_time: 0.0min
+Epoch:[4/6](200/265), loss: 1.3556, logits_loss: 1.3556, aux_loss: 0.0000, lr: 0.00007535, epoch_time: 0.0min
+Epoch:[4/6](225/265), loss: 1.6967, logits_loss: 1.6967, aux_loss: 0.0000, lr: 0.00007129, epoch_time: 0.0min
+Epoch:[4/6](250/265), loss: 1.8068, logits_loss: 1.8068, aux_loss: 0.0000, lr: 0.00006733, epoch_time: 0.0min
+Epoch:[4/6](265/265), loss: 1.3816, logits_loss: 1.3816, aux_loss: 0.0000, lr: 0.00006500, epoch_time: 0.0min
+Epoch:[5/6](25/265), loss: 1.4939, logits_loss: 1.4939, aux_loss: 0.0000, lr: 0.00006121, epoch_time: 2.0min
+Epoch:[5/6](50/265), loss: 1.4015, logits_loss: 1.4015, aux_loss: 0.0000, lr: 0.00005753, epoch_time: 1.0min
+Epoch:[5/6](75/265), loss: 1.5243, logits_loss: 1.5243, aux_loss: 0.0000, lr: 0.00005399, epoch_time: 1.0min
+Epoch:[5/6](100/265), loss: 1.4816, logits_loss: 1.4816, aux_loss: 0.0000, lr: 0.00005058, epoch_time: 0.0min
+Epoch:[5/6](125/265), loss: 1.4594, logits_loss: 1.4594, aux_loss: 0.0000, lr: 0.00004731, epoch_time: 0.0min
+Epoch:[5/6](150/265), loss: 1.4488, logits_loss: 1.4488, aux_loss: 0.0000, lr: 0.00004420, epoch_time: 0.0min
+Epoch:[5/6](175/265), loss: 1.2779, logits_loss: 1.2779, aux_loss: 0.0000, lr: 0.00004125, epoch_time: 0.0min
+Epoch:[5/6](200/265), loss: 1.4285, logits_loss: 1.4285, aux_loss: 0.0000, lr: 0.00003846, epoch_time: 0.0min
+Epoch:[5/6](225/265), loss: 1.2745, logits_loss: 1.2745, aux_loss: 0.0000, lr: 0.00003585, epoch_time: 0.0min
+Epoch:[5/6](250/265), loss: 1.5535, logits_loss: 1.5535, aux_loss: 0.0000, lr: 0.00003343, epoch_time: 0.0min
+Epoch:[5/6](265/265), loss: 1.1502, logits_loss: 1.1502, aux_loss: 0.0000, lr: 0.00003206, epoch_time: 0.0min
+Epoch:[6/6](25/265), loss: 1.0758, logits_loss: 1.0758, aux_loss: 0.0000, lr: 0.00002993, epoch_time: 2.0min
+Epoch:[6/6](50/265), loss: 1.5758, logits_loss: 1.5758, aux_loss: 0.0000, lr: 0.00002800, epoch_time: 1.0min
+Epoch:[6/6](75/265), loss: 1.4119, logits_loss: 1.4119, aux_loss: 0.0000, lr: 0.00002627, epoch_time: 1.0min
+Epoch:[6/6](100/265), loss: 1.7453, logits_loss: 1.7453, aux_loss: 0.0000, lr: 0.00002474, epoch_time: 0.0min
+Epoch:[6/6](125/265), loss: 1.7241, logits_loss: 1.7241, aux_loss: 0.0000, lr: 0.00002342, epoch_time: 0.0min
+Epoch:[6/6](150/265), loss: 1.5119, logits_loss: 1.5119, aux_loss: 0.0000, lr: 0.00002231, epoch_time: 0.0min
+Epoch:[6/6](175/265), loss: 0.9611, logits_loss: 0.9611, aux_loss: 0.0000, lr: 0.00002142, epoch_time: 0.0min
+Epoch:[6/6](200/265), loss: 1.3800, logits_loss: 1.3800, aux_loss: 0.0000, lr: 0.00002074, epoch_time: 0.0min
+Epoch:[6/6](225/265), loss: 1.3302, logits_loss: 1.3302, aux_loss: 0.0000, lr: 0.00002028, epoch_time: 0.0min
+Epoch:[6/6](250/265), loss: 1.6144, logits_loss: 1.6144, aux_loss: 0.0000, lr: 0.00002004, epoch_time: 0.0min
+Epoch:[6/6](265/265), loss: 1.1324, logits_loss: 1.1324, aux_loss: 0.0000, lr: 0.00002000, epoch_time: 0.0min
+{"name": "lora_yuyang_clear_2e4", "base": "bb_rl", "epochs": 6, "learning_rate": 0.0002, "batch_size": 8, "max_seq_len": 768, "num_workers": 2, "dataset": "D:\\minimind\\minimind-master\\my_eval\\results\\identity_repair_20261024\\clear_mix2116.jsonl", "seconds": 337.7245391000033, "dataset_sha256": "44dec4f36fdefc96f20cc78ac35407cc92725386c501cd33a20b25c15975a00b", "peak_gpu_allocated_gib": 2.3675403594970703, "peak_gpu_reserved_gib": 2.5703125, "argv": ["train_lora.py", "--from_weight", "bb_rl", "--lora_name", "lora_yuyang_clear_2e4", "--data_path", "D:\\minimind\\minimind-master\\my_eval\\results\\identity_repair_20261024\\clear_mix2116.jsonl", "--epochs", "6", "--batch_size", "8", "--learning_rate", "0.0002", "--max_seq_len", "768", "--num_workers", "2", "--from_resume", "0", "--log_interval", "25", "--save_interval", "10000", "--use_compile", "0"]}

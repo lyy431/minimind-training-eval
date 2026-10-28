@@ -1,0 +1,39 @@
+{
+  "devchat": {
+    "source": "my_eval\\results\\chat_quality_20261027\\dev_MiniMind-YuyangLU-v3_baseline.json",
+    "sha256": "72063ff4c4df12003186f0833ec1f9076f4a26edba8173bc0e831faaf557daef"
+  },
+  "devmath": {
+    "recomputed": true,
+    "reason": "Prior round2 development cache contained first replies only, so it cannot measure end-to-end strict math. Full shared execution regenerated before selection.",
+    "legacy_cache": "development_legacy_cache/devmath_tool_choice2b_e3.json",
+    "sha256": "72b4bf94c7d0515649391f110ab03f124664ee1ed5ffddf6ebf7ab34846cddce"
+  },
+  "loss_dev": {
+    "source": "my_eval\\results\\tool_choice_round2_20261026\\loss_dev_tool_choice2b_e3.json",
+    "sha256": "c01dd2c52bb7aa26460d670afcb5a1d8b72fbc339a3e88edb382f34845d96cad"
+  },
+  "historical": {
+    "source": "my_eval\\results\\tool_choice_round2_20261026\\guard_tool_choice2b_e3.json",
+    "sha256": "8efafb0fb550183879984fccd006339d930f22f10afb5feebbd5bf4438cd4108"
+  },
+  "freshmath": {
+    "source": "my_eval\\results\\tool_choice_round2_20261026\\fullmath_tool_choice2b_e3.json",
+    "sha256": "60cd48a7743cd8a576fa6e5094a6eb3226bbfaafeaea7adee79b469f9345fc9c"
+  },
+  "loss_final": {
+    "source": "my_eval\\results\\tool_choice_round2_20261026\\loss_final_tool_choice2b_e3.json",
+    "sha256": "057c0e305c8b7fef571ee2e280f0a3757558793deca69dcdcf526c982d9c795a"
+  },
+  "equivalence": {
+    "pth_base_sha": "ec9ba86b1bcee9e7172b2cb41f02491d4dab9517ec6b9b0024ffe8449e7e4347",
+    "hf_sha": "b85dcedb2a25d52ea032f64eba88776d9b65d759d2e3740f564591a680b52672",
+    "exact_parameters_and_template_verified": true,
+    "shared_engine_sha": "b8e594d8c08da96c74aa990e622afb9d7d9003c65f859d9814639ec8a53e4a37",
+    "sampler": "fp16;temperature.9;top_p.85;top_k50;max384;thinkingoff;3turns;exact task seeds/prompts/menus"
+  },
+  "loss_dev_recomputed": {
+    "source": "2c79f1fa9d3d6050d6356b4cf2213c6713ceecbe9e250db2f75b521806e39496",
+    "mean": 2.5317246747016906
+  }
+}

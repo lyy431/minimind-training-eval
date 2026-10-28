@@ -1,0 +1,38 @@
+{
+  "name": "tool_choice_trial",
+  "base": "bb_rl_id_anchor4",
+  "base_sha256": "a6f4249c77ba91084e124658d35f35a56d40c0380d0681a341b39968c360f107",
+  "trial": true,
+  "epoch": 1,
+  "steps": 16,
+  "seconds": 7.229977900002268,
+  "settings": {
+    "epochs": 3,
+    "lr": 0.0002,
+    "kl": 2.0,
+    "batch": 4,
+    "max_seq": 1536,
+    "num_workers": 2,
+    "seed": 42,
+    "rank": 16
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "step": 16,
+      "ce": 0.12279392778873444,
+      "kl": 0.016213273629546165,
+      "loss": 0.15522047877311707,
+      "lr": 0.00019995485994709093
+    }
+  ],
+  "trainable_parameters": 393216,
+  "all_saved_parameters_finite": true,
+  "teacher_and_base_frozen": true,
+  "weight_sha256": "8787349daf01aa372e9c939b8bb5ba191c7db1994b2db7598e57017b6f248bd8",
+  "adapter_base": "bb_rl_id_anchor4",
+  "base_export_parameters_exact": true,
+  "peak_allocated_gib": 2.2384228706359863,
+  "source_sha256": "fe198fa407806b56989297334b8c8483e4ebeda1c5a16dea3598422425c234b4",
+  "tokenized_sha256": "296a05e65f4c55a1fcca6d48a16daf7ad47cc41e8172bd64da177843d77c73e0"
+}

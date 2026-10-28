@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "question": "你是谁？",
+      "seed": 606000,
+      "turns": [
+        "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+      ],
+      "final": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。",
+      "eligible": true,
+      "failure": null,
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+        }
+      ],
+      "events": [
+        {
+          "role": "assistant",
+          "content": "我是 MiniMind，是由 Yuyang LU 开发的人工智能助手。"
+        }
+      ],
+      "generated_tokens": 23,
+      "generation_seconds": 0.4421669000003021
+    },
+    {
+      "question": "请计算27*43，另外612/17",
+      "seed": 606001,
+      "turns": [
+        "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"27*43\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"612/17\"}}\n</tool_call>",
+        "27*43 = 1161。\n612/17 = 36.0。"
+      ],
+      "final": "27*43 = 1161。\n612/17 = 36.0。",
+      "eligible": true,
+      "failure": null,
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"27*43\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"612/17\"}}\n</tool_call>"
+        },
+        {
+          "role": "tool",
+          "content": "{\"result\": 1161}"
+        },
+        {
+          "role": "tool",
+          "content": "{\"result\": 36.0}"
+        },
+        {
+          "role": "assistant",
+          "content": "27*43 = 1161。\n612/17 = 36.0。"
+        }
+      ],
+      "events": [
+        {
+          "role": "assistant",
+          "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"27*43\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"612/17\"}}\n</tool_call>"
+        },
+        {
+          "role": "tool",
+          "name": "calculate_math",
+          "content": "{\"result\": 1161}"
+        },
+        {
+          "role": "tool",
+          "name": "calculate_math",
+          "content": "{\"result\": 36.0}"
+        },
+        {
+          "role": "assistant",
+          "content": "27*43 = 1161。\n612/17 = 36.0。"
+        }
+      ],
+      "generated_tokens": 94,
+      "generation_seconds": 1.1095156000228599
+    },
+    {
+      "question": "请写一句欢迎新同学的话。",
+      "seed": 606002,
+      "turns": [
+        "当然，我很乐意帮您写一句欢迎新同学的话。请问您有什么特别的需求或目标吗？"
+      ],
+      "final": "当然，我很乐意帮您写一句欢迎新同学的话。请问您有什么特别的需求或目标吗？",
+      "eligible": true,
+      "failure": null,
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "当然，我很乐意帮您写一句欢迎新同学的话。请问您有什么特别的需求或目标吗？"
+        }
+      ],
+      "events": [
+        {
+          "role": "assistant",
+          "content": "当然，我很乐意帮您写一句欢迎新同学的话。请问您有什么特别的需求或目标吗？"
+        }
+      ],
+      "generated_tokens": 26,
+      "generation_seconds": 0.2975750000041444
+    }
+  ]
+}

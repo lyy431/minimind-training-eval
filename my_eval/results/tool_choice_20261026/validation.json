@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "all_final_hashes_verified": true,
+  "tests": {
+    "tests": 8,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "means_crosschecked": true,
+  "initial_accepted": false,
+  "confirmation_accepted": false,
+  "effective_accepted": false,
+  "published": false,
+  "report_sha256": "685b813d762b8c4a5a2dc974a84e821387343af481a1dde9612937b711c93b6f"
+}

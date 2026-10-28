@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "six_tools_selectable": true,
+  "seventh_disabled": true,
+  "uncheck_reenables": true,
+  "disabled_tools_never_execute": true,
+  "valid_selected_tool_executes": true,
+  "invalid_arguments_rejected": true
+}

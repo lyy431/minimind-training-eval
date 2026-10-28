@@ -1,0 +1,26 @@
+Model Params: 63.91M
+Trainable Params: 63.912M
+LLM 总参数量: 64.305 M
+LoRA 参数量: 0.393 M
+LoRA 参数占比: 0.61%
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 782 examples [00:00, 29336.57 examples/s]
+Epoch:[1/10](49/98), loss: 0.4679, logits_loss: 0.4679, aux_loss: 0.0000, lr: 0.00049723, epoch_time: 0.0min
+Epoch:[1/10](98/98), loss: 0.1708, logits_loss: 0.1708, aux_loss: 0.0000, lr: 0.00048899, epoch_time: 0.0min
+Epoch:[2/10](49/98), loss: 0.1946, logits_loss: 0.1946, aux_loss: 0.0000, lr: 0.00047548, epoch_time: 0.0min
+Epoch:[2/10](98/98), loss: 0.3786, logits_loss: 0.3786, aux_loss: 0.0000, lr: 0.00045703, epoch_time: 0.0min
+Epoch:[3/10](49/98), loss: 0.3611, logits_loss: 0.3611, aux_loss: 0.0000, lr: 0.00043410, epoch_time: 0.0min
+Epoch:[3/10](98/98), loss: 0.4905, logits_loss: 0.4905, aux_loss: 0.0000, lr: 0.00040725, epoch_time: 0.0min
+Epoch:[4/10](49/98), loss: 0.2283, logits_loss: 0.2283, aux_loss: 0.0000, lr: 0.00037715, epoch_time: 0.0min
+Epoch:[4/10](98/98), loss: 0.0834, logits_loss: 0.0834, aux_loss: 0.0000, lr: 0.00034453, epoch_time: 0.0min
+Epoch:[5/10](49/98), loss: 0.2652, logits_loss: 0.2652, aux_loss: 0.0000, lr: 0.00031020, epoch_time: 0.0min
+Epoch:[5/10](98/98), loss: 0.2606, logits_loss: 0.2606, aux_loss: 0.0000, lr: 0.00027500, epoch_time: 0.0min
+Epoch:[6/10](49/98), loss: 0.2306, logits_loss: 0.2306, aux_loss: 0.0000, lr: 0.00023980, epoch_time: 0.0min
+Epoch:[6/10](98/98), loss: 0.5690, logits_loss: 0.5690, aux_loss: 0.0000, lr: 0.00020547, epoch_time: 0.0min
+Epoch:[7/10](49/98), loss: 0.3066, logits_loss: 0.3066, aux_loss: 0.0000, lr: 0.00017285, epoch_time: 0.0min
+Epoch:[7/10](98/98), loss: 0.3617, logits_loss: 0.3617, aux_loss: 0.0000, lr: 0.00014275, epoch_time: 0.0min
+Epoch:[8/10](49/98), loss: 0.3277, logits_loss: 0.3277, aux_loss: 0.0000, lr: 0.00011590, epoch_time: 0.0min
+Epoch:[8/10](98/98), loss: 0.2745, logits_loss: 0.2745, aux_loss: 0.0000, lr: 0.00009297, epoch_time: 0.0min
+Epoch:[9/10](49/98), loss: 0.1234, logits_loss: 0.1234, aux_loss: 0.0000, lr: 0.00007452, epoch_time: 0.0min
+Epoch:[9/10](98/98), loss: 0.4192, logits_loss: 0.4192, aux_loss: 0.0000, lr: 0.00006101, epoch_time: 0.0min
+Epoch:[10/10](49/98), loss: 0.0554, logits_loss: 0.0554, aux_loss: 0.0000, lr: 0.00005277, epoch_time: 0.0min
+Epoch:[10/10](98/98), loss: 0.2538, logits_loss: 0.2538, aux_loss: 0.0000, lr: 0.00005000, epoch_time: 0.0min

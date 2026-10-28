@@ -1,0 +1,5 @@
+Loss audit: 296 valid answers; 4 fully truncated answers, indices [78, 96, 116, 121]
+full_sft: legacy loss=2.490454, corrected answer-only loss=2.458313
+official: legacy loss=2.118925, corrected answer-only loss=2.092659
+bb_rl: legacy loss=2.520512, corrected answer-only loss=2.488811
+bb_rl_id: legacy loss=2.633248, corrected answer-only loss=2.604255

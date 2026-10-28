@@ -1,0 +1,27 @@
+{
+  "selected": "tool_choice2b_e3",
+  "weights": {
+    "bb_rl_id_anchor4": "a6f4249c77ba91084e124658d35f35a56d40c0380d0681a341b39968c360f107",
+    "tool_choice2b_e3": "ec9ba86b1bcee9e7172b2cb41f02491d4dab9517ec6b9b0024ffe8449e7e4347"
+  },
+  "data_sha256": {
+    "plan.json": "a9c1874927a453b73103c400d955beb0b3179df8b3f332abc1b2ba7012080fdf",
+    "train.jsonl": "8ede43a7bc4c63d885302df1dd1a5693ed0d1934d7a352a0adebd53add162cd7",
+    "dev_tasks.json": "6054be4e6e3a134fa2a908e741c2d52b03fa2802e4947becf6d1cdf4e2b12aa6",
+    "test_tasks.json": "bab8c1a89d5abd7141785bb190e36739597deca32acdf83ebd07083a5f23cfae",
+    "guardrail_tasks.json": "e471f4cc2ee3fe706f341891dbed26735e237a63047a0e0583797d1427b122b5",
+    "token_audit.json": "c16d2d598eec26da3cf81bf5e42c89855bc84d152e2fe85ef6dd2c09326166bf",
+    "selection.json": "b45db072526ff7068c0b52cb073f20d776ac593cf9c4820e258db9e3189700bb"
+  },
+  "source_sha256": {
+    "my_eval\\scripts\\tool_choice_round2.py": "cb51a5bd0c8a6cd74476105c504b9f64adaf6f0feb20b1d8461f28efc45d88cf",
+    "my_eval\\scripts\\train_tool_choice_round2b.py": "92ae533a819f7c3757c17ffd20b1b62d46f5aa6d1226b361847e2765c5c0ce42",
+    "my_eval\\scripts\\eval_tool_choice_round2.py": "7dba1c4ec27e45d1d2aaec0cfc9d1214968647fb5c8b3a7e19b751a64bd914d3",
+    "my_eval\\scripts\\strict_math_rescore.py": "ea1f91009c2edd95fb554dcf3f3958cff9442150bc73c39de08afdf328cc4751",
+    "scripts\\best_of_n.py": "b8e594d8c08da96c74aa990e622afb9d7d9003c65f859d9814639ec8a53e4a37",
+    "scripts\\demo_tools.py": "7155da27967520b9449a65eb93de9795e495d5c9efdc8a52f0703e15a7f95fa1",
+    "my_eval\\scripts\\eval_routing_round2.py": "93a3f9cbe739b2bdd96afc91a44b771338b7be9059d0789a02378f9fb42482f8",
+    "my_eval\\scripts\\prepare_tool_choice_round2.py": "07ff2f31b5c413e0d839dbd86a7b9342e74c25bedae77e8f8c1e88d38bff5188",
+    "my_eval\\scripts\\balance_tool_choice_round2.py": "e0158d3ab366a27df25005b6ae52dd0a534ad428d48b2eae02e486a802e89726"
+  }
+}

@@ -1,0 +1,25 @@
+﻿Model Params: 63.91M
+Trainable Params: 63.912M
+python.exe : 
+At line:1 char:480
++ ... er\trainer; & D:\conda\envs\minimind\python.exe -u train_full_sft.py  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 5514 examples [00:00, 104077.58 examples/s]
+Epoch:[1/2](50/345), loss: 0.3994, logits_loss: 0.3994, aux_loss: 0.0000, lr: 0.00001977, epoch_time: 4.0min
+Epoch:[1/2](100/345), loss: 1.4703, logits_loss: 1.4703, aux_loss: 0.0000, lr: 0.00001908, epoch_time: 3.0min
+Epoch:[1/2](150/345), loss: 1.3395, logits_loss: 1.3395, aux_loss: 0.0000, lr: 0.00001798, epoch_time: 2.0min
+Epoch:[1/2](200/345), loss: 1.4610, logits_loss: 1.4610, aux_loss: 0.0000, lr: 0.00001652, epoch_time: 1.0min
+Epoch:[1/2](250/345), loss: 1.6366, logits_loss: 1.6366, aux_loss: 0.0000, lr: 0.00001477, epoch_time: 1.0min
+Epoch:[1/2](300/345), loss: 1.2882, logits_loss: 1.2882, aux_loss: 0.0000, lr: 0.00001283, epoch_time: 0.0min
+Epoch:[1/2](345/345), loss: 1.2371, logits_loss: 1.2371, aux_loss: 0.0000, lr: 0.00001100, epoch_time: 0.0min
+Epoch:[2/2](50/345), loss: 1.1568, logits_loss: 1.1568, aux_loss: 0.0000, lr: 0.00000897, epoch_time: 4.0min
+Epoch:[2/2](100/345), loss: 1.3563, logits_loss: 1.3563, aux_loss: 0.0000, lr: 0.00000704, epoch_time: 2.0min
+Epoch:[2/2](150/345), loss: 1.0933, logits_loss: 1.0933, aux_loss: 0.0000, lr: 0.00000532, epoch_time: 2.0min
+Epoch:[2/2](200/345), loss: 1.2208, logits_loss: 1.2208, aux_loss: 0.0000, lr: 0.00000389, epoch_time: 1.0min
+Epoch:[2/2](250/345), loss: 1.2480, logits_loss: 1.2480, aux_loss: 0.0000, lr: 0.00000283, epoch_time: 0.0min
+Epoch:[2/2](300/345), loss: 1.4043, logits_loss: 1.4043, aux_loss: 0.0000, lr: 0.00000219, epoch_time: 0.0min
+Epoch:[2/2](345/345), loss: 0.6703, logits_loss: 0.6703, aux_loss: 0.0000, lr: 0.00000200, epoch_time: 0.0min

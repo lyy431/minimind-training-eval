@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-25",
+  "before_control_training_and_final_evaluation": true,
+  "reason": "One common general training question matches historical chat prompt27: Spanish translation of good morning. No overlap with the300 language answers. Exclude chat27 from primary comparison of all four models; preserve original30 reporting.",
+  "excluded_chat_indices": [
+    27
+  ],
+  "primary_chat_n": 29,
+  "evidence_file": "general_overlap_audit.json"
+}

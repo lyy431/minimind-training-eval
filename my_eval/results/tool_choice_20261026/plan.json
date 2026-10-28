@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-26",
+  "base": "bb_rl_id_anchor4",
+  "base_hf": "D:\\minimind\\minimind-master\\scripts\\MiniMind-YuyangLU-v2",
+  "scope": "calculator versus no call; other tools are distractors, not verified live integrations",
+  "train_counts": {
+    "math_supervised": 960,
+    "general_retain": 400,
+    "no_tool_supervised": 554,
+    "math_retain": 200
+  },
+  "training": {
+    "epochs": 3,
+    "lr": 0.0002,
+    "kl": 2.0,
+    "batch": 4,
+    "max_seq": 1536,
+    "num_workers": 2,
+    "seed": 42,
+    "rank": 16
+  },
+  "candidates": "single training recipe, epoch1/2/3 checkpoints; selected only on development routing and retention gates",
+  "dev": {
+    "base_questions": 24,
+    "conditions": 4,
+    "tasks": 96,
+    "description_variant": 4
+  },
+  "final": {
+    "base_questions": 48,
+    "conditions": 8,
+    "tasks": 384,
+    "math": 24,
+    "no_tool": 24,
+    "description_variant": 5,
+    "samples_per_condition": 1
+  },
+  "selection": "rank checkpoints by balanced(math exact first-call arguments, no-tool no-call), requiring no-tool drop<=5pp and dev answerNLL increase<=.05 vs base; if none pass, retain best research checkpoint but do not add demo",
+  "acceptance": "final math exact first-call argument gain95% paired cluster-bootstrap lower>0, no-tool no-call drop<=5pp, historical math strict point drop<=5pp, answerNLL296 increase<=.05, identity name hit drop<=1/14. No further training after final starts.",
+  "statistics": "paired by underlying question, averaging8 conditions; 10000 bootstrap seed20261026, 1SE; exploratory, single training seed",
+  "tokenization": "deterministic chat template, tools preserved, assistant-body/eos labels, no random preprocessing; rows beyond1536 excluded before train and reported",
+  "inference": {
+    "engine": "HF Qwen3 fp16 for baseline and candidate",
+    "temperature": 0.9,
+    "top_p": 0.85,
+    "top_k": 50,
+    "max_new_tokens": 384,
+    "max_turns": 3,
+    "thinking": false,
+    "best_of_n": 1
+  },
+  "overlap_audit": {
+    "ce_or_kl_vs_dev": 0,
+    "ce_or_kl_vs_test": 0,
+    "dev_vs_test": 0,
+    "ce_or_kl_vs_historical_eval": 0,
+    "historical_expression_signatures_blocked": 11547,
+    "limitations": "known local math pools scanned; no guarantee of upstream semantic novelty"
+  },
+  "data_sha256": {
+    "train.jsonl": "f3def5844a08da42093edd012f4100fdd8038d0436ce4679441b7761bf8a0349",
+    "dev_tasks.json": "6a6faa1bcc666c793df487c8c838fae6c433854b1716ec18ff8dd10617270abf",
+    "test_tasks.json": "9cf4b6ff986da3ba6f78e2a0c81878d6e1c70239d002e30b32a14d8733ae6030",
+    "guardrail_tasks.json": "e471f4cc2ee3fe706f341891dbed26735e237a63047a0e0583797d1427b122b5"
+  },
+  "source_sha256": {
+    "dataset\\agent_math_train_3000.jsonl": "8f14f7467ec0b4ce362bc647cc7dfba902a08dd30a4f7e7b686be76f0aaf78f3",
+    "dataset\\agent_math_train_3000_excl3000.jsonl": "043f5f4266a708f6d03226ecc390e7c77b724747396a866f3c01e26076f86db2",
+    "dataset\\teacher_math_sft.jsonl": "2f029827942693ae89663051b83a2887eb5adbf3cd3f851a33e4e5bf75172848",
+    "dataset\\bb_mix.jsonl": "d3b70ea02becddb3748b94f4e63d05c909a4c79a8ea46c99ad6c6d43702b7ba6",
+    "my_eval\\results\\distill_control_20261025\\teacher_new_sft.jsonl": "654e1c743bff8b674252c17e7fa42e3930859c03dc4c8831eb649e6dc9a8d592"
+  },
+  "base_sha256": "a6f4249c77ba91084e124658d35f35a56d40c0380d0681a341b39968c360f107"
+}

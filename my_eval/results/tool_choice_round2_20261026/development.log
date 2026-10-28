@@ -1,0 +1,19 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+dev bb_rl_id_anchor4 12 / 24 20.0s
+dev bb_rl_id_anchor4 24 / 24 49.6s
+{'math_name': 79.16666666666666, 'math_arguments': 45.83333333333333, 'no_tool': 47.91666666666667}
+dev tool_choice2b_e1 12 / 24 26.5s
+dev tool_choice2b_e1 24 / 24 39.8s
+{'math_name': 50.0, 'math_arguments': 39.58333333333333, 'no_tool': 97.91666666666666}
+loss_dev tool_choice2b_e1 100 2.5275192356109617
+dev tool_choice2b_e2 12 / 24 15.7s
+dev tool_choice2b_e2 24 / 24 35.3s
+{'math_name': 87.5, 'math_arguments': 64.58333333333334, 'no_tool': 100}
+loss_dev tool_choice2b_e2 100 2.5301887464523314
+dev tool_choice2b_e3 12 / 24 16.7s
+dev tool_choice2b_e3 24 / 24 30.6s
+{'math_name': 87.5, 'math_arguments': 68.75, 'no_tool': 100}
+loss_dev tool_choice2b_e3 100 2.5317246747016906
+Selected before final: {'name': 'tool_choice2b_e3', 'epoch': 3, 'math_name': 87.5, 'math_arguments': 68.75, 'no_tool': 100, 'loss': 2.5317246747016906, 'loss_change': 0.003730953931808223, 'passes_dev_gates': True, 'balanced': 84.375}

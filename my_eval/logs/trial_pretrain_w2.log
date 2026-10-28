@@ -1,0 +1,25 @@
+﻿Model Params: 63.91M
+Trainable Params: 63.912M
+Epoch:[1/2](20/39695), loss: 8.1497, logits_loss: 8.1497, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 643.0min
+Epoch:[1/2](40/39695), loss: 7.9163, logits_loss: 7.9163, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 465.0min
+Epoch:[1/2](60/39695), loss: 7.5248, logits_loss: 7.5248, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 406.0min
+Epoch:[1/2](80/39695), loss: 7.3099, logits_loss: 7.3099, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 380.0min
+Epoch:[1/2](100/39695), loss: 7.5228, logits_loss: 7.5228, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 379.0min
+Epoch:[1/2](120/39695), loss: 7.3770, logits_loss: 7.3770, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 364.0min
+Epoch:[1/2](140/39695), loss: 7.2365, logits_loss: 7.2365, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 353.0min
+Epoch:[1/2](160/39695), loss: 7.2890, logits_loss: 7.2890, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 344.0min
+Epoch:[1/2](180/39695), loss: 7.0686, logits_loss: 7.0686, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 338.0min
+Epoch:[1/2](200/39695), loss: 7.0202, logits_loss: 7.0202, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 333.0min
+Epoch:[1/2](220/39695), loss: 6.9187, logits_loss: 6.9187, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 329.0min
+Epoch:[1/2](240/39695), loss: 6.9755, logits_loss: 6.9755, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 325.0min
+Epoch:[1/2](260/39695), loss: 6.9196, logits_loss: 6.9196, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 322.0min
+Epoch:[1/2](280/39695), loss: 6.7293, logits_loss: 6.7293, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 319.0min
+Epoch:[1/2](300/39695), loss: 6.6775, logits_loss: 6.6775, aux_loss: 0.0000, lr: 0.00049998, epoch_time: 317.0min
+Epoch:[1/2](320/39695), loss: 6.7387, logits_loss: 6.7387, aux_loss: 0.0000, lr: 0.00049998, epoch_time: 315.0min
+Epoch:[1/2](340/39695), loss: 6.7046, logits_loss: 6.7046, aux_loss: 0.0000, lr: 0.00049998, epoch_time: 313.0min
+Epoch:[1/2](360/39695), loss: 6.4691, logits_loss: 6.4691, aux_loss: 0.0000, lr: 0.00049998, epoch_time: 312.0min
+Epoch:[1/2](380/39695), loss: 6.5794, logits_loss: 6.5794, aux_loss: 0.0000, lr: 0.00049997, epoch_time: 310.0min
+Epoch:[1/2](400/39695), loss: 6.5265, logits_loss: 6.5265, aux_loss: 0.0000, lr: 0.00049997, epoch_time: 309.0min
+Epoch:[1/2](420/39695), loss: 6.4491, logits_loss: 6.4491, aux_loss: 0.0000, lr: 0.00049997, epoch_time: 308.0min
+Epoch:[1/2](440/39695), loss: 6.5997, logits_loss: 6.5997, aux_loss: 0.0000, lr: 0.00049997, epoch_time: 307.0min
+Epoch:[1/2](460/39695), loss: 6.2305, logits_loss: 6.2305, aux_loss: 0.0000, lr: 0.00049996, epoch_time: 306.0min

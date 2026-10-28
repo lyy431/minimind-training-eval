@@ -1,0 +1,35 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 36.78it/s]
+past_key_values should not be None in from_legacy_cache()
+Chat 1/30; elapsed 7s; mean RM -2.082; GPU peak 3.44 GiB
+Chat 2/30; elapsed 13s; mean RM -0.360; GPU peak 3.44 GiB
+Chat 3/30; elapsed 18s; mean RM -0.431; GPU peak 3.44 GiB
+Chat 4/30; elapsed 24s; mean RM -0.791; GPU peak 3.44 GiB
+Chat 5/30; elapsed 26s; mean RM -0.827; GPU peak 3.44 GiB
+Chat 6/30; elapsed 32s; mean RM -0.774; GPU peak 3.44 GiB
+Chat 7/30; elapsed 34s; mean RM -0.826; GPU peak 3.44 GiB
+Chat 8/30; elapsed 39s; mean RM -0.998; GPU peak 3.44 GiB
+Chat 9/30; elapsed 46s; mean RM -1.139; GPU peak 3.44 GiB
+Chat 10/30; elapsed 52s; mean RM -1.246; GPU peak 3.44 GiB
+Chat 11/30; elapsed 55s; mean RM -1.191; GPU peak 3.44 GiB
+Chat 12/30; elapsed 57s; mean RM -1.221; GPU peak 3.44 GiB
+Chat 13/30; elapsed 58s; mean RM -1.284; GPU peak 3.44 GiB
+Chat 14/30; elapsed 64s; mean RM -1.363; GPU peak 3.48 GiB
+Chat 15/30; elapsed 70s; mean RM -1.230; GPU peak 3.48 GiB
+Chat 16/30; elapsed 76s; mean RM -1.237; GPU peak 3.48 GiB
+Chat 17/30; elapsed 82s; mean RM -1.281; GPU peak 3.48 GiB
+Chat 18/30; elapsed 89s; mean RM -1.263; GPU peak 3.48 GiB
+Chat 19/30; elapsed 93s; mean RM -1.270; GPU peak 3.48 GiB
+Chat 20/30; elapsed 94s; mean RM -1.309; GPU peak 3.48 GiB
+Chat 21/30; elapsed 94s; mean RM -1.340; GPU peak 3.48 GiB
+Chat 22/30; elapsed 100s; mean RM -1.403; GPU peak 3.48 GiB
+Chat 23/30; elapsed 106s; mean RM -1.406; GPU peak 3.48 GiB
+Chat 24/30; elapsed 112s; mean RM -1.455; GPU peak 3.48 GiB
+Chat 25/30; elapsed 119s; mean RM -1.469; GPU peak 3.48 GiB
+Chat 26/30; elapsed 125s; mean RM -1.519; GPU peak 3.48 GiB
+Chat 27/30; elapsed 126s; mean RM -1.462; GPU peak 3.48 GiB
+Chat 28/30; elapsed 132s; mean RM -1.400; GPU peak 3.48 GiB
+Chat 29/30; elapsed 136s; mean RM -1.418; GPU peak 3.48 GiB
+Chat 30/30; elapsed 140s; mean RM -1.445; GPU peak 3.48 GiB

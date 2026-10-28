@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "protocol_hashes_verified": true,
+  "question_counts": [
+    197,
+    29
+  ],
+  "candidates": 904,
+  "tests": {
+    "tests": 16,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "means_crosschecked": true,
+  "paired_standard_errors_crosschecked": 8,
+  "automatic_audit_agreements": 40,
+  "content_labels_locked": true,
+  "selection_checks": 678,
+  "report_sha256": "5ecbdca777de4d46accb632f9e7048c1bb44e53c3363c83d59cb9be26510ce74"
+}

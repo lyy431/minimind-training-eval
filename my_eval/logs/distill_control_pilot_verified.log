@@ -1,0 +1,5 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Teacher driver replay verified: 26/32 accepted; historical prefix exact=True
+Teacher 32/2999: accepted 25 (78.1%), strict among accepted 25/25; batch 15.4s, this run 15s
+Teacher 64/2999: accepted 46 (71.9%), strict among accepted 45/46; batch 15.2s, this run 31s

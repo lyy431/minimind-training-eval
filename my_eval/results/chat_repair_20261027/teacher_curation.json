@@ -1,0 +1,407 @@
+{
+  "excluded": {
+    "teacher_9": "specialist/sensitive topic outside this small everyday-chat experiment",
+    "teacher_11": "calculation/numerical query outside ordinary CE scope",
+    "teacher_16": "calculation/numerical query outside ordinary CE scope",
+    "teacher_18": "calculation/numerical query outside ordinary CE scope",
+    "teacher_21": "calculation/numerical query outside ordinary CE scope",
+    "teacher_22": "calculation/numerical query outside ordinary CE scope",
+    "teacher_32": "calculation/numerical query outside ordinary CE scope",
+    "teacher_35": "calculation/numerical query outside ordinary CE scope",
+    "teacher_41": "calculation/numerical query outside ordinary CE scope",
+    "teacher_57": "calculation/numerical query outside ordinary CE scope",
+    "teacher_60": "calculation/numerical query outside ordinary CE scope",
+    "teacher_63": "calculation/numerical query outside ordinary CE scope",
+    "teacher_79": "calculation/numerical query outside ordinary CE scope",
+    "teacher_81": "calculation/numerical query outside ordinary CE scope",
+    "teacher_84": "calculation/numerical query outside ordinary CE scope",
+    "teacher_91": "calculation/numerical query outside ordinary CE scope",
+    "teacher_92": "calculation/numerical query outside ordinary CE scope",
+    "teacher_101": "calculation/numerical query outside ordinary CE scope",
+    "teacher_113": "calculation/numerical query outside ordinary CE scope",
+    "teacher_116": "calculation/numerical query outside ordinary CE scope",
+    "teacher_130": "calculation/numerical query outside ordinary CE scope",
+    "teacher_133": "specialist/sensitive topic outside this small everyday-chat experiment",
+    "teacher_139": "calculation/numerical query outside ordinary CE scope",
+    "teacher_140": "calculation/numerical query outside ordinary CE scope",
+    "teacher_142": "calculation/numerical query outside ordinary CE scope",
+    "teacher_144": "calculation/numerical query outside ordinary CE scope",
+    "teacher_156": "calculation/numerical query outside ordinary CE scope",
+    "teacher_169": "specialist/sensitive topic outside this small everyday-chat experiment",
+    "teacher_176": "calculation/numerical query outside ordinary CE scope",
+    "teacher_184": "calculation/numerical query outside ordinary CE scope",
+    "teacher_187": "calculation/numerical query outside ordinary CE scope",
+    "teacher_193": "specialist/sensitive topic outside this small everyday-chat experiment",
+    "teacher_197": "specialist/sensitive topic outside this small everyday-chat experiment",
+    "teacher_199": "specialist/sensitive topic outside this small everyday-chat experiment",
+    "teacher_201": "calculation/numerical query outside ordinary CE scope",
+    "teacher_212": "calculation/numerical query outside ordinary CE scope",
+    "teacher_213": "calculation/numerical query outside ordinary CE scope",
+    "teacher_215": "personal-experience question; avoid unsupported first-person claims",
+    "teacher_223": "calculation/numerical query outside ordinary CE scope",
+    "teacher_232": "calculation/numerical query outside ordinary CE scope",
+    "teacher_240": "calculation/numerical query outside ordinary CE scope",
+    "teacher_254": "calculation/numerical query outside ordinary CE scope",
+    "teacher_264": "calculation/numerical query outside ordinary CE scope",
+    "teacher_268": "calculation/numerical query outside ordinary CE scope",
+    "teacher_269": "specialist/sensitive topic outside this small everyday-chat experiment",
+    "teacher_274": "calculation/numerical query outside ordinary CE scope",
+    "teacher_276": "calculation/numerical query outside ordinary CE scope",
+    "teacher_279": "calculation/numerical query outside ordinary CE scope",
+    "teacher_296": "calculation/numerical query outside ordinary CE scope",
+    "teacher_308": "calculation/numerical query outside ordinary CE scope",
+    "teacher_312": "calculation/numerical query outside ordinary CE scope",
+    "teacher_0": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_1": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_3": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_4": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_6": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_14": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_24": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_33": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_34": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_36": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_37": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_42": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_43": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_45": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_47": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_51": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_53": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_55": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_62": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_67": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_70": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_71": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_72": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_80": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_82": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_85": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_86": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_87": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_95": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_99": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_100": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_102": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_103": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_104": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_105": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_106": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_107": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_112": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_115": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_118": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_121": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_123": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_124": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_125": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_127": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_128": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_132": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_134": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_136": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_137": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_138": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_143": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_145": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_151": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_152": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_154": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_157": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_158": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_159": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_163": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_164": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_165": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_166": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_167": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_168": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_170": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_171": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_172": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_173": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_174": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_177": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_179": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_180": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_181": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_182": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_183": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_185": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_188": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_189": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_190": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_191": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_192": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_196": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_202": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_203": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_205": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_206": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_207": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_209": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_211": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_214": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_216": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_221": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_227": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_228": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_234": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_235": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_238": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_247": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_248": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_250": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_251": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_257": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_259": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_263": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_265": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_266": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_270": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_272": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_275": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_281": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_285": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_289": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_291": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_293": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_298": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_299": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_300": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_301": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_304": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_306": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_307": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_309": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_310": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_311": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_317": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study",
+    "teacher_318": "Not retained after content inspection: old-pool labels are not reliable enough for this everyday-chat study"
+  },
+  "overrides": {
+    "teacher_344": {
+      "original": "剪刀用于裁剪纸张、布料等软性材料，而胶水则用于粘合硬质材料如木板、玻璃等。",
+      "answer": "剪刀用来裁剪材料，胶水用来把材料粘在一起。",
+      "reason": "The sampled teacher response incorrectly restricted glue to hard materials; correct all4 paraphrases."
+    },
+    "teacher_345": {
+      "original": "剪刀用于裁剪纸张、布料等软性材料，而胶水则用于粘合硬质材料如木材、金属等。",
+      "answer": "剪刀用来裁剪材料，胶水用来把材料粘在一起。",
+      "reason": "The sampled teacher response incorrectly restricted glue to hard materials; correct all4 paraphrases."
+    },
+    "teacher_346": {
+      "original": "剪刀主要用于裁剪纸张、布料等软性材料，而胶水则用于粘合硬质材料如木材、金属等。",
+      "answer": "剪刀用来裁剪材料，胶水用来把材料粘在一起。",
+      "reason": "The sampled teacher response incorrectly restricted glue to hard materials; correct all4 paraphrases."
+    },
+    "teacher_347": {
+      "original": "剪刀主要用于裁剪纸张、布料等软性材料，而胶水则用于粘合各种硬质材料如木材、金属等。",
+      "answer": "剪刀用来裁剪材料，胶水用来把材料粘在一起。",
+      "reason": "The sampled teacher response incorrectly restricted glue to hard materials; correct all4 paraphrases."
+    },
+    "teacher_320": {
+      "original": "因为远处的光线太弱，近距离看更亮，看得清楚。",
+      "answer": "靠近后，字在视野中显得更大，通常更容易辨认。",
+      "reason": "Incorrect explanation based on reduced light or rays converging"
+    },
+    "teacher_321": {
+      "original": "因为远处的光线较弱，近距离观察可以提高清晰度。",
+      "answer": "靠近后，字在视野中显得更大，通常更容易辨认。",
+      "reason": "Incorrect explanation based on reduced light or rays converging"
+    },
+    "teacher_322": {
+      "original": "这是因为远处的物体发出的光线在到达眼睛之前已经分散成许多细小的光点，这些光点在视网膜上形成的像是模糊的。当你靠近这些物体时，它们发出的光线会汇聚在一起形成更清晰的像，从而帮助你看清远处的文字。",
+      "answer": "靠近后，字在视野中显得更大，通常更容易辨认。",
+      "reason": "Incorrect explanation based on reduced light or rays converging"
+    },
+    "teacher_324": {
+      "original": "A ruler helps draw straight lines by providing a fixed length and orientation, allowing you to measure distances accurately and ensure that the line is perfectly straight.",
+      "answer": "A ruler provides a straight edge to guide your pen or pencil.",
+      "reason": "Explain the straight edge rather than fixed length"
+    },
+    "teacher_325": {
+      "original": "A ruler helps draw straight lines by providing a consistent length and shape, allowing you to measure accurately and create precise horizontal and vertical lines.",
+      "answer": "A ruler provides a straight edge to guide your pen or pencil.",
+      "reason": "Explain the straight edge rather than fixed length"
+    },
+    "teacher_326": {
+      "original": "A ruler helps draw straight lines by providing a consistent length and alignment standard.",
+      "answer": "A ruler provides a straight edge to guide your pen or pencil.",
+      "reason": "Explain the straight edge rather than fixed length"
+    },
+    "teacher_327": {
+      "original": "A ruler helps draw straight lines by providing a consistent length and alignment, ensuring accuracy in measurements and constructions.",
+      "answer": "A ruler provides a straight edge to guide your pen or pencil.",
+      "reason": "Explain the straight edge rather than fixed length"
+    },
+    "teacher_356": {
+      "original": "Practicing a skill regularly helps because it allows you to build muscle memory, improve your technique over time, and enhance your ability to perform the task efficiently. Regular practice also reinforces learning and prevents forgetting.",
+      "answer": "Regular practice helps reinforce what you have learned and improve your skill.",
+      "reason": "Avoid treating all skills as muscle memory"
+    },
+    "teacher_357": {
+      "original": "Practicing a skill regularly helps by reinforcing your skills, improving your proficiency over time, and allowing you to apply the skill in various situations.",
+      "answer": "Regular practice helps reinforce what you have learned and improve your skill.",
+      "reason": "Avoid treating all skills as muscle memory"
+    },
+    "teacher_358": {
+      "original": "Practicing a skill regularly helps because it allows you to build muscle memory and improve your performance over time.",
+      "answer": "Regular practice helps reinforce what you have learned and improve your skill.",
+      "reason": "Avoid treating all skills as muscle memory"
+    },
+    "teacher_359": {
+      "original": "Practicing a skill regularly helps because it allows you to build muscle memory, improve your technique over time, and enhance your ability to perform the task efficiently. Regular practice also reinforces learning and prevents forgetting.",
+      "answer": "Regular practice helps reinforce what you have learned and improve your skill.",
+      "reason": "Avoid treating all skills as muscle memory"
+    },
+    "teacher_362": {
+      "original": "耳机的主要用途是让听者在不需要大声说话的情况下，通过声音传递信息和娱乐。它们可以用于个人通话、音乐播放、游戏、视频会议等多种场合。",
+      "answer": "耳机把音频信号转换为声音，供使用者听音乐、通话或收听其他内容。",
+      "reason": "One answer reversed the sound/electrical conversion"
+    },
+    "teacher_363": {
+      "original": "耳机是一种用于听音乐、通话或其他音频内容的设备，通过将声音信号转换成电信号并传输至耳朵来提供音效体验。",
+      "answer": "耳机把音频信号转换为声音，供使用者听音乐、通话或收听其他内容。",
+      "reason": "One answer reversed the sound/electrical conversion"
+    },
+    "teacher_380": {
+      "original": "Listening involves receiving and understanding spoken or written words, while speaking is the act of producing sounds to communicate ideas or information.",
+      "answer": "Listening means receiving information through hearing; speaking means communicating with your voice.",
+      "reason": "Written words are read, not listened to"
+    },
+    "teacher_384": {
+      "original": "橡皮擦用来擦掉纸上的错误字迹。",
+      "answer": "橡皮擦主要用来擦除纸上的铅笔痕迹，方便修改。",
+      "reason": "Do not imply ordinary erasers remove all inks"
+    },
+    "teacher_385": {
+      "original": "橡皮擦用于擦除纸张上的文字和图形。",
+      "answer": "橡皮擦主要用来擦除纸上的铅笔痕迹，方便修改。",
+      "reason": "Do not imply ordinary erasers remove all inks"
+    },
+    "teacher_386": {
+      "original": "橡皮擦的主要用途是擦除纸张上的文字和图形，帮助你重新书写或修改内容。",
+      "answer": "橡皮擦主要用来擦除纸上的铅笔痕迹，方便修改。",
+      "reason": "Do not imply ordinary erasers remove all inks"
+    },
+    "teacher_387": {
+      "original": "橡皮擦的主要用途是用于擦除纸张上的文字和图形痕迹，帮助人们在书写或绘画后清除错误或不需要的部分。",
+      "answer": "橡皮擦主要用来擦除纸上的铅笔痕迹，方便修改。",
+      "reason": "Do not imply ordinary erasers remove all inks"
+    },
+    "teacher_396": {
+      "original": "A printer converts digital information into physical ink on paper.",
+      "answer": "A printer puts digital text or images onto paper.",
+      "reason": "Do not restrict all printing to liquid ink"
+    },
+    "teacher_397": {
+      "original": "A printer converts digital information into physical ink on paper.",
+      "answer": "A printer puts digital text or images onto paper.",
+      "reason": "Do not restrict all printing to liquid ink"
+    },
+    "teacher_398": {
+      "original": "A printer converts digital information into physical ink on paper.",
+      "answer": "A printer puts digital text or images onto paper.",
+      "reason": "Do not restrict all printing to liquid ink"
+    },
+    "teacher_399": {
+      "original": "A printer converts digital information into physical ink on paper.",
+      "answer": "A printer puts digital text or images onto paper.",
+      "reason": "Do not restrict all printing to liquid ink"
+    },
+    "teacher_420": {
+      "original": "An empty box has nothing inside, while a full box contains items.",
+      "answer": "An empty box has nothing inside; a full box is filled to its capacity.",
+      "reason": "Nonempty is not the same as full"
+    },
+    "teacher_421": {
+      "original": "An empty box has no items inside, while a full box contains objects.",
+      "answer": "An empty box has nothing inside; a full box is filled to its capacity.",
+      "reason": "Nonempty is not the same as full"
+    },
+    "teacher_422": {
+      "original": "An empty box has nothing inside it, while a full box contains items or contents.",
+      "answer": "An empty box has nothing inside; a full box is filled to its capacity.",
+      "reason": "Nonempty is not the same as full"
+    },
+    "teacher_423": {
+      "original": "An empty box has no items inside, while a full box contains objects or contents.",
+      "answer": "An empty box has nothing inside; a full box is filled to its capacity.",
+      "reason": "Nonempty is not the same as full"
+    },
+    "teacher_424": {
+      "original": "因为这样可以确认物品是否真的有，避免误会和损失。",
+      "answer": "借用前先征得物主同意，是尊重对方，也能避免误会。",
+      "reason": "Correct the omitted ownership/permission reason"
+    },
+    "teacher_425": {
+      "original": "因为这样可以确保你有足够的东西，并避免不必要的麻烦。",
+      "answer": "借用前先征得物主同意，是尊重对方，也能避免误会。",
+      "reason": "Correct the omitted ownership/permission reason"
+    },
+    "teacher_426": {
+      "original": "因为这样可以确保你得到的东西是自己想要的，并且避免不必要的麻烦和冲突。",
+      "answer": "借用前先征得物主同意，是尊重对方，也能避免误会。",
+      "reason": "Correct the omitted ownership/permission reason"
+    },
+    "teacher_427": {
+      "original": "因为这样可以确保你得到的东西是自己想要的，并且避免不必要的麻烦和冲突。",
+      "answer": "借用前先征得物主同意，是尊重对方，也能避免误会。",
+      "reason": "Correct the omitted ownership/permission reason"
+    },
+    "teacher_468": {
+      "original": "A fact is something that can be proven true or false based on evidence, while a personal preference is an opinion about what someone likes or dislikes.",
+      "answer": "A fact is information supported by evidence; a personal preference describes what someone likes or dislikes.",
+      "reason": "Distinguish facts from statements that may be false"
+    },
+    "teacher_469": {
+      "original": "A fact is something that can be proven true or false through evidence, while a personal preference is an opinion based on individual feelings or tastes.",
+      "answer": "A fact is information supported by evidence; a personal preference describes what someone likes or dislikes.",
+      "reason": "Distinguish facts from statements that may be false"
+    },
+    "teacher_470": {
+      "original": "A fact is something that can be proven true or false based on evidence. A personal preference is an opinion or liking that varies from person to person.",
+      "answer": "A fact is information supported by evidence; a personal preference describes what someone likes or dislikes.",
+      "reason": "Distinguish facts from statements that may be false"
+    },
+    "teacher_471": {
+      "original": "A fact is an objective truth that can be proven true or false, based on evidence. A personal preference refers to something someone likes or dislikes based on their individual feelings or opinions.",
+      "answer": "A fact is information supported by evidence; a personal preference describes what someone likes or dislikes.",
+      "reason": "Distinguish facts from statements that may be false"
+    },
+    "teacher_472": {
+      "original": "标签是用来帮助计算机识别和分类数据的。",
+      "answer": "标签能标明物品的名称、内容或类别，方便辨认和整理。",
+      "reason": "General labels are not limited to computer datasets"
+    },
+    "teacher_473": {
+      "original": "标签是用来标识数据集中的每个项目类别的一种方式。",
+      "answer": "标签能标明物品的名称、内容或类别，方便辨认和整理。",
+      "reason": "General labels are not limited to computer datasets"
+    },
+    "teacher_474": {
+      "original": "标签是用来帮助计算机识别和分类数据的。它们就像是给数据加上了“标签”，这样计算机就能更容易地找到我们需要的信息。",
+      "answer": "标签能标明物品的名称、内容或类别，方便辨认和整理。",
+      "reason": "General labels are not limited to computer datasets"
+    },
+    "teacher_475": {
+      "original": "标签是用来标识和分类数据的，帮助计算机理解和处理信息。",
+      "answer": "标签能标明物品的名称、内容或类别，方便辨认和整理。",
+      "reason": "General labels are not limited to computer datasets"
+    },
+    "teacher_231": {
+      "original": "火箭需要发动机来产生推力，使火箭能够加速升空并保持飞行状态。",
+      "answer": "火箭发动机通过喷出气体产生推力，使火箭升空或改变速度。",
+      "reason": "Thrust changes motion; avoid implying continuous thrust is necessary to coast"
+    }
+  },
+  "raw_generations_preserved": true,
+  "fixed_sample": "teacher_content_audit_sample.json;16 random accepted answers, seed202610275",
+  "content_inspection": {
+    "all160_simple_knowledge_answers_read": true,
+    "general_whitelist_count": 40,
+    "fixed_supervision": "560 programmatically constructed cases with known targets"
+  },
+  "limit": "Assistant content inspection and corrections; not independent expert factual verification."
+}

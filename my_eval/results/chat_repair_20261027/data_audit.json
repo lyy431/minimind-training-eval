@@ -1,0 +1,24 @@
+{
+  "rows": 2760,
+  "ordinary_cases": 760,
+  "teacher_accepted": 200,
+  "teacher_format_accepted": 378,
+  "teacher_content_scope_excluded": 178,
+  "teacher_answers_corrected": 43,
+  "teacher_incomplete": 102,
+  "teacher_other_rejected": 0,
+  "excluded_known_heldout_questions": [],
+  "counts": {
+    "('supervised', 'knowledge')": 320,
+    "('supervised', 'retrieval')": 640,
+    "('supervised', 'math')": 640,
+    "('supervised', 'identity')": 160,
+    "('retain', 'math')": 200,
+    "('supervised', 'writing')": 320,
+    "('supervised', 'general')": 80,
+    "('retain', 'general')": 400
+  },
+  "normalized_exact_overlap_with_heldout": 0,
+  "train_sha256": "97b2f2ef83ad696e9999e0d6c68e8a9b25c3fcbcb02f2f903bdeec937773e50f",
+  "accepted_teacher_answers_only": true
+}

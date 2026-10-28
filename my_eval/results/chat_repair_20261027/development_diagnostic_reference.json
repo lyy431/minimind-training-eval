@@ -1,0 +1,5 @@
+{
+  "folder": "D:\\minimind\\minimind-master\\my_eval\\results\\chat_quality_20261027",
+  "formal_generation_started": false,
+  "reason": "Prompt-only alternatives and swapping small models remained weak on development; retained as exploratory diagnostics, no release. User chose to train MiniMind itself."
+}

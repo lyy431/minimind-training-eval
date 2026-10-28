@@ -1,0 +1,29 @@
+{
+  "selected": "chat_repair_e2",
+  "weights": {
+    "tool_choice2b_e3": "ec9ba86b1bcee9e7172b2cb41f02491d4dab9517ec6b9b0024ffe8449e7e4347",
+    "chat_repair_e2": "8d9122b51f55f662f6b1508316cb6d8007c9d5afe268d44ff78b2a4095b6559e"
+  },
+  "files_sha256": {
+    "my_eval\\results\\chat_repair_20261027\\plan.json": "1c888c8565ce2e3acab1734ebbaa2d0dab7dd6fcaddf2004867895c4bc4ac739",
+    "my_eval\\results\\chat_repair_20261027\\dev_tasks.json": "2bc4e067e4a80ba051ace94d0d5abac8d53786aa0e83e6c6a3df32d839e04743",
+    "my_eval\\results\\chat_repair_20261027\\final_tasks.json": "f6b42c1f3c9d6abdb6f3883d339c9593b548ef29548fd5b48dc5b5ef5a6e3e2f",
+    "my_eval\\results\\chat_repair_20261027\\rubric.json": "041a50e51b2a90ac5682558fe56cdf8f5bfee17c72beddb72d2982293532a66e",
+    "my_eval\\results\\chat_repair_20261027\\train.jsonl": "97b2f2ef83ad696e9999e0d6c68e8a9b25c3fcbcb02f2f903bdeec937773e50f",
+    "my_eval\\results\\chat_repair_20261027\\data_audit.json": "36365f18dae72bf8361ed9f3f6b8f77c3afc9d204d1aa341218f5fd0c2793664",
+    "my_eval\\results\\chat_repair_20261027\\token_audit.json": "cc7a934440fac8d477273839349a2a6f7d98dde2188c3e6e78344b6656394eae",
+    "my_eval\\results\\chat_repair_20261027\\selection.json": "094859feae0d706eb1840cb0321eda257c078a7567c84d975217f485a63f6017",
+    "my_eval\\results\\chat_repair_20261027\\tests.json": "b124bb6d58920f87f6b2b00bb7fb30474cbdea1c733c4db26869353c79135c4e",
+    "my_eval\\results\\chat_repair_20261027\\teacher_answers.json": "8861e3d6878cf1d67746fa407fb6df388406c74223a7de1685c050b3eaf01315",
+    "my_eval\\results\\chat_repair_20261027\\teacher_curation.json": "a28198cd26d00493ebe0b3abc0e577af992a63bf1390711d0a3ea0c84f10d3be",
+    "my_eval\\results\\chat_repair_20261027\\menu_balance_audit.json": "fb86c3d31dfc4611e3d5c8dce3aecc605432ac8d6717d089380fe6235cef1e53",
+    "my_eval\\scripts\\chat_repair_common.py": "5820e5eb935965cc0da792b61127eac27bc19332b1d05118106d5ed32af3c617",
+    "my_eval\\scripts\\train_chat_repair.py": "3dc86f98c447aba32b898282fa43bf8ef93ea2d91c3f562e26ab1f80f6e1895b",
+    "my_eval\\scripts\\eval_chat_repair.py": "a4a6f91a67f9ef499721f8a3413260202d2bff88c441f1e988e476c3d2a65742",
+    "my_eval\\scripts\\review_chat_repair.py": "aae59e3f1262f6ff754cc8db819e491631acb1b9d48029780634f79a1eb2fbcd",
+    "my_eval\\scripts\\analyse_chat_repair.py": "857ec4ceda5e8bed01b67379bc1f55aeeb685b5b51e1a9cb108438d896fc3134",
+    "scripts\\best_of_n.py": "b8e594d8c08da96c74aa990e622afb9d7d9003c65f859d9814639ec8a53e4a37",
+    "scripts\\demo_tools.py": "7155da27967520b9449a65eb93de9795e495d5c9efdc8a52f0703e15a7f95fa1",
+    "my_eval\\scripts\\strict_math_rescore.py": "ea1f91009c2edd95fb554dcf3f3958cff9442150bc73c39de08afdf328cc4751"
+  }
+}

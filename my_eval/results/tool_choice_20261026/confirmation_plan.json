@@ -1,0 +1,26 @@
+{
+  "reason": "initial primary+9.90pp,95%CI[-4.69,+25.00] did not pass; other retention gates passed",
+  "n_questions": 96,
+  "conditions_per_question": 8,
+  "total_conditions": 768,
+  "weights": {
+    "bb_rl_id_anchor4": "a6f4249c77ba91084e124658d35f35a56d40c0380d0681a341b39968c360f107",
+    "tool_choice_e2": "ee5f3cb2e13b05321b4b6c47e1ca80ca1fddf017622f6a5e7a099013fe0ed02f"
+  },
+  "selected": "tool_choice_e2",
+  "no_new_training": true,
+  "no_model_selection": true,
+  "no_optional_stopping": true,
+  "primary": "first reply calculator name and all exact expression arguments",
+  "pass_rule": "independent paired question-cluster bootstrap97.5% percentile interval lower>0; all initial other gates must remain passed",
+  "ci_reason": "more conservative interval for an additional confirmation opportunity; both initial failure and confirmation reported",
+  "inference": "same HF fp16,temp0.9,top_p0.85,top_k50,384tokens,thinking off; batch8 conditions per question, left padding; same seed per batch for both models",
+  "seed": 202610266,
+  "bootstrap_seed": 20261026,
+  "bootstrap_draws": 20000,
+  "tasks_sha256": "88d2ba92adf1faca79eced164575493bcf69ce9112710b301ac5623cab0bd30a",
+  "initial_summary_sha256": "c7c6c4d629005bb616413414ee140a759fc4fe9f89c0f81aac6c857fef591c4c",
+  "source_sha256": "f49adc6e28ac6ae221ef8987d3809b1e56aaa71fc7bf38e08f37e2444fa8806c",
+  "scope": "replication of original2 held-out wording families with fresh operands and menus; not arbitrary new semantics",
+  "pre_generation_implementation_note": "Greedy padding validation compares throughEOS and ignores padded tokens afterEOS; no test data or criterion changed."
+}

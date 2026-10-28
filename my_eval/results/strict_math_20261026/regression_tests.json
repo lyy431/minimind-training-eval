@@ -1,0 +1,191 @@
+{
+  "passed": 38,
+  "cases": [
+    {
+      "case": "basic",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "substring",
+      "expected": "fail",
+      "actual": "fail"
+    },
+    {
+      "case": "sign",
+      "expected": "fail",
+      "actual": "fail"
+    },
+    {
+      "case": "unicode_sign",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "zero",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "decimal",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "scientific",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "thousands",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "input_only",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "no_substring_from_input",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "false_equation_right_number",
+      "expected": "fail",
+      "actual": "fail"
+    },
+    {
+      "case": "swapped_labels",
+      "expected": "fail",
+      "actual": "fail"
+    },
+    {
+      "case": "swapped_bare",
+      "expected": "fail",
+      "actual": "fail"
+    },
+    {
+      "case": "ordered_bare",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "reordered_labelled",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "missing",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "duplicate_not_coverage",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "same_gt_distinct",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "same_gt_missing",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "contradiction",
+      "expected": "fail",
+      "actual": "fail"
+    },
+    {
+      "case": "numeric_identity",
+      "expected": "fail",
+      "actual": "fail"
+    },
+    {
+      "case": "no_raw_tool_credit",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "unevaluated",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "chain",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "bold",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "latex",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "power",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "power_words",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "percent",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "negation",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "unparsed_contradiction",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "unparsed_contradiction_comma",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "hidden_denominator",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "unknown_lhs",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "chinese_clause_comma",
+      "expected": "pass",
+      "actual": "pass"
+    },
+    {
+      "case": "ambiguous_ascii_comma",
+      "expected": "review",
+      "actual": "review"
+    },
+    {
+      "case": "bounded_number",
+      "expected": "review",
+      "actual": "review"
+    }
+  ],
+  "unfinished_checked": true
+}

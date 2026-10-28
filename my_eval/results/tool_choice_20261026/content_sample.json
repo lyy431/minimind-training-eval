@@ -1,0 +1,66 @@
+[
+  {
+    "id": "test_no_0",
+    "question": "请介绍这个助手的名称和定制开发者全名。",
+    "responses": {
+      "bb_rl_id_anchor4": "我来介绍这个助手的名称和定制开发者全名：\n1. 智能助手\n2. 小助手\n3. 大助手\n4. 小助手\n5. 小助手\n6. 小助手\n7. 小助手\n8. 小助手\n9. 小助手\n10. 小助手\n\n这些助手通过人工智能算法，提供信息查询、日程安排、问题解答等服务，极大地提高了工作效率。",
+      "tool_choice_e2": "您好，我叫 MiniMind，是由 Yuyang LU 开发的 AI 助手。我致力于为用户提供准确、高效且符合用户需求的解答。如果您有任何问题或需要帮助，请随时告诉我，我会尽力为您提供支持。"
+    }
+  },
+  {
+    "id": "test_no_1",
+    "question": "Which person customized this assistant, and what is its name?",
+    "responses": {
+      "bb_rl_id_anchor4": "I understand and will do this by asking the person customized this assistant. Finally, the name of the person is a \"salary\" and does not highlight the name.",
+      "tool_choice_e2": "As an AI assistant developed by Yuyang LU, I am MiniMind, an AI assistant developed by Yuyang LU."
+    }
+  },
+  {
+    "id": "test_no_2",
+    "question": "用一句简短的话说明什么是书签。",
+    "responses": {
+      "bb_rl_id_anchor4": "书籍签名是将书签放入一个文件，如你的电子书名或纸质书签的纸张。这种文件的签名方式由纸质书签构成，包括你的电子书名和纸质书签。\n\n你可以通过以下几种方式将书签的签名与纸质书签联系起来：\n\n1. **通过电子书签的电子书签名**：你可以在电子书签的电子书签中找到电子书签的签名。\n2. **通过电子书签的纸质书签**：你可以在电子书签的电子书签中找到纸质书签的签名。\n3. **通过电子书签的纸质书签**：如果你需要将书签的纸质书签通过电子书签的电子书签。\n\n如果你需要更具体的帮助，比如如何保存和使用这张签名文件，请告诉我，我可以提供更详细的说明！",
+      "tool_choice_e2": "书签是指书籍中的书籍，是由书签所构建的。"
+    }
+  },
+  {
+    "id": "test_no_3",
+    "question": "Explain why people organize files into folders.",
+    "responses": {
+      "bb_rl_id_anchor4": "I understand your request:\n1. For the first part, the question is just as a meta of files.\n2. For the second part, the question is \"passing files\".\n3. For the second part, the question is \"passing files.\"\n4. For the second part, the question is \"passing files.\"\n5. For the second part, the question is \"passing files.\"\n6. For the second part, the question is \"passing files.\"\n7. For the second part, the question is \"passing files.\"\n\n这些是你要求的反馈。",
+      "tool_choice_e2": "\"Supergirritation\" suggests a firegrant process. The \"Supergirritation\" is part of a \"Supergirritation\" conference, which is a metaphorical concept in this context."
+    }
+  },
+  {
+    "id": "test_no_4",
+    "question": "请替读书会写一句欢迎新成员的话。",
+    "responses": {
+      "bb_rl_id_anchor4": "我会尽力而为。要替读书会写一句欢迎新成员的话，我可以尝试以下方式：\n1. 保持礼貌，避免使用可能引起不适的词汇。\n2. 加入感叹号，增加亲和力。\n3. 提及其他成员，让新成员感觉更亲和力。\n4. 最后，表达感谢。\n\n以下是我为您提供的几个建议：\n1. 提前准备，如提前准备内容，以确保信息的准确性。\n2. 保持礼貌，避免使用可能引起不适或不礼貌的词汇。\n3. 确认信息，以便后续回复。\n4. 最后，鼓励新成员，表达感谢。\n\n希望这些建议能帮到您！",
+      "tool_choice_e2": "当然可以！以下是一些推荐的亲密朋友，它们能让你的新成员感到兴奋和满足：\n\n1. **陪伴的伙伴**：无论是陪伴还是陪伴，他们总是温暖、陪伴，提供温暖和陪伴。\n2. **陪伴的伙伴**：陪伴的伙伴，如陪伴、陪伴和陪伴，能给新成员带来温暖和支持。\n3. **陪伴的伙伴**：无论是陪伴还是陪伴，他们总是保持温暖和支持。\n\n这些亲密的朋友，不仅能让你的新成员感到安心，还能在你的陪伴中找到属于你的温暖和支持。"
+    }
+  },
+  {
+    "id": "test_no_5",
+    "question": "Write a friendly one-sentence reminder to bring a notebook.",
+    "responses": {
+      "bb_rl_id_anchor4": "I need to evaluate the statement bringing a notebook. However, you didn't specify what specific requirements. I'll do my best to assist with using a tool or website for the most accurate information. Let me know if you'd like help with something else.\"\n\nNow, let me know if you'd like me to assist with something else.",
+      "tool_choice_e2": "Of course! I'd be happy to help you with your tasks. Are there any specific issues you need?"
+    }
+  },
+  {
+    "id": "test_no_6",
+    "question": "纸条上写着小安选择绿色文件夹。小安选了什么颜色？",
+    "responses": {
+      "bb_rl_id_anchor4": "这是一张纸条上小安选择的绿色文件夹，长度为26个字符，共50个单词。\n\n### 计算过程：\n- 小安选择了绿色文件夹的数量为26个字符，共50个单词。\n- 小安选择了绿色文件夹的数量为5个单词。\n- 因此，总共是5 + 5 + 5 + 5 = 11个单词。\n- 因此，小安选了 **11**个单词。\n\n答案：11",
+      "tool_choice_e2": "小安选择了绿色文件夹。"
+    }
+  },
+  {
+    "id": "test_no_7",
+    "question": "A note says Nora returned the book on Friday. On which day did she return it?",
+    "responses": {
+      "bb_rl_id_anchor4": "Check the given rounded to New York. The first letter in the sentence is Nora, which is \"nora\" and is not a standard. In the first letter, Subtracting a letter from the initial number of seconds. Without this with a period of time, I can calculate:\n    (Nora) if I was created, I will print \"Exchange year.\"\n    if the sentence is \"this is the year of the book\", then \"to_current_time,\" and \"to_current_time\"}}\n\nThis statement calculates the difference between the first letter and the second letter in the sentence.",
+      "tool_choice_e2": "Last day, she would return it."
+    }
+  }
+]

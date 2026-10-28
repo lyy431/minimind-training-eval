@@ -1,0 +1,58 @@
+{
+  "reviewer": "assistant; fixed8-case descriptive sample, not independent human benchmark",
+  "n": 8,
+  "baseline_usable": 1,
+  "candidate_usable": 2,
+  "scope": "6 tools and held-out description only",
+  "rows": [
+    {
+      "id": "r2_no_0",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": false,
+      "note": "改写说明下双方均未给出名称与定制者；候选未乱调用但内容不对题"
+    },
+    {
+      "id": "r2_no_1",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": false,
+      "note": "双方均未完整回答名称与定制者，候选中英混乱"
+    },
+    {
+      "id": "r2_no_2",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": false,
+      "note": "双方均混淆文件和目录，候选跑题到Python且含错误信息"
+    },
+    {
+      "id": "r2_no_3",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": false,
+      "note": "双方均未解释备份理由，候选只是同义反复"
+    },
+    {
+      "id": "r2_no_6",
+      "baseline_meets_main_request": true,
+      "candidate_meets_main_request": false,
+      "note": "原版思考后给出欢迎句；候选未给请求的欢迎语，跑题"
+    },
+    {
+      "id": "r2_no_7",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": false,
+      "note": "双方未提供感谢同事的一句话，候选仍无意义"
+    },
+    {
+      "id": "r2_no_12",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": true,
+      "note": "候选正确复述619；原版错误调用工具"
+    },
+    {
+      "id": "r2_no_19",
+      "baseline_meets_main_request": false,
+      "candidate_meets_main_request": true,
+      "note": "候选正确原样抄641-58；原版错误调用不存在的copy"
+    }
+  ],
+  "conclusion": "Only not-calling improves reliably; ordinary content under dense tool prompts remains weak."
+}

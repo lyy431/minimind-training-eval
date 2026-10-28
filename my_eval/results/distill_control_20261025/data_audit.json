@@ -1,0 +1,73 @@
+{
+  "common_old_teacher": 2512,
+  "common_general": 2999,
+  "extra_slots": 2492,
+  "total_rows_per_arm": 8003,
+  "steps_per_epoch": 501,
+  "total_steps_per_arm": 1002,
+  "extra_expression_counts": {
+    "3": 1266,
+    "1": 567,
+    "2": 659
+  },
+  "teacher_acceptance": {
+    "attempted": 2999,
+    "accepted": 2492,
+    "percent": 83.09436478826275
+  },
+  "old_teacher_diagnostic": {
+    "n": 2512,
+    "strict_correct": 2472,
+    "no_all_calculator_values": 40,
+    "wrong_whole_numbers": 0,
+    "unfinished": 0,
+    "wrong_tool": 19,
+    "over_768_tokens": 11
+  },
+  "new_teacher_diagnostic": {
+    "n": 2492,
+    "strict_correct": 2453,
+    "no_all_calculator_values": 38,
+    "wrong_whole_numbers": 1,
+    "unfinished": 0,
+    "wrong_tool": 16,
+    "over_768_tokens": 8
+  },
+  "question_overlap_with_final": {
+    "bb_sft_replay": {
+      "math": 0,
+      "language": 0,
+      "chat": 0
+    },
+    "bb_sft_new": {
+      "math": 0,
+      "language": 0,
+      "chat": 0
+    }
+  },
+  "supervision_seed42": {
+    "bb_sft_replay": {
+      "rows": 8003,
+      "supervised_tokens": 1911835,
+      "zero_supervised_rows": 0
+    },
+    "bb_sft_new": {
+      "rows": 8003,
+      "supervised_tokens": 1913036,
+      "zero_supervised_rows": 0
+    }
+  },
+  "new_accepted_questions_also_in_old_teacher": 25,
+  "base_sha256": "606b058fb428560cf3f59c077a286c1eda2066ea97e2834bc5ad18a4d8f1b84c",
+  "dataset_sha256": {
+    "bb_sft_replay": "011ad63075d61bd20ca23cf9849df6690c7f694429a69a66b2186943d2fa3642",
+    "bb_sft_new": "ba9d3bca2801f754f9908a1f589a9814003f612c9d21af1fa7c7488a4b34c3c5"
+  },
+  "protocol_sha256": {
+    "trainer\\train_full_sft.py": "e4259c38677ea7b710aab60cd1ef75d3429499414aa76b8188154b8d0404accd",
+    "dataset\\lm_dataset.py": "7e6eb82f760d2e7db3cfbc60a74bed9a179b7d8667fd8b49e4a3c010391707ab",
+    "my_eval\\scripts\\official_compare.py": "87d4a19fd83fab1b931b3dfa56e082001fc0dfe9227688a789f6b7c431ed05ef",
+    "dataset\\agent_math_eval200.jsonl": "b49edc1b8e550500baa920ab43f176c50c2e817434e730501cd219a846fb7da2",
+    "dataset\\dpo_eval300.jsonl": "2f0dd996c25bf34a11a554b5c11edd25b0e5a54b2865f0c7aef336887f993ecd"
+  }
+}

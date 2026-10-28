@@ -1,0 +1,153 @@
+{
+  "selected": "bb_rl_id_anchor4",
+  "models": {
+    "bb_rl": {
+      "identity_hits": 0,
+      "general_leaks": 0,
+      "loss": 2.4888107802819563,
+      "math_percent": 81.75,
+      "rm": -1.5253658718532985,
+      "total_reward": -1.5537229518431614,
+      "math_by_expression_count": {
+        "1": 98.18181818181819,
+        "2": 86.45833333333334,
+        "3": 70.10309278350515
+      }
+    },
+    "bb_rl_id": {
+      "identity_hits": 18,
+      "general_leaks": 3,
+      "loss": 2.6042554186203994,
+      "math_percent": 73.0,
+      "rm": -1.4258002387152777,
+      "total_reward": -1.3176662322525892,
+      "math_by_expression_count": {
+        "1": 85.45454545454545,
+        "2": 70.83333333333334,
+        "3": 67.0103092783505
+      }
+    },
+    "bb_rl_id_anchor4": {
+      "identity_hits": 20,
+      "general_leaks": 1,
+      "loss": 2.496442204190267,
+      "math_percent": 79.5,
+      "rm": -1.555854966905382,
+      "total_reward": -1.5675353237717378,
+      "math_by_expression_count": {
+        "1": 97.27272727272728,
+        "2": 86.45833333333334,
+        "3": 65.97938144329896
+      }
+    }
+  },
+  "selected_minus": {
+    "bb_rl": {
+      "loss": {
+        "difference": 0.007631423908310967,
+        "se": 0.0013101401929032806,
+        "better": 95,
+        "worse": 201,
+        "same": 0,
+        "n": 296
+      },
+      "math_percentage_points": {
+        "difference": -2.25,
+        "se": 1.1373898974821572,
+        "better": 5,
+        "worse": 13,
+        "same": 182,
+        "n": 200
+      },
+      "rm": {
+        "difference": -0.030489095052083352,
+        "se": 0.09145073072773408,
+        "better": 13,
+        "worse": 16,
+        "same": 1,
+        "n": 30
+      },
+      "total_reward": {
+        "difference": -0.013812371928576409,
+        "se": 0.1156256880990509,
+        "better": 14,
+        "worse": 15,
+        "same": 1,
+        "n": 30
+      },
+      "identity_percentage_points": {
+        "difference": 95.23809523809524,
+        "se": 4.761904761904763,
+        "better": 7,
+        "worse": 0,
+        "same": 0,
+        "n": 7
+      },
+      "general_leak_percentage_points": {
+        "difference": 5.0,
+        "se": 5.0,
+        "better": 0,
+        "worse": 1,
+        "same": 9,
+        "n": 10
+      }
+    },
+    "bb_rl_id": {
+      "loss": {
+        "difference": -0.10781321443013243,
+        "se": 0.009056056623285574,
+        "better": 278,
+        "worse": 18,
+        "same": 0,
+        "n": 296
+      },
+      "math_percentage_points": {
+        "difference": 6.5,
+        "se": 2.659721903322803,
+        "better": 41,
+        "worse": 24,
+        "same": 135,
+        "n": 200
+      },
+      "rm": {
+        "difference": -0.1300547281901042,
+        "se": 0.0766271708881403,
+        "better": 10,
+        "worse": 18,
+        "same": 2,
+        "n": 30
+      },
+      "total_reward": {
+        "difference": -0.24986909151914857,
+        "se": 0.07804023929657206,
+        "better": 6,
+        "worse": 22,
+        "same": 2,
+        "n": 30
+      },
+      "identity_percentage_points": {
+        "difference": 9.523809523809527,
+        "se": 6.147592613027647,
+        "better": 2,
+        "worse": 0,
+        "same": 5,
+        "n": 7
+      },
+      "general_leak_percentage_points": {
+        "difference": -10.0,
+        "se": 6.666666666666666,
+        "better": 2,
+        "worse": 0,
+        "same": 8,
+        "n": 10
+      }
+    }
+  },
+  "acceptance": {
+    "identity_at_least_15_of_21": true,
+    "general_leaks_at_most_2_of_20": true,
+    "math_within_5_points_of_base": true,
+    "loss_increase_at_most_004": true
+  },
+  "accepted": true
+}

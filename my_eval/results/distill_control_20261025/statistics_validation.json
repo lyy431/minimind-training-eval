@@ -1,0 +1,8 @@
+{
+  "all_passed": true,
+  "independent_model_mean_checks": 28,
+  "independent_paired_metric_checks": 45,
+  "method": "NumPy reshape200x2/30x3, sample standard deviation ddof1; all published means, SEs and direction counts agree within1e-10.",
+  "weight_and_protocol_hashes_unchanged": true,
+  "summary_sha256": "2ab6458ec47ed8ff25c58ab17fa090d96dea9187052f4887eb94b438e92cf3a8"
+}
