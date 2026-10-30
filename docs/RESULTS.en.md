@@ -1,6 +1,6 @@
 # Guide to the Completed Results
 
-[Project overview](../README.en.md) · [Reproducibility](REPRODUCIBILITY.en.md) · [Credits](CREDITS.en.md)
+[Project overview](../README.md) · [Reproducibility](REPRODUCIBILITY.en.md) · [Credits](CREDITS.en.md)
 
 This guide summarizes the completed studies in English. Linked original reports retain their Chinese text, exact settings, individual responses, and review records. Results from different protocols should not be combined into a single leaderboard.
 
