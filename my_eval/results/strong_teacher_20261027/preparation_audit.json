@@ -1,0 +1,41 @@
+{
+  "counts": {
+    "train_items.json": {
+      "retrieval": 400,
+      "instruction": 100,
+      "explanation": 200,
+      "writing": 300
+    },
+    "dev_tasks.json": {
+      "retrieval": 12,
+      "instruction": 12,
+      "explanation": 12,
+      "writing": 12
+    },
+    "final_tasks.json": {
+      "retrieval": 24,
+      "instruction": 24,
+      "explanation": 24,
+      "writing": 24
+    }
+  },
+  "languages": {
+    "train_items.json": {
+      "zh": 795,
+      "en": 205
+    },
+    "dev_tasks.json": {
+      "zh": 36,
+      "en": 12
+    },
+    "final_tasks.json": {
+      "zh": 72,
+      "en": 24
+    }
+  },
+  "normalized_exact_overlap": 0,
+  "teacher_inputs_have_no_answers": true,
+  "teacher_inputs_have_no_dev_or_final": true,
+  "source": "Synthetic task-authored material; repeated formats/concepts are explicitly recorded, not 1000 independent topics.",
+  "scope": "Chinese-first bilingual short everyday tasks. Exact question exclusion is not proof of upstream semantic novelty."
+}

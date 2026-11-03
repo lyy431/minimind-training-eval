@@ -1,0 +1,85 @@
+7B 老师生成：运行前补充（2026-10-29）
+
+为什么要补充：
+启动包会从 huggingface.co 下载 Qwen2.5-7B-Instruct（固定版本 a09a3545…，共 14.2 GiB）。
+AutoDL 服务器在国内，直连 HuggingFace 通常很慢。AutoDL 官方文档也说明了这一点，
+并提供了"学术资源加速"（source /etc/network_turbo）。
+另外，这个模型的权重文件放在 HuggingFace 的 Xet 存储上，下载时会跳转到 cdn.hf.co。
+所以运行前先关掉 Xet、只走普通 HTTP，再用 30 秒实测速度。速度够快再启动正式任务。
+原启动包的预检记录里写着 cloud_runtime_tested=false，即云端下载从未测试过。
+本补充不修改启动包里的任何文件，只在终端里多设几个环境变量。
+
+要上传的文件：本目录下的 strong_teacher_cloud.zip（45,640 字节，SHA256 以 4e65033f 开头）。
+不要上传 autoshutdown_revision 文件夹里的同名文件，那是旧版。
+
+=== 第 0 步：在 AutoDL 网页上 ===
+1. 余额至少 5 元。
+2. 开机（有卡模式），然后马上设置"两小时后自动关机"。
+3. 打开 JupyterLab，进入 autodl-tmp 文件夹，上传 strong_teacher_cloud.zip。
+4. 点左上角"＋"→"终端"。下面所有命令都在这同一个终端里执行，中途不要关闭它。
+
+=== 第 1 步：解压 ===
+cd /root/autodl-tmp
+python -m zipfile -e strong_teacher_cloud.zip .
+cd strong_teacher_20261027
+
+=== 第 2 步：开加速，测速（约 30 秒）===
+source /etc/network_turbo
+export HF_HUB_DISABLE_XET=1
+curl -sL -r 0-499999999 --max-time 30 -o /dev/null -w "%{speed_download}" "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/a09a35458c702b33eeacc393d103063234e8bc28/model-00004-of-00004.safetensors" | awk '{printf "下载速度约 %.1f MB/s\n", $1/1048576}'
+
+结果 ≥ 10 MB/s：直接做第 3 步。
+结果 < 10 MB/s：换成镜像站，再测一次：
+unset http_proxy https_proxy
+export HF_ENDPOINT=https://hf-mirror.com
+curl -sL -r 0-499999999 --max-time 30 -o /dev/null -w "%{speed_download}" "https://hf-mirror.com/Qwen/Qwen2.5-7B-Instruct/resolve/a09a35458c702b33eeacc393d103063234e8bc28/model-00004-of-00004.safetensors" | awk '{printf "下载速度约 %.1f MB/s\n", $1/1048576}'
+
+如果两次都低于 10 MB/s：不要运行第 3 步，直接在网页上关机，把两次的速度记下来带回来。
+（14.2 GiB 按 10 MB/s 算要 24 分钟；任务总时限是 100 分钟，速度太慢会白花钱。）
+
+=== 第 3 步：正式运行（同一个终端，上面设的环境变量还在）===
+nohup python -u cloud_strong_teacher.py --hourly-cny 2.08 --budget-remaining-cny 5 --max-seconds 6000 --shutdown-verified > run_console.log 2>&1 &
+sleep 3; tail -F run_console.log cloud_job.log
+
+用 nohup 的原因（2026-11-04 补充）：这样即使终端被关掉，任务也会继续运行，结束时照样自动关机。
+下面的 tail 只是看进度，按 Ctrl+C 退出查看不影响任务。
+如果不用 nohup、直接前台运行：在终端里按 Ctrl+C 会让实例立刻保存结果并关机；关闭终端则可能让脚本中断、又不关机。
+
+顺序：下载老师 → 用 32 条测速 → 预计时间够才生成全部 1000 条 → 保存结果包 → 自动关机。
+粗略估计（未在云上实测）：下载 5–25 分钟，生成 10–20 分钟，总计约 1–2 元；最多 100 分钟，约 3.5 元。
+自动关机后 JupyterLab 会断开，这是正常的。
+
+=== 第 4 步：取回结果 ===
+1. 在网页上确认实例显示"已关机"。
+2. 用"无卡模式"开机（便宜），在 /root/autodl-tmp/strong_teacher_20261027/ 下载 strong_teacher_results.zip，然后再关机。
+3. 如果中途报错：先把 cloud_job.log 和屏幕上的报错带回来分析，不要直接重跑。
+   目录里会留下 CLOUD_RUNNING.json 这个标记，它会阻止重复启动。
+   如果确认要重跑，先把它改名，不要删除。
+
+完整性检查：生成结果的 teacher_strong.manifest.json 会记录每个权重文件的 SHA256。
+无论是走加速代理还是镜像站下载的，都可以和 HuggingFace 官方的值对照，确认模型没被换过。
+例如 model-00004-of-00004.safetensors 应为 1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd。
+
+
+=== 2026-11-04 实测：HuggingFace 和镜像站都太慢，改用 ModelScope ===
+实测速度：network_turbo 0.3 MB/s，hf-mirror 1.5 MB/s。ModelScope 上 4 个权重文件的 SHA256 与 HuggingFace 固定版本完全一致。
+模型必须放在系统盘 /root/qwen7b，再用软链接接到任务目录，因为启动脚本要求数据盘至少剩 19GiB。
+（放数据盘后只剩约 16GiB，任务会直接报错关机。）
+
+A. 下载（终端里之前的 HF_ENDPOINT 和 HF_HUB_DISABLE_XET 保留，不要 unset）：
+unset http_proxy https_proxy
+mkdir -p /root/qwen7b
+python -m modelscope.cli.cli download --model Qwen/Qwen2.5-7B-Instruct --local_dir /root/qwen7b
+
+B. 校验并接上（四行都应显示 OK）：
+cd /root/qwen7b
+sha256sum -c <<'SUMS'
+a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7  model-00001-of-00004.safetensors
+f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185  model-00002-of-00004.safetensors
+8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5  model-00003-of-00004.safetensors
+1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd  model-00004-of-00004.safetensors
+SUMS
+cd /root/autodl-tmp/strong_teacher_20261027
+ln -s /root/qwen7b Qwen2.5-7B-Instruct
+
+C. 正式启动：用上面第 3 步的 nohup 命令。download_teacher.py 校验到本地权重的 SHA256 一致后不会重新下载大文件。

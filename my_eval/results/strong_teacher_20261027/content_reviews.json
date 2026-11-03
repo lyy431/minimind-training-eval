@@ -1,0 +1,4135 @@
+{
+  "82d230a1025a67b1a3d4ecdb43d697e1074a0e081f613e73781c3d6a26b6b361": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "2009583fbdeff91fbbb43aa53fc93870bf41daf47810b9f59b25e812b26a7c96": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "988b2ec7743daa67e44a53d163cb514b77e000d239c413395ff65119ab8b3683": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "6e08d47b77d2bdb6e8df7e678a30ba6871c32580193e6591c2125d9b8f5e4645": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "d47b096d72158d799034ad22ce863d1c533b29c788d7b134e780c03588b35673": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "ede8867af4c8b073daab280c5ae475d2348742899fa9cbd7ad77d741935bc014": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "73f05407cc7e7f74fdf7830085afb921bec5517dc39795aba18d3f0a38b31199": {
+    "score": 1,
+    "reason": "两个编号正确，但未按要求用斜杠连接",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "f29467de4c100d8640b69f6bc5d84b822200814a63f3320383352c84c41e8bd3": {
+    "score": 1,
+    "reason": "部分提到避免误解，但偏成修改流程，严重冗长",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "b536eb564c93a23f1a4067f26f0a959222dd29f6da53197bca7570b76d5a73a6": {
+    "score": 0,
+    "reason": "未提醒佩戴名牌",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "f4709f5569bb88b6586ac2073a2787ad73ee0d2b6a35cc4cf5fb5fb1137b7c92": {
+    "score": 1,
+    "reason": "日期正确，但未只输出日期",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "2e3542fb2ed60efebce1e575d50859085089902e6849568e82f94161573171bd": {
+    "score": 0,
+    "reason": "两者相结合指代不明，没有解释区域命名",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "00768f061fd90a03508aaea4704436c054da536546252a0e04b40f9141bb7af0": {
+    "score": 1,
+    "reason": "编号正确但连接符不符",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "f391322d6edbdeaf429dae4ac04c0ab42868eac6ab9fc066ebd8db03a2be30f9": {
+    "score": 1,
+    "reason": "表达了感谢，却把同学的记录说成我的记录",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "8d53b5922ea129512e02f387851a05dc16cebb03ffb499e9207c4882e7746175": {
+    "score": 0,
+    "reason": "改成请求整理物品，未解释原因",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "021afe0f2bb43bd3a19dfdf42d67b03932cff5fc50ad49df0e1c646a2f9905c1": {
+    "score": 0,
+    "reason": "祝观看愉快，没有通知展板到达",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "60380b76fe93cf90ba5aa1e346ba60501bcd021bf91679c2e41dafeea8654c31": {
+    "score": 0,
+    "reason": "变成询问对方想法，角色和意图不符",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "e320dc807de13dd99801011cd171bad2360973b928c97a5f56eeb287b9cc2ff3": {
+    "score": 0,
+    "reason": "改约见面与保留便签无关",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "2c82fc46ed4ccec49a26ffe032ae715bc1b62899aee619fdd2b1c275db462b69": {
+    "score": 2,
+    "reason": "简短说明内容相符有助于信息清晰易懂，基本回应原因",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "7311a567c784ce3abc2fb810cc1e66036fdd4e7c2271361b088877b9373982fb": {
+    "score": 0,
+    "reason": "身份声明与材料问题无关",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "0dece4b9f6d93bad8f5f8c0901505bb28bd8e1f083d32227832b4aff08c47558": {
+    "score": 0,
+    "reason": "没有说明标签帮助辨认和讨论部件",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "eb2dfb78606b29461823a254631b4252c77cad22c97e8955346cc7c2e96fbc59": {
+    "score": 0,
+    "reason": "无意义改文请求，未解释共同约定",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "ddef8b356badf9cd8ad69758ae62832a681198c69e075dfe37b78ce4e178e706": {
+    "score": 0,
+    "reason": "对带标签图的说明混乱且无正确核心",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "50a8a190b2f43c4d8c13bca664624f20abad3368077d130558bfe3f58ea035b0": {
+    "score": 1,
+    "reason": "有邀请语气，但遗漏试做纸飞机",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "a9409bf219adb1cb134f6ad817f316e319c9806a9567f3fa7c26112590bc6daf": {
+    "score": 0,
+    "reason": "借指令的表达不成立，未回答原因",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "4fdeb69f123ef36df1d15e86d100ac0abeee8177e287fa2e90ddf397c646c7b5": {
+    "score": 1,
+    "reason": "两个编号正确，使用了箭头而非斜杠",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "de8afb8223c93131be97b74c94639e829a13c8c443f7b5566c4a91afe391de1a": {
+    "score": 0,
+    "reason": "把编号当负责人，没有识别未提供",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "9281e0c0c9e4eb23b9974708a16162fd2753b8eb06d1054927bab038ac335814": {
+    "score": 0,
+    "reason": "编造Excel用途且未连接编号",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "1b67cdbaa45034fe95221cff40fcf40cbe29974efe283ab817a251b43867ba6c": {
+    "score": 0,
+    "reason": "无法换话题与想换主题相反",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "a856d7490cb994734b61b802d38a4417f6ba2f0cbc9085f28e5a77e2febac451": {
+    "score": 0,
+    "reason": "A date没有回答材料未提供",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "89c64e7a4792b52471ce0c43453d6d4530c59e701038ab7a425fdf3a646a911b": {
+    "score": 1,
+    "reason": "知道未提供负责人，但未按固定文本输出",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "6147133a6feaec6fbc03335024930683bba0ec1e62e81fbda97f7c13d459d2b3": {
+    "score": 0,
+    "reason": "借预算与展板到达无关",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "4e5fa2b953efa2ff9b5ed66a501eaf22c44f635bdab9e25a425c59d9465f4029": {
+    "score": 0,
+    "reason": "返回登记号而非交书人的姓名",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "7e5ac5fcef4d7a53f38d91517fb84f6524bed4f9b50c2cd3211604687dd8aeee": {
+    "score": 1,
+    "reason": "只保留第一个编号，未完成连接",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "04ba9b521cbbc2ce6b1128aaab0bc8eb494ae2fe7422ce8ed31c2e655c50b546": {
+    "score": 0,
+    "reason": "声称日期已记录，与材料相反",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "8b743f844692ad309878b4333f643b778fc2e2eb553a7851b97265f691c760c0": {
+    "score": 0,
+    "reason": "返回编号而非姓名",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "cb2aedfe148d9119b4d93f8c5f47a63cbee893e3f78067d82db10726beb6b362": {
+    "score": 0,
+    "reason": "没有说明核对名单的原因",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "f2f5048efb4e502b41160fe11a0bcda16395a95fb45dec31e106cb61103c0846": {
+    "score": 0,
+    "reason": "无关且不自然的散步感谢",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "36d34a0b73b4d910e008dc81c17528df30feefc40bc3635038e233eeec2c63ed": {
+    "score": 0,
+    "reason": "没有说明展板已到，语句混乱",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "e7a9f91e5e1bf64d89cf78cbc5b3bc7dff2da6270078f65d746b32fd8519d42d": {
+    "score": 0,
+    "reason": "抄错编号尾数",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "65d6c9e83edac980732adf56a41938e5e49d26ab4fe79fac2155ebb536c98287": {
+    "score": 0,
+    "reason": "借展板而非通知已到",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "7f6767df2efb75bfd980a906d55c90fed4489dc9c6709981de2af92629610a81": {
+    "score": 2,
+    "reason": "直接感谢对方检查目录页，语意可用",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "cf8c6495f306dbb1f97e55ac7a65845164e342ea58228402b3f9731c4a48ccd7": {
+    "score": 1,
+    "reason": "只给泛泛的准确传达原则，没有清楚说明保留不同意见的作用",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "31d4afc8ebf5bbc21024cf3c04ff0000581e5990f2067ba0c532dbcc06e7b1ac": {
+    "score": 0,
+    "reason": "变成拒绝保留，未代拟请求",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "58b51e827d209bdc2f8125b96fe58be1a524b8965789a70d2edf6526c4313d9e": {
+    "score": 1,
+    "reason": "内容抄对但缺少圆括号",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "a7d1dbe3aaada5bfccbde85537b9b3c9e0cd728d94e4b2b9ea6709b451c4043a": {
+    "score": 0,
+    "reason": "返回姓名而非颜色",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "f7304cf0fa99fd92263b17497e93a385a99f4d9f8e8aceb5e8d93cccaa85604b": {
+    "score": 0,
+    "reason": "只是重述街道名不够，没有原因",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "aa1e8aeb423ceb869d0c94e9cd4ca65d4271bea4cef575c3a967870c54166c57": {
+    "score": 2,
+    "reason": "直接感谢检查目录，复数不影响主要用途",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "a80893d363c2eecf141bbb818197ca8b6a1274c5281283c0bc64ed15617ff96e": {
+    "score": 0,
+    "reason": "无关且错误的歌手说明",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "2651dc814a5dd5d61d9978daf05a61d105ce3d8ba726e24d35506534ea719619": {
+    "score": 1,
+    "reason": "说明了具体和效率的泛泛益处，未清楚连接新旧安排",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "b70531a596344ca0d7fa7507a2d13a5d47fa216dd4c14b64ebc1e4f5f565d593": {
+    "score": 0,
+    "reason": "把另一人的紫色文件袋归给Cleo",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "044ad53820013d340350f330cdcf7440fc8e66b82c4c497469dbcfe1d0345cb7": {
+    "score": 1,
+    "reason": "可以用于征询话题，但没有明确表达想更换主题",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "4b203c03fa89d6850f05bc41c29e0974a54f1bda8799d0fa30f59f3c3a686e5d": {
+    "score": 2,
+    "reason": "简洁准确的感谢消息",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "098b09879fdd53d8105d49c86d79452acb4d0f6b8d4835b83f273bbbbf689e6f": {
+    "score": 0,
+    "reason": "日期角色错配，应为Monday",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "1e55048e1fd42991b129fb06c2b0a0eeadcc067f3b477a14d4206ae949b61327": {
+    "score": 0,
+    "reason": "身份声明与指令解释无关",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "55cbb03b2a4e8821b9bd46074d6bdb35122ed837f43e96bdce42b0bb8fdac34c": {
+    "score": 0,
+    "reason": "没有提醒佩戴名牌",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "073bb3468c68621dd0950a151a036654d48cb3675361d3a304e2888c0dcce7b5": {
+    "score": 0,
+    "reason": "把大小排序原因编成物品都很重",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "55a5215674eb94085df051ee90e72e8de43525dd969db1ad49b00bf4dfcee8a6": {
+    "score": 0,
+    "reason": "改成物品摆放请求，未解释排序",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "bfe95acf89c6ed3f8735df576d0a3d03e90dc592d1c859d92f261fc7273473ba": {
+    "score": 1,
+    "reason": "文本正确但没有加圆括号",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "62d6fef1c3f276f7ee661b48c20e1f12df1db269e8f487acd9355d91f5a27455": {
+    "score": 0,
+    "reason": "编号错误且未选第二个",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "b9022875b1920ef551a8e80def92b16bad234b1914662d9020e0eb768be43567": {
+    "score": 0,
+    "reason": "无关且错误的地理说法",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "64fadc01e207d98ae1acb70d08fa8110a4ead985e9c611a084f84f8498d02e67": {
+    "score": 0,
+    "reason": "祝观看愉快，没有通知展板到达",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "cfd4509866019232dea2612c31556c04561bbfe45022115bfc4cea466792d426": {
+    "score": 2,
+    "reason": "明确完整给出本地定制者姓名",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "a07d94cd7979c6d1232f2b3d2be609b84c01fa4a68c090a46aac782e8582b46d": {
+    "score": 1,
+    "reason": "有感谢但遗漏目录页，增加了与检查目的无关的理解说法",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "e6e03c2d24e7d5201bf2235432f53500aae67e1e5575e9f85529dbd57c8244c2": {
+    "score": 2,
+    "reason": "准确给出助手名称与本地定制者",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "a657ab01350e280305c10ef74b3b4ed6f754bee99d22ca28db5afc44ac9fc3b4": {
+    "score": 1,
+    "reason": "有道歉和纸张，但把弄皱说成写错，事件不准确",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "f53d9bc801b495d7fa12782ce9bf97b12f038a1b7c8c93e43892e776428f317c": {
+    "score": 0,
+    "reason": "信息已足够，却未代拟请求",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "493d702bd2f6033754a08737034a4b6b569f3ed14ea29d16334f099c08c6268c": {
+    "score": 0,
+    "reason": "选了第一个编号",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "395b93f524180aebf83657c12b4d1f51080caa18dd09844912d98f099e9e0826": {
+    "score": 2,
+    "reason": "准确区分原始项目来源和本地定制者",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "e4fd60d26c5175932ee866acef9cc483392fa2ff2411001d176520ec2fc54eb3": {
+    "score": 0,
+    "reason": "柜号错且编造无关人物年代",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "59a67d2c49bdfc704c185ab692efa8d03d226e3c7654fc5230e320db66a447a9": {
+    "score": 0,
+    "reason": "选了第一个编号",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "59fd975b203389e2de513871cda2ba01577ea49c0f656cd8922f0d1fdaec0d65": {
+    "score": 1,
+    "reason": "含没有归还日期的意思，但语句混乱且违反固定输出",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "94c24bf9cfa86f769188e5db6482fd2bebd84831796b1cad4dcca88d89401ab5": {
+    "score": 1,
+    "reason": "登记号正确，但添加了完整句子",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "5df4231d0a4bc7a5c1a092e816be356e4fa96a67b5a6bb477a7f1bc33a3d326c": {
+    "score": 2,
+    "reason": "说明标题传达主要内容并帮助理解，回应核心",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "ae755eb952d17cd45e57e0cf9118e8efb6391139520d2802f1dfe32770fc6914": {
+    "score": 0,
+    "reason": "把另一人的柜号当答案",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "68bb09b5dac24f259fec7ebcdbca8ad55b823fd81a90bf0df37219a31f91b534": {
+    "score": 2,
+    "reason": "准确给出助手名称与本地定制者",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "0015dadbe4719a64dea63bb899807fcea993244c54e8dd2ddf252aa79b3807a2": {
+    "score": 0,
+    "reason": "循环重复内容和目的，没有解释",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "aa24114effd9e17a5f70f48ac69cabecfabeba902ea4b35775ae42452a3a49e0": {
+    "score": 0,
+    "reason": "无关的词语",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "ca16116278226590537a83e577887789fdbac6e771787974072355b7ad374a12": {
+    "score": 0,
+    "reason": "循环重复完成任务，没有说明标准的作用",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "977cc5cf74d911325517ca91239baa69d5b966a54d58fbf430977edf7e907903": {
+    "score": 0,
+    "reason": "没有提醒佩戴名牌",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "259bcb3943fbbca806d2bc77bb8dfd115d038eb2ee464a0d42726b9ad4b0c0eb": {
+    "score": 0,
+    "reason": "变成拒绝保留且对象混淆",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "07ead0dbc81b4ef4a8b027e85ce327780d5ab9a58de7e8ba2c613632f58d2381": {
+    "score": 2,
+    "reason": "准确自然地感谢检查目录页",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "e1539f174bb3208d0e14e1cd170020fd47acf6704cb270bf704f36fac8895492": {
+    "score": 0,
+    "reason": "身份声明与交接记录无关",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "8cf1c0ad252e6c711e97b19cf1fd178eefa0948a905fa4a8af34e63d7f34eb7b": {
+    "score": 2,
+    "reason": "清楚给出尊重不同观点和避免误解的理由",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "33e437ab79a0342ee25db77d8eeff7bfe900f64ce27c1623f5798f7d381b9f52": {
+    "score": 0,
+    "reason": "选了第一个编号",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "1e917c18891fe7b1b8a5ff42794f7779dc2789562e69f1ad2cce5c7ffda08789": {
+    "score": 0,
+    "reason": "改成带走名单的提醒，没有解释核对",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "d1c2c88baaa17cb4eee5f5f6171d44ded565c41a34fdaf3c50e257693aef4148": {
+    "score": 0,
+    "reason": "把任务名称和目标混为一谈，未解释完成标准",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "25010b392f672746cfb91c16d649fc11b4678dc43272279d3736dc829ba39220": {
+    "score": 0,
+    "reason": "把任务名称和目标混为一谈，未解释完成标准",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "9f13ad300bbabf55de9152ef0f10c965c022244349dd32aa0043e8944153eef6": {
+    "score": 0,
+    "reason": "身份声明没有询问截止日期",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "55d872fcf3b6e626072adb985d145821eda97da5260ed27d33d9f47a9ce1688b": {
+    "score": 0,
+    "reason": "重述街道名不够，没有解释",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "551dda07aeaa0199889947dc89ef9daede757eb03ef2c91c11a0bd861053793b": {
+    "score": 1,
+    "reason": "部分表示信息未提供，但有混乱冗长补充且不符合固定输出",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "7b5851fc5c4cb1390cd182ecb29e7379014ae25e56dac34e29c7b8977450495b": {
+    "score": 0,
+    "reason": "拒绝邀请而非发出邀请",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "f3653cdf07437f3cd9f117c94046f003f6701e6a4045caa5c096c24a051e9ca2": {
+    "score": 0,
+    "reason": "改成无意义替换文档内容的请求",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "c24997a7e939423988d22fdab0bf8d40cdae9c1a50d086624d29934b0c22d457": {
+    "score": 0,
+    "reason": "未道歉且把情景改成无法弄皱",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "166131cab2168dd80150a141c171276d663b504b883a86fc5f48129b04589dc4": {
+    "score": 0,
+    "reason": "把一两句误认为书架区域名",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "f425ddcd436ca640f8c079241e7580867eacfbd0d2208d75d480b5896143ce6a": {
+    "score": 0,
+    "reason": "说文件分发，没有解释了解约定的作用",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "b1b972c4dc28b233c8e3096482fa8af47cf1b2c3283530897f19077beb8786a9": {
+    "score": 1,
+    "reason": "泛泛提到足够背景信息，未说明地址具体定位所缺内容",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "ece5bfe8d346b4d1977c7422f74f94066fd95dc1708ed5d76d711a86493e3972": {
+    "score": 0,
+    "reason": "重复问题且语句不通",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "109eac7c47c1fa6f4a083890aed82e3d3d3e08cd51cdcdb28e8df0a78e7ec5a8": {
+    "score": 0,
+    "reason": "返回姓名而非完整文件名",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "1661e5fc81913f16e068a25f8ea9a47ecb1e5bf0e0fa4b4d47ae2873c3949411": {
+    "score": 1,
+    "reason": "重复保留观点并泛泛提混乱，未清楚说明为什么",
+    "source": "assistant manual review of full answer",
+    "review_context": "v4 development baseline only; not independent human blinded comparison"
+  },
+  "bbe2321da7bc769c2eb6ee0b91987fdcc544f7ce74a8e323575cfb6ad25bbfe3": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "99437a6eacbda5ace90105ffe3a6c0f1ef7b27d725555797f4eee67879596f30": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "e98aa4a0e17cd7aa71fdc968a4d69927377be43b65b2984c346a0d23dd25286d": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "41b24ef74d19eadee1884bd062d6e721dc562d00430a0381694c635723b9d38c": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "e6caf672271019d972a6afc3985c20410a14b5dbfe7ed8943028df41c081785c": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "0c70e44f4dcc5cb3a7bea8086301b91db2c0e0263dbd6364d514c19b498ef368": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "8954a9cd113512af6136f251110db056d84cd038cf97001e1ee44c2108abf26f": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "287cc6fe28789230e6383282b45b1f9f0ffc7a47de0d0091ff9dbf124ca0af6d": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "9a73465bc7e1fe63dba6748630002c4b235d510b8332b0f1a355c863f52b62dd": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "646941855932db1b363068145f4db19b9b9c5971d73a3b522a2b09d2e984fe0c": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "31cc898d2cfbcef30feb80a3c1a8f33a4fec1a85467863d68c64d25d61adfad4": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "6bf81719a77fe3d480e026ebbb7cdea29205934969a1cbc00d398521249cd0d1": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "c9d1de230dc41fb57c2f205f91a3e4becc20b8b6347303c32ea96d17db316274": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "a859b7eef6aabfbec9c491d5abdf2f1c0abe79342aa7a653f0ced882780b10d7": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "7bf375b104e50c809910b70f98f42743b8683123887402c37e5956c27643bbc0": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "facfcf12dc6eebb6f02fdec57714898846db356a763e1cdd2161bd1ff72fdb14": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0e9369358e1772957f6ff3a3e70123e606b22a1c5b24acb442cb775dca1e10da": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "511002aa6ee1f91518b9f40398f700d22871680ecd049cd5354779b889fc7870": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6903104a939b153137af8cd8bf6d0a3599f2a86e6c1670002a8e8dda2bc7fee6": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4ee257b593453ac98ce00d44017952f194b2b587970084e6ccddc32e473cca17": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f82ead13042c4da20aed2a45cda4b03bced7db116b8e9e629aa369fe2f147741": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d8b9c3709cb11329cd7e2399e83d5a536835db38cb001f00e22f64fb02a09852": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ddb915df49aaee16f900a23003e796868c5b8d9f0aae7ae9aeeff50bb97f01a5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d73eddb4fd07319a69f04a941b6a380ad89f2d36b680a33f37d1ef0b57264720": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0aee13ec5842bf583dc18e3508517787a4614a99b47933a99f5b5790e22ec446": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "461b69d61df24955b6c3581a1e97af1f96792f6ae21307252073935135e63f63": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8ea2a4ecfb0f66e6f307753f9cfcee39e6711dd653622b2f6854eab05b9a3b15": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b63922f2385f0eb38af204c44086836d8a509de2cf04d194dc553deb394926a8": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "64319efbd9ed80d2385b6ace7e49536822d8e0f986909a7a396215bf5d9a0c1b": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "acf80079ac3bcbfb5a135ebaaa0312df74ebdc187f4d0ef7fb42e758f6aa2ee0": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0bad9a69bccffe3bae5424e91c1a1ecb5e0a07b16acb00cbd42718182041724d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b84f763cee7ae87cf992fa2fe43521f57e6e8c9b2d4e40b8274b1286d79ab846": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "221fbf8d4437aa5785e641a578a485d7fe51f79921469572db6989ff9cb18b4b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5fb7d6c4eeb231c45d2994471ce7b840a4725b41c7db3731371b5af895b678ee": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "496510ba00342786bb724a4b3328dada84b4ac87cb592bf7a69e6c666284d59e": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d1a640de08efee7e1ce946420ada6c076ee079a9f2bab5fcce20fbec0b5c068d": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "98058591d0d3773b9883cf762205146d2790f96e5656a4dc2eccf580a6781378": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d1580156fe2ab68b26237b3e5215221b9d723b414e22b80c973780ecec8e8045": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9a76c562fde659021de24b1de04d93d1e14487fd3c3e613e4ab7bfc5dd15fb3a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "347a2124ff42c5a7b0f855a558e782b27a278983d350d636ec4c90ce26baed05": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "071199594d59d2af55dda5afa11e7afa6cb4d7bef87ba6169e3fe3f5b03b138b": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ea1545f79c2e86ee942e95e0fa09a8d42c1a1c476c95d78b3291ac999ab77ff9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "854416df1cc8d723c1f55cd4ac76c9fba9338abdc474b06a49ecf32cf2dd4a45": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fdee46a0d3de59c6c27ccabdbaf561800f093eea463921541c0c9fb3f1076b72": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b22fe13bc5d55be98392bc99c790c9d53ad75b610f19f816b8978f60f6f7890c": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "caf06da656d12fb2e03a82190a611ae4d475d35d40d184ef666f32105c7a4133": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1cf07cb90343f4d8992b1777b268caacb8202afa1564c10f7d2348c9c3cc201d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6dea79e01afbc6f973405d0e0eb46cb2d4ef583fa8bf3fe369145ba406652782": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cca3b2530dd7cc5f8978e549452f5de28eb7aedac2054d25b22e0b4f0ba82830": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7c3416d06cbf1a4e26f44303e8056be3ce2ddf9bcf951da35583aebf3369e04b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e3531a1b5a93bcd77d6e888ef30a457a07a408d56b78f866c7fde35ebba0fd4b": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4d6f1c063aa790cbdf614eea494dbd7030a193de3273484bdbbcdf1092f25d03": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "914e188db19fadd0e18a9e0c59a32e2635bdc8811e38699d576c47b6dae215aa": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8779162e1385b7732808f93afaeaf9741f470e26e8440869336e7c39732b06a6": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "277aa6424e6dabbfb934c2da01be686aeb9d64f1b8e10064f4a55e7a42545cdb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "861e98b3822835581299b70b637bac90f8dedbea5b2bb6c774e32b3fa85e2ecf": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6efde5ecc5bc35a38cf67500ebe8b6febc75b843a7e1351bd86a316517cf19e3": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c28f9c5d53bb4b7f4e67b6d313ef3ff084f14a83854b3866b81e6bb5a2287c83": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c5a1a37251e54e90d2c4493fc1187fd6919ee722b5e5af5142ab6ed32bca82c8": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ace57a618702c3a4e1c267d0da9a3f1ef7d7b47df2d8df7c50e778bc7a8f7d02": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d33a7ee2cb358e5d4ce29063256b0b3ce0e8c7e6d9b629a18e03838926174473": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "45a1c5abd8d03fd20177626e28029e3286bb49e5b9ede2582a80835abebc679c": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "aee86a3932562411399eaaa02405d0d1608b750c31151a25de582f82a9d2f412": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a6406a34ab869aea8b9de37adad884e754fc8e158462d4fbe45e195667837bc0": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5930434c6994d5d9a19ad5c8e34f550e869f60d49db0f7236f4d59115ff33beb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a17f253f536d1b83b4aca2b8edb449e196cb20f408e23538a8304da3e67fa65b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "eba3fd1fb8cc55d507c505e82675f7f278993d460cfc366bf976fa08ce42ebac": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cb7613f3ec6bbeb4e741b95e6d228120af04d0c203788042772ecb6953204689": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "97b917a2794dd2d4914ce0fb48447317ddcdc2726446c88f261a71de09fd5134": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "635f96cfad3bcc9187cb71131c3f93dfcd6b9d37732bfaac38a62286b227c863": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ac2c72657c6818765567f07fa131ba8f52bb5578036484c417e1c5646c5d5571": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fb5527377f5a424220c8b205ab438be7107f7154b9ce46e0b7fe99ce8bd8421a": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f1ff8559123252b53b2ed15906e3ef5bea04731fdd346eafe31f44a2b87b1398": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6acbc02abee50cf3f88bccb89a1fe542e36906ddfdf2be88a87313ad77d93de8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6518924d63747008b276f8e306b466b1c59c4f01b8436f2f1fab66660fca6b80": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b1ccf146906d88e831e97ab1fa7124aa2eb12fa31968220314426fc5c9ff32d5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "511e24edeb5f9c7532327c6fc03a77310ae4a84f361e90b9e9f35a7a94b19c5a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "92ea17cdaa75f0061f53b9b73c898f59b6e35510c06cf16f06b6201602b408ce": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ce849f45d89847a7bbc860a02bd45e9e5d8ad683b3dc0c838c8d486403764118": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cf92bf33dea697a4d06dc110837ac5536ffe82a5e590415a93427d83bee2dfc2": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1f2b06c0d756dffe7d4e600cc1c102b987c1afb6768020e0ef6076ed8cd26794": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "80b7e0dfc89f96e68e3c576bf03fd82781412d6ce4d246d280f29390dd5d0683": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f111407753bf6e670d00d0d2ae45a928c62f3b9ee8024fc1437fe5f16e168b32": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6b0658f084d9ab43718b72a4bcfdf4b673c4175102d827aa1cc14a6f4b8d6bf0": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6cb7293c0e6cf5b03aa328a9d1971bde77550c058ae313c77f4642c4aa22dede": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ae6acc2ae1f864034d2a0db46e943ad99b8c65cf42ceddb928498472de5244a7": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "03ee5aeff8c2121ce036d114eeb5ecc34e618b62f38dacf0a05d2b590579dfe5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0ee095263340276e25621a1bc22ea381c806effb81d2a8f19de3e34c45439943": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bdd86962110bc0eb4cdb73aeace5d9552241b4196f295cfa6e6c50aea83974c0": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "95ab6a70262b2d7532fcf172ae5258e18db368d5b8af12c4a8ad287d4951e9b2": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f68bf1aa4becbb0440c1346b9f385b101b20f4d289aa89810c3bf9354f597fd5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "62799142046a6f042c98a64ea0cd17340dcbc2bc54abbe12ee59a2794d31483c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c7aacfb6d7dacb8ca3e043d4c515185b04a051886a971b6e1974e63d7b3e9024": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8f8b64e97a7f3a13205dd942bd2de3c67007ad42d60333a28a28626bcac933ca": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5b000cccbdf18655504254797fd896c66393f195513a0d92879bfe0c7589e51e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "81ccd9589fc8f91b0ace4dae3d9402bcea0e3e3f595b170c952b3c71a9519a59": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9550801925d039a6392e9f062b2f601faa59b56f1ff861a21747d74c2a9aed9d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1f5f563668f100fbb7d25c1c8203f34f70b4d23f1c629d476d03638fae661b12": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "877fcd3a8c3dfed287eb6a060d2b5a36ea6cb4b9692a01bc8132b5efa95e52f9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c2c2cc17cf3404029f49d608c5c0ed04106e7cdbc53595b5ab7e172ef36358f0": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cafb4f21ef338844314d3214a9190ce9024b54f6b8d00a5bf252c01738704f8e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "dc6b09e10b13348e5fe4770d762cbd743ace942d19f944a0b9dd9412243794ec": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "04c01fb65fe761683ddda4202fcee77a5af79716cfa9488584ee5ec1d7e90294": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5d3d059a1a406387354e6858dd579edc78912c6d85ab4424407e1f3601529387": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "77aab3be7fcce4f40c9f1bc235dcd1784bcae296179c7150830267c281ea57ce": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "60c740566d3f1e87e34f83bba064e6814664e21c74a68eba539c919574668161": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5e59c06205753a468ecbba47be3ffe73508d66c02b7e567a8218cdf8dfe8adb8": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e27e454442c7093d71b2a6b9223e3e42b1f6c22902a17e2df041015715a32321": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "95ed0892b7caa4817305b6222af8c033545f959794fcca90ec7e9db373dd4bf2": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "640edd436afc89b1a10f87634ac1951722f38745bd3824489eef55d067826ca2": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e47211b217d01a7a3c386bec011ad4b6af05a954c1342a3bdadd0ed388eb33e9": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9d3e309a8ae4444818eef57c5600be52b6f51a4a7c653b9d26b48627d7915ab4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "80d4dc10a2aa1749b185aaf7a0641ccbbe492c9063efe13ee69ed02a69348d99": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e9d3adea98a0b8d7d09bd613ba1ba4c138d04c577630c100414f4ec89723db61": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3a35277495f91919c9789ef2a6ac9ea9492f166f45fae758c1f2e2e7a11deb81": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "954e2267a7e42427661f5bc1421e7ead4946a7d9d2859b7d38a69674190abb6e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2de601c95f280d2662770ea48725d4510e6f34f13807874490f7c7114f0401a4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "04482a986de1ff758ccad65c7af1b23535c8668df44a110e399e866c52fba16b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ecbc6a69ebd51a58ce878f6630fb47b6743a5a1cebd20a9947cf8aad998e6ef4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7b30099772d99d61bdbdf5a22b3c304af18fde7950585af27bf1b3b57fecb078": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "73b7c2f3aa1172168fe5155940ed033a497e9263fefd7fba883eb0463639f740": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a3298ed22fd45ad2609fd38503f933e191ab86df0a1bbc6fb6875a8dd7b81242": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7419c661a026eef9245c14d94b51a0e6228797962d3ba9ab87894b3e87ed258e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "59cd5826b5bfd456d6ab80026e038cdca442876ab7f3608b2203e78a6d33d1d1": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0677d77652e396412f9eb1c2d9aa2c010e0066ed3c72219f88140cc590cfd972": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "12dc289115eeb4998a1db1a6c9a1bd892796884aefa3854d24cb0e4cb118e8cf": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e02267a8e37624afb56cc3aa84b254f98d6bc095a60d316b33d385aa79bcfa45": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "816aacebd9c54d555f467be6807d627f23bd3d387e29faf5dea5d29058813702": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "571874b367b56307b553723597b36e4831059968b36358fcad7656d930baa7d5": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "735fd3dd9b673bfd51b63af596e737ffcba41431ed21fe1f3b37344dcf1dd5d9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0576d852f059458d6feca6ded2047b1f09926357db4320877e9266ce795b4d01": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "be30dc7729e52b7f05bfb176e7b95301c768952de1360eebfc9cb0c8728ad6bd": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f8057aa0ad0f11aab267762859c6eb5ebc92b7d2b509e6cf3b19ee7ea890bca9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "aaa13a5022472e014eace7ffa3207fd5c87d7ce57af6737f984892602a07241c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f06a093998677e1d541ea0f149e81844e907a2b804e66a8134ac0f5b52b96b90": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5de5d3dcb0692db3aac33554313a02837c536dd1b857a91c909e8d9e897ab64a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "32319603c4dc5dbc7c616c8a80be0399e159168dcca4c60bd9612dc53eb4e2fc": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1ac0088e111c8b067bd37ae77a2f280c256a69c83634802b59397028e3f74c00": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8d23da296cb9f9775ab7b723b430486a64a16722febe02de86f437f0fb0c193b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "04faec5395cf0304566bb3a39cff9c608db6b3b3197e0345b11139e9bf1626dc": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d3f76d0889285ac2e0432a0978b15879254605303ad0be54b503df4ac6927efd": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c8e1ed78b5ffd17d972f274844ed907ccacb950566a5582ae68bad65359034a0": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "86663da481a7100b263d245f01a3c7f3812de6509293d633a6a25b605a1078a5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ae3f0742a0bb53741e9e38dc55b980c8be76950645d184305c5aa45348c8ca9b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "abd3f65a5984d45be17e4c5625024cf90699afb664a96d57f3adaeadd4b53f09": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5fe23fa4de324c2ba84506567e3c24ed4234a5303f0db2434c38aa1637a36d46": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f7aeb8d4339427d0fa691c0896e29c8ff03e02640a7809f63c39c32620b27169": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3a1f54fc21a907c944783af1c1d0ddc4d91c7db9da2f7c6c4cc0c1bd17f6d21c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "97c03f242f9b89ff5564784331e969d635e60bd5788adc8764ac74a50cfe719e": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3055a3eeb35aa225a0fb40a66784a898375d298c746aef4775034ad3a8ff22e7": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c51ed249dea46ac4613654c78d4b39d046661791f217276012977446b8ddb36d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9ee363f75d0f419ad17a8e005998999e5f1f91395aeb5030d97da2eb33a3da77": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "44a2cbda085c408af6e9bb033da1b8b423b43e65ff18a8c34f487355eb125e19": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6dd977b9dea8a264fc16675350a6b18daa8f276451250f93378e3cf38655f1c1": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "40bf46e0f8d72e618c91be4492fc76122b9f359c452604ba170bdd42de7eca44": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "973cabfb2ddbc8d9a04e0231ea3dbdae725ffbcdbdd4d8d0cb68a9b7fff91710": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5c98e21a7f3276814facae4571b3428bad58bbb12d31cc1de4ef315c7e915a34": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fcd75aee88c7e29b6f24179e440ff35c3b91da8af33f06779998db90d6bcd81d": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b601f0a6f82058a99913061b820d2336db77195365bbb1cfe1c27d38c501bd78": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1b73471f1877524aff5e30857a6581096a80716dddaf209f0adc4ad3438a9120": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "714a6c4945d6e3afd371ca071a04c1090e2bc95ea18aa9347dac839a64d1e1f0": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cbe9c9ece216430ed399706a6fde5b29bab02234ad5de6af3084b0f539a850e2": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "46828315571d428664ea4fa24fbbf89476629993ce51483d2fbf46a46ccc405f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "883f18dcfb703468e28539943a1a15f83815ed7fc9a456c0810507360f772906": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "118b002e51af39436d827806a59640c172d5ff5a1218cebb908cbf473ce94925": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "23c6fd30df8f3351b9a90ddaa1ef2dcf767faaa279a4e4583d8932b5babe3ac6": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a5c471cc6c54b6baee927a091f34262d1db02fdb6d01cb9523c2e8b2db48d901": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6dec5e54a47243ea3ed1ff91106b928036102f97c9750037ae2a86d3e31e32c3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "125ccf39fbf1f771dcaeb1b616237b34d2d3d6ace37d976388d735505640c02c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b31ee6bbb7932e62778ac5cad0a5c30f9d85fa348076ec87e4c656f8b8ed8c19": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "91974e249b23eb2c84c69c57ebd1529b18d5b5e0c6d735f49e52e55bacec7150": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f32790a351abcc68022022579597e4556cf9f9cad5482803b1eceb2d74a5da30": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c551d8b0e6cccde5de5b44cb1239099fe5b65de635cfe88a9a0d839aece46f2c": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "be8c23bd2c4f288d7fd4fd071732f6804085b41782c29de109054051e47d7404": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2e12db0e4ecfa8db76334101d5cef46ca5804c1942f6c5b5ba4ec42cc2fd7d33": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b71403b66fedeb81f74b8e3b900cfadae5e7fa71ca65a0c372859a2c1b059fb4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9bd0b8dd221a2a1b2b57d17408e93f5b9020ed8e5c4713fff886ab0edb04eadd": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e1a65662f5f0a05f7e19025191fece3476c2f5d4bcbebbcdf4ffc68087050105": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "87e3c71b689e825aaf142f9a4bf400e1634d04a49b9a47365f5ce0f699432fe6": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "59d96b34605420b17d35e93b5ab431bd9d0705c22d093b5f199fee574bb14ce3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c5aa19fb55333981135b44ec3f5ea9999788fb15bbbcea9f6d3f2642f61b84bb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1899fd960d13c762c1d4254c12a3f197ab8be9214eaccf4f95a2ec7925c6f1fb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7df991d8c5515b249f6fadcb0c560750ae18185f77454b0c93d48a8aaf857c39": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "26683411c14572f46840cea2b8245c296f745caf9d6c756aa66bcfbe79b6b20f": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "22e12eda7bfb4cf3dac7184ae0fb2bf61f1a50e91cdf73a11c8d525f3ec85dc5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fdd5840123bf25a7c925fc9941b6641f4e6e522ad559dfbf4f44c5c400a45a66": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "128dd96caab5e894a12107394fe8051d1b12c6f8249630d47e60682dbefeb911": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7963bfc010efb5e3080c396254defeae580a9650c82827afc765934e708e9de4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "354aeb3494aea77bf7b2e51fbcf6b9ec0d84abc8a33530d5132772a3bdfeba1e": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "26dac7eb0e16c94d36cea0279c05ea0bd2bbdadb28cd5075e3eef7d38213cbeb": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b89f46ce20faf8dd343aaeaf3f9c5b056f8836970a96d9689e525235691ee423": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9a5f5134207b1c2c7ba520190bd2183cd01129ee295b1a84cfffba35535d3e3f": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "056a43bdac2e0b2d2c83ac1ff19110cdd227475c5a028445e76e32b01a53b65b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "aba588da4bd48d85b641dbbca1101cd8d4ad0bb9ae401fd72944978b5233c88f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b5d5f6df5b4c305348d5d1a59e2dfd8260c4fd17b80747889528131692aae728": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b5a44c590bf21ed1d1f9e962472bb56321c7a240e810a5e41ee7749fdba46a15": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b0491fb0834c623e1afd38eda608e721469b6e230ffe9486ac3bfea8e89018db": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ce36af902ca168b90ca683998e22ef6830a77e1fe0e9fa1dcb564f3b22a74fff": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c7ba29bcc6a10854a8fa2ca2adc279b2c0408549e593c1ffb9269b90d3a84b3b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8024b0bcf43b3eeb7fcf84dbf5e0767f68ca218bb5fdb9208ce9f585aa448805": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b8ee553f2d35da09c2484f6ffcc43d84a923d19b725790cbba522f3c5678a1cc": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8e8aefd2731e37c006d37c22d07e82a654dc5669a0041164221d3085892519b8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "068ab1c520f61514eab23c31f1450d2c9b91aad1ad8956e3050b36024ff84caf": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e481a0e8a07d8324896d2ad6d36f0e1aaf989c06c116097cee03968ef694b398": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4e90b123ddb73c54113dc8130ddec3e23a03df308db5a62ee5c2fbefada93149": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "70790bfd4750108357286c4bc4fbad26b0f1acf7460f5cdc7119def0fcb416af": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "eb68c8c75ac1dba38260dbde6bd1104090cdbd587ae1a64454fc882b8219d88a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2d1bbcc3ec637f568941f31dbcb293406c6e7a6dff9e684510aa9a7899758570": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5ae00879e2ee277bd93d104cc506296b7eea798992b4de8a991643c67d65e6c9": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4937256182da7bbc46c2c4c8c5566fc512a2206cf6005db0ef4509a02b179934": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b1a250ce5256b43ffbb0e91ee7c05a5e8386ef3c8781446a2dd35c14925be577": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c7240a8a5a364b1bc8456e89bb14e6111ab2b99289e0a9b4f295949a88576b15": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "21ed05e272a237321e7dd36e6c82973c30383820d587ec782a81d7a72aa62d39": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "72cfcbd672e84d04c16cf5f20d78193f07172791a3596b2f9d37007188d0a392": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "dbf728dd2005cc4243123b615dbf6392bf8378004b7b747145b947c0092e69aa": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "727faf7f95439074ef8d5ef14106a96f8ba116372bdb5364222e7e3a3624cd00": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cd03b4d693d1ab856e8012aab421189ceb12a50a2d382c6f3ef22525600a80b0": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1af33ff9bf08efd5432c0d7735fbc95da5af3b06a6745f4c3d5bf6d9f446fde5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4f3eddc683cf4122da2e09a504f2785c228eb1a95bd02d44d9cec3416dc30b7e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e9c2612a254913e0479d39859d02f888429a483787ba4dcab44937fc6aa16076": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2bc32a3eb1bdc214e10eae81ff1fc60fba97a9954a9648b8f119924956b3c66b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "12820ba4c0e9b7093477de7520ec441224b4fd321b81436236930be805257ebb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "58e17874f9738971ba8efd1bdbeb5083d68afd7a41a7071a908ade8d75329c92": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bc4c1527d64043edd38ca76e262a964c28d873ca35a2802a3ae62bd8ff6c5839": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c8ce886e7dcb614b06e5548f8bab7acdefa1f571b3ec701c76a7b820d87cb22c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "22a93f93bede1d94f1a66faec6c0fe7ff7db1178a5d31802819f5c632b632751": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2f1c9fe3f82ce10598b3e878a46ad4cda7b411fbeea8b9000ce2ea2fd13633c1": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、循环解释或重复",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "486a044a160224cadc0a1f682f7a96b2f016eed98d7f5da1780eb3dcc70121be": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "440842ddeba617f2e1db0f8d3ebd9690347f379a8ce0c81575dfc1447c87a985": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "ece7aa8ef9d4ef945cd66c0b05135c14fbfde9d16a3c481a2b4c137965ba8f96": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "9df02e38e655ca4daa7a60a44745df2f8383433e639526668494eebec7628a69": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "b17e1673522c6665e3e3b67873d3b22d4f2e125a06eee2e45eeb3f66985844c7": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "7904406f3dd78e6f6f8390f1001ed549f14e4c1706caebe89eaa8384025e61bc": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "00faa6de0303def56b10ed78a83461b5c5a61dc4a818435a359d97295285fcf5": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "a99c0b9117ffde6a5871bf867f1899811d562058f06cdb0759b62f82d904ff0d": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "28fbdee33404a83f4080dfd2b7dbac44b29231dc362ad9aca75ab07caa8fed10": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "78fcb8571aebad346eb1bfd32d55bf9874e659fc99dbc490aa247097efe063c2": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "b6974252c4cb73a396ab35cc838cca104408ec2dbd61c8bb4fcce5a9828e286e": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "05bd6d472dc3486a392c6a11e735f8e00e207ed7601baba200ae9ebe6a772f58": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "1d5f09d946cde122be4b63b722f7050dd8587ee7ca70b8474391484e9bb118a9": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "c1a6fc9bd0675ff597c20727ddfdd373c24275133367cb8a13e05435cd54edc7": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "907d647b65812aca5498d6eb4d8f9becaf4d52ab1c5f85d756261d3af5bd317b": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "300acc99676c3dedb0f36d3b35a52019481d7468ebe595c70b926717506383b6": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "eebe25b0e2b51b2b340be3115e0e2d17a627868b2e82330f1e0be7f02e6570d1": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "f1b443441a64edb1db791f53f7bd1d2784f033048521217990965db2628ad88e": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "7acf470625e8b084d2a8cca01c7b1d091371fd6527522e2a693761d19a3a529f": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "94531a224548a7039f6744854037371e99c2aa3efe75f87b3bb1ceceb5fb81a6": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "8a3e6a4c72445d066efe25b9b999b4a029ebf2a965fbc9e4110ec928c0183508": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "db1cad94ce823489ef88624589b0034fed2453f6e0d950a9de0eb1a647832b46": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "72ca205caaba2d57718fd76bebf2e2b6f26cbea5973ea2a7740af042e86b0b0d": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "1de69dbc0f68c4a4d09453d58cf1e166230ae413162edc385de3ac9e11e39468": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "916fa54244f5b602dde07a57e4f64d91dc1b481f2efe13fcbadf7c94450f4cb3": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "68f3124491d40efa12d66d5d088b8439ec1755863b8ac1356402aa65307c7ae8": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "df2b573a494d820ddd76ae2e58ebded87b6d0960d41413ccbde382efc5a4d050": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "32f291209b7bb9e55117c4577edbe7ff5edec61f2e44954773e84c388bdd3e25": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "ff4bec049d5566772f9fa7e5b424c8ea9d6ddd35d9b06e2dccbfb97ac0e8e841": {
+    "score": 2,
+    "reason": "Complete exact requested output; whole answer equals reference",
+    "source": "strict deterministic exact match"
+  },
+  "06087da5fd07e3526cbac1c46b864701e6b68cdc51fadee76bf70aab2d029b29": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c629a92390b10ca35255dfca2c105dd0f6caf2d4c0eb53accad1112f1ccf4aec": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5eb0655e6a59e113de381195129c845639f3b441e1192549d84cddd7946bcfdb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "efa6121eb72243a7ffc12bdc7ada1575113f01c4e113866dfc5ad98ae15bfb3f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0804900889e94c56466a5e012d80eaec87162dc487251e69202c9d16d5fd3c9d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4ef5b8e25b49291101b1da9a329f153d007a06121f498db5379c21b393256c12": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b07fd9a7f55164d8dcf5d09dc7f2e115bd20310d4f1923fc6ee634b35a98d627": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2021104ac7abbc4d075a4f74e0072f5b400c8ae09a8924e0cedbc34f640d9455": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "85efc967f48c4b9452fbc9c3f075ea760476f2423e124e06dfc7ff7796a82fd3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "358d38c21cf5ab9da3035d6569b3008570d57cbe1270fe378811f26168dbcafa": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ca1f1d3b5c28bf033f3e2e0694d42a7e1ac70c56eae82c1605540537fd52c9e6": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5ff537efcaec43c8e16ff58be04a2bd6f644a2fcb2885a3c9414d42e2ce2a26d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "815500e39a9c6e6ecb61af61a78d64d10ccca43a44839b3271bc10673c8f0a3b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "95c4b1190706ccdd70f5ef9023fb56b65d7ad1f8cf79a792fe362ae541e40804": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2e5217addb04442636df3ba79f53e7ed78ef5ce4b5b3ae8538305886a113a18c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7ac1a9f850c070a0e269fac7a0f553a48b8ebcc74dd0e5dd9e5929b3fbf644ac": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b0f2db44e57e84cc5b292ef70c701c5b0edf6c07b3ebe2911160840893abc517": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b9c03efb876facfe0b9b9546bf4db2a10f8ab3fb741326c5839898117fce489d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1dff4ddbc33d62d638ccd3f3efe008af1097720f463b249d46669af2ba48e522": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d6e58f29acf0b763b74276e2e487e8076c311ce7cd404fd6ba98fd9ed64abad9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "23b8695699b1ea6314d1d93d008268683687aec9c00526730c102cd6dbbdd3b6": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c7b3a5ea7e6c05cae873ff5e7d198c0aff6e1ddb4aaaa7edf9d22950af424bc4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8ac97c65549fee8e60953af03ceefe4374f5b73d85cb0a93bceb602a7bde7b62": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e33382379a860617964e14fb1e5daf665e4bf1fff3b371127c5e42bae07b1071": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "82e6cb58f4350a7707e39ddf18d677152090f59bc89cb0bb62ae747d7176e27e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a51a5ae1df74594e943bc2082a7448065df26103798a6acca292060c79d2817e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7afa14c99e1b1df574154296dc72ff7900b7a8d174fea8671220c9c7130b58c3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9d135f95baa8e50dcc8385e2dddfb25db06f72a0b5d4833d37164aa838b516ac": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ce18ebbff0a3816266a01a5596f89564c60dee90ea56cb979d225f326b005822": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d32c258f60b78f22892c04621285527cc2269af441cb7836fd88d5c9d88ce40e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e535a2f0fccec8e67f446cb1138a65f8e01c8d07e0fc076dc5846ac6784f3627": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "11849b6518ad81e8f7062916d88f428ad6447b65d333d28e473679bfd1be35cc": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b817e370f4edacd899d4ff7e3f033fff1244d8994a5d3d524bba9df355cdfe3d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "93cd82e472cce5de81a7c78701cb117bb061ccd50f6bf0c9c0fbd021b5ba5bd7": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4fd54262707a3816f44d5652a895ed0fd9cb66b9158c6e3bfede407089125962": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fa237b5ceb732624885c2e68aca2041b8de284191404a0adfc94fc0d3c4d4696": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a0f67af34bcc403dd14d8f98af3abc38e7fd75cb2f9c4f226fa04ced63bb0ff9": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "13a9c29eddff4e11aacf6c96f3280bb7c64dff34aeb3610066be621b91d85d15": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4637a55fce07aa888652ab336e7a45d5b28c7872323481bbcd28e06398c228b3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "30132d844279c02220f3249b1af2353d7321ac7cbe6f12b500588c1bc080bcd6": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "59672ac36cfb3a22e60e14322709d67f895341e18bd22f1bef62f4fc532c5cc8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "df2291905367f9eaefef179f7541a601c3aa725302375017ce0bbecd636a9050": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0af17cfa0b4cad3e56eee101143f8b50c0ded3377d6074222d0cdb9f1d354821": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "468b1633b95bb9c2d2654505a9eae08964f0d8e07783ae000ab622f133ee633e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6a5f4046d4a114ef4052e73d929982e04400a719f1679ab8dd977cfbfdc87efd": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3d8e69f77857f4f0af65a050c2f4a5e62dd6188960f9916a0f3b64d4f1875a75": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d11bd557383df221dcc02f1775a5e8d8978efe2eac0d89f4540d099b5618960b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d48862b5c4eedfcea2f17d200bf1aa02203d34d37feea8da54bda617dde0717d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5a8db2a3affae5f424321c61bf29433dc4cd24c9efe9a59e9a3105f8fbc2bc3b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "afa3acb20141cce63faadf4a02593959de1b8fd4b81a071d3f6a2ee8cea4050c": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f5d596ad068f078171893da58af50062bf2f09d21b9767c117c348a63136a2f1": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e32b0c38cab7457417b6d96e8397cb259481b73108f91c46d8a9854334bf6c7e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5d997a91ae7515eb107ed80dac7c658dc4f1ece69547c0157a1c8e561e5db57b": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bd74dcf944bfa581ff92a67ea708dc56a2db032fa36cc6cc447c380b7d6e8933": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a6902386851faf3adcf5046a1cd646e5fbd7c90e0f082e55d0f089285f527141": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d6fab85907f1cff01a39ff20bb95efc1e3b151a7d017d55f2b99f2dcfb84a30d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ef0a8046505f8d8f61691aeba08b460deffa97573829e8172bd36f54c8beba68": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1567d103fbf327d081d7d9c5576f065b9d304d0dbf1f07d566c3aa1d4f3275d7": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f84b2216ab5c6a7ca5821a92c28065e648e7c8f09a0d4836932bc77af105d5ad": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9ad16b307090c7cdafd657fa1b3e64f98d2e9acc9b9205dd450c8d60087e5326": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8179e9d51099207701389a50d669ec8cb679399a239f42715e82e072aaa65200": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f1003414769a5014366923d6d3f7d171898f894ab612c2c2d0522356d2c89e1b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "67bd4977cf1ba3a952ea733ecfff7c63b4513a47eac07f901db7fbd5942d1233": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cab66ee884c9df0e66a36478446cd58adb883daf86660dac155a4f4e7f8bb018": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3cb2260b0951c08d33ea52739ec10d4bdced95346bd9126add5470c6f8822176": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e2ed78b283dce9965b1846777fcd63e0465a77a4a1fdeeb287a232f4eeb192b2": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c5c4a991fd1ca1c1f9b3e5bd651f35ef2a986c7b5bb4f3407d2c1edad10c9e19": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3dfc3df4b19910c4c015dd1f8f90e7e137250d121425741aba476d22a5ebeb82": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3fe422597c0a110ca625c2ec79ca0009493d714015a16f38e17bdf8dbfdaacb2": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f68572f816b8a2579fed105423d21b2791234dddb8a03b60e9c5d36961609435": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4a2138b6887561dc1c5b762e848c4218b1fcb8c43a9bca8c4295e06474ab5777": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "19318aa84881903731fdd3da553ce9b4906a169c1d679f9679a35913f21c2ee4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5d845ec109f9155b45d4d9a4b18d730f1a985a3bd295ad32b4fc0ca89fc7135d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "008636b3ae352cfd44c220e1bb4fda80f9642768d2884be406fdd078d841beb1": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "af73962c544c7256b581ece19ed61cd01b8b9471f3036950c34ca937f378290f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "59b314127ac291b0c4ae11571c3b810bec858fd8a640f714b331af827a5720c0": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ca23e58a48cb1b0e2c429573a57800245b400f168c2ac27ed9f4afefe6c1bf16": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "66eb78217ea85510e8de4352b6f9b50029ccc92bd166edffe186633b409c767a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "560670912be849a83f35a2870c5c6f5b74f61216c19a32c095b6972aed33e006": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ba194516eaa5f4afa2679ba13f5fff34bcb408dbe9d3d78b4bbd547712fdcb66": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e56351b92a32f39785dae5c33be66e1b87b11338346e6ce541515179dd01fd77": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5bff44107ccc973c9ecce9b80fab8020d557ac56220dc828984c81a88841bbf8": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "057215b0218c73575cad096488d28ae01e2fde26663d5ab3c7de2ebd9ae66baa": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "536fc3d61b05d3857e0788908ce38dc833cdf708ed624072b84784d7bbde4fd1": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7377faf07edce458681ded66e3ba8acef6ff8addb50e6fa7b169e6a39b39d152": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4f0f8e751ae297b19cbcb7e9ccaa546d0c4210bd858f035bc924bab7fe112dce": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c4d206d27f646ad58a76a4e7dd75f6fa9155df3d9a75a070266394af0bc93ac5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4a348327e5280de7ebec2fdfeb7cf3365c4f1e22f72bf2cdebfeb30609959414": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ecc5c8f5d74fde22fdab6c1c9d0603c230d83f2161b789e3e0ac0cf296942d2e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b11bd630dd7cbde8c11c0dc17884b88d3eb97eda4e5237262b0a1d5b50429d8c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e6a2c52e60c1701d3453368fc15261526c5d00c389d4ed54245d52c17d13bb86": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fbd258b2fcd7eb7662d336c056b50a71ae0081764af204dcbd5b8119ce5274a2": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "915f5c80553ea770d0ed221de4a512529c9297eb6fbdbfeeaeb7dd2fb3254bdd": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6c4f20f70d437120ca258dd74e8650465f6fa28e7707a042098346ea588f8896": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d55ddaf7c409f11e59ec8bdd113ea1c4ec91d1a3151f8f42f7af523cc2477943": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7c9c37e2a86325abd6870c93e713a8d08e8fe2c0a0ee1567ced268e4a9dc6ff4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f37a2eb0a9547d8ccd7b936185565831dce139596c9c9718501218f78dd40c96": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cbdf870dce7ffa987b7314b21d23495165742b8aaf413067d7d51402555c1d0f": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "84a6ab0cc40176dc852e561771821ae50da4865b6b9cdc15ab6c09e220065c3d": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "54f59fbeeff92ad3b226f158df1843b97bfab2e242d4a7fac1f627cc1aa0b4d8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1bff8f4431a2cbbdb9cb173f2401b3f84fa48bbfd59b4f6ae95e365baaa42113": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9a68aa81093f5e1d6156065f11ee84c8f034d715d47dbcc857b8ffb0a6061a79": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c10d15ab698b946ec011cc4759d51f304f09b936fa08bf1c7dc20204ddbb8e24": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0792c149240cd4f8884fe56be80a3c34692a9a32519ee81a3cf9365bfc3cae7b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ebd07595eac275add02961becbfe771f87360bf5e32524cfd95e1586eb8bbbb9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b4f761c3ca540e666686e97ed366a3a0407c8e8013310bc510e82c284d7ce650": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7bdc033146390f737efe721fc419a67a3e35e6f8a2d77a827f1beeef9747e9d1": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "97c4766efa4681511a1a5c39cc43db369732aa7d9cdcd3604f441d9de4767ffc": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "76402e9de378b76e3f00b23d5aab43738db7bf0960f7c341e926c0fba97c9de8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "23b3b67ab437cf5db6f9d210aeb01fe50e34a32199f582856dae8030020a6865": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "aeaa1955440797c24c814be393a628eb63f31b42b76ad3051c3e26dd6caab20a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "34859a365e1d8758a072b114211b882e192718647156bd18ec4aad441bcc10f6": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ce428ce047d4e0144d3d3f0fa2f781634df6e89e1dc12f7f8a4167d2478b5ab9": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "23b67c8d8f5155c9b943517fa29510b6db7cbc6bc3f94e1212b5c032106f5688": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5d06045c029db432741b3e36542fb4640ff9b85a4c5116499dccb15dd3f48f19": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "256e53d647b79262a15b34b080a7ae49c38f96d2fa00bd169517c1eec67287e9": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6d07e0b555479247f6597e7c1ebdd8b8dfea0664aa2554ca4510a40c690d12ed": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "76c3f826000fd50bd7d83d4928e0bc69013d03fdc226bc113ffb0084b88230a7": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d0630795bd1510885ac2901a2916e1362c9a1d480c272b80692ab3beec12c2c3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "89704ff2793a4de758f043fdb27a2c593f31eb0523d5711e6620077d3aab7953": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8f61433bda0c8768cee89b28a05253831a850c99c2946703dbb3abc21927c945": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "05e41897f3aa51c9bc39989fb23a0016bc3cac1663532800dfbbcfc9d7c92231": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "25b45f7eb00cc43c9220a0943419be3f20c07d693926b596ef549a6a457e56bc": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8e27b16f279ed098f46d12aec1e39dcaf31531d759446fa4b40dd46ea6fe304c": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8808790c6da243369d9726e0eb0a40bc563a9925df218edd1a0a59ad2494ee26": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b7ebc2bb71fc323f568ccec0b0d4e7e7c098835d2ed6fbcdc29551f1aa81e1cb": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2db17133aeb6f1fb7f64607b8dd24c78718a12aea24459446007b36cb92e79e7": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "824bf03f3b4a2416d4377e680bb171e8aeffd8aba82dbb397da306db6a553e3d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "575c5f0693633a2d4071f7035e918afa36a0144bca617f36e748732ddfb05729": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fa6457d2c162825244b4dfe6d32667def7fcaecf0c5bb17b6062863a68540bac": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "45664d30969d0aed80a4e58e303ef35036641e538958b18416bde877da2c510e": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d57e5107c4863acb79e3e9810aa51a2659e2cc133b50dce4ce743fc1b10083ac": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d0d76b644ad3b1b57baadb6849ebf98d6d53ea80206344d1bc2feddaa9918fa0": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c494333139d57b4dff352a0feb82087408b7212af956154386541c5eff57a36c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b3b48e63e92f71d54da47a5538806eca9db3397ac95b4b4268b06ec534f4258f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ab56fea5a0f5b06a7bf41b8d85e33140b6a50699d423b7c75aca08b62ac97bbe": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "482aba94dca6884b5f3fe9e5b9393b5799c0ab6b06f13a920a681bee8fc836cf": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "abe94c4a35a84822af947196ea99a5b483611918ff2849f535da758bd4cb14ff": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b49c5d3405aefb32a65565dfb8c87973d5a6405656b491bf4dc10cc4fb527c60": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f2a7369658f3d89bd943495965b614f6f48964bb716491dc5bea63b6c9e9560c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6e857a26705a0227f57042696dc2ed62494b9df8a1680ff6b7f30bfaa897950a": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f44c4b314fa27a84c76387eb4b39542b604a7f9d317e8b8100cf1dc0a4494307": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a275af2695f57f6394ac1944bea2062d98d9761a59f4d54ac5959e665ec1f6d6": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e2e3417048facf2cc495f0cb7229d3cfc00c47b99a8ce3b77e3c92fb7d0e5665": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "dfac353001d4a48b0ac56e89f2727a73d720dd055c289a576549cf7aca41244f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6f355dd8f4ef1a5783a942a0e8c090315a621dd848dae3fb8a20ffaf32056b2f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a55dcdfb622e13dfe8a9afa349afb190c2a0033640fd429a816a7fb6442e3944": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3c63e4227e158401c7382a4688fdc5818fe270f3f80b7cd1c46e6c00ad7d0f17": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6776e7b590901ae508d58b83c772c1a9f6eb75d8077e0b421313bdcad5a1afdf": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f177df3941488a612681fd26038c4f5ad00281eb578e6432167cba4d8dc03e92": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f67ea820ba1c5bef87d97f6d635e5a5dcedb1425c272a1cf9d23eb1a5b83f6fe": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "69fa6c73622376f58ea5c095ddad7c56b957db9759e5e2a746470729d5cb7340": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "056e661f7f8f113879e9859034cc50dfb2e7ae8d7ed12fd72c599af71a56a486": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c572a9ab2153f6eb20bdd8caa481189e402a2ecc10759f763b3207cdfd50ce9d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4e9076783f7a30ee279fc0c626e0a871f11260f52daf4eae758b60c3d2669faa": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "017c2d97b9f41e351875353f857e0f2038f8e9b2256f948d6598655a1fb80a49": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "28eb9b4b6464f8c0748d3a4430e8a7f51e892609ed5990e9ed66c210e6f188a3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "103eebde6afe2f34d788d7743669c0691095dcf1055e974bfe9a13ab8f1b0eeb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3d99fcb627fb0bcb3e5825a0028b1f0cf0122a84f87c5735cdd155251c6fc6ab": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "22d13a62be9dac2baf6878e1fd9ba6b59f4487eb199ad31ff6d270476f410666": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3c02eab2ad5c20e54bc57f1683f199de78933c87bd894134ab57e87d455ab2f8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "12fc4c2b5dbe0b7cbca6baf5068be1d637d9550633d11c345db968986d80f9ef": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "dea657daf2b9891a3936bce7ae93ae579936af87ba4bd768ae3dc1e016d2fa8f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "45bf666ec555d877c78fc5720635aab3d2c504f16fbdd226726e38447a58b441": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7bad5bf452aacc3afbd9ffe0d2387600bc78271a72a36af281cd9754d8098a7e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "35a30167466cad3b182d0e68107471f556d525f0c662594f83ad81ff7711c52e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7332f33545c341437fb6c454fb4365114e0ecf9874e608cb8aa8d291318dad94": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b3a3923914f1464b5ce59b78097fdc4ede337f1e9ef3689fb8ea941302a59247": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "78ad67999ab53e51eda19f1b01a96e680cf37ffb08cd773350ece173d58d2a93": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e95c8d265888b8212d0b0a201d314de3def3e37505425bb41d17838b679a325c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f4d44a274f6a846f78de752090bb1eb15c93b1595feff918d53dd994453c753c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e274382f4b61573ddc13430318d4b251dd6c5ca94d22eda898ac0200cdc8c3c2": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7e624fa23cb8e78c13c467e3dc682a34265dd58770d7a75b20d8b4319c89a674": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ebbeed05af657b256e311679e7d8db0bcdad83fc61304ae22df3df001e08149d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1c1a5312132120dd196118c891bcb625520b300cc0ff85c6f25f2e222a1adc89": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4742be6388b5411cf7f056a51fc1935dd9e90d1f62357b13ee1e4de2665490e7": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "89bd0ef79d3e46c6376d62b3bddf4adfea4a157935d263b5998f8002e0da4b57": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "afb6de78ccba04ef042094ff7ffea6313b990bce0c8675c239b415484085eced": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "425c4e6fecaba7f9a1a60dcdf42bdac2ba3dd54bc48203394aecba41f8df55d9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e66116f130dd415d47d0fff34bfa1a703ebc53ce0de6d525df762fb43ec96be5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "858229246c71baa5e8df79d8d194a51403672ab02bd283e82c610360cdd5f99d": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "459993fd068adbf0bb3e2254c122954eea324f8ff056287d7017abf69a201e7a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "135406cddffbe7ba36221188e86e596afe6e0c9354a3dc2bf21c9e05ff4a7fb2": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a1449b94988ec29908855a88d1337edf811c6b0ef3171ea29b960a366cf59414": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2f8afc434f9df7c8f62b76b41e26b1beb46fb56aaa4498f00635c1bbfba5540f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "907009e8b7dc0081c58d91b97cebcb0c329fba33be9342c0d7be684cdc8812be": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c393c7c238af43ef5c77e938d1bd7078593464bf27d80574fbe9cce705e2240e": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0ec4022c23bb4909eb7873ffef4f1f72fb5bf8c3384ceced29772ccef3a751aa": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "aa0febec7cc6018f70ce4c4cac36134bae2a79eaea0a357d77078044e62056ac": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f403df33d32a72f95f9f8903c8447912683c036d2bc705a9f1688cc354beea0f": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "56e1a4d67e4a5c5cfd7a7cb610376359bdb6b64f402ebc4fabfcf443525e7fae": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "edbba913bad9affdf37f9b7bf85eb3992ed7f4272f5906fa54eb2add7028a162": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1404a2f4de376f2972262a5131358054a6b95a6a5f41adfea056a0be7a343e31": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c73c0056f855fcf51a83848fc0711038fe541c37642b7c8d42dd8f28df45e862": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "65a4474598565dc5d9101341594a7414fd6801f689f92667b1d7b7e4b55c408f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8d40724d465f7f5d57b134652e67059eb64fc0a20a09460431b59f333cc10716": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "485b8debe949eeddc05032ae6ecaa0ae5f8806d9d692f5bbeac18f84c6db930c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "85661c397cb6d51b00dd234b411b5f964d5ee48226f2b10d768f7652e89d0120": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3c0b4baa6122552d78fa1bcb63aea1b0c7fd7f156efe85ee314daea4ff1e1810": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e70b32441f29fd6014327f52025e63d39cd53d554688658aa55be80b34c3df6f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9a800ce2da6e93bc116ecbf969002b73d3dc0556371479f3948070b9674de3c5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "43b88ea58991a70594df9281b9569b2a481074900164decf8cf31ef029bcecfc": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "97c5ffb84a8a2b74f435351f77c7ba3b7667595747a8b09f41f0d7b3191fd8ec": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3de55e12b1d7fc856407358bd059175f541685cd6e0de68682ddd1f8e1551ed3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f1a40469aab244adcf3805fe3add20b9499c8703ba8946bab829066ad6494774": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0ed12ffaf6d520adadf4de024cce79f5e72f0fa2c6f09277c922015a8ce7db5e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f0780a6363a9bd6ecb0e78bd3fa513ebf22a12a2d1f0a7cd3f0c450c94f6bfd6": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bc4d8b1a80b7b839181309e49fa2952e0a8d37b33a5295d1d64f7e30dd674a2b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e85b883094ae8777af5bc9594a400df41e868ac0c1852e3bfa47ea8c7c0acb87": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e2d5619fa77758f092f67b1130fb762992c793a5c2dfb4424ea1f2dd078f9511": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c9db14b7d3deb33c6f3eba8aecb40589e334dd6a9b78d669eb8239401dd22a6d": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d8ea076bb6a0dbedffeb05ed9d67051ca3712ee8039fc5775df6cfe695f4d845": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "de3144c632e6ac850a2a6f5c73e9fb1871fcb50a430796c0c0f3a9b65a5d9174": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3798f31862cd35bae0f91c37a3bf2e8dbfbd09453b4d37f51f664b156958de4a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "06f1075d3285138e290d1638b98fb704b65615fcb4df71c10347a3832900bac9": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "df7afd757e6fc3e685b35c02372b5319f7d410d4fb2e2306a213ebed147761f7": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "89282ef6c68798a4a39db537830de7f3a49f52dad56f266a57f72b0ae48945eb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "114fb04e9406556bbb57ccf046d665a6cee1c22303c89e4f03470fd06d0ff826": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "02d1618fb3a8d0b08b7ed873d5520364332b35f59165f9446b661e310a66d658": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f13a49a25f4dbc7fe5cd3b5464df5dc81642d03c457111809ede0117d8c91c59": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a194f06d49655dab3e09d89e98a12d3c5123658804c73f624260c0298bee8b1b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "51b7aaa605282f1fee080d7ab2b7d83ca9eb961673b6098cc065bae5c0ca21e4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ec9557a769f625771c720614d90d1fb85c9ae5f7511b1f31fc29c60f4d3a37a8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2b484f478ac9225d36cc01ea3dba9aa4af2df583ec4c3db46e82ed3aecc70f94": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fa37c19f8ee496eaaf528c7e2058a7a7a923b89e5017984e2f1cda659500692d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9fc1ed574124889dc260d1708cc973374224f38c060b72d04ae80c58898949d6": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "29b3be356f2c7b4ed3223ed3016a1248e436d2c7e027b377e918422ece0a806c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a28dd7823fa77c3991b447102870dacba3e90953175475003381ff16e22b9f71": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c68777a8ce28af0e0ef7c26dc1ef3047f0cc89526184006d0de7a0f273813b51": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6f9312395f63896fce845df22a97f2af2fae38f362bd36d470ad942e9c8528c3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a520e1d0075b19707c4a990db8536d12614fa4acca218a7eebe19ec5347c9e22": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9331a8f60cdcfdfd423192b4b5c912d0546e01cb7e95561589a25efde78bf977": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b97883a64fe425333db9523a94f24923bb021fcfe9b3ddb8a8f89422bc62a336": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "18e7bb2cd1b6df321115f7d31e76a4ac0c5dbb8c098b3d8fbb8d844b12358fce": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c6353a9fcafeca8f2d58b6bb70def1c34592b65eba42e57029f47b281fc349c6": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2d0b5f2ca81f36b1a1dd3ca4717148d6d2a5278d41fd6e637241f048ed9914c1": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "df441a180926a22396ab54353ba215c3b543451c264d78cf0c6db28f9e9c3634": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c99d0788ba293e4fbcc5c495d29c42d36419eab73493e0080d84298ec0441ff6": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "245a40030c2d564bda81c796235a7318f5826aceda0072454fc56e8a685a9b76": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8b45baff208d9ac40b07b342071e71a57398d62329cc17afd008b43daa3502c5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d00fe8bbb92a58544274105128b8e8cf30f05d3ba9aa34e06bea2bcf6178b2f8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "839f064240fcb677c85342d9531957cbd2f350ee07f5ed0189c7c2167fa086a7": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3a802855a58cf07bad2e9f338112c79df926464ca16f9c1fec6c3eb33eda6b6a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8786a41fc4453f6b87a6d36df9957d572056bd3b4117d62fd72d9e761018fa9d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "22171bfee02bcb9d5d4da48f5403ebdd3ed1fd52c6ebeb31390146c8acb23143": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0c45f020081c23f0996459f1522d7d7684bd834ba89d6e187d21ab4096b4749d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4346e69f5cfd0786f7450353b6568fb7693bcdbcf0aa15cae638124200ce5617": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "907d6a839cf7a7e94cb3e542624d6766ba7733cc7ede314cbed514c9f6216a44": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b2239c3a811a751de1089f9b5d8047415c18a6e415d83caf71a8f8b411acdaef": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d21c5569e12ab0a9c2b3ce4fa9ff8f8c16c3357caa2fd8b1481c63c2ef6c87e0": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2fdb26131a87eebb1fb9b78716e6b63e76b297a22b96422930e2609b51282868": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "790cec8821c5ab5ad570cbcf52bd9097f50aba505938c897735a326cad0c130b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "babab1bbb07d0fa5a808adcb0fe5b5617eecdb9f798bd8e086ca8f063b822791": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "235d99a298c6d13bdd185ff97c8e70643caf206b5768347a53c240a8d3b7cd3a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0afcc8a5efcda1e011f9a89c8c8be76faad5492036d0cba4b7ad605aaf03f9f9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5f11c111a97767096ad9963bfe21b231aeb7e2843383cb21f0880ced8b2ec24d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ad271412c0df04e1278c3149d28ee835e88dd9f3434d8d4c6b88e03f136781cf": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3937727ff64641e5cc2afb413bc138b61c91a91b207d3a1085313748a7be0971": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "972b5d9550ecf7faa0fb0dda798acd2d4f662445c2a950e2edd522100e53f1e1": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "499ea7129322ca42c943a722133c6c9446cb418b695bc3e9e8f54866f26c4955": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0e29df37d68defcaa1dd49fb72f163d58edaf989a964b30def6b7c7f9bcd4ed3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "838cb4ff18f2e6f2a3d986e2a09ec7fae1602bd3bff7025fa1de578b9705ddea": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a494b4037300041265cac32a5aa911bfe1f5fa026693762d2592b4953ca2d945": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a9d6eaf4d42db1e5c08e3136171097a81991da0efd318ec3d2809dfa65f904d0": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8a423c28353f30fdfe34af0cd90bbae143ceea62dfb97b031b32603b53a6084e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ae0d0a03207aef62ba12c856788b6e38d61ebb527b580d6c09b62a58502c8dc3": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "87450ff6140ccaf3cc578b96b160f40274f6f7cc8e32423f6b0087afae746ae7": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6b3c8cf4d0cc75c511e2bfc950057bc4cf9925a22466732421d5221aa6471c2d": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e50a922fe86006c350edf676b7383fb7bf54e5d6b2feae81ea8cfc50f01d44af": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e15d41d86443948915dd39be3bfc33e4bf77a048d2963a7c229eac69adec2f96": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "68de12d5ae91da1cb876ba931c3a770907ac2aa55e2bb5fa51e3113871a36e86": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d93d29feea219aa9e94923ecb58ab6358eaf3e60e55337ea34b9b69057a18102": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c625eecfc64ba7a6a382ab712e48543bb433e9bcfa7d663619d78a684d6db9ba": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c5893b4e8102a12768abdaf833bf71bb55afe4573d2df171384e1de0c7905f9c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "816480410374db74d80f382e1da2ac462c719ee97ca5ae2f2df2b37a7ca657a3": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9911e35e65edf9aff2044e048c6575f5b01fc9c56fd2fcf4a53c7ec511fd1d13": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "10b487752b8a7a342478424f21743f470b960609773b77348ce4afd35c2146bb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d31e87010043d10dc51cdf24bc34d69e30756c658de6620a1660c09d4eb3b55f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e0d05540b4a753e2cd9a1269ce1de9dc5c4cff1fb8e65eca87ed63ace800c10f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "edbf7e6b4798b77cd934f518b3c1371b2a8a9840dd635a7c574058052db946f4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "60fe30a33c70f9a0b227fdc657aec3318c39887bf49554f277e1e87080cc0855": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cf181f190edc3238b543910a7055a4ae13f2f6cfd310eb104773412daebc7b04": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "92e0ba840cad4e2612496a81a7394fe2a7425cf481e092c4aefe314b9feeb3a8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "12ae718766568c3e5e11cd02702e1f37807903a416800f96a7062c1e56a0604e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "40019d12b44ce87a637df3f68d33591677a8734961bbaac506a9a58c8398a003": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "441fa348bdcebea091c7f01e5d131b892d2c3db9ab8fe7f8b5fdbc115bf57664": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6426871ad86f31fa2cb3fffb417fb44183c86f0117d1fc6d2c0f6b3ff5251f50": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fa9bd7ee21e607207ef46ff79f69eba0228efed0aa4786b3f7fe86956df53ae8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7fcce2736a2eabf3ef77703ce6b6e7954132cea7d0b40c39ca76d715fb040317": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2c04e5f06ff953e85345c48d0ec467334a815dbf5e88adba5cfa08bf77d385a3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cf3bfa2fd7eddd6889eae699d1023af617d8b34333a8239364d3d205ce5776f5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "199c088d0b7ffce927c8849a951b6eef78e9112093b76996c5e112d9f844437c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bbab2f9ff9b1f6cfd2fc679f605970fe96040950a2cb3e434f33de4a5a2b15d6": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "eb8e3cb29bbfdd5744664cc571a28247fe24f84530b896d30945c608fdaf73c6": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "95059f5f25ffef68db63288f5a35b01e6e3420b094adbd849f39181c3c658240": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ae8a60eff1740b023535ea7be13c18319854ade4163fcc4da9055d286b58e413": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6425ff6c222868d8b01726b872100669d3babfded87411da0dc1958eb1f7a330": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e40079869ed4b353474732d75c91c213cf2eee2672c50cfdfd05700081ecabf9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7c44da66a3f891fbb31007c114d89685461c3cf46db7b88fb3f6e2224eb35d24": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "65319629c21e4e7b5228062b2ad4649a168d5368c64444b7f4433da3836c485b": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7de2cec37e97266c52aa7eb72b704a4c65493d6a38469dcd6f2d87787fd81669": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "38c23b116d0477443c83a7968749214302af80b1b292c5f975b55fbe19ba20e2": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "baaf5c7230a18a3f8a1f7027abc4981c644c659420e510d00cf1b7322e45740c": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a1ccb9e710bae3d797027e72750b062d1cc9c84ccda9ff4875ee83ec11918a39": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3d4199413d7eb703cd25f6f36c300fd562f32722e08b4bbafe961bedce2f6c55": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9acf1c26b2b54ba15fd2c414c647c007d46738e6691334ef7823c17feba4b227": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e75c310c9b36f9cbeed8590f3380e9d8155244b9464ea3c672ea6e046b930496": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a29de7cf455c3783520312a2561fbfbcba7ade881a9063eada123333e4e5e48b": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0b2a18a43bdbb465b5fb24fa7b0be7ba976aa74c5369a8fef394a4001b22888e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "53221f296dfaa6a0c9ee729484d62762f4b39ef6fc3f8e04f2d07a38ae10c00e": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1b7c26dc2e460367e9d00c812e6666ea199824372e954e335c0f789c26df0ded": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "81c281ea24bd6c4f8840514cdb91dd5ba47e28774995650df13cf745bb56d444": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6a99fb58a85d516752ade9494a2b0e08f25d45ca930f76a78637ee971d3b98b9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bb254aa7e001c0e615287aa65de0bc9f5d932f91d08d44178270ad702d669a09": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "27dbf34339d289a72b21ca872eef54b46aa2ef6c37413acd71b7a0bc94856a74": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "679238df55fc9c2ff0a84a2fc8763f9c9cab1ee8a292d605947a030e15e678b9": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7b043d24ec404fd51768491900481dcd99f0b36195e7ebae0974c14e1733659a": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cf589b4dd94e8bbdeb4fcb6d08f64b710695202516558313849c4eef42a47ec3": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "130d190bf96254e8818982f4991053a619ebcf393d24733956d0b476e570a0b7": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3296f6fda3cf12996eca91d0211d26f89d0584e8e54c0a8a7478f8a2cbdec069": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c1f84aaceee1db0f3bafe2912cc80f971aff2b7688a10f30ff8b2e438d55af2b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f463cd77dce6188a6d6fd742648f8f174bbd862753bb204177da369ee70c7e15": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "546fbf3b69de5bb9fd89ce0ccdbfa1030dab884321360474f475ac798ad393e9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4cc0e10810adad2988e2f892e99e2d70c3f20bd4309dc42687c4e826d41ce14f": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ba348c5c4b4a93867ca7fcaabf5c6cec1741babf4d224da10c82497c98a5d88c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bcfe161f1e196aca1254906c45f5d242e692ad906b2f379c7b51cd4a2efa960c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "49d404489e5fd4dd421b24a55fdf3a9d2869fe452c2910a08df601321617cd3a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8e3b58728d36205446714dbb28690d03f3732f75ae316f0ea5044c3289f7fcfc": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "adb4b131c73e28654700fea257c696cbd6cae6958267ba12436b5a38a327db58": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "417bfd3c4b05e4b7853ce033c812b1db3c2e23f27914163a69c70979cfaa7744": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4c61f19c403ce177a8423da9b9bf82243275907331bfb3dab1c8749fe7f7dedc": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c294e61b110e25f77508a6cafbe32d57efec5c076f7b530311c85b4d6e6b55b0": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0b7c99c0f1db199e4447bcbcfd81b4f102adc1b775ac5c552927aac3bb7cf86a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ba84f59880cfcb364479777ab2ab31035204292ff00d82fe9c3ac808ae18b0e1": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3001b59730082857b56a7f3165d82c7a8cdf1ed1d14f4e4066ef79c418718577": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "23ce00603eae7cedf5a75898b8cc18cfa3c4e08c35793fa30981911bb9d1dd1f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4843a8b9456780c75443b92b6f51e53bfdaf640841f78e44fc3fb4d5052dbaa8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "75327c9c39c0abedbd1713ecfe247d6f7e2a4777ad7af1bff6a1f74ebcbc4030": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "160690c93593e17216fd22d967a44be21d8a6ea711f8dfd9985cf49d7c993dad": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ee8f388f0b6a9a9161588f7c7c6162f3469dccd0544b9845c2d5b8480c7c0232": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2801eb23e52e202fc9a7afcca4eefea63515cddd38699694f80852aa425d2583": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4cf54c8d0a05b3e4c4e07f5071c84c6422c4dd8cf0ae328497c8c32e00f66e0f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fe7f478d907b9b80ba042611f467254a2bd5bcb78b351c69fbdeb309cbaa143f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "aee327d99bc52bbd43f6356da6b89675cf3540c837d48daf5fe37b7e58f880fa": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ef3e8b3ba38b130071769b49d10bf0bc57026c157390035c634a915fbf81683b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ee791d3d05953eaebbda1cce91adbc654d7908de3e3de67cf48b9593660d5fcd": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "306feac82605271b7939bf29769e913a5c52282425ab19fa0d1fa835fa146d45": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "24eab51e14320a5ba5346395bab7e2d928923d71d9846fb1c59b1b0da01ebb0f": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8f231eb0a343ec82d245d8c78a94ee8abed9bddcf2fac3eddc7252a0ba520bf5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5d78eb2810f63d14753665cb1195a587ae629413a72544f5ae38fc2743c70f42": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e9d8741b47c056ce12f6670e11eede1aff31f5d1e440fef7987689424c5c55cb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9f6279ce620f555cf8a21361272eb08acb8b7a84fd58f72bef66c9d44afe2a2f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1d3a4c8bcbccbc439242bd2087ada6757a487f88897fc3932f93d2cb8d6856d9": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7854bfaa93a6aa5b4a93f789f799a1dfb6a843998a1fe1dff3d954686b30b9f7": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f1cca4baff70b0921230ef23c75e97950be424fd5b7a8535840fef7809c7fe0a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0035f049c3d198c80ffa35986f10c3a3518ed524e679d48ebe472931b0de7e5b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0069571efaef034c5cf74bc763138f43f1f7cb61f3188cbd236175959e13efee": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b89a0474f9f666fe19953627c79482813473b0d5b10310addf758dfc0a34ee5f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "073bf76c373686a31dd7d77d1aa7090f2116e933eb6687633f893f306820af84": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "db18558c205d15e9ca17d41043539ab6fd06ac344b5094d83053ffc2ec5418fc": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5b8d0390d3de994f3dec2cb3536f66fd81ac17cc48919b6dd62e20c9b46093ad": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "afd8322ea13fa960dd1db82232828b36db467d4313ceb17d45d2723eb29213c2": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "63f1fe49f985aa86254b6709f7ab856cb6f7fbad34f9f073e531dabfb9eecd6a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6b09109c4f20d6f2e99b3a3b6c82bb649fe06ef96bd037de3968a66ece833069": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bec241c4395ae09a4994278a8674315080043d25def9e9c70764da495c6914d1": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6d2605defb34a16b5b81e714f97d6b339d66a247f9f950ad5004771d00aef214": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2b0f11fc13aca45fc0d6a1ba2d9cd8087bf76f814234ef25255d7e2133fa087a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5353e00d8966c36e38ef9db88473afff91770484a95a291e84b7199ca2738d3f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7966ec519cd64997e92c43aaf6f4132758c9be2bf0cc9e1f3f125ab8f1ee08cb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "62b48ad172abd84519697778ea6a2c18c345e3ba20c6bb1b680977a8de25534d": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "40cc6e37636eb113ff8c6f1d0364d9bc4f672bd83aa8fb74861850ecd3a10e84": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c0f457b8ddfce10ddef10e77a97728a50aa31dc2cf98f79c87a9d80c079e4c1f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "67c9413a5736abbd3ff013d36b2ee6f8e438764b34784723f2826d8b730f1fe7": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c2aaf3a737454b4ece2a4062a38a9274dd2bd70ee7c65910b3273775b2894a69": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "63e93a23e8746fd5a10e26d754c2c6e3ae634751f38e45ca475b1cb0e557ffc8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "40ac39f1e4a76105f01d64a7f863da1f18207b6706e9e6fbbd5216f21e043305": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "47a83a7f5dd09006786743e7a4879e4d5e2d2272efc0c3f0d4141bd724daf603": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "99c41dd47d2f288475746dcc5ca03480b6dfe38c48b41eaa850b190fd5afc892": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3fdd5b58c6fccc1d9610c72d8f064ee692e5b1239f26690f372b91bfb86aaa86": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "df1ea7091673ba49e02e5adb4aeef477819a68fe07261e489a17f15dc1729ab1": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3895c241cbe2b7e518b8358871df84bafe81384c33ecf2d0f7e43bc0274c2142": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "497caa5c9e27a0808dc4cf13ad77bef738ac76094e325952a500fdf0d93a3af1": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "afda121eaf0834288e95781f207a4eab155781d660d4e3ed8fc350ecb028bb21": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6c848cc21d4b0e9ac828cc9367173262e6ec397a5b58ccf558ed98c5a7e27132": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3cedb54100785fb375f5d8bb4ba5b85208a817bc45bc91c3dab342a84c3ecbed": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "43706655199acd4e70ac78a7a6d3f7e34444f80e80eb9109ab0861e13217518f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "304bf423a8f3c798f875cbad4679a90b33bad56eb947e2593a69e633b7d4ec3f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9c21e21539369ff1cedb6fcc898dbf0bc4d9aba74ad3ace168569e4c276ed29d": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1b838c71e2692aef648347583ea68cabb1f1f5b0117c7cef5ce171fe01addf9a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bf6753aa003155a197aee9844eb647addb76f56106b0667f99e8f821526ad436": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c3aaac9a3969f5058c42c8ebb7360554592387a7842c2221c36ea74f074865fd": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5fcf1fe612c5c73e4384351903918dacd06b2d5a188d5bd7b97f4c50e03340af": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1bd9af085347682aaf287ae1c90e781891a0722451ff9ee1ecdccbce165bd38a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "97f7b1f9abd8eccb3f440c25e7527b3ecd2f2661e1cb7e7fedd2471a09b365db": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "674c21eb9a47dc78eb461b5b7bbdefd02cef45fb21f5ba0a3bb84ab822ad12bb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bbc595ae9195e721c9da124b4b24f671b23a41b0a82d5d4adeee2211e0e6d0a4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "80a6eaee19de32ab21c8416ba4dc2341e436edcf6fc46ae49c9b7dd22eb54f02": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a9d700257eb4d8a1209e7a4a4346a6ce6afc977bcc6abdd37a420e5c85720dc3": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6d847d96259f61f0322e30ea9423f8bc3d36a48bdb9c572d9ca6855cff0c47a4": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fd94aa5b79218b26f535cb6e19f297c34a37a76a3195142109bf3ddb5f32c995": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "02c99ded778c03072d6bd073e36c2fcff4e3434edf80ac932f28ff3223bcb433": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e4fc1a36408fe3da19f4d896a114f8408dd24d7061b695afb8b24ad5a9116746": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3207594f885c9b3fcabfcc1db7a4f12f73938de388986e27ed6512b8d7dd6319": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f8f4066425fd0edac97bdbbfcdd05145a805aba3f62d34d6387847a766762311": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "72cafb85cda1107fecb759df524effa66f14bafb105e1543e0d61ffc03217a9f": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e50789f75f8e40d75a0b0fd77115608d70b5c7019d8fef94f5e16289611399e5": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6750507c6dca535a1c34ff5458af1491507b7bac3c17c312b76d670242f3e58b": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "77baa46db710f8c63c2dcd99e9decbac70d34ee5cbe72805955778542399683a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a6dbe0f3c5309c551a24179abd3c836487ff011c09c29f4d66d52964b25702d0": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "bd809f3cf8e87a6d344ab28bbc3f727f99bc36374323b70f1e91f02d60e1fb34": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1a66b4fa37b01347519cf89d2750a65d4fb8fd89ae9caf4d501c3a0be1bb7f89": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "054b7f97629343ee024795ef6ab4d8624afbe443c5ad35fdd9ee2cd1b02d501a": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f015aa35a649514f745ba76b72785180083e02328b4f770aa86891db978355f0": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "16ac279e8f186e342aaf42f3aa0324d08366cca8079a3e70aa79a00ad28506c8": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ca89733dcca97b16be1ac26905818f54938bec7763566bec9a4520c1e543f1b5": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a009a9bb74aa77bc629788c0e3a5e87585d3936c7b19ada53727cd39655d7248": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "4060ab46687c35fc6b0bcd9eb53729878af3e28440d7a16b96c9245e432ced83": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "008e486d88d86f57d76af686a468ac634dab013de9e275e50ad82f74cf7e0d31": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b9cc69b4acdd4b7a5e56c8f5384ee6d0fde27d65687524d1bc4d59a6d88093db": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2bcc0b88f90e5812178d17773b2568d46d8da13a71d967b888826b1abd9f34ee": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "01b10ba84f2f26ec1997823cb60665e8e78e4ddf2eaeca49f7fe483274ef5771": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1276cf788c988b18bea8b75e548260e45b6009ca7619fe18c1cbed121147ddff": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "614b0ca62829f5e693aa76e1b0ff339646bfc9a1ef0f55b17f3ced092954d4b6": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "85124171e89749fb2be7b48167a670d79a53cb860903443a08f7a67f5b68eda1": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "1a3c4530d742b9ebe3fac6ca8a58f3a2cf79a215ac2c0c042e215fef34e43423": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "fe216cc28c2bc0229de565098c86b4af89a1d72915392d7ff6099236b806e741": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3bdf1dad2714eb4b15c9a6a7a8f9a399635daf615eed8f398fc0c4987c468d71": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0060cc793e6d1f94904c5c7769460222efb535c0b12dd615368e580d548d8b04": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c00d4013bb7690e76674864cec832d840931f499389186079d6efdf0c8c80adb": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "166bfad534d705d2e965576f01a3d4258419fc0c1a1ca3ddddd344585bdd8366": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7c886858541db6873f5e00f114a475a15008826c27471e5dd10b4670ad311764": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b19da332b270bdfa00d3bc913da296a7c8b539a942d3b0922520ad3fc486f22d": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "6bcf2f9dd81914792858f3e174248674400d99f0410bbe5144697cb5907a9619": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "31660a2f1b5fa2db3d1fc42a281bc83838f596c382be347db90d4ae2dfd45500": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "24b6a7bea6b454c1233311f91f44f2c7d0cfab205378b9491b72f63ceacd5d2c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "eb1ed83d5610d8bc251b039943e4f5130701993312f335ed109e349573cf3a84": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "37c3f438dc1623b18b15157e177cecb1dfc79628df1a22fdc5e3baa16094d4da": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a0bc023c212b34f75cf2b183edcdc0b5570e52d88f0e0c7f2b2e681760413c7d": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d582d1622eace41db5d81cc14f8c7d55773d86734d9f750461b23c63e15f828e": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "2729ed529d3e4f2ec650ac5eb67eecc31c365cb788036405d78b924b79488523": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ebf42cef45036e9791e31ed1346b4ccf81da37363b4fd8f3ffe53e0b461a0b00": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e4968a4a68b5aaad2d16d7ad588430c49a0497332eb6b64ab27922006f731491": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "258f924cb9608ecbfda4ed4f901f3bc831f30ca5f9494a3f7dfbb9b12bd15c3a": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "3708171b08547d63000276babf939a6c52e70730da4c2602ca0cc60a2654212b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "165f288d5c63d8f104a3f630d14ac0ddea3ccf3db1671666f4b4493ef91a6f3c": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "0f785f1f4982b81690a65fd0a13ebd15f3458ae825577519cbb1def6e622ac06": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b5ea30bcee48eb9b64d0f06f0a0efded6c1e1c0518402e212bfdb1fa8e9111dd": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9a835aaeb237ea9967586a63b68944f667a3b007ad57445bc1780c8106483a0b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "cac9bc7303b01ffb9f9020de5e69c006931cb5f29e2edfd9426a0ec15b6367ca": {
+    "score": 2,
+    "reason": "主要请求得到清楚实用的回应，没有明显严重错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f8031e363bae850961fb20d4c56546c4545c24861f266310f6967fb282b66f9b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ab1ec327f0ea8227fe438687b7db2bd99fa14222d28a4548a17df40fe79a1a82": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "06eb561e0d08503396f985410fd9d02577b701b63c8481d5f151da6a534f9112": {
+    "score": 1,
+    "reason": "部分回应，但有明显遗漏、混乱、语言不符或格式不符",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8a73ca0e781d36babbb9fba42b44ff8f90a546dc142f5bdc3151eeabc582af4b": {
+    "score": 0,
+    "reason": "未满足主要请求：内容错误、角色错位、答非所问或语句不通",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  }
+}

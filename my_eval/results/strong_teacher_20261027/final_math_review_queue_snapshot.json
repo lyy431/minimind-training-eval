@@ -1,0 +1,92 @@
+[
+  {
+    "review_id": "24b98c316bd629013ba1e6c0fc8b9d8e92a19b79bee13b72b9520c1fc9718f60",
+    "question": "What is (336+62)*8?. Plus, compute (695+450)*26 for me. And calculate 108*6877",
+    "answer": "The result of (336+62)*8 is 3184. The sum of the numbers 1145+450 and 269.\nAnd the sum of 108*6877 is 742716.",
+    "reason": "unparsed_numeric_clause"
+  },
+  {
+    "review_id": "e21ea6f3b2f1495e1e576afad818f68e116e8f641c57d966dd95823cb9b34406",
+    "question": "What is 7686/21?. Additionally, what is 525/21?. And 请计算3312/16",
+    "answer": "The result of 7686 divided by 21 is 366.0. The result of 525 divided by 21 is 25.0. And the square of 33 are 207.0.",
+    "reason": "mixed_or_extra_positional_claims,unparsed_numeric_lhs"
+  },
+  {
+    "review_id": "b06478081833b66c60273a61e1e09400cb882962ae11727424957a350dd74477",
+    "question": "算算6032/13，另外calculate 774+319*26，顺便calculate (147-240)+24*87",
+    "answer": "6032除以13的结果是464.0。\n774加上319乘以26的结果是9068。\n(147减去240再乘以87的结果是1995。",
+    "reason": "mixed_or_extra_positional_claims,unparsed_numeric_lhs"
+  },
+  {
+    "review_id": "c08c9194e3e5c8df2f8ffbe5476b0bd6ad16f38a465a5a99d110333f76832f6a",
+    "question": "算算15**3，并且compute 14**2 for me，还有请计算16**2",
+    "answer": "15的三次方等于3375。\n14的平方是196。",
+    "reason": "missing_or_unparsed_answer"
+  },
+  {
+    "review_id": "c2a9a080e2bc9a15f7386b4a5b0aa4611f4a8b8edd52189919df158c8468f8ec",
+    "question": "Compute 3000/6 for me. Also, compute 513-635 for me. Additionally, 696+683*2的结果是什么",
+    "answer": "The result of 3000 divided by 6 is 500.0. The result of 513-635 is -122.\nNote that number is correct, so the result is 2062.",
+    "reason": "mixed_or_extra_positional_claims"
+  },
+  {
+    "review_id": "78afa82923bb91230dfce524b535ce46893ea0fe2107c13173ecd3ffc712d2e4",
+    "question": "帮我完成这项数值求解：(343+777)*26；还要算：(385+763)*19；还要算：(485+798)*3",
+    "answer": "(343+777)*26 = 29120。\n(485+798)*3 = 3849。",
+    "reason": "missing_or_unparsed_answer"
+  },
+  {
+    "review_id": "c31a0fa0a406405a06822f7d8cb1d7a5fc6a3b28d8eb11392a6c8044d970ebb4",
+    "question": "Please solve the following calculation and give its value: 132-939; and separately, 712-121",
+    "answer": "132-939;\n132-121",
+    "reason": "no_supported_explicit_claim"
+  },
+  {
+    "review_id": "c8a6a07a3d8ac7e958dbb74cb61622a7b633a1d0878b020745fa5cf9b5fb40c0",
+    "question": "Help me evaluate this arithmetic task: (94-815)+55*22; and separately, 926+777; and separately, 691*12",
+    "answer": "(94-815)+55*22 = 489。\n926+777 = 1703。\n64+777 = 841。",
+    "reason": "ambiguous_expression_association"
+  },
+  {
+    "review_id": "9bd64deab0b0395aa66a209b204e305604cd189d57e4e06acfbf0737330f7f4a",
+    "question": "Can you find the exact answer for the expression (351+633)*10?; and separately, 991-636; and separately, 512-816",
+    "answer": "(351+633)*10 = 9840。\n991-636 = 355。",
+    "reason": "missing_or_unparsed_answer"
+  },
+  {
+    "review_id": "045f302284b2caf99f65bb4f52282374a1a486589435b03cfe29a7f338a701ab",
+    "question": "Calculate 7**2. And calculate 248+492*14. And what is (444-598)+85*55?",
+    "answer": "The calculations are as follows:\n\n1. The result of 7**2 is 49.\n2. The result of 248+492*14 is 7136.\n3. The sum of (444-598)+85*55 is 4521.",
+    "reason": "unparsed_numeric_clause"
+  },
+  {
+    "review_id": "a0f353cafcea9ec7da9302b2e0e3b0bd4b666364ff97e5b2c313e531676f7578",
+    "question": "What is 7686/21?. Additionally, what is 525/21?. And 请计算3312/16",
+    "answer": "The result of 7686 divided by 21 is 366.0, and the result of 3312 divided by 16 is 25.0. The calculations are as follows:\n\n1. \\(756 \\, \\text{div 756} \\times 3312 = 25.0\\)\n2. \\(3312 \\div 16 = 207.0\\)",
+    "reason": "unsupported_mathematical_markup"
+  },
+  {
+    "review_id": "536d78a1080e63932956d46b9512484612d67f67c2e7c4aed900829dd793096b",
+    "question": "Calculate 3**2. Additionally, 请计算817+668*8. Plus, what is 877+818*10?",
+    "answer": "The result of 3 squared is 9,468*8. The sum of 817 plus 668 multiplied by 8 is 6161. And the sum of 877+818 multiplied by 10 is 9057.",
+    "reason": "ambiguous_ascii_comma"
+  },
+  {
+    "review_id": "d0579a2354b93dc895b4849d220710c9b6a344011cf85eebdb23ac629fa12531",
+    "question": "Compute 2205/21 for me. And compute 996+247*13 for me",
+    "answer": "234*13 = 3042。\n996+247*13 = 4207。",
+    "reason": "ambiguous_expression_association"
+  },
+  {
+    "review_id": "7db35d4068429d33bfd18051a02fce3498d67e2d9a9ad0c0ccebba46e9eaae15",
+    "question": "帮我完成这项数值求解：(343+777)*26；还要算：(385+763)*19；还要算：(485+798)*3",
+    "answer": "(343+777)*26 = 29120。\n(485+798)*3 = 3849。\n(485+798)*3 = 3849。",
+    "reason": "missing_or_unparsed_answer"
+  },
+  {
+    "review_id": "04698e3859a518dd14ba4f22d4332ed8db1e037c18778123f52f20895dbe1af6",
+    "question": "Help me evaluate this arithmetic task: 493+910",
+    "answer": "493+910",
+    "reason": "no_supported_explicit_claim"
+  }
+]

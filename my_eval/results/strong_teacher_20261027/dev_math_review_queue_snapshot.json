@@ -1,0 +1,68 @@
+[
+  {
+    "review_id": "888864920cb9bdf465c934e5e33e11304b121812aa4dadc10bce7d0c6f35dc9d",
+    "question": "这几个数的运算麻烦替我核实：419+802; as a separate calculation, 16269/17；再帮我确认 (959-680)+58*65",
+    "answer": "419+802 = 1221。\n16269/17 = 957.0。\n16269/17 = 957.0。",
+    "reason": "missing_or_unparsed_answer"
+  },
+  {
+    "review_id": "ff39e141d5e41d99aae8c2c1588ea0aff871b58a443f0c4092a129e60c1e76b4",
+    "question": "这几个数的运算麻烦替我核实：431+119；再帮我确认 (692-699)+63*80；再帮我确认 90-827",
+    "answer": "431+119 = 550。\n(692-699)+63*80 = 5033。\n99-827 = -728。",
+    "reason": "ambiguous_expression_association"
+  },
+  {
+    "review_id": "b40d0883987bc9c5fb1d1107a589b4adf26290d9ae0c573114fda7081fbdf0d7",
+    "question": "I need the value of this expression, please: 214-883；再帮我确认 1122/17",
+    "answer": "214-883 = -669。\n(23-883) = -860。",
+    "reason": "ambiguous_expression_association"
+  },
+  {
+    "review_id": "7fdef4e002a990ce3313f54f3299e08f34b8be3f23a06f9e4ab048f0af0d82a4",
+    "question": "I need the value of this expression, please: 214-883；再帮我确认 1122/17",
+    "answer": "2214-883 = 1331。\n(2214-883) = 1331。",
+    "reason": "ambiguous_expression_association"
+  },
+  {
+    "review_id": "33b44ae77a63456b12a3ab3485df90eca34da5e3b1d4817a12391472e153eaed",
+    "question": "I need the value of this expression, please: 214-883；再帮我确认 1122/17",
+    "answer": "214-883 = -669。\n(144-883) = -739。",
+    "reason": "ambiguous_expression_association"
+  },
+  {
+    "review_id": "8f4c4074ed94a02841d6dc1ae806c64193c0d6f82b1ef2190ad35aaccf7b85f3",
+    "question": "I need the value of this expression, please: 8058/17",
+    "answer": "5058/17",
+    "reason": "no_supported_explicit_claim"
+  },
+  {
+    "review_id": "5e8dffd0c764ec82c20a499553f625269172b233b7d5846e57f4e81d96a9016c",
+    "question": "这几个数的运算麻烦替我核实：(795-858)+27*88; as a separate calculation, 5219/17；再帮我确认 358-334",
+    "answer": "(795-858)+27*88 = 2313。\n358-334 = 24。",
+    "reason": "missing_or_unparsed_answer"
+  },
+  {
+    "review_id": "b5e1646c7ade8bb7c1ab0f689fe39f55f7761952f8c7fee7fefb766d7616e76e",
+    "question": "I need the value of this expression, please: 214-883；再帮我确认 1122/17",
+    "answer": "214-883",
+    "reason": "no_supported_explicit_claim"
+  },
+  {
+    "review_id": "b8c7c60a62ccf56765749ca2f802dffa896e7c384188202ecefb25cf6bce4cfd",
+    "question": "这几个数的运算麻烦替我核实：820+494; as a separate calculation, 55+885",
+    "answer": "820+494 = 1314。\n820+494 = 1314。",
+    "reason": "missing_or_unparsed_answer"
+  },
+  {
+    "review_id": "f2c0c73983e37f659bd52dafcfcfd58a3ddf350d6be0ae6fc485513de306df8f",
+    "question": "I need the value of this expression, please: 214-883；再帮我确认 1122/17",
+    "answer": "214-883 = -669。\n(15-883) = -868。",
+    "reason": "ambiguous_expression_association"
+  },
+  {
+    "review_id": "53bd66de7f03276b77c65b050a4c82dd51c93c077258630dc008f3ae030abc37",
+    "question": "I need the value of this expression, please: 214-883；再帮我确认 1122/17",
+    "answer": "2214-883 = 1331。\n2214-883 = 1331。",
+    "reason": "ambiguous_expression_association"
+  }
+]

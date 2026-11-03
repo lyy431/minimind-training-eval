@@ -1,0 +1,39 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+finalchat strong_teacher_strong_e2 16 / 288 1.5s
+finalchat strong_teacher_strong_e2 32 / 288 2.7s
+finalchat strong_teacher_strong_e2 48 / 288 6.7s
+finalchat strong_teacher_strong_e2 64 / 288 7.7s
+finalchat strong_teacher_strong_e2 80 / 288 9.2s
+finalchat strong_teacher_strong_e2 96 / 288 11.2s
+finalchat strong_teacher_strong_e2 112 / 288 13.4s
+finalchat strong_teacher_strong_e2 128 / 288 15.6s
+finalchat strong_teacher_strong_e2 144 / 288 17.9s
+finalchat strong_teacher_strong_e2 160 / 288 23.1s
+finalchat strong_teacher_strong_e2 176 / 288 26.5s
+finalchat strong_teacher_strong_e2 192 / 288 30.2s
+finalchat strong_teacher_strong_e2 208 / 288 34.0s
+finalchat strong_teacher_strong_e2 224 / 288 38.0s
+finalchat strong_teacher_strong_e2 240 / 288 42.7s
+finalchat strong_teacher_strong_e2 256 / 288 45.6s
+finalchat strong_teacher_strong_e2 272 / 288 49.9s
+finalchat strong_teacher_strong_e2 288 / 288 53.0s
+historical strong_teacher_strong_e2 16 / 197 21.7s
+historical strong_teacher_strong_e2 32 / 197 42.8s
+historical strong_teacher_strong_e2 48 / 197 59.9s
+historical strong_teacher_strong_e2 64 / 197 79.7s
+historical strong_teacher_strong_e2 80 / 197 99.0s
+historical strong_teacher_strong_e2 96 / 197 121.1s
+historical strong_teacher_strong_e2 112 / 197 140.8s
+historical strong_teacher_strong_e2 128 / 197 160.2s
+historical strong_teacher_strong_e2 144 / 197 176.5s
+historical strong_teacher_strong_e2 160 / 197 198.1s
+historical strong_teacher_strong_e2 176 / 197 225.4s
+historical strong_teacher_strong_e2 192 / 197 243.8s
+historical strong_teacher_strong_e2 197 / 197 250.6s
+freshmath strong_teacher_strong_e2 16 / 48 18.6s
+freshmath strong_teacher_strong_e2 32 / 48 37.9s
+freshmath strong_teacher_strong_e2 48 / 48 57.8s
+loss_final strong_teacher_strong_e2 296 2.5247591298979684
+identity strong_teacher_strong_e2 14 / 14 5.7s

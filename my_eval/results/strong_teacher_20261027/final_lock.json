@@ -1,0 +1,28 @@
+{
+  "weights": {
+    "chat_repair_id_e3": "e04a156d57d207f27c6d507d93b84010902d69b0fa826434f5afb8fc4ba4918f",
+    "strong_teacher_weak_e2": "caa99a6695d2f95f87367621fb44fecc9d8873f9703c8ceec00f605e82207805",
+    "strong_teacher_strong_e2": "929572177f0ad8da318929c6ef82fe94c1c1fe892e845f60a9df6c47681aba9a"
+  },
+  "files_sha256": {
+    "my_eval\\results\\strong_teacher_20261027\\plan.json": "fdcca0cadeb5e8661ec08564a2387d3248c14e53aa47bd017de2bc4822a95541",
+    "my_eval\\results\\strong_teacher_20261027\\training_lock.json": "123c6482e179730c24d392b9577a1bf2d21968e31ceb87eeb1836d6dc47337f8",
+    "my_eval\\results\\strong_teacher_20261027\\train_weak.jsonl": "a0d4615664adb5a3c5c5b7df83380f4d6977295a509cd56d86548de785f2a494",
+    "my_eval\\results\\strong_teacher_20261027\\train_strong.jsonl": "5f8ee5702ed003fb64e37acbd8f58b5759445d45939cae7535802ee92ff9abdc",
+    "my_eval\\results\\strong_teacher_20261027\\dev_tasks.json": "cb11d3fe7b946319606ffc9be7081b2a436b4319c9217266416e0bc49268be78",
+    "my_eval\\results\\strong_teacher_20261027\\final_tasks.json": "a28ef65e11e8b72fbdb67d38aa075b4573be9b9bcc4438b8b39a6cb76783239b",
+    "my_eval\\results\\strong_teacher_20261027\\selection.json": "25fb6fc500b9d9417471d5f36ddc6ea1b9c642df670ecb065e30a10d1a5532cc",
+    "my_eval\\results\\strong_teacher_20261027\\matched_data_audit.json": "762f965eb903f4f96ba4d3579fac2445b1d8d0e2c86ef9fa7cd4bcaa80990a6d",
+    "my_eval\\results\\strong_teacher_20261027\\preflight_tests.json": "a1e2473f24d36ee8edc22999d4e1ec1bbb4c1d67c222217e87c63aec429cb5ef",
+    "my_eval\\scripts\\strong_teacher_common.py": "294510579cfd99bbf3654fd59dac8bde09a69af6bb4ef311273043d8d472f54d",
+    "my_eval\\scripts\\eval_strong_teacher.py": "ff9c2e7e239f86e50b40b4f144e5690de998294709fb8afce2f96cc84278caa9",
+    "my_eval\\scripts\\review_strong_teacher.py": "cb0641115a9942ded96d7000c5ddf0fb4a26874a2b0be95e87edfd2f274c1f21",
+    "my_eval\\scripts\\analyse_strong_teacher.py": "aeecf0356c94d47d3b2a621eae3b3b7799255204a2253baa01329c7d05be1712",
+    "my_eval\\scripts\\train_strong_teacher.py": "0607cf151c62651e8928475d6ed3983d3f28d27eaa7fea5690c319d4db947ec4",
+    "my_eval\\scripts\\eval_chat_repair.py": "a4a6f91a67f9ef499721f8a3413260202d2bff88c441f1e988e476c3d2a65742",
+    "my_eval\\scripts\\tool_choice_round2.py": "cb51a5bd0c8a6cd74476105c504b9f64adaf6f0feb20b1d8461f28efc45d88cf",
+    "my_eval\\scripts\\strict_math_rescore.py": "ea1f91009c2edd95fb554dcf3f3958cff9442150bc73c39de08afdf328cc4751",
+    "scripts\\best_of_n.py": "b8e594d8c08da96c74aa990e622afb9d7d9003c65f859d9814639ec8a53e4a37",
+    "scripts\\demo_tools.py": "7155da27967520b9449a65eb93de9795e495d5c9efdc8a52f0703e15a7f95fa1"
+  }
+}

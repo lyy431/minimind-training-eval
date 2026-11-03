@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": {
+    "local_windows_never_shuts_down": true,
+    "success_still_attempts_instance_shutdown": true,
+    "error_still_attempts_instance_shutdown": true,
+    "timeout_still_attempts_instance_shutdown": true,
+    "status_write_failure_still_attempts_instance_shutdown": true,
+    "archive_failure_still_attempts_instance_shutdown": true,
+    "shutdown_failure_still_attempts_instance_shutdown": true,
+    "ordinary_termination_enters_finally_path": true
+  },
+  "actual_shutdown_executed": false,
+  "paid_cloud_started": false,
+  "cloud_integration_tested": false
+}

@@ -1,0 +1,506 @@
+{
+  "rows": [
+    {
+      "index": 0,
+      "loss": 2.634537696838379,
+      "answer_tokens": 441
+    },
+    {
+      "index": 1,
+      "loss": 2.953789710998535,
+      "answer_tokens": 697
+    },
+    {
+      "index": 2,
+      "loss": 3.839899778366089,
+      "answer_tokens": 46
+    },
+    {
+      "index": 3,
+      "loss": 2.4698991775512695,
+      "answer_tokens": 364
+    },
+    {
+      "index": 4,
+      "loss": 7.5706915855407715,
+      "answer_tokens": 3
+    },
+    {
+      "index": 5,
+      "loss": 1.4979358911514282,
+      "answer_tokens": 14
+    },
+    {
+      "index": 6,
+      "loss": 2.4373695850372314,
+      "answer_tokens": 666
+    },
+    {
+      "index": 7,
+      "loss": 1.4152705669403076,
+      "answer_tokens": 629
+    },
+    {
+      "index": 8,
+      "loss": 2.8747518062591553,
+      "answer_tokens": 630
+    },
+    {
+      "index": 9,
+      "loss": 3.0216357707977295,
+      "answer_tokens": 496
+    },
+    {
+      "index": 10,
+      "loss": 1.25629460811615,
+      "answer_tokens": 171
+    },
+    {
+      "index": 11,
+      "loss": 3.0942740440368652,
+      "answer_tokens": 630
+    },
+    {
+      "index": 12,
+      "loss": 2.819732904434204,
+      "answer_tokens": 282
+    },
+    {
+      "index": 13,
+      "loss": 2.740020751953125,
+      "answer_tokens": 578
+    },
+    {
+      "index": 14,
+      "loss": 2.9370851516723633,
+      "answer_tokens": 222
+    },
+    {
+      "index": 15,
+      "loss": 2.110198736190796,
+      "answer_tokens": 288
+    },
+    {
+      "index": 16,
+      "loss": 2.5422606468200684,
+      "answer_tokens": 521
+    },
+    {
+      "index": 17,
+      "loss": 1.2121658325195312,
+      "answer_tokens": 652
+    },
+    {
+      "index": 18,
+      "loss": 3.3968470096588135,
+      "answer_tokens": 655
+    },
+    {
+      "index": 19,
+      "loss": 1.699886441230774,
+      "answer_tokens": 12
+    },
+    {
+      "index": 20,
+      "loss": 2.776989698410034,
+      "answer_tokens": 431
+    },
+    {
+      "index": 21,
+      "loss": 2.48626446723938,
+      "answer_tokens": 238
+    },
+    {
+      "index": 22,
+      "loss": 2.6675636768341064,
+      "answer_tokens": 404
+    },
+    {
+      "index": 23,
+      "loss": 2.171269178390503,
+      "answer_tokens": 484
+    },
+    {
+      "index": 24,
+      "loss": 2.061955690383911,
+      "answer_tokens": 716
+    },
+    {
+      "index": 25,
+      "loss": 2.000792980194092,
+      "answer_tokens": 652
+    },
+    {
+      "index": 26,
+      "loss": 3.1115190982818604,
+      "answer_tokens": 192
+    },
+    {
+      "index": 27,
+      "loss": 2.7439165115356445,
+      "answer_tokens": 675
+    },
+    {
+      "index": 28,
+      "loss": 1.9417256116867065,
+      "answer_tokens": 129
+    },
+    {
+      "index": 29,
+      "loss": 2.76399564743042,
+      "answer_tokens": 704
+    },
+    {
+      "index": 30,
+      "loss": 2.812441110610962,
+      "answer_tokens": 725
+    },
+    {
+      "index": 31,
+      "loss": 2.641357898712158,
+      "answer_tokens": 272
+    },
+    {
+      "index": 32,
+      "loss": 2.5054962635040283,
+      "answer_tokens": 436
+    },
+    {
+      "index": 33,
+      "loss": 4.568173408508301,
+      "answer_tokens": 10
+    },
+    {
+      "index": 34,
+      "loss": 2.845227003097534,
+      "answer_tokens": 687
+    },
+    {
+      "index": 35,
+      "loss": 3.483812093734741,
+      "answer_tokens": 69
+    },
+    {
+      "index": 36,
+      "loss": 2.0456252098083496,
+      "answer_tokens": 206
+    },
+    {
+      "index": 37,
+      "loss": 2.320155620574951,
+      "answer_tokens": 44
+    },
+    {
+      "index": 38,
+      "loss": 3.634026050567627,
+      "answer_tokens": 172
+    },
+    {
+      "index": 39,
+      "loss": 3.6862993240356445,
+      "answer_tokens": 18
+    },
+    {
+      "index": 40,
+      "loss": 2.116396188735962,
+      "answer_tokens": 131
+    },
+    {
+      "index": 41,
+      "loss": 1.3912298679351807,
+      "answer_tokens": 364
+    },
+    {
+      "index": 42,
+      "loss": 3.092914342880249,
+      "answer_tokens": 703
+    },
+    {
+      "index": 43,
+      "loss": 2.5316827297210693,
+      "answer_tokens": 19
+    },
+    {
+      "index": 44,
+      "loss": 2.7679455280303955,
+      "answer_tokens": 410
+    },
+    {
+      "index": 45,
+      "loss": 2.9100959300994873,
+      "answer_tokens": 92
+    },
+    {
+      "index": 46,
+      "loss": 2.5400195121765137,
+      "answer_tokens": 677
+    },
+    {
+      "index": 47,
+      "loss": 2.3085672855377197,
+      "answer_tokens": 212
+    },
+    {
+      "index": 48,
+      "loss": 2.8193106651306152,
+      "answer_tokens": 323
+    },
+    {
+      "index": 49,
+      "loss": 2.5659232139587402,
+      "answer_tokens": 731
+    },
+    {
+      "index": 50,
+      "loss": 2.5557875633239746,
+      "answer_tokens": 98
+    },
+    {
+      "index": 51,
+      "loss": 2.8640248775482178,
+      "answer_tokens": 569
+    },
+    {
+      "index": 52,
+      "loss": 2.646106243133545,
+      "answer_tokens": 719
+    },
+    {
+      "index": 53,
+      "loss": 2.192592144012451,
+      "answer_tokens": 43
+    },
+    {
+      "index": 54,
+      "loss": 1.6534793376922607,
+      "answer_tokens": 235
+    },
+    {
+      "index": 55,
+      "loss": 2.4423673152923584,
+      "answer_tokens": 549
+    },
+    {
+      "index": 56,
+      "loss": 2.479799270629883,
+      "answer_tokens": 314
+    },
+    {
+      "index": 57,
+      "loss": 2.5522701740264893,
+      "answer_tokens": 356
+    },
+    {
+      "index": 58,
+      "loss": 1.1828498840332031,
+      "answer_tokens": 2
+    },
+    {
+      "index": 59,
+      "loss": 3.023658037185669,
+      "answer_tokens": 509
+    },
+    {
+      "index": 60,
+      "loss": 1.7471117973327637,
+      "answer_tokens": 74
+    },
+    {
+      "index": 61,
+      "loss": 3.651639938354492,
+      "answer_tokens": 145
+    },
+    {
+      "index": 62,
+      "loss": 1.7627582550048828,
+      "answer_tokens": 130
+    },
+    {
+      "index": 63,
+      "loss": 2.603925943374634,
+      "answer_tokens": 732
+    },
+    {
+      "index": 64,
+      "loss": 1.6894376277923584,
+      "answer_tokens": 254
+    },
+    {
+      "index": 65,
+      "loss": 2.1915595531463623,
+      "answer_tokens": 297
+    },
+    {
+      "index": 66,
+      "loss": 2.7978029251098633,
+      "answer_tokens": 268
+    },
+    {
+      "index": 67,
+      "loss": 1.6202030181884766,
+      "answer_tokens": 142
+    },
+    {
+      "index": 68,
+      "loss": 2.45351505279541,
+      "answer_tokens": 706
+    },
+    {
+      "index": 69,
+      "loss": 3.0509722232818604,
+      "answer_tokens": 500
+    },
+    {
+      "index": 70,
+      "loss": 2.0917506217956543,
+      "answer_tokens": 189
+    },
+    {
+      "index": 71,
+      "loss": 1.6192662715911865,
+      "answer_tokens": 130
+    },
+    {
+      "index": 72,
+      "loss": 2.5940866470336914,
+      "answer_tokens": 353
+    },
+    {
+      "index": 73,
+      "loss": 2.236056089401245,
+      "answer_tokens": 133
+    },
+    {
+      "index": 74,
+      "loss": 2.006422996520996,
+      "answer_tokens": 381
+    },
+    {
+      "index": 75,
+      "loss": 1.1211082935333252,
+      "answer_tokens": 221
+    },
+    {
+      "index": 76,
+      "loss": 2.4299612045288086,
+      "answer_tokens": 159
+    },
+    {
+      "index": 77,
+      "loss": 3.25315523147583,
+      "answer_tokens": 469
+    },
+    {
+      "index": 78,
+      "loss": 2.411360263824463,
+      "answer_tokens": 448
+    },
+    {
+      "index": 79,
+      "loss": 2.4071080684661865,
+      "answer_tokens": 292
+    },
+    {
+      "index": 80,
+      "loss": 2.6541082859039307,
+      "answer_tokens": 250
+    },
+    {
+      "index": 81,
+      "loss": 2.339118242263794,
+      "answer_tokens": 242
+    },
+    {
+      "index": 82,
+      "loss": 1.9227604866027832,
+      "answer_tokens": 390
+    },
+    {
+      "index": 83,
+      "loss": 5.153756618499756,
+      "answer_tokens": 14
+    },
+    {
+      "index": 84,
+      "loss": 3.1888277530670166,
+      "answer_tokens": 27
+    },
+    {
+      "index": 85,
+      "loss": 2.7812092304229736,
+      "answer_tokens": 442
+    },
+    {
+      "index": 86,
+      "loss": 2.529616355895996,
+      "answer_tokens": 243
+    },
+    {
+      "index": 87,
+      "loss": 3.3114986419677734,
+      "answer_tokens": 490
+    },
+    {
+      "index": 88,
+      "loss": 3.2120940685272217,
+      "answer_tokens": 15
+    },
+    {
+      "index": 89,
+      "loss": 2.1681182384490967,
+      "answer_tokens": 341
+    },
+    {
+      "index": 90,
+      "loss": 2.0839192867279053,
+      "answer_tokens": 370
+    },
+    {
+      "index": 91,
+      "loss": 3.022258758544922,
+      "answer_tokens": 615
+    },
+    {
+      "index": 92,
+      "loss": 2.4939534664154053,
+      "answer_tokens": 383
+    },
+    {
+      "index": 93,
+      "loss": 2.2729251384735107,
+      "answer_tokens": 41
+    },
+    {
+      "index": 94,
+      "loss": 2.6382572650909424,
+      "answer_tokens": 567
+    },
+    {
+      "index": 95,
+      "loss": 1.4686715602874756,
+      "answer_tokens": 20
+    },
+    {
+      "index": 96,
+      "loss": 2.358793020248413,
+      "answer_tokens": 451
+    },
+    {
+      "index": 97,
+      "loss": 1.6162382364273071,
+      "answer_tokens": 54
+    },
+    {
+      "index": 98,
+      "loss": 2.67405366897583,
+      "answer_tokens": 115
+    },
+    {
+      "index": 99,
+      "loss": 2.6458981037139893,
+      "answer_tokens": 440
+    }
+  ],
+  "mean": 2.5670545279979704,
+  "source_sha256": "a5b71ff18049911f0dfe9ef0a549f3ec86a8fe58d111b8d24d0e2486f15cb8cd"
+}

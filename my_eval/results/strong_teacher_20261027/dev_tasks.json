@@ -1,0 +1,746 @@
+[
+  {
+    "id": "dev_retrieval_0000",
+    "category": "retrieval",
+    "question": "请读这份便条：季澄的柜号是949；方沐的柜号是208。季澄的柜号是什么？只给出柜号。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请读这份便条：季澄的柜号是949；方沐的柜号是208。季澄的柜号是什么？只给出柜号。"
+      }
+    ],
+    "reference_for_review_only": "949",
+    "language": "zh",
+    "seed": 840000,
+    "exact_answer": "949",
+    "format_id": 0,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0001",
+    "category": "retrieval",
+    "question": "请读这份便条：苏岚计划周一交材料；温庭计划周二交材料。苏岚哪天交材料？只回答日期。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请读这份便条：苏岚计划周一交材料；温庭计划周二交材料。苏岚哪天交材料？只回答日期。"
+      }
+    ],
+    "reference_for_review_only": "周一",
+    "language": "zh",
+    "seed": 840017,
+    "exact_answer": "周一",
+    "format_id": 1,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0002",
+    "category": "retrieval",
+    "question": "请读这份便条：苏岚的登记号是DK-3856；季澄的登记号是DR-5493。请只抄出苏岚的登记号。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请读这份便条：苏岚的登记号是DK-3856；季澄的登记号是DR-5493。请只抄出苏岚的登记号。"
+      }
+    ],
+    "reference_for_review_only": "DK-3856",
+    "language": "zh",
+    "seed": 840034,
+    "exact_answer": "DK-3856",
+    "format_id": 2,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0003",
+    "category": "retrieval",
+    "question": "Read this note: Cleo carries a green folder. Amir carries a purple folder. What color is Cleo's folder? Return only the color.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Read this note: Cleo carries a green folder. Amir carries a purple folder. What color is Cleo's folder? Return only the color."
+      }
+    ],
+    "reference_for_review_only": "green",
+    "language": "en",
+    "seed": 840051,
+    "exact_answer": "green",
+    "format_id": 3,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0004",
+    "category": "retrieval",
+    "question": "请读这份便条：温庭把书交给了方沐；书的登记号为DK-7742。谁交出了书？只回答姓名。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请读这份便条：温庭把书交给了方沐；书的登记号为DK-7742。谁交出了书？只回答姓名。"
+      }
+    ],
+    "reference_for_review_only": "温庭",
+    "language": "zh",
+    "seed": 840068,
+    "exact_answer": "温庭",
+    "format_id": 4,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0005",
+    "category": "retrieval",
+    "question": "请读这份便条：方沐的文件是note_221.txt；苏岚的文件是list_803.csv。只输出方沐的完整文件名。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请读这份便条：方沐的文件是note_221.txt；苏岚的文件是list_803.csv。只输出方沐的完整文件名。"
+      }
+    ],
+    "reference_for_review_only": "note_221.txt",
+    "language": "zh",
+    "seed": 840085,
+    "exact_answer": "note_221.txt",
+    "format_id": 5,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0006",
+    "category": "retrieval",
+    "question": "请读这份便条：原集合房间是861；最新通知改为950。原房间号是什么？只回答号码。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请读这份便条：原集合房间是861；最新通知改为950。原房间号是什么？只回答号码。"
+      }
+    ],
+    "reference_for_review_only": "861",
+    "language": "zh",
+    "seed": 840102,
+    "exact_answer": "861",
+    "format_id": 6,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0007",
+    "category": "retrieval",
+    "question": "Read this note: Otis has loan reference DK-2962. no return date is recorded. What is the return date? If absent, reply only \"Not provided\".",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Read this note: Otis has loan reference DK-2962. no return date is recorded. What is the return date? If absent, reply only \"Not provided\"."
+      }
+    ],
+    "reference_for_review_only": "Not provided",
+    "language": "en",
+    "seed": 840119,
+    "exact_answer": "Not provided",
+    "format_id": 7,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0008",
+    "category": "retrieval",
+    "question": "请读这份便条：标签甲：280+291；标签乙：291-280。只原样抄出标签甲上的算式，不计算。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请读这份便条：标签甲：280+291；标签乙：291-280。只原样抄出标签甲上的算式，不计算。"
+      }
+    ],
+    "reference_for_review_only": "280+291",
+    "language": "zh",
+    "seed": 840136,
+    "exact_answer": "280+291",
+    "format_id": 8,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0009",
+    "category": "retrieval",
+    "question": "请读这份便条：名单顺序：温庭、苏岚；第一人的编号是DK-1659，第二人的编号是DR-6664。只回答名单中第1个人的名字。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请读这份便条：名单顺序：温庭、苏岚；第一人的编号是DK-1659，第二人的编号是DR-6664。只回答名单中第1个人的名字。"
+      }
+    ],
+    "reference_for_review_only": "温庭",
+    "language": "zh",
+    "seed": 840153,
+    "exact_answer": "温庭",
+    "format_id": 9,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0010",
+    "category": "retrieval",
+    "question": "请读这份便条：温庭的柜号是786；苏岚的柜号是647。苏岚的柜号是什么？只给出柜号。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请读这份便条：温庭的柜号是786；苏岚的柜号是647。苏岚的柜号是什么？只给出柜号。"
+      }
+    ],
+    "reference_for_review_only": "647",
+    "language": "zh",
+    "seed": 840170,
+    "exact_answer": "647",
+    "format_id": 0,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_retrieval_0011",
+    "category": "retrieval",
+    "question": "Read this note: Esme submits the notes on Friday. Cleo submits the notes on Monday. On which day does Cleo submit the notes? Return only the day.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Read this note: Esme submits the notes on Friday. Cleo submits the notes on Monday. On which day does Cleo submit the notes? Return only the day."
+      }
+    ],
+    "reference_for_review_only": "Monday",
+    "language": "en",
+    "seed": 840187,
+    "exact_answer": "Monday",
+    "format_id": 1,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "dev_instruction_0000",
+    "category": "instruction",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-47944",
+    "messages": [
+      {
+        "role": "user",
+        "content": "把下面文本原样写一遍，只输出文本本身：DEV-47944"
+      }
+    ],
+    "reference_for_review_only": "DEV-47944",
+    "language": "zh",
+    "seed": 840000,
+    "exact_answer": "DEV-47944",
+    "format_id": 0
+  },
+  {
+    "id": "dev_instruction_0001",
+    "category": "instruction",
+    "question": "请只输出第二个编号：DEV-17776，BOX-43857。不要加说明。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只输出第二个编号：DEV-17776，BOX-43857。不要加说明。"
+      }
+    ],
+    "reference_for_review_only": "BOX-43857",
+    "language": "zh",
+    "seed": 840017,
+    "exact_answer": "BOX-43857",
+    "format_id": 1
+  },
+  {
+    "id": "dev_instruction_0002",
+    "category": "instruction",
+    "question": "材料只写了编号DEV-70192，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "材料只写了编号DEV-70192，没有写负责人。负责人是谁？未给出时只回答“未提供”。"
+      }
+    ],
+    "reference_for_review_only": "未提供",
+    "language": "zh",
+    "seed": 840034,
+    "exact_answer": "未提供",
+    "format_id": 2
+  },
+  {
+    "id": "dev_instruction_0003",
+    "category": "instruction",
+    "question": "Put \"DEV-46722\" inside round brackets. Return only the result.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Put \"DEV-46722\" inside round brackets. Return only the result."
+      }
+    ],
+    "reference_for_review_only": "(DEV-46722)",
+    "language": "en",
+    "seed": 840051,
+    "exact_answer": "(DEV-46722)",
+    "format_id": 3
+  },
+  {
+    "id": "dev_instruction_0004",
+    "category": "instruction",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：DEV-78816 和 BOX-41264。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把以下两项用一个斜杠连接，不加空格或说明：DEV-78816 和 BOX-41264。"
+      }
+    ],
+    "reference_for_review_only": "DEV-78816/BOX-41264",
+    "language": "zh",
+    "seed": 840068,
+    "exact_answer": "DEV-78816/BOX-41264",
+    "format_id": 4
+  },
+  {
+    "id": "dev_instruction_0005",
+    "category": "instruction",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-34773",
+    "messages": [
+      {
+        "role": "user",
+        "content": "把下面文本原样写一遍，只输出文本本身：DEV-34773"
+      }
+    ],
+    "reference_for_review_only": "DEV-34773",
+    "language": "zh",
+    "seed": 840085,
+    "exact_answer": "DEV-34773",
+    "format_id": 0
+  },
+  {
+    "id": "dev_instruction_0006",
+    "category": "instruction",
+    "question": "请只输出第二个编号：DEV-43409，BOX-42918。不要加说明。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只输出第二个编号：DEV-43409，BOX-42918。不要加说明。"
+      }
+    ],
+    "reference_for_review_only": "BOX-42918",
+    "language": "zh",
+    "seed": 840102,
+    "exact_answer": "BOX-42918",
+    "format_id": 1
+  },
+  {
+    "id": "dev_instruction_0007",
+    "category": "instruction",
+    "question": "The note contains code DEV-46145, but no owner. Who is the owner? Reply only \"Not provided\" if missing.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "The note contains code DEV-46145, but no owner. Who is the owner? Reply only \"Not provided\" if missing."
+      }
+    ],
+    "reference_for_review_only": "Not provided",
+    "language": "en",
+    "seed": 840119,
+    "exact_answer": "Not provided",
+    "format_id": 2
+  },
+  {
+    "id": "dev_instruction_0008",
+    "category": "instruction",
+    "question": "请把“DEV-14559”放在圆括号里，只输出加好括号的文本。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把“DEV-14559”放在圆括号里，只输出加好括号的文本。"
+      }
+    ],
+    "reference_for_review_only": "(DEV-14559)",
+    "language": "zh",
+    "seed": 840136,
+    "exact_answer": "(DEV-14559)",
+    "format_id": 3
+  },
+  {
+    "id": "dev_instruction_0009",
+    "category": "instruction",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：DEV-28672 和 BOX-85704。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把以下两项用一个斜杠连接，不加空格或说明：DEV-28672 和 BOX-85704。"
+      }
+    ],
+    "reference_for_review_only": "DEV-28672/BOX-85704",
+    "language": "zh",
+    "seed": 840153,
+    "exact_answer": "DEV-28672/BOX-85704",
+    "format_id": 4
+  },
+  {
+    "id": "dev_instruction_0010",
+    "category": "instruction",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-28041",
+    "messages": [
+      {
+        "role": "user",
+        "content": "把下面文本原样写一遍，只输出文本本身：DEV-28041"
+      }
+    ],
+    "reference_for_review_only": "DEV-28041",
+    "language": "zh",
+    "seed": 840170,
+    "exact_answer": "DEV-28041",
+    "format_id": 0
+  },
+  {
+    "id": "dev_instruction_0011",
+    "category": "instruction",
+    "question": "Return only the second code: DEV-57862, BOX-25068. No explanation.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return only the second code: DEV-57862, BOX-25068. No explanation."
+      }
+    ],
+    "reference_for_review_only": "BOX-25068",
+    "language": "en",
+    "seed": 840187,
+    "exact_answer": "BOX-25068",
+    "format_id": 1
+  },
+  {
+    "id": "dev_explanation_0000",
+    "category": "explanation",
+    "question": "为什么整理书架时给不同区域命名有用？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么整理书架时给不同区域命名有用？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "区域名有助于分类和定位书籍",
+    "language": "zh",
+    "seed": 840000
+  },
+  {
+    "id": "dev_explanation_0001",
+    "category": "explanation",
+    "question": "为什么活动报名结束后要核对名单？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么活动报名结束后要核对名单？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "可以发现重复或遗漏，确认参加者",
+    "language": "zh",
+    "seed": 840017
+  },
+  {
+    "id": "dev_explanation_0002",
+    "category": "explanation",
+    "question": "为什么发出修改后的安排时要说明哪些地方变了？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么发出修改后的安排时要说明哪些地方变了？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "帮助读者找到变化，避免继续采用旧安排",
+    "language": "zh",
+    "seed": 840034
+  },
+  {
+    "id": "dev_explanation_0003",
+    "category": "explanation",
+    "question": "为什么一份说明的标题应与内容相符？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么一份说明的标题应与内容相符？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "标题帮助读者预期和定位内容，避免误导",
+    "language": "zh",
+    "seed": 840051
+  },
+  {
+    "id": "dev_explanation_0004",
+    "category": "explanation",
+    "question": "为什么汇总意见时要保留少数人的不同看法？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么汇总意见时要保留少数人的不同看法？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "避免遗漏观点或错误表示所有人都同意",
+    "language": "zh",
+    "seed": 840068
+  },
+  {
+    "id": "dev_explanation_0005",
+    "category": "explanation",
+    "question": "为什么写地址时只给街道名有时还不够？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么写地址时只给街道名有时还不够？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "可能仍需门牌等信息定位具体地点",
+    "language": "zh",
+    "seed": 840085
+  },
+  {
+    "id": "dev_explanation_0006",
+    "category": "explanation",
+    "question": "为什么解释任务时最好说明完成的标准？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么解释任务时最好说明完成的标准？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "便于执行者判断做到什么程度算完成",
+    "language": "zh",
+    "seed": 840102
+  },
+  {
+    "id": "dev_explanation_0007",
+    "category": "explanation",
+    "question": "为什么把东西按大小排好有时便于寻找？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么把东西按大小排好有时便于寻找？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "有规律的顺序便于定位目标",
+    "language": "zh",
+    "seed": 840119
+  },
+  {
+    "id": "dev_explanation_0008",
+    "category": "explanation",
+    "question": "为什么修改共享文件前了解大家的约定有用？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么修改共享文件前了解大家的约定有用？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "避免破坏共同结构或覆盖他人的工作",
+    "language": "zh",
+    "seed": 840136
+  },
+  {
+    "id": "dev_explanation_0009",
+    "category": "explanation",
+    "question": "Why should a handover note mention unfinished tasks? Use one or two simple sentences.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why should a handover note mention unfinished tasks? Use one or two simple sentences."
+      }
+    ],
+    "reference_for_review_only": "It tells the next person what still needs doing.",
+    "language": "en",
+    "seed": 840153
+  },
+  {
+    "id": "dev_explanation_0010",
+    "category": "explanation",
+    "question": "Why is a labeled diagram easier to discuss? Use one or two simple sentences.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why is a labeled diagram easier to discuss? Use one or two simple sentences."
+      }
+    ],
+    "reference_for_review_only": "Labels identify the parts people refer to.",
+    "language": "en",
+    "seed": 840170
+  },
+  {
+    "id": "dev_explanation_0011",
+    "category": "explanation",
+    "question": "Why can repeating an unclear instruction help? Use one or two simple sentences.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why can repeating an unclear instruction help? Use one or two simple sentences."
+      }
+    ],
+    "reference_for_review_only": "It can reveal misunderstandings and allow clarification.",
+    "language": "en",
+    "seed": 840187
+  },
+  {
+    "id": "dev_writing_0000",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我请朋友替我保留一张空白便签。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我请朋友替我保留一张空白便签。"
+      }
+    ],
+    "reference_for_review_only": "请朋友替我保留一张空白便签",
+    "language": "zh",
+    "seed": 840000
+  },
+  {
+    "id": "dev_writing_0001",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我检查目录页。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我感谢同学帮我检查目录页。"
+      }
+    ],
+    "reference_for_review_only": "感谢同学帮我检查目录页",
+    "language": "zh",
+    "seed": 840017
+  },
+  {
+    "id": "dev_writing_0002",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我告诉伙伴展板已经送到大厅。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我告诉伙伴展板已经送到大厅。"
+      }
+    ],
+    "reference_for_review_only": "告诉伙伴展板已经送到大厅",
+    "language": "zh",
+    "seed": 840034
+  },
+  {
+    "id": "dev_writing_0003",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我向同学询问打印材料的截止日期。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我向同学询问打印材料的截止日期。"
+      }
+    ],
+    "reference_for_review_only": "向同学询问打印材料的截止日期",
+    "language": "zh",
+    "seed": 840051
+  },
+  {
+    "id": "dev_writing_0004",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我提醒队员把名牌戴好。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我提醒队员把名牌戴好。"
+      }
+    ],
+    "reference_for_review_only": "提醒队员把名牌戴好",
+    "language": "zh",
+    "seed": 840068
+  },
+  {
+    "id": "dev_writing_0005",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我为弄皱朋友的纸张道歉。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我为弄皱朋友的纸张道歉。"
+      }
+    ],
+    "reference_for_review_only": "为弄皱朋友的纸张道歉",
+    "language": "zh",
+    "seed": 840085
+  },
+  {
+    "id": "dev_writing_0006",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我邀请朋友一起试做纸飞机。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我邀请朋友一起试做纸飞机。"
+      }
+    ],
+    "reference_for_review_only": "邀请朋友一起试做纸飞机",
+    "language": "zh",
+    "seed": 840102
+  },
+  {
+    "id": "dev_writing_0007",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我告诉同学我想换一个讨论主题。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我告诉同学我想换一个讨论主题。"
+      }
+    ],
+    "reference_for_review_only": "告诉同学我想换一个讨论主题",
+    "language": "zh",
+    "seed": 840119
+  },
+  {
+    "id": "dev_writing_0008",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我感谢同学分享自己的学习记录。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我感谢同学分享自己的学习记录。"
+      }
+    ],
+    "reference_for_review_only": "感谢同学分享自己的学习记录",
+    "language": "zh",
+    "seed": 840136
+  },
+  {
+    "id": "dev_writing_0009",
+    "category": "writing",
+    "question": "Write a short message to ask a friend to save a blank note card for you. Give the message itself.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short message to ask a friend to save a blank note card for you. Give the message itself."
+      }
+    ],
+    "reference_for_review_only": "ask a friend to save a blank note card for you",
+    "language": "en",
+    "seed": 840153
+  },
+  {
+    "id": "dev_writing_0010",
+    "category": "writing",
+    "question": "Write a short message to thank a classmate for checking the contents page. Give the message itself.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short message to thank a classmate for checking the contents page. Give the message itself."
+      }
+    ],
+    "reference_for_review_only": "thank a classmate for checking the contents page",
+    "language": "en",
+    "seed": 840170
+  },
+  {
+    "id": "dev_writing_0011",
+    "category": "writing",
+    "question": "Write a short message to tell the team the display board has arrived. Give the message itself.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short message to tell the team the display board has arrived. Give the message itself."
+      }
+    ],
+    "reference_for_review_only": "tell the team the display board has arrived",
+    "language": "en",
+    "seed": 840187
+  }
+]

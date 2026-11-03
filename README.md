@@ -6,7 +6,7 @@ This is a small language model training and evaluation project built on [jingyao
 
 The purpose is to establish what each change improves, what it costs, and how the evidence can be checked. This repository keeps code, data-processing methods, training logs, individual responses, review decisions, and reports, including unsuccessful experiments and corrections to evaluation. The architecture and original trainers come from upstream; the experiment design, supporting code, and demo extensions are recorded here.
 
-The latest version to pass the project's acceptance checks is **MiniMind-YuyangLU-v4**. The local demo retains eight models for comparison. v4 improves on its predecessor in the tested conversations, but still makes substantial errors and omissions; it is not a generally reliable assistant.
+The latest version to pass the project's acceptance checks is **MiniMind-YuyangLU-v5**. The local demo retains nine models for comparison. v5 improves on v4 in the tested conversations, but 71.53% of its tested responses are still not fully usable; it is not a generally reliable assistant.
 
 ## Work in chronological order
 
@@ -171,7 +171,29 @@ Limitations remain substantial: **62.50% of responses are not fully usable**, an
 
 Completed source code, logs, individual responses, review decisions, data audits, and reports were organized into this repository, with Chinese and English project overviews, a results guide, and reproducibility notes. Upstream licensing and original documentation were preserved, and hashes record the original experimental materials.
 
-[SNAPSHOT_MANIFEST.json](SNAPSHOT_MANIFEST.json) records sizes and SHA256 hashes for **829 original files**. [verify_results.py](tools/verify_results.py) checks their hashes, strict math, best-of-N, recorded v3 acceptance, and v4 chat and retention statistics without a GPU or new generation. Model weights, training checkpoints, and large source corpora stay outside Git.
+[SNAPSHOT_MANIFEST.json](SNAPSHOT_MANIFEST.json) records sizes and SHA256 hashes for **1,011 original files**. [verify_results.py](tools/verify_results.py) checks their hashes, strict math, best-of-N, recorded v3 acceptance, and v4 and v5 chat and retention statistics without a GPU or new generation. Model weights, training checkpoints, and large source corpora stay outside Git.
+
+### 21. Distill from a larger teacher and release v5
+
+Earlier distillation used Qwen2.5-1.5B as its teacher. This stage asks whether a much larger teacher, Qwen2.5-7B, teaches MiniMind ordinary chat any better. Both teachers answered the same 1,000 questions under one fixed prompt: the 7B teacher on a rented RTX 4090, the 1.5B teacher locally. Every answer was screened before use, and the 7B teacher passed more often, 874 versus 605. Part of that gap comes from the strict exact-output rule: among rejected answers, 48 from 7B and 151 from 1.5B differ only in punctuation, case, or spacing.
+
+To compare the teachers fairly, both training sets use only the **561 questions that both teachers passed**, plus the same math, identity, and frozen-v4 retention rows. Two models were trained from v4, each for 1,302 updates in about 3.5 minutes. The 7B answers are shorter, 6,201 versus 8,066 tokens, so this matches questions and updates rather than answer volume. Development data selected the epoch before weights were frozen. Formal evaluation then used 96 new questions in four categories, each under three tool conditions, for 288 responses per model, with thinking and best-of-N disabled.
+
+| Metric | v4 | 1.5B arm | 7B arm, v5 |
+|---|---:|---:|---:|
+| Mean content score, 0–2 | 0.378 | 0.622 | 0.681 |
+| Main request receives a usable response, score 2 | 11.46% | 26.04% | 28.47% |
+| Nonempty, complete response without a tool call | 100% | 99.31% | 100% |
+| Historical strict math, 197 questions | 82.74% | 86.29% | 86.29% |
+| Reworded-tool strict math, 48 questions | 77.08% | 75.00% | 79.17% |
+| Answer prediction loss, 296 examples, lower is better | 2.52263 | 2.52168 | 2.52476 |
+| Fully usable identity responses | 13/14 | 14/14 | 12/14 |
+
+Compared with v4, the 7B arm gains **0.302 ± 0.079** content points, with a 95% interval of **[0.153, 0.455]**, and **17.01 ± 4.19** usable percentage points, with a 95% interval of **[9.03, 25.35]**. All nine predeclared acceptance checks, export consistency, and actual Streamlit UI checks passed, so this model is released as v5. The 1.5B arm also improves on v4, by 14.58 ± 3.97 usable percentage points.
+
+**This does not show that the larger teacher teaches better.** The direct comparison is 0.059 ± 0.039 content points, with a 95% interval of [−0.021, 0.135], and 2.43 ± 1.93 usable percentage points, with a 95% interval of [−1.39, 6.25]. The matched design also leaves the 7B teacher's extra accepted answers unused, so training on all of them remains untested.
+
+Limitations remain substantial: **71.53% of v5's responses are not fully usable**. Most of the gain comes from format-following questions, which rise from 20.8% to 65.3% usable and share templates with the training data. Without them, the gain falls to 7.87 ± 3.98 percentage points, with a 95% interval of [0.46, 15.74]. Explanations stay weakest at 4.2% usable. Identity falls from 13/14 to 12/14, within the allowance of one. Neither math set shows an established gain, and the loss shows no clear change. v4's 11.46% here and 37.50% in stage 19 come from different question sets and cannot be compared. Content received model-assisted review with model and teacher labels hidden, not independent human blind evaluation, and only one training seed was run. In the cloud run, the automatic-shutdown step also failed after results were saved; the instance was shut down manually, and that script needs fixing before another cloud run. See the [larger-teacher report, Chinese](my_eval/results/strong_teacher_20261027/REPORT.md).
 
 ## Model relationships
 
@@ -187,12 +209,13 @@ flowchart LR
     R --> V2[v2: identity retention]
     V2 --> V3[v3: calculator selection]
     V3 --> V4[v4: ordinary chat]
+    V4 --> V5[v5: 7B-teacher distillation]
     MP[MoE pretraining] --> M[MoE SFT]
     P --> W[full_dist: white-box student]
     M -. teacher .-> W
 ```
 
-The local demo retains `MiniMind-SFT`, `MiniMind-MoE`, `MiniMind-Math`, `MiniMind-YuyangLU`, `MiniMind-Official`, `MiniMind-YuyangLU-v2`, `MiniMind-YuyangLU-v3`, and `MiniMind-YuyangLU-v4`. The official model is a separately introduced comparison, not an ancestor of the locally trained models.
+The local demo retains `MiniMind-SFT`, `MiniMind-MoE`, `MiniMind-Math`, `MiniMind-YuyangLU`, `MiniMind-Official`, `MiniMind-YuyangLU-v2`, `MiniMind-YuyangLU-v3`, `MiniMind-YuyangLU-v4`, and `MiniMind-YuyangLU-v5`. The official model is a separately introduced comparison, not an ancestor of the locally trained models.
 
 ## Reading and running the project
 
@@ -221,7 +244,7 @@ After restoring the corresponding weights and dependencies, use `start_demo.bat`
 python -m streamlit run scripts/web_demo.py --server.address 127.0.0.1 --server.port 8501
 ```
 
-Select v4 in the demo; its default generation limit is 384 new tokens, and best-of-N is off by default. Model directories include configuration, vocabulary, and templates. **Weights must be restored separately; cloning the repository alone cannot run inference.** Historical launchers and some helpers retain D-drive paths, which need adjustment on another machine.
+The demo opens on v5; v4 and v5 default to a generation limit of 384 new tokens, and best-of-N is off by default. Model directories include configuration, vocabulary, and templates. **Weights must be restored separately; cloning the repository alone cannot run inference.** Historical launchers and some helpers retain D-drive paths, which need adjustment on another machine.
 
 ## Interpreting the evidence
 

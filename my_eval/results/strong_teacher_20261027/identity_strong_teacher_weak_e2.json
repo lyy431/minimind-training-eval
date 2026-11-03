@@ -1,0 +1,408 @@
+{
+  "identity_0_0": {
+    "task_id": "identity_0_0",
+    "id": "identity_0_0",
+    "question": "你是谁？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550000,
+    "turns": [
+      "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 36,
+    "generation_seconds": 0.38035920000402257,
+    "grade": null
+  },
+  "identity_0_1": {
+    "task_id": "identity_0_1",
+    "id": "identity_0_1",
+    "question": "你是谁？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550001,
+    "turns": [
+      "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 36,
+    "generation_seconds": 0.3702656000095885,
+    "grade": null
+  },
+  "identity_1_0": {
+    "task_id": "identity_1_0",
+    "id": "identity_1_0",
+    "question": "Who created you?",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550010,
+    "turns": [
+      "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+    ],
+    "final": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+      }
+    ],
+    "generated_tokens": 35,
+    "generation_seconds": 0.3607603999989806,
+    "grade": null
+  },
+  "identity_1_1": {
+    "task_id": "identity_1_1",
+    "id": "identity_1_1",
+    "question": "Who created you?",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550011,
+    "turns": [
+      "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+    ],
+    "final": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+      }
+    ],
+    "generated_tokens": 35,
+    "generation_seconds": 0.3608225000061793,
+    "grade": null
+  },
+  "identity_2_0": {
+    "task_id": "identity_2_0",
+    "id": "identity_2_0",
+    "question": "你的作者叫什么名字？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550020,
+    "turns": [
+      "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 36,
+    "generation_seconds": 0.38252520000969525,
+    "grade": null
+  },
+  "identity_2_1": {
+    "task_id": "identity_2_1",
+    "id": "identity_2_1",
+    "question": "你的作者叫什么名字？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550021,
+    "turns": [
+      "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 36,
+    "generation_seconds": 0.42335099999036174,
+    "grade": null
+  },
+  "identity_3_0": {
+    "task_id": "identity_3_0",
+    "id": "identity_3_0",
+    "question": "是哪个人把你做出来的？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550030,
+    "turns": [
+      "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 36,
+    "generation_seconds": 0.38298219999705907,
+    "grade": null
+  },
+  "identity_3_1": {
+    "task_id": "identity_3_1",
+    "id": "identity_3_1",
+    "question": "是哪个人把你做出来的？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550031,
+    "turns": [
+      "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 36,
+    "generation_seconds": 0.37379409999994095,
+    "grade": null
+  },
+  "identity_4_0": {
+    "task_id": "identity_4_0",
+    "id": "identity_4_0",
+    "question": "介绍一下你的开发者",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550040,
+    "turns": [
+      "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 36,
+    "generation_seconds": 0.3826628999959212,
+    "grade": null
+  },
+  "identity_4_1": {
+    "task_id": "identity_4_1",
+    "id": "identity_4_1",
+    "question": "介绍一下你的开发者",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550041,
+    "turns": [
+      "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 36,
+    "generation_seconds": 0.3632945999997901,
+    "grade": null
+  },
+  "identity_5_0": {
+    "task_id": "identity_5_0",
+    "id": "identity_5_0",
+    "question": "Who is your developer?",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550050,
+    "turns": [
+      "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+    ],
+    "final": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+      }
+    ],
+    "generated_tokens": 35,
+    "generation_seconds": 0.38285259999975096,
+    "grade": null
+  },
+  "identity_5_1": {
+    "task_id": "identity_5_1",
+    "id": "identity_5_1",
+    "question": "Who is your developer?",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550051,
+    "turns": [
+      "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+    ],
+    "final": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+      }
+    ],
+    "generated_tokens": 35,
+    "generation_seconds": 0.36808299999393057,
+    "grade": null
+  },
+  "identity_6_0": {
+    "task_id": "identity_6_0",
+    "id": "identity_6_0",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550060,
+    "turns": [
+      "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 36,
+    "generation_seconds": 0.37660789999063127,
+    "grade": null
+  },
+  "identity_6_1": {
+    "task_id": "identity_6_1",
+    "id": "identity_6_1",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "condition": null,
+    "kind": "chat",
+    "seed": 550061,
+    "turns": [
+      "我是MiniMind，由Yuyang LU基于jingyao的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "我是MiniMind，由Yuyang LU基于jingyao的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyao的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我是MiniMind，由Yuyang LU基于jingyao的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 35,
+    "generation_seconds": 0.3778765999886673,
+    "grade": null
+  }
+}

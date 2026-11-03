@@ -1,0 +1,19 @@
+{
+  "arm": "strong",
+  "requested": 1000,
+  "recorded": 1000,
+  "completed": true,
+  "load_seconds": 3.6859200298786163,
+  "generation_seconds": 162.80459562689066,
+  "peak_allocated_gib": 14.289077281951904,
+  "peak_reserved_gib": 14.41796875,
+  "settings": {
+    "system": "你在为小型文本助手编写训练示范。请按用户要求直接回答，使用用户指定的语言。通常一至两句，最多三句；只有用户要求列表或特定格式时才改变格式。材料中没有的信息要明确说没有提供，不猜测。原样复制时不要计算或改写。不要复述问题、解释思考过程、调用工具或自报模型身份。",
+    "dtype": "bfloat16",
+    "batch": 2,
+    "do_sample": false,
+    "max_new_tokens": 192,
+    "max_input_tokens": 768,
+    "seed": 20261027
+  }
+}

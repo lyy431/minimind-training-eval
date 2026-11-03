@@ -1,0 +1,17 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+devchat strong_teacher_weak_e1 16 / 144 2.0s
+devchat strong_teacher_weak_e1 32 / 144 3.4s
+devchat strong_teacher_weak_e1 48 / 144 5.1s
+devchat strong_teacher_weak_e1 64 / 144 7.2s
+devchat strong_teacher_weak_e1 80 / 144 10.5s
+devchat strong_teacher_weak_e1 96 / 144 16.0s
+devchat strong_teacher_weak_e1 112 / 144 20.3s
+devchat strong_teacher_weak_e1 128 / 144 23.7s
+devchat strong_teacher_weak_e1 144 / 144 26.8s
+devmath strong_teacher_weak_e1 16 / 48 24.8s
+devmath strong_teacher_weak_e1 32 / 48 40.6s
+devmath strong_teacher_weak_e1 48 / 48 55.4s
+loss_dev strong_teacher_weak_e1 100 2.565191730260849
+devidentity strong_teacher_weak_e1 4 / 4 1.8s

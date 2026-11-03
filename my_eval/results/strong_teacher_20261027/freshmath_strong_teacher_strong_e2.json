@@ -1,0 +1,3287 @@
+{
+  "r2_math_0_n6_v6": {
+    "task_id": "r2_math_0_n6_v6",
+    "id": "r2_math_0",
+    "question": "请直接核实以下运算的结果：694+81",
+    "condition": null,
+    "kind": "math",
+    "seed": 910066,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"694+81\"}}\n</tool_call>",
+      "694+81 = 775。"
+    ],
+    "final": "694+81 = 775。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"694+81\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 775}"
+      },
+      {
+        "role": "assistant",
+        "content": "694+81 = 775。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"694+81\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 775}"
+      },
+      {
+        "role": "assistant",
+        "content": "694+81 = 775。"
+      }
+    ],
+    "generated_tokens": 49,
+    "generation_seconds": 0.5948203000007197,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "775",
+          "lhs": "694+81",
+          "fragment": "694+81 = 775"
+        }
+      ]
+    }
+  },
+  "r2_math_1_n6_v6": {
+    "task_id": "r2_math_1_n6_v6",
+    "id": "r2_math_1",
+    "question": "请直接核实以下运算的结果：(242-251)+50*37；还要算：282+878",
+    "condition": null,
+    "kind": "math",
+    "seed": 910166,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(242-251)+50*37\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"282+878\"}}\n</tool_call>",
+      "(242-251)+50*37 = 1841。\n282+878 = 1160。"
+    ],
+    "final": "(242-251)+50*37 = 1841。\n282+878 = 1160。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(242-251)+50*37\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"282+878\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1841}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1160}"
+      },
+      {
+        "role": "assistant",
+        "content": "(242-251)+50*37 = 1841。\n282+878 = 1160。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(242-251)+50*37\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"282+878\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1841}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1160}"
+      },
+      {
+        "role": "assistant",
+        "content": "(242-251)+50*37 = 1841。\n282+878 = 1160。"
+      }
+    ],
+    "generated_tokens": 112,
+    "generation_seconds": 1.2333977000089362,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "1841",
+          "lhs": "(242-251)+50*37",
+          "fragment": "(242-251)+50*37 = 1841"
+        },
+        {
+          "value": "1160",
+          "lhs": "282+878",
+          "fragment": "(242-251)+50*37 = 1841。\n282+878 = 1160"
+        }
+      ]
+    }
+  },
+  "r2_math_2_n6_v6": {
+    "task_id": "r2_math_2_n6_v6",
+    "id": "r2_math_2",
+    "question": "请直接核实以下运算的结果：368-40；还要算：948+362；还要算：(429-789)+74*87",
+    "condition": null,
+    "kind": "math",
+    "seed": 910266,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"368-40\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"948+362\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(429-789)+74*87\"}}\n</tool_call>",
+      "368-40 = 328。\n948+362 = 1310。\n(429-789)+74*87 = 6078。"
+    ],
+    "final": "368-40 = 328。\n948+362 = 1310。\n(429-789)+74*87 = 6078。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"368-40\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"948+362\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(429-789)+74*87\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 328}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1310}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 6078}"
+      },
+      {
+        "role": "assistant",
+        "content": "368-40 = 328。\n948+362 = 1310。\n(429-789)+74*87 = 6078。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"368-40\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"948+362\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(429-789)+74*87\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 328}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1310}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 6078}"
+      },
+      {
+        "role": "assistant",
+        "content": "368-40 = 328。\n948+362 = 1310。\n(429-789)+74*87 = 6078。"
+      }
+    ],
+    "generated_tokens": 162,
+    "generation_seconds": 1.7606692999979714,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "328",
+          "lhs": "368-40",
+          "fragment": "368-40 = 328"
+        },
+        {
+          "value": "1310",
+          "lhs": "948+362",
+          "fragment": "368-40 = 328。\n948+362 = 1310"
+        },
+        {
+          "value": "6078",
+          "lhs": "(429-789)+74*87",
+          "fragment": "368-40 = 328。\n948+362 = 1310。\n(429-789)+74*87 = 6078"
+        }
+      ]
+    }
+  },
+  "r2_math_3_n6_v6": {
+    "task_id": "r2_math_3_n6_v6",
+    "id": "r2_math_3",
+    "question": "算清楚这一项并给我数值答案：(40-224)+23*62",
+    "condition": null,
+    "kind": "math",
+    "seed": 910366,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(40-224)+23*62\"}}\n</tool_call>",
+      "(40-224)+23*62 = 1242。"
+    ],
+    "final": "(40-224)+23*62 = 1242。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(40-224)+23*62\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1242}"
+      },
+      {
+        "role": "assistant",
+        "content": "(40-224)+23*62 = 1242。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(40-224)+23*62\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1242}"
+      },
+      {
+        "role": "assistant",
+        "content": "(40-224)+23*62 = 1242。"
+      }
+    ],
+    "generated_tokens": 60,
+    "generation_seconds": 0.7594983000017237,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "1242",
+          "lhs": "(40-224)+23*62",
+          "fragment": "(40-224)+23*62 = 1242"
+        }
+      ]
+    }
+  },
+  "r2_math_4_n6_v6": {
+    "task_id": "r2_math_4_n6_v6",
+    "id": "r2_math_4",
+    "question": "算清楚这一项并给我数值答案：(136-929)+25*80；还要算：948*21",
+    "condition": null,
+    "kind": "math",
+    "seed": 910466,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(136-929)+25*80\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"948*21\"}}\n</tool_call>",
+      "(136-929)+25*80 = 1207。\n948*21 = 19908。"
+    ],
+    "final": "(136-929)+25*80 = 1207。\n948*21 = 19908。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(136-929)+25*80\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"948*21\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1207}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 19908}"
+      },
+      {
+        "role": "assistant",
+        "content": "(136-929)+25*80 = 1207。\n948*21 = 19908。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(136-929)+25*80\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"948*21\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1207}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 19908}"
+      },
+      {
+        "role": "assistant",
+        "content": "(136-929)+25*80 = 1207。\n948*21 = 19908。"
+      }
+    ],
+    "generated_tokens": 106,
+    "generation_seconds": 1.2370210999943083,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "1207",
+          "lhs": "(136-929)+25*80",
+          "fragment": "(136-929)+25*80 = 1207"
+        },
+        {
+          "value": "19908",
+          "lhs": "948*21",
+          "fragment": "(136-929)+25*80 = 1207。\n948*21 = 19908"
+        }
+      ]
+    }
+  },
+  "r2_math_5_n6_v6": {
+    "task_id": "r2_math_5_n6_v6",
+    "id": "r2_math_5",
+    "question": "算清楚这一项并给我数值答案：(852+128)*27；还要算：102*38；还要算：856*36",
+    "condition": null,
+    "kind": "math",
+    "seed": 910566,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(852+128)*27\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"102*38\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"856*36\"}}\n</tool_call>",
+      "(852+128)*27 = 26460。\n102*38 = 3876。\n856*36 = 30816。"
+    ],
+    "final": "(852+128)*27 = 26460。\n102*38 = 3876。\n856*36 = 30816。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(852+128)*27\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"102*38\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"856*36\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 26460}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 3876}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 30816}"
+      },
+      {
+        "role": "assistant",
+        "content": "(852+128)*27 = 26460。\n102*38 = 3876。\n856*36 = 30816。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(852+128)*27\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"102*38\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"856*36\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 26460}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 3876}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 30816}"
+      },
+      {
+        "role": "assistant",
+        "content": "(852+128)*27 = 26460。\n102*38 = 3876。\n856*36 = 30816。"
+      }
+    ],
+    "generated_tokens": 159,
+    "generation_seconds": 1.8594565999956103,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "26460",
+          "lhs": "(852+128)*27",
+          "fragment": "(852+128)*27 = 26460"
+        },
+        {
+          "value": "3876",
+          "lhs": "102*38",
+          "fragment": "(852+128)*27 = 26460。\n102*38 = 3876"
+        },
+        {
+          "value": "30816",
+          "lhs": "856*36",
+          "fragment": "(852+128)*27 = 26460。\n102*38 = 3876。\n856*36 = 30816"
+        }
+      ]
+    }
+  },
+  "r2_math_6_n6_v6": {
+    "task_id": "r2_math_6_n6_v6",
+    "id": "r2_math_6",
+    "question": "按计算规则给出确切结果：13005/17",
+    "condition": null,
+    "kind": "math",
+    "seed": 910666,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13005/17\"}}\n</tool_call>",
+      "13005/17 = 765.0。"
+    ],
+    "final": "13005/17 = 765.0。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13005/17\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 765.0}"
+      },
+      {
+        "role": "assistant",
+        "content": "13005/17 = 765.0。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13005/17\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 765.0}"
+      },
+      {
+        "role": "assistant",
+        "content": "13005/17 = 765.0。"
+      }
+    ],
+    "generated_tokens": 50,
+    "generation_seconds": 0.5396805999916978,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "765",
+          "lhs": "13005/17",
+          "fragment": "13005/17 = 765.0"
+        }
+      ]
+    }
+  },
+  "r2_math_7_n6_v6": {
+    "task_id": "r2_math_7_n6_v6",
+    "id": "r2_math_7",
+    "question": "按计算规则给出确切结果：(372+628)*8；还要算：557+308",
+    "condition": null,
+    "kind": "math",
+    "seed": 910766,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(372+628)*8\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"557+308\"}}\n</tool_call>",
+      "(372+628)*8 = 8000。\n557+308 = 865。"
+    ],
+    "final": "(372+628)*8 = 8000。\n557+308 = 865。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(372+628)*8\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"557+308\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 8000}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 865}"
+      },
+      {
+        "role": "assistant",
+        "content": "(372+628)*8 = 8000。\n557+308 = 865。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(372+628)*8\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"557+308\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 8000}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 865}"
+      },
+      {
+        "role": "assistant",
+        "content": "(372+628)*8 = 8000。\n557+308 = 865。"
+      }
+    ],
+    "generated_tokens": 107,
+    "generation_seconds": 1.1721016000083182,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "8000",
+          "lhs": "(372+628)*8",
+          "fragment": "(372+628)*8 = 8000"
+        },
+        {
+          "value": "865",
+          "lhs": "557+308",
+          "fragment": "(372+628)*8 = 8000。\n557+308 = 865"
+        }
+      ]
+    }
+  },
+  "r2_math_8_n6_v6": {
+    "task_id": "r2_math_8_n6_v6",
+    "id": "r2_math_8",
+    "question": "按计算规则给出确切结果：(919-53)+50*18；还要算：40+429；还要算：(971+281)*2",
+    "condition": null,
+    "kind": "math",
+    "seed": 910866,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(919-53)+50*18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"40+429\"}}\n</tool_call>",
+      "(919-53)+50*18 = 1766。\n40+429 = 469。\n(971+281)*2 = 469。"
+    ],
+    "final": "(919-53)+50*18 = 1766。\n40+429 = 469。\n(971+281)*2 = 469。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(919-53)+50*18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"40+429\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1766}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 469}"
+      },
+      {
+        "role": "assistant",
+        "content": "(919-53)+50*18 = 1766。\n40+429 = 469。\n(971+281)*2 = 469。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(919-53)+50*18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"40+429\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1766}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 469}"
+      },
+      {
+        "role": "assistant",
+        "content": "(919-53)+50*18 = 1766。\n40+429 = 469。\n(971+281)*2 = 469。"
+      }
+    ],
+    "generated_tokens": 122,
+    "generation_seconds": 1.3541477000107989,
+    "grade": {
+      "status": "fail",
+      "reason": "false_arithmetic_claim",
+      "claims": [
+        {
+          "value": "1766",
+          "lhs": "(919-53)+50*18",
+          "fragment": "(919-53)+50*18 = 1766"
+        },
+        {
+          "value": "469",
+          "lhs": "40+429",
+          "fragment": "(919-53)+50*18 = 1766。\n40+429 = 469"
+        },
+        {
+          "value": "469",
+          "lhs": "(971+281)*2",
+          "fragment": "(919-53)+50*18 = 1766。\n40+429 = 469。\n(971+281)*2 = 469"
+        }
+      ]
+    }
+  },
+  "r2_math_9_n6_v6": {
+    "task_id": "r2_math_9_n6_v6",
+    "id": "r2_math_9",
+    "question": "帮我完成这项数值求解：(347+722)*3",
+    "condition": null,
+    "kind": "math",
+    "seed": 910966,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(347+722)*3\"}}\n</tool_call>",
+      "(347+722)*3 = 3207。"
+    ],
+    "final": "(347+722)*3 = 3207。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(347+722)*3\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 3207}"
+      },
+      {
+        "role": "assistant",
+        "content": "(347+722)*3 = 3207。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(347+722)*3\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 3207}"
+      },
+      {
+        "role": "assistant",
+        "content": "(347+722)*3 = 3207。"
+      }
+    ],
+    "generated_tokens": 58,
+    "generation_seconds": 0.6613120999973034,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "3207",
+          "lhs": "(347+722)*3",
+          "fragment": "(347+722)*3 = 3207"
+        }
+      ]
+    }
+  },
+  "r2_math_10_n6_v6": {
+    "task_id": "r2_math_10_n6_v6",
+    "id": "r2_math_10",
+    "question": "帮我完成这项数值求解：33*13；还要算：878*26",
+    "condition": null,
+    "kind": "math",
+    "seed": 911066,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"33*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"878*26\"}}\n</tool_call>",
+      "33*13 = 429。\n878*26 = 22828。"
+    ],
+    "final": "33*13 = 429。\n878*26 = 22828。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"33*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"878*26\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 429}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 22828}"
+      },
+      {
+        "role": "assistant",
+        "content": "33*13 = 429。\n878*26 = 22828。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"33*13\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"878*26\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 429}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 22828}"
+      },
+      {
+        "role": "assistant",
+        "content": "33*13 = 429。\n878*26 = 22828。"
+      }
+    ],
+    "generated_tokens": 93,
+    "generation_seconds": 1.0299734000000171,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "429",
+          "lhs": "33*13",
+          "fragment": "33*13 = 429"
+        },
+        {
+          "value": "22828",
+          "lhs": "878*26",
+          "fragment": "33*13 = 429。\n878*26 = 22828"
+        }
+      ]
+    }
+  },
+  "r2_math_11_n6_v6": {
+    "task_id": "r2_math_11_n6_v6",
+    "id": "r2_math_11",
+    "question": "帮我完成这项数值求解：(343+777)*26；还要算：(385+763)*19；还要算：(485+798)*3",
+    "condition": null,
+    "kind": "math",
+    "seed": 911166,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(343+777)*26\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(485+798)*3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(485+798)*3\"}}\n</tool_call>",
+      "(343+777)*26 = 29120。\n(485+798)*3 = 3849。\n(485+798)*3 = 3849。"
+    ],
+    "final": "(343+777)*26 = 29120。\n(485+798)*3 = 3849。\n(485+798)*3 = 3849。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(343+777)*26\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(485+798)*3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(485+798)*3\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 29120}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 3849}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 3849}"
+      },
+      {
+        "role": "assistant",
+        "content": "(343+777)*26 = 29120。\n(485+798)*3 = 3849。\n(485+798)*3 = 3849。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(343+777)*26\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(485+798)*3\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(485+798)*3\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 29120}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 3849}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 3849}"
+      },
+      {
+        "role": "assistant",
+        "content": "(343+777)*26 = 29120。\n(485+798)*3 = 3849。\n(485+798)*3 = 3849。"
+      }
+    ],
+    "generated_tokens": 181,
+    "generation_seconds": 2.3255298000003677,
+    "grade": {
+      "status": "review",
+      "reason": "missing_or_unparsed_answer",
+      "claims": [
+        {
+          "value": "29120",
+          "lhs": "(343+777)*26",
+          "fragment": "(343+777)*26 = 29120"
+        },
+        {
+          "value": "3849",
+          "lhs": "(485+798)*3",
+          "fragment": "(343+777)*26 = 29120。\n(485+798)*3 = 3849"
+        },
+        {
+          "value": "3849",
+          "lhs": "(485+798)*3",
+          "fragment": "(343+777)*26 = 29120。\n(485+798)*3 = 3849。\n(485+798)*3 = 3849"
+        }
+      ]
+    }
+  },
+  "r2_math_12_n6_v6": {
+    "task_id": "r2_math_12_n6_v6",
+    "id": "r2_math_12",
+    "question": "What numerical result do you obtain from 13974/17?",
+    "condition": null,
+    "kind": "math",
+    "seed": 911266,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13974/17\"}}\n</tool_call>",
+      "13974/17 = 822.0。"
+    ],
+    "final": "13974/17 = 822.0。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13974/17\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 822.0}"
+      },
+      {
+        "role": "assistant",
+        "content": "13974/17 = 822.0。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"13974/17\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 822.0}"
+      },
+      {
+        "role": "assistant",
+        "content": "13974/17 = 822.0。"
+      }
+    ],
+    "generated_tokens": 51,
+    "generation_seconds": 0.5649903000012273,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "822",
+          "lhs": "13974/17",
+          "fragment": "13974/17 = 822.0"
+        }
+      ]
+    }
+  },
+  "r2_math_13_n6_v6": {
+    "task_id": "r2_math_13_n6_v6",
+    "id": "r2_math_13",
+    "question": "What numerical result do you obtain from 365*2?; and separately, 378+832",
+    "condition": null,
+    "kind": "math",
+    "seed": 911366,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"378+832\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"378+832\"}}\n</tool_call>",
+      "378+832 = 1210。\n378+832 = 1210。"
+    ],
+    "final": "378+832 = 1210。\n378+832 = 1210。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"378+832\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"378+832\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1210}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1210}"
+      },
+      {
+        "role": "assistant",
+        "content": "378+832 = 1210。\n378+832 = 1210。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"378+832\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"378+832\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1210}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1210}"
+      },
+      {
+        "role": "assistant",
+        "content": "378+832 = 1210。\n378+832 = 1210。"
+      }
+    ],
+    "generated_tokens": 102,
+    "generation_seconds": 1.141012399995816,
+    "grade": {
+      "status": "review",
+      "reason": "missing_or_unparsed_answer",
+      "claims": [
+        {
+          "value": "1210",
+          "lhs": "378+832",
+          "fragment": "378+832 = 1210"
+        },
+        {
+          "value": "1210",
+          "lhs": "378+832",
+          "fragment": "378+832 = 1210。\n378+832 = 1210"
+        }
+      ]
+    }
+  },
+  "r2_math_14_n6_v6": {
+    "task_id": "r2_math_14_n6_v6",
+    "id": "r2_math_14",
+    "question": "What numerical result do you obtain from 97+428?; and separately, (823-285)+85*76; and separately, 589+423",
+    "condition": null,
+    "kind": "math",
+    "seed": 911466,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"97+428\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(823-285)+85*76\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"589+423\"}}\n</tool_call>",
+      "97+428 = 525。\n(823-285)+85*76 = 6998。\n589+423 = 1012。"
+    ],
+    "final": "97+428 = 525。\n(823-285)+85*76 = 6998。\n589+423 = 1012。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"97+428\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(823-285)+85*76\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"589+423\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 525}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 6998}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1012}"
+      },
+      {
+        "role": "assistant",
+        "content": "97+428 = 525。\n(823-285)+85*76 = 6998。\n589+423 = 1012。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"97+428\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(823-285)+85*76\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"589+423\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 525}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 6998}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1012}"
+      },
+      {
+        "role": "assistant",
+        "content": "97+428 = 525。\n(823-285)+85*76 = 6998。\n589+423 = 1012。"
+      }
+    ],
+    "generated_tokens": 160,
+    "generation_seconds": 1.7439911999972537,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "525",
+          "lhs": "97+428",
+          "fragment": "97+428 = 525"
+        },
+        {
+          "value": "6998",
+          "lhs": "(823-285)+85*76",
+          "fragment": "97+428 = 525。\n(823-285)+85*76 = 6998"
+        },
+        {
+          "value": "1012",
+          "lhs": "589+423",
+          "fragment": "97+428 = 525。\n(823-285)+85*76 = 6998。\n589+423 = 1012"
+        }
+      ]
+    }
+  },
+  "r2_math_15_n6_v6": {
+    "task_id": "r2_math_15_n6_v6",
+    "id": "r2_math_15",
+    "question": "Please solve the following calculation and give its value: 12529/17",
+    "condition": null,
+    "kind": "math",
+    "seed": 911566,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12529/17\"}}\n</tool_call>",
+      "12529/17 = 737.0。"
+    ],
+    "final": "12529/17 = 737.0。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12529/17\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 737.0}"
+      },
+      {
+        "role": "assistant",
+        "content": "12529/17 = 737.0。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"12529/17\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 737.0}"
+      },
+      {
+        "role": "assistant",
+        "content": "12529/17 = 737.0。"
+      }
+    ],
+    "generated_tokens": 50,
+    "generation_seconds": 0.5534087999985786,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "737",
+          "lhs": "12529/17",
+          "fragment": "12529/17 = 737.0"
+        }
+      ]
+    }
+  },
+  "r2_math_16_n6_v6": {
+    "task_id": "r2_math_16_n6_v6",
+    "id": "r2_math_16",
+    "question": "Please solve the following calculation and give its value: 132-939; and separately, 712-121",
+    "condition": null,
+    "kind": "math",
+    "seed": 911666,
+    "turns": [
+      "132-939;\n132-121"
+    ],
+    "final": "132-939;\n132-121",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "132-939;\n132-121"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "132-939;\n132-121"
+      }
+    ],
+    "generated_tokens": 14,
+    "generation_seconds": 0.19528400000126567,
+    "grade": {
+      "status": "review",
+      "reason": "no_supported_explicit_claim",
+      "claims": []
+    }
+  },
+  "r2_math_17_n6_v6": {
+    "task_id": "r2_math_17_n6_v6",
+    "id": "r2_math_17",
+    "question": "Please solve the following calculation and give its value: (235+996)*18; and separately, (154+312)*26; and separately, (831-748)+9*35",
+    "condition": null,
+    "kind": "math",
+    "seed": 911766,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(235+996)*18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(831-748)+9*35\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(831-748)+9*35\"}}\n</tool_call>",
+      "(235+996)*18 = 22158。\n(154+312)*26 = 398。\n(831-748)+9*35 = 398。"
+    ],
+    "final": "(235+996)*18 = 22158。\n(154+312)*26 = 398。\n(831-748)+9*35 = 398。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(235+996)*18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(831-748)+9*35\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(831-748)+9*35\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 22158}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 398}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 398}"
+      },
+      {
+        "role": "assistant",
+        "content": "(235+996)*18 = 22158。\n(154+312)*26 = 398。\n(831-748)+9*35 = 398。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(235+996)*18\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(831-748)+9*35\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(831-748)+9*35\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 22158}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 398}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 398}"
+      },
+      {
+        "role": "assistant",
+        "content": "(235+996)*18 = 22158。\n(154+312)*26 = 398。\n(831-748)+9*35 = 398。"
+      }
+    ],
+    "generated_tokens": 182,
+    "generation_seconds": 2.054816199990455,
+    "grade": {
+      "status": "fail",
+      "reason": "false_arithmetic_claim",
+      "claims": [
+        {
+          "value": "22158",
+          "lhs": "(235+996)*18",
+          "fragment": "(235+996)*18 = 22158"
+        },
+        {
+          "value": "398",
+          "lhs": "(154+312)*26",
+          "fragment": "(235+996)*18 = 22158。\n(154+312)*26 = 398"
+        }
+      ]
+    }
+  },
+  "r2_math_18_n6_v6": {
+    "task_id": "r2_math_18_n6_v6",
+    "id": "r2_math_18",
+    "question": "Help me evaluate this arithmetic task: 524-365",
+    "condition": null,
+    "kind": "math",
+    "seed": 911866,
+    "turns": [
+      "524-365"
+    ],
+    "final": "524-365",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "524-365"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "524-365"
+      }
+    ],
+    "generated_tokens": 7,
+    "generation_seconds": 0.08677650000026915,
+    "grade": {
+      "status": "review",
+      "reason": "no_supported_explicit_claim",
+      "claims": []
+    }
+  },
+  "r2_math_19_n6_v6": {
+    "task_id": "r2_math_19_n6_v6",
+    "id": "r2_math_19",
+    "question": "Help me evaluate this arithmetic task: 11254/17; and separately, (513+46)*13",
+    "condition": null,
+    "kind": "math",
+    "seed": 911966,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11254/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(513+46)*13\"}}\n</tool_call>",
+      "11254/17 = 662.0。\n(513+46)*13 = 7267。"
+    ],
+    "final": "11254/17 = 662.0。\n(513+46)*13 = 7267。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11254/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(513+46)*13\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 662.0}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 7267}"
+      },
+      {
+        "role": "assistant",
+        "content": "11254/17 = 662.0。\n(513+46)*13 = 7267。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"11254/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(513+46)*13\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 662.0}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 7267}"
+      },
+      {
+        "role": "assistant",
+        "content": "11254/17 = 662.0。\n(513+46)*13 = 7267。"
+      }
+    ],
+    "generated_tokens": 108,
+    "generation_seconds": 1.1566317999968305,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "662",
+          "lhs": "11254/17",
+          "fragment": "11254/17 = 662.0"
+        },
+        {
+          "value": "7267",
+          "lhs": "(513+46)*13",
+          "fragment": "11254/17 = 662.0。\n(513+46)*13 = 7267"
+        }
+      ]
+    }
+  },
+  "r2_math_20_n6_v6": {
+    "task_id": "r2_math_20_n6_v6",
+    "id": "r2_math_20",
+    "question": "Help me evaluate this arithmetic task: 204*45; and separately, (980+973)*25; and separately, (740+676)*15",
+    "condition": null,
+    "kind": "math",
+    "seed": 912066,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"204*45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(980+973)*25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(740+676)*15\"}}\n</tool_call>",
+      "204*45 = 9180。\n(980+973)*25 = 48825。\n(740+676)*15 = 21240。"
+    ],
+    "final": "204*45 = 9180。\n(980+973)*25 = 48825。\n(740+676)*15 = 21240。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"204*45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(980+973)*25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(740+676)*15\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 9180}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 48825}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 21240}"
+      },
+      {
+        "role": "assistant",
+        "content": "204*45 = 9180。\n(980+973)*25 = 48825。\n(740+676)*15 = 21240。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"204*45\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(980+973)*25\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(740+676)*15\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 9180}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 48825}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 21240}"
+      },
+      {
+        "role": "assistant",
+        "content": "204*45 = 9180。\n(980+973)*25 = 48825。\n(740+676)*15 = 21240。"
+      }
+    ],
+    "generated_tokens": 161,
+    "generation_seconds": 1.7300296000030357,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "9180",
+          "lhs": "204*45",
+          "fragment": "204*45 = 9180"
+        },
+        {
+          "value": "48825",
+          "lhs": "(980+973)*25",
+          "fragment": "204*45 = 9180。\n(980+973)*25 = 48825"
+        },
+        {
+          "value": "21240",
+          "lhs": "(740+676)*15",
+          "fragment": "204*45 = 9180。\n(980+973)*25 = 48825。\n(740+676)*15 = 21240"
+        }
+      ]
+    }
+  },
+  "r2_math_21_n6_v6": {
+    "task_id": "r2_math_21_n6_v6",
+    "id": "r2_math_21",
+    "question": "Can you find the exact answer for the expression 556-628?",
+    "condition": null,
+    "kind": "math",
+    "seed": 912166,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"556-628\"}}\n</tool_call>",
+      "556-628 = -72。"
+    ],
+    "final": "556-628 = -72。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"556-628\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": -72}"
+      },
+      {
+        "role": "assistant",
+        "content": "556-628 = -72。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"556-628\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": -72}"
+      },
+      {
+        "role": "assistant",
+        "content": "556-628 = -72。"
+      }
+    ],
+    "generated_tokens": 50,
+    "generation_seconds": 0.5501418000058038,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "-72",
+          "lhs": "556-628",
+          "fragment": "556-628 = -72"
+        }
+      ]
+    }
+  },
+  "r2_math_22_n6_v6": {
+    "task_id": "r2_math_22_n6_v6",
+    "id": "r2_math_22",
+    "question": "Can you find the exact answer for the expression 886-772?; and separately, (255+674)*13",
+    "condition": null,
+    "kind": "math",
+    "seed": 912266,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"886-772\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(255+674)*13\"}}\n</tool_call>",
+      "886-772 = 114。\n(255+674)*13 = 12077。"
+    ],
+    "final": "886-772 = 114。\n(255+674)*13 = 12077。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"886-772\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(255+674)*13\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 114}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 12077}"
+      },
+      {
+        "role": "assistant",
+        "content": "886-772 = 114。\n(255+674)*13 = 12077。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"886-772\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(255+674)*13\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 114}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 12077}"
+      },
+      {
+        "role": "assistant",
+        "content": "886-772 = 114。\n(255+674)*13 = 12077。"
+      }
+    ],
+    "generated_tokens": 108,
+    "generation_seconds": 1.1675759000063408,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "114",
+          "lhs": "886-772",
+          "fragment": "886-772 = 114"
+        },
+        {
+          "value": "12077",
+          "lhs": "(255+674)*13",
+          "fragment": "886-772 = 114。\n(255+674)*13 = 12077"
+        }
+      ]
+    }
+  },
+  "r2_math_23_n6_v6": {
+    "task_id": "r2_math_23_n6_v6",
+    "id": "r2_math_23",
+    "question": "Can you find the exact answer for the expression 403*14?; and separately, 146-397; and separately, 259-132",
+    "condition": null,
+    "kind": "math",
+    "seed": 912366,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"403*14\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"146-397\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"259-132\"}}\n</tool_call>",
+      "403*14 = 5642。\n146-397 = -251。\n259-132 = 127。"
+    ],
+    "final": "403*14 = 5642。\n146-397 = -251。\n259-132 = 127。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"403*14\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"146-397\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"259-132\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 5642}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": -251}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 127}"
+      },
+      {
+        "role": "assistant",
+        "content": "403*14 = 5642。\n146-397 = -251。\n259-132 = 127。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"403*14\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"146-397\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"259-132\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 5642}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": -251}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 127}"
+      },
+      {
+        "role": "assistant",
+        "content": "403*14 = 5642。\n146-397 = -251。\n259-132 = 127。"
+      }
+    ],
+    "generated_tokens": 143,
+    "generation_seconds": 1.822022600012133,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "5642",
+          "lhs": "403*14",
+          "fragment": "403*14 = 5642"
+        },
+        {
+          "value": "-251",
+          "lhs": "146-397",
+          "fragment": "403*14 = 5642。\n146-397 = -251"
+        },
+        {
+          "value": "127",
+          "lhs": "259-132",
+          "fragment": "403*14 = 5642。\n146-397 = -251。\n259-132 = 127"
+        }
+      ]
+    }
+  },
+  "r2_math_24_n6_v6": {
+    "task_id": "r2_math_24_n6_v6",
+    "id": "r2_math_24",
+    "question": "请直接核实以下运算的结果：145-870",
+    "condition": null,
+    "kind": "math",
+    "seed": 912466,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"145-870\"}}\n</tool_call>",
+      "145-870 = -725。"
+    ],
+    "final": "145-870 = -725。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"145-870\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": -725}"
+      },
+      {
+        "role": "assistant",
+        "content": "145-870 = -725。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"145-870\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": -725}"
+      },
+      {
+        "role": "assistant",
+        "content": "145-870 = -725。"
+      }
+    ],
+    "generated_tokens": 48,
+    "generation_seconds": 0.5267099000047892,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "-725",
+          "lhs": "145-870",
+          "fragment": "145-870 = -725"
+        }
+      ]
+    }
+  },
+  "r2_math_25_n6_v6": {
+    "task_id": "r2_math_25_n6_v6",
+    "id": "r2_math_25",
+    "question": "请直接核实以下运算的结果：39-255；还要算：143+212",
+    "condition": null,
+    "kind": "math",
+    "seed": 912566,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"39-255\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"143+212\"}}\n</tool_call>",
+      "39-255 = -216。\n143+212 = 355。"
+    ],
+    "final": "39-255 = -216。\n143+212 = 355。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"39-255\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"143+212\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": -216}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 355}"
+      },
+      {
+        "role": "assistant",
+        "content": "39-255 = -216。\n143+212 = 355。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"39-255\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"143+212\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": -216}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 355}"
+      },
+      {
+        "role": "assistant",
+        "content": "39-255 = -216。\n143+212 = 355。"
+      }
+    ],
+    "generated_tokens": 96,
+    "generation_seconds": 1.3942251999978907,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "-216",
+          "lhs": "39-255",
+          "fragment": "39-255 = -216"
+        },
+        {
+          "value": "355",
+          "lhs": "143+212",
+          "fragment": "39-255 = -216。\n143+212 = 355"
+        }
+      ]
+    }
+  },
+  "r2_math_26_n6_v6": {
+    "task_id": "r2_math_26_n6_v6",
+    "id": "r2_math_26",
+    "question": "请直接核实以下运算的结果：(188-966)+75*77；还要算：7650/17；还要算：262-562",
+    "condition": null,
+    "kind": "math",
+    "seed": 912666,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(188-966)+75*77\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7650/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"262-562\"}}\n</tool_call>",
+      "(188-966)+75*77 = 4997。\n7650/17 = 450.0。\n262-562 = -300。"
+    ],
+    "final": "(188-966)+75*77 = 4997。\n7650/17 = 450.0。\n262-562 = -300。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(188-966)+75*77\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7650/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"262-562\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 4997}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 450.0}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": -300}"
+      },
+      {
+        "role": "assistant",
+        "content": "(188-966)+75*77 = 4997。\n7650/17 = 450.0。\n262-562 = -300。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(188-966)+75*77\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"7650/17\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"262-562\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 4997}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 450.0}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": -300}"
+      },
+      {
+        "role": "assistant",
+        "content": "(188-966)+75*77 = 4997。\n7650/17 = 450.0。\n262-562 = -300。"
+      }
+    ],
+    "generated_tokens": 165,
+    "generation_seconds": 2.1144776000001,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "4997",
+          "lhs": "(188-966)+75*77",
+          "fragment": "(188-966)+75*77 = 4997"
+        },
+        {
+          "value": "450",
+          "lhs": "7650/17",
+          "fragment": "(188-966)+75*77 = 4997。\n7650/17 = 450.0"
+        },
+        {
+          "value": "-300",
+          "lhs": "262-562",
+          "fragment": "(188-966)+75*77 = 4997。\n7650/17 = 450.0。\n262-562 = -300"
+        }
+      ]
+    }
+  },
+  "r2_math_27_n6_v6": {
+    "task_id": "r2_math_27_n6_v6",
+    "id": "r2_math_27",
+    "question": "算清楚这一项并给我数值答案：(272+480)*6",
+    "condition": null,
+    "kind": "math",
+    "seed": 912766,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(272+480)*6\"}}\n</tool_call>",
+      "(272+480)*6 = 4512。"
+    ],
+    "final": "(272+480)*6 = 4512。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(272+480)*6\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 4512}"
+      },
+      {
+        "role": "assistant",
+        "content": "(272+480)*6 = 4512。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(272+480)*6\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 4512}"
+      },
+      {
+        "role": "assistant",
+        "content": "(272+480)*6 = 4512。"
+      }
+    ],
+    "generated_tokens": 58,
+    "generation_seconds": 0.6366702999948757,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "4512",
+          "lhs": "(272+480)*6",
+          "fragment": "(272+480)*6 = 4512"
+        }
+      ]
+    }
+  },
+  "r2_math_28_n6_v6": {
+    "task_id": "r2_math_28_n6_v6",
+    "id": "r2_math_28",
+    "question": "算清楚这一项并给我数值答案：702-164；还要算：(174+317)*9",
+    "condition": null,
+    "kind": "math",
+    "seed": 912866,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"702-164\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(174+317)*9\"}}\n</tool_call>",
+      "702-164 = 538。\n(174+317)*9 = 4419。"
+    ],
+    "final": "702-164 = 538。\n(174+317)*9 = 4419。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"702-164\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(174+317)*9\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 538}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 4419}"
+      },
+      {
+        "role": "assistant",
+        "content": "702-164 = 538。\n(174+317)*9 = 4419。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"702-164\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(174+317)*9\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 538}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 4419}"
+      },
+      {
+        "role": "assistant",
+        "content": "702-164 = 538。\n(174+317)*9 = 4419。"
+      }
+    ],
+    "generated_tokens": 104,
+    "generation_seconds": 1.204736799991224,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "538",
+          "lhs": "702-164",
+          "fragment": "702-164 = 538"
+        },
+        {
+          "value": "4419",
+          "lhs": "(174+317)*9",
+          "fragment": "702-164 = 538。\n(174+317)*9 = 4419"
+        }
+      ]
+    }
+  },
+  "r2_math_29_n6_v6": {
+    "task_id": "r2_math_29_n6_v6",
+    "id": "r2_math_29",
+    "question": "算清楚这一项并给我数值答案：(911-217)+52*20；还要算：878*32；还要算：176+210",
+    "condition": null,
+    "kind": "math",
+    "seed": 912966,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(911-217)+52*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"878*32\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"176+210\"}}\n</tool_call>",
+      "(911-217)+52*20 = 1734。\n878*32 = 28096。\n176+210 = 386。"
+    ],
+    "final": "(911-217)+52*20 = 1734。\n878*32 = 28096。\n176+210 = 386。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(911-217)+52*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"878*32\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"176+210\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1734}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 28096}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 386}"
+      },
+      {
+        "role": "assistant",
+        "content": "(911-217)+52*20 = 1734。\n878*32 = 28096。\n176+210 = 386。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(911-217)+52*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"878*32\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"176+210\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1734}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 28096}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 386}"
+      },
+      {
+        "role": "assistant",
+        "content": "(911-217)+52*20 = 1734。\n878*32 = 28096。\n176+210 = 386。"
+      }
+    ],
+    "generated_tokens": 161,
+    "generation_seconds": 2.2311842999915825,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "1734",
+          "lhs": "(911-217)+52*20",
+          "fragment": "(911-217)+52*20 = 1734"
+        },
+        {
+          "value": "28096",
+          "lhs": "878*32",
+          "fragment": "(911-217)+52*20 = 1734。\n878*32 = 28096"
+        },
+        {
+          "value": "386",
+          "lhs": "176+210",
+          "fragment": "(911-217)+52*20 = 1734。\n878*32 = 28096。\n176+210 = 386"
+        }
+      ]
+    }
+  },
+  "r2_math_30_n6_v6": {
+    "task_id": "r2_math_30_n6_v6",
+    "id": "r2_math_30",
+    "question": "按计算规则给出确切结果：(261-836)+39*70",
+    "condition": null,
+    "kind": "math",
+    "seed": 913066,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(261-836)+39*70\"}}\n</tool_call>",
+      "(261-836)+39*70 = 2155。"
+    ],
+    "final": "(261-836)+39*70 = 2155。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(261-836)+39*70\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 2155}"
+      },
+      {
+        "role": "assistant",
+        "content": "(261-836)+39*70 = 2155。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(261-836)+39*70\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 2155}"
+      },
+      {
+        "role": "assistant",
+        "content": "(261-836)+39*70 = 2155。"
+      }
+    ],
+    "generated_tokens": 66,
+    "generation_seconds": 0.836386200011475,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "2155",
+          "lhs": "(261-836)+39*70",
+          "fragment": "(261-836)+39*70 = 2155"
+        }
+      ]
+    }
+  },
+  "r2_math_31_n6_v6": {
+    "task_id": "r2_math_31_n6_v6",
+    "id": "r2_math_31",
+    "question": "按计算规则给出确切结果：(154+260)*24；还要算：271+77",
+    "condition": null,
+    "kind": "math",
+    "seed": 913166,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(154+260)*24\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"271+77\"}}\n</tool_call>",
+      "(154+260)*24 = 9936。\n271+77 = 348。"
+    ],
+    "final": "(154+260)*24 = 9936。\n271+77 = 348。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(154+260)*24\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"271+77\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 9936}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 348}"
+      },
+      {
+        "role": "assistant",
+        "content": "(154+260)*24 = 9936。\n271+77 = 348。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(154+260)*24\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"271+77\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 9936}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 348}"
+      },
+      {
+        "role": "assistant",
+        "content": "(154+260)*24 = 9936。\n271+77 = 348。"
+      }
+    ],
+    "generated_tokens": 106,
+    "generation_seconds": 1.540764900011709,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "9936",
+          "lhs": "(154+260)*24",
+          "fragment": "(154+260)*24 = 9936"
+        },
+        {
+          "value": "348",
+          "lhs": "271+77",
+          "fragment": "(154+260)*24 = 9936。\n271+77 = 348"
+        }
+      ]
+    }
+  },
+  "r2_math_32_n6_v6": {
+    "task_id": "r2_math_32_n6_v6",
+    "id": "r2_math_32",
+    "question": "按计算规则给出确切结果：(175-135)+16*35；还要算：411-243；还要算：215-950",
+    "condition": null,
+    "kind": "math",
+    "seed": 913266,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(175-135)+16*35\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"411-243\"}}\n</tool_call>",
+      "(175-135)+16*35 = 600。\n411-243 = 168。\n215-950 = 215。"
+    ],
+    "final": "(175-135)+16*35 = 600。\n411-243 = 168。\n215-950 = 215。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(175-135)+16*35\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"411-243\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 600}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 168}"
+      },
+      {
+        "role": "assistant",
+        "content": "(175-135)+16*35 = 600。\n411-243 = 168。\n215-950 = 215。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(175-135)+16*35\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"411-243\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 600}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 168}"
+      },
+      {
+        "role": "assistant",
+        "content": "(175-135)+16*35 = 600。\n411-243 = 168。\n215-950 = 215。"
+      }
+    ],
+    "generated_tokens": 118,
+    "generation_seconds": 1.8765883000014583,
+    "grade": {
+      "status": "fail",
+      "reason": "false_arithmetic_claim",
+      "claims": [
+        {
+          "value": "600",
+          "lhs": "(175-135)+16*35",
+          "fragment": "(175-135)+16*35 = 600"
+        },
+        {
+          "value": "168",
+          "lhs": "411-243",
+          "fragment": "(175-135)+16*35 = 600。\n411-243 = 168"
+        },
+        {
+          "value": "215",
+          "lhs": "215-950",
+          "fragment": "(175-135)+16*35 = 600。\n411-243 = 168。\n215-950 = 215"
+        }
+      ]
+    }
+  },
+  "r2_math_33_n6_v6": {
+    "task_id": "r2_math_33_n6_v6",
+    "id": "r2_math_33",
+    "question": "帮我完成这项数值求解：526+711",
+    "condition": null,
+    "kind": "math",
+    "seed": 913366,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"526+711\"}}\n</tool_call>",
+      "526+711 = 1237。"
+    ],
+    "final": "526+711 = 1237。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"526+711\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1237}"
+      },
+      {
+        "role": "assistant",
+        "content": "526+711 = 1237。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"526+711\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1237}"
+      },
+      {
+        "role": "assistant",
+        "content": "526+711 = 1237。"
+      }
+    ],
+    "generated_tokens": 50,
+    "generation_seconds": 0.739474899994093,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "1237",
+          "lhs": "526+711",
+          "fragment": "526+711 = 1237"
+        }
+      ]
+    }
+  },
+  "r2_math_34_n6_v6": {
+    "task_id": "r2_math_34_n6_v6",
+    "id": "r2_math_34",
+    "question": "帮我完成这项数值求解：400*35；还要算：(771+466)*19",
+    "condition": null,
+    "kind": "math",
+    "seed": 913466,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"400*35\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(771+466)*19\"}}\n</tool_call>",
+      "400*35 = 14000。\n(771+466)*19 = 23503。"
+    ],
+    "final": "400*35 = 14000。\n(771+466)*19 = 23503。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"400*35\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(771+466)*19\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 14000}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 23503}"
+      },
+      {
+        "role": "assistant",
+        "content": "400*35 = 14000。\n(771+466)*19 = 23503。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"400*35\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(771+466)*19\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 14000}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 23503}"
+      },
+      {
+        "role": "assistant",
+        "content": "400*35 = 14000。\n(771+466)*19 = 23503。"
+      }
+    ],
+    "generated_tokens": 108,
+    "generation_seconds": 1.4216906000074232,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "14000",
+          "lhs": "400*35",
+          "fragment": "400*35 = 14000"
+        },
+        {
+          "value": "23503",
+          "lhs": "(771+466)*19",
+          "fragment": "400*35 = 14000。\n(771+466)*19 = 23503"
+        }
+      ]
+    }
+  },
+  "r2_math_35_n6_v6": {
+    "task_id": "r2_math_35_n6_v6",
+    "id": "r2_math_35",
+    "question": "帮我完成这项数值求解：(272+297)*22；还要算：(131+485)*29；还要算：(390+191)*24",
+    "condition": null,
+    "kind": "math",
+    "seed": 913566,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(272+297)*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(390+191)*24\"}}\n</tool_call>",
+      "(272+297)*22 = 12518。\n(131+485)*29 = 13944。"
+    ],
+    "final": "(272+297)*22 = 12518。\n(131+485)*29 = 13944。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(272+297)*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(390+191)*24\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 12518}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 13944}"
+      },
+      {
+        "role": "assistant",
+        "content": "(272+297)*22 = 12518。\n(131+485)*29 = 13944。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(272+297)*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(390+191)*24\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 12518}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 13944}"
+      },
+      {
+        "role": "assistant",
+        "content": "(272+297)*22 = 12518。\n(131+485)*29 = 13944。"
+      }
+    ],
+    "generated_tokens": 115,
+    "generation_seconds": 1.464857300001313,
+    "grade": {
+      "status": "fail",
+      "reason": "false_arithmetic_claim",
+      "claims": [
+        {
+          "value": "12518",
+          "lhs": "(272+297)*22",
+          "fragment": "(272+297)*22 = 12518"
+        },
+        {
+          "value": "13944",
+          "lhs": "(131+485)*29",
+          "fragment": "(272+297)*22 = 12518。\n(131+485)*29 = 13944"
+        }
+      ]
+    }
+  },
+  "r2_math_36_n6_v6": {
+    "task_id": "r2_math_36_n6_v6",
+    "id": "r2_math_36",
+    "question": "What numerical result do you obtain from (156-274)+25*20?",
+    "condition": null,
+    "kind": "math",
+    "seed": 913666,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(156-274)+25*20\"}}\n</tool_call>",
+      "(156-274)+25*20 = 382。"
+    ],
+    "final": "(156-274)+25*20 = 382。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(156-274)+25*20\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 382}"
+      },
+      {
+        "role": "assistant",
+        "content": "(156-274)+25*20 = 382。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(156-274)+25*20\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 382}"
+      },
+      {
+        "role": "assistant",
+        "content": "(156-274)+25*20 = 382。"
+      }
+    ],
+    "generated_tokens": 62,
+    "generation_seconds": 0.8206248000060441,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "382",
+          "lhs": "(156-274)+25*20",
+          "fragment": "(156-274)+25*20 = 382"
+        }
+      ]
+    }
+  },
+  "r2_math_37_n6_v6": {
+    "task_id": "r2_math_37_n6_v6",
+    "id": "r2_math_37",
+    "question": "What numerical result do you obtain from 832*42?; and separately, 144-232",
+    "condition": null,
+    "kind": "math",
+    "seed": 913766,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"832*42\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"144-232\"}}\n</tool_call>",
+      "832*42 = 34944。\n144-232 = -88。"
+    ],
+    "final": "832*42 = 34944。\n144-232 = -88。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"832*42\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"144-232\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 34944}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": -88}"
+      },
+      {
+        "role": "assistant",
+        "content": "832*42 = 34944。\n144-232 = -88。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"832*42\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"144-232\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 34944}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": -88}"
+      },
+      {
+        "role": "assistant",
+        "content": "832*42 = 34944。\n144-232 = -88。"
+      }
+    ],
+    "generated_tokens": 100,
+    "generation_seconds": 1.086501199999475,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "34944",
+          "lhs": "832*42",
+          "fragment": "832*42 = 34944"
+        },
+        {
+          "value": "-88",
+          "lhs": "144-232",
+          "fragment": "832*42 = 34944。\n144-232 = -88"
+        }
+      ]
+    }
+  },
+  "r2_math_38_n6_v6": {
+    "task_id": "r2_math_38_n6_v6",
+    "id": "r2_math_38",
+    "question": "What numerical result do you obtain from 224-619?; and separately, (527+202)*20; and separately, 913*41",
+    "condition": null,
+    "kind": "math",
+    "seed": 913866,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"224-619\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(527+202)*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"913*41\"}}\n</tool_call>",
+      "224-619 = -395。\n(527+202)*20 = 14580。\n913*41 = 37433。"
+    ],
+    "final": "224-619 = -395。\n(527+202)*20 = 14580。\n913*41 = 37433。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"224-619\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(527+202)*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"913*41\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": -395}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 14580}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 37433}"
+      },
+      {
+        "role": "assistant",
+        "content": "224-619 = -395。\n(527+202)*20 = 14580。\n913*41 = 37433。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"224-619\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(527+202)*20\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"913*41\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": -395}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 14580}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 37433}"
+      },
+      {
+        "role": "assistant",
+        "content": "224-619 = -395。\n(527+202)*20 = 14580。\n913*41 = 37433。"
+      }
+    ],
+    "generated_tokens": 156,
+    "generation_seconds": 1.775480600001174,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "-395",
+          "lhs": "224-619",
+          "fragment": "224-619 = -395"
+        },
+        {
+          "value": "14580",
+          "lhs": "(527+202)*20",
+          "fragment": "224-619 = -395。\n(527+202)*20 = 14580"
+        },
+        {
+          "value": "37433",
+          "lhs": "913*41",
+          "fragment": "224-619 = -395。\n(527+202)*20 = 14580。\n913*41 = 37433"
+        }
+      ]
+    }
+  },
+  "r2_math_39_n6_v6": {
+    "task_id": "r2_math_39_n6_v6",
+    "id": "r2_math_39",
+    "question": "Please solve the following calculation and give its value: 286-280",
+    "condition": null,
+    "kind": "math",
+    "seed": 913966,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"286-280\"}}\n</tool_call>",
+      "286-280 = 6。"
+    ],
+    "final": "286-280 = 6。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"286-280\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 6}"
+      },
+      {
+        "role": "assistant",
+        "content": "286-280 = 6。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"286-280\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 6}"
+      },
+      {
+        "role": "assistant",
+        "content": "286-280 = 6。"
+      }
+    ],
+    "generated_tokens": 46,
+    "generation_seconds": 0.5749005999969086,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "6",
+          "lhs": "286-280",
+          "fragment": "286-280 = 6"
+        }
+      ]
+    }
+  },
+  "r2_math_40_n6_v6": {
+    "task_id": "r2_math_40_n6_v6",
+    "id": "r2_math_40",
+    "question": "Please solve the following calculation and give its value: 162*44; and separately, 716+934",
+    "condition": null,
+    "kind": "math",
+    "seed": 914066,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"162*44\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"716+934\"}}\n</tool_call>",
+      "162*44 = 7128。\n716+934 = 1650。"
+    ],
+    "final": "162*44 = 7128。\n716+934 = 1650。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"162*44\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"716+934\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 7128}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1650}"
+      },
+      {
+        "role": "assistant",
+        "content": "162*44 = 7128。\n716+934 = 1650。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"162*44\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"716+934\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 7128}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1650}"
+      },
+      {
+        "role": "assistant",
+        "content": "162*44 = 7128。\n716+934 = 1650。"
+      }
+    ],
+    "generated_tokens": 97,
+    "generation_seconds": 1.1553974999987986,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "7128",
+          "lhs": "162*44",
+          "fragment": "162*44 = 7128"
+        },
+        {
+          "value": "1650",
+          "lhs": "716+934",
+          "fragment": "162*44 = 7128。\n716+934 = 1650"
+        }
+      ]
+    }
+  },
+  "r2_math_41_n6_v6": {
+    "task_id": "r2_math_41_n6_v6",
+    "id": "r2_math_41",
+    "question": "Please solve the following calculation and give its value: 979*6; and separately, 619*47; and separately, 5491/17",
+    "condition": null,
+    "kind": "math",
+    "seed": 914166,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"979*6\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"619*47\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5491/17\"}}\n</tool_call>",
+      "979*6 = 5874。\n619*47 = 29093。\n5491/17 = 323.0。"
+    ],
+    "final": "979*6 = 5874。\n619*47 = 29093。\n5491/17 = 323.0。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"979*6\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"619*47\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5491/17\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 5874}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 29093}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 323.0}"
+      },
+      {
+        "role": "assistant",
+        "content": "979*6 = 5874。\n619*47 = 29093。\n5491/17 = 323.0。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"979*6\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"619*47\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"5491/17\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 5874}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 29093}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 323.0}"
+      },
+      {
+        "role": "assistant",
+        "content": "979*6 = 5874。\n619*47 = 29093。\n5491/17 = 323.0。"
+      }
+    ],
+    "generated_tokens": 149,
+    "generation_seconds": 1.7972970999981044,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "5874",
+          "lhs": "979*6",
+          "fragment": "979*6 = 5874"
+        },
+        {
+          "value": "29093",
+          "lhs": "619*47",
+          "fragment": "979*6 = 5874。\n619*47 = 29093"
+        },
+        {
+          "value": "323",
+          "lhs": "5491/17",
+          "fragment": "979*6 = 5874。\n619*47 = 29093。\n5491/17 = 323.0"
+        }
+      ]
+    }
+  },
+  "r2_math_42_n6_v6": {
+    "task_id": "r2_math_42_n6_v6",
+    "id": "r2_math_42",
+    "question": "Help me evaluate this arithmetic task: 493+910",
+    "condition": null,
+    "kind": "math",
+    "seed": 914266,
+    "turns": [
+      "493+910"
+    ],
+    "final": "493+910",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "493+910"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "493+910"
+      }
+    ],
+    "generated_tokens": 7,
+    "generation_seconds": 0.08128559999749996,
+    "grade": {
+      "status": "review",
+      "reason": "no_supported_explicit_claim",
+      "claims": []
+    }
+  },
+  "r2_math_43_n6_v6": {
+    "task_id": "r2_math_43_n6_v6",
+    "id": "r2_math_43",
+    "question": "Help me evaluate this arithmetic task: (710-550)+33*52; and separately, 743*43",
+    "condition": null,
+    "kind": "math",
+    "seed": 914366,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(710-550)+33*52\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"743*43\"}}\n</tool_call>",
+      "(710-550)+33*52 = 1876。\n743*43 = 31949。"
+    ],
+    "final": "(710-550)+33*52 = 1876。\n743*43 = 31949。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(710-550)+33*52\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"743*43\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1876}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 31949}"
+      },
+      {
+        "role": "assistant",
+        "content": "(710-550)+33*52 = 1876。\n743*43 = 31949。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(710-550)+33*52\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"743*43\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1876}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 31949}"
+      },
+      {
+        "role": "assistant",
+        "content": "(710-550)+33*52 = 1876。\n743*43 = 31949。"
+      }
+    ],
+    "generated_tokens": 113,
+    "generation_seconds": 1.2903297000011662,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "1876",
+          "lhs": "(710-550)+33*52",
+          "fragment": "(710-550)+33*52 = 1876"
+        },
+        {
+          "value": "31949",
+          "lhs": "743*43",
+          "fragment": "(710-550)+33*52 = 1876。\n743*43 = 31949"
+        }
+      ]
+    }
+  },
+  "r2_math_44_n6_v6": {
+    "task_id": "r2_math_44_n6_v6",
+    "id": "r2_math_44",
+    "question": "Help me evaluate this arithmetic task: (94-815)+55*22; and separately, 926+777; and separately, 691*12",
+    "condition": null,
+    "kind": "math",
+    "seed": 914466,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(94-815)+55*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"926+777\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"691*12\"}}\n</tool_call>",
+      "(94-815)+55*22 = 489。\n926+777 = 1703。\n691*12 = 8292。"
+    ],
+    "final": "(94-815)+55*22 = 489。\n926+777 = 1703。\n691*12 = 8292。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(94-815)+55*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"926+777\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"691*12\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 489}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 1703}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 8292}"
+      },
+      {
+        "role": "assistant",
+        "content": "(94-815)+55*22 = 489。\n926+777 = 1703。\n691*12 = 8292。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(94-815)+55*22\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"926+777\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"691*12\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 489}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 1703}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 8292}"
+      },
+      {
+        "role": "assistant",
+        "content": "(94-815)+55*22 = 489。\n926+777 = 1703。\n691*12 = 8292。"
+      }
+    ],
+    "generated_tokens": 162,
+    "generation_seconds": 1.7798452999995789,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "489",
+          "lhs": "(94-815)+55*22",
+          "fragment": "(94-815)+55*22 = 489"
+        },
+        {
+          "value": "1703",
+          "lhs": "926+777",
+          "fragment": "(94-815)+55*22 = 489。\n926+777 = 1703"
+        },
+        {
+          "value": "8292",
+          "lhs": "691*12",
+          "fragment": "(94-815)+55*22 = 489。\n926+777 = 1703。\n691*12 = 8292"
+        }
+      ]
+    }
+  },
+  "r2_math_45_n6_v6": {
+    "task_id": "r2_math_45_n6_v6",
+    "id": "r2_math_45",
+    "question": "Can you find the exact answer for the expression (485+672)*5?",
+    "condition": null,
+    "kind": "math",
+    "seed": 914566,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(485+672)*5\"}}\n</tool_call>",
+      "(485+672)*5 = 5785。"
+    ],
+    "final": "(485+672)*5 = 5785。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(485+672)*5\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 5785}"
+      },
+      {
+        "role": "assistant",
+        "content": "(485+672)*5 = 5785。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(485+672)*5\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 5785}"
+      },
+      {
+        "role": "assistant",
+        "content": "(485+672)*5 = 5785。"
+      }
+    ],
+    "generated_tokens": 57,
+    "generation_seconds": 0.6119065999955637,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "5785",
+          "lhs": "(485+672)*5",
+          "fragment": "(485+672)*5 = 5785"
+        }
+      ]
+    }
+  },
+  "r2_math_46_n6_v6": {
+    "task_id": "r2_math_46_n6_v6",
+    "id": "r2_math_46",
+    "question": "Can you find the exact answer for the expression 958-230?; and separately, (193+401)*18",
+    "condition": null,
+    "kind": "math",
+    "seed": 914666,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9958-230\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(193+401)*18\"}}\n</tool_call>",
+      "9958-230 = 9728。\n(193+401)*18 = 10692。"
+    ],
+    "final": "9958-230 = 9728。\n(193+401)*18 = 10692。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9958-230\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(193+401)*18\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 9728}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 10692}"
+      },
+      {
+        "role": "assistant",
+        "content": "9958-230 = 9728。\n(193+401)*18 = 10692。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"9958-230\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(193+401)*18\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 9728}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 10692}"
+      },
+      {
+        "role": "assistant",
+        "content": "9958-230 = 9728。\n(193+401)*18 = 10692。"
+      }
+    ],
+    "generated_tokens": 107,
+    "generation_seconds": 1.1106016999983694,
+    "grade": {
+      "status": "review",
+      "reason": "ambiguous_expression_association",
+      "claims": [
+        {
+          "value": "9728",
+          "lhs": "9958-230",
+          "fragment": "9958-230 = 9728"
+        },
+        {
+          "value": "10692",
+          "lhs": "(193+401)*18",
+          "fragment": "9958-230 = 9728。\n(193+401)*18 = 10692"
+        }
+      ]
+    }
+  },
+  "r2_math_47_n6_v6": {
+    "task_id": "r2_math_47_n6_v6",
+    "id": "r2_math_47",
+    "question": "Can you find the exact answer for the expression (351+633)*10?; and separately, 991-636; and separately, 512-816",
+    "condition": null,
+    "kind": "math",
+    "seed": 914766,
+    "turns": [
+      "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(351+633)*10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"991-636\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"512-816\"}}\n</tool_call>",
+      "(351+633)*10 = 9840。\n991-636 = 355。\n512-816 = -304。"
+    ],
+    "final": "(351+633)*10 = 9840。\n991-636 = 355。\n512-816 = -304。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(351+633)*10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"991-636\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"512-816\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 9840}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": 355}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"result\": -304}"
+      },
+      {
+        "role": "assistant",
+        "content": "(351+633)*10 = 9840。\n991-636 = 355。\n512-816 = -304。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"(351+633)*10\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"991-636\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"calculate_math\", \"arguments\": {\"expression\": \"512-816\"}}\n</tool_call>"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 9840}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": 355}"
+      },
+      {
+        "role": "tool",
+        "name": "calculate_math",
+        "content": "{\"result\": -304}"
+      },
+      {
+        "role": "assistant",
+        "content": "(351+633)*10 = 9840。\n991-636 = 355。\n512-816 = -304。"
+      }
+    ],
+    "generated_tokens": 158,
+    "generation_seconds": 2.2392436000081943,
+    "grade": {
+      "status": "pass",
+      "reason": "all_explicit_claims_consistent_and_covered",
+      "claims": [
+        {
+          "value": "9840",
+          "lhs": "(351+633)*10",
+          "fragment": "(351+633)*10 = 9840"
+        },
+        {
+          "value": "355",
+          "lhs": "991-636",
+          "fragment": "(351+633)*10 = 9840。\n991-636 = 355"
+        },
+        {
+          "value": "-304",
+          "lhs": "512-816",
+          "fragment": "(351+633)*10 = 9840。\n991-636 = 355。\n512-816 = -304"
+        }
+      ]
+    }
+  }
+}

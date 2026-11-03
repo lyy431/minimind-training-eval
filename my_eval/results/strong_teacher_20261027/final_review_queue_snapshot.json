@@ -1,0 +1,4532 @@
+[
+  {
+    "review_id": "06087da5fd07e3526cbac1c46b864701e6b68cdc51fadee76bf70aab2d029b29",
+    "question": "为什么安排轮流发言可以帮助小组讨论？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "给每个人表达的机会，减少相互打断",
+    "exact_answer": null,
+    "answer": "为了更好地协调小组讨论，我们可以定期进行简短的讨论，确保信息准确无误地传达。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c629a92390b10ca35255dfca2c105dd0f6caf2d4c0eb53accad1112f1ccf4aec",
+    "question": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。",
+    "context": [],
+    "reference": "邀请朋友下周参加手工制作活动",
+    "exact_answer": null,
+    "answer": "下周有空吗？我需要准备好参加手工制作活动。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5eb0655e6a59e113de381195129c845639f3b441e1192549d84cddd7946bcfdb",
+    "question": "请只输出第二个编号：FINAL-42582，BOX-65466。不要加说明。",
+    "context": [],
+    "reference": "BOX-65466",
+    "exact_answer": "BOX-65466",
+    "answer": "FINAL-42582",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "efa6121eb72243a7ffc12bdc7ada1575113f01c4e113866dfc5ad98ae15bfb3f",
+    "question": "Why can asking for the missing detail be better than guessing? Use one or two simple sentences.",
+    "context": [],
+    "reference": "It avoids inventing information and can produce a correct answer.",
+    "exact_answer": null,
+    "answer": "I am sorry I cannot access the missing detail as I am sorry I do.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0804900889e94c56466a5e012d80eaec87162dc487251e69202c9d16d5fd3c9d",
+    "question": "Write a short message to invite a friend to a craft activity next week. Give the message itself.",
+    "context": [],
+    "reference": "invite a friend to a craft activity next week",
+    "exact_answer": null,
+    "answer": "I am sorry for the delay.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4ef5b8e25b49291101b1da9a329f153d007a06121f498db5379c21b393256c12",
+    "question": "请直接写一条简短消息，帮我请伙伴把最终版文件放进指定文件夹。",
+    "context": [],
+    "reference": "请伙伴把最终版文件放进指定文件夹",
+    "exact_answer": null,
+    "answer": "请提供你想要我把最终版文件放进指定文件夹的原始文件夹。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b07fd9a7f55164d8dcf5d09dc7f2e115bd20310d4f1923fc6ee634b35a98d627",
+    "question": "为什么问卷中两个不同的问题最好分开问？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于分别理解和回答，避免混淆",
+    "exact_answer": null,
+    "answer": "问题一：为什么把一个大笔存放在盘子里？\n\n回答：因为这样可以保持笔记的整洁和有序。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2021104ac7abbc4d075a4f74e0072f5b400c8ae09a8924e0cedbc34f640d9455",
+    "question": "根据下面这份交接信息作答：名单顺序：陆晴、沈禾；第一人的编号是FK-1537，第二人的编号是FR-7102。只回答名单中第1个人的名字。",
+    "context": [],
+    "reference": "陆晴",
+    "exact_answer": "陆晴",
+    "answer": "第1人的编号是FK-1537。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "85efc967f48c4b9452fbc9c3f075ea760476f2423e124e06dfc7ff7796a82fd3",
+    "question": "Join FINAL-27473 and BOX-30896 using one slash, without spaces or explanation.",
+    "context": [],
+    "reference": "FINAL-27473/BOX-30896",
+    "exact_answer": "FINAL-27473/BOX-30896",
+    "answer": "BOX-30896",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "358d38c21cf5ab9da3035d6569b3008570d57cbe1270fe378811f26168dbcafa",
+    "question": "请直接写一条简短消息，帮我告诉朋友我会在西门的公告栏旁等他。",
+    "context": [],
+    "reference": "告诉朋友我会在西门的公告栏旁等他",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ca1f1d3b5c28bf033f3e2e0694d42a7e1ac70c56eae82c1605540537fd52c9e6",
+    "question": "请直接写一条简短消息，帮我请伙伴把最终版文件放进指定文件夹。",
+    "context": [],
+    "reference": "请伙伴把最终版文件放进指定文件夹",
+    "exact_answer": null,
+    "answer": "请提供完整的文件夹内容。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5ff537efcaec43c8e16ff58be04a2bd6f644a2fcb2885a3c9414d42e2ce2a26d",
+    "question": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者是不同量，比较标准需明确",
+    "exact_answer": null,
+    "answer": "在比较两张照片的大小时，应该先计算两张比尺寸的图片，然后根据你的实际需求来选择合适的时间。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "815500e39a9c6e6ecb61af61a78d64d10ccca43a44839b3271bc10673c8f0a3b",
+    "question": "Why can asking for the missing detail be better than guessing? Use one or two simple sentences.",
+    "context": [],
+    "reference": "It avoids inventing information and can produce a correct answer.",
+    "exact_answer": null,
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "95c4b1190706ccdd70f5ef9023fb56b65d7ad1f8cf79a792fe362ae541e40804",
+    "question": "根据下面这份交接信息作答：原集合房间是312；最新通知改为432。最新房间号是什么？只回答号码。",
+    "context": [],
+    "reference": "432",
+    "exact_answer": "432",
+    "answer": "请提供原集合房间的名称和具体通知内容，以便我能够帮助您回答。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2e5217addb04442636df3ba79f53e7ed78ef5ce4b5b3ae8538305886a113a18c",
+    "question": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于确认接收者和后续查找",
+    "exact_answer": null,
+    "answer": "是的，因为交接物品能让你和你的物品在不同的位置（如邮箱、电话、社交媒体等）之间无缝对接。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7ac1a9f850c070a0e269fac7a0f553a48b8ebcc74dd0e5dd9e5929b3fbf644ac",
+    "question": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "明确不确定之处，避免读者把猜测当成事实",
+    "exact_answer": null,
+    "answer": "请核实您的原始报告内容，特别是关于未确认的信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b0f2db44e57e84cc5b292ef70c701c5b0edf6c07b3ebe2911160840893abc517",
+    "question": "请直接写一条简短消息，帮我请朋友帮我确认通知上的地点是否正确。",
+    "context": [],
+    "reference": "请朋友帮我确认通知上的地点是否正确",
+    "exact_answer": null,
+    "answer": "我已经确认了你的位置，并且确认了通知的完整性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b9c03efb876facfe0b9b9546bf4db2a10f8ab3fb741326c5839898117fce489d",
+    "question": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "计划是未来安排，不能证明实际完成",
+    "exact_answer": null,
+    "answer": "周五完成一个计划，明天我会完成！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1dff4ddbc33d62d638ccd3f3efe008af1097720f463b249d46669af2ba48e522",
+    "question": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "可能是重复记录，也可能确实需要多份，需要确认",
+    "exact_answer": null,
+    "answer": "因为这样可以确保你的日常安排得到优化，避免重复内容，从而提高工作效率和生活满意度。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d6e58f29acf0b763b74276e2e487e8076c311ce7cd404fd6ba98fd9ed64abad9",
+    "question": "Why might two people read the same short message differently? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Their context or interpretation of ambiguous words can differ.",
+    "exact_answer": null,
+    "answer": "Could you please give some other words? Thank you!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "23b8695699b1ea6314d1d93d008268683687aec9c00526730c102cd6dbbdd3b6",
+    "question": "为什么短句中也需要合适的标点？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "标点有助于划分意思，减少歧义",
+    "exact_answer": null,
+    "answer": "为了确保准确性，避免错误导致误解。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c7b3a5ea7e6c05cae873ff5e7d198c0aff6e1ddb4aaaa7edf9d22950af424bc4",
+    "question": "Use the following handover information: Theo carries a orange folder. Felix carries a green folder. What color is Felix's folder? Return only the color.",
+    "context": [],
+    "reference": "green",
+    "exact_answer": "green",
+    "answer": "orange",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8ac97c65549fee8e60953af03ceefe4374f5b73d85cb0a93bceb602a7bde7b62",
+    "question": "请直接写一条简短消息，帮我为忘记归还同学的尺子道歉。",
+    "context": [],
+    "reference": "为忘记归还同学的尺子道歉",
+    "exact_answer": null,
+    "answer": "对不起，我忘记归还同学的尺子道歉。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e33382379a860617964e14fb1e5daf665e4bf1fff3b371127c5e42bae07b1071",
+    "question": "Why should a draft be marked before it is shared? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Others need to know it may still change.",
+    "exact_answer": null,
+    "answer": "Could you please provide me with the most accurate and easier for your draft?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "82e6cb58f4350a7707e39ddf18d677152090f59bc89cb0bb62ae747d7176e27e",
+    "question": "根据下面这份交接信息作答：陆晴计划周四交材料；唐悦计划周五交材料。唐悦哪天交材料？只回答日期。",
+    "context": [],
+    "reference": "周五",
+    "exact_answer": "周五",
+    "answer": "唐悦哪天交材料？只回答日期。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a51a5ae1df74594e943bc2082a7448065df26103798a6acca292060c79d2817e",
+    "question": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "读者能知道必须做什么以及哪些可自行选择",
+    "exact_answer": null,
+    "answer": "在确保准确性之前，务必进行详细的备份和核对，以防意外发现异常情况。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7afa14c99e1b1df574154296dc72ff7900b7a8d174fea8671220c9c7130b58c3",
+    "question": "请直接写一条简短消息，帮我请伙伴在修改共享表格后通知大家。",
+    "context": [],
+    "reference": "请伙伴在修改共享表格后通知大家",
+    "exact_answer": null,
+    "answer": "请提供您希望我协助修改共享表格的通知内容。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9d135f95baa8e50dcc8385e2dddfb25db06f72a0b5d4833d37164aa838b516ac",
+    "question": "Write a short message to ask a teammate to place the final file in the shared folder. Give the message itself.",
+    "context": [],
+    "reference": "ask a teammate to place the final file in the shared folder",
+    "exact_answer": null,
+    "answer": "Could you please access the final file?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ce18ebbff0a3816266a01a5596f89564c60dee90ea56cb979d225f326b005822",
+    "question": "请直接写一条简短消息，帮我提醒队员提交材料时附上自己的名字。",
+    "context": [],
+    "reference": "提醒队员提交材料时附上自己的名字",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d32c258f60b78f22892c04621285527cc2269af441cb7836fd88d5c9d88ce40e",
+    "question": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。",
+    "context": [],
+    "reference": "告诉组员我已经把重复的记录标记出来",
+    "exact_answer": null,
+    "answer": "\"把重复的记录标记化，谢谢！\"",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e535a2f0fccec8e67f446cb1138a65f8e01c8d07e0fc076dc5846ac6784f3627",
+    "question": "根据下面这份交接信息作答：陆晴带着蓝色文件袋；唐悦带着橙色文件袋。唐悦的文件袋是什么颜色？只回答颜色。",
+    "context": [],
+    "reference": "橙色",
+    "exact_answer": "橙色",
+    "answer": "唐悦的文件袋是唐悦的图片。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "11849b6518ad81e8f7062916d88f428ad6447b65d333d28e473679bfd1be35cc",
+    "question": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "多个入口可能造成走错地点",
+    "exact_answer": null,
+    "answer": "清是用来清理聚类数据或进行后续分析的集合。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b817e370f4edacd899d4ff7e3f033fff1244d8994a5d3d524bba9df355cdfe3d",
+    "question": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "读者能知道必须做什么以及哪些可自行选择",
+    "exact_answer": null,
+    "answer": "在确保准确性之前，务必进行详细的备份和研究，以防止意外发现和处理任何错误。这样可以避免因异常情况导致的恢复失败。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "93cd82e472cce5de81a7c78701cb117bb061ccd50f6bf0c9c0fbd021b5ba5bd7",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：FINAL-18195 和 BOX-62270。",
+    "context": [],
+    "reference": "FINAL-18195/BOX-62270",
+    "exact_answer": "FINAL-18195/BOX-62270",
+    "answer": "FINAL-18195",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4fd54262707a3816f44d5652a895ed0fd9cb66b9158c6e3bfede407089125962",
+    "question": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "多个入口可能造成走错地点",
+    "exact_answer": null,
+    "answer": "清是用来存储和检索数据，确保数据准确无误。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fa237b5ceb732624885c2e68aca2041b8de284191404a0adfc94fc0d3c4d4696",
+    "question": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于确认接收者和后续查找",
+    "exact_answer": null,
+    "answer": "因为没有共享物品，记录都可以用纸或电子设备记录，避免误会。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a0f67af34bcc403dd14d8f98af3abc38e7fd75cb2f9c4f226fa04ced63bb0ff9",
+    "question": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "可能是重复记录，也可能确实需要多份，需要确认",
+    "exact_answer": null,
+    "answer": "整理清单时重复项目时，可以确保所有信息准确无误地记录下来，便于后续的复习和参考。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "13a9c29eddff4e11aacf6c96f3280bb7c64dff34aeb3610066be621b91d85d15",
+    "question": "Write a short message to ask a teammate to place the final file in the shared folder. Give the message itself.",
+    "context": [],
+    "reference": "ask a teammate to place the final file in the shared folder",
+    "exact_answer": null,
+    "answer": "Could you please keep an eye on the final file?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4637a55fce07aa888652ab336e7a45d5b28c7872323481bbcd28e06398c228b3",
+    "question": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "明确不确定之处，避免读者把猜测当成事实",
+    "exact_answer": null,
+    "answer": "请核实您的原始报告中是否有任何已知的信息需要追溯或验证。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "30132d844279c02220f3249b1af2353d7321ac7cbe6f12b500588c1bc080bcd6",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "context": [],
+    "reference": "MiniMind原始项目由jingyaogong/Jingyao Gong开发，本地定制由Yuyang LU负责",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyao Gong进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "59672ac36cfb3a22e60e14322709d67f895341e18bd22f1bef62f4fc532c5cc8",
+    "question": "Why might two people read the same short message differently? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Their context or interpretation of ambiguous words can differ.",
+    "exact_answer": null,
+    "answer": "Could you please provide some information about the two people who read the same short message?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "df2291905367f9eaefef179f7541a601c3aa725302375017ce0bbecd636a9050",
+    "question": "根据下面这份交接信息作答：沈禾的柜号是262；许舟的柜号是651。许舟的柜号是什么？只给出柜号。",
+    "context": [],
+    "reference": "651",
+    "exact_answer": "651",
+    "answer": "262",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0af17cfa0b4cad3e56eee101143f8b50c0ded3377d6074222d0cdb9f1d354821",
+    "question": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。",
+    "context": [],
+    "reference": "请同学说明这次讨论需要准备什么",
+    "exact_answer": null,
+    "answer": "请保持客观，充分准备。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "468b1633b95bb9c2d2654505a9eae08964f0d8e07783ae000ab622f133ee633e",
+    "question": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者可能是不同的人，区分角色避免联系错误",
+    "exact_answer": null,
+    "answer": "因为信息准确且易于理解，报名表中每个词都具有与称呼、截图等关联，便于后续的识别和操作。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6a5f4046d4a114ef4052e73d929982e04400a719f1679ab8dd977cfbfdc87efd",
+    "question": "Who created you?",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "exact_answer": null,
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3d8e69f77857f4f0af65a050c2f4a5e62dd6188960f9916a0f3b64d4f1875a75",
+    "question": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "物品和位置没有明确指代",
+    "exact_answer": null,
+    "answer": "因为你的朋友或许不太在意，我只是想知道，我不应该让别人不明白。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d11bd557383df221dcc02f1775a5e8d8978efe2eac0d89f4540d099b5618960b",
+    "question": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences.",
+    "context": [],
+    "reference": "They describe different points in the work.",
+    "exact_answer": null,
+    "answer": "Autumn information on a new start time, but I cannot make it this time; have a wonderful goal!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d48862b5c4eedfcea2f17d200bf1aa02203d34d37feea8da54bda617dde0717d",
+    "question": "根据下面这份交接信息作答：陆晴带着蓝色文件袋；唐悦带着橙色文件袋。唐悦的文件袋是什么颜色？只回答颜色。",
+    "context": [],
+    "reference": "橙色",
+    "exact_answer": "橙色",
+    "answer": "唐悦",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5a8db2a3affae5f424321c61bf29433dc4cd24c9efe9a59e9a3105f8fbc2bc3b",
+    "question": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "明确不确定之处，避免读者把猜测当成事实",
+    "exact_answer": null,
+    "answer": "因为报告中明确指出报告中提到了“已知的信息”，并指出没有确认的信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "afa3acb20141cce63faadf4a02593959de1b8fd4b81a071d3f6a2ee8cea4050c",
+    "question": "根据下面这份交接信息作答：唐悦的柜号是327；陆晴的柜号是713。唐悦的柜号是什么？只给出柜号。",
+    "context": [],
+    "reference": "327",
+    "exact_answer": "327",
+    "answer": "唐悦的柜号是327。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f5d596ad068f078171893da58af50062bf2f09d21b9767c117c348a63136a2f1",
+    "question": "请直接写一条简短消息，帮我鼓励第一次主持读书会的朋友。",
+    "context": [],
+    "reference": "鼓励第一次主持读书会的朋友",
+    "exact_answer": null,
+    "answer": "加油！你可以试试看。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e32b0c38cab7457417b6d96e8397cb259481b73108f91c46d8a9854334bf6c7e",
+    "question": "请只输出第二个编号：FINAL-71122，BOX-18863。不要加说明。",
+    "context": [],
+    "reference": "BOX-18863",
+    "exact_answer": "BOX-18863",
+    "answer": "FINAL-71122",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5d997a91ae7515eb107ed80dac7c658dc4f1ece69547c0157a1c8e561e5db57b",
+    "question": "请直接写一条简短消息，帮我告诉朋友我可能晚到十分钟。",
+    "context": [],
+    "reference": "告诉朋友我可能晚到十分钟",
+    "exact_answer": null,
+    "answer": "很抱歉，我晚到了十分钟。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bd74dcf944bfa581ff92a67ea708dc56a2db032fa36cc6cc447c380b7d6e8933",
+    "question": "请直接写一条简短消息，帮我鼓励第一次主持读书会的朋友。",
+    "context": [],
+    "reference": "鼓励第一次主持读书会的朋友",
+    "exact_answer": null,
+    "answer": "加油！你有很多朋友一起动手做作业吗？加油！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a6902386851faf3adcf5046a1cd646e5fbd7c90e0f082e55d0f089285f527141",
+    "question": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "多个入口可能造成走错地点",
+    "exact_answer": null,
+    "answer": "清是在一个集合中，没有具体说明清的入口。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d6fab85907f1cff01a39ff20bb95efc1e3b151a7d017d55f2b99f2dcfb84a30d",
+    "question": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "明确不确定之处，避免读者把猜测当成事实",
+    "exact_answer": null,
+    "answer": "列出尚未确认的信息有助于读者快速找到相关结果。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ef0a8046505f8d8f61691aeba08b460deffa97573829e8172bd36f54c8beba68",
+    "question": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者是不同量，比较标准需明确",
+    "exact_answer": null,
+    "answer": "比尺寸和文件容量各不相同，因为它们描述了两张照片的大小差异。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1567d103fbf327d081d7d9c5576f065b9d304d0dbf1f07d566c3aa1d4f3275d7",
+    "question": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "可能是重复记录，也可能确实需要多份，需要确认",
+    "exact_answer": null,
+    "answer": "重复项目时重复项目可以帮助保持信息的流畅和一致性，从而提高工作效率和质量。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f84b2216ab5c6a7ca5821a92c28065e648e7c8f09a0d4836932bc77af105d5ad",
+    "question": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。",
+    "context": [],
+    "reference": "告诉组员我已经把重复的记录标记出来",
+    "exact_answer": null,
+    "answer": "我已经将重复记录标记的记录标记，供你参考和参考。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9ad16b307090c7cdafd657fa1b3e64f98d2e9acc9b9205dd450c8d60087e5326",
+    "question": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "避免把个人补充误当成原发送者的意思",
+    "exact_answer": null,
+    "answer": "如果转告消息时要区分原话与自己的补充，可以避免误解或误解。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8179e9d51099207701389a50d669ec8cb679399a239f42715e82e072aaa65200",
+    "question": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "物品和位置没有明确指代",
+    "exact_answer": null,
+    "answer": "因为这样更环保，你不必担心被误解或误导。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f1003414769a5014366923d6d3f7d171898f894ab612c2c2d0522356d2c89e1b",
+    "question": "Why might two people read the same short message differently? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Their context or interpretation of ambiguous words can differ.",
+    "exact_answer": null,
+    "answer": "Could you please keep an eye on the other hand? Thank you!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "67bd4977cf1ba3a952ea733ecfff7c63b4513a47eac07f901db7fbd5942d1233",
+    "question": "Write a short message to apologize for forgetting to return a borrowed ruler. Give the message itself.",
+    "context": [],
+    "reference": "apologize for forgetting to return a borrowed ruler",
+    "exact_answer": null,
+    "answer": "Could you please let me pick it up?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "cab66ee884c9df0e66a36478446cd58adb883daf86660dac155a4f4e7f8bb018",
+    "question": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。",
+    "context": [],
+    "reference": "告诉组员我已经把重复的记录标记出来",
+    "exact_answer": null,
+    "answer": "我已经把重复的记录标记出来了，谢谢！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3cb2260b0951c08d33ea52739ec10d4bdced95346bd9126add5470c6f8822176",
+    "question": "Use the following handover information: Vera: note_818.txt. Felix: list_499.csv. Return only the complete file name for Felix.",
+    "context": [],
+    "reference": "list_499.csv",
+    "exact_answer": "list_499.csv",
+    "answer": "note_818.txt",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e2ed78b283dce9965b1846777fcd63e0465a77a4a1fdeeb287a232f4eeb192b2",
+    "question": "请直接写一条简短消息，帮我祝同学的摄影展示顺利。",
+    "context": [],
+    "reference": "祝同学的摄影展示顺利",
+    "exact_answer": null,
+    "answer": "祝你的摄影展示顺利，尽情享受！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c5c4a991fd1ca1c1f9b3e5bd651f35ef2a986c7b5bb4f3407d2c1edad10c9e19",
+    "question": "Why can asking for the missing detail be better than guessing? Use one or two simple sentences.",
+    "context": [],
+    "reference": "It avoids inventing information and can produce a correct answer.",
+    "exact_answer": null,
+    "answer": "One can seek helping you understand what might want to get to be better.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3dfc3df4b19910c4c015dd1f8f90e7e137250d121425741aba476d22a5ebeb82",
+    "question": "请直接写一条简短消息，帮我为忘记归还同学的尺子道歉。",
+    "context": [],
+    "reference": "为忘记归还同学的尺子道歉",
+    "exact_answer": null,
+    "answer": "谢谢你的来意，但这次我没法再写这条消息，我得好好想想怎么办。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3fe422597c0a110ca625c2ec79ca0009493d714015a16f38e17bdf8dbfdaacb2",
+    "question": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者可能是不同的人，区分角色避免联系错误",
+    "exact_answer": null,
+    "answer": "因为我们知道了在报名表中区分两个人，可以更准确地理解他们的联系方式和身份。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f68572f816b8a2579fed105423d21b2791234dddb8a03b60e9c5d36961609435",
+    "question": "Why should a summary preserve who did what? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Mixing up people changes the meaning of the source.",
+    "exact_answer": null,
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4a2138b6887561dc1c5b762e848c4218b1fcb8c43a9bca8c4295e06474ab5777",
+    "question": "为什么同名文件放在不同文件夹里仍可能不是同一份文件？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "完整位置不同，内容也可能不同",
+    "exact_answer": null,
+    "answer": "因为\"同一份\"通常意味着文件是文本形式的，不能直接修改其内容。但可以通过调整文件格式或调整文件格式来避免这种情况。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "19318aa84881903731fdd3da553ce9b4906a169c1d679f9679a35913f21c2ee4",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "context": [],
+    "reference": "MiniMind原始项目由jingyaogong/Jingyao Gong开发，本地定制由Yuyang LU负责",
+    "exact_answer": null,
+    "answer": "Gong",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5d845ec109f9155b45d4d9a4b18d730f1a985a3bd295ad32b4fc0ca89fc7135d",
+    "question": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "补充信息可能澄清或改变原来的判断",
+    "exact_answer": null,
+    "answer": "要调整原来的理解，可以遵循以下策略：先理解原著的含义，再学习新知识；再根据具体情况调整理解，可能需要多次调整。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "008636b3ae352cfd44c220e1bb4fda80f9642768d2884be406fdd078d841beb1",
+    "question": "请直接写一条简短消息，帮我请伙伴把最终版文件放进指定文件夹。",
+    "context": [],
+    "reference": "请伙伴把最终版文件放进指定文件夹",
+    "exact_answer": null,
+    "answer": "请提供你需要我处理的文件夹信息，我将尽力帮助你。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "af73962c544c7256b581ece19ed61cd01b8b9471f3036950c34ca937f378290f",
+    "question": "请直接写一条简短消息，帮我请伙伴在修改共享表格后通知大家。",
+    "context": [],
+    "reference": "请伙伴在修改共享表格后通知大家",
+    "exact_answer": null,
+    "answer": "请大家通知我共同修改共享表格的修改过程，以便我们可以共同促进更有效的沟通。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "59b314127ac291b0c4ae11571c3b810bec858fd8a640f714b331af827a5720c0",
+    "question": "为什么问卷中两个不同的问题最好分开问？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于分别理解和回答，避免混淆",
+    "exact_answer": null,
+    "answer": "为了让回答更清晰，最好分成两部分，每部分一个就说明问题的核心，这样更容易展开。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ca23e58a48cb1b0e2c429573a57800245b400f168c2ac27ed9f4afefe6c1bf16",
+    "question": "Write a short message to tell a friend you will wait beside the noticeboard. Give the message itself.",
+    "context": [],
+    "reference": "tell a friend you will wait beside the noticeboard",
+    "exact_answer": null,
+    "answer": "Could you please tell me what's like?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "66eb78217ea85510e8de4352b6f9b50029ccc92bd166edffe186633b409c767a",
+    "question": "请直接写一条简短消息，帮我感谢邻居告诉我包裹放在哪里。",
+    "context": [],
+    "reference": "感谢邻居告诉我包裹放在哪里",
+    "exact_answer": null,
+    "answer": "谢谢你的帮助，距离我最近的位置最近。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "560670912be849a83f35a2870c5c6f5b74f61216c19a32c095b6972aed33e006",
+    "question": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "读者能知道必须做什么以及哪些可自行选择",
+    "exact_answer": null,
+    "answer": "为了保持简洁和实用，每个步骤都要具体说明。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ba194516eaa5f4afa2679ba13f5fff34bcb408dbe9d3d78b4bbd547712fdcb66",
+    "question": "Put \"FINAL-35908\" inside round brackets. Return only the result.",
+    "context": [],
+    "reference": "(FINAL-35908)",
+    "exact_answer": "(FINAL-35908)",
+    "answer": "FINAL-35908",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e56351b92a32f39785dae5c33be66e1b87b11338346e6ce541515179dd01fd77",
+    "question": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "补充信息可能澄清或改变原来的判断",
+    "exact_answer": null,
+    "answer": "要调整原来的理解，可以遵循以下策略：先理解原著的含义，再学习新知识；再根据理解调整原来的理解，调整原理解；再结合上下文调整理解，确保理解的准确性和完整性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5bff44107ccc973c9ecce9b80fab8020d557ac56220dc828984c81a88841bbf8",
+    "question": "Write a short message to invite a friend to a craft activity next week. Give the message itself.",
+    "context": [],
+    "reference": "invite a friend to a craft activity next week",
+    "exact_answer": null,
+    "answer": "Craft activity next week!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "057215b0218c73575cad096488d28ae01e2fde26663d5ab3c7de2ebd9ae66baa",
+    "question": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "可能是重复记录，也可能确实需要多份，需要确认",
+    "exact_answer": null,
+    "answer": "重复项目对我有好处，但我也想用一两句话。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "536fc3d61b05d3857e0788908ce38dc833cdf708ed624072b84784d7bbde4fd1",
+    "question": "Why should a draft be marked before it is shared? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Others need to know it may still change.",
+    "exact_answer": null,
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7377faf07edce458681ded66e3ba8acef6ff8addb50e6fa7b169e6a39b39d152",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我核对活动名单中的姓名。",
+    "context": [],
+    "reference": "感谢同学帮我核对活动名单中的姓名",
+    "exact_answer": null,
+    "answer": "谢谢你的帮助，但这次我没法参加活动。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4f0f8e751ae297b19cbcb7e9ccaa546d0c4210bd858f035bc924bab7fe112dce",
+    "question": "根据下面这份交接信息作答：许舟的柜号是992；陆晴的柜号是291。陆晴的柜号是什么？只给出柜号。",
+    "context": [],
+    "reference": "291",
+    "exact_answer": "291",
+    "answer": "992",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c4d206d27f646ad58a76a4e7dd75f6fa9155df3d9a75a070266394af0bc93ac5",
+    "question": "为什么同名文件放在不同文件夹里仍可能不是同一份文件？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "完整位置不同，内容也可能不同",
+    "exact_answer": null,
+    "answer": "因为不同文件夹的大小、尺寸和类型会影响文件的显示和保存，而同一份文件的显示则可能与文件的完整性有关。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4a348327e5280de7ebec2fdfeb7cf3365c4f1e22f72bf2cdebfeb30609959414",
+    "question": "Use the following handover information: Theo carries a green folder. Iris carries a blue folder. What color is Theo's folder? Return only the color.",
+    "context": [],
+    "reference": "green",
+    "exact_answer": "green",
+    "answer": "blue",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ecc5c8f5d74fde22fdab6c1c9d0603c230d83f2161b789e3e0ac0cf296942d2e",
+    "question": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "补充信息可能澄清或改变原来的判断",
+    "exact_answer": null,
+    "answer": "在阅读新补充说明后，如果发现某个部分有理解，可以先重新阅读说明，然后根据你的理解进行修改。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b11bd630dd7cbde8c11c0dc17884b88d3eb97eda4e5237262b0a1d5b50429d8c",
+    "question": "为什么问卷中两个不同的问题最好分开问？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于分别理解和回答，避免混淆",
+    "exact_answer": null,
+    "answer": "当然，我可以帮助你把两个不同的问题分开。请告诉我你的问题是什么。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e6a2c52e60c1701d3453368fc15261526c5d00c389d4ed54245d52c17d13bb86",
+    "question": "请直接写一条简短消息，帮我请伙伴在修改共享表格后通知大家。",
+    "context": [],
+    "reference": "请伙伴在修改共享表格后通知大家",
+    "exact_answer": null,
+    "answer": "请提供您希望我协助修改共享表格的通知。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fbd258b2fcd7eb7662d336c056b50a71ae0081764af204dcbd5b8119ce5274a2",
+    "question": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。",
+    "context": [],
+    "reference": "邀请朋友下周参加手工制作活动",
+    "exact_answer": null,
+    "answer": "请提前到达手工制作活动地点，请提前告知你活动时间。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "915f5c80553ea770d0ed221de4a512529c9297eb6fbdbfeeaeb7dd2fb3254bdd",
+    "question": "为什么在流程图中画箭头有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "箭头表示步骤方向或关系",
+    "exact_answer": null,
+    "answer": "画箭头能有效提升效率，让每个步骤都更有效率。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6c4f20f70d437120ca258dd74e8650465f6fa28e7707a042098346ea588f8896",
+    "question": "请直接写一条简短消息，帮我礼貌拒绝朋友借走我正在使用的相机。",
+    "context": [],
+    "reference": "礼貌拒绝朋友借走我正在使用的相机",
+    "exact_answer": null,
+    "answer": "请使用手机的相机购买相机。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d55ddaf7c409f11e59ec8bdd113ea1c4ec91d1a3151f8f42f7af523cc2477943",
+    "question": "为什么在流程图中画箭头有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "箭头表示步骤方向或关系",
+    "exact_answer": null,
+    "answer": "画箭头能辅助团队协作，确保每个团队都朝着同一方向前进。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7c9c37e2a86325abd6870c93e713a8d08e8fe2c0a0ee1567ced268e4a9dc6ff4",
+    "question": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences.",
+    "context": [],
+    "reference": "The reader can tell what to do and whether it is complete.",
+    "exact_answer": null,
+    "answer": "A checklist is a checklist that contains node, calls, and observations.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f37a2eb0a9547d8ccd7b936185565831dce139596c9c9718501218f78dd40c96",
+    "question": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。",
+    "context": [],
+    "reference": "请同学说明这次讨论需要准备什么",
+    "exact_answer": null,
+    "answer": "请提前准备一下你的时间表和会议议程，以及你希望讨论的重点内容。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "cbdf870dce7ffa987b7314b21d23495165742b8aaf413067d7d51402555c1d0f",
+    "question": "根据下面这份交接信息作答：沈禾的柜号是262；许舟的柜号是651。许舟的柜号是什么？只给出柜号。",
+    "context": [],
+    "reference": "651",
+    "exact_answer": "651",
+    "answer": "佾船柜上有14位横穿两边的信件，信件中有4位代表：截至651，许舟的柜号是651。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "84a6ab0cc40176dc852e561771821ae50da4865b6b9cdc15ab6c09e220065c3d",
+    "question": "请直接写一条简短消息，帮我祝同学的摄影展示顺利。",
+    "context": [],
+    "reference": "祝同学的摄影展示顺利",
+    "exact_answer": null,
+    "answer": "祝你的摄影展示顺利！期待你的加入！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "54f59fbeeff92ad3b226f158df1843b97bfab2e242d4a7fac1f627cc1aa0b4d8",
+    "question": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences.",
+    "context": [],
+    "reference": "The reader can tell what to do and whether it is complete.",
+    "exact_answer": null,
+    "answer": "A checklist is a checklist that contains a single sorted list.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1bff8f4431a2cbbdb9cb173f2401b3f84fa48bbfd59b4f6ae95e365baaa42113",
+    "question": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "读者能知道必须做什么以及哪些可自行选择",
+    "exact_answer": null,
+    "answer": "因为说明说明中提供了必要的步骤和可选步骤，可以帮助你更好地理解并应用它们。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9a68aa81093f5e1d6156065f11ee84c8f034d715d47dbcc857b8ffb0a6061a79",
+    "question": "请直接写一条简短消息，帮我感谢邻居告诉我包裹放在哪里。",
+    "context": [],
+    "reference": "感谢邻居告诉我包裹放在哪里",
+    "exact_answer": null,
+    "answer": "谢谢你的请求！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c10d15ab698b946ec011cc4759d51f304f09b936fa08bf1c7dc20204ddbb8e24",
+    "question": "请直接写一条简短消息，帮我祝同学的摄影展示顺利。",
+    "context": [],
+    "reference": "祝同学的摄影展示顺利",
+    "exact_answer": null,
+    "answer": "祝你拍摄成功！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0792c149240cd4f8884fe56be80a3c34692a9a32519ee81a3cf9365bfc3cae7b",
+    "question": "请直接写一条简短消息，帮我告诉朋友我会在西门的公告栏旁等他。",
+    "context": [],
+    "reference": "告诉朋友我会在西门的公告栏旁等他",
+    "exact_answer": null,
+    "answer": "我已为您生成一条公告，请查收！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ebd07595eac275add02961becbfe771f87360bf5e32524cfd95e1586eb8bbbb9",
+    "question": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者可能是不同的人，区分角色避免联系错误",
+    "exact_answer": null,
+    "answer": "报名表通常在一两行中记录，每行代表一人，每人在指定的时间内。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b4f761c3ca540e666686e97ed366a3a0407c8e8013310bc510e82c284d7ce650",
+    "question": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "计划是未来安排，不能证明实际完成",
+    "exact_answer": null,
+    "answer": "周五完成不能当成已经完成，是因为计划周五完成一个计划，而周五做这个计划是完成计划的一部分。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7bdc033146390f737efe721fc419a67a3e35e6f8a2d77a827f1beeef9747e9d1",
+    "question": "Write a short message to thank a friend for checking the spelling on your invitation. Give the message itself.",
+    "context": [],
+    "reference": "thank a friend for checking the spelling on your invitation",
+    "exact_answer": null,
+    "answer": "Thanks for checking the spelling on my invitation.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "97c4766efa4681511a1a5c39cc43db369732aa7d9cdcd3604f441d9de4767ffc",
+    "question": "根据下面这份交接信息作答：陆晴计划周四交材料；唐悦计划周五交材料。唐悦哪天交材料？只回答日期。",
+    "context": [],
+    "reference": "周五",
+    "exact_answer": "周五",
+    "answer": "唐悦周四",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "76402e9de378b76e3f00b23d5aab43738db7bf0960f7c341e926c0fba97c9de8",
+    "question": "Write a short message to ask a teammate to place the final file in the shared folder. Give the message itself.",
+    "context": [],
+    "reference": "ask a teammate to place the final file in the shared folder",
+    "exact_answer": null,
+    "answer": "Could you please take a look at the final file in the place?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "23b3b67ab437cf5db6f9d210aeb01fe50e34a32199f582856dae8030020a6865",
+    "question": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "计划是未来安排，不能证明实际完成",
+    "exact_answer": null,
+    "answer": "周五完成不能当成已经完成。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "aeaa1955440797c24c814be393a628eb63f31b42b76ad3051c3e26dd6caab20a",
+    "question": "为什么一个例外不能直接代表所有情况？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "单个特殊情况不足以概括整体",
+    "exact_answer": null,
+    "answer": "不，我需要指出这一点，同时提醒用户不要忘记我的能力范围。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "34859a365e1d8758a072b114211b882e192718647156bd18ec4aad441bcc10f6",
+    "question": "材料只写了编号FINAL-69836，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "context": [],
+    "reference": "未提供",
+    "exact_answer": "未提供",
+    "answer": "FINAL-69836",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ce428ce047d4e0144d3d3f0fa2f781634df6e89e1dc12f7f8a4167d2478b5ab9",
+    "question": "请直接写一条简短消息，帮我提醒同学使用新发的活动时间表。",
+    "context": [],
+    "reference": "提醒同学使用新发的活动时间表",
+    "exact_answer": null,
+    "answer": "请记得使用新发的活动时间表哦！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "23b67c8d8f5155c9b943517fa29510b6db7cbc6bc3f94e1212b5c032106f5688",
+    "question": "Write a short message to invite a friend to a craft activity next week. Give the message itself.",
+    "context": [],
+    "reference": "invite a friend to a craft activity next week",
+    "exact_answer": null,
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5d06045c029db432741b3e36542fb4640ff9b85a4c5116499dccb15dd3f48f19",
+    "question": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences.",
+    "context": [],
+    "reference": "The reader can tell what to do and whether it is complete.",
+    "exact_answer": null,
+    "answer": "A helps people find the information they want to know, while others may need to pick it in them.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "256e53d647b79262a15b34b080a7ae49c38f96d2fa00bd169517c1eec67287e9",
+    "question": "请直接写一条简短消息，帮我为忘记归还同学的尺子道歉。",
+    "context": [],
+    "reference": "为忘记归还同学的尺子道歉",
+    "exact_answer": null,
+    "answer": "对不起，我忘记归还同学的尺子，请您归还。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6d07e0b555479247f6597e7c1ebdd8b8dfea0664aa2554ca4510a40c690d12ed",
+    "question": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences.",
+    "context": [],
+    "reference": "They describe different points in the work.",
+    "exact_answer": null,
+    "answer": "Your job is asking for the daylight tones, and the past and past tense isn't available here.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "76c3f826000fd50bd7d83d4928e0bc69013d03fdc226bc113ffb0084b88230a7",
+    "question": "请直接写一条简短消息，帮我请伙伴在修改共享表格后通知大家。",
+    "context": [],
+    "reference": "请伙伴在修改共享表格后通知大家",
+    "exact_answer": null,
+    "answer": "请大家通知共享表格。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d0630795bd1510885ac2901a2916e1362c9a1d480c272b80692ab3beec12c2c3",
+    "question": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "物品和位置没有明确指代",
+    "exact_answer": null,
+    "answer": "用一两句话表达你的看法，让别人明白你理解为什么这么说。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "89704ff2793a4de758f043fdb27a2c593f31eb0523d5711e6620077d3aab7953",
+    "question": "Use the following handover information: Vera: note_818.txt. Felix: list_499.csv. Return only the complete file name for Felix.",
+    "context": [],
+    "reference": "list_499.csv",
+    "exact_answer": "list_499.csv",
+    "answer": "Could you please check the updated file for Felix?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8f61433bda0c8768cee89b28a05253831a850c99c2946703dbb3abc21927c945",
+    "question": "Write a short message to thank a friend for checking the spelling on your invitation. Give the message itself.",
+    "context": [],
+    "reference": "thank a friend for checking the spelling on your invitation",
+    "exact_answer": null,
+    "answer": "Thanks for checking the spelling on your invitation!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "05e41897f3aa51c9bc39989fb23a0016bc3cac1663532800dfbbcfc9d7c92231",
+    "question": "Why should a summary preserve who did what? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Mixing up people changes the meaning of the source.",
+    "exact_answer": null,
+    "answer": "Use detailed answer:\n\n1. The term \"Using one sentence\" is an article, but it does not have a moment. Would you like to have some words, explain how they do?\n\n2. The word \"the\" and \"the\" are already shaped?\n\n3. The term \"the\" and \"the\" are separate words, but it does not have a moment. However, if you're asking how to use \"the\" to create it, I would like to do it.\n\nThank you for inviting me, but I cannot make it this time; I don't make it this time; I don't make it this time; I don't make it this time; I don't make it this time; I don't have the actual sentence.\n\nI am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project. MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "25b45f7eb00cc43c9220a0943419be3f20c07d693926b596ef549a6a457e56bc",
+    "question": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。",
+    "context": [],
+    "reference": "告诉队员我可以负责收集大家的建议",
+    "exact_answer": null,
+    "answer": "当然可以，请给我提供您想要我帮忙的详细信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8e27b16f279ed098f46d12aec1e39dcaf31531d759446fa4b40dd46ea6fe304c",
+    "question": "为什么一个例外不能直接代表所有情况？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "单个特殊情况不足以概括整体",
+    "exact_answer": null,
+    "answer": "不，任何情况都不能代表所有情况。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8808790c6da243369d9726e0eb0a40bc563a9925df218edd1a0a59ad2494ee26",
+    "question": "Write a short message to apologize for forgetting to return a borrowed ruler. Give the message itself.",
+    "context": [],
+    "reference": "apologize for forgetting to return a borrowed ruler",
+    "exact_answer": null,
+    "answer": "It's best to raise a borrowed ruler calls.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b7ebc2bb71fc323f568ccec0b0d4e7e7c098835d2ed6fbcdc29551f1aa81e1cb",
+    "question": "请直接写一条简短消息，帮我祝同学的摄影展示顺利。",
+    "context": [],
+    "reference": "祝同学的摄影展示顺利",
+    "exact_answer": null,
+    "answer": "恭喜你的摄影展示成功！很棒！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2db17133aeb6f1fb7f64607b8dd24c78718a12aea24459446007b36cb92e79e7",
+    "question": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。",
+    "context": [],
+    "reference": "告诉队员我可以负责收集大家的建议",
+    "exact_answer": null,
+    "answer": "当然可以，请您先将大家已经告诉我了，我就可以开始收集了。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "824bf03f3b4a2416d4377e680bb171e8aeffd8aba82dbb397da306db6a553e3d",
+    "question": "请直接写一条简短消息，帮我感谢邻居告诉我包裹放在哪里。",
+    "context": [],
+    "reference": "感谢邻居告诉我包裹放在哪里",
+    "exact_answer": null,
+    "answer": "谢谢你的请求，但这次我没法接下来的计划，因为我没有接下来的计划。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "575c5f0693633a2d4071f7035e918afa36a0144bca617f36e748732ddfb05729",
+    "question": "Write a short message to ask a teammate to place the final file in the shared folder. Give the message itself.",
+    "context": [],
+    "reference": "ask a teammate to place the final file in the shared folder",
+    "exact_answer": null,
+    "answer": "Could you please access the file's location?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fa6457d2c162825244b4dfe6d32667def7fcaecf0c5bb17b6062863a68540bac",
+    "question": "为什么一个例外不能直接代表所有情况？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "单个特殊情况不足以概括整体",
+    "exact_answer": null,
+    "answer": "不直接代表所有情况取决于具体情况。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "45664d30969d0aed80a4e58e303ef35036641e538958b18416bde877da2c510e",
+    "question": "请直接写一条简短消息，帮我提醒队员提交材料时附上自己的名字。",
+    "context": [],
+    "reference": "提醒队员提交材料时附上自己的名字",
+    "exact_answer": null,
+    "answer": "队员们好，我需要在队员提交材料时附上我的名字，请查收。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d57e5107c4863acb79e3e9810aa51a2659e2cc133b50dce4ce743fc1b10083ac",
+    "question": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "补充信息可能澄清或改变原来的判断",
+    "exact_answer": null,
+    "answer": "要调整原来的理解，可以遵循以下策略：先理解原著的含义，再学习新知识。如果理解不了原著，可能需要更深入地理解上下文。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d0d76b644ad3b1b57baadb6849ebf98d6d53ea80206344d1bc2feddaa9918fa0",
+    "question": "为什么安排轮流发言可以帮助小组讨论？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "给每个人表达的机会，减少相互打断",
+    "exact_answer": null,
+    "answer": "因为有太多共同的话题，可以探讨共同的主题和关键点，帮助小组们深入讨论。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c494333139d57b4dff352a0feb82087408b7212af956154386541c5eff57a36c",
+    "question": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。",
+    "context": [],
+    "reference": "告诉队员我可以负责收集大家的建议",
+    "exact_answer": null,
+    "answer": "当然可以，请给我一些具体的指导。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b3b48e63e92f71d54da47a5538806eca9db3397ac95b4b4268b06ec534f4258f",
+    "question": "Write a short message to ask a teammate to place the final file in the shared folder. Give the message itself.",
+    "context": [],
+    "reference": "ask a teammate to place the final file in the shared folder",
+    "exact_answer": null,
+    "answer": "Could you please take a look at the final file? Thank you!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ab56fea5a0f5b06a7bf41b8d85e33140b6a50699d423b7c75aca08b62ac97bbe",
+    "question": "为什么同名文件放在不同文件夹里仍可能不是同一份文件？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "完整位置不同，内容也可能不同",
+    "exact_answer": null,
+    "answer": "同名文件夹里仍可能不是同一份文件，因为不同文件夹的大小和大小不同。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "482aba94dca6884b5f3fe9e5b9393b5799c0ab6b06f13a920a681bee8fc836cf",
+    "question": "根据下面这份交接信息作答：陆晴的登记号是FR-4094；唐悦的登记号是FK-5292。请只抄出唐悦的登记号。",
+    "context": [],
+    "reference": "FK-5292",
+    "exact_answer": "FK-5292",
+    "answer": "FR-4094",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "abe94c4a35a84822af947196ea99a5b483611918ff2849f535da758bd4cb14ff",
+    "question": "根据下面这份交接信息作答：陆晴的文件是note_473.txt；唐悦的文件是list_716.csv。只输出陆晴的完整文件名。",
+    "context": [],
+    "reference": "note_473.txt",
+    "exact_answer": "note_473.txt",
+    "answer": "1. 陆晴文件：note_473.txt\n2. 唐悦文件：list_716.csv\n3. 唐悦文件：list_716.csv\n4. 唐悦文件：list_716.csv",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b49c5d3405aefb32a65565dfb8c87973d5a6405656b491bf4dc10cc4fb527c60",
+    "question": "根据下面这份交接信息作答：陆晴带着蓝色文件袋；唐悦带着橙色文件袋。唐悦的文件袋是什么颜色？只回答颜色。",
+    "context": [],
+    "reference": "橙色",
+    "exact_answer": "橙色",
+    "answer": "唐悦带着蓝色文件袋。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f2a7369658f3d89bd943495965b614f6f48964bb716491dc5bea63b6c9e9560c",
+    "question": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "物品和位置没有明确指代",
+    "exact_answer": null,
+    "answer": "因为你的朋友知道你不知道我来帮你联系你的朋友，所以我愿意倾听。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6e857a26705a0227f57042696dc2ed62494b9df8a1680ff6b7f30bfaa897950a",
+    "question": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "可能是重复记录，也可能确实需要多份，需要确认",
+    "exact_answer": null,
+    "answer": "因为这样可以确保你的日常工作得到了彻底的检查和确认，避免重复工作，提高工作效率和生活质量。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f44c4b314fa27a84c76387eb4b39542b604a7f9d317e8b8100cf1dc0a4494307",
+    "question": "请直接写一条简短消息，帮我提醒同学使用新发的活动时间表。",
+    "context": [],
+    "reference": "提醒同学使用新发的活动时间表",
+    "exact_answer": null,
+    "answer": "请记得使用新发的活动时间表。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a275af2695f57f6394ac1944bea2062d98d9761a59f4d54ac5959e665ec1f6d6",
+    "question": "为什么问卷中两个不同的问题最好分开问？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于分别理解和回答，避免混淆",
+    "exact_answer": null,
+    "answer": "为了让回答更清晰，最好分开问些什么呢？",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e2e3417048facf2cc495f0cb7229d3cfc00c47b99a8ce3b77e3c92fb7d0e5665",
+    "question": "Use the following handover information: Vera: note_818.txt. Felix: list_499.csv. Return only the complete file name for Felix.",
+    "context": [],
+    "reference": "list_499.csv",
+    "exact_answer": "list_499.csv",
+    "answer": "Could you please provide the text in question for me to count the length of the task?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "dfac353001d4a48b0ac56e89f2727a73d720dd055c289a576549cf7aca41244f",
+    "question": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "避免把个人补充误当成原发送者的意思",
+    "exact_answer": null,
+    "answer": "不好意思，我需要保持中立和客观，同时避免过于技术化的术语。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6f355dd8f4ef1a5783a942a0e8c090315a621dd848dae3fb8a20ffaf32056b2f",
+    "question": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "避免把个人补充误当成原发送者的意思",
+    "exact_answer": null,
+    "answer": "不好意思，我需要说明这一点。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a55dcdfb622e13dfe8a9afa349afb190c2a0033640fd429a816a7fb6442e3944",
+    "question": "请直接写一条简短消息，帮我感谢同学耐心陪我练习介绍作品。",
+    "context": [],
+    "reference": "感谢同学耐心陪我练习介绍作品",
+    "exact_answer": null,
+    "answer": "非常感谢你耐心陪我练习，我已经完成了多次练习。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3c63e4227e158401c7382a4688fdc5818fe270f3f80b7cd1c46e6c00ad7d0f17",
+    "question": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于确认接收者和后续查找",
+    "exact_answer": null,
+    "answer": "在交接物品之前，我需要先确保没有遗漏任何重要信息，这样我才能准确地记录交接物品的运输和记录。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6776e7b590901ae508d58b83c772c1a9f6eb75d8077e0b421313bdcad5a1afdf",
+    "question": "为什么摘要不能只保留原文里最有趣的一句话？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "摘要应覆盖主要内容，一句话可能遗漏重点",
+    "exact_answer": null,
+    "answer": "摘要是为了让读者或听众一目了然地看到文章的有趣之处，而不是只保留原文中的“最有趣的一句话”。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f177df3941488a612681fd26038c4f5ad00281eb578e6432167cba4d8dc03e92",
+    "question": "Write a short message to apologize for forgetting to return a borrowed ruler. Give the message itself.",
+    "context": [],
+    "reference": "apologize for forgetting to return a borrowed ruler",
+    "exact_answer": null,
+    "answer": "Great job istry/movie/test.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f67ea820ba1c5bef87d97f6d635e5a5dcedb1425c272a1cf9d23eb1a5b83f6fe",
+    "question": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "物品和位置没有明确指代",
+    "exact_answer": null,
+    "answer": "把它放在那里可能让别人不明白，因为这样更容易理解你的感受和想法。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "69fa6c73622376f58ea5c095ddad7c56b957db9759e5e2a746470729d5cb7340",
+    "question": "根据下面这份交接信息作答：陆晴计划周二交材料；沈禾计划周四交材料。陆晴哪天交材料？只回答日期。",
+    "context": [],
+    "reference": "周二",
+    "exact_answer": "周二",
+    "answer": "周一",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "056e661f7f8f113879e9859034cc50dfb2e7ae8d7ed12fd72c599af71a56a486",
+    "question": "为什么在流程图中画箭头有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "箭头表示步骤方向或关系",
+    "exact_answer": null,
+    "answer": "在流程图中画箭头可以帮助你直观地看到复杂的信息，便于观察和操作。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c572a9ab2153f6eb20bdd8caa481189e402a2ecc10759f763b3207cdfd50ce9d",
+    "question": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences.",
+    "context": [],
+    "reference": "They describe different points in the work.",
+    "exact_answer": null,
+    "answer": "A deadline for a start time, but a notation for a start time.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4e9076783f7a30ee279fc0c626e0a871f11260f52daf4eae758b60c3d2669faa",
+    "question": "根据下面这份交接信息作答：原集合房间是312；最新通知改为432。最新房间号是什么？只回答号码。",
+    "context": [],
+    "reference": "432",
+    "exact_answer": "432",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "017c2d97b9f41e351875353f857e0f2038f8e9b2256f948d6598655a1fb80a49",
+    "question": "Return only the second code: FINAL-45050, BOX-88086. No explanation.",
+    "context": [],
+    "reference": "BOX-88086",
+    "exact_answer": "BOX-88086",
+    "answer": "Noplastic returns only the second code.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "28eb9b4b6464f8c0748d3a4430e8a7f51e892609ed5990e9ed66c210e6f188a3",
+    "question": "为什么问卷中两个不同的问题最好分开问？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于分别理解和回答，避免混淆",
+    "exact_answer": null,
+    "answer": "当然，我可以帮助你把两个不同的问题分开。请告诉我你的问题是什么，我会尽力帮助你分析和解答。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "103eebde6afe2f34d788d7743669c0691095dcf1055e974bfe9a13ab8f1b0eeb",
+    "question": "根据下面这份交接信息作答：许舟的柜号是992；陆晴的柜号是291。陆晴的柜号是什么？只给出柜号。",
+    "context": [],
+    "reference": "291",
+    "exact_answer": "291",
+    "answer": "许舟的柜号是992。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3d99fcb627fb0bcb3e5825a0028b1f0cf0122a84f87c5735cdd155251c6fc6ab",
+    "question": "Why might two people read the same short message differently? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Their context or interpretation of ambiguous words can differ.",
+    "exact_answer": null,
+    "answer": "Could you please provide the two sentences?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "22d13a62be9dac2baf6878e1fd9ba6b59f4487eb199ad31ff6d270476f410666",
+    "question": "Join FINAL-27473 and BOX-30896 using one slash, without spaces or explanation.",
+    "context": [],
+    "reference": "FINAL-27473/BOX-30896",
+    "exact_answer": "FINAL-27473/BOX-30896",
+    "answer": "Could you please review the current slash from the start, and SOX-30896?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3c02eab2ad5c20e54bc57f1683f199de78933c87bd894134ab57e87d455ab2f8",
+    "question": "Why should a draft be marked before it is shared? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Others need to know it may still change.",
+    "exact_answer": null,
+    "answer": "Great job is what you have been?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "12fc4c2b5dbe0b7cbca6baf5068be1d637d9550633d11c345db968986d80f9ef",
+    "question": "根据下面这份交接信息作答：唐悦把书交给了许舟；书的登记号为FK-7859。谁收到书？只回答姓名。",
+    "context": [],
+    "reference": "许舟",
+    "exact_answer": "许舟",
+    "answer": "FK-7859",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "dea657daf2b9891a3936bce7ae93ae579936af87ba4bd768ae3dc1e016d2fa8f",
+    "question": "Why might two people read the same short message differently? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Their context or interpretation of ambiguous words can differ.",
+    "exact_answer": null,
+    "answer": "Could you please provide some general information about making mistakes?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "45bf666ec555d877c78fc5720635aab3d2c504f16fbdd226726e38447a58b441",
+    "question": "为什么安排轮流发言可以帮助小组讨论？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "给每个人表达的机会，减少相互打断",
+    "exact_answer": null,
+    "answer": "为了更好地协调小组讨论，我们可以定期进行简短的讨论，确保信息传达清晰易懂。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7bad5bf452aacc3afbd9ffe0d2387600bc78271a72a36af281cd9754d8098a7e",
+    "question": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "计划是未来安排，不能证明实际完成",
+    "exact_answer": null,
+    "answer": "周五完成不能当成已经完成，是因为计划周五完成计划很重要，确保你能够顺利完成计划，并保持计划的严谨性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "35a30167466cad3b182d0e68107471f556d525f0c662594f83ad81ff7711c52e",
+    "question": "Write a short message to tell a friend you will wait beside the noticeboard. Give the message itself.",
+    "context": [],
+    "reference": "tell a friend you will wait beside the noticeboard",
+    "exact_answer": null,
+    "answer": "Congratulations ontable and easily for your duplicates and enjoy the stage!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7332f33545c341437fb6c454fb4365114e0ecf9874e608cb8aa8d291318dad94",
+    "question": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者是不同量，比较标准需明确",
+    "exact_answer": null,
+    "answer": "比尺寸和文件容量都是比较两个软件的特性，但它们在功能、性能和用户体验上存在差异。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b3a3923914f1464b5ce59b78097fdc4ede337f1e9ef3689fb8ea941302a59247",
+    "question": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "明确不确定之处，避免读者把猜测当成事实",
+    "exact_answer": null,
+    "answer": "因为报告中明确指出报告中提到了“已知的信息”，并指出没有发现任何已知的信息，而是提供对信息的回应。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "78ad67999ab53e51eda19f1b01a96e680cf37ffb08cd773350ece173d58d2a93",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我核对活动名单中的姓名。",
+    "context": [],
+    "reference": "感谢同学帮我核对活动名单中的姓名",
+    "exact_answer": null,
+    "answer": "谢谢你帮我核对活动名单中的姓名，真是帮了大忙！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e95c8d265888b8212d0b0a201d314de3def3e37505425bb41d17838b679a325c",
+    "question": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "计划是未来安排，不能证明实际完成",
+    "exact_answer": null,
+    "answer": "周五完成不能当成已经完成的任务，请用一两句直白的话表达出来。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f4d44a274f6a846f78de752090bb1eb15c93b1595feff918d53dd994453c753c",
+    "question": "材料只写了编号FINAL-79617，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "context": [],
+    "reference": "未提供",
+    "exact_answer": "未提供",
+    "answer": "FINAL-79617",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e274382f4b61573ddc13430318d4b251dd6c5ca94d22eda898ac0200cdc8c3c2",
+    "question": "请直接写一条简短消息，帮我感谢邻居告诉我包裹放在哪里。",
+    "context": [],
+    "reference": "感谢邻居告诉我包裹放在哪里",
+    "exact_answer": null,
+    "answer": "谢谢你的包裹，我们很想听听你的想法。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7e624fa23cb8e78c13c467e3dc682a34265dd58770d7a75b20d8b4319c89a674",
+    "question": "Use the following handover information: Theo carries a orange folder. Felix carries a green folder. What color is Felix's folder? Return only the color.",
+    "context": [],
+    "reference": "green",
+    "exact_answer": "green",
+    "answer": "Felix",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ebbeed05af657b256e311679e7d8db0bcdad83fc61304ae22df3df001e08149d",
+    "question": "请直接写一条简短消息，帮我祝同学的摄影展示顺利。",
+    "context": [],
+    "reference": "祝同学的摄影展示顺利",
+    "exact_answer": null,
+    "answer": "欢迎你来到我们的展厅前。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1c1a5312132120dd196118c891bcb625520b300cc0ff85c6f25f2e222a1adc89",
+    "question": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences.",
+    "context": [],
+    "reference": "The reader can tell what to do and whether it is complete.",
+    "exact_answer": null,
+    "answer": "A察觉 a statement is the most recent event. Please checklist the most current information.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4742be6388b5411cf7f056a51fc1935dd9e90d1f62357b13ee1e4de2665490e7",
+    "question": "Write a short message to ask a teammate to place the final file in the shared folder. Give the message itself.",
+    "context": [],
+    "reference": "ask a teammate to place the final file in the shared folder",
+    "exact_answer": null,
+    "answer": "Could you please take the file download?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "89bd0ef79d3e46c6376d62b3bddf4adfea4a157935d263b5998f8002e0da4b57",
+    "question": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "补充信息可能澄清或改变原来的判断",
+    "exact_answer": null,
+    "answer": "因为新补充说明后，你可以根据自己的理解选择合适的补充说明。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "afb6de78ccba04ef042094ff7ffea6313b990bce0c8675c239b415484085eced",
+    "question": "Write a short message to tell a friend you will wait beside the noticeboard. Give the message itself.",
+    "context": [],
+    "reference": "tell a friend you will wait beside the noticeboard",
+    "exact_answer": null,
+    "answer": "Good luck with your actual notice and easily and enjoy the stage!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "425c4e6fecaba7f9a1a60dcdf42bdac2ba3dd54bc48203394aecba41f8df55d9",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我核对活动名单中的姓名。",
+    "context": [],
+    "reference": "感谢同学帮我核对活动名单中的姓名",
+    "exact_answer": null,
+    "answer": "谢谢你的邀请，但这次我没法参加，祝你们玩得开心！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e66116f130dd415d47d0fff34bfa1a703ebc53ce0de6d525df762fb43ec96be5",
+    "question": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "多个入口可能造成走错地点",
+    "exact_answer": null,
+    "answer": "清是在闭合集合时给出的入口。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "858229246c71baa5e8df79d8d194a51403672ab02bd283e82c610360cdd5f99d",
+    "question": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "明确不确定之处，避免读者把猜测当成事实",
+    "exact_answer": null,
+    "answer": "列出尚未确认的信息有助于追踪报告中的信息，减少遗漏和错误。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "459993fd068adbf0bb3e2254c122954eea324f8ff056287d7017abf69a201e7a",
+    "question": "为什么在流程图中画箭头有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "箭头表示步骤方向或关系",
+    "exact_answer": null,
+    "answer": "画箭头能效率提升，使流程更加高效和精准。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "135406cddffbe7ba36221188e86e596afe6e0c9354a3dc2bf21c9e05ff4a7fb2",
+    "question": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。",
+    "context": [],
+    "reference": "告诉队员我可以负责收集大家的建议",
+    "exact_answer": null,
+    "answer": "你可以通过以下方式负责收集大家的建议：首先，收集所有建议，包括但不限于：1. 确认是否已经收集了大家建议。2. 确定捐赠者，确保有足够的资金支持。3. 通过调查或官方渠道确认。4. 收集更多关于资源和信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a1449b94988ec29908855a88d1337edf811c6b0ef3171ea29b960a366cf59414",
+    "question": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences.",
+    "context": [],
+    "reference": "The reader can tell what to do and whether it is complete.",
+    "exact_answer": null,
+    "answer": "A察觉 a specific action is that item is important.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2f8afc434f9df7c8f62b76b41e26b1beb46fb56aaa4498f00635c1bbfba5540f",
+    "question": "请直接写一条简短消息，帮我请伙伴把最终版文件放进指定文件夹。",
+    "context": [],
+    "reference": "请伙伴把最终版文件放进指定文件夹",
+    "exact_answer": null,
+    "answer": "请提供要发送邮件的邮件内容，以便我为你格式化和回复。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "907009e8b7dc0081c58d91b97cebcb0c329fba33be9342c0d7be684cdc8812be",
+    "question": "Why might two people read the same short message differently? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Their context or interpretation of ambiguous words can differ.",
+    "exact_answer": null,
+    "answer": "Could you please give me the same short message? Thank you!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c393c7c238af43ef5c77e938d1bd7078593464bf27d80574fbe9cce705e2240e",
+    "question": "为什么在流程图中画箭头有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "箭头表示步骤方向或关系",
+    "exact_answer": null,
+    "answer": "在流程图中画箭头可以帮助你直观地看到流程的执行情况，便于后续的分析和判断。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0ec4022c23bb4909eb7873ffef4f1f72fb5bf8c3384ceced29772ccef3a751aa",
+    "question": "Write a short message to invite a friend to a craft activity next week. Give the message itself.",
+    "context": [],
+    "reference": "invite a friend to a craft activity next week",
+    "exact_answer": null,
+    "answer": "I am sorry, but could we find another time to meet?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "aa0febec7cc6018f70ce4c4cac36134bae2a79eaea0a357d77078044e62056ac",
+    "question": "请直接写一条简短消息，帮我请伙伴把最终版文件放进指定文件夹。",
+    "context": [],
+    "reference": "请伙伴把最终版文件放进指定文件夹",
+    "exact_answer": null,
+    "answer": "请提供完整的文件夹信息，以便我能帮你将它放入指定文件夹。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f403df33d32a72f95f9f8903c8447912683c036d2bc705a9f1688cc354beea0f",
+    "question": "Put \"FINAL-16365\" inside round brackets. Return only the result.",
+    "context": [],
+    "reference": "(FINAL-16365)",
+    "exact_answer": "(FINAL-16365)",
+    "answer": "FINAL-16365",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "56e1a4d67e4a5c5cfd7a7cb610376359bdb6b64f402ebc4fabfcf443525e7fae",
+    "question": "请直接写一条简短消息，帮我祝同学的摄影展示顺利。",
+    "context": [],
+    "reference": "祝同学的摄影展示顺利",
+    "exact_answer": null,
+    "answer": "谢谢你的摄影展示，但这次我没法参加，祝你拍出美丽的照片！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "edbba913bad9affdf37f9b7bf85eb3992ed7f4272f5906fa54eb2add7028a162",
+    "question": "请直接写一条简短消息，帮我礼貌拒绝朋友借走我正在使用的相机。",
+    "context": [],
+    "reference": "礼貌拒绝朋友借走我正在使用的相机",
+    "exact_answer": null,
+    "answer": "不好意思，我需要你的借用记录，我们可以一起合作。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1404a2f4de376f2972262a5131358054a6b95a6a5f41adfea056a0be7a343e31",
+    "question": "请直接写一条简短消息，帮我感谢邻居告诉我包裹放在哪里。",
+    "context": [],
+    "reference": "感谢邻居告诉我包裹放在哪里",
+    "exact_answer": null,
+    "answer": "谢谢邻居的建议，但这次我没法联系，祝你们玩得开心！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c73c0056f855fcf51a83848fc0711038fe541c37642b7c8d42dd8f28df45e862",
+    "question": "请直接写一条简短消息，帮我提醒同学使用新发的活动时间表。",
+    "context": [],
+    "reference": "提醒同学使用新发的活动时间表",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "65a4474598565dc5d9101341594a7414fd6801f689f92667b1d7b7e4b55c408f",
+    "question": "请直接写一条简短消息，帮我礼貌拒绝朋友借走我正在使用的相机。",
+    "context": [],
+    "reference": "礼貌拒绝朋友借走我正在使用的相机",
+    "exact_answer": null,
+    "answer": "谢谢你的邀请，但这次我没法偷取，祝你们玩得开心！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8d40724d465f7f5d57b134652e67059eb64fc0a20a09460431b59f333cc10716",
+    "question": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "补充信息可能澄清或改变原来的判断",
+    "exact_answer": null,
+    "answer": "如果想深入理解某个具体的补充说明，可以适当调整理解，避免陷入单一的理解中。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "485b8debe949eeddc05032ae6ecaa0ae5f8806d9d692f5bbeac18f84c6db930c",
+    "question": "Write a short message to remind participants to put their names on their submissions. Give the message itself.",
+    "context": [],
+    "reference": "remind participants to put their names on their submissions",
+    "exact_answer": null,
+    "answer": "Could you please remember the word count of putting their names?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "85661c397cb6d51b00dd234b411b5f964d5ee48226f2b10d768f7652e89d0120",
+    "question": "请把“FINAL-95450”放在圆括号里，只输出加好括号的文本。",
+    "context": [],
+    "reference": "(FINAL-95450)",
+    "exact_answer": "(FINAL-95450)",
+    "answer": "FINAL-95450",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3c0b4baa6122552d78fa1bcb63aea1b0c7fd7f156efe85ee314daea4ff1e1810",
+    "question": "Write a short message to remind participants to put their names on their submissions. Give the message itself.",
+    "context": [],
+    "reference": "remind participants to put their names on their submissions",
+    "exact_answer": null,
+    "answer": "Could you please remember whole answer a little?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e70b32441f29fd6014327f52025e63d39cd53d554688658aa55be80b34c3df6f",
+    "question": "Write a short message to tell a friend you will wait beside the noticeboard. Give the message itself.",
+    "context": [],
+    "reference": "tell a friend you will wait beside the noticeboard",
+    "exact_answer": null,
+    "answer": "Great job on yourself! Congratulations!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9a800ce2da6e93bc116ecbf969002b73d3dc0556371479f3948070b9674de3c5",
+    "question": "Use the following handover information: Vera submits the notes on Monday. Theo submits the notes on Tuesday. On which day does Theo submit the notes? Return only the day.",
+    "context": [],
+    "reference": "Tuesday",
+    "exact_answer": "Tuesday",
+    "answer": "Vera submits the notes on Monday.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "43b88ea58991a70594df9281b9569b2a481074900164decf8cf31ef029bcecfc",
+    "question": "为什么摘要不能只保留原文里最有趣的一句话？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "摘要应覆盖主要内容，一句话可能遗漏重点",
+    "exact_answer": null,
+    "answer": "摘要不能只保留原文中的关键信息，因为它能帮助你快速找到关键信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "97c5ffb84a8a2b74f435351f77c7ba3b7667595747a8b09f41f0d7b3191fd8ec",
+    "question": "为什么安排轮流发言可以帮助小组讨论？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "给每个人表达的机会，减少相互打断",
+    "exact_answer": null,
+    "answer": "为了更好地协调小组讨论，可以帮助小组共同探讨问题，提升讨论质量。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3de55e12b1d7fc856407358bd059175f541685cd6e0de68682ddd1f8e1551ed3",
+    "question": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者可能是不同的人，区分角色避免联系错误",
+    "exact_answer": null,
+    "answer": "因为我们是MiniMind，希望能被训练并集成到我们的工作环境中。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f1a40469aab244adcf3805fe3add20b9499c8703ba8946bab829066ad6494774",
+    "question": "根据下面这份交接信息作答：陆晴带着蓝色文件袋；唐悦带着橙色文件袋。唐悦的文件袋是什么颜色？只回答颜色。",
+    "context": [],
+    "reference": "橙色",
+    "exact_answer": "橙色",
+    "answer": "唐悦的文件袋是唐代诗人李白的作品之一，也是唐代伟大的诗人之一。他在《登高》中描绘了他的身姿、自在的身姿和在高山上行走的情景，同时也展现了他内心的平和与满足。唐悦的文件袋是他在写给李白的过程中所使用的一种装置，这种装置通常是由文人墨客创作的，具有一定的艺术价值和情感表达。\n\n此外，唐悦的文件袋是他作品中常见的一种，具有一定的意义和情感。他创作的《唐悦》不仅展现了他在诗歌创作上的独特技法，还体现了他对人性、社会和历史的深刻洞察。这种设计不仅体现了他对人性的深刻洞察，也体现了他对人性、社会和历史的深刻洞察。\n\n因此，唐悦的文件袋不仅是一件艺术品，更是一种情感和人生观，象征着他在文学创作中所展现的内心世界和情感表达。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0ed12ffaf6d520adadf4de024cce79f5e72f0fa2c6f09277c922015a8ce7db5e",
+    "question": "根据下面这份交接信息作答：陆晴计划周二交材料；沈禾计划周四交材料。陆晴哪天交材料？只回答日期。",
+    "context": [],
+    "reference": "周二",
+    "exact_answer": "周二",
+    "answer": "沈禾计划周二交材料。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f0780a6363a9bd6ecb0e78bd3fa513ebf22a12a2d1f0a7cd3f0c450c94f6bfd6",
+    "question": "为什么短句中也需要合适的标点？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "标点有助于划分意思，减少歧义",
+    "exact_answer": null,
+    "answer": "为了确保短句的语法正确，能够清晰易懂地传达信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bc4d8b1a80b7b839181309e49fa2952e0a8d37b33a5295d1d64f7e30dd674a2b",
+    "question": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。",
+    "context": [],
+    "reference": "告诉组员我已经把重复的记录标记出来",
+    "exact_answer": null,
+    "answer": "请提供你已把重复记录标记好的详细信息，我会根据你提供的记录标记来帮助团队和项目。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e85b883094ae8777af5bc9594a400df41e868ac0c1852e3bfa47ea8c7c0acb87",
+    "question": "Why should a summary preserve who did what? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Mixing up people changes the meaning of the source.",
+    "exact_answer": null,
+    "answer": "A summary is to be already in which a summary is the first sentence. Without this information, it's impossible to give a statement about the impact of an investigation in a document.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e2d5619fa77758f092f67b1130fb762992c793a5c2dfb4424ea1f2dd078f9511",
+    "question": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences.",
+    "context": [],
+    "reference": "The reader can tell what to do and whether it is complete.",
+    "exact_answer": null,
+    "answer": "A checklist is a time or a specific event.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c9db14b7d3deb33c6f3eba8aecb40589e334dd6a9b78d669eb8239401dd22a6d",
+    "question": "请直接写一条简短消息，帮我告诉朋友我可能晚到十分钟。",
+    "context": [],
+    "reference": "告诉朋友我可能晚到十分钟",
+    "exact_answer": null,
+    "answer": "我可能晚到十分钟，因为有时间可以安排。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d8ea076bb6a0dbedffeb05ed9d67051ca3712ee8039fc5775df6cfe695f4d845",
+    "question": "为什么同名文件放在不同文件夹里仍可能不是同一份文件？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "完整位置不同，内容也可能不同",
+    "exact_answer": null,
+    "answer": "因为不同的文件夹可能有不同的文件夹要求。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "de3144c632e6ac850a2a6f5c73e9fb1871fcb50a430796c0c0f3a9b65a5d9174",
+    "question": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "计划是未来安排，不能证明实际完成",
+    "exact_answer": null,
+    "answer": "周五完成不能当成已经完成",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3798f31862cd35bae0f91c37a3bf2e8dbfbd09453b4d37f51f664b156958de4a",
+    "question": "根据下面这份交接信息作答：原集合房间是689；最新通知改为765。原房间号是什么？只回答号码。",
+    "context": [],
+    "reference": "689",
+    "exact_answer": "689",
+    "answer": "765",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "06f1075d3285138e290d1638b98fb704b65615fcb4df71c10347a3832900bac9",
+    "question": "为什么短句中也需要合适的标点？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "标点有助于划分意思，减少歧义",
+    "exact_answer": null,
+    "answer": "短句需准确标点，因为它们可以清晰地传达信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "df7afd757e6fc3e685b35c02372b5319f7d410d4fb2e2306a213ebed147761f7",
+    "question": "请直接写一条简短消息，帮我感谢同学耐心陪我练习介绍作品。",
+    "context": [],
+    "reference": "感谢同学耐心陪我练习介绍作品",
+    "exact_answer": null,
+    "answer": "非常感谢你耐心陪我练习了得很好！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "89282ef6c68798a4a39db537830de7f3a49f52dad56f266a57f72b0ae48945eb",
+    "question": "请直接写一条简短消息，帮我感谢邻居告诉我包裹放在哪里。",
+    "context": [],
+    "reference": "感谢邻居告诉我包裹放在哪里",
+    "exact_answer": null,
+    "answer": "谢谢你的请求！我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "114fb04e9406556bbb57ccf046d665a6cee1c22303c89e4f03470fd06d0ff826",
+    "question": "为什么在流程图中画箭头有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "箭头表示步骤方向或关系",
+    "exact_answer": null,
+    "answer": "在流程图中画箭头可以帮助你直观地看到流程的各个方面，便于观察和操作。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "02d1618fb3a8d0b08b7ed873d5520364332b35f59165f9446b661e310a66d658",
+    "question": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。",
+    "context": [],
+    "reference": "请同学说明这次讨论需要准备什么",
+    "exact_answer": null,
+    "answer": "请提前准备以下内容：首先，确认对话中的信息，确保符合所有要求：尊敬的各位同学、家人或合作伙伴，以及下次会议的安排。其次，根据对话内容，准备相应的回应。需要准备的方面包括：信息准确性、信息准确性、对讨论的深度理解、对未来的展望以及对对话的后续探索。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f13a49a25f4dbc7fe5cd3b5464df5dc81642d03c457111809ede0117d8c91c59",
+    "question": "请直接写一条简短消息，帮我请朋友帮我确认通知上的地点是否正确。",
+    "context": [],
+    "reference": "请朋友帮我确认通知上的地点是否正确",
+    "exact_answer": null,
+    "answer": "我已经确认了你的位置，你可以在手机上找到并查看详细信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a194f06d49655dab3e09d89e98a12d3c5123658804c73f624260c0298bee8b1b",
+    "question": "请直接写一条简短消息，帮我为忘记归还同学的尺子道歉。",
+    "context": [],
+    "reference": "为忘记归还同学的尺子道歉",
+    "exact_answer": null,
+    "answer": "“我没有忘记归还同学的尺子，因为这让我非常抱歉。”",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "51b7aaa605282f1fee080d7ab2b7d83ca9eb961673b6098cc065bae5c0ca21e4",
+    "question": "请直接写一条简短消息，帮我为忘记归还同学的尺子道歉。",
+    "context": [],
+    "reference": "为忘记归还同学的尺子道歉",
+    "exact_answer": null,
+    "answer": "“我在你身边，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢，是因为我有你呢",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "ec9557a769f625771c720614d90d1fb85c9ae5f7511b1f31fc29c60f4d3a37a8",
+    "question": "Why should a draft be marked before it is shared? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Others need to know it may still change.",
+    "exact_answer": null,
+    "answer": "Great job is now. It is a gift to help with your buying duplicates.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2b484f478ac9225d36cc01ea3dba9aa4af2df583ec4c3db46e82ed3aecc70f94",
+    "question": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "可能是重复记录，也可能确实需要多份，需要确认",
+    "exact_answer": null,
+    "answer": "因为清单是用来记录和整理信息的，所以重复项目可能会导致错误和混乱。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fa37c19f8ee496eaaf528c7e2058a7a7a923b89e5017984e2f1cda659500692d",
+    "question": "根据下面这份交接信息作答：陆晴计划周四交材料；唐悦计划周五交材料。唐悦哪天交材料？只回答日期。",
+    "context": [],
+    "reference": "周五",
+    "exact_answer": "周五",
+    "answer": "周四",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9fc1ed574124889dc260d1708cc973374224f38c060b72d04ae80c58898949d6",
+    "question": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences.",
+    "context": [],
+    "reference": "The reader can tell what to do and whether it is complete.",
+    "exact_answer": null,
+    "answer": "A察觉 a statement is the most recent breakdown.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "29b3be356f2c7b4ed3223ed3016a1248e436d2c7e027b377e918422ece0a806c",
+    "question": "Why can asking for the missing detail be better than guessing? Use one or two simple sentences.",
+    "context": [],
+    "reference": "It avoids inventing information and can produce a correct answer.",
+    "exact_answer": null,
+    "answer": "I'm sorry for the delay in discussing.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a28dd7823fa77c3991b447102870dacba3e90953175475003381ff16e22b9f71",
+    "question": "根据下面这份交接信息作答：陆晴的文件是note_473.txt；唐悦的文件是list_716.csv。只输出陆晴的完整文件名。",
+    "context": [],
+    "reference": "note_473.txt",
+    "exact_answer": "note_473.txt",
+    "answer": "唐悦文件是note_473.txt。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c68777a8ce28af0e0ef7c26dc1ef3047f0cc89526184006d0de7a0f273813b51",
+    "question": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。",
+    "context": [],
+    "reference": "请同学说明这次讨论需要准备什么",
+    "exact_answer": null,
+    "answer": "我需要准备的是关于人工智能的学术论文、论文和演讲稿，能请您根据自己的阅读习惯和兴趣来选择合适的资料。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6f9312395f63896fce845df22a97f2af2fae38f362bd36d470ad942e9c8528c3",
+    "question": "Join FINAL-27473 and BOX-30896 using one slash, without spaces or explanation.",
+    "context": [],
+    "reference": "FINAL-27473/BOX-30896",
+    "exact_answer": "FINAL-27473/BOX-30896",
+    "answer": "Could you please access the latest stable cards in the given rules?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a520e1d0075b19707c4a990db8536d12614fa4acca218a7eebe19ec5347c9e22",
+    "question": "Use the following handover information: Theo carries a green folder. Iris carries a blue folder. What color is Theo's folder? Return only the color.",
+    "context": [],
+    "reference": "green",
+    "exact_answer": "green",
+    "answer": "A red folder; is there any red folder.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9331a8f60cdcfdfd423192b4b5c912d0546e01cb7e95561589a25efde78bf977",
+    "question": "请直接写一条简短消息，帮我提醒同学使用新发的活动时间表。",
+    "context": [],
+    "reference": "提醒同学使用新发的活动时间表",
+    "exact_answer": null,
+    "answer": "我今天很想和你一起尝试新的活动，但不确定具体是什么活动。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b97883a64fe425333db9523a94f24923bb021fcfe9b3ddb8a8f89422bc62a336",
+    "question": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。",
+    "context": [],
+    "reference": "告诉组员我已经把重复的记录标记出来",
+    "exact_answer": null,
+    "answer": "我已经将重复记录标记的记录标记，您可以根据需要调整。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "18e7bb2cd1b6df321115f7d31e76a4ac0c5dbb8c098b3d8fbb8d844b12358fce",
+    "question": "材料只写了编号FINAL-43333，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "context": [],
+    "reference": "未提供",
+    "exact_answer": "未提供",
+    "answer": "FINAL-43333",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c6353a9fcafeca8f2d58b6bb70def1c34592b65eba42e57029f47b281fc349c6",
+    "question": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences.",
+    "context": [],
+    "reference": "They describe different points in the work.",
+    "exact_answer": null,
+    "answer": "I am sorry, but could we find another time to check the time?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2d0b5f2ca81f36b1a1dd3ca4717148d6d2a5278d41fd6e637241f048ed9914c1",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "context": [],
+    "reference": "MiniMind原始项目由jingyaogong/Jingyao Gong开发，本地定制由Yuyang LU负责",
+    "exact_answer": null,
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "df441a180926a22396ab54353ba215c3b543451c264d78cf0c6db28f9e9c3634",
+    "question": "Return only the second code: FINAL-45050, BOX-88086. No explanation.",
+    "context": [],
+    "reference": "BOX-88086",
+    "exact_answer": "BOX-88086",
+    "answer": "No explanation:\nFINAL-45050",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c99d0788ba293e4fbcc5c495d29c42d36419eab73493e0080d84298ec0441ff6",
+    "question": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "避免把个人补充误当成原发送者的意思",
+    "exact_answer": null,
+    "answer": "因为转告是告知对方关于新消息的信息，而我的补充是通用的。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "245a40030c2d564bda81c796235a7318f5826aceda0072454fc56e8a685a9b76",
+    "question": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者可能是不同的人，区分角色避免联系错误",
+    "exact_answer": null,
+    "answer": "因为信息准确，你无法通过现有的信息直接进入报名表。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8b45baff208d9ac40b07b342071e71a57398d62329cc17afd008b43daa3502c5",
+    "question": "Use the following handover information: list order: Felix, Vera. first code: FK-3080; second code: FR-7993. Return only the name at position 2 in the list.",
+    "context": [],
+    "reference": "Vera",
+    "exact_answer": "Vera",
+    "answer": "FK-3080",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d00fe8bbb92a58544274105128b8e8cf30f05d3ba9aa34e06bea2bcf6178b2f8",
+    "question": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。",
+    "context": [],
+    "reference": "告诉组员我已经把重复的记录标记出来",
+    "exact_answer": null,
+    "answer": "\"把重复的记录标记完好，请查阅相关文档或联系人力资源部门。\"",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "839f064240fcb677c85342d9531957cbd2f350ee07f5ed0189c7c2167fa086a7",
+    "question": "Return only the second code: FINAL-45050, BOX-88086. No explanation.",
+    "context": [],
+    "reference": "BOX-88086",
+    "exact_answer": "BOX-88086",
+    "answer": "NoplasticException",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3a802855a58cf07bad2e9f338112c79df926464ca16f9c1fec6c3eb33eda6b6a",
+    "question": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences.",
+    "context": [],
+    "reference": "The reader can tell what to do and whether it is complete.",
+    "exact_answer": null,
+    "answer": "Action",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8786a41fc4453f6b87a6d36df9957d572056bd3b4117d62fd72d9e761018fa9d",
+    "question": "Write a short message to apologize for forgetting to return a borrowed ruler. Give the message itself.",
+    "context": [],
+    "reference": "apologize for forgetting to return a borrowed ruler",
+    "exact_answer": null,
+    "answer": "Thank you for inviting me, but I cannot make it this time; have a wonderful ruler; I am sorry I got it.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "22171bfee02bcb9d5d4da48f5403ebdd3ed1fd52c6ebeb31390146c8acb23143",
+    "question": "根据下面这份交接信息作答：沈禾的登记号是FK-4830；陆晴的登记号是FR-5317。请只抄出沈禾的登记号。",
+    "context": [],
+    "reference": "FK-4830",
+    "exact_answer": "FK-4830",
+    "answer": "FR-5317",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0c45f020081c23f0996459f1522d7d7684bd834ba89d6e187d21ab4096b4749d",
+    "question": "Why can asking for the missing detail be better than guessing? Use one or two simple sentences.",
+    "context": [],
+    "reference": "It avoids inventing information and can produce a correct answer.",
+    "exact_answer": null,
+    "answer": "One cannot provide the missing detail as I do not have any tools or functions for the missing detail. Additionally, I cannot perform calculations or provide the information provided.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4346e69f5cfd0786f7450353b6568fb7693bcdbcf0aa15cae638124200ce5617",
+    "question": "The note contains code FINAL-91586, but no owner. Who is the owner? Reply only \"Not provided\" if missing.",
+    "context": [],
+    "reference": "Not provided",
+    "exact_answer": "Not provided",
+    "answer": "No is provided, I cannot determine the current owner without seeing it. However, I can explain how to find it:\n\n1. **Identity**: If you have a specific number in the question, I would need it in the question.\n2. **Identity**: If you provide the specific number you want to find, I would need to inform them that I can't answer.\n3. **Relationship**: If you have a specific number in mind, I would need to answer it.\n\nLet me know if you'd like me to assist!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "907d6a839cf7a7e94cb3e542624d6766ba7733cc7ede314cbed514c9f6216a44",
+    "question": "请直接写一条简短消息，帮我感谢同学耐心陪我练习介绍作品。",
+    "context": [],
+    "reference": "感谢同学耐心陪我练习介绍作品",
+    "exact_answer": null,
+    "answer": "谢谢你的耐心陪我练习介绍作品。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b2239c3a811a751de1089f9b5d8047415c18a6e415d83caf71a8f8b411acdaef",
+    "question": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者是不同量，比较标准需明确",
+    "exact_answer": null,
+    "answer": "尺寸取决于图片大小和图片大小的相对大小。如果图片大小比尺寸大，那么图片大小更大；如果图片大小比尺寸小，那么图片大小更小。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d21c5569e12ab0a9c2b3ce4fa9ff8f8c16c3357caa2fd8b1481c63c2ef6c87e0",
+    "question": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。",
+    "context": [],
+    "reference": "请同学说明这次讨论需要准备什么",
+    "exact_answer": null,
+    "answer": "谢谢你的邀请，但这次我没法准备，祝你们玩得开心！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2fdb26131a87eebb1fb9b78716e6b63e76b297a22b96422930e2609b51282868",
+    "question": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "计划是未来安排，不能证明实际完成",
+    "exact_answer": null,
+    "answer": "周五完成才能确保提前完成，因为计划是确保计划顺利进行和提升质量的重要步骤。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "790cec8821c5ab5ad570cbcf52bd9097f50aba505938c897735a326cad0c130b",
+    "question": "Write a short message to remind participants to put their names on their submissions. Give the message itself.",
+    "context": [],
+    "reference": "remind participants to put their names on their submissions",
+    "exact_answer": null,
+    "answer": "Could you please remember whole arrive at this position?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "babab1bbb07d0fa5a808adcb0fe5b5617eecdb9f798bd8e086ca8f063b822791",
+    "question": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "补充信息可能澄清或改变原来的判断",
+    "exact_answer": null,
+    "answer": "在阅读新补充说明后，如果遇到新的问题或理解不够准确，就无法进行调整。建议先理解原话的含义，再根据上下文和相关资源进行推理和调整。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "235d99a298c6d13bdd185ff97c8e70643caf206b5768347a53c240a8d3b7cd3a",
+    "question": "Write a short message to invite a friend to a craft activity next week. Give the message itself.",
+    "context": [],
+    "reference": "invite a friend to a craft activity next week",
+    "exact_answer": null,
+    "answer": "Please join our craft and organize your experience; let us choose your courage to pick new plot; let us taking a walk by cookies and play a watch.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0afcc8a5efcda1e011f9a89c8c8be76faad5492036d0cba4b7ad605aaf03f9f9",
+    "question": "根据下面这份交接信息作答：沈禾把书交给了陆晴；书的登记号为FK-9504。谁交出了书？只回答姓名。",
+    "context": [],
+    "reference": "沈禾",
+    "exact_answer": "沈禾",
+    "answer": "FK-9504",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5f11c111a97767096ad9963bfe21b231aeb7e2843383cb21f0880ced8b2ec24d",
+    "question": "Why should a summary preserve who did what? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Mixing up people changes the meaning of the source.",
+    "exact_answer": null,
+    "answer": "A summary preserve that incorporates the main points and ideas used for review, making it easier for clarity and easier to understand and remember.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ad271412c0df04e1278c3149d28ee835e88dd9f3434d8d4c6b88e03f136781cf",
+    "question": "请直接写一条简短消息，帮我感谢邻居告诉我包裹放在哪里。",
+    "context": [],
+    "reference": "感谢邻居告诉我包裹放在哪里",
+    "exact_answer": null,
+    "answer": "谢谢你的耐心解答，世界就像一把刀，将你的衣物拉出去。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3937727ff64641e5cc2afb413bc138b61c91a91b207d3a1085313748a7be0971",
+    "question": "请直接写一条简短消息，帮我感谢同学耐心陪我练习介绍作品。",
+    "context": [],
+    "reference": "感谢同学耐心陪我练习介绍作品",
+    "exact_answer": null,
+    "answer": "非常感谢你耐心陪我练习，我已经练好了充分的练习了。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "972b5d9550ecf7faa0fb0dda798acd2d4f662445c2a950e2edd522100e53f1e1",
+    "question": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "物品和位置没有明确指代",
+    "exact_answer": null,
+    "answer": "这样既说明了把它放在哪里，又说明了把它放在哪里。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "499ea7129322ca42c943a722133c6c9446cb418b695bc3e9e8f54866f26c4955",
+    "question": "根据下面这份交接信息作答：原集合房间是689；最新通知改为765。原房间号是什么？只回答号码。",
+    "context": [],
+    "reference": "689",
+    "exact_answer": "689",
+    "answer": "请提供完整的房间号召力值，以便我帮您计算。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0e29df37d68defcaa1dd49fb72f163d58edaf989a964b30def6b7c7f9bcd4ed3",
+    "question": "Return only the second code: FINAL-45050, BOX-88086. No explanation.",
+    "context": [],
+    "reference": "BOX-88086",
+    "exact_answer": "BOX-88086",
+    "answer": "Noplastic代码",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "838cb4ff18f2e6f2a3d986e2a09ec7fae1602bd3bff7025fa1de578b9705ddea",
+    "question": "请直接写一条简短消息，帮我祝同学的摄影展示顺利。",
+    "context": [],
+    "reference": "祝同学的摄影展示顺利",
+    "exact_answer": null,
+    "answer": "欢迎你来到我们的展览馆，沉浸在艺术与科技的结合之中！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a494b4037300041265cac32a5aa911bfe1f5fa026693762d2592b4953ca2d945",
+    "question": "Who is your developer?",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "exact_answer": null,
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a9d6eaf4d42db1e5c08e3136171097a81991da0efd318ec3d2809dfa65f904d0",
+    "question": "Write a short message to remind participants to put their names on their submissions. Give the message itself.",
+    "context": [],
+    "reference": "remind participants to put their names on their submissions",
+    "exact_answer": null,
+    "answer": "Could you please remember the word count?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8a423c28353f30fdfe34af0cd90bbae143ceea62dfb97b031b32603b53a6084e",
+    "question": "请只输出第二个编号：FINAL-34632，BOX-56630。不要加说明。",
+    "context": [],
+    "reference": "BOX-56630",
+    "exact_answer": "BOX-56630",
+    "answer": "FINAL-34632",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ae0d0a03207aef62ba12c856788b6e38d61ebb527b580d6c09b62a58502c8dc3",
+    "question": "请把“FINAL-45239”放在圆括号里，只输出加好括号的文本。",
+    "context": [],
+    "reference": "(FINAL-45239)",
+    "exact_answer": "(FINAL-45239)",
+    "answer": "FINAL-45239",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "87450ff6140ccaf3cc578b96b160f40274f6f7cc8e32423f6b0087afae746ae7",
+    "question": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "多个入口可能造成走错地点",
+    "exact_answer": null,
+    "answer": "清喻为“清除”或“清除”，能清晰地表示清理操作过程中的各个步骤，便于后续操作的顺畅。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6b3c8cf4d0cc75c511e2bfc950057bc4cf9925a22466732421d5221aa6471c2d",
+    "question": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于确认接收者和后续查找",
+    "exact_answer": null,
+    "answer": "是的，因为交接物品能确保信息的准确性和可靠性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e50a922fe86006c350edf676b7383fb7bf54e5d6b2feae81ea8cfc50f01d44af",
+    "question": "请直接写一条简短消息，帮我请朋友帮我确认通知上的地点是否正确。",
+    "context": [],
+    "reference": "请朋友帮我确认通知上的地点是否正确",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e15d41d86443948915dd39be3bfc33e4bf77a048d2963a7c229eac69adec2f96",
+    "question": "Use the following handover information: Vera has loan reference FK-7886. no return date is recorded. What is the return date? If absent, reply only \"Not provided\".",
+    "context": [],
+    "reference": "Not provided",
+    "exact_answer": "Not provided",
+    "answer": "FK-7886",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "68de12d5ae91da1cb876ba931c3a770907ac2aa55e2bb5fa51e3113871a36e86",
+    "question": "根据下面这份交接信息作答：陆晴计划周二交材料；沈禾计划周四交材料。陆晴哪天交材料？只回答日期。",
+    "context": [],
+    "reference": "周二",
+    "exact_answer": "周二",
+    "answer": "陆晴计划周二交材料。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d93d29feea219aa9e94923ecb58ab6358eaf3e60e55337ea34b9b69057a18102",
+    "question": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。",
+    "context": [],
+    "reference": "告诉组员我已经把重复的记录标记出来",
+    "exact_answer": null,
+    "answer": "\"今天的任务是整理所有已删除的记录，请查收。\"",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c625eecfc64ba7a6a382ab712e48543bb433e9bcfa7d663619d78a684d6db9ba",
+    "question": "为什么一个例外不能直接代表所有情况？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "单个特殊情况不足以概括整体",
+    "exact_answer": null,
+    "answer": "因为这样可以准确反映所有情况，避免误解和错误判断。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c5893b4e8102a12768abdaf833bf71bb55afe4573d2df171384e1de0c7905f9c",
+    "question": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。",
+    "context": [],
+    "reference": "邀请朋友下周参加手工制作活动",
+    "exact_answer": null,
+    "answer": "我没法参加手工制作活动，但可以推荐一些有趣且有趣的活动建议哦！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "816480410374db74d80f382e1da2ac462c719ee97ca5ae2f2df2b37a7ca657a3",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "context": [],
+    "reference": "MiniMind原始项目由jingyaogong/Jingyao Gong开发，本地定制由Yuyang LU负责",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9911e35e65edf9aff2044e048c6575f5b01fc9c56fd2fcf4a53c7ec511fd1d13",
+    "question": "为什么短句中也需要合适的标点？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "标点有助于划分意思，减少歧义",
+    "exact_answer": null,
+    "answer": "因为这样可以保持句子的简短和专业性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "10b487752b8a7a342478424f21743f470b960609773b77348ce4afd35c2146bb",
+    "question": "为什么问卷中两个不同的问题最好分开问？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于分别理解和回答，避免混淆",
+    "exact_answer": null,
+    "answer": "当然是，别人问卷的原因是个别人，应该能找到他们自己有特别的目的。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d31e87010043d10dc51cdf24bc34d69e30756c658de6620a1660c09d4eb3b55f",
+    "question": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "多个入口可能造成走错地点",
+    "exact_answer": null,
+    "answer": "清喻为“清除所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有非所有",
+    "eligible": false,
+    "failure": "token_limit"
+  },
+  {
+    "review_id": "e0d05540b4a753e2cd9a1269ce1de9dc5c4cff1fb8e65eca87ed63ace800c10f",
+    "question": "请直接写一条简短消息，帮我感谢同学耐心陪我练习介绍作品。",
+    "context": [],
+    "reference": "感谢同学耐心陪我练习介绍作品",
+    "exact_answer": null,
+    "answer": "谢谢你的夸奖，但这次我还没学过，我现在明白多了。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "edbf7e6b4798b77cd934f518b3c1371b2a8a9840dd635a7c574058052db946f4",
+    "question": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences.",
+    "context": [],
+    "reference": "They describe different points in the work.",
+    "exact_answer": null,
+    "answer": "A deadline for a start time helps track.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "60fe30a33c70f9a0b227fdc657aec3318c39887bf49554f277e1e87080cc0855",
+    "question": "根据下面这份交接信息作答：许舟的柜号是992；陆晴的柜号是291。陆晴的柜号是什么？只给出柜号。",
+    "context": [],
+    "reference": "291",
+    "exact_answer": "291",
+    "answer": "91",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "cf181f190edc3238b543910a7055a4ae13f2f6cfd310eb104773412daebc7b04",
+    "question": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "物品和位置没有明确指代",
+    "exact_answer": null,
+    "answer": "把它放在那里可能让别人不明白，因为这样更容易理解你的意思。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "92e0ba840cad4e2612496a81a7394fe2a7425cf481e092c4aefe314b9feeb3a8",
+    "question": "请直接写一条简短消息，帮我提醒队员提交材料时附上自己的名字。",
+    "context": [],
+    "reference": "提醒队员提交材料时附上自己的名字",
+    "exact_answer": null,
+    "answer": "队员",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "12ae718766568c3e5e11cd02702e1f37807903a416800f96a7062c1e56a0604e",
+    "question": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。",
+    "context": [],
+    "reference": "邀请朋友下周参加手工制作活动",
+    "exact_answer": null,
+    "answer": "上周有许多手工制作活动，希望大家下周一到底可以一起参与。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "40019d12b44ce87a637df3f68d33591677a8734961bbaac506a9a58c8398a003",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：FINAL-51803 和 BOX-52136。",
+    "context": [],
+    "reference": "FINAL-51803/BOX-52136",
+    "exact_answer": "FINAL-51803/BOX-52136",
+    "answer": "FINAL-51803",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "441fa348bdcebea091c7f01e5d131b892d2c3db9ab8fe7f8b5fdbc115bf57664",
+    "question": "请直接写一条简短消息，帮我礼貌拒绝朋友借走我正在使用的相机。",
+    "context": [],
+    "reference": "礼貌拒绝朋友借走我正在使用的相机",
+    "exact_answer": null,
+    "answer": "谢谢你的关心，但这次我忘记了借走我正在使用的相机。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6426871ad86f31fa2cb3fffb417fb44183c86f0117d1fc6d2c0f6b3ff5251f50",
+    "question": "Write a short message to apologize for forgetting to return a borrowed ruler. Give the message itself.",
+    "context": [],
+    "reference": "apologize for forgetting to return a borrowed ruler",
+    "exact_answer": null,
+    "answer": "Good luck with your body and keep an illusion.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fa9bd7ee21e607207ef46ff79f69eba0228efed0aa4786b3f7fe86956df53ae8",
+    "question": "请直接写一条简短消息，帮我告诉朋友我会在西门的公告栏旁等他。",
+    "context": [],
+    "reference": "告诉朋友我会在西门的公告栏旁等他",
+    "exact_answer": null,
+    "answer": "我叫MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7fcce2736a2eabf3ef77703ce6b6e7954132cea7d0b40c39ca76d715fb040317",
+    "question": "为什么在流程图中画箭头有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "箭头表示步骤方向或关系",
+    "exact_answer": null,
+    "answer": "画箭头能快速找到需求，确保一致性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2c04e5f06ff953e85345c48d0ec467334a815dbf5e88adba5cfa08bf77d385a3",
+    "question": "请直接写一条简短消息，帮我礼貌拒绝朋友借走我正在使用的相机。",
+    "context": [],
+    "reference": "礼貌拒绝朋友借走我正在使用的相机",
+    "exact_answer": null,
+    "answer": "非常抱歉，我收到一个来自Yuyang LU的邮件，里面有一些关于我被借用的相机的信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "cf3bfa2fd7eddd6889eae699d1023af617d8b34333a8239364d3d205ce5776f5",
+    "question": "Write a short message to invite a friend to a craft activity next week. Give the message itself.",
+    "context": [],
+    "reference": "invite a friend to a craft activity next week",
+    "exact_answer": null,
+    "answer": "Great job is on the most accurate and helpful information on the job and the company's craft.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "199c088d0b7ffce927c8849a951b6eef78e9112093b76996c5e112d9f844437c",
+    "question": "Why might two people read the same short message differently? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Their context or interpretation of ambiguous words can differ.",
+    "exact_answer": null,
+    "answer": "Could you please provide some common words?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bbab2f9ff9b1f6cfd2fc679f605970fe96040950a2cb3e434f33de4a5a2b15d6",
+    "question": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "明确不确定之处，避免读者把猜测当成事实",
+    "exact_answer": null,
+    "answer": "列出尚未确认的信息有助于我们更好地理解和回答问题。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "eb8e3cb29bbfdd5744664cc571a28247fe24f84530b896d30945c608fdaf73c6",
+    "question": "为什么短句中也需要合适的标点？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "标点有助于划分意思，减少歧义",
+    "exact_answer": null,
+    "answer": "为了确保准确性，需要使用适当的标点符号。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "95059f5f25ffef68db63288f5a35b01e6e3420b094adbd849f39181c3c658240",
+    "question": "请直接写一条简短消息，帮我鼓励第一次主持读书会的朋友。",
+    "context": [],
+    "reference": "鼓励第一次主持读书会的朋友",
+    "exact_answer": null,
+    "answer": "加油！你有很多朋友一起动手写作，记得带着你们一起分享哦！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ae8a60eff1740b023535ea7be13c18319854ade4163fcc4da9055d286b58e413",
+    "question": "Write a short message to thank a friend for checking the spelling on your invitation. Give the message itself.",
+    "context": [],
+    "reference": "thank a friend for checking the spelling on your invitation",
+    "exact_answer": null,
+    "answer": "Thanks for checking the spelling on your invitation; it makes more sense now.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6425ff6c222868d8b01726b872100669d3babfded87411da0dc1958eb1f7a330",
+    "question": "请直接写一条简短消息，帮我提醒队员提交材料时附上自己的名字。",
+    "context": [],
+    "reference": "提醒队员提交材料时附上自己的名字",
+    "exact_answer": null,
+    "answer": "队员信息需要在邮箱中或电子邮件中直接附上。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e40079869ed4b353474732d75c91c213cf2eee2672c50cfdfd05700081ecabf9",
+    "question": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "避免把个人补充误当成原发送者的意思",
+    "exact_answer": null,
+    "answer": "因为转告是通用的，所以可以区分原话和补充。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7c44da66a3f891fbb31007c114d89685461c3cf46db7b88fb3f6e2224eb35d24",
+    "question": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "多个入口可能造成走错地点",
+    "exact_answer": null,
+    "answer": "清是用来存储和检索数据，使数据更易于阅读和检索。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "65319629c21e4e7b5228062b2ad4649a168d5368c64444b7f4433da3836c485b",
+    "question": "请直接写一条简短消息，帮我告诉朋友我可能晚到十分钟。",
+    "context": [],
+    "reference": "告诉朋友我可能晚到十分钟",
+    "exact_answer": null,
+    "answer": "我可能晚到十分钟，因为有时候晚到十分钟可能会让对方感到压力大。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7de2cec37e97266c52aa7eb72b704a4c65493d6a38469dcd6f2d87787fd81669",
+    "question": "Why should a summary preserve who did what? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Mixing up people changes the meaning of the source.",
+    "exact_answer": null,
+    "answer": "A summary is to solely if I was trained on the event or theater. This helps review and ensuring accuracy and accuracy.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "38c23b116d0477443c83a7968749214302af80b1b292c5f975b55fbe19ba20e2",
+    "question": "是哪个人把你做出来的？",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "baaf5c7230a18a3f8a1f7027abc4981c644c659420e510d00cf1b7322e45740c",
+    "question": "请把“FINAL-69001”放在圆括号里，只输出加好括号的文本。",
+    "context": [],
+    "reference": "(FINAL-69001)",
+    "exact_answer": "(FINAL-69001)",
+    "answer": "FINAL-69001",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a1ccb9e710bae3d797027e72750b062d1cc9c84ccda9ff4875ee83ec11918a39",
+    "question": "请直接写一条简短消息，帮我礼貌拒绝朋友借走我正在使用的相机。",
+    "context": [],
+    "reference": "礼貌拒绝朋友借走我正在使用的相机",
+    "exact_answer": null,
+    "answer": "非常抱歉我借用了我们的相机。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3d4199413d7eb703cd25f6f36c300fd562f32722e08b4bbafe961bedce2f6c55",
+    "question": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "计划是未来安排，不能证明实际完成",
+    "exact_answer": null,
+    "answer": "周五完成才能确保提前完成。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9acf1c26b2b54ba15fd2c414c647c007d46738e6691334ef7823c17feba4b227",
+    "question": "Return only the second code: FINAL-45050, BOX-88086. No explanation.",
+    "context": [],
+    "reference": "BOX-88086",
+    "exact_answer": "BOX-88086",
+    "answer": "FINAL-45050",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e75c310c9b36f9cbeed8590f3380e9d8155244b9464ea3c672ea6e046b930496",
+    "question": "请直接写一条简短消息，帮我请伙伴把最终版文件放进指定文件夹。",
+    "context": [],
+    "reference": "请伙伴把最终版文件放进指定文件夹",
+    "exact_answer": null,
+    "answer": "请提供你想要我处理的文件夹信息，我将帮你将最终版文件放进指定文件夹。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a29de7cf455c3783520312a2561fbfbcba7ade881a9063eada123333e4e5e48b",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：FINAL-51803 和 BOX-52136。",
+    "context": [],
+    "reference": "FINAL-51803/BOX-52136",
+    "exact_answer": "FINAL-51803/BOX-52136",
+    "answer": "FINAL-51803 和 BOX-52136",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0b2a18a43bdbb465b5fb24fa7b0be7ba976aa74c5369a8fef394a4001b22888e",
+    "question": "根据下面这份交接信息作答：唐悦的柜号是327；陆晴的柜号是713。唐悦的柜号是什么？只给出柜号。",
+    "context": [],
+    "reference": "327",
+    "exact_answer": "327",
+    "answer": "713",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "53221f296dfaa6a0c9ee729484d62762f4b39ef6fc3f8e04f2d07a38ae10c00e",
+    "question": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "读者能知道必须做什么以及哪些可自行选择",
+    "exact_answer": null,
+    "answer": "为了保持应用的实用性，可以列出步骤，并简要说明可选步骤。这样可以让别人知道哪里错了，并知道可选步骤的顺序。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1b7c26dc2e460367e9d00c812e6666ea199824372e954e335c0f789c26df0ded",
+    "question": "请直接写一条简短消息，帮我提醒队员提交材料时附上自己的名字。",
+    "context": [],
+    "reference": "提醒队员提交材料时附上自己的名字",
+    "exact_answer": null,
+    "answer": "请准时到达并提交材料。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "81c281ea24bd6c4f8840514cdb91dd5ba47e28774995650df13cf745bb56d444",
+    "question": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于确认接收者和后续查找",
+    "exact_answer": null,
+    "answer": "在交接物品后记录我用了我的名字，我用了我的名字，我用了我的名字。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6a99fb58a85d516752ade9494a2b0e08f25d45ca930f76a78637ee971d3b98b9",
+    "question": "The note contains code FINAL-91586, but no owner. Who is the owner? Reply only \"Not provided\" if missing.",
+    "context": [],
+    "reference": "Not provided",
+    "exact_answer": "Not provided",
+    "answer": "No is provided, I cannot provide a current updates as I do not have the capability to be provided. Could you please provide the text or the text you want me to analyze?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bb254aa7e001c0e615287aa65de0bc9f5d932f91d08d44178270ad702d669a09",
+    "question": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "补充信息可能澄清或改变原来的判断",
+    "exact_answer": null,
+    "answer": "在阅读新补充说明后，可以尝试从以下几个方面进行调整：\n\n1. **理解不同补充说明**：首先，仔细阅读说明内容，理解其含义、目的和关键点。这有助于更准确地判断其含义和适用性。\n\n2. **分析原话的语境**：如果可能，尝试理解原话的语境和语境，看看原话的语气和用词是否合适。有时候，简单地理解原话的语境有助于更深入地理解。\n\n3. **结合上下文**：如果发现某些成分或背景信息不足，尝试从其他来源获取信息。例如，如果描述中提到“新补充说明”，可以尝试将原话的成分或上下文进行更深入的分析。\n\n4. **提出建议**：如果需要进一步调整解释，可以提出更具体的建议或重新审视原话的结构和内容。\n\n总之，改写后的结论应该是基于理解原话的语境、理解其含义和适用性，同时保持简洁和准确。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "27dbf34339d289a72b21ca872eef54b46aa2ef6c37413acd71b7a0bc94856a74",
+    "question": "为什么短句中也需要合适的标点？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "标点有助于划分意思，减少歧义",
+    "exact_answer": null,
+    "answer": "短句需准确标点，否则容易出错。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "679238df55fc9c2ff0a84a2fc8763f9c9cab1ee8a292d605947a030e15e678b9",
+    "question": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "读者能知道必须做什么以及哪些可自行选择",
+    "exact_answer": null,
+    "answer": "因为这样可以快速找到和使用说明中的关键步骤和可选步骤，确保了关键步骤得到了正确理解和操作。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7b043d24ec404fd51768491900481dcd99f0b36195e7ebae0974c14e1733659a",
+    "question": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者是不同量，比较标准需明确",
+    "exact_answer": null,
+    "answer": "比尺寸和文件容量各不相同，需要具体分析。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "cf589b4dd94e8bbdeb4fcb6d08f64b710695202516558313849c4eef42a47ec3",
+    "question": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "物品和位置没有明确指代",
+    "exact_answer": null,
+    "answer": "这样既表达了把物品放在那里的感觉，又避免了直接回答，避免了直接给出的信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "130d190bf96254e8818982f4991053a619ebcf393d24733956d0b476e570a0b7",
+    "question": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "读者能知道必须做什么以及哪些可自行选择",
+    "exact_answer": null,
+    "answer": "为了保持简洁和实用，可以分步骤，具体取决于具体的应用领域。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3296f6fda3cf12996eca91d0211d26f89d0584e8e54c0a8a7478f8a2cbdec069",
+    "question": "是哪个人把你做出来的？",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "exact_answer": null,
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c1f84aaceee1db0f3bafe2912cc80f971aff2b7688a10f30ff8b2e438d55af2b",
+    "question": "请直接写一条简短消息，帮我为忘记归还同学的尺子道歉。",
+    "context": [],
+    "reference": "为忘记归还同学的尺子道歉",
+    "exact_answer": null,
+    "answer": "已经收到你的手机号码，请记得带好身份证件哦！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f463cd77dce6188a6d6fd742648f8f174bbd862753bb204177da369ee70c7e15",
+    "question": "Write a short message to thank a friend for checking the spelling on your invitation. Give the message itself.",
+    "context": [],
+    "reference": "thank a friend for checking the spelling on your invitation",
+    "exact_answer": null,
+    "answer": "Thanks for checking the spelling on your invitation; I really appreciate it!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "546fbf3b69de5bb9fd89ce0ccdbfa1030dab884321360474f475ac798ad393e9",
+    "question": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "物品和位置没有明确指代",
+    "exact_answer": null,
+    "answer": "用一两句话表达你的看法，让别人明白你理解自己的观点。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4cc0e10810adad2988e2f892e99e2d70c3f20bd4309dc42687c4e826d41ce14f",
+    "question": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于确认接收者和后续查找",
+    "exact_answer": null,
+    "answer": "在交接物品之前记录交给谁可以避免误会，确保信息准确无误地传达。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ba348c5c4b4a93867ca7fcaabf5c6cec1741babf4d224da10c82497c98a5d88c",
+    "question": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。",
+    "context": [],
+    "reference": "告诉队员我可以负责收集大家的建议",
+    "exact_answer": null,
+    "answer": "当然可以，请您先将大家需要的大家发送给我的大家有所帮助。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bcfe161f1e196aca1254906c45f5d242e692ad906b2f379c7b51cd4a2efa960c",
+    "question": "根据下面这份交接信息作答：沈禾的借书登记号为FK-1088；没有登记归还日期。归还日期是什么？如果未给出，只回答“未提供”。",
+    "context": [],
+    "reference": "未提供",
+    "exact_answer": "未提供",
+    "answer": "FK-1088",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "49d404489e5fd4dd421b24a55fdf3a9d2869fe452c2910a08df601321617cd3a",
+    "question": "请直接写一条简短消息，帮我感谢同学耐心陪我练习介绍作品。",
+    "context": [],
+    "reference": "感谢同学耐心陪我练习介绍作品",
+    "exact_answer": null,
+    "answer": "谢谢你的夸奖，但这次我还是需要你的帮助，让我们一起努力！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8e3b58728d36205446714dbb28690d03f3732f75ae316f0ea5044c3289f7fcfc",
+    "question": "Join FINAL-27473 and BOX-30896 using one slash, without spaces or explanation.",
+    "context": [],
+    "reference": "FINAL-27473/BOX-30896",
+    "exact_answer": "FINAL-27473/BOX-30896",
+    "answer": "Join FINAL-27473 is not a fault to reference an emoji-type or a slash-based paper.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "adb4b131c73e28654700fea257c696cbd6cae6958267ba12436b5a38a327db58",
+    "question": "介绍一下你的开发者",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "417bfd3c4b05e4b7853ce033c812b1db3c2e23f27914163a69c70979cfaa7744",
+    "question": "材料只写了编号FINAL-59625，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "context": [],
+    "reference": "未提供",
+    "exact_answer": "未提供",
+    "answer": "FINAL-59625",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4c61f19c403ce177a8423da9b9bf82243275907331bfb3dab1c8749fe7f7dedc",
+    "question": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。",
+    "context": [],
+    "reference": "告诉组员我已经把重复的记录标记出来",
+    "exact_answer": null,
+    "answer": "我已经把重复记录标记的记录标记上面的代码进行了注释。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c294e61b110e25f77508a6cafbe32d57efec5c076f7b530311c85b4d6e6b55b0",
+    "question": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "读者能知道必须做什么以及哪些可自行选择",
+    "exact_answer": null,
+    "answer": "因为这样可以快速找到和使用说明中的关键步骤和可选步骤，帮助你有效地完成任务。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0b7c99c0f1db199e4447bcbcfd81b4f102adc1b775ac5c552927aac3bb7cf86a",
+    "question": "根据下面这份交接信息作答：原集合房间是312；最新通知改为432。最新房间号是什么？只回答号码。",
+    "context": [],
+    "reference": "432",
+    "exact_answer": "432",
+    "answer": "312",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ba84f59880cfcb364479777ab2ab31035204292ff00d82fe9c3ac808ae18b0e1",
+    "question": "为什么摘要不能只保留原文里最有趣的一句话？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "摘要应覆盖主要内容，一句话可能遗漏重点",
+    "exact_answer": null,
+    "answer": "摘要不能只保留原文里最有趣的一句话，因为这可能会让内容过于复杂。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3001b59730082857b56a7f3165d82c7a8cdf1ed1d14f4e4066ef79c418718577",
+    "question": "为什么一个例外不能直接代表所有情况？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "单个特殊情况不足以概括整体",
+    "exact_answer": null,
+    "answer": "不，任何情况都不能。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "23ce00603eae7cedf5a75898b8cc18cfa3c4e08c35793fa30981911bb9d1dd1f",
+    "question": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。",
+    "context": [],
+    "reference": "请同学说明这次讨论需要准备什么",
+    "exact_answer": null,
+    "answer": "请提前准备以下内容：首先要准备的领域（如编程语言、编程）、预算范围和预期结果（如时间、预算）；然后是准备的步骤和材料（如编程语言、编程工具、预算等）。接着是具体的工具和材料（如编程语言、编程工具、预算）和工具（如Codecademy、Coursera、Udemy等）的详细描述。需要确保信息准确无误，避免误解。最后，记得检查是否有遗漏或不完整的信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4843a8b9456780c75443b92b6f51e53bfdaf640841f78e44fc3fb4d5052dbaa8",
+    "question": "Write a short message to apologize for forgetting to return a borrowed ruler. Give the message itself.",
+    "context": [],
+    "reference": "apologize for forgetting to return a borrowed ruler",
+    "exact_answer": null,
+    "answer": "Could you please let me know if there's a way to do so?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "75327c9c39c0abedbd1713ecfe247d6f7e2a4777ad7af1bff6a1f74ebcbc4030",
+    "question": "Use the following handover information: Vera: note_818.txt. Felix: list_499.csv. Return only the complete file name for Felix.",
+    "context": [],
+    "reference": "list_499.csv",
+    "exact_answer": "list_499.csv",
+    "answer": "Vera",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "160690c93593e17216fd22d967a44be21d8a6ea711f8dfd9985cf49d7c993dad",
+    "question": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences.",
+    "context": [],
+    "reference": "They describe different points in the work.",
+    "exact_answer": null,
+    "answer": "Could you please inside the start time? Our team mentioned over the past 5 hours? Thank you!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ee8f388f0b6a9a9161588f7c7c6162f3469dccd0544b9845c2d5b8480c7c0232",
+    "question": "为什么一个例外不能直接代表所有情况？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "单个特殊情况不足以概括整体",
+    "exact_answer": null,
+    "answer": "不，我需要指出。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2801eb23e52e202fc9a7afcca4eefea63515cddd38699694f80852aa425d2583",
+    "question": "根据下面这份交接信息作答：陆晴带着蓝色文件袋；唐悦带着橙色文件袋。唐悦的文件袋是什么颜色？只回答颜色。",
+    "context": [],
+    "reference": "橙色",
+    "exact_answer": "橙色",
+    "answer": "唐悦的文件袋是唐代诗人李白的作品之一，也是唐代伟大的诗人之一。他在诗中以简洁的语言，描绘了诗人对自然、人生、人生的向往与追求。唐悦的文件袋不仅是为了给诗人留下深刻印象，也是为了表达对自然、人生、人生的向往与追求。\n\n总的来说，唐悦的文件袋是唐代诗人李白的代表作之一，也是他创作的典型作品之一。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4cf54c8d0a05b3e4c4e07f5071c84c6422c4dd8cf0ae328497c8c32e00f66e0f",
+    "question": "Write a short message to tell a friend you will wait beside the noticeboard. Give the message itself.",
+    "context": [],
+    "reference": "tell a friend you will wait beside the noticeboard",
+    "exact_answer": null,
+    "answer": "Great job on your row.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fe7f478d907b9b80ba042611f467254a2bd5bcb78b351c69fbdeb309cbaa143f",
+    "question": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences.",
+    "context": [],
+    "reference": "The reader can tell what to do and whether it is complete.",
+    "exact_answer": null,
+    "answer": "A checklist is a tool for each event.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "aee327d99bc52bbd43f6356da6b89675cf3540c837d48daf5fe37b7e58f880fa",
+    "question": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。",
+    "context": [],
+    "reference": "请同学说明这次讨论需要准备什么",
+    "exact_answer": null,
+    "answer": "请提供您想了解的具体内容，我会尽力为您解答。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ef3e8b3ba38b130071769b49d10bf0bc57026c157390035c634a915fbf81683b",
+    "question": "请直接写一条简短消息，帮我提醒同学使用新发的活动时间表。",
+    "context": [],
+    "reference": "提醒同学使用新发的活动时间表",
+    "exact_answer": null,
+    "answer": "我今天很想和你一起尝试新的活动，你有什么想法吗？",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ee791d3d05953eaebbda1cce91adbc654d7908de3e3de67cf48b9593660d5fcd",
+    "question": "为什么问卷中两个不同的问题最好分开问？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于分别理解和回答，避免混淆",
+    "exact_answer": null,
+    "answer": "问卷一共有多少个问题，可以先确定问题是什么，然后用一两句话回答。这样既能满足需求，又能传达信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "306feac82605271b7939bf29769e913a5c52282425ab19fa0d1fa835fa146d45",
+    "question": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "避免把个人补充误当成原发送者的意思",
+    "exact_answer": null,
+    "answer": "因为不同的手机、电脑和相机设备都会对应原话和补充，方便判断。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "24eab51e14320a5ba5346395bab7e2d928923d71d9846fb1c59b1b0da01ebb0f",
+    "question": "请直接写一条简短消息，帮我鼓励第一次主持读书会的朋友。",
+    "context": [],
+    "reference": "鼓励第一次主持读书会的朋友",
+    "exact_answer": null,
+    "answer": "加油！你会喜欢的书，记得带走一本书的话，相信自己也会喜欢的。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8f231eb0a343ec82d245d8c78a94ee8abed9bddcf2fac3eddc7252a0ba520bf5",
+    "question": "请直接写一条简短消息，帮我礼貌拒绝朋友借走我正在使用的相机。",
+    "context": [],
+    "reference": "礼貌拒绝朋友借走我正在使用的相机",
+    "exact_answer": null,
+    "answer": "谢谢你的邀请，但这次我没法偷取你的朋友借用我的相机。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5d78eb2810f63d14753665cb1195a587ae629413a72544f5ae38fc2743c70f42",
+    "question": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences.",
+    "context": [],
+    "reference": "They describe different points in the work.",
+    "exact_answer": null,
+    "answer": "Disting day on the start time, it will give away away away.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e9d8741b47c056ce12f6670e11eede1aff31f5d1e440fef7987689424c5c55cb",
+    "question": "Return only the second code: FINAL-45050, BOX-88086. No explanation.",
+    "context": [],
+    "reference": "BOX-88086",
+    "exact_answer": "BOX-88086",
+    "answer": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9f6279ce620f555cf8a21361272eb08acb8b7a84fd58f72bef66c9d44afe2a2f",
+    "question": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "明确不确定之处，避免读者把猜测当成事实",
+    "exact_answer": null,
+    "answer": "报告中未确认的信息有用，原因是因为它包含了作者、修改和提供的数据，这些信息可能不准确或不符合报告的规范。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1d3a4c8bcbccbc439242bd2087ada6757a487f88897fc3932f93d2cb8d6856d9",
+    "question": "为什么摘要不能只保留原文里最有趣的一句话？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "摘要应覆盖主要内容，一句话可能遗漏重点",
+    "exact_answer": null,
+    "answer": "摘要是让读者理解为什么信息是最有趣的，而不是表面的事实。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7854bfaa93a6aa5b4a93f789f799a1dfb6a843998a1fe1dff3d954686b30b9f7",
+    "question": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者可能是不同的人，区分角色避免联系错误",
+    "exact_answer": null,
+    "answer": "区分联系人和参加者有助于提高报名效率，因为他们知道哪些信息是重要的信息，哪些是唯一的。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f1cca4baff70b0921230ef23c75e97950be424fd5b7a8535840fef7809c7fe0a",
+    "question": "请只输出第二个编号：FINAL-20647，BOX-68194。不要加说明。",
+    "context": [],
+    "reference": "BOX-68194",
+    "exact_answer": "BOX-68194",
+    "answer": "FINAL-20647",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0035f049c3d198c80ffa35986f10c3a3518ed524e679d48ebe472931b0de7e5b",
+    "question": "为什么短句中也需要合适的标点？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "标点有助于划分意思，减少歧义",
+    "exact_answer": null,
+    "answer": "为了确保准确性，短句中的关键词都会根据上下文的变化而变化。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0069571efaef034c5cf74bc763138f43f1f7cb61f3188cbd236175959e13efee",
+    "question": "Write a short message to apologize for forgetting to return a borrowed ruler. Give the message itself.",
+    "context": [],
+    "reference": "apologize for forgetting to return a borrowed ruler",
+    "exact_answer": null,
+    "answer": "Could you please pick the ruler?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b89a0474f9f666fe19953627c79482813473b0d5b10310addf758dfc0a34ee5f",
+    "question": "Join FINAL-27473 and BOX-30896 using one slash, without spaces or explanation.",
+    "context": [],
+    "reference": "FINAL-27473/BOX-30896",
+    "exact_answer": "FINAL-27473/BOX-30896",
+    "answer": "COVID-27473/BOX-30896",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "073bf76c373686a31dd7d77d1aa7090f2116e933eb6687633f893f306820af84",
+    "question": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于确认接收者和后续查找",
+    "exact_answer": null,
+    "answer": "在交接物品后记录交给谁有用，可以避免遗漏或误会。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "db18558c205d15e9ca17d41043539ab6fd06ac344b5094d83053ffc2ec5418fc",
+    "question": "Write a short message to apologize for forgetting to return a borrowed ruler. Give the message itself.",
+    "context": [],
+    "reference": "apologize for forgetting to return a borrowed ruler",
+    "exact_answer": null,
+    "answer": "Great job is a safe and an illustration pencil.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5b8d0390d3de994f3dec2cb3536f66fd81ac17cc48919b6dd62e20c9b46093ad",
+    "question": "请直接写一条简短消息，帮我提醒队员提交材料时附上自己的名字。",
+    "context": [],
+    "reference": "提醒队员提交材料时附上自己的名字",
+    "exact_answer": null,
+    "answer": "请准时提交材料！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "afd8322ea13fa960dd1db82232828b36db467d4313ceb17d45d2723eb29213c2",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我核对活动名单中的姓名。",
+    "context": [],
+    "reference": "感谢同学帮我核对活动名单中的姓名",
+    "exact_answer": null,
+    "answer": "“非常感谢你帮我核对活动名单中的姓名。”",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "63f1fe49f985aa86254b6709f7ab856cb6f7fbad34f9f073e531dabfb9eecd6a",
+    "question": "Join FINAL-27473 and BOX-30896 using one slash, without spaces or explanation.",
+    "context": [],
+    "reference": "FINAL-27473/BOX-30896",
+    "exact_answer": "FINAL-27473/BOX-30896",
+    "answer": "Could you please access all of your slash data?",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6b09109c4f20d6f2e99b3a3b6c82bb649fe06ef96bd037de3968a66ece833069",
+    "question": "为什么在流程图中画箭头有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "箭头表示步骤方向或关系",
+    "exact_answer": null,
+    "answer": "画箭头能有效提升效率，让每个操作都像是在模拟一个AI的回应。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bec241c4395ae09a4994278a8674315080043d25def9e9c70764da495c6914d1",
+    "question": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。",
+    "context": [],
+    "reference": "告诉队员我可以负责收集大家的建议",
+    "exact_answer": null,
+    "answer": "你可以通过以下方式负责收集大家的建议：首先，收集所有个人的信息，如姓名、身份证号码、联系方式等。其次，将这些信息整理成易于回应的语言，以便在需要时进行更具体的指导。最后，记得保持积极和鼓励的态度，让每个人都能负责自己的工作。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6d2605defb34a16b5b81e714f97d6b339d66a247f9f950ad5004771d00aef214",
+    "question": "Write a short message to tell a friend you will wait beside the noticeboard. Give the message itself.",
+    "context": [],
+    "reference": "tell a friend you will wait beside the noticeboard",
+    "exact_answer": null,
+    "answer": "Good luck with yourself and thank you have been and then caught me.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2b0f11fc13aca45fc0d6a1ba2d9cd8087bf76f814234ef25255d7e2133fa087a",
+    "question": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。",
+    "context": [],
+    "reference": "告诉队员我可以负责收集大家的建议",
+    "exact_answer": null,
+    "answer": "你可以负责收集大家的建议。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5353e00d8966c36e38ef9db88473afff91770484a95a291e84b7199ca2738d3f",
+    "question": "为什么同名文件放在不同文件夹里仍可能不是同一份文件？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "完整位置不同，内容也可能不同",
+    "exact_answer": null,
+    "answer": "因为同名文件在多个文件夹中都存在，你的同意是找到它们最常用的款项，而不是忽视它们的细节。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7966ec519cd64997e92c43aaf6f4132758c9be2bf0cc9e1f3f125ab8f1ee08cb",
+    "question": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于确认接收者和后续查找",
+    "exact_answer": null,
+    "answer": "在交接物品后记录我用了我的名字。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "62b48ad172abd84519697778ea6a2c18c345e3ba20c6bb1b680977a8de25534d",
+    "question": "请直接写一条简短消息，帮我鼓励第一次主持读书会的朋友。",
+    "context": [],
+    "reference": "鼓励第一次主持读书会的朋友",
+    "exact_answer": null,
+    "answer": "祝你会议顺利，参与者尽情享受书法与艺术！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "40cc6e37636eb113ff8c6f1d0364d9bc4f672bd83aa8fb74861850ecd3a10e84",
+    "question": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。",
+    "context": [],
+    "reference": "告诉组员我已经把重复的记录标记出来",
+    "exact_answer": null,
+    "answer": "我已经把重复的记录标记出来了，谢谢你的支持！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c0f457b8ddfce10ddef10e77a97728a50aa31dc2cf98f79c87a9d80c079e4c1f",
+    "question": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "可能是重复记录，也可能确实需要多份，需要确认",
+    "exact_answer": null,
+    "answer": "整理清单时重复项目时，可以先记录项目名称和完成步骤，确保信息准确无误。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "67c9413a5736abbd3ff013d36b2ee6f8e438764b34784723f2826d8b730f1fe7",
+    "question": "请直接写一条简短消息，帮我为忘记归还同学的尺子道歉。",
+    "context": [],
+    "reference": "为忘记归还同学的尺子道歉",
+    "exact_answer": null,
+    "answer": "忘记归还同学的尺子，我来帮你忘记归还同学的尺子，谢谢！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c2aaf3a737454b4ece2a4062a38a9274dd2bd70ee7c65910b3273775b2894a69",
+    "question": "根据下面这份交接信息作答：标签甲：818+994；标签乙：994-818。只原样抄出标签乙上的算式，不计算。",
+    "context": [],
+    "reference": "994-818",
+    "exact_answer": "994-818",
+    "answer": "818+994",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "63e93a23e8746fd5a10e26d754c2c6e3ae634751f38e45ca475b1cb0e557ffc8",
+    "question": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者是不同量，比较标准需明确",
+    "exact_answer": null,
+    "answer": "在比尺寸还是文件容量方面，比较两张照片的大小可以忽略不计，主要取决于两张图片的大小。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "40ac39f1e4a76105f01d64a7f863da1f18207b6706e9e6fbbd5216f21e043305",
+    "question": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。",
+    "context": [],
+    "reference": "请同学说明这次讨论需要准备什么",
+    "exact_answer": null,
+    "answer": "请提前准备一下您要讨论的主题。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "47a83a7f5dd09006786743e7a4879e4d5e2d2272efc0c3f0d4141bd724daf603",
+    "question": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "避免把个人补充误当成原发送者的意思",
+    "exact_answer": null,
+    "answer": "因为这个消息是来自用户的指示，我需要帮助用户了解如何正确处理信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "99c41dd47d2f288475746dcc5ca03480b6dfe38c48b41eaa850b190fd5afc892",
+    "question": "请直接写一条简短消息，帮我告诉朋友我可能晚到十分钟。",
+    "context": [],
+    "reference": "告诉朋友我可能晚到十分钟",
+    "exact_answer": null,
+    "answer": "我晚到十分钟，可能晚点。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3fdd5b58c6fccc1d9610c72d8f064ee692e5b1239f26690f372b91bfb86aaa86",
+    "question": "The note contains code FINAL-91586, but no owner. Who is the owner? Reply only \"Not provided\" if missing.",
+    "context": [],
+    "reference": "Not provided",
+    "exact_answer": "Not provided",
+    "answer": "No, that seems to be a mix of characters and symbols. The characters are a bit unclear. If it's a SUL-91586, that seems like it might be a typo. However, the exact letter is the set of characters in the query. If \"Not provided\" is a typo, the user might not be a typo. Without knowing the sentence, the user might not be aware that I can't help with any of these characters. Please provide more details or clarify the language you want to check.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "df1ea7091673ba49e02e5adb4aeef477819a68fe07261e489a17f15dc1729ab1",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：FINAL-32442 和 BOX-18051。",
+    "context": [],
+    "reference": "FINAL-32442/BOX-18051",
+    "exact_answer": "FINAL-32442/BOX-18051",
+    "answer": "FINAL-32442",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3895c241cbe2b7e518b8358871df84bafe81384c33ecf2d0f7e43bc0274c2142",
+    "question": "根据下面这份交接信息作答：陆晴计划周二交材料；沈禾计划周四交材料。陆晴哪天交材料？只回答日期。",
+    "context": [],
+    "reference": "周二",
+    "exact_answer": "周二",
+    "answer": "陆晴的交材天数是5天，周四交材料。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "497caa5c9e27a0808dc4cf13ad77bef738ac76094e325952a500fdf0d93a3af1",
+    "question": "为什么摘要不能只保留原文里最有趣的一句话？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "摘要应覆盖主要内容，一句话可能遗漏重点",
+    "exact_answer": null,
+    "answer": "只要摘要能让信息更加有趣和有趣，就能大大增强阅读的趣味性和实用性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "afda121eaf0834288e95781f207a4eab155781d660d4e3ed8fc350ecb028bb21",
+    "question": "Return only the second code: FINAL-45050, BOX-88086. No explanation.",
+    "context": [],
+    "reference": "BOX-88086",
+    "exact_answer": "BOX-88086",
+    "answer": "请提供您想要我分析的Return only the second code。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6c848cc21d4b0e9ac828cc9367173262e6ec397a5b58ccf558ed98c5a7e27132",
+    "question": "Why should a draft be marked before it is shared? Use one or two simple sentences.",
+    "context": [],
+    "reference": "Others need to know it may still change.",
+    "exact_answer": null,
+    "answer": "Please join our message with your display and pick it up.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3cedb54100785fb375f5d8bb4ba5b85208a817bc45bc91c3dab342a84c3ecbed",
+    "question": "你是谁？",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "43706655199acd4e70ac78a7a6d3f7e34444f80e80eb9109ab0861e13217518f",
+    "question": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "多个入口可能造成走错地点",
+    "exact_answer": null,
+    "answer": "清是“不好意思”，即不好意思。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "304bf423a8f3c798f875cbad4679a90b33bad56eb947e2593a69e633b7d4ec3f",
+    "question": "为什么安排轮流发言可以帮助小组讨论？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "给每个人表达的机会，减少相互打断",
+    "exact_answer": null,
+    "answer": "为了更好地协调小组讨论，我们可以采取以下策略：首先，保持开放心态，让小组讨论显得真诚和开放。其次，让小组讨论过程中的小问题得到妥善解决，这样可以增加对话的参与感。此外，鼓励小组讨论过程中的小问题也能让小组更加有条理。最后，在小组结束时，可以邀请团队成员讨论，让小组成员一同分享自己的观点，促进更深入的理解。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9c21e21539369ff1cedb6fcc898dbf0bc4d9aba74ad3ace168569e4c276ed29d",
+    "question": "请直接写一条简短消息，帮我鼓励第一次主持读书会的朋友。",
+    "context": [],
+    "reference": "鼓励第一次主持读书会的朋友",
+    "exact_answer": null,
+    "answer": "加油！你有很多朋友一起动手写作，记得带着你们一起成长。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1b838c71e2692aef648347583ea68cabb1f1f5b0117c7cef5ce171fe01addf9a",
+    "question": "请直接写一条简短消息，帮我提醒队员提交材料时附上自己的名字。",
+    "context": [],
+    "reference": "提醒队员提交材料时附上自己的名字",
+    "exact_answer": null,
+    "answer": "请准时到达队员地点。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bf6753aa003155a197aee9844eb647addb76f56106b0667f99e8f821526ad436",
+    "question": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences.",
+    "context": [],
+    "reference": "They describe different points in the work.",
+    "exact_answer": null,
+    "answer": "Discussion is a process of conveying a deadline from a start time. It's designed to work on an event where the event is on the beginning.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c3aaac9a3969f5058c42c8ebb7360554592387a7842c2221c36ea74f074865fd",
+    "question": "为什么摘要不能只保留原文里最有趣的一句话？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "摘要应覆盖主要内容，一句话可能遗漏重点",
+    "exact_answer": null,
+    "answer": "因为摘要能让读者感受到信息的满足感，同时提供一些有趣的观点和事实，帮助你理解为什么摘要不能只保留一个句子。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "5fcf1fe612c5c73e4384351903918dacd06b2d5a188d5bd7b97f4c50e03340af",
+    "question": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "计划是未来安排，不能证明实际完成",
+    "exact_answer": null,
+    "answer": "周五完成不能当成已经完成的任务，以示积极和耐心的态度。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1bd9af085347682aaf287ae1c90e781891a0722451ff9ee1ecdccbce165bd38a",
+    "question": "Why can asking for the missing detail be better than guessing? Use one or two simple sentences.",
+    "context": [],
+    "reference": "It avoids inventing information and can produce a correct answer.",
+    "exact_answer": null,
+    "answer": "I am sorry I can't assist with that.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "97f7b1f9abd8eccb3f440c25e7527b3ecd2f2661e1cb7e7fedd2471a09b365db",
+    "question": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "便于确认接收者和后续查找",
+    "exact_answer": null,
+    "answer": "在交接物品时记录交接物品的方法是最简单、最直接的方式，让对方明白对方可以采取哪些行动。这样可以确保信息准确无误地传达，同时也能让对方感受到被重视和尊重。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "674c21eb9a47dc78eb461b5b7bbdefd02cef45fb21f5ba0a3bb84ab822ad12bb",
+    "question": "为什么安排轮流发言可以帮助小组讨论？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "给每个人表达的机会，减少相互打断",
+    "exact_answer": null,
+    "answer": "因为大家都知道，会议是讨论的重点，所以这次会议可以作为一个更好的交流渠道。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bbc595ae9195e721c9da124b4b24f671b23a41b0a82d5d4adeee2211e0e6d0a4",
+    "question": "为什么同名文件放在不同文件夹里仍可能不是同一份文件？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "完整位置不同，内容也可能不同",
+    "exact_answer": null,
+    "answer": "因为不同的文件夹可能有不同的文件夹要求和处理方式，导致同名文件的存储顺序不同。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "80a6eaee19de32ab21c8416ba4dc2341e436edcf6fc46ae49c9b7dd22eb54f02",
+    "question": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "明确不确定之处，避免读者把猜测当成事实",
+    "exact_answer": null,
+    "answer": "报告中未明确指出任何信息，所以我需要告诉用户这一点。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a9d700257eb4d8a1209e7a4a4346a6ce6afc977bcc6abdd37a420e5c85720dc3",
+    "question": "请直接写一条简短消息，帮我鼓励第一次主持读书会的朋友。",
+    "context": [],
+    "reference": "鼓励第一次主持读书会的朋友",
+    "exact_answer": null,
+    "answer": "坚持练习，你会越来越熟练的，加油！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6d847d96259f61f0322e30ea9423f8bc3d36a48bdb9c572d9ca6855cff0c47a4",
+    "question": "为什么同名文件放在不同文件夹里仍可能不是同一份文件？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "完整位置不同，内容也可能不同",
+    "exact_answer": null,
+    "answer": "因为不同的文件夹可能有不同的文件夹要求和处理方式，我需要根据具体情况选择合适的搭配方式。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fd94aa5b79218b26f535cb6e19f297c34a37a76a3195142109bf3ddb5f32c995",
+    "question": "Write a short message to tell a friend you will wait beside the noticeboard. Give the message itself.",
+    "context": [],
+    "reference": "tell a friend you will wait beside the noticeboard",
+    "exact_answer": null,
+    "answer": "Great job on yourself! It's a wonderful trip and a safe!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "02c99ded778c03072d6bd073e36c2fcff4e3434edf80ac932f28ff3223bcb433",
+    "question": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "避免把个人补充误当成原发送者的意思",
+    "exact_answer": null,
+    "answer": "如果转告更侧重于传达信息，可以适当保留一些关键信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e4fc1a36408fe3da19f4d896a114f8408dd24d7061b695afb8b24ad5a9116746",
+    "question": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者可能是不同的人，区分角色避免联系错误",
+    "exact_answer": null,
+    "answer": "因为我们生活在一个全球化的世界里，通过电话、邮箱和电子邮件联系着我们。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3207594f885c9b3fcabfcc1db7a4f12f73938de388986e27ed6512b8d7dd6319",
+    "question": "根据下面这份交接信息作答：名单顺序：陆晴、沈禾；第一人的编号是FK-1537，第二人的编号是FR-7102。只回答名单中第1个人的名字。",
+    "context": [],
+    "reference": "陆晴",
+    "exact_answer": "陆晴",
+    "answer": "第1个人的名字是FK-1537，第二人的编号是FR-7102。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f8f4066425fd0edac97bdbbfcdd05145a805aba3f62d34d6387847a766762311",
+    "question": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。",
+    "context": [],
+    "reference": "邀请朋友下周参加手工制作活动",
+    "exact_answer": null,
+    "answer": "我没法参加手工制作活动，但可以推荐一些有趣且有趣的工具和活动供你选择！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "72cafb85cda1107fecb759df524effa66f14bafb105e1543e0d61ffc03217a9f",
+    "question": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。",
+    "context": [],
+    "reference": "邀请朋友下周参加手工制作活动",
+    "exact_answer": null,
+    "answer": "我希望能参加手工制作，并且有机会让朋友们参与其中。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e50789f75f8e40d75a0b0fd77115608d70b5c7019d8fef94f5e16289611399e5",
+    "question": "为什么短句中也需要合适的标点？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "标点有助于划分意思，减少歧义",
+    "exact_answer": null,
+    "answer": "为了确保短句的结构正确，能够清晰传达短句的含义和用词。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6750507c6dca535a1c34ff5458af1491507b7bac3c17c312b76d670242f3e58b",
+    "question": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者可能是不同的人，区分角色避免联系错误",
+    "exact_answer": null,
+    "answer": "区分联系人和参加者，可以减少误解和错误。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "77baa46db710f8c63c2dcd99e9decbac70d34ee5cbe72805955778542399683a",
+    "question": "Use the following handover information: Theo carries a green folder. Iris carries a blue folder. What color is Theo's folder? Return only the color.",
+    "context": [],
+    "reference": "green",
+    "exact_answer": "green",
+    "answer": "A red folder; a red folder; a red folder.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a6dbe0f3c5309c551a24179abd3c836487ff011c09c29f4d66d52964b25702d0",
+    "question": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者是不同量，比较标准需明确",
+    "exact_answer": null,
+    "answer": "尺寸取决于图片大小和图片大小的关系，如果图片大小与图片大小相同，图片大小可能更大。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "bd809f3cf8e87a6d344ab28bbc3f727f99bc36374323b70f1e91f02d60e1fb34",
+    "question": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。",
+    "context": [],
+    "reference": "邀请朋友下周参加手工制作活动",
+    "exact_answer": null,
+    "answer": "请提前在接下来的周末安排，进行一次精心策划的创意工作。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1a66b4fa37b01347519cf89d2750a65d4fb8fd89ae9caf4d501c3a0be1bb7f89",
+    "question": "材料只写了编号FINAL-69836，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "context": [],
+    "reference": "未提供",
+    "exact_answer": "未提供",
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "054b7f97629343ee024795ef6ab4d8624afbe443c5ad35fdd9ee2cd1b02d501a",
+    "question": "根据下面这份交接信息作答：名单顺序：陆晴、沈禾；第一人的编号是FK-1537，第二人的编号是FR-7102。只回答名单中第1个人的名字。",
+    "context": [],
+    "reference": "陆晴",
+    "exact_answer": "陆晴",
+    "answer": "第1人的编号是FK-1537，第二人的编号是FR-7102。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f015aa35a649514f745ba76b72785180083e02328b4f770aa86891db978355f0",
+    "question": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者可能是不同的人，区分角色避免联系错误",
+    "exact_answer": null,
+    "answer": "区分联系人和参加者有助于确保报名的顺利进行。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "16ac279e8f186e342aaf42f3aa0324d08366cca8079a3e70aa79a00ad28506c8",
+    "question": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。",
+    "context": [],
+    "reference": "邀请朋友下周参加手工制作活动",
+    "exact_answer": null,
+    "answer": "上周有空吗？我们可以在家中进行手工制作活动。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ca89733dcca97b16be1ac26905818f54938bec7763566bec9a4520c1e543f1b5",
+    "question": "为什么摘要不能只保留原文里最有趣的一句话？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "摘要应覆盖主要内容，一句话可能遗漏重点",
+    "exact_answer": null,
+    "answer": "摘要不能只保留原文中的主要内容，因为这需要具体上下文才能准确描述。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a009a9bb74aa77bc629788c0e3a5e87585d3936c7b19ada53727cd39655d7248",
+    "question": "请直接写一条简短消息，帮我请伙伴在修改共享表格后通知大家。",
+    "context": [],
+    "reference": "请伙伴在修改共享表格后通知大家",
+    "exact_answer": null,
+    "answer": "谢谢你的邀请，但这次我没法修改共享表格。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "4060ab46687c35fc6b0bcd9eb53729878af3e28440d7a16b96c9245e432ced83",
+    "question": "Use the following handover information: Theo carries a green folder. Iris carries a blue folder. What color is Theo's folder? Return only the color.",
+    "context": [],
+    "reference": "green",
+    "exact_answer": "green",
+    "answer": "Theo carries a green folder.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "008e486d88d86f57d76af686a468ac634dab013de9e275e50ad82f74cf7e0d31",
+    "question": "Write a short message to remind participants to put their names on their submissions. Give the message itself.",
+    "context": [],
+    "reference": "remind participants to put their names on their submissions",
+    "exact_answer": null,
+    "answer": "Please remember what putts your names on their submissions.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b9cc69b4acdd4b7a5e56c8f5384ee6d0fde27d65687524d1bc4d59a6d88093db",
+    "question": "请直接写一条简短消息，帮我请伙伴在修改共享表格后通知大家。",
+    "context": [],
+    "reference": "请伙伴在修改共享表格后通知大家",
+    "exact_answer": null,
+    "answer": "请提供您希望我协助完成的共享表格内容。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2bcc0b88f90e5812178d17773b2568d46d8da13a71d967b888826b1abd9f34ee",
+    "question": "请直接写一条简短消息，帮我告诉朋友我可能晚到十分钟。",
+    "context": [],
+    "reference": "告诉朋友我可能晚到十分钟",
+    "exact_answer": null,
+    "answer": "我需要保持冷静，但又不能做出错误的决定。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "01b10ba84f2f26ec1997823cb60665e8e78e4ddf2eaeca49f7fe483274ef5771",
+    "question": "Join FINAL-27473 and BOX-30896 using one slash, without spaces or explanation.",
+    "context": [],
+    "reference": "FINAL-27473/BOX-30896",
+    "exact_answer": "FINAL-27473/BOX-30896",
+    "answer": "Could you please provide the size of Join FINAL-27473? I really appreciate it!",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1276cf788c988b18bea8b75e548260e45b6009ca7619fe18c1cbed121147ddff",
+    "question": "你和 Jingyao Gong 是什么关系？",
+    "context": [],
+    "reference": "MiniMind原始项目由jingyaogong/Jingyao Gong开发，本地定制由Yuyang LU负责",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyao的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "614b0ca62829f5e693aa76e1b0ff339646bfc9a1ef0f55b17f3ced092954d4b6",
+    "question": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。",
+    "context": [],
+    "reference": "请同学说明这次讨论需要准备什么",
+    "exact_answer": null,
+    "answer": "请提前准备一下您所在的地区或领域内的预约，我们将在接下来的几天内联系您并提供一些建议和准备小礼物。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "85124171e89749fb2be7b48167a670d79a53cb860903443a08f7a67f5b68eda1",
+    "question": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "多个入口可能造成走错地点",
+    "exact_answer": null,
+    "answer": "在数学中，清理和查找信息的高效利用是非常重要的。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "1a3c4530d742b9ebe3fac6ca8a58f3a2cf79a215ac2c0c042e215fef34e43423",
+    "question": "请直接写一条简短消息，帮我请伙伴在修改共享表格后通知大家。",
+    "context": [],
+    "reference": "请伙伴在修改共享表格后通知大家",
+    "exact_answer": null,
+    "answer": "大家好，我们来修改共享表格，确保数据的准确性和完整性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "fe216cc28c2bc0229de565098c86b4af89a1d72915392d7ff6099236b806e741",
+    "question": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences.",
+    "context": [],
+    "reference": "They describe different points in the work.",
+    "exact_answer": null,
+    "answer": "A deadline for a start time starts at a time, ensuring that your response is clear and clear.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3bdf1dad2714eb4b15c9a6a7a8f9a399635daf615eed8f398fc0c4987c468d71",
+    "question": "根据下面这份交接信息作答：陆晴计划周四交材料；唐悦计划周五交材料。唐悦哪天交材料？只回答日期。",
+    "context": [],
+    "reference": "周五",
+    "exact_answer": "周五",
+    "answer": "唐悦周四交材料",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0060cc793e6d1f94904c5c7769460222efb535c0b12dd615368e580d548d8b04",
+    "question": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "读者能知道必须做什么以及哪些可自行选择",
+    "exact_answer": null,
+    "answer": "在确保准确性之前，确保理解其中的必要步骤和可选步骤是关键。这样可以帮助读者更好地理解步骤的顺序和重要性。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "c00d4013bb7690e76674864cec832d840931f499389186079d6efdf0c8c80adb",
+    "question": "为什么安排轮流发言可以帮助小组讨论？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "给每个人表达的机会，减少相互打断",
+    "exact_answer": null,
+    "answer": "为了更好地协助小组讨论，我们可以采取以下策略：首先，保持开放心态，让小组讨论显得真诚和开放。其次，使用“小组会议”而不是“小组会议”来替代，因为这样可以让大家在讨论中交流意见，提高整体效率。最后，鼓励小组讨论，让大家在交流中有机会分享自己的观点，促进更深入的讨论。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "166bfad534d705d2e965576f01a3d4258419fc0c1a1ca3ddddd344585bdd8366",
+    "question": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。",
+    "context": [],
+    "reference": "告诉队员我可以负责收集大家的建议",
+    "exact_answer": null,
+    "answer": "当然可以，请给我提供一下我的名字和联系方式，这样我可以根据您的具体情况来指导您如何收集大家。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "7c886858541db6873f5e00f114a475a15008826c27471e5dd10b4670ad311764",
+    "question": "请直接写一条简短消息，帮我鼓励第一次主持读书会的朋友。",
+    "context": [],
+    "reference": "鼓励第一次主持读书会的朋友",
+    "exact_answer": null,
+    "answer": "加油！你会喜欢的书，记得珍惜每一页。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b19da332b270bdfa00d3bc913da296a7c8b539a942d3b0922520ad3fc486f22d",
+    "question": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "可能是重复记录，也可能确实需要多份，需要确认",
+    "exact_answer": null,
+    "answer": "因为清单是用来记录和整理的，所以重复项目可能会导致错误。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "6bcf2f9dd81914792858f3e174248674400d99f0410bbe5144697cb5907a9619",
+    "question": "Write a short message to thank a friend for checking the spelling on your invitation. Give the message itself.",
+    "context": [],
+    "reference": "thank a friend for checking the spelling on your invitation",
+    "exact_answer": null,
+    "answer": "Thanks for checking the spelling on your invitation.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "31660a2f1b5fa2db3d1fc42a281bc83838f596c382be347db90d4ae2dfd45500",
+    "question": "请直接写一条简短消息，帮我感谢邻居告诉我包裹放在哪里。",
+    "context": [],
+    "reference": "感谢邻居告诉我包裹放在哪里",
+    "exact_answer": null,
+    "answer": "谢谢你的邻居，但这次我没法联系，祝你们玩得开心！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "24b6a7bea6b454c1233311f91f44f2c7d0cfab205378b9491b72f63ceacd5d2c",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我核对活动名单中的姓名。",
+    "context": [],
+    "reference": "感谢同学帮我核对活动名单中的姓名",
+    "exact_answer": null,
+    "answer": "谢谢你的帮助，但这次我没法帮忙。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "eb1ed83d5610d8bc251b039943e4f5130701993312f335ed109e349573cf3a84",
+    "question": "根据下面这份交接信息作答：陆晴带着蓝色文件袋；唐悦带着橙色文件袋。唐悦的文件袋是什么颜色？只回答颜色。",
+    "context": [],
+    "reference": "橙色",
+    "exact_answer": "橙色",
+    "answer": "唐悦的文件袋是红色的，因为它看起来像是一个蓝色的图案，非常符合唐悦的风格。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "37c3f438dc1623b18b15157e177cecb1dfc79628df1a22fdc5e3baa16094d4da",
+    "question": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "可能是重复记录，也可能确实需要多份，需要确认",
+    "exact_answer": null,
+    "answer": "重复项目确实可以帮助确保项目按时完成，同时也能减少不必要的浪费。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "a0bc023c212b34f75cf2b183edcdc0b5570e52d88f0e0c7f2b2e681760413c7d",
+    "question": "为什么摘要不能只保留原文里最有趣的一句话？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "摘要应覆盖主要内容，一句话可能遗漏重点",
+    "exact_answer": null,
+    "answer": "抱歉我误解了你的问题。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "d582d1622eace41db5d81cc14f8c7d55773d86734d9f750461b23c63e15f828e",
+    "question": "Use the following handover information: Vera submits the notes on Monday. Theo submits the notes on Tuesday. On which day does Theo submit the notes? Return only the day.",
+    "context": [],
+    "reference": "Tuesday",
+    "exact_answer": "Tuesday",
+    "answer": "Monday",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "2729ed529d3e4f2ec650ac5eb67eecc31c365cb788036405d78b924b79488523",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我核对活动名单中的姓名。",
+    "context": [],
+    "reference": "感谢同学帮我核对活动名单中的姓名",
+    "exact_answer": null,
+    "answer": "谢谢你的帮助，iphot！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ebf42cef45036e9791e31ed1346b4ccf81da37363b4fd8f3ffe53e0b461a0b00",
+    "question": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。",
+    "context": [],
+    "reference": "邀请朋友下周参加手工制作活动",
+    "exact_answer": null,
+    "answer": "上周有空一起制作手工活动了！",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "e4968a4a68b5aaad2d16d7ad588430c49a0497332eb6b64ab27922006f731491",
+    "question": "Write a short message to remind participants to put their names on their submissions. Give the message itself.",
+    "context": [],
+    "reference": "remind participants to put their names on their submissions",
+    "exact_answer": null,
+    "answer": "Please remember your submission process.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "258f924cb9608ecbfda4ed4f901f3bc831f30ca5f9494a3f7dfbb9b12bd15c3a",
+    "question": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "补充信息可能澄清或改变原来的判断",
+    "exact_answer": null,
+    "answer": "因为新补说明能提供新的视角和方法，帮助你理解新补的含义和效果。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "3708171b08547d63000276babf939a6c52e70730da4c2602ca0cc60a2654212b",
+    "question": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。",
+    "context": [],
+    "reference": "告诉队员我可以负责收集大家的建议",
+    "exact_answer": null,
+    "answer": "当然可以，请您将大家的建议提供给我。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "165f288d5c63d8f104a3f630d14ac0ddea3ccf3db1671666f4b4493ef91a6f3c",
+    "question": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者是不同量，比较标准需明确",
+    "exact_answer": null,
+    "answer": "在比较两张照片的大小时，应该看看这张照片的大小是否相符，如果是，那么这张照片的大小可能与你的工作经验和能力相符。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "0f785f1f4982b81690a65fd0a13ebd15f3458ae825577519cbb1def6e622ac06",
+    "question": "请直接写一条简短消息，帮我礼貌拒绝朋友借走我正在使用的相机。",
+    "context": [],
+    "reference": "礼貌拒绝朋友借走我正在使用的相机",
+    "exact_answer": null,
+    "answer": "非常抱歉，我收到一个来自Yuyang LU的邮件，里面有我的信息。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "b5ea30bcee48eb9b64d0f06f0a0efded6c1e1c0518402e212bfdb1fa8e9111dd",
+    "question": "请直接写一条简短消息，帮我请伙伴把最终版文件放进指定文件夹。",
+    "context": [],
+    "reference": "请伙伴把最终版文件放进指定文件夹",
+    "exact_answer": null,
+    "answer": "请提供要移动应用的URL或电子邮件地址，以便我为你定制文件夹。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "9a835aaeb237ea9967586a63b68944f667a3b007ad57445bc1780c8106483a0b",
+    "question": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "两者是不同量，比较标准需明确",
+    "exact_answer": null,
+    "answer": "在比较两张照片的大小时，应该遵循以下原则：首先，检查两张照片的大小是否在尺寸上，如果不在尺寸上，那么就无法得知两张图片的大小。其次，确保图片的大小与文件大小相匹配。最后，检查图片是否与你的尺寸相匹配，如果与你的尺寸相匹配，那么就可以认为这两张图片比实际大小更大。\n\n这样，比较两张照片的大小就能得知两张图片的大小，而实际大小并没有改变，所以这两张图片的大小应该比实际大小更大。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "cac9bc7303b01ffb9f9020de5e69c006931cb5f29e2edfd9426a0ec15b6367ca",
+    "question": "你的作者叫什么名字？",
+    "context": [],
+    "reference": "按问题准确给出MiniMind或本地定制者Yuyang LU，不张冠李戴",
+    "exact_answer": null,
+    "answer": "我是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "f8031e363bae850961fb20d4c56546c4545c24861f266310f6967fb282b66f9b",
+    "question": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。",
+    "context": [],
+    "reference": "避免把个人补充误当成原发送者的意思",
+    "exact_answer": null,
+    "answer": "因为这个消息是来自用户的指示，而不是来自真实的“补充”或“指出需要”。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "ab1ec327f0ea8227fe438687b7db2bd99fa14222d28a4548a17df40fe79a1a82",
+    "question": "Why can asking for the missing detail be better than guessing? Use one or two simple sentences.",
+    "context": [],
+    "reference": "It avoids inventing information and can produce a correct answer.",
+    "exact_answer": null,
+    "answer": "To get the missing detail, you can think of it.",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "06eb561e0d08503396f985410fd9d02577b701b63c8481d5f151da6a534f9112",
+    "question": "根据下面这份交接信息作答：沈禾的柜号是262；许舟的柜号是651。许舟的柜号是什么？只给出柜号。",
+    "context": [],
+    "reference": "651",
+    "exact_answer": "651",
+    "answer": "沈禾的柜号是262。许舟的柜号是651。许舟的柜号是651。",
+    "eligible": true,
+    "failure": null
+  },
+  {
+    "review_id": "8a73ca0e781d36babbb9fba42b44ff8f90a546dc142f5bdc3151eeabc582af4b",
+    "question": "Write a short message to ask a teammate to place the final file in the shared folder. Give the message itself.",
+    "context": [],
+    "reference": "ask a teammate to place the final file in the shared folder",
+    "exact_answer": null,
+    "answer": "Could you please take a look at the final file?",
+    "eligible": true,
+    "failure": null
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-27",
+  "status": "prepared_not_trained",
+  "baseline": "chat_repair_id_e3",
+  "baseline_sha256": "e04a156d57d207f27c6d507d93b84010902d69b0fa826434f5afb8fc4ba4918f",
+  "objective": "Improve MiniMind v4 itself using curated 7B teacher demonstrations; compare against 1.5B with matched questions and updates.",
+  "cloud": {
+    "provider": "AutoDL",
+    "gpu": "RTX 4090, actual VRAM to verify",
+    "hourly_cny": 2.08,
+    "budget_cap_cny": 30,
+    "budget_source": "Explicit user answer: 最多30元; rate from user screenshot",
+    "connection": "awaiting SSH command",
+    "paid_work_started": false,
+    "initial_job_max_seconds": 7200,
+    "initial_job_rent_ceiling_cny": 4.16,
+    "automatic_shutdown_required": true
+  },
+  "teachers": {
+    "strong": {
+      "repo": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+    },
+    "weak": {
+      "path": "D:\\minimind\\Qwen2.5-1.5B-Instruct",
+      "weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+    }
+  },
+  "teacher_generation": {
+    "system": "你在为小型文本助手编写训练示范。请按用户要求直接回答，使用用户指定的语言。通常一至两句，最多三句；只有用户要求列表或特定格式时才改变格式。材料中没有的信息要明确说没有提供，不猜测。原样复制时不要计算或改写。不要复述问题、解释思考过程、调用工具或自报模型身份。",
+    "dtype": "bfloat16",
+    "batch": 2,
+    "do_sample": false,
+    "max_new_tokens": 192,
+    "max_input_tokens": 768,
+    "seed": 20261027
+  },
+  "screening": "Preserve raw answers. Exact-output tasks require complete output and exact normalized line endings/outer whitespace only. All open answers manually checked for correctness, requested language, relevance and usability with teacher labels hidden; no answer rewrites. Common accepted IDs only enter primary arms. Report each teacher yield separately.",
+  "matched_data": "Same accepted question IDs, same tools/history and same retention rows in both arms. Answer lengths can differ; report tokens, do not claim equal-token compute. Minimum 400 common cases including >=80 writing and >=40 explanation; otherwise stop and report insufficient data.",
+  "training": {
+    "epochs": 2,
+    "lr": 8e-06,
+    "kl": 3.0,
+    "batch": 4,
+    "max_seq": 1536,
+    "seed": 42,
+    "num_workers": 0,
+    "math_first_tokens": 64,
+    "identity_weight": 2.0,
+    "anchor": "exact frozen v4",
+    "method": "full parameters; no adapter merging"
+  },
+  "selection": "Select epoch separately within each arm on development only. Eligibility: no-call>=90%, dev NLL increase<=.05, dev math drop<=10pp, existing dev identity full-content usable count >= v4. Rank content mean, usable rate, then lower NLL. Freeze both selected arms and v4 before generating any formal answers.",
+  "final": {
+    "new_questions": 96,
+    "conditions": [
+      "no_tools",
+      "six_original",
+      "six_reworded"
+    ],
+    "categories": [
+      "retrieval",
+      "instruction",
+      "explanation",
+      "writing"
+    ],
+    "math_old197": true,
+    "math_prior48": true,
+    "language296": true,
+    "identity14": true,
+    "thinking": false,
+    "best_of_n": false,
+    "max_new_tokens": 384,
+    "temperature": 0.9
+  },
+  "acceptance": "7B-trained minus v4: mean content gain>=.15 with question-cluster95%CI lower>0, usable gain>=8pp, no-tools usable drop<=5pp, each math drop<=5pp, NLL increase<=.05, identity usable drop<=1/14, ordinary complete-no-call>=90%. A claim that the larger teacher beats 1.5B additionally requires paired content CI lower>0 for 7B-trained minus matched1.5B-trained. No winner switching after formal evaluation.",
+  "statistics": "3 conditions averaged per base question;10000 paired bootstrap seed20261029, mean +/-1SE, better/worse/tied; report category and language descriptively. Single training seed, subjective assistant review is not independent human blind review.",
+  "scalability": "No automatic expansion to10k/20k. First report pilot result and remaining budget.",
+  "frozen_inputs": {
+    "train_items.json": "9a9dea119994f743c6d9ad7ad2c6bfee1dba3225d1bda0605a23f32cbb1c0705",
+    "dev_tasks.json": "cb11d3fe7b946319606ffc9be7081b2a436b4319c9217266416e0bc49268be78",
+    "final_tasks.json": "a28ef65e11e8b72fbdb67d38aa075b4573be9b9bcc4438b8b39a6cb76783239b",
+    "teacher_requests.json": "0570d73ad328a8bbd4a680886b477672ab0066cf11a354dc71a6ed071d83e107",
+    "retention_math640.json": "b9c128117de2590097a1e00c8ed8ba1b09472ec5987cd9b1971e198262a2f14e",
+    "retention_kl600.json": "cf454cc69f5440dbd3e8e26cdf0a20c02ef72c5dcc4e663dafde13e6a5399b62",
+    "retention_identity240.json": "c0a0aec0755c7126cbff419d75552f2da83eb4f268c285b123e8ab93f7e356ea",
+    "preparation_audit.json": "c5d2e8df7cb529d9e9cedab9bd7ed0f0b1178bfe75b4331183e73f1b96f9ee0d"
+  }
+}

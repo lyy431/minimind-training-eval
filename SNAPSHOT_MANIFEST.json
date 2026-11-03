@@ -492,8 +492,8 @@
     },
     {
       "path": "scripts/web_demo.py",
-      "bytes": 23417,
-      "sha256": "09208e402e285f5c228dcfaeda1cdeb7bed336c7a0f84fef67977d584157d050",
+      "bytes": 23443,
+      "sha256": "376af3c53d8f94ef36cfc09ad230d1e45e3a769ec070256f397e9c68d0774ac7",
       "source_relative": "scripts/web_demo.py"
     },
     {
@@ -4920,14 +4920,14 @@
     },
     {
       "path": "my_eval/README.md",
-      "bytes": 53961,
-      "sha256": "bf907151cf86f10b2727cf8579b8ac479aaaea315ee01714c2409dd244690795",
+      "bytes": 55325,
+      "sha256": "fc2321a64b94b70675d8b22b3851c3d54f812bf58455c70389365d8abf27df03",
       "source_relative": "my_eval/README.md"
     },
     {
       "path": "my_eval/SUMMARY_FOR_CHATGPT.md",
-      "bytes": 38701,
-      "sha256": "682d444fca5d41aa58e3bda8a8cee10395c8efd001114f9638f9d59ca8073ba9",
+      "bytes": 39930,
+      "sha256": "0e6628a3beff17a68f69d56544c07273a5a4d491fc92d5b8de6ce4e301b6641e",
       "source_relative": "my_eval/SUMMARY_FOR_CHATGPT.md"
     },
     {
@@ -4977,6 +4977,1098 @@
       "bytes": 65396,
       "sha256": "e3d824729cda2e544fb90e3a4670ba204b38396dd69da0bccc38cd158e930672",
       "source_relative": "out/sft_moe.log"
+    },
+    {
+      "path": "scripts/MiniMind-YuyangLU-v5/chat_template.jinja",
+      "bytes": 3979,
+      "sha256": "5ce19bbb30e4d23557596e60fb29edfa8bbb792a6284097863e4d7109113e2c2",
+      "source_relative": "scripts/MiniMind-YuyangLU-v5/chat_template.jinja"
+    },
+    {
+      "path": "scripts/MiniMind-YuyangLU-v5/config.json",
+      "bytes": 901,
+      "sha256": "29f24eb8cc7531f48e4822c6b1a8b2ab712e14813e920ccf095fe93a46d2446c",
+      "source_relative": "scripts/MiniMind-YuyangLU-v5/config.json"
+    },
+    {
+      "path": "scripts/MiniMind-YuyangLU-v5/generation_config.json",
+      "bytes": 73,
+      "sha256": "c8b0fa1817241273739e519098b3c8dffa2f0edd593dafc6eac4e58816677a43",
+      "source_relative": "scripts/MiniMind-YuyangLU-v5/generation_config.json"
+    },
+    {
+      "path": "scripts/MiniMind-YuyangLU-v5/special_tokens_map.json",
+      "bytes": 1111,
+      "sha256": "86734702686a64d8156b2406128b30370c9a315903d70f0b8dcd36526cbc0d19",
+      "source_relative": "scripts/MiniMind-YuyangLU-v5/special_tokens_map.json"
+    },
+    {
+      "path": "scripts/MiniMind-YuyangLU-v5/tokenizer.json",
+      "bytes": 451182,
+      "sha256": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+      "source_relative": "scripts/MiniMind-YuyangLU-v5/tokenizer.json"
+    },
+    {
+      "path": "scripts/MiniMind-YuyangLU-v5/tokenizer_config.json",
+      "bytes": 7880,
+      "sha256": "146dc85111f22a9e1bdc7284b9c65f8252fb4bfd510899f0c661cf93e949e09a",
+      "source_relative": "scripts/MiniMind-YuyangLU-v5/tokenizer_config.json"
+    },
+    {
+      "path": "my_eval/scripts/analyse_strong_teacher.py",
+      "bytes": 8464,
+      "sha256": "aeecf0356c94d47d3b2a621eae3b3b7799255204a2253baa01329c7d05be1712",
+      "source_relative": "my_eval/scripts/analyse_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/check_strong_teacher_behavior.py",
+      "bytes": 2506,
+      "sha256": "6f454b25649ed7fda165eaf109bcd08748ea3228841902250dd896d4637a8136",
+      "source_relative": "my_eval/scripts/check_strong_teacher_behavior.py"
+    },
+    {
+      "path": "my_eval/scripts/cloud_strong_teacher.py",
+      "bytes": 8166,
+      "sha256": "68c93a27e08f3612e16bde6481f37140a65550cce69edef410d94ca62540f608",
+      "source_relative": "my_eval/scripts/cloud_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/curate_strong_teacher.py",
+      "bytes": 5780,
+      "sha256": "44117bc74de751ba9a8972077d34b18905af21b6c628f39e6990440f54b7c667",
+      "source_relative": "my_eval/scripts/curate_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/eval_strong_teacher.py",
+      "bytes": 2026,
+      "sha256": "ff9c2e7e239f86e50b40b4f144e5690de998294709fb8afce2f96cc84278caa9",
+      "source_relative": "my_eval/scripts/eval_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/export_strong_teacher.py",
+      "bytes": 4408,
+      "sha256": "b6faca0f9b84504a77b5c3881b0bff35671af6167e4e46af87a0a1e7f2e66a19",
+      "source_relative": "my_eval/scripts/export_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/generate_strong_teacher.py",
+      "bytes": 6808,
+      "sha256": "f411169925c89f7cf19f4bd7388e4993289c4192f2b92a0222666f01a31c48a3",
+      "source_relative": "my_eval/scripts/generate_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/package_strong_teacher.py",
+      "bytes": 3668,
+      "sha256": "eed0a58ce7a1300b84d106710f623bd6ca24639fbdc9b48e17f8a2e346344987",
+      "source_relative": "my_eval/scripts/package_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/prepare_strong_teacher.py",
+      "bytes": 29844,
+      "sha256": "f0e59dbc211623da9ab28d7c41f4d196509decdae99fb01ec82bbc1d383bec93",
+      "source_relative": "my_eval/scripts/prepare_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/record_dev_reviews.py",
+      "bytes": 1973,
+      "sha256": "01a334756e3d33e21de546b6ea82ca8998f7ecf3d72b6b8fe5175db834dc8135",
+      "source_relative": "my_eval/scripts/record_dev_reviews.py"
+    },
+    {
+      "path": "my_eval/scripts/record_final_reviews.py",
+      "bytes": 2248,
+      "sha256": "230add71036eab4472cdaf7f7e5a18723203d8bb27e81bc78c69378b516e5b62",
+      "source_relative": "my_eval/scripts/record_final_reviews.py"
+    },
+    {
+      "path": "my_eval/scripts/record_teacher_reviews.py",
+      "bytes": 4003,
+      "sha256": "e9841acf36b09063eab3196d30fd8f3cb3c359b477e697d3eb30750e505dd6c8",
+      "source_relative": "my_eval/scripts/record_teacher_reviews.py"
+    },
+    {
+      "path": "my_eval/scripts/review_strong_teacher.py",
+      "bytes": 3529,
+      "sha256": "cb0641115a9942ded96d7000c5ddf0fb4a26874a2b0be95e87edfd2f274c1f21",
+      "source_relative": "my_eval/scripts/review_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/strong_teacher_common.py",
+      "bytes": 3104,
+      "sha256": "294510579cfd99bbf3654fd59dac8bde09a69af6bb4ef311273043d8d472f54d",
+      "source_relative": "my_eval/scripts/strong_teacher_common.py"
+    },
+    {
+      "path": "my_eval/scripts/test_cloud_autoshutdown.py",
+      "bytes": 5007,
+      "sha256": "d47d0047b0a02182ae8d728c26a4c35a16a4fd40d18a08ce9e8245530a74959d",
+      "source_relative": "my_eval/scripts/test_cloud_autoshutdown.py"
+    },
+    {
+      "path": "my_eval/scripts/test_strong_teacher.py",
+      "bytes": 4391,
+      "sha256": "5899fd7b3dac5b368b98363a38b452477e6d7aba6182b9fddb51b0797694a3f0",
+      "source_relative": "my_eval/scripts/test_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/test_strong_teacher_demo.py",
+      "bytes": 2995,
+      "sha256": "0381a45263e4c3222cbb0bc74a57b60ff7b927477e30bc0dbf2f81b854affc19",
+      "source_relative": "my_eval/scripts/test_strong_teacher_demo.py"
+    },
+    {
+      "path": "my_eval/scripts/train_strong_teacher.py",
+      "bytes": 6630,
+      "sha256": "0607cf151c62651e8928475d6ed3983d3f28d27eaa7fea5690c319d4db947ec4",
+      "source_relative": "my_eval/scripts/train_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/scripts/verify_strong_teacher.py",
+      "bytes": 3064,
+      "sha256": "04bd84161b23d2c033b5397664389d83cb8c8d5e39df5603efbb2fbb577c3b51",
+      "source_relative": "my_eval/scripts/verify_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/logs/strong_teacher_analyse_final.log",
+      "bytes": 9227,
+      "sha256": "ac68b0a837d867390ab39836bab5af14b5776d859e51c255b6ab3c991c7867c5",
+      "source_relative": "my_eval/logs/strong_teacher_analyse_final.log"
+    },
+    {
+      "path": "my_eval/logs/strong_teacher_dev_strong_teacher_strong_e1.log",
+      "bytes": 1038,
+      "sha256": "d7e9f30a3a21d2f5580224dee175cbdec6e03a14ea4cdcbc29712be3a22c0bf5",
+      "source_relative": "my_eval/logs/strong_teacher_dev_strong_teacher_strong_e1.log"
+    },
+    {
+      "path": "my_eval/logs/strong_teacher_dev_strong_teacher_strong_e2.log",
+      "bytes": 1037,
+      "sha256": "4a897080936a809573d3e4f9232717d028eae693727ba7520d92fa497bb2418b",
+      "source_relative": "my_eval/logs/strong_teacher_dev_strong_teacher_strong_e2.log"
+    },
+    {
+      "path": "my_eval/logs/strong_teacher_dev_strong_teacher_weak_e1.log",
+      "bytes": 1009,
+      "sha256": "39f84a59c306ec02c0d75333ef6ff39e47f10c054e92f0326e72629bf0b08306",
+      "source_relative": "my_eval/logs/strong_teacher_dev_strong_teacher_weak_e1.log"
+    },
+    {
+      "path": "my_eval/logs/strong_teacher_dev_strong_teacher_weak_e2.log",
+      "bytes": 1010,
+      "sha256": "61a6e7991a5b21afbd6d16afc9d4fdb0f8b146d90f76277eb7109168142a6920",
+      "source_relative": "my_eval/logs/strong_teacher_dev_strong_teacher_weak_e2.log"
+    },
+    {
+      "path": "my_eval/logs/strong_teacher_final_chat_repair_id_e3.log",
+      "bytes": 1971,
+      "sha256": "efc0aa10d0814a84562d400aad0c9f9570ae09d35d25a2c2e3c5ae32ccf078eb",
+      "source_relative": "my_eval/logs/strong_teacher_final_chat_repair_id_e3.log"
+    },
+    {
+      "path": "my_eval/logs/strong_teacher_final_strong_teacher_strong_e2.log",
+      "bytes": 2221,
+      "sha256": "07a299cbd82a68289a793cc19e5aec4b516f027a1536d09ad73a77c64478ce2c",
+      "source_relative": "my_eval/logs/strong_teacher_final_strong_teacher_strong_e2.log"
+    },
+    {
+      "path": "my_eval/logs/strong_teacher_final_strong_teacher_weak_e2.log",
+      "bytes": 2148,
+      "sha256": "7c07d17a8b094edb32acc8041c8dd4547fb119671c3b6cd219e6bd62c939da62",
+      "source_relative": "my_eval/logs/strong_teacher_final_strong_teacher_weak_e2.log"
+    },
+    {
+      "path": "my_eval/logs/strong_teacher_train_strong.log",
+      "bytes": 3231,
+      "sha256": "07d563403b4b49d899e180750ccdfc815b1080b2b0aec1a89b53956b14c9601e",
+      "source_relative": "my_eval/logs/strong_teacher_train_strong.log"
+    },
+    {
+      "path": "my_eval/logs/strong_teacher_train_weak.log",
+      "bytes": 3178,
+      "sha256": "4edf81e1c8e92d446dbac44eb479247a735c978926f208f9a52829320b500196",
+      "source_relative": "my_eval/logs/strong_teacher_train_weak.log"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/auto_shutdown_tests.json",
+      "bytes": 594,
+      "sha256": "f0347ae002079f9e891a2d105507a70b595cf5c8f1ebcfa2594dae4005817c9c",
+      "source_relative": "my_eval/results/strong_teacher_20261027/auto_shutdown_tests.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/autoshutdown_revision/cloud_package_manifest.json",
+      "bytes": 761,
+      "sha256": "5a4e3ea990fa8cc3c1b1e80049af51e715dca581929896a4c0a90baddc25f1c6",
+      "source_relative": "my_eval/results/strong_teacher_20261027/autoshutdown_revision/cloud_package_manifest.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/autoshutdown_revision/cloud_strong_teacher.py",
+      "bytes": 5911,
+      "sha256": "325d28d70adba0669fbbde0e0f6c5919974e1ae0e164c4b262ae0dbac45b6dd5",
+      "source_relative": "my_eval/results/strong_teacher_20261027/autoshutdown_revision/cloud_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/autoshutdown_revision/package_strong_teacher.py",
+      "bytes": 2024,
+      "sha256": "88b73f549ea241f77501af08212e9f85ea5c2accc986d223e4f7236b6f61255e",
+      "source_relative": "my_eval/results/strong_teacher_20261027/autoshutdown_revision/package_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/autoshutdown_update.json",
+      "bytes": 1183,
+      "sha256": "ab9af929d7970d929ea8de785ebdd007f88d2f0045ede1c141d812c5c9288a78",
+      "source_relative": "my_eval/results/strong_teacher_20261027/autoshutdown_update.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/behavior_tests.json",
+      "bytes": 303,
+      "sha256": "e1a9f33c0014eb5781f1a0762aa2d71828fb9c7bd6b0fee8b56734c3581f742e",
+      "source_relative": "my_eval/results/strong_teacher_20261027/behavior_tests.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/cloud_job.log",
+      "bytes": 8388,
+      "sha256": "f1dca58607a54d288c5af2d9b105102651102f2c08a84f8704e2a0173ca1b423",
+      "source_relative": "my_eval/results/strong_teacher_20261027/cloud_job.log"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/cloud_package/cloud_strong_teacher.py",
+      "bytes": 8166,
+      "sha256": "68c93a27e08f3612e16bde6481f37140a65550cce69edef410d94ca62540f608",
+      "source_relative": "my_eval/results/strong_teacher_20261027/cloud_package/cloud_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/cloud_package/download_teacher.py",
+      "bytes": 587,
+      "sha256": "1adae9c09d44d2ad61fe09d8e35b411ef609797256b003840abcfe66fe3a8b48",
+      "source_relative": "my_eval/results/strong_teacher_20261027/cloud_package/download_teacher.py"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/cloud_package/generate_strong_teacher.py",
+      "bytes": 6808,
+      "sha256": "f411169925c89f7cf19f4bd7388e4993289c4192f2b92a0222666f01a31c48a3",
+      "source_relative": "my_eval/results/strong_teacher_20261027/cloud_package/generate_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/cloud_package/package_manifest.json",
+      "bytes": 706,
+      "sha256": "4a10739acb4226ac501234ed0b5506d43a46717659c81f03446bc609c8cb865f",
+      "source_relative": "my_eval/results/strong_teacher_20261027/cloud_package/package_manifest.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/cloud_package/teacher_requests.json",
+      "bytes": 390987,
+      "sha256": "0570d73ad328a8bbd4a680886b477672ab0066cf11a354dc71a6ed071d83e107",
+      "source_relative": "my_eval/results/strong_teacher_20261027/cloud_package/teacher_requests.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/cloud_package/teacher_settings.json",
+      "bytes": 537,
+      "sha256": "8f152a1eaef45c64257a5c1b3aedcfc289df318c59fed84da62ed22fa4e0c8fe",
+      "source_relative": "my_eval/results/strong_teacher_20261027/cloud_package/teacher_settings.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/cloud_package/运行说明.txt",
+      "bytes": 1511,
+      "sha256": "1d17c7c5f8aea9918a78eefd2fc13826b139ac27acfcbf82d89c2d12cc1ebabc",
+      "source_relative": "my_eval/results/strong_teacher_20261027/cloud_package/运行说明.txt"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/cloud_package_manifest.json",
+      "bytes": 853,
+      "sha256": "34b32892f8e6729309fbc10e374f6a01a22f9123a51da31300285a993071b7f5",
+      "source_relative": "my_eval/results/strong_teacher_20261027/cloud_package_manifest.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/cloud_status.json",
+      "bytes": 1256,
+      "sha256": "2309d6cf27791db423d21ff82b5486da3f5ccc151ec6acb6217dab23566902cd",
+      "source_relative": "my_eval/results/strong_teacher_20261027/cloud_status.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/content_reviews.json",
+      "bytes": 220262,
+      "sha256": "6e69a791cc608d28fb06b14800985310028969b2d8179d08d87553defd562950",
+      "source_relative": "my_eval/results/strong_teacher_20261027/content_reviews.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/demo_export.json",
+      "bytes": 1732,
+      "sha256": "4fcb5a29a302504ac6caeeea947e4d612ed63512ff664dcba07b5c22a1cf8cfc",
+      "source_relative": "my_eval/results/strong_teacher_20261027/demo_export.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/demo_hf_validated/chat_template.jinja",
+      "bytes": 3979,
+      "sha256": "5ce19bbb30e4d23557596e60fb29edfa8bbb792a6284097863e4d7109113e2c2",
+      "source_relative": "my_eval/results/strong_teacher_20261027/demo_hf_validated/chat_template.jinja"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/demo_hf_validated/config.json",
+      "bytes": 901,
+      "sha256": "29f24eb8cc7531f48e4822c6b1a8b2ab712e14813e920ccf095fe93a46d2446c",
+      "source_relative": "my_eval/results/strong_teacher_20261027/demo_hf_validated/config.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/demo_hf_validated/generation_config.json",
+      "bytes": 73,
+      "sha256": "c8b0fa1817241273739e519098b3c8dffa2f0edd593dafc6eac4e58816677a43",
+      "source_relative": "my_eval/results/strong_teacher_20261027/demo_hf_validated/generation_config.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/demo_hf_validated/special_tokens_map.json",
+      "bytes": 1111,
+      "sha256": "86734702686a64d8156b2406128b30370c9a315903d70f0b8dcd36526cbc0d19",
+      "source_relative": "my_eval/results/strong_teacher_20261027/demo_hf_validated/special_tokens_map.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/demo_hf_validated/tokenizer.json",
+      "bytes": 451182,
+      "sha256": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+      "source_relative": "my_eval/results/strong_teacher_20261027/demo_hf_validated/tokenizer.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/demo_hf_validated/tokenizer_config.json",
+      "bytes": 7880,
+      "sha256": "146dc85111f22a9e1bdc7284b9c65f8252fb4bfd510899f0c661cf93e949e09a",
+      "source_relative": "my_eval/results/strong_teacher_20261027/demo_hf_validated/tokenizer_config.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/demo_smoke.json",
+      "bytes": 3710,
+      "sha256": "550342f67e8a16020d1776e7faeb79bf68c64537155ed643d33fe272eb005bed",
+      "source_relative": "my_eval/results/strong_teacher_20261027/demo_smoke.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/demo_ui_validation.json",
+      "bytes": 3872,
+      "sha256": "c573c7a3170c4d3c1da4bf74e78b98905a0b0688938ee6d93ba49bb94aefa7bc",
+      "source_relative": "my_eval/results/strong_teacher_20261027/demo_ui_validation.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/dev_math_review_queue.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source_relative": "my_eval/results/strong_teacher_20261027/dev_math_review_queue.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/dev_math_review_queue_snapshot.json",
+      "bytes": 3319,
+      "sha256": "fdfaf6ad4d45e025a17aa25ad2c254fc013393d02e684857498a51c7120c84b4",
+      "source_relative": "my_eval/results/strong_teacher_20261027/dev_math_review_queue_snapshot.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/dev_review_map.json",
+      "bytes": 104075,
+      "sha256": "4bfc8cab723a19227a7c6eca9bedc3e3cd1ea4f5efa7de09ec441b19b5b44b8a",
+      "source_relative": "my_eval/results/strong_teacher_20261027/dev_review_map.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/dev_review_queue.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source_relative": "my_eval/results/strong_teacher_20261027/dev_review_queue.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/dev_review_queue_snapshot.json",
+      "bytes": 95799,
+      "sha256": "c518ed5fe11b67f6e2a4768e2dd04ea6fd1df408a48493479bba2d72396d625f",
+      "source_relative": "my_eval/results/strong_teacher_20261027/dev_review_queue_snapshot.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/dev_review_v4_snapshot.json",
+      "bytes": 41016,
+      "sha256": "5ab9083e26931d5cbae8911b29e6ae21bd5ae1a73b3cc32f3bd401a5481f676d",
+      "source_relative": "my_eval/results/strong_teacher_20261027/dev_review_v4_snapshot.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/dev_tasks.json",
+      "bytes": 24350,
+      "sha256": "cb11d3fe7b946319606ffc9be7081b2a436b4319c9217266416e0bc49268be78",
+      "source_relative": "my_eval/results/strong_teacher_20261027/dev_tasks.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devchat_chat_repair_id_e3.json",
+      "bytes": 129965,
+      "sha256": "b7dd322c5eaaab2f5e46f545469c412ce65e207f4e374f7ffac94b02e77fb79c",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devchat_chat_repair_id_e3.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devchat_chat_repair_id_e3_runtime.json",
+      "bytes": 95,
+      "sha256": "f7271a45065eb91e21cef931344ab93752099e85f157652dedb64ec953272b0b",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devchat_chat_repair_id_e3_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_strong_e1.json",
+      "bytes": 118250,
+      "sha256": "ece741af618b7204b491d519d26801e5c19cc0138e2181994f645fc352ea2ebb",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_strong_e1.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_strong_e1_runtime.json",
+      "bytes": 96,
+      "sha256": "c5e0cfb0c70c6a2720f0fcba0ea0fd3868a4cf3e8c343a4885e62207fb964ccd",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_strong_e1_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_strong_e2.json",
+      "bytes": 121511,
+      "sha256": "79fe2b31a972951e6ea3280c940966063ef5fb30d76d209d0eb37d295b6186a6",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_strong_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_strong_e2_runtime.json",
+      "bytes": 96,
+      "sha256": "8023b5c2eabc1cb9c2673669ceb8f23bc08ba9c54f41386f9056bba232e7be23",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_strong_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_weak_e1.json",
+      "bytes": 122407,
+      "sha256": "aec3f1b8707cd8b302eb51f1e236e42e826ec517176fd9fea7eab0dd6bd0d054",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_weak_e1.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_weak_e1_runtime.json",
+      "bytes": 96,
+      "sha256": "f9300277422a0122053f5c61b5a6cc18e4d346a01920e73b1688793d5fcf78fe",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_weak_e1_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_weak_e2.json",
+      "bytes": 122235,
+      "sha256": "e1352e4aa716ac87da48ee0ced43ec75a999e045a36c38c7ffa8b3406a1b23ac",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_weak_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_weak_e2_runtime.json",
+      "bytes": 96,
+      "sha256": "441df32dda08c5664af31f7ecdad8321efcfce6bfc7a5912d94cb33d89786a68",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devchat_strong_teacher_weak_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devidentity_chat_repair_id_e3.json",
+      "bytes": 3813,
+      "sha256": "ab756bbf3b74a3f7925e9b202dd9ab64a473cc5e6aee1861230ccb5559464c0a",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devidentity_chat_repair_id_e3.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devidentity_chat_repair_id_e3_runtime.json",
+      "bytes": 92,
+      "sha256": "7f5efffb4ef79b160e3ca8b0f754628cb4ff2a4957f4f0f9fe2e1b1854d3316e",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devidentity_chat_repair_id_e3_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_strong_e1.json",
+      "bytes": 3813,
+      "sha256": "3f3549cd13377efaea32f2ae3f4253aff4773f66df99bff91b9b8185f5cf9aec",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_strong_e1.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_strong_e1_runtime.json",
+      "bytes": 93,
+      "sha256": "9f375a900bd512d8e18908c3ee09bee9a4fa018f729f4b4a55c3c0868c3f2e92",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_strong_e1_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_strong_e2.json",
+      "bytes": 3814,
+      "sha256": "ea96feefca85ff2bc17caca46da01c6742f6595d29cd7ebd14edbde0a17077b9",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_strong_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_strong_e2_runtime.json",
+      "bytes": 92,
+      "sha256": "11377dbb5b4b2015c69b8279f9c03d8502be005db7c4b6b8c283115dddfbe623",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_strong_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_weak_e1.json",
+      "bytes": 3814,
+      "sha256": "d9089effd3155885d358abfeddb78fca1088ed4172ba8e67b08ae757702d552d",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_weak_e1.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_weak_e1_runtime.json",
+      "bytes": 94,
+      "sha256": "6d49120448ecea62cfe854d866082c28afcfd11cdcd12e0bc8fa049a71ca7ca1",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_weak_e1_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_weak_e2.json",
+      "bytes": 3812,
+      "sha256": "b15f07380ba0f4138683733a00dbd9c29981281a3e453e89b6fb16b24e2d2380",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_weak_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_weak_e2_runtime.json",
+      "bytes": 93,
+      "sha256": "3ba325d9be415f6a6d65b7b4c30140c898347f52b8ca658d582d769baefcd7f8",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devidentity_strong_teacher_weak_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devmath_chat_repair_id_e3.json",
+      "bytes": 101891,
+      "sha256": "c0048b79202cf58cfff27fa0746815ee884480da27a55b03b4ef2efdcf98aca6",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devmath_chat_repair_id_e3.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devmath_chat_repair_id_e3_runtime.json",
+      "bytes": 93,
+      "sha256": "f22b61319a672617e8ee5bfb1aeb193e3b89f96ee4d611de2210e0a36c6544db",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devmath_chat_repair_id_e3_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_strong_e1.json",
+      "bytes": 105437,
+      "sha256": "1d961ca7724cd66ee43cbaea8e081c2797a9e28de89aef781b7d30235a83c117",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_strong_e1.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_strong_e1_runtime.json",
+      "bytes": 93,
+      "sha256": "b68e0f1e28d8ba2c8477b4071b962afd3fd20b2978a0ba66ca0bccc352c7ab3b",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_strong_e1_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_strong_e2.json",
+      "bytes": 97082,
+      "sha256": "1981a57a0125a485714d7462b2d30e638671016b4e453b2d73e0d918b464e437",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_strong_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_strong_e2_runtime.json",
+      "bytes": 93,
+      "sha256": "793edff2b67b55805744c0f127c168fe85093e814c28965dfe98d238c0d45df6",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_strong_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_weak_e1.json",
+      "bytes": 102138,
+      "sha256": "4b3559ae3fb8ac9c9ffd94d69298fd0eff3ef0b26e81a0e46584e7b625629667",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_weak_e1.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_weak_e1_runtime.json",
+      "bytes": 95,
+      "sha256": "487115444e01b26fb992e223bfbd979743de647a3bbfb35a32c7a496841c8d70",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_weak_e1_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_weak_e2.json",
+      "bytes": 94675,
+      "sha256": "40ea84497225cf30b539aab03029508c702b48f083c45960a3ce940e9842b053",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_weak_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_weak_e2_runtime.json",
+      "bytes": 93,
+      "sha256": "0d42befa39a1e229331c7af2ad86a86f287275adbdc16415020cbe724d7ffe2b",
+      "source_relative": "my_eval/results/strong_teacher_20261027/devmath_strong_teacher_weak_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/download_manifest.json",
+      "bytes": 125,
+      "sha256": "9cf1950f1a0992446c5afa1337125b9e104ea78a8283881168459555d3f46980",
+      "source_relative": "my_eval/results/strong_teacher_20261027/download_manifest.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/final_lock.json",
+      "bytes": 2683,
+      "sha256": "a806235bff43705504752a7b0d7c69f32831683e0d6e7e673da7fea561e13f97",
+      "source_relative": "my_eval/results/strong_teacher_20261027/final_lock.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/final_math_review_queue.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source_relative": "my_eval/results/strong_teacher_20261027/final_math_review_queue.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/final_math_review_queue_snapshot.json",
+      "bytes": 5167,
+      "sha256": "fa889d5335b107e3d7705696dcd0ae464b2740c921fea226cc3ca4198b243b88",
+      "source_relative": "my_eval/results/strong_teacher_20261027/final_math_review_queue_snapshot.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/final_review_map.json",
+      "bytes": 129729,
+      "sha256": "2979c5a5f994437d34dd6e0155ceb6cc3bd9a6f4b8a9a6a4a12914fa8257013c",
+      "source_relative": "my_eval/results/strong_teacher_20261027/final_review_map.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/final_review_queue.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source_relative": "my_eval/results/strong_teacher_20261027/final_review_queue.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/final_review_queue_snapshot.json",
+      "bytes": 212277,
+      "sha256": "237b8aac58acb1c899f21b463f1739f182ac5779ac5fa0351c84bb0cb137d56f",
+      "source_relative": "my_eval/results/strong_teacher_20261027/final_review_queue_snapshot.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/final_tasks.json",
+      "bytes": 50858,
+      "sha256": "a28ef65e11e8b72fbdb67d38aa075b4573be9b9bcc4438b8b39a6cb76783239b",
+      "source_relative": "my_eval/results/strong_teacher_20261027/final_tasks.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/finalchat_chat_repair_id_e3.json",
+      "bytes": 267465,
+      "sha256": "47049ed4d006cdf6d8065ae1aa78c5437c23378285c0d2102b061eeef81675b4",
+      "source_relative": "my_eval/results/strong_teacher_20261027/finalchat_chat_repair_id_e3.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/finalchat_chat_repair_id_e3_runtime.json",
+      "bytes": 95,
+      "sha256": "abfdcf357d5b608e5c0dee9a9d1282cdfe9db5672f95b544c12c296c06ea4a93",
+      "source_relative": "my_eval/results/strong_teacher_20261027/finalchat_chat_repair_id_e3_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/finalchat_strong_teacher_strong_e2.json",
+      "bytes": 256374,
+      "sha256": "9499d55326bd36a75bff3ffaadd174662d64609b5f7beacefa63c9f802db21c4",
+      "source_relative": "my_eval/results/strong_teacher_20261027/finalchat_strong_teacher_strong_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/finalchat_strong_teacher_strong_e2_runtime.json",
+      "bytes": 95,
+      "sha256": "2fb2e61ee9e2bf1ff2792aab376794519583336b13798d42b73f2b858317baf0",
+      "source_relative": "my_eval/results/strong_teacher_20261027/finalchat_strong_teacher_strong_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/finalchat_strong_teacher_weak_e2.json",
+      "bytes": 268950,
+      "sha256": "aa84f6fc1ca38d6d7524d3e63a1eb763ae630a5551f436c12fa60125ebb09508",
+      "source_relative": "my_eval/results/strong_teacher_20261027/finalchat_strong_teacher_weak_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/finalchat_strong_teacher_weak_e2_runtime.json",
+      "bytes": 95,
+      "sha256": "48083aeb64cc3bffd1e996093865654f9ecd5a702af7f1222ea1e492c6bfbf44",
+      "source_relative": "my_eval/results/strong_teacher_20261027/finalchat_strong_teacher_weak_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/freshmath_chat_repair_id_e3.json",
+      "bytes": 107571,
+      "sha256": "016373055c722d9f7a17a7cd2dd768c9ce687275aa411d1b7fdd9c3f5ea6f039",
+      "source_relative": "my_eval/results/strong_teacher_20261027/freshmath_chat_repair_id_e3.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/freshmath_chat_repair_id_e3_runtime.json",
+      "bytes": 93,
+      "sha256": "9e6c050f88b4230b9564c713c5f23b507c9cda9b2644cb0490f4a8c32578a36c",
+      "source_relative": "my_eval/results/strong_teacher_20261027/freshmath_chat_repair_id_e3_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/freshmath_strong_teacher_strong_e2.json",
+      "bytes": 106528,
+      "sha256": "ecbacffaa978bf2b95e3ba4e8fd1cc17f851e5fd6cf5b72260492b2f3dd3ebc0",
+      "source_relative": "my_eval/results/strong_teacher_20261027/freshmath_strong_teacher_strong_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/freshmath_strong_teacher_strong_e2_runtime.json",
+      "bytes": 93,
+      "sha256": "c3911cff2287189837f1082c4627d0bdb27b76c79d3a5263e36cb9b73f2f55c1",
+      "source_relative": "my_eval/results/strong_teacher_20261027/freshmath_strong_teacher_strong_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/freshmath_strong_teacher_weak_e2.json",
+      "bytes": 105205,
+      "sha256": "ce569170f2b16de35c7f982f654065fb341447ecabdd9cd499f6de05a0b887b4",
+      "source_relative": "my_eval/results/strong_teacher_20261027/freshmath_strong_teacher_weak_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/freshmath_strong_teacher_weak_e2_runtime.json",
+      "bytes": 93,
+      "sha256": "a15397fc7bd2b15ef25e61f1992e2f272dade3fb0910921f10c83597a9168b83",
+      "source_relative": "my_eval/results/strong_teacher_20261027/freshmath_strong_teacher_weak_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/historical_chat_repair_id_e3.json",
+      "bytes": 499770,
+      "sha256": "06145c67a06b7b0f8666dfba7ac38e7d57124f12c05994b8132f055294b259a9",
+      "source_relative": "my_eval/results/strong_teacher_20261027/historical_chat_repair_id_e3.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/historical_chat_repair_id_e3_runtime.json",
+      "bytes": 96,
+      "sha256": "ce24c70476a55bf2c21a71e73d64a8179b81a0f937dba072c457bfab6e98c70f",
+      "source_relative": "my_eval/results/strong_teacher_20261027/historical_chat_repair_id_e3_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/historical_strong_teacher_strong_e2.json",
+      "bytes": 498469,
+      "sha256": "2fe5388ff1e2edddd934078f89e5f91c401a1806717fbf6174da448f9ce9e94e",
+      "source_relative": "my_eval/results/strong_teacher_20261027/historical_strong_teacher_strong_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/historical_strong_teacher_strong_e2_runtime.json",
+      "bytes": 96,
+      "sha256": "bcbc62957d1d1689087aad6fa8718accdef6bfac53077b0c92ac416d6315624a",
+      "source_relative": "my_eval/results/strong_teacher_20261027/historical_strong_teacher_strong_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/historical_strong_teacher_weak_e2.json",
+      "bytes": 498024,
+      "sha256": "020c8a34b970b6d5bf24cd18f1d06152d1ae463a06e685619c7e4300f5dd4883",
+      "source_relative": "my_eval/results/strong_teacher_20261027/historical_strong_teacher_weak_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/historical_strong_teacher_weak_e2_runtime.json",
+      "bytes": 96,
+      "sha256": "e231173d3abbb645fa1f3bb17f4bfc30b005e91e6eb937535e4ebc5fb81d338c",
+      "source_relative": "my_eval/results/strong_teacher_20261027/historical_strong_teacher_weak_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/identity_chat_repair_id_e3.json",
+      "bytes": 12682,
+      "sha256": "ff68f1844d37c38ca50323b1c3005736cd9f6e47dbe661304b0a62f740175b92",
+      "source_relative": "my_eval/results/strong_teacher_20261027/identity_chat_repair_id_e3.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/identity_chat_repair_id_e3_runtime.json",
+      "bytes": 93,
+      "sha256": "684ebe33c0e8d076a2c5f3ba7c8a5c10c6e4d82da9372f0aa89281b4375fee9f",
+      "source_relative": "my_eval/results/strong_teacher_20261027/identity_chat_repair_id_e3_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/identity_dev_tasks.json",
+      "bytes": 3182,
+      "sha256": "a9f3d8568d51f15f5f3aced4140193fc63b47ac4b93704f1beec5d1040f2c877",
+      "source_relative": "my_eval/results/strong_teacher_20261027/identity_dev_tasks.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/identity_strong_teacher_strong_e2.json",
+      "bytes": 12439,
+      "sha256": "dc1d9ad3862c813ec24a7e6a5022e8475d6002dc66445246eb43a65622f398f9",
+      "source_relative": "my_eval/results/strong_teacher_20261027/identity_strong_teacher_strong_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/identity_strong_teacher_strong_e2_runtime.json",
+      "bytes": 93,
+      "sha256": "12de0ee11dfbd56f1d3ed93fbf10c0dcf70ee24a2ff2e384781c28c2e27d3b65",
+      "source_relative": "my_eval/results/strong_teacher_20261027/identity_strong_teacher_strong_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/identity_strong_teacher_weak_e2.json",
+      "bytes": 12779,
+      "sha256": "d6f6fbe62dbe77aed2c837c17f2c59d87b2eed2b6070e45b3d9af32884a3e0b6",
+      "source_relative": "my_eval/results/strong_teacher_20261027/identity_strong_teacher_weak_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/identity_strong_teacher_weak_e2_runtime.json",
+      "bytes": 93,
+      "sha256": "d35c90bdba192af9c03484cab7aaf66d7634ca379bdf72a874aef7e1e15062f2",
+      "source_relative": "my_eval/results/strong_teacher_20261027/identity_strong_teacher_weak_e2_runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/identity_tasks.json",
+      "bytes": 10097,
+      "sha256": "0a76e69345f8e83d37e432f8008f069a3a03fe5b141dffebf65e2471ccbd2824",
+      "source_relative": "my_eval/results/strong_teacher_20261027/identity_tasks.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/loss_dev_chat_repair_id_e3.json",
+      "bytes": 9356,
+      "sha256": "1b435aa65e0ac1d005e56713eb22164dfec3b533abaee702e85fd301b8307630",
+      "source_relative": "my_eval/results/strong_teacher_20261027/loss_dev_chat_repair_id_e3.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/loss_dev_strong_teacher_strong_e1.json",
+      "bytes": 9358,
+      "sha256": "5bea16a5a8081e785d3f6d44a73938bcf455d773eb893c56e6a27dd55b354e26",
+      "source_relative": "my_eval/results/strong_teacher_20261027/loss_dev_strong_teacher_strong_e1.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/loss_dev_strong_teacher_strong_e2.json",
+      "bytes": 9349,
+      "sha256": "4ccc47ad12d39e6e81a8c0ee062935b4cc470c25852d41537066bd8b209dfb11",
+      "source_relative": "my_eval/results/strong_teacher_20261027/loss_dev_strong_teacher_strong_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/loss_dev_strong_teacher_weak_e1.json",
+      "bytes": 9355,
+      "sha256": "9240afb16e17c0e93d5f54ae6d59021ec6ab160211e27f1196bc02b5fbf68545",
+      "source_relative": "my_eval/results/strong_teacher_20261027/loss_dev_strong_teacher_weak_e1.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/loss_dev_strong_teacher_weak_e2.json",
+      "bytes": 9361,
+      "sha256": "a909f88accf319bd38158b749a5b123078c70b6db5c34f80360d158632002ddb",
+      "source_relative": "my_eval/results/strong_teacher_20261027/loss_dev_strong_teacher_weak_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/loss_final_chat_repair_id_e3.json",
+      "bytes": 27618,
+      "sha256": "a1e18ee18902c91e96c29a80cdb8794cf81963f7b7378d2a6f8fe2d8a3bc67e6",
+      "source_relative": "my_eval/results/strong_teacher_20261027/loss_final_chat_repair_id_e3.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/loss_final_strong_teacher_strong_e2.json",
+      "bytes": 27617,
+      "sha256": "8cc225d592354e914aa4debcee665b4f4f9a0c409886da417e64a7465bf22055",
+      "source_relative": "my_eval/results/strong_teacher_20261027/loss_final_strong_teacher_strong_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/loss_final_strong_teacher_weak_e2.json",
+      "bytes": 27639,
+      "sha256": "50ef272652e6d45df402827843a05406fd9a0af9130006b883e9e5278955b451",
+      "source_relative": "my_eval/results/strong_teacher_20261027/loss_final_strong_teacher_weak_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/matched_data_audit.json",
+      "bytes": 16941,
+      "sha256": "762f965eb903f4f96ba4d3579fac2445b1d8d0e2c86ef9fa7cd4bcaa80990a6d",
+      "source_relative": "my_eval/results/strong_teacher_20261027/matched_data_audit.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/math_reviews.json",
+      "bytes": 12652,
+      "sha256": "eac82757e93d61169f6092b3aef24da046bc807ab6aaa080b817d3bfa471f40e",
+      "source_relative": "my_eval/results/strong_teacher_20261027/math_reviews.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/pilot_estimate.json",
+      "bytes": 1445,
+      "sha256": "e1bd487da12a3e2bc399d32b2ae14bc816de23b2f47c2fe4e04d38a69c479314",
+      "source_relative": "my_eval/results/strong_teacher_20261027/pilot_estimate.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/plan.json",
+      "bytes": 4918,
+      "sha256": "fdcca0cadeb5e8661ec08564a2387d3248c14e53aa47bd017de2bc4822a95541",
+      "source_relative": "my_eval/results/strong_teacher_20261027/plan.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/preflight_tests.json",
+      "bytes": 584,
+      "sha256": "a1e2473f24d36ee8edc22999d4e1ec1bbb4c1d67c222217e87c63aec429cb5ef",
+      "source_relative": "my_eval/results/strong_teacher_20261027/preflight_tests.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/preparation_audit.json",
+      "bytes": 993,
+      "sha256": "c5d2e8df7cb529d9e9cedab9bd7ed0f0b1178bfe75b4331183e73f1b96f9ee0d",
+      "source_relative": "my_eval/results/strong_teacher_20261027/preparation_audit.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/README.md",
+      "bytes": 7490,
+      "sha256": "6deed73b0a3eafff799e21355c711be539e7e80051f2f5b9d29ee6be0b613740",
+      "source_relative": "my_eval/results/strong_teacher_20261027/README.md"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/REPORT.md",
+      "bytes": 7074,
+      "sha256": "7e492ddd81dc9f632e36084651db61f70f7ec0dcec932ebd059b9b468be0b5e6",
+      "source_relative": "my_eval/results/strong_teacher_20261027/REPORT.md"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/results_manifest.json",
+      "bytes": 1023,
+      "sha256": "96b7b587bc57966550bd04b328f33072d106c9d2f40eb025b9aa39b137ec4648",
+      "source_relative": "my_eval/results/strong_teacher_20261027/results_manifest.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/retention_identity240.json",
+      "bytes": 631022,
+      "sha256": "c0a0aec0755c7126cbff419d75552f2da83eb4f268c285b123e8ab93f7e356ea",
+      "source_relative": "my_eval/results/strong_teacher_20261027/retention_identity240.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/retention_kl600.json",
+      "bytes": 1252381,
+      "sha256": "cf454cc69f5440dbd3e8e26cdf0a20c02ef72c5dcc4e663dafde13e6a5399b62",
+      "source_relative": "my_eval/results/strong_teacher_20261027/retention_kl600.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/retention_math640.json",
+      "bytes": 1717021,
+      "sha256": "b9c128117de2590097a1e00c8ed8ba1b09472ec5987cd9b1971e198262a2f14e",
+      "source_relative": "my_eval/results/strong_teacher_20261027/retention_math640.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/selection.json",
+      "bytes": 9130,
+      "sha256": "25fb6fc500b9d9417471d5f36ddc6ea1b9c642df670ecb065e30a10d1a5532cc",
+      "source_relative": "my_eval/results/strong_teacher_20261027/selection.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/SHUTDOWN_FAILED.txt",
+      "bytes": 58,
+      "sha256": "3c62ca384c96871befc18d903447a995291d4ddfa1aa9d46584abb862b532788",
+      "source_relative": "my_eval/results/strong_teacher_20261027/SHUTDOWN_FAILED.txt"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/shutdown_request.json",
+      "bytes": 191,
+      "sha256": "0a68083a4178c0858ef71004d4aa1f876a2f1c45ecb5278b748faaf5be04e23b",
+      "source_relative": "my_eval/results/strong_teacher_20261027/shutdown_request.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/summary.json",
+      "bytes": 8888,
+      "sha256": "c00f2a19c673cc416b84fddf33df07a78363c205ab5b850460f17549d0d7764a",
+      "source_relative": "my_eval/results/strong_teacher_20261027/summary.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_content_reviews.json",
+      "bytes": 243540,
+      "sha256": "ce4a38e1b5b66a214bed77f8fee742e4719651d229bbe9c14e6d43e6b984c7be",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_content_reviews.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_requests.json",
+      "bytes": 390987,
+      "sha256": "0570d73ad328a8bbd4a680886b477672ab0066cf11a354dc71a6ed071d83e107",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_requests.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_review_map.json",
+      "bytes": 202003,
+      "sha256": "58eacf1b923cd204abe9929c3d24ced457351166fdf3583649e6c38269ec0d21",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_review_map.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_review_queue.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_review_queue.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_review_queue_snapshot.json",
+      "bytes": 427716,
+      "sha256": "e65b7d0907dbea9c800e5c7605af06f17f8db6344dddd87a01d44d85888f8d7e",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_review_queue_snapshot.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_screening.json",
+      "bytes": 237129,
+      "sha256": "e2390ac8484a0e1d7fcde3e9ff2024070a514c146e3ea5ec8d2d7e80060c79a5",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_screening.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_strong.jsonl",
+      "bytes": 516754,
+      "sha256": "d8c5d88c25aff066a738786597f8a953c02066ba5d271910bb5742c22f7319a3",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_strong.jsonl"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_strong.manifest.json",
+      "bytes": 1686,
+      "sha256": "8ccd49df667746f60aa301cc37590805b3bfb04ecf5f06274d12dd45f9058fe0",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_strong.manifest.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_strong.runtime.json",
+      "bytes": 814,
+      "sha256": "beba6f0a13445ab0b7e86e1398d69c2924735dfef78f20678767e5e600e9178f",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_strong.runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_weak.jsonl",
+      "bytes": 547808,
+      "sha256": "f69479d6975ccd9c8ff6222e01d1e524d94fc1f25caba0a00e38cbade7f7359e",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_weak.jsonl"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_weak.manifest.json",
+      "bytes": 1241,
+      "sha256": "37ea9957291784eb6617ace6f74eb3a50efed49d8b85eb37bcd8ce1d2db4412f",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_weak.manifest.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/teacher_weak.runtime.json",
+      "bytes": 810,
+      "sha256": "1441d66a66ec68b867c8b5dc52d575254e06a91aa65989991c619f9098a7561d",
+      "source_relative": "my_eval/results/strong_teacher_20261027/teacher_weak.runtime.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/token_audit_strong.json",
+      "bytes": 221,
+      "sha256": "997da635068c1d1a8a676cab75a3404746c3b3a0d9ee977c66e799ae2919241b",
+      "source_relative": "my_eval/results/strong_teacher_20261027/token_audit_strong.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/token_audit_weak.json",
+      "bytes": 221,
+      "sha256": "aa145cbbb1f4e8f407c9b7366bff0a9fd0b03a924434f34af1c23fa3edf0e2a7",
+      "source_relative": "my_eval/results/strong_teacher_20261027/token_audit_weak.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/train_items.json",
+      "bytes": 535328,
+      "sha256": "9a9dea119994f743c6d9ad7ad2c6bfee1dba3225d1bda0605a23f32cbb1c0705",
+      "source_relative": "my_eval/results/strong_teacher_20261027/train_items.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/train_strong.jsonl",
+      "bytes": 3476390,
+      "sha256": "5f8ee5702ed003fb64e37acbd8f58b5759445d45939cae7535802ee92ff9abdc",
+      "source_relative": "my_eval/results/strong_teacher_20261027/train_strong.jsonl"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/train_strong_teacher_strong_e1.json",
+      "bytes": 2865,
+      "sha256": "e0e643f3326c226c6759ecc8d971f02ff9b4b8b5e67e66d8693ef57d0a801966",
+      "source_relative": "my_eval/results/strong_teacher_20261027/train_strong_teacher_strong_e1.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/train_strong_teacher_strong_e2.json",
+      "bytes": 4933,
+      "sha256": "8c321b06ca4a305f90f3412f001a00510873bfe0e8b84f8c2be1e12df5823f45",
+      "source_relative": "my_eval/results/strong_teacher_20261027/train_strong_teacher_strong_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/train_strong_teacher_weak_e1.json",
+      "bytes": 2864,
+      "sha256": "9906f2beaf651b54b6f915357b99fd1336f3acce8a7242a69a50a8616864b9cd",
+      "source_relative": "my_eval/results/strong_teacher_20261027/train_strong_teacher_weak_e1.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/train_strong_teacher_weak_e2.json",
+      "bytes": 4933,
+      "sha256": "8fd422f23f5a8e5e567afd916282a5b82a2daa44fced13868e89f282b358d680",
+      "source_relative": "my_eval/results/strong_teacher_20261027/train_strong_teacher_weak_e2.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/train_strong_teacher_weak_trial.json",
+      "bytes": 958,
+      "sha256": "02c4a63381b8748a1f15b80bc1cba9631b24a8cf2cbd6bd2f34c699ad0b23d3b",
+      "source_relative": "my_eval/results/strong_teacher_20261027/train_strong_teacher_weak_trial.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/train_weak.jsonl",
+      "bytes": 3495986,
+      "sha256": "a0d4615664adb5a3c5c5b7df83380f4d6977295a509cd56d86548de785f2a494",
+      "source_relative": "my_eval/results/strong_teacher_20261027/train_weak.jsonl"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/training_lock.json",
+      "bytes": 1229,
+      "sha256": "123c6482e179730c24d392b9577a1bf2d21968e31ceb87eeb1836d6dc47337f8",
+      "source_relative": "my_eval/results/strong_teacher_20261027/training_lock.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/v4_development_baseline.json",
+      "bytes": 1626,
+      "sha256": "b45910f63d1e7dccd62a6f9a96d8bb58dbe080904d3e8a452309fe10df1416de",
+      "source_relative": "my_eval/results/strong_teacher_20261027/v4_development_baseline.json"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/web_demo.before_strong_teacher.py",
+      "bytes": 23417,
+      "sha256": "09208e402e285f5c228dcfaeda1cdeb7bed336c7a0f84fef67977d584157d050",
+      "source_relative": "my_eval/results/strong_teacher_20261027/web_demo.before_strong_teacher.py"
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/运行前补充_下载加速.txt",
+      "bytes": 5664,
+      "sha256": "5da4be9fa3cc24e7bed028daf9933ea9ab87f922b353af2841ee03a7eb43c288",
+      "source_relative": "my_eval/results/strong_teacher_20261027/运行前补充_下载加速.txt"
     }
   ],
   "local_assets_not_in_git": [
@@ -5471,6 +6563,55 @@
     {
       "path": "scripts/MiniMind-YuyangLU-v4/model.safetensors",
       "bytes": 127834168
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/demo_hf_validated/model.safetensors",
+      "bytes": 127834168
+    },
+    {
+      "path": "out/strong_teacher_strong_e1_768.pth",
+      "bytes": 137685584
+    },
+    {
+      "path": "out/strong_teacher_strong_e2_768.pth",
+      "bytes": 137685584
+    },
+    {
+      "path": "out/strong_teacher_weak_e1_768.pth",
+      "bytes": 137685394
+    },
+    {
+      "path": "out/strong_teacher_weak_e2_768.pth",
+      "bytes": 137685394
+    },
+    {
+      "path": "out/strong_teacher_weak_trial_768.pth",
+      "bytes": 137685679
+    },
+    {
+      "path": "scripts/MiniMind-YuyangLU-v5/model.safetensors",
+      "bytes": 127834168
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/tokenized_strong.pt",
+      "bytes": 9442820
+    },
+    {
+      "path": "my_eval/results/strong_teacher_20261027/tokenized_weak.pt",
+      "bytes": 9469052
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "experiment": "my_eval/results/strong_teacher_20261027/",
+      "files_added": 182,
+      "files_refreshed": [
+        "scripts/web_demo.py",
+        "my_eval/README.md",
+        "my_eval/SUMMARY_FOR_CHATGPT.md"
+      ],
+      "withheld": "Status files holding cloud instance and account details; weights; token caches; archives."
     }
   ]
 }

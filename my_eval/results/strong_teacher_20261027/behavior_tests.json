@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": {
+    "near_deadline_starts_no_chargeable_job": true,
+    "deadline_terminates_child_group": true,
+    "whole_answer_and_completion_required": true,
+    "paired_direction_and_identity_comparison_correct": true
+  },
+  "shutdown_executed": false,
+  "network_used": false
+}

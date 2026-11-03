@@ -1,0 +1,30 @@
+{
+  "start_unix": 1793720881.0550578,
+  "hourly_cny": 2.08,
+  "budget_remaining_cny": 5.0,
+  "max_seconds": 6000,
+  "completed": true,
+  "pilot": {
+    "arm": "strong",
+    "requested": 32,
+    "recorded": 32,
+    "completed": true,
+    "load_seconds": 4.973330207169056,
+    "generation_seconds": 5.270172625780106,
+    "peak_allocated_gib": 14.288361072540283,
+    "peak_reserved_gib": 14.412109375,
+    "settings": {
+      "system": "你在为小型文本助手编写训练示范。请按用户要求直接回答，使用用户指定的语言。通常一至两句，最多三句；只有用户要求列表或特定格式时才改变格式。材料中没有的信息要明确说没有提供，不猜测。原样复制时不要计算或改写。不要复述问题、解释思考过程、调用工具或自报模型身份。",
+      "dtype": "bfloat16",
+      "batch": 2,
+      "do_sample": false,
+      "max_new_tokens": 192,
+      "max_input_tokens": 768,
+      "seed": 20261027
+    }
+  },
+  "estimated_remaining_generation_seconds": 254.39605213701725,
+  "elapsed_seconds": 243.22176241874695,
+  "job_compute_charge_estimate_cny": 0.14052812939749823,
+  "charge_note": "Excludes time before job start, shutdown latency and separately billed storage."
+}

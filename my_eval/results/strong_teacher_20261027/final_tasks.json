@@ -1,0 +1,1490 @@
+[
+  {
+    "id": "final_retrieval_0000",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：唐悦的柜号是327；陆晴的柜号是713。唐悦的柜号是什么？只给出柜号。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：唐悦的柜号是327；陆晴的柜号是713。唐悦的柜号是什么？只给出柜号。"
+      }
+    ],
+    "reference_for_review_only": "327",
+    "language": "zh",
+    "seed": 850000,
+    "exact_answer": "327",
+    "format_id": 0,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0001",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：陆晴计划周二交材料；沈禾计划周四交材料。陆晴哪天交材料？只回答日期。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：陆晴计划周二交材料；沈禾计划周四交材料。陆晴哪天交材料？只回答日期。"
+      }
+    ],
+    "reference_for_review_only": "周二",
+    "language": "zh",
+    "seed": 850017,
+    "exact_answer": "周二",
+    "format_id": 1,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0002",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：沈禾的登记号是FK-4830；陆晴的登记号是FR-5317。请只抄出沈禾的登记号。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：沈禾的登记号是FK-4830；陆晴的登记号是FR-5317。请只抄出沈禾的登记号。"
+      }
+    ],
+    "reference_for_review_only": "FK-4830",
+    "language": "zh",
+    "seed": 850034,
+    "exact_answer": "FK-4830",
+    "format_id": 2,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0003",
+    "category": "retrieval",
+    "question": "Use the following handover information: Theo carries a green folder. Iris carries a blue folder. What color is Theo's folder? Return only the color.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the following handover information: Theo carries a green folder. Iris carries a blue folder. What color is Theo's folder? Return only the color."
+      }
+    ],
+    "reference_for_review_only": "green",
+    "language": "en",
+    "seed": 850051,
+    "exact_answer": "green",
+    "format_id": 3,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0004",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：沈禾把书交给了陆晴；书的登记号为FK-9504。谁交出了书？只回答姓名。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：沈禾把书交给了陆晴；书的登记号为FK-9504。谁交出了书？只回答姓名。"
+      }
+    ],
+    "reference_for_review_only": "沈禾",
+    "language": "zh",
+    "seed": 850068,
+    "exact_answer": "沈禾",
+    "format_id": 4,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0005",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：陆晴的文件是note_473.txt；唐悦的文件是list_716.csv。只输出陆晴的完整文件名。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：陆晴的文件是note_473.txt；唐悦的文件是list_716.csv。只输出陆晴的完整文件名。"
+      }
+    ],
+    "reference_for_review_only": "note_473.txt",
+    "language": "zh",
+    "seed": 850085,
+    "exact_answer": "note_473.txt",
+    "format_id": 5,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0006",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：原集合房间是689；最新通知改为765。原房间号是什么？只回答号码。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：原集合房间是689；最新通知改为765。原房间号是什么？只回答号码。"
+      }
+    ],
+    "reference_for_review_only": "689",
+    "language": "zh",
+    "seed": 850102,
+    "exact_answer": "689",
+    "format_id": 6,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0007",
+    "category": "retrieval",
+    "question": "Use the following handover information: Vera has loan reference FK-7886. no return date is recorded. What is the return date? If absent, reply only \"Not provided\".",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the following handover information: Vera has loan reference FK-7886. no return date is recorded. What is the return date? If absent, reply only \"Not provided\"."
+      }
+    ],
+    "reference_for_review_only": "Not provided",
+    "language": "en",
+    "seed": 850119,
+    "exact_answer": "Not provided",
+    "format_id": 7,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0008",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：标签甲：907+247；标签乙：247-907。只原样抄出标签甲上的算式，不计算。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：标签甲：907+247；标签乙：247-907。只原样抄出标签甲上的算式，不计算。"
+      }
+    ],
+    "reference_for_review_only": "907+247",
+    "language": "zh",
+    "seed": 850136,
+    "exact_answer": "907+247",
+    "format_id": 8,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0009",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：名单顺序：陆晴、沈禾；第一人的编号是FK-1537，第二人的编号是FR-7102。只回答名单中第1个人的名字。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：名单顺序：陆晴、沈禾；第一人的编号是FK-1537，第二人的编号是FR-7102。只回答名单中第1个人的名字。"
+      }
+    ],
+    "reference_for_review_only": "陆晴",
+    "language": "zh",
+    "seed": 850153,
+    "exact_answer": "陆晴",
+    "format_id": 9,
+    "target_position": 0,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0010",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：许舟的柜号是992；陆晴的柜号是291。陆晴的柜号是什么？只给出柜号。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：许舟的柜号是992；陆晴的柜号是291。陆晴的柜号是什么？只给出柜号。"
+      }
+    ],
+    "reference_for_review_only": "291",
+    "language": "zh",
+    "seed": 850170,
+    "exact_answer": "291",
+    "format_id": 0,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0011",
+    "category": "retrieval",
+    "question": "Use the following handover information: Vera submits the notes on Monday. Theo submits the notes on Tuesday. On which day does Theo submit the notes? Return only the day.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the following handover information: Vera submits the notes on Monday. Theo submits the notes on Tuesday. On which day does Theo submit the notes? Return only the day."
+      }
+    ],
+    "reference_for_review_only": "Tuesday",
+    "language": "en",
+    "seed": 850187,
+    "exact_answer": "Tuesday",
+    "format_id": 1,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0012",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：陆晴的登记号是FK-6205；沈禾的登记号是FR-6382。请只抄出沈禾的登记号。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：陆晴的登记号是FK-6205；沈禾的登记号是FR-6382。请只抄出沈禾的登记号。"
+      }
+    ],
+    "reference_for_review_only": "FR-6382",
+    "language": "zh",
+    "seed": 850204,
+    "exact_answer": "FR-6382",
+    "format_id": 2,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0013",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：陆晴带着蓝色文件袋；唐悦带着橙色文件袋。唐悦的文件袋是什么颜色？只回答颜色。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：陆晴带着蓝色文件袋；唐悦带着橙色文件袋。唐悦的文件袋是什么颜色？只回答颜色。"
+      }
+    ],
+    "reference_for_review_only": "橙色",
+    "language": "zh",
+    "seed": 850221,
+    "exact_answer": "橙色",
+    "format_id": 3,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0014",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：唐悦把书交给了许舟；书的登记号为FK-7859。谁收到书？只回答姓名。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：唐悦把书交给了许舟；书的登记号为FK-7859。谁收到书？只回答姓名。"
+      }
+    ],
+    "reference_for_review_only": "许舟",
+    "language": "zh",
+    "seed": 850238,
+    "exact_answer": "许舟",
+    "format_id": 4,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0015",
+    "category": "retrieval",
+    "question": "Use the following handover information: Vera: note_818.txt. Felix: list_499.csv. Return only the complete file name for Felix.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the following handover information: Vera: note_818.txt. Felix: list_499.csv. Return only the complete file name for Felix."
+      }
+    ],
+    "reference_for_review_only": "list_499.csv",
+    "language": "en",
+    "seed": 850255,
+    "exact_answer": "list_499.csv",
+    "format_id": 5,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0016",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：原集合房间是312；最新通知改为432。最新房间号是什么？只回答号码。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：原集合房间是312；最新通知改为432。最新房间号是什么？只回答号码。"
+      }
+    ],
+    "reference_for_review_only": "432",
+    "language": "zh",
+    "seed": 850272,
+    "exact_answer": "432",
+    "format_id": 6,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0017",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：沈禾的借书登记号为FK-1088；没有登记归还日期。归还日期是什么？如果未给出，只回答“未提供”。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：沈禾的借书登记号为FK-1088；没有登记归还日期。归还日期是什么？如果未给出，只回答“未提供”。"
+      }
+    ],
+    "reference_for_review_only": "未提供",
+    "language": "zh",
+    "seed": 850289,
+    "exact_answer": "未提供",
+    "format_id": 7,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0018",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：标签甲：818+994；标签乙：994-818。只原样抄出标签乙上的算式，不计算。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：标签甲：818+994；标签乙：994-818。只原样抄出标签乙上的算式，不计算。"
+      }
+    ],
+    "reference_for_review_only": "994-818",
+    "language": "zh",
+    "seed": 850306,
+    "exact_answer": "994-818",
+    "format_id": 8,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0019",
+    "category": "retrieval",
+    "question": "Use the following handover information: list order: Felix, Vera. first code: FK-3080; second code: FR-7993. Return only the name at position 2 in the list.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the following handover information: list order: Felix, Vera. first code: FK-3080; second code: FR-7993. Return only the name at position 2 in the list."
+      }
+    ],
+    "reference_for_review_only": "Vera",
+    "language": "en",
+    "seed": 850323,
+    "exact_answer": "Vera",
+    "format_id": 9,
+    "target_position": 1,
+    "fact_order": 0
+  },
+  {
+    "id": "final_retrieval_0020",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：沈禾的柜号是262；许舟的柜号是651。许舟的柜号是什么？只给出柜号。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：沈禾的柜号是262；许舟的柜号是651。许舟的柜号是什么？只给出柜号。"
+      }
+    ],
+    "reference_for_review_only": "651",
+    "language": "zh",
+    "seed": 850340,
+    "exact_answer": "651",
+    "format_id": 0,
+    "target_position": 0,
+    "fact_order": 1
+  },
+  {
+    "id": "final_retrieval_0021",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：陆晴计划周四交材料；唐悦计划周五交材料。唐悦哪天交材料？只回答日期。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：陆晴计划周四交材料；唐悦计划周五交材料。唐悦哪天交材料？只回答日期。"
+      }
+    ],
+    "reference_for_review_only": "周五",
+    "language": "zh",
+    "seed": 850357,
+    "exact_answer": "周五",
+    "format_id": 1,
+    "target_position": 0,
+    "fact_order": 1
+  },
+  {
+    "id": "final_retrieval_0022",
+    "category": "retrieval",
+    "question": "根据下面这份交接信息作答：陆晴的登记号是FR-4094；唐悦的登记号是FK-5292。请只抄出唐悦的登记号。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "根据下面这份交接信息作答：陆晴的登记号是FR-4094；唐悦的登记号是FK-5292。请只抄出唐悦的登记号。"
+      }
+    ],
+    "reference_for_review_only": "FK-5292",
+    "language": "zh",
+    "seed": 850374,
+    "exact_answer": "FK-5292",
+    "format_id": 2,
+    "target_position": 0,
+    "fact_order": 1
+  },
+  {
+    "id": "final_retrieval_0023",
+    "category": "retrieval",
+    "question": "Use the following handover information: Theo carries a orange folder. Felix carries a green folder. What color is Felix's folder? Return only the color.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use the following handover information: Theo carries a orange folder. Felix carries a green folder. What color is Felix's folder? Return only the color."
+      }
+    ],
+    "reference_for_review_only": "green",
+    "language": "en",
+    "seed": 850391,
+    "exact_answer": "green",
+    "format_id": 3,
+    "target_position": 0,
+    "fact_order": 1
+  },
+  {
+    "id": "final_instruction_0000",
+    "category": "instruction",
+    "question": "把下面文本原样写一遍，只输出文本本身：FINAL-30586",
+    "messages": [
+      {
+        "role": "user",
+        "content": "把下面文本原样写一遍，只输出文本本身：FINAL-30586"
+      }
+    ],
+    "reference_for_review_only": "FINAL-30586",
+    "language": "zh",
+    "seed": 850000,
+    "exact_answer": "FINAL-30586",
+    "format_id": 0
+  },
+  {
+    "id": "final_instruction_0001",
+    "category": "instruction",
+    "question": "请只输出第二个编号：FINAL-20647，BOX-68194。不要加说明。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只输出第二个编号：FINAL-20647，BOX-68194。不要加说明。"
+      }
+    ],
+    "reference_for_review_only": "BOX-68194",
+    "language": "zh",
+    "seed": 850017,
+    "exact_answer": "BOX-68194",
+    "format_id": 1
+  },
+  {
+    "id": "final_instruction_0002",
+    "category": "instruction",
+    "question": "材料只写了编号FINAL-69836，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "材料只写了编号FINAL-69836，没有写负责人。负责人是谁？未给出时只回答“未提供”。"
+      }
+    ],
+    "reference_for_review_only": "未提供",
+    "language": "zh",
+    "seed": 850034,
+    "exact_answer": "未提供",
+    "format_id": 2
+  },
+  {
+    "id": "final_instruction_0003",
+    "category": "instruction",
+    "question": "Put \"FINAL-16365\" inside round brackets. Return only the result.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Put \"FINAL-16365\" inside round brackets. Return only the result."
+      }
+    ],
+    "reference_for_review_only": "(FINAL-16365)",
+    "language": "en",
+    "seed": 850051,
+    "exact_answer": "(FINAL-16365)",
+    "format_id": 3
+  },
+  {
+    "id": "final_instruction_0004",
+    "category": "instruction",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：FINAL-32442 和 BOX-18051。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把以下两项用一个斜杠连接，不加空格或说明：FINAL-32442 和 BOX-18051。"
+      }
+    ],
+    "reference_for_review_only": "FINAL-32442/BOX-18051",
+    "language": "zh",
+    "seed": 850068,
+    "exact_answer": "FINAL-32442/BOX-18051",
+    "format_id": 4
+  },
+  {
+    "id": "final_instruction_0005",
+    "category": "instruction",
+    "question": "把下面文本原样写一遍，只输出文本本身：FINAL-40021",
+    "messages": [
+      {
+        "role": "user",
+        "content": "把下面文本原样写一遍，只输出文本本身：FINAL-40021"
+      }
+    ],
+    "reference_for_review_only": "FINAL-40021",
+    "language": "zh",
+    "seed": 850085,
+    "exact_answer": "FINAL-40021",
+    "format_id": 0
+  },
+  {
+    "id": "final_instruction_0006",
+    "category": "instruction",
+    "question": "请只输出第二个编号：FINAL-42582，BOX-65466。不要加说明。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只输出第二个编号：FINAL-42582，BOX-65466。不要加说明。"
+      }
+    ],
+    "reference_for_review_only": "BOX-65466",
+    "language": "zh",
+    "seed": 850102,
+    "exact_answer": "BOX-65466",
+    "format_id": 1
+  },
+  {
+    "id": "final_instruction_0007",
+    "category": "instruction",
+    "question": "The note contains code FINAL-91586, but no owner. Who is the owner? Reply only \"Not provided\" if missing.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "The note contains code FINAL-91586, but no owner. Who is the owner? Reply only \"Not provided\" if missing."
+      }
+    ],
+    "reference_for_review_only": "Not provided",
+    "language": "en",
+    "seed": 850119,
+    "exact_answer": "Not provided",
+    "format_id": 2
+  },
+  {
+    "id": "final_instruction_0008",
+    "category": "instruction",
+    "question": "请把“FINAL-45239”放在圆括号里，只输出加好括号的文本。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把“FINAL-45239”放在圆括号里，只输出加好括号的文本。"
+      }
+    ],
+    "reference_for_review_only": "(FINAL-45239)",
+    "language": "zh",
+    "seed": 850136,
+    "exact_answer": "(FINAL-45239)",
+    "format_id": 3
+  },
+  {
+    "id": "final_instruction_0009",
+    "category": "instruction",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：FINAL-18195 和 BOX-62270。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把以下两项用一个斜杠连接，不加空格或说明：FINAL-18195 和 BOX-62270。"
+      }
+    ],
+    "reference_for_review_only": "FINAL-18195/BOX-62270",
+    "language": "zh",
+    "seed": 850153,
+    "exact_answer": "FINAL-18195/BOX-62270",
+    "format_id": 4
+  },
+  {
+    "id": "final_instruction_0010",
+    "category": "instruction",
+    "question": "把下面文本原样写一遍，只输出文本本身：FINAL-89747",
+    "messages": [
+      {
+        "role": "user",
+        "content": "把下面文本原样写一遍，只输出文本本身：FINAL-89747"
+      }
+    ],
+    "reference_for_review_only": "FINAL-89747",
+    "language": "zh",
+    "seed": 850170,
+    "exact_answer": "FINAL-89747",
+    "format_id": 0
+  },
+  {
+    "id": "final_instruction_0011",
+    "category": "instruction",
+    "question": "Return only the second code: FINAL-45050, BOX-88086. No explanation.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Return only the second code: FINAL-45050, BOX-88086. No explanation."
+      }
+    ],
+    "reference_for_review_only": "BOX-88086",
+    "language": "en",
+    "seed": 850187,
+    "exact_answer": "BOX-88086",
+    "format_id": 1
+  },
+  {
+    "id": "final_instruction_0012",
+    "category": "instruction",
+    "question": "材料只写了编号FINAL-59625，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "材料只写了编号FINAL-59625，没有写负责人。负责人是谁？未给出时只回答“未提供”。"
+      }
+    ],
+    "reference_for_review_only": "未提供",
+    "language": "zh",
+    "seed": 850204,
+    "exact_answer": "未提供",
+    "format_id": 2
+  },
+  {
+    "id": "final_instruction_0013",
+    "category": "instruction",
+    "question": "请把“FINAL-95450”放在圆括号里，只输出加好括号的文本。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把“FINAL-95450”放在圆括号里，只输出加好括号的文本。"
+      }
+    ],
+    "reference_for_review_only": "(FINAL-95450)",
+    "language": "zh",
+    "seed": 850221,
+    "exact_answer": "(FINAL-95450)",
+    "format_id": 3
+  },
+  {
+    "id": "final_instruction_0014",
+    "category": "instruction",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：FINAL-51803 和 BOX-52136。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把以下两项用一个斜杠连接，不加空格或说明：FINAL-51803 和 BOX-52136。"
+      }
+    ],
+    "reference_for_review_only": "FINAL-51803/BOX-52136",
+    "language": "zh",
+    "seed": 850238,
+    "exact_answer": "FINAL-51803/BOX-52136",
+    "format_id": 4
+  },
+  {
+    "id": "final_instruction_0015",
+    "category": "instruction",
+    "question": "Copy exactly this text, with no added words: FINAL-15205",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Copy exactly this text, with no added words: FINAL-15205"
+      }
+    ],
+    "reference_for_review_only": "FINAL-15205",
+    "language": "en",
+    "seed": 850255,
+    "exact_answer": "FINAL-15205",
+    "format_id": 0
+  },
+  {
+    "id": "final_instruction_0016",
+    "category": "instruction",
+    "question": "请只输出第二个编号：FINAL-34632，BOX-56630。不要加说明。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只输出第二个编号：FINAL-34632，BOX-56630。不要加说明。"
+      }
+    ],
+    "reference_for_review_only": "BOX-56630",
+    "language": "zh",
+    "seed": 850272,
+    "exact_answer": "BOX-56630",
+    "format_id": 1
+  },
+  {
+    "id": "final_instruction_0017",
+    "category": "instruction",
+    "question": "材料只写了编号FINAL-79617，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "材料只写了编号FINAL-79617，没有写负责人。负责人是谁？未给出时只回答“未提供”。"
+      }
+    ],
+    "reference_for_review_only": "未提供",
+    "language": "zh",
+    "seed": 850289,
+    "exact_answer": "未提供",
+    "format_id": 2
+  },
+  {
+    "id": "final_instruction_0018",
+    "category": "instruction",
+    "question": "请把“FINAL-69001”放在圆括号里，只输出加好括号的文本。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请把“FINAL-69001”放在圆括号里，只输出加好括号的文本。"
+      }
+    ],
+    "reference_for_review_only": "(FINAL-69001)",
+    "language": "zh",
+    "seed": 850306,
+    "exact_answer": "(FINAL-69001)",
+    "format_id": 3
+  },
+  {
+    "id": "final_instruction_0019",
+    "category": "instruction",
+    "question": "Join FINAL-27473 and BOX-30896 using one slash, without spaces or explanation.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Join FINAL-27473 and BOX-30896 using one slash, without spaces or explanation."
+      }
+    ],
+    "reference_for_review_only": "FINAL-27473/BOX-30896",
+    "language": "en",
+    "seed": 850323,
+    "exact_answer": "FINAL-27473/BOX-30896",
+    "format_id": 4
+  },
+  {
+    "id": "final_instruction_0020",
+    "category": "instruction",
+    "question": "把下面文本原样写一遍，只输出文本本身：FINAL-96753",
+    "messages": [
+      {
+        "role": "user",
+        "content": "把下面文本原样写一遍，只输出文本本身：FINAL-96753"
+      }
+    ],
+    "reference_for_review_only": "FINAL-96753",
+    "language": "zh",
+    "seed": 850340,
+    "exact_answer": "FINAL-96753",
+    "format_id": 0
+  },
+  {
+    "id": "final_instruction_0021",
+    "category": "instruction",
+    "question": "请只输出第二个编号：FINAL-71122，BOX-18863。不要加说明。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请只输出第二个编号：FINAL-71122，BOX-18863。不要加说明。"
+      }
+    ],
+    "reference_for_review_only": "BOX-18863",
+    "language": "zh",
+    "seed": 850357,
+    "exact_answer": "BOX-18863",
+    "format_id": 1
+  },
+  {
+    "id": "final_instruction_0022",
+    "category": "instruction",
+    "question": "材料只写了编号FINAL-43333，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "材料只写了编号FINAL-43333，没有写负责人。负责人是谁？未给出时只回答“未提供”。"
+      }
+    ],
+    "reference_for_review_only": "未提供",
+    "language": "zh",
+    "seed": 850374,
+    "exact_answer": "未提供",
+    "format_id": 2
+  },
+  {
+    "id": "final_instruction_0023",
+    "category": "instruction",
+    "question": "Put \"FINAL-35908\" inside round brackets. Return only the result.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Put \"FINAL-35908\" inside round brackets. Return only the result."
+      }
+    ],
+    "reference_for_review_only": "(FINAL-35908)",
+    "language": "en",
+    "seed": 850391,
+    "exact_answer": "(FINAL-35908)",
+    "format_id": 3
+  },
+  {
+    "id": "final_explanation_0000",
+    "category": "explanation",
+    "question": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么报名表上要区分联系人和参加者？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "两者可能是不同的人，区分角色避免联系错误",
+    "language": "zh",
+    "seed": 850000
+  },
+  {
+    "id": "final_explanation_0001",
+    "category": "explanation",
+    "question": "为什么摘要不能只保留原文里最有趣的一句话？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么摘要不能只保留原文里最有趣的一句话？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "摘要应覆盖主要内容，一句话可能遗漏重点",
+    "language": "zh",
+    "seed": 850017
+  },
+  {
+    "id": "final_explanation_0002",
+    "category": "explanation",
+    "question": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么比较两张照片的大小时要说明是在比尺寸还是文件容量？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "两者是不同量，比较标准需明确",
+    "language": "zh",
+    "seed": 850034
+  },
+  {
+    "id": "final_explanation_0003",
+    "category": "explanation",
+    "question": "为什么安排轮流发言可以帮助小组讨论？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么安排轮流发言可以帮助小组讨论？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "给每个人表达的机会，减少相互打断",
+    "language": "zh",
+    "seed": 850051
+  },
+  {
+    "id": "final_explanation_0004",
+    "category": "explanation",
+    "question": "为什么在流程图中画箭头有用？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么在流程图中画箭头有用？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "箭头表示步骤方向或关系",
+    "language": "zh",
+    "seed": 850068
+  },
+  {
+    "id": "final_explanation_0005",
+    "category": "explanation",
+    "question": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么只说我把它放在那里可能让别人不明白？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "物品和位置没有明确指代",
+    "language": "zh",
+    "seed": 850085
+  },
+  {
+    "id": "final_explanation_0006",
+    "category": "explanation",
+    "question": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么把说明中的必要步骤和可选步骤区分开有用？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "读者能知道必须做什么以及哪些可自行选择",
+    "language": "zh",
+    "seed": 850102
+  },
+  {
+    "id": "final_explanation_0007",
+    "category": "explanation",
+    "question": "为什么一个例外不能直接代表所有情况？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么一个例外不能直接代表所有情况？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "单个特殊情况不足以概括整体",
+    "language": "zh",
+    "seed": 850119
+  },
+  {
+    "id": "final_explanation_0008",
+    "category": "explanation",
+    "question": "为什么问卷中两个不同的问题最好分开问？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么问卷中两个不同的问题最好分开问？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "便于分别理解和回答，避免混淆",
+    "language": "zh",
+    "seed": 850136
+  },
+  {
+    "id": "final_explanation_0009",
+    "category": "explanation",
+    "question": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么转告消息时应区分原话与自己的补充？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "避免把个人补充误当成原发送者的意思",
+    "language": "zh",
+    "seed": 850153
+  },
+  {
+    "id": "final_explanation_0010",
+    "category": "explanation",
+    "question": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么整理清单时重复的项目值得检查？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "可能是重复记录，也可能确实需要多份，需要确认",
+    "language": "zh",
+    "seed": 850170
+  },
+  {
+    "id": "final_explanation_0011",
+    "category": "explanation",
+    "question": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么材料写了计划周五完成不能当成已经完成？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "计划是未来安排，不能证明实际完成",
+    "language": "zh",
+    "seed": 850187
+  },
+  {
+    "id": "final_explanation_0012",
+    "category": "explanation",
+    "question": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么交接物品时记录交给了谁有用？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "便于确认接收者和后续查找",
+    "language": "zh",
+    "seed": 850204
+  },
+  {
+    "id": "final_explanation_0013",
+    "category": "explanation",
+    "question": "为什么短句中也需要合适的标点？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么短句中也需要合适的标点？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "标点有助于划分意思，减少歧义",
+    "language": "zh",
+    "seed": 850221
+  },
+  {
+    "id": "final_explanation_0014",
+    "category": "explanation",
+    "question": "为什么同名文件放在不同文件夹里仍可能不是同一份文件？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么同名文件放在不同文件夹里仍可能不是同一份文件？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "完整位置不同，内容也可能不同",
+    "language": "zh",
+    "seed": 850238
+  },
+  {
+    "id": "final_explanation_0015",
+    "category": "explanation",
+    "question": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么读到新的补充说明后有时需要调整原来的理解？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "补充信息可能澄清或改变原来的判断",
+    "language": "zh",
+    "seed": 850255
+  },
+  {
+    "id": "final_explanation_0016",
+    "category": "explanation",
+    "question": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么报告中列出尚未确认的信息有用？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "明确不确定之处，避免读者把猜测当成事实",
+    "language": "zh",
+    "seed": 850272
+  },
+  {
+    "id": "final_explanation_0017",
+    "category": "explanation",
+    "question": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "为什么约定集合时说清是哪一个入口有用？请用一两句直白的话回答。"
+      }
+    ],
+    "reference_for_review_only": "多个入口可能造成走错地点",
+    "language": "zh",
+    "seed": 850289
+  },
+  {
+    "id": "final_explanation_0018",
+    "category": "explanation",
+    "question": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why should a schedule distinguish a deadline from a start time? Use one or two simple sentences."
+      }
+    ],
+    "reference_for_review_only": "They describe different points in the work.",
+    "language": "en",
+    "seed": 850306
+  },
+  {
+    "id": "final_explanation_0019",
+    "category": "explanation",
+    "question": "Why might two people read the same short message differently? Use one or two simple sentences.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why might two people read the same short message differently? Use one or two simple sentences."
+      }
+    ],
+    "reference_for_review_only": "Their context or interpretation of ambiguous words can differ.",
+    "language": "en",
+    "seed": 850323
+  },
+  {
+    "id": "final_explanation_0020",
+    "category": "explanation",
+    "question": "Why should a summary preserve who did what? Use one or two simple sentences.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why should a summary preserve who did what? Use one or two simple sentences."
+      }
+    ],
+    "reference_for_review_only": "Mixing up people changes the meaning of the source.",
+    "language": "en",
+    "seed": 850340
+  },
+  {
+    "id": "final_explanation_0021",
+    "category": "explanation",
+    "question": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why is a checklist item more useful when it names a specific action? Use one or two simple sentences."
+      }
+    ],
+    "reference_for_review_only": "The reader can tell what to do and whether it is complete.",
+    "language": "en",
+    "seed": 850357
+  },
+  {
+    "id": "final_explanation_0022",
+    "category": "explanation",
+    "question": "Why should a draft be marked before it is shared? Use one or two simple sentences.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why should a draft be marked before it is shared? Use one or two simple sentences."
+      }
+    ],
+    "reference_for_review_only": "Others need to know it may still change.",
+    "language": "en",
+    "seed": 850374
+  },
+  {
+    "id": "final_explanation_0023",
+    "category": "explanation",
+    "question": "Why can asking for the missing detail be better than guessing? Use one or two simple sentences.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why can asking for the missing detail be better than guessing? Use one or two simple sentences."
+      }
+    ],
+    "reference_for_review_only": "It avoids inventing information and can produce a correct answer.",
+    "language": "en",
+    "seed": 850391
+  },
+  {
+    "id": "final_writing_0000",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我核对活动名单中的姓名。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我感谢同学帮我核对活动名单中的姓名。"
+      }
+    ],
+    "reference_for_review_only": "感谢同学帮我核对活动名单中的姓名",
+    "language": "zh",
+    "seed": 850000
+  },
+  {
+    "id": "final_writing_0001",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我请伙伴把最终版文件放进指定文件夹。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我请伙伴把最终版文件放进指定文件夹。"
+      }
+    ],
+    "reference_for_review_only": "请伙伴把最终版文件放进指定文件夹",
+    "language": "zh",
+    "seed": 850017
+  },
+  {
+    "id": "final_writing_0002",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我告诉朋友我会在西门的公告栏旁等他。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我告诉朋友我会在西门的公告栏旁等他。"
+      }
+    ],
+    "reference_for_review_only": "告诉朋友我会在西门的公告栏旁等他",
+    "language": "zh",
+    "seed": 850034
+  },
+  {
+    "id": "final_writing_0003",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我为忘记归还同学的尺子道歉。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我为忘记归还同学的尺子道歉。"
+      }
+    ],
+    "reference_for_review_only": "为忘记归还同学的尺子道歉",
+    "language": "zh",
+    "seed": 850051
+  },
+  {
+    "id": "final_writing_0004",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我邀请朋友下周参加手工制作活动。"
+      }
+    ],
+    "reference_for_review_only": "邀请朋友下周参加手工制作活动",
+    "language": "zh",
+    "seed": 850068
+  },
+  {
+    "id": "final_writing_0005",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我提醒队员提交材料时附上自己的名字。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我提醒队员提交材料时附上自己的名字。"
+      }
+    ],
+    "reference_for_review_only": "提醒队员提交材料时附上自己的名字",
+    "language": "zh",
+    "seed": 850085
+  },
+  {
+    "id": "final_writing_0006",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我感谢邻居告诉我包裹放在哪里。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我感谢邻居告诉我包裹放在哪里。"
+      }
+    ],
+    "reference_for_review_only": "感谢邻居告诉我包裹放在哪里",
+    "language": "zh",
+    "seed": 850102
+  },
+  {
+    "id": "final_writing_0007",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我请同学说明这次讨论需要准备什么。"
+      }
+    ],
+    "reference_for_review_only": "请同学说明这次讨论需要准备什么",
+    "language": "zh",
+    "seed": 850119
+  },
+  {
+    "id": "final_writing_0008",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我告诉组员我已经把重复的记录标记出来。"
+      }
+    ],
+    "reference_for_review_only": "告诉组员我已经把重复的记录标记出来",
+    "language": "zh",
+    "seed": 850136
+  },
+  {
+    "id": "final_writing_0009",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我礼貌拒绝朋友借走我正在使用的相机。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我礼貌拒绝朋友借走我正在使用的相机。"
+      }
+    ],
+    "reference_for_review_only": "礼貌拒绝朋友借走我正在使用的相机",
+    "language": "zh",
+    "seed": 850153
+  },
+  {
+    "id": "final_writing_0010",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我鼓励第一次主持读书会的朋友。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我鼓励第一次主持读书会的朋友。"
+      }
+    ],
+    "reference_for_review_only": "鼓励第一次主持读书会的朋友",
+    "language": "zh",
+    "seed": 850170
+  },
+  {
+    "id": "final_writing_0011",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我请伙伴在修改共享表格后通知大家。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我请伙伴在修改共享表格后通知大家。"
+      }
+    ],
+    "reference_for_review_only": "请伙伴在修改共享表格后通知大家",
+    "language": "zh",
+    "seed": 850187
+  },
+  {
+    "id": "final_writing_0012",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我祝同学的摄影展示顺利。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我祝同学的摄影展示顺利。"
+      }
+    ],
+    "reference_for_review_only": "祝同学的摄影展示顺利",
+    "language": "zh",
+    "seed": 850204
+  },
+  {
+    "id": "final_writing_0013",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我告诉朋友我可能晚到十分钟。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我告诉朋友我可能晚到十分钟。"
+      }
+    ],
+    "reference_for_review_only": "告诉朋友我可能晚到十分钟",
+    "language": "zh",
+    "seed": 850221
+  },
+  {
+    "id": "final_writing_0014",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我感谢同学耐心陪我练习介绍作品。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我感谢同学耐心陪我练习介绍作品。"
+      }
+    ],
+    "reference_for_review_only": "感谢同学耐心陪我练习介绍作品",
+    "language": "zh",
+    "seed": 850238
+  },
+  {
+    "id": "final_writing_0015",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我请朋友帮我确认通知上的地点是否正确。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我请朋友帮我确认通知上的地点是否正确。"
+      }
+    ],
+    "reference_for_review_only": "请朋友帮我确认通知上的地点是否正确",
+    "language": "zh",
+    "seed": 850255
+  },
+  {
+    "id": "final_writing_0016",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我提醒同学使用新发的活动时间表。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我提醒同学使用新发的活动时间表。"
+      }
+    ],
+    "reference_for_review_only": "提醒同学使用新发的活动时间表",
+    "language": "zh",
+    "seed": 850272
+  },
+  {
+    "id": "final_writing_0017",
+    "category": "writing",
+    "question": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请直接写一条简短消息，帮我告诉队员我可以负责收集大家的建议。"
+      }
+    ],
+    "reference_for_review_only": "告诉队员我可以负责收集大家的建议",
+    "language": "zh",
+    "seed": 850289
+  },
+  {
+    "id": "final_writing_0018",
+    "category": "writing",
+    "question": "Write a short message to thank a friend for checking the spelling on your invitation. Give the message itself.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short message to thank a friend for checking the spelling on your invitation. Give the message itself."
+      }
+    ],
+    "reference_for_review_only": "thank a friend for checking the spelling on your invitation",
+    "language": "en",
+    "seed": 850306
+  },
+  {
+    "id": "final_writing_0019",
+    "category": "writing",
+    "question": "Write a short message to ask a teammate to place the final file in the shared folder. Give the message itself.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short message to ask a teammate to place the final file in the shared folder. Give the message itself."
+      }
+    ],
+    "reference_for_review_only": "ask a teammate to place the final file in the shared folder",
+    "language": "en",
+    "seed": 850323
+  },
+  {
+    "id": "final_writing_0020",
+    "category": "writing",
+    "question": "Write a short message to tell a friend you will wait beside the noticeboard. Give the message itself.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short message to tell a friend you will wait beside the noticeboard. Give the message itself."
+      }
+    ],
+    "reference_for_review_only": "tell a friend you will wait beside the noticeboard",
+    "language": "en",
+    "seed": 850340
+  },
+  {
+    "id": "final_writing_0021",
+    "category": "writing",
+    "question": "Write a short message to apologize for forgetting to return a borrowed ruler. Give the message itself.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short message to apologize for forgetting to return a borrowed ruler. Give the message itself."
+      }
+    ],
+    "reference_for_review_only": "apologize for forgetting to return a borrowed ruler",
+    "language": "en",
+    "seed": 850357
+  },
+  {
+    "id": "final_writing_0022",
+    "category": "writing",
+    "question": "Write a short message to invite a friend to a craft activity next week. Give the message itself.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short message to invite a friend to a craft activity next week. Give the message itself."
+      }
+    ],
+    "reference_for_review_only": "invite a friend to a craft activity next week",
+    "language": "en",
+    "seed": 850374
+  },
+  {
+    "id": "final_writing_0023",
+    "category": "writing",
+    "question": "Write a short message to remind participants to put their names on their submissions. Give the message itself.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short message to remind participants to put their names on their submissions. Give the message itself."
+      }
+    ],
+    "reference_for_review_only": "remind participants to put their names on their submissions",
+    "language": "en",
+    "seed": 850391
+  }
+]

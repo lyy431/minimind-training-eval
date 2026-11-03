@@ -6,7 +6,9 @@
 
 完成实验的逐题输出、内容/数学裁决、统计摘要、固定协议和日志均保留在`my_eval/`。`SNAPSHOT_MANIFEST.json`记录从原目录复制的文件SHA-256、大小与相对位置。`.gitattributes`保留字节，避免克隆时的换行转换破坏冻结摘要。
 
-`python tools/verify_results.py`使用标准库核对原始文件摘要，重新聚合v4聊天分数、严格数学和语言损失，并核对严格数学修正与多候选的关键结果。无需模型、GPU或联网；它不重新生成模型回答。
+`python tools/verify_results.py`使用标准库核对原始文件摘要，重新聚合v4与v5的聊天分数、严格数学和语言损失，并核对老师筛选数、共同题数、身份结果、严格数学修正与多候选的关键结果。无需模型、GPU或联网；它不重新生成模型回答。
+
+7B老师实验目录没有公开`STATUS*.json`：这些文件只记录运行进度，含云端实例和账户信息，不参与任何统计。`SNAPSHOT_MANIFEST.json`的`updates`字段记录了本次新增文件和未公开内容。
 
 ## 需要另行准备的资产
 
@@ -21,6 +23,8 @@
 本地记录：Windows11、RTX4070Laptop8GB、Python3.10、PyTorch2.6.0+cu126、Transformers4.57.6、Streamlit1.50.0。训练与评测应一次只启动一个GPU任务。
 
 早期云端记录：AutoDL RTX4090、Python3.12、PyTorch2.8。具体训练时长、价格与显存是当时日志中的观测，不作为当前报价或跨硬件性能承诺。
+
+7B老师回答：AutoDL RTX4090、Python3.12、Transformers4.57.6，模型为`Qwen/Qwen2.5-7B-Instruct`的固定版本`a09a35458c702b33eeacc393d103063234e8bc28`。实际从ModelScope下载，并将4个权重文件的SHA-256与HuggingFace固定版本比对。`cloud_strong_teacher.py`的自动关机调用在实例上报`Exec format error`，结果已保存但实例未关机，只能手动关机；本地模拟测试没有真正执行这个调用。再次上云前必须先修复。
 
 原本地Python位于D盘，启动脚本和部分辅助代码仍保留对应路径。迁移时应明确设置项目、模型、Python和缓存路径。为保留报告的源码摘要，本次归档没有统一改写历史源码。
 

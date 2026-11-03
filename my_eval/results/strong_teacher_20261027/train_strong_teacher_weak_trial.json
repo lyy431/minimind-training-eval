@@ -1,0 +1,35 @@
+{
+  "base": "chat_repair_id_e3",
+  "base_sha256": "e04a156d57d207f27c6d507d93b84010902d69b0fa826434f5afb8fc4ba4918f",
+  "arm": "weak",
+  "epoch": 1,
+  "steps": 16,
+  "trial": true,
+  "settings": {
+    "epochs": 2,
+    "lr": 8e-06,
+    "kl": 3.0,
+    "batch": 4,
+    "max_seq": 1536,
+    "seed": 42,
+    "num_workers": 0,
+    "math_first_tokens": 64,
+    "identity_weight": 2.0,
+    "anchor": "exact frozen v4",
+    "method": "full parameters; no adapter merging"
+  },
+  "weight_sha256": "d35dcf969e96da697b417d7f3403fc65da860b13e9f102803d8a450ec3fd3f3b",
+  "seconds": 3.8467668000084814,
+  "peak_allocated_gib": 3.2868857383728027,
+  "train_sha256": "a0d4615664adb5a3c5c5b7df83380f4d6977295a509cd56d86548de785f2a494",
+  "source_sha256": "0607cf151c62651e8928475d6ed3983d3f28d27eaa7fea5690c319d4db947ec4",
+  "history": [
+    {
+      "epoch": 1,
+      "step": 16,
+      "ce": 0.44935765862464905,
+      "kl": -0.0,
+      "lr": 7.99731752115626e-06
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "teacher_strong.jsonl": "d8c5d88c25aff066a738786597f8a953c02066ba5d271910bb5742c22f7319a3",
+    "teacher_strong.manifest.json": "8ccd49df667746f60aa301cc37590805b3bfb04ecf5f06274d12dd45f9058fe0",
+    "teacher_strong.runtime.json": "beba6f0a13445ab0b7e86e1398d69c2924735dfef78f20678767e5e600e9178f",
+    "download_manifest.json": "9cf1950f1a0992446c5afa1337125b9e104ea78a8283881168459555d3f46980",
+    "pilot_estimate.json": "e1bd487da12a3e2bc399d32b2ae14bc816de23b2f47c2fe4e04d38a69c479314",
+    "cloud_status.json": "2309d6cf27791db423d21ff82b5486da3f5ccc151ec6acb6217dab23566902cd",
+    "cloud_job.log": "f1dca58607a54d288c5af2d9b105102651102f2c08a84f8704e2a0173ca1b423",
+    "shutdown_request.json": "0a68083a4178c0858ef71004d4aa1f876a2f1c45ecb5278b748faaf5be04e23b",
+    "SHUTDOWN_FAILED.txt": "3c62ca384c96871befc18d903447a995291d4ddfa1aa9d46584abb862b532788"
+  },
+  "weights_included": false,
+  "shutdown_note": "Archive is saved before the shutdown request. Confirm power-off in AutoDL."
+}

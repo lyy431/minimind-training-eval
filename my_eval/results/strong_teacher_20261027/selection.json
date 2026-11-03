@@ -1,0 +1,340 @@
+{
+  "baseline": {
+    "mean_score": 0.5694444444444444,
+    "usable_percent": 16.666666666666664,
+    "nonempty_no_call_percent": 100,
+    "conditions": {
+      "no_tools": {
+        "mean_score": 0.625,
+        "usable_percent": 20.833333333333336,
+        "responses": 48
+      },
+      "six_original": {
+        "mean_score": 0.5208333333333334,
+        "usable_percent": 14.583333333333334,
+        "responses": 48
+      },
+      "six_reworded": {
+        "mean_score": 0.5625,
+        "usable_percent": 14.583333333333334,
+        "responses": 48
+      }
+    },
+    "categories": {
+      "explanation": {
+        "mean_score": 0.3333333333333333,
+        "usable_percent": 8.333333333333332,
+        "responses": 36
+      },
+      "instruction": {
+        "mean_score": 0.8611111111111112,
+        "usable_percent": 25.0,
+        "responses": 36
+      },
+      "retrieval": {
+        "mean_score": 0.5555555555555556,
+        "usable_percent": 19.444444444444446,
+        "responses": 36
+      },
+      "writing": {
+        "mean_score": 0.5277777777777778,
+        "usable_percent": 13.88888888888889,
+        "responses": 36
+      }
+    },
+    "languages": {
+      "zh": {
+        "mean_score": 0.6481481481481481,
+        "usable_percent": 19.444444444444446,
+        "responses": 108
+      },
+      "en": {
+        "mean_score": 0.3333333333333333,
+        "usable_percent": 8.333333333333332,
+        "responses": 36
+      }
+    }
+  },
+  "baseline_loss": 2.5753340220451353,
+  "baseline_math": 62.5,
+  "baseline_identity": 4,
+  "candidates": [
+    {
+      "name": "strong_teacher_weak_e1",
+      "arm": "weak",
+      "mean_score": 0.875,
+      "usable_percent": 36.80555555555556,
+      "nonempty_no_call_percent": 100,
+      "conditions": {
+        "no_tools": {
+          "mean_score": 1,
+          "usable_percent": 39.58333333333333,
+          "responses": 48
+        },
+        "six_original": {
+          "mean_score": 0.8541666666666666,
+          "usable_percent": 37.5,
+          "responses": 48
+        },
+        "six_reworded": {
+          "mean_score": 0.7708333333333334,
+          "usable_percent": 33.33333333333333,
+          "responses": 48
+        }
+      },
+      "categories": {
+        "explanation": {
+          "mean_score": 0.4166666666666667,
+          "usable_percent": 0,
+          "responses": 36
+        },
+        "instruction": {
+          "mean_score": 1.5555555555555556,
+          "usable_percent": 77.77777777777779,
+          "responses": 36
+        },
+        "retrieval": {
+          "mean_score": 0.8888888888888888,
+          "usable_percent": 44.44444444444444,
+          "responses": 36
+        },
+        "writing": {
+          "mean_score": 0.6388888888888888,
+          "usable_percent": 25.0,
+          "responses": 36
+        }
+      },
+      "languages": {
+        "zh": {
+          "mean_score": 0.8148148148148148,
+          "usable_percent": 31.48148148148148,
+          "responses": 108
+        },
+        "en": {
+          "mean_score": 1.0555555555555556,
+          "usable_percent": 52.77777777777778,
+          "responses": 36
+        }
+      },
+      "loss": 2.565191730260849,
+      "math": 58.333333333333336,
+      "identity_usable": 4,
+      "gates": {
+        "no_call_ge90": true,
+        "nll_increase_le005": true,
+        "math_drop_le10pp": true,
+        "identity_not_below_v4": true
+      },
+      "eligible": true
+    },
+    {
+      "name": "strong_teacher_weak_e2",
+      "arm": "weak",
+      "mean_score": 0.9166666666666666,
+      "usable_percent": 38.19444444444444,
+      "nonempty_no_call_percent": 100,
+      "conditions": {
+        "no_tools": {
+          "mean_score": 0.9583333333333334,
+          "usable_percent": 39.58333333333333,
+          "responses": 48
+        },
+        "six_original": {
+          "mean_score": 0.8958333333333334,
+          "usable_percent": 37.5,
+          "responses": 48
+        },
+        "six_reworded": {
+          "mean_score": 0.8958333333333334,
+          "usable_percent": 37.5,
+          "responses": 48
+        }
+      },
+      "categories": {
+        "explanation": {
+          "mean_score": 0.3888888888888889,
+          "usable_percent": 2.7777777777777777,
+          "responses": 36
+        },
+        "instruction": {
+          "mean_score": 1.5555555555555556,
+          "usable_percent": 77.77777777777779,
+          "responses": 36
+        },
+        "retrieval": {
+          "mean_score": 1.2777777777777777,
+          "usable_percent": 63.888888888888886,
+          "responses": 36
+        },
+        "writing": {
+          "mean_score": 0.4444444444444444,
+          "usable_percent": 8.333333333333332,
+          "responses": 36
+        }
+      },
+      "languages": {
+        "zh": {
+          "mean_score": 0.9259259259259259,
+          "usable_percent": 37.03703703703704,
+          "responses": 108
+        },
+        "en": {
+          "mean_score": 0.8888888888888888,
+          "usable_percent": 41.66666666666667,
+          "responses": 36
+        }
+      },
+      "loss": 2.5736545610427854,
+      "math": 54.166666666666664,
+      "identity_usable": 4,
+      "gates": {
+        "no_call_ge90": true,
+        "nll_increase_le005": true,
+        "math_drop_le10pp": true,
+        "identity_not_below_v4": true
+      },
+      "eligible": true
+    },
+    {
+      "name": "strong_teacher_strong_e1",
+      "arm": "strong",
+      "mean_score": 0.7708333333333334,
+      "usable_percent": 31.944444444444443,
+      "nonempty_no_call_percent": 100,
+      "conditions": {
+        "no_tools": {
+          "mean_score": 0.7916666666666666,
+          "usable_percent": 31.25,
+          "responses": 48
+        },
+        "six_original": {
+          "mean_score": 0.7916666666666666,
+          "usable_percent": 33.33333333333333,
+          "responses": 48
+        },
+        "six_reworded": {
+          "mean_score": 0.7291666666666666,
+          "usable_percent": 31.25,
+          "responses": 48
+        }
+      },
+      "categories": {
+        "explanation": {
+          "mean_score": 0.3888888888888889,
+          "usable_percent": 0,
+          "responses": 36
+        },
+        "instruction": {
+          "mean_score": 1.5,
+          "usable_percent": 75.0,
+          "responses": 36
+        },
+        "retrieval": {
+          "mean_score": 0.6111111111111112,
+          "usable_percent": 30.555555555555557,
+          "responses": 36
+        },
+        "writing": {
+          "mean_score": 0.5833333333333334,
+          "usable_percent": 22.22222222222222,
+          "responses": 36
+        }
+      },
+      "languages": {
+        "zh": {
+          "mean_score": 0.75,
+          "usable_percent": 29.629629629629626,
+          "responses": 108
+        },
+        "en": {
+          "mean_score": 0.8333333333333334,
+          "usable_percent": 38.88888888888889,
+          "responses": 36
+        }
+      },
+      "loss": 2.5670545279979704,
+      "math": 62.5,
+      "identity_usable": 4,
+      "gates": {
+        "no_call_ge90": true,
+        "nll_increase_le005": true,
+        "math_drop_le10pp": true,
+        "identity_not_below_v4": true
+      },
+      "eligible": true
+    },
+    {
+      "name": "strong_teacher_strong_e2",
+      "arm": "strong",
+      "mean_score": 0.9166666666666666,
+      "usable_percent": 39.58333333333333,
+      "nonempty_no_call_percent": 100,
+      "conditions": {
+        "no_tools": {
+          "mean_score": 0.8958333333333334,
+          "usable_percent": 39.58333333333333,
+          "responses": 48
+        },
+        "six_original": {
+          "mean_score": 0.9583333333333334,
+          "usable_percent": 41.66666666666667,
+          "responses": 48
+        },
+        "six_reworded": {
+          "mean_score": 0.8958333333333334,
+          "usable_percent": 37.5,
+          "responses": 48
+        }
+      },
+      "categories": {
+        "explanation": {
+          "mean_score": 0.3055555555555556,
+          "usable_percent": 0,
+          "responses": 36
+        },
+        "instruction": {
+          "mean_score": 1.5,
+          "usable_percent": 75.0,
+          "responses": 36
+        },
+        "retrieval": {
+          "mean_score": 1.1666666666666667,
+          "usable_percent": 55.55555555555556,
+          "responses": 36
+        },
+        "writing": {
+          "mean_score": 0.6944444444444444,
+          "usable_percent": 27.77777777777778,
+          "responses": 36
+        }
+      },
+      "languages": {
+        "zh": {
+          "mean_score": 0.8981481481481481,
+          "usable_percent": 37.03703703703704,
+          "responses": 108
+        },
+        "en": {
+          "mean_score": 0.9722222222222222,
+          "usable_percent": 47.22222222222222,
+          "responses": 36
+        }
+      },
+      "loss": 2.573680177927017,
+      "math": 60.416666666666664,
+      "identity_usable": 4,
+      "gates": {
+        "no_call_ge90": true,
+        "nll_increase_le005": true,
+        "math_drop_le10pp": true,
+        "identity_not_below_v4": true
+      },
+      "eligible": true
+    }
+  ],
+  "selected": {
+    "weak": "strong_teacher_weak_e2",
+    "strong": "strong_teacher_strong_e2"
+  },
+  "formal_started": false
+}

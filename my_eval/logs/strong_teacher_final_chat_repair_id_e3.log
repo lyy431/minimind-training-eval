@@ -1,0 +1,39 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+D:\conda\envs\minimind\lib\site-packages\torch\nn\modules\module.py:1053: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  return self._apply(lambda t: t.cuda(device))
+finalchat chat_repair_id_e3 16 / 288 3.2s
+finalchat chat_repair_id_e3 32 / 288 5.6s
+finalchat chat_repair_id_e3 48 / 288 9.2s
+finalchat chat_repair_id_e3 64 / 288 12.6s
+finalchat chat_repair_id_e3 80 / 288 14.6s
+finalchat chat_repair_id_e3 96 / 288 19.6s
+finalchat chat_repair_id_e3 112 / 288 22.2s
+finalchat chat_repair_id_e3 128 / 288 24.4s
+finalchat chat_repair_id_e3 144 / 288 27.0s
+finalchat chat_repair_id_e3 160 / 288 32.0s
+finalchat chat_repair_id_e3 176 / 288 35.9s
+finalchat chat_repair_id_e3 192 / 288 40.8s
+finalchat chat_repair_id_e3 208 / 288 47.8s
+finalchat chat_repair_id_e3 224 / 288 52.3s
+finalchat chat_repair_id_e3 240 / 288 57.3s
+finalchat chat_repair_id_e3 256 / 288 60.9s
+finalchat chat_repair_id_e3 272 / 288 65.8s
+finalchat chat_repair_id_e3 288 / 288 69.8s
+historical chat_repair_id_e3 16 / 197 25.3s
+historical chat_repair_id_e3 32 / 197 49.3s
+historical chat_repair_id_e3 48 / 197 68.9s
+historical chat_repair_id_e3 64 / 197 95.0s
+historical chat_repair_id_e3 80 / 197 117.3s
+historical chat_repair_id_e3 96 / 197 142.4s
+historical chat_repair_id_e3 112 / 197 164.7s
+historical chat_repair_id_e3 128 / 197 186.5s
+historical chat_repair_id_e3 144 / 197 205.2s
+historical chat_repair_id_e3 160 / 197 229.2s
+historical chat_repair_id_e3 176 / 197 252.1s
+historical chat_repair_id_e3 192 / 197 269.3s
+historical chat_repair_id_e3 197 / 197 275.5s
+freshmath chat_repair_id_e3 16 / 48 17.6s
+freshmath chat_repair_id_e3 32 / 48 34.3s
+freshmath chat_repair_id_e3 48 / 48 52.5s
+loss_final chat_repair_id_e3 296 2.522629708957833
+identity chat_repair_id_e3 14 / 14 5.1s

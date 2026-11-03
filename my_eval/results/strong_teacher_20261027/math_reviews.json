@@ -1,0 +1,247 @@
+{
+  "2cbce64e8a5679ff8e471f099774fdf02ed3dd3fb59b8698c0336ad082257c05": {
+    "decision": "fail",
+    "note": "逐条核对整段回答：漏答至少一个所求结果、只抄算式未求值、错配/重复算式或有矛盾结果，不能全题通过。",
+    "source": "identical earlier question and answer"
+  },
+  "0d7c824c1384b29c921f7dea8d8a1302c2069a037906cfcc8b1ae5637c6b8199": {
+    "decision": "fail",
+    "note": "逐条核对整段回答：漏答至少一个所求结果、只抄算式未求值、错配/重复算式或有矛盾结果，不能全题通过。",
+    "source": "identical earlier question and answer"
+  },
+  "f6c04c3cffe5cf6bd84d9e965bb218327a0d786b30e6be3a08b6bfb7d7ead9ce": {
+    "decision": "fail",
+    "note": "逐条核对整段回答：漏答至少一个所求结果、只抄算式未求值、错配/重复算式或有矛盾结果，不能全题通过。",
+    "source": "identical earlier question and answer"
+  },
+  "cc973187a71fc6db0db059aac40ba88cab5241e3579a6c1bbb79490e9c63ab26": {
+    "decision": "fail",
+    "note": "逐条核对整段回答：漏答至少一个所求结果、只抄算式未求值、错配/重复算式或有矛盾结果，不能全题通过。",
+    "source": "identical earlier question and answer"
+  },
+  "b941e978d356fae8f8ab3a2eb8f4a1765d6058693d192a63aac9446c480ec58d": {
+    "decision": "fail",
+    "note": "逐条核对整段回答：漏答至少一个所求结果、只抄算式未求值、错配/重复算式或有矛盾结果，不能全题通过。",
+    "source": "identical earlier question and answer"
+  },
+  "7e469029b3f0ae37848f248466675176eb8c62116bf3193fab14cb5d99c7055d": {
+    "decision": "fail",
+    "note": "逐条核对整段回答：漏答至少一个所求结果、只抄算式未求值、错配/重复算式或有矛盾结果，不能全题通过。",
+    "source": "identical earlier question and answer"
+  },
+  "05f0ccc773366b7b168458e5baeec6915e73b1b0d55a462fe407b9b712f99920": {
+    "decision": "fail",
+    "note": "逐条核对整段回答：漏答至少一个所求结果、只抄算式未求值、错配/重复算式或有矛盾结果，不能全题通过。",
+    "source": "identical earlier question and answer"
+  },
+  "91df2ae0f77deb5012776fe4df971de8ad1f13d93a717876ef25771cb2685da7": {
+    "decision": "fail",
+    "note": "逐条核对整段回答：漏答至少一个所求结果、只抄算式未求值、错配/重复算式或有矛盾结果，不能全题通过。",
+    "source": "identical earlier question and answer"
+  },
+  "1f37769d8cea5eb1e8cc92b3c492d2e86f3f02ecfd64caea307dacacac381258": {
+    "decision": "fail",
+    "note": "逐条核对整段回答：漏答至少一个所求结果、只抄算式未求值、错配/重复算式或有矛盾结果，不能全题通过。",
+    "source": "identical earlier question and answer"
+  },
+  "888864920cb9bdf465c934e5e33e11304b121812aa4dadc10bce7d0c6f35dc9d": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "ff39e141d5e41d99aae8c2c1588ea0aff871b58a443f0c4092a129e60c1e76b4": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b40d0883987bc9c5fb1d1107a589b4adf26290d9ae0c573114fda7081fbdf0d7": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7fdef4e002a990ce3313f54f3299e08f34b8be3f23a06f9e4ab048f0af0d82a4": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "33b44ae77a63456b12a3ab3485df90eca34da5e3b1d4817a12391472e153eaed": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8f4c4074ed94a02841d6dc1ae806c64193c0d6f82b1ef2190ad35aaccf7b85f3": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "5e8dffd0c764ec82c20a499553f625269172b233b7d5846e57f4e81d96a9016c": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b5e1646c7ade8bb7c1ab0f689fe39f55f7761952f8c7fee7fefb766d7616e76e": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b8c7c60a62ccf56765749ca2f802dffa896e7c384188202ecefb25cf6bce4cfd": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "f2c0c73983e37f659bd52dafcfcfd58a3ddf350d6be0ae6fc485513de306df8f": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "53bd66de7f03276b77c65b050a4c82dd51c93c077258630dc008f3ae030abc37": {
+    "decision": "fail",
+    "reason": "逐条复核：算式抄错、漏算或结果错误",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "8a54671830fcc32360c07851fc3a30a42a81e8958326ed48f7e2e149a22eb599": {
+    "decision": "fail",
+    "note": "第三个输入2227+252被写成227+252，479不能代替2479",
+    "source": "identical earlier question and answer"
+  },
+  "59f10b903aa5b6af9a008e78045ae2676c1eb64e1481d9a990ecf4929a71a986": {
+    "decision": "fail",
+    "note": "第三句声称33的平方是207，虽然207出现在答案中，仍与3312/16错配并有明确错误",
+    "source": "identical earlier question and answer"
+  },
+  "b2273113c419590de5caf8f71f6be496e81855b63a397b454d7d9339eec8b6ea": {
+    "decision": "fail",
+    "note": "只复述12**2，未给144",
+    "source": "identical earlier question and answer"
+  },
+  "a8636ee0868d61a004d7fe64dafb17128ac6facf65ea9d4ecd9922cf484aee0d": {
+    "decision": "fail",
+    "note": "漏掉20**3=8000，且把818+783*5说成其平方仍等于4733",
+    "source": "identical earlier question and answer"
+  },
+  "fc823f60e8dec41b3a870c5eccd5b89fe2d05f8224918c441cad2c4f3ce4dc79": {
+    "decision": "fail",
+    "note": "漏掉第三个结果947",
+    "source": "identical earlier question and answer"
+  },
+  "a1b9a654a64f940aca3a4098e4a47af83a57a4c330535461fb6e9a866b4ecf8b": {
+    "decision": "fail",
+    "note": "第三题给重复结果16796，漏168除4的42",
+    "source": "identical earlier question and answer"
+  },
+  "7bbf734dcc1c644d50019b5d44a4f9c12dbb903f69741ed1fe3bf2d849d0100a": {
+    "decision": "fail",
+    "note": "漏掉第三式696+683*2=2062，重复-122的无关立方说法不能替代",
+    "source": "identical earlier question and answer"
+  },
+  "6ada8ca14a42a13e6e5d106f591a8dbcf92b52274e50f4c743869c1ff04337ff": {
+    "decision": "fail",
+    "note": "重复第二题，漏365乘2",
+    "source": "identical earlier question and answer"
+  },
+  "f5d88eccfb4501eb2e9deb98d2676cb542f7805db7ea67b2745765c9ee10dcbb": {
+    "decision": "fail",
+    "note": "只复述算式且第二式输入抄错，没有两项所求数值",
+    "source": "identical earlier question and answer"
+  },
+  "3616a912af2ec827fe95c7ab045fbfe24e13990ebef89d0fb6ccead89fb8009a": {
+    "decision": "fail",
+    "note": "只复述524-365，未给159",
+    "source": "identical earlier question and answer"
+  },
+  "f20d52b94b4e69ce65ee3a2ce0ce034292a4c26f7fda45c07a00e1d4f5a920b5": {
+    "decision": "fail",
+    "note": "只回答前两式，漏掉13944",
+    "source": "identical earlier question and answer"
+  },
+  "f23d43c05f640261197b5d425e44793e54f5af253bf23275442169c8e70479b0": {
+    "decision": "fail",
+    "note": "第三式691*12被抄成641*12，7692不能代替8292",
+    "source": "identical earlier question and answer"
+  },
+  "3b8ae8db5141ba775b82ef656f88e50b40e30d1a34fea75e4fc7e5f3348ab7ca": {
+    "decision": "fail",
+    "note": "第一式958-230被改成9958-230，9728不能代替728",
+    "source": "identical earlier question and answer"
+  },
+  "9d8f69c1ec43aeef34f2b41bb79382e4e06fc28ace0ea973cbca6c10f81579f2": {
+    "decision": "fail",
+    "note": "第二项346改为366，运算对应及结果错误",
+    "source": "identical earlier question and answer"
+  },
+  "24b98c316bd629013ba1e6c0fc8b9d8e92a19b79bee13b72b9520c1fc9718f60": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "e21ea6f3b2f1495e1e576afad818f68e116e8f641c57d966dd95823cb9b34406": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "b06478081833b66c60273a61e1e09400cb882962ae11727424957a350dd74477": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c08c9194e3e5c8df2f8ffbe5476b0bd6ad16f38a465a5a99d110333f76832f6a": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c2a9a080e2bc9a15f7386b4a5b0aa4611f4a8b8edd52189919df158c8468f8ec": {
+    "decision": "pass",
+    "reason": "逐条核对：全部结果正确且对应正确算式",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "78afa82923bb91230dfce524b535ce46893ea0fe2107c13173ecd3ffc712d2e4": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c31a0fa0a406405a06822f7d8cb1d7a5fc6a3b28d8eb11392a6c8044d970ebb4": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "c8a6a07a3d8ac7e958dbb74cb61622a7b633a1d0878b020745fa5cf9b5fb40c0": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "9bd64deab0b0395aa66a209b204e305604cd189d57e4e06acfbf0737330f7f4a": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "045f302284b2caf99f65bb4f52282374a1a486589435b03cfe29a7f338a701ab": {
+    "decision": "pass",
+    "reason": "逐条核对：全部结果正确且对应正确算式",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "a0f353cafcea9ec7da9302b2e0e3b0bd4b666364ff97e5b2c313e531676f7578": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "536d78a1080e63932956d46b9512484612d67f67c2e7c4aed900829dd793096b": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "d0579a2354b93dc895b4849d220710c9b6a344011cf85eebdb23ac629fa12531": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "7db35d4068429d33bfd18051a02fce3498d67e2d9a9ad0c0ccebba46e9eaae15": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  },
+  "04698e3859a518dd14ba4f22d4332ed8db1e037c18778123f52f20895dbe1af6": {
+    "decision": "fail",
+    "reason": "逐条复核：漏答、错配、结果错误或表述矛盾",
+    "source": "assistant; model labels hidden; not independent human blind review"
+  }
+}

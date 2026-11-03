@@ -1,0 +1,15 @@
+{
+  "zip": "D:\\minimind\\minimind-master\\my_eval\\results\\strong_teacher_20261027\\strong_teacher_cloud.zip",
+  "sha256": "4e65033ff3113bc6f526ebedb419700739d6a38ed06e0a930095e8e78216529c",
+  "bytes": 45640,
+  "files": {
+    "cloud_strong_teacher.py": "68c93a27e08f3612e16bde6481f37140a65550cce69edef410d94ca62540f608",
+    "download_teacher.py": "1adae9c09d44d2ad61fe09d8e35b411ef609797256b003840abcfe66fe3a8b48",
+    "generate_strong_teacher.py": "f411169925c89f7cf19f4bd7388e4993289c4192f2b92a0222666f01a31c48a3",
+    "teacher_requests.json": "0570d73ad328a8bbd4a680886b477672ab0066cf11a354dc71a6ed071d83e107",
+    "teacher_settings.json": "8f152a1eaef45c64257a5c1b3aedcfc289df318c59fed84da62ed22fa4e0c8fe",
+    "运行说明.txt": "1d17c7c5f8aea9918a78eefd2fc13826b139ac27acfcbf82d89c2d12cc1ebabc"
+  },
+  "uploaded": false,
+  "executed": false
+}

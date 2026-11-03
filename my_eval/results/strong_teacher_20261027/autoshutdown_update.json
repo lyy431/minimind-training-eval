@@ -1,0 +1,25 @@
+{
+  "updated_utc": "2026-10-27T06:26:58.603858+00:00",
+  "user_request": "代码跑完自动关机",
+  "upload_zip": "D:\\minimind\\minimind-master\\my_eval\\results\\strong_teacher_20261027\\strong_teacher_cloud.zip",
+  "zip_sha256": "4e65033ff3113bc6f526ebedb419700739d6a38ed06e0a930095e8e78216529c",
+  "zip_bytes": 45640,
+  "autodl_shutdown_command": "/usr/bin/shutdown",
+  "result_archive": "strong_teacher_results.zip",
+  "shutdown_after_success_error_timeout": true,
+  "archive_failure_does_not_skip_shutdown": true,
+  "ordinary_sigterm_enters_finally": true,
+  "actual_shutdown_tested": false,
+  "paid_cloud_started_for_this_change": false,
+  "tests": {
+    "auto_shutdown_tests.json": true,
+    "behavior_tests.json": true,
+    "preflight_tests.json": true
+  },
+  "source_sha256": {
+    "cloud_strong_teacher.py": "68c93a27e08f3612e16bde6481f37140a65550cce69edef410d94ca62540f608",
+    "package_strong_teacher.py": "eed0a58ce7a1300b84d106710f623bd6ca24639fbdc9b48e17f8a2e346344987",
+    "test_cloud_autoshutdown.py": "d47d0047b0a02182ae8d728c26a4c35a16a4fd40d18a08ce9e8245530a74959d"
+  },
+  "previous_package_preserved_at": "autoshutdown_revision/strong_teacher_cloud.zip"
+}

@@ -239,7 +239,7 @@ st.sidebar.markdown('<hr style="margin: 12px 0 16px 0;">', unsafe_allow_html=Tru
 
 # 参数设置
 st.session_state.history_chat_num = st.sidebar.slider(get_text('history_rounds'), 0, 8, 0, step=2)
-st.session_state.max_new_tokens = st.sidebar.slider(get_text('max_length'), 256, 8192, 384 if selected_model == 'MiniMind-YuyangLU-v4' else 8192, step=1)
+st.session_state.max_new_tokens = st.sidebar.slider(get_text('max_length'), 256, 8192, 384 if selected_model in ('MiniMind-YuyangLU-v4', 'MiniMind-YuyangLU-v5') else 8192, step=1)
 st.session_state.temperature = st.sidebar.slider(get_text('temperature'), 0.6, 1.2, 0.90, step=0.01)
 
 st.sidebar.markdown('<hr style="margin: 12px 0 16px 0;">', unsafe_allow_html=True)

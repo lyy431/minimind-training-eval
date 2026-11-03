@@ -1,0 +1,339 @@
+{
+  "models": {
+    "chat_repair_id_e3": {
+      "mean_score": 0.3784722222222222,
+      "usable_percent": 11.458333333333332,
+      "nonempty_no_call_percent": 100,
+      "conditions": {
+        "no_tools": {
+          "mean_score": 0.4270833333333333,
+          "usable_percent": 13.541666666666666,
+          "responses": 96
+        },
+        "six_original": {
+          "mean_score": 0.3541666666666667,
+          "usable_percent": 10.416666666666668,
+          "responses": 96
+        },
+        "six_reworded": {
+          "mean_score": 0.3541666666666667,
+          "usable_percent": 10.416666666666668,
+          "responses": 96
+        }
+      },
+      "categories": {
+        "explanation": {
+          "mean_score": 0.1527777777777778,
+          "usable_percent": 1.3888888888888888,
+          "responses": 72
+        },
+        "instruction": {
+          "mean_score": 0.6388888888888888,
+          "usable_percent": 20.833333333333336,
+          "responses": 72
+        },
+        "retrieval": {
+          "mean_score": 0.4583333333333333,
+          "usable_percent": 16.666666666666664,
+          "responses": 72
+        },
+        "writing": {
+          "mean_score": 0.2638888888888889,
+          "usable_percent": 6.944444444444445,
+          "responses": 72
+        }
+      },
+      "languages": {
+        "zh": {
+          "mean_score": 0.41203703703703703,
+          "usable_percent": 13.425925925925927,
+          "responses": 216
+        },
+        "en": {
+          "mean_score": 0.2777777777777778,
+          "usable_percent": 5.555555555555555,
+          "responses": 72
+        }
+      }
+    },
+    "strong_teacher_weak_e2": {
+      "mean_score": 0.6215277777777778,
+      "usable_percent": 26.041666666666668,
+      "nonempty_no_call_percent": 99.30555555555556,
+      "conditions": {
+        "no_tools": {
+          "mean_score": 0.6770833333333334,
+          "usable_percent": 28.125,
+          "responses": 96
+        },
+        "six_original": {
+          "mean_score": 0.59375,
+          "usable_percent": 25.0,
+          "responses": 96
+        },
+        "six_reworded": {
+          "mean_score": 0.59375,
+          "usable_percent": 25.0,
+          "responses": 96
+        }
+      },
+      "categories": {
+        "explanation": {
+          "mean_score": 0.18055555555555555,
+          "usable_percent": 1.3888888888888888,
+          "responses": 72
+        },
+        "instruction": {
+          "mean_score": 1.3888888888888888,
+          "usable_percent": 66.66666666666666,
+          "responses": 72
+        },
+        "retrieval": {
+          "mean_score": 0.5277777777777778,
+          "usable_percent": 26.38888888888889,
+          "responses": 72
+        },
+        "writing": {
+          "mean_score": 0.3888888888888889,
+          "usable_percent": 9.722222222222223,
+          "responses": 72
+        }
+      },
+      "languages": {
+        "zh": {
+          "mean_score": 0.6620370370370371,
+          "usable_percent": 27.314814814814813,
+          "responses": 216
+        },
+        "en": {
+          "mean_score": 0.5,
+          "usable_percent": 22.22222222222222,
+          "responses": 72
+        }
+      }
+    },
+    "strong_teacher_strong_e2": {
+      "mean_score": 0.6805555555555556,
+      "usable_percent": 28.47222222222222,
+      "nonempty_no_call_percent": 100,
+      "conditions": {
+        "no_tools": {
+          "mean_score": 0.7395833333333334,
+          "usable_percent": 30.208333333333332,
+          "responses": 96
+        },
+        "six_original": {
+          "mean_score": 0.6666666666666666,
+          "usable_percent": 28.125,
+          "responses": 96
+        },
+        "six_reworded": {
+          "mean_score": 0.6354166666666666,
+          "usable_percent": 27.083333333333332,
+          "responses": 96
+        }
+      },
+      "categories": {
+        "explanation": {
+          "mean_score": 0.2361111111111111,
+          "usable_percent": 4.166666666666666,
+          "responses": 72
+        },
+        "instruction": {
+          "mean_score": 1.375,
+          "usable_percent": 65.27777777777779,
+          "responses": 72
+        },
+        "retrieval": {
+          "mean_score": 0.5555555555555556,
+          "usable_percent": 27.77777777777778,
+          "responses": 72
+        },
+        "writing": {
+          "mean_score": 0.5555555555555556,
+          "usable_percent": 16.666666666666664,
+          "responses": 72
+        }
+      },
+      "languages": {
+        "zh": {
+          "mean_score": 0.7407407407407407,
+          "usable_percent": 30.09259259259259,
+          "responses": 216
+        },
+        "en": {
+          "mean_score": 0.5,
+          "usable_percent": 23.61111111111111,
+          "responses": 72
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "strong_minus_v4": {
+      "score": {
+        "difference": 0.3020833333333333,
+        "se": 0.07852783569876458,
+        "ci95": [
+          0.15277777777777776,
+          0.45486111111111116
+        ],
+        "n": 96,
+        "better": 33,
+        "worse": 12,
+        "same": 51,
+        "lower_is_better": false
+      },
+      "usable": {
+        "difference": 17.01388888888889,
+        "se": 4.188387584984619,
+        "ci95": [
+          9.027777777777777,
+          25.347222222222218
+        ],
+        "n": 96,
+        "better": 26,
+        "worse": 5,
+        "same": 65,
+        "lower_is_better": false
+      }
+    },
+    "strong_minus_weak": {
+      "score": {
+        "difference": 0.05902777777777777,
+        "se": 0.03948831830207747,
+        "ci95": [
+          -0.02083333333333333,
+          0.13541666666666669
+        ],
+        "n": 96,
+        "better": 16,
+        "worse": 6,
+        "same": 74,
+        "lower_is_better": false
+      },
+      "usable": {
+        "difference": 2.4305555555555554,
+        "se": 1.9273343904215543,
+        "ci95": [
+          -1.3888888888888886,
+          6.249999999999999
+        ],
+        "n": 96,
+        "better": 8,
+        "worse": 3,
+        "same": 85,
+        "lower_is_better": false
+      }
+    },
+    "weak_minus_v4": {
+      "score": {
+        "difference": 0.24305555555555558,
+        "se": 0.07606924084154665,
+        "ci95": [
+          0.10069444444444443,
+          0.3958333333333333
+        ],
+        "n": 96,
+        "better": 28,
+        "worse": 13,
+        "same": 55,
+        "lower_is_better": false
+      },
+      "usable": {
+        "difference": 14.583333333333334,
+        "se": 3.973980308604635,
+        "ci95": [
+          6.9444444444444455,
+          22.569444444444443
+        ],
+        "n": 96,
+        "better": 22,
+        "worse": 5,
+        "same": 69,
+        "lower_is_better": false
+      }
+    }
+  },
+  "retention": {
+    "historical": {
+      "means": {
+        "chat_repair_id_e3": 82.74111675126903,
+        "strong_teacher_weak_e2": 86.29441624365482,
+        "strong_teacher_strong_e2": 86.29441624365482
+      },
+      "strong_minus_v4": {
+        "difference": 3.553299492385787,
+        "se": 1.954580416525534,
+        "ci95": [
+          0.0,
+          7.614213197969543
+        ],
+        "n": 197,
+        "better": 11,
+        "worse": 4,
+        "same": 182,
+        "lower_is_better": false
+      }
+    },
+    "freshmath": {
+      "means": {
+        "chat_repair_id_e3": 77.08333333333333,
+        "strong_teacher_weak_e2": 75,
+        "strong_teacher_strong_e2": 79.16666666666667
+      },
+      "strong_minus_v4": {
+        "difference": 2.0833333333333335,
+        "se": 4.69795426027952,
+        "ci95": [
+          -6.25,
+          10.416666666666666
+        ],
+        "n": 48,
+        "better": 3,
+        "worse": 2,
+        "same": 43,
+        "lower_is_better": false
+      }
+    },
+    "nll296": {
+      "means": {
+        "chat_repair_id_e3": 2.522629708957833,
+        "strong_teacher_weak_e2": 2.5216788684798255,
+        "strong_teacher_strong_e2": 2.5247591298979684
+      },
+      "strong_minus_v4": {
+        "difference": 0.0021294209401349763,
+        "se": 0.004112726119447054,
+        "ci95": [
+          -0.006637991297788716,
+          0.00913009997205557
+        ],
+        "n": 296,
+        "better": 73,
+        "worse": 223,
+        "same": 0,
+        "lower_is_better": true
+      }
+    }
+  },
+  "identity14": {
+    "chat_repair_id_e3": 13,
+    "strong_teacher_weak_e2": 14,
+    "strong_teacher_strong_e2": 12
+  },
+  "gates": {
+    "mean_gain_ge015": true,
+    "mean_gain_ci_lower_gt0": true,
+    "usable_gain_ge8pp": true,
+    "no_tools_drop_le5pp": true,
+    "historical_math_drop_le5pp": true,
+    "prior_math48_drop_le5pp": true,
+    "nll_increase_le005": true,
+    "identity_drop_le1": true,
+    "complete_no_call_ge90": true
+  },
+  "accepted": true,
+  "evidence_larger_teacher_beats_matched_smaller": false,
+  "interpretation": "Accepted improvement over v4 and evidence for larger-teacher superiority are separate claims. Report both, including failures."
+}

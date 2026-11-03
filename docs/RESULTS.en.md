@@ -95,6 +95,60 @@ The loss increase is real: +0.02633 ± 0.00666, with a 95% interval of approxima
 
 The candidate passes this experiment's predefined acceptance gates and its export and real Streamlit UI checks. Nevertheless, 62.50% of responses are not fully usable. Limited topic structures, one training seed, fixed generation seeds, and assistant content review restrict generalization. This is not evidence of a generally reliable assistant. See the [chat-repair study](../my_eval/results/chat_repair_20261027/REPORT.md).
 
+## Distillation from a larger teacher: v5
+
+This study asks two separate questions: does training on screened teacher answers improve v4, and does a 7B teacher teach better than a 1.5B teacher? The first passes its predeclared acceptance gates. The second is not established.
+
+Qwen2.5-7B-Instruct and Qwen2.5-1.5B-Instruct answered the same 1,000 questions with one fixed prompt and deterministic generation. Retrieval and format questions required the exact expected output. Open-ended answers received individual review with teacher labels hidden.
+
+| Accepted answers | 1.5B | 7B |
+|---|---:|---:|
+| Retrieval, exact output | 205/400 | 351/400 |
+| Format instructions, exact output | 70/100 | 77/100 |
+| Everyday explanations | 149/200 | 192/200 |
+| Short-message writing | 181/300 | 254/300 |
+| Total | 605/1000 | 874/1000 |
+
+Among rejected exact-output answers, 151 from the 1.5B teacher and 48 from the 7B teacher differ only in punctuation, case, or spacing. The strict rule was set in advance and was not relaxed.
+
+Both training sets use only the 561 questions accepted from both teachers (196 retrieval, 161 writing, 143 explanation, 61 format), with the same prompts, tool menus, and retention rows. Teacher answers are not rewritten. Each arm has 2,602 rows and trains all parameters from v4 for 1,302 updates, anchored to frozen v4 weights. The 7B answers total 6,201 tokens versus 8,066, so the design matches questions and updates, not answer volume. Development data selected epoch 2 in both arms before weights and evaluation files were locked.
+
+Formal evaluation uses 96 new questions, 24 per category, under three tool conditions, for 288 responses per model. Thinking and best-of-N are disabled.
+
+| Metric | v4 | 1.5B arm | 7B arm, v5 |
+|---|---:|---:|---:|
+| Mean content score, 0–2 | 0.378 | 0.622 | 0.681 |
+| Fully usable responses, score 2 | 11.46% | 26.04% | 28.47% |
+| Nonempty, complete responses without calls | 100% | 99.31% | 100% |
+| Historical strict math, 197 questions | 82.74% | 86.29% | 86.29% |
+| Reworded-tool strict math, 48 questions | 77.08% | 75.00% | 79.17% |
+| Held-out answer loss, lower is better | 2.52263 | 2.52168 | 2.52476 |
+| Fully usable identity responses | 13/14 | 14/14 | 12/14 |
+
+| Comparison | Content score | Usable percentage points |
+|---|---:|---:|
+| 7B arm − v4 | +0.302 ± 0.079, [+0.153, +0.455] | +17.01 ± 4.19, [+9.03, +25.35] |
+| 1.5B arm − v4 | +0.243 ± 0.076, [+0.101, +0.396] | +14.58 ± 3.97, [+6.94, +22.57] |
+| 7B arm − 1.5B arm | +0.059 ± 0.039, [−0.021, +0.135] | +2.43 ± 1.93, [−1.39, +6.25] |
+
+| Usable rate by category | v4 | 1.5B arm | 7B arm, v5 |
+|---|---:|---:|---:|
+| Format instructions | 20.8% | 66.7% | 65.3% |
+| Retrieval | 16.7% | 26.4% | 27.8% |
+| Short-message writing | 6.9% | 9.7% | 16.7% |
+| Everyday explanations | 1.4% | 1.4% | 4.2% |
+
+The candidate from the 7B arm passes all nine acceptance gates and its export and real Streamlit UI checks, so it is released as v5. The evidence still limits what that means:
+
+- **The teacher comparison is unresolved.** Averages favor the 7B arm, but both intervals include zero, and one training seed was run. This does not establish that the teachers are equivalent either.
+- **The matched design is a narrow test.** It compares different teachers' answers to the same questions, so the 7B teacher's extra accepted answers go unused. Training on all accepted answers would need a separate experiment.
+- **Most of the gain is in format instructions.** Their templates also appear in training, although the question text does not overlap. Without them, the 7B arm rises from 8.33% to 16.20% usable, a gain of 7.87 ± 3.98 percentage points with a 95% interval of [0.46, 15.74].
+- **Retention is not improvement.** Against v4, historical math changes by +3.55 ± 1.95 percentage points, [0.00, 7.61]; reworded-tool math by +2.08 ± 4.70, [−6.25, 10.42]; and loss by +0.00213 ± 0.00411, [−0.00664, 0.00913]. Identity falls by one response, the most the gates allow.
+- **Results are not comparable across question sets.** v4 scores 37.50% in its own study and 11.46% here because the questions differ.
+- **v5 remains weak.** 71.53% of its responses are not fully usable, and everyday explanations reach only 4.2%. Content received assistant review with model and teacher labels hidden, not independent human blind evaluation.
+
+The cloud run also found two practical problems. Downloads through a Hugging Face proxy and a mirror were too slow, so the weights came from ModelScope and their SHA-256 hashes were compared with the pinned Hugging Face revision. The automatic-shutdown call failed with `Exec format error` after results were saved, so the instance was shut down manually. Mock tests had not executed that call, and the script must be fixed before another cloud run. See the [larger-teacher report](../my_eval/results/strong_teacher_20261027/REPORT.md).
+
 ## Common interpretation rules
 
 Results are evidence about the particular model, data, and recipe tested. Prediction loss, reward, tool routing, full-answer math consistency, name matching, and content usability measure different things. Exact overlap removal does not rule out semantic or upstream training exposure. Assistant review is documented but is not independent human blind evaluation. Retained failures and uncertainty are part of the findings, not exceptions to omit.

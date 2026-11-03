@@ -1,0 +1,4178 @@
+{
+  "dev_retrieval_0000_no_tools": {
+    "task_id": "dev_retrieval_0000_no_tools",
+    "id": "dev_retrieval_0000",
+    "question": "请读这份便条：季澄的柜号是949；方沐的柜号是208。季澄的柜号是什么？只给出柜号。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "208"
+    ],
+    "final": "208",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "208"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "208"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.6747007000085432,
+    "grade": null
+  },
+  "dev_retrieval_0000_six_original": {
+    "task_id": "dev_retrieval_0000_six_original",
+    "id": "dev_retrieval_0000",
+    "question": "请读这份便条：季澄的柜号是949；方沐的柜号是208。季澄的柜号是什么？只给出柜号。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "208"
+    ],
+    "final": "208",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "208"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "208"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.05814799999643583,
+    "grade": null
+  },
+  "dev_retrieval_0000_six_reworded": {
+    "task_id": "dev_retrieval_0000_six_reworded",
+    "id": "dev_retrieval_0000",
+    "question": "请读这份便条：季澄的柜号是949；方沐的柜号是208。季澄的柜号是什么？只给出柜号。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "208"
+    ],
+    "final": "208",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "208"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "208"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.06371470000885893,
+    "grade": null
+  },
+  "dev_retrieval_0001_no_tools": {
+    "task_id": "dev_retrieval_0001_no_tools",
+    "id": "dev_retrieval_0001",
+    "question": "请读这份便条：苏岚计划周一交材料；温庭计划周二交材料。苏岚哪天交材料？只回答日期。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "周一"
+    ],
+    "final": "周一",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "周一"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "周一"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.1666276000032667,
+    "grade": null
+  },
+  "dev_retrieval_0001_six_original": {
+    "task_id": "dev_retrieval_0001_six_original",
+    "id": "dev_retrieval_0001",
+    "question": "请读这份便条：苏岚计划周一交材料；温庭计划周二交材料。苏岚哪天交材料？只回答日期。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "周一"
+    ],
+    "final": "周一",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "周一"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "周一"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.06619040000077803,
+    "grade": null
+  },
+  "dev_retrieval_0001_six_reworded": {
+    "task_id": "dev_retrieval_0001_six_reworded",
+    "id": "dev_retrieval_0001",
+    "question": "请读这份便条：苏岚计划周一交材料；温庭计划周二交材料。苏岚哪天交材料？只回答日期。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "周一"
+    ],
+    "final": "周一",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "周一"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "周一"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.054933599996729754,
+    "grade": null
+  },
+  "dev_retrieval_0002_no_tools": {
+    "task_id": "dev_retrieval_0002_no_tools",
+    "id": "dev_retrieval_0002",
+    "question": "请读这份便条：苏岚的登记号是DK-3856；季澄的登记号是DR-5493。请只抄出苏岚的登记号。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "DR-5493"
+    ],
+    "final": "DR-5493",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DR-5493"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DR-5493"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.10218599998916034,
+    "grade": null
+  },
+  "dev_retrieval_0002_six_original": {
+    "task_id": "dev_retrieval_0002_six_original",
+    "id": "dev_retrieval_0002",
+    "question": "请读这份便条：苏岚的登记号是DK-3856；季澄的登记号是DR-5493。请只抄出苏岚的登记号。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "DR-5493"
+    ],
+    "final": "DR-5493",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DR-5493"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DR-5493"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.10270770000352059,
+    "grade": null
+  },
+  "dev_retrieval_0002_six_reworded": {
+    "task_id": "dev_retrieval_0002_six_reworded",
+    "id": "dev_retrieval_0002",
+    "question": "请读这份便条：苏岚的登记号是DK-3856；季澄的登记号是DR-5493。请只抄出苏岚的登记号。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "DR-5493"
+    ],
+    "final": "DR-5493",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DR-5493"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DR-5493"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.1041183000052115,
+    "grade": null
+  },
+  "dev_retrieval_0003_no_tools": {
+    "task_id": "dev_retrieval_0003_no_tools",
+    "id": "dev_retrieval_0003",
+    "question": "Read this note: Cleo carries a green folder. Amir carries a purple folder. What color is Cleo's folder? Return only the color.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "green"
+    ],
+    "final": "green",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "green"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "green"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.03863660000206437,
+    "grade": null
+  },
+  "dev_retrieval_0003_six_original": {
+    "task_id": "dev_retrieval_0003_six_original",
+    "id": "dev_retrieval_0003",
+    "question": "Read this note: Cleo carries a green folder. Amir carries a purple folder. What color is Cleo's folder? Return only the color.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "green"
+    ],
+    "final": "green",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "green"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "green"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.049152400009916164,
+    "grade": null
+  },
+  "dev_retrieval_0003_six_reworded": {
+    "task_id": "dev_retrieval_0003_six_reworded",
+    "id": "dev_retrieval_0003",
+    "question": "Read this note: Cleo carries a green folder. Amir carries a purple folder. What color is Cleo's folder? Return only the color.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "green"
+    ],
+    "final": "green",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "green"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "green"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.04811679999693297,
+    "grade": null
+  },
+  "dev_retrieval_0004_no_tools": {
+    "task_id": "dev_retrieval_0004_no_tools",
+    "id": "dev_retrieval_0004",
+    "question": "请读这份便条：温庭把书交给了方沐；书的登记号为DK-7742。谁交出了书？只回答姓名。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "DK-7742"
+    ],
+    "final": "DK-7742",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DK-7742"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DK-7742"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.09514550000312738,
+    "grade": null
+  },
+  "dev_retrieval_0004_six_original": {
+    "task_id": "dev_retrieval_0004_six_original",
+    "id": "dev_retrieval_0004",
+    "question": "请读这份便条：温庭把书交给了方沐；书的登记号为DK-7742。谁交出了书？只回答姓名。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "DK-7742"
+    ],
+    "final": "DK-7742",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DK-7742"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DK-7742"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.1041718999913428,
+    "grade": null
+  },
+  "dev_retrieval_0004_six_reworded": {
+    "task_id": "dev_retrieval_0004_six_reworded",
+    "id": "dev_retrieval_0004",
+    "question": "请读这份便条：温庭把书交给了方沐；书的登记号为DK-7742。谁交出了书？只回答姓名。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "DK-7742"
+    ],
+    "final": "DK-7742",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DK-7742"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DK-7742"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.10573889999068342,
+    "grade": null
+  },
+  "dev_retrieval_0005_no_tools": {
+    "task_id": "dev_retrieval_0005_no_tools",
+    "id": "dev_retrieval_0005",
+    "question": "请读这份便条：方沐的文件是note_221.txt；苏岚的文件是list_803.csv。只输出方沐的完整文件名。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "note_221.txt"
+    ],
+    "final": "note_221.txt",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "note_221.txt"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "note_221.txt"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.10773009998956695,
+    "grade": null
+  },
+  "dev_retrieval_0005_six_original": {
+    "task_id": "dev_retrieval_0005_six_original",
+    "id": "dev_retrieval_0005",
+    "question": "请读这份便条：方沐的文件是note_221.txt；苏岚的文件是list_803.csv。只输出方沐的完整文件名。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "list_803.csv"
+    ],
+    "final": "list_803.csv",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "list_803.csv"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "list_803.csv"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.11997559999872465,
+    "grade": null
+  },
+  "dev_retrieval_0005_six_reworded": {
+    "task_id": "dev_retrieval_0005_six_reworded",
+    "id": "dev_retrieval_0005",
+    "question": "请读这份便条：方沐的文件是note_221.txt；苏岚的文件是list_803.csv。只输出方沐的完整文件名。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "list_803.csv"
+    ],
+    "final": "list_803.csv",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "list_803.csv"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "list_803.csv"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.12040770000021439,
+    "grade": null
+  },
+  "dev_retrieval_0006_no_tools": {
+    "task_id": "dev_retrieval_0006_no_tools",
+    "id": "dev_retrieval_0006",
+    "question": "请读这份便条：原集合房间是861；最新通知改为950。原房间号是什么？只回答号码。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "861"
+    ],
+    "final": "861",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "861"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "861"
+      }
+    ],
+    "generated_tokens": 4,
+    "generation_seconds": 0.04892150001251139,
+    "grade": null
+  },
+  "dev_retrieval_0006_six_original": {
+    "task_id": "dev_retrieval_0006_six_original",
+    "id": "dev_retrieval_0006",
+    "question": "请读这份便条：原集合房间是861；最新通知改为950。原房间号是什么？只回答号码。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "861"
+    ],
+    "final": "861",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "861"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "861"
+      }
+    ],
+    "generated_tokens": 4,
+    "generation_seconds": 0.05449299998872448,
+    "grade": null
+  },
+  "dev_retrieval_0006_six_reworded": {
+    "task_id": "dev_retrieval_0006_six_reworded",
+    "id": "dev_retrieval_0006",
+    "question": "请读这份便条：原集合房间是861；最新通知改为950。原房间号是什么？只回答号码。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "950"
+    ],
+    "final": "950",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "950"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "950"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.04385550000006333,
+    "grade": null
+  },
+  "dev_retrieval_0007_no_tools": {
+    "task_id": "dev_retrieval_0007_no_tools",
+    "id": "dev_retrieval_0007",
+    "question": "Read this note: Otis has loan reference DK-2962. no return date is recorded. What is the return date? If absent, reply only \"Not provided\".",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "note: Otis is a standard date that is recorded, not a standard date."
+    ],
+    "final": "note: Otis is a standard date that is recorded, not a standard date.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "note: Otis is a standard date that is recorded, not a standard date."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "note: Otis is a standard date that is recorded, not a standard date."
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.2415873999998439,
+    "grade": null
+  },
+  "dev_retrieval_0007_six_original": {
+    "task_id": "dev_retrieval_0007_six_original",
+    "id": "dev_retrieval_0007",
+    "question": "Read this note: Otis has loan reference DK-2962. no return date is recorded. What is the return date? If absent, reply only \"Not provided\".",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "Not provided"
+    ],
+    "final": "Not provided",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Not provided"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Not provided"
+      }
+    ],
+    "generated_tokens": 4,
+    "generation_seconds": 0.055586200003745034,
+    "grade": null
+  },
+  "dev_retrieval_0007_six_reworded": {
+    "task_id": "dev_retrieval_0007_six_reworded",
+    "id": "dev_retrieval_0007",
+    "question": "Read this note: Otis has loan reference DK-2962. no return date is recorded. What is the return date? If absent, reply only \"Not provided\".",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "note_fahrenheit"
+    ],
+    "final": "note_fahrenheit",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "note_fahrenheit"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "note_fahrenheit"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.11288580000109505,
+    "grade": null
+  },
+  "dev_retrieval_0008_no_tools": {
+    "task_id": "dev_retrieval_0008_no_tools",
+    "id": "dev_retrieval_0008",
+    "question": "请读这份便条：标签甲：280+291；标签乙：291-280。只原样抄出标签甲上的算式，不计算。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "291-280"
+    ],
+    "final": "291-280",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "291-280"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "291-280"
+      }
+    ],
+    "generated_tokens": 6,
+    "generation_seconds": 0.07166739999956917,
+    "grade": null
+  },
+  "dev_retrieval_0008_six_original": {
+    "task_id": "dev_retrieval_0008_six_original",
+    "id": "dev_retrieval_0008",
+    "question": "请读这份便条：标签甲：280+291；标签乙：291-280。只原样抄出标签甲上的算式，不计算。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "291-280"
+    ],
+    "final": "291-280",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "291-280"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "291-280"
+      }
+    ],
+    "generated_tokens": 6,
+    "generation_seconds": 0.08122539999021683,
+    "grade": null
+  },
+  "dev_retrieval_0008_six_reworded": {
+    "task_id": "dev_retrieval_0008_six_reworded",
+    "id": "dev_retrieval_0008",
+    "question": "请读这份便条：标签甲：280+291；标签乙：291-280。只原样抄出标签甲上的算式，不计算。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "291-280"
+    ],
+    "final": "291-280",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "291-280"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "291-280"
+      }
+    ],
+    "generated_tokens": 6,
+    "generation_seconds": 0.08106609999958891,
+    "grade": null
+  },
+  "dev_retrieval_0009_no_tools": {
+    "task_id": "dev_retrieval_0009_no_tools",
+    "id": "dev_retrieval_0009",
+    "question": "请读这份便条：名单顺序：温庭、苏岚；第一人的编号是DK-1659，第二人的编号是DR-6664。只回答名单中第1个人的名字。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "DK-1659"
+    ],
+    "final": "DK-1659",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DK-1659"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DK-1659"
+      }
+    ],
+    "generated_tokens": 7,
+    "generation_seconds": 0.08249970000179019,
+    "grade": null
+  },
+  "dev_retrieval_0009_six_original": {
+    "task_id": "dev_retrieval_0009_six_original",
+    "id": "dev_retrieval_0009",
+    "question": "请读这份便条：名单顺序：温庭、苏岚；第一人的编号是DK-1659，第二人的编号是DR-6664。只回答名单中第1个人的名字。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "DK-1659"
+    ],
+    "final": "DK-1659",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DK-1659"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DK-1659"
+      }
+    ],
+    "generated_tokens": 7,
+    "generation_seconds": 0.09756070000003092,
+    "grade": null
+  },
+  "dev_retrieval_0009_six_reworded": {
+    "task_id": "dev_retrieval_0009_six_reworded",
+    "id": "dev_retrieval_0009",
+    "question": "请读这份便条：名单顺序：温庭、苏岚；第一人的编号是DK-1659，第二人的编号是DR-6664。只回答名单中第1个人的名字。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "DK-1659"
+    ],
+    "final": "DK-1659",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DK-1659"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DK-1659"
+      }
+    ],
+    "generated_tokens": 7,
+    "generation_seconds": 0.09485409999615513,
+    "grade": null
+  },
+  "dev_retrieval_0010_no_tools": {
+    "task_id": "dev_retrieval_0010_no_tools",
+    "id": "dev_retrieval_0010",
+    "question": "请读这份便条：温庭的柜号是786；苏岚的柜号是647。苏岚的柜号是什么？只给出柜号。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "647"
+    ],
+    "final": "647",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "647"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "647"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.05279290000908077,
+    "grade": null
+  },
+  "dev_retrieval_0010_six_original": {
+    "task_id": "dev_retrieval_0010_six_original",
+    "id": "dev_retrieval_0010",
+    "question": "请读这份便条：温庭的柜号是786；苏岚的柜号是647。苏岚的柜号是什么？只给出柜号。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "647"
+    ],
+    "final": "647",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "647"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "647"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.06164909999642987,
+    "grade": null
+  },
+  "dev_retrieval_0010_six_reworded": {
+    "task_id": "dev_retrieval_0010_six_reworded",
+    "id": "dev_retrieval_0010",
+    "question": "请读这份便条：温庭的柜号是786；苏岚的柜号是647。苏岚的柜号是什么？只给出柜号。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "647"
+    ],
+    "final": "647",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "647"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "647"
+      }
+    ],
+    "generated_tokens": 3,
+    "generation_seconds": 0.060239200000069104,
+    "grade": null
+  },
+  "dev_retrieval_0011_no_tools": {
+    "task_id": "dev_retrieval_0011_no_tools",
+    "id": "dev_retrieval_0011",
+    "question": "Read this note: Esme submits the notes on Friday. Cleo submits the notes on Monday. On which day does Cleo submit the notes? Return only the day.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "Monday"
+    ],
+    "final": "Monday",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Monday"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Monday"
+      }
+    ],
+    "generated_tokens": 4,
+    "generation_seconds": 0.07192129999748431,
+    "grade": null
+  },
+  "dev_retrieval_0011_six_original": {
+    "task_id": "dev_retrieval_0011_six_original",
+    "id": "dev_retrieval_0011",
+    "question": "Read this note: Esme submits the notes on Friday. Cleo submits the notes on Monday. On which day does Cleo submit the notes? Return only the day.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "Monday"
+    ],
+    "final": "Monday",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Monday"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Monday"
+      }
+    ],
+    "generated_tokens": 4,
+    "generation_seconds": 0.0661956999974791,
+    "grade": null
+  },
+  "dev_retrieval_0011_six_reworded": {
+    "task_id": "dev_retrieval_0011_six_reworded",
+    "id": "dev_retrieval_0011",
+    "question": "Read this note: Esme submits the notes on Friday. Cleo submits the notes on Monday. On which day does Cleo submit the notes? Return only the day.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "Monday"
+    ],
+    "final": "Monday",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Monday"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Monday"
+      }
+    ],
+    "generated_tokens": 4,
+    "generation_seconds": 0.06341639999300241,
+    "grade": null
+  },
+  "dev_instruction_0000_no_tools": {
+    "task_id": "dev_instruction_0000_no_tools",
+    "id": "dev_instruction_0000",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-47944",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "DEV-47944"
+    ],
+    "final": "DEV-47944",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-47944"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-47944"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.11872430000221357,
+    "grade": null
+  },
+  "dev_instruction_0000_six_original": {
+    "task_id": "dev_instruction_0000_six_original",
+    "id": "dev_instruction_0000",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-47944",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "DEV-47944"
+    ],
+    "final": "DEV-47944",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-47944"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-47944"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.12438570000813343,
+    "grade": null
+  },
+  "dev_instruction_0000_six_reworded": {
+    "task_id": "dev_instruction_0000_six_reworded",
+    "id": "dev_instruction_0000",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-47944",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "DEV-47944"
+    ],
+    "final": "DEV-47944",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-47944"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-47944"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.12407659999735188,
+    "grade": null
+  },
+  "dev_instruction_0001_no_tools": {
+    "task_id": "dev_instruction_0001_no_tools",
+    "id": "dev_instruction_0001",
+    "question": "请只输出第二个编号：DEV-17776，BOX-43857。不要加说明。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "DEV-17776"
+    ],
+    "final": "DEV-17776",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-17776"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-17776"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.1058103000104893,
+    "grade": null
+  },
+  "dev_instruction_0001_six_original": {
+    "task_id": "dev_instruction_0001_six_original",
+    "id": "dev_instruction_0001",
+    "question": "请只输出第二个编号：DEV-17776，BOX-43857。不要加说明。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "DEV-17776"
+    ],
+    "final": "DEV-17776",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-17776"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-17776"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.11678719999326859,
+    "grade": null
+  },
+  "dev_instruction_0001_six_reworded": {
+    "task_id": "dev_instruction_0001_six_reworded",
+    "id": "dev_instruction_0001",
+    "question": "请只输出第二个编号：DEV-17776，BOX-43857。不要加说明。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "DEV-17776"
+    ],
+    "final": "DEV-17776",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-17776"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-17776"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.11643589999584947,
+    "grade": null
+  },
+  "dev_instruction_0002_no_tools": {
+    "task_id": "dev_instruction_0002_no_tools",
+    "id": "dev_instruction_0002",
+    "question": "材料只写了编号DEV-70192，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "DEV-70192"
+    ],
+    "final": "DEV-70192",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-70192"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-70192"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.0943117999995593,
+    "grade": null
+  },
+  "dev_instruction_0002_six_original": {
+    "task_id": "dev_instruction_0002_six_original",
+    "id": "dev_instruction_0002",
+    "question": "材料只写了编号DEV-70192，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "DEV-70192"
+    ],
+    "final": "DEV-70192",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-70192"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-70192"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.10188390000257641,
+    "grade": null
+  },
+  "dev_instruction_0002_six_reworded": {
+    "task_id": "dev_instruction_0002_six_reworded",
+    "id": "dev_instruction_0002",
+    "question": "材料只写了编号DEV-70192，没有写负责人。负责人是谁？未给出时只回答“未提供”。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "DEV-70192"
+    ],
+    "final": "DEV-70192",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-70192"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-70192"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.1012473000009777,
+    "grade": null
+  },
+  "dev_instruction_0003_no_tools": {
+    "task_id": "dev_instruction_0003_no_tools",
+    "id": "dev_instruction_0003",
+    "question": "Put \"DEV-46722\" inside round brackets. Return only the result.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "(DEV-46722)"
+    ],
+    "final": "(DEV-46722)",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "(DEV-46722)"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "(DEV-46722)"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.11821529999724589,
+    "grade": null
+  },
+  "dev_instruction_0003_six_original": {
+    "task_id": "dev_instruction_0003_six_original",
+    "id": "dev_instruction_0003",
+    "question": "Put \"DEV-46722\" inside round brackets. Return only the result.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "(DEV-46722)"
+    ],
+    "final": "(DEV-46722)",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "(DEV-46722)"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "(DEV-46722)"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.12812180000764783,
+    "grade": null
+  },
+  "dev_instruction_0003_six_reworded": {
+    "task_id": "dev_instruction_0003_six_reworded",
+    "id": "dev_instruction_0003",
+    "question": "Put \"DEV-46722\" inside round brackets. Return only the result.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "(DEV-46722)"
+    ],
+    "final": "(DEV-46722)",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "(DEV-46722)"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "(DEV-46722)"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.13085709999722894,
+    "grade": null
+  },
+  "dev_instruction_0004_no_tools": {
+    "task_id": "dev_instruction_0004_no_tools",
+    "id": "dev_instruction_0004",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：DEV-78816 和 BOX-41264。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "DEV-78816/BOX-41264"
+    ],
+    "final": "DEV-78816/BOX-41264",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-78816/BOX-41264"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-78816/BOX-41264"
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.19818880000093486,
+    "grade": null
+  },
+  "dev_instruction_0004_six_original": {
+    "task_id": "dev_instruction_0004_six_original",
+    "id": "dev_instruction_0004",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：DEV-78816 和 BOX-41264。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "DEV-78816/BOX-41264"
+    ],
+    "final": "DEV-78816/BOX-41264",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-78816/BOX-41264"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-78816/BOX-41264"
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.20655070000793785,
+    "grade": null
+  },
+  "dev_instruction_0004_six_reworded": {
+    "task_id": "dev_instruction_0004_six_reworded",
+    "id": "dev_instruction_0004",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：DEV-78816 和 BOX-41264。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "DEV-78816/BOX-41264"
+    ],
+    "final": "DEV-78816/BOX-41264",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-78816/BOX-41264"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-78816/BOX-41264"
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.2064202000037767,
+    "grade": null
+  },
+  "dev_instruction_0005_no_tools": {
+    "task_id": "dev_instruction_0005_no_tools",
+    "id": "dev_instruction_0005",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-34773",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "DEV-34773"
+    ],
+    "final": "DEV-34773",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-34773"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-34773"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.12118319999717642,
+    "grade": null
+  },
+  "dev_instruction_0005_six_original": {
+    "task_id": "dev_instruction_0005_six_original",
+    "id": "dev_instruction_0005",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-34773",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "DEV-34773"
+    ],
+    "final": "DEV-34773",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-34773"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-34773"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.12332270000479184,
+    "grade": null
+  },
+  "dev_instruction_0005_six_reworded": {
+    "task_id": "dev_instruction_0005_six_reworded",
+    "id": "dev_instruction_0005",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-34773",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "DEV-34773"
+    ],
+    "final": "DEV-34773",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-34773"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-34773"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.1245236999966437,
+    "grade": null
+  },
+  "dev_instruction_0006_no_tools": {
+    "task_id": "dev_instruction_0006_no_tools",
+    "id": "dev_instruction_0006",
+    "question": "请只输出第二个编号：DEV-43409，BOX-42918。不要加说明。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "BOX-42918"
+    ],
+    "final": "BOX-42918",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "BOX-42918"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "BOX-42918"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.09867880000092555,
+    "grade": null
+  },
+  "dev_instruction_0006_six_original": {
+    "task_id": "dev_instruction_0006_six_original",
+    "id": "dev_instruction_0006",
+    "question": "请只输出第二个编号：DEV-43409，BOX-42918。不要加说明。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "DEV-43409"
+    ],
+    "final": "DEV-43409",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-43409"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-43409"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.11468240000249352,
+    "grade": null
+  },
+  "dev_instruction_0006_six_reworded": {
+    "task_id": "dev_instruction_0006_six_reworded",
+    "id": "dev_instruction_0006",
+    "question": "请只输出第二个编号：DEV-43409，BOX-42918。不要加说明。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "DEV-43409"
+    ],
+    "final": "DEV-43409",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-43409"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-43409"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.1157975000096485,
+    "grade": null
+  },
+  "dev_instruction_0007_no_tools": {
+    "task_id": "dev_instruction_0007_no_tools",
+    "id": "dev_instruction_0007",
+    "question": "The note contains code DEV-46145, but no owner. Who is the owner? Reply only \"Not provided\" if missing.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "Not provided"
+    ],
+    "final": "Not provided",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Not provided"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Not provided"
+      }
+    ],
+    "generated_tokens": 4,
+    "generation_seconds": 0.04993819999799598,
+    "grade": null
+  },
+  "dev_instruction_0007_six_original": {
+    "task_id": "dev_instruction_0007_six_original",
+    "id": "dev_instruction_0007",
+    "question": "The note contains code DEV-46145, but no owner. Who is the owner? Reply only \"Not provided\" if missing.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "Not provided"
+    ],
+    "final": "Not provided",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Not provided"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Not provided"
+      }
+    ],
+    "generated_tokens": 4,
+    "generation_seconds": 0.057858200001646765,
+    "grade": null
+  },
+  "dev_instruction_0007_six_reworded": {
+    "task_id": "dev_instruction_0007_six_reworded",
+    "id": "dev_instruction_0007",
+    "question": "The note contains code DEV-46145, but no owner. Who is the owner? Reply only \"Not provided\" if missing.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "Not provided"
+    ],
+    "final": "Not provided",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Not provided"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Not provided"
+      }
+    ],
+    "generated_tokens": 4,
+    "generation_seconds": 0.05846179999934975,
+    "grade": null
+  },
+  "dev_instruction_0008_no_tools": {
+    "task_id": "dev_instruction_0008_no_tools",
+    "id": "dev_instruction_0008",
+    "question": "请把“DEV-14559”放在圆括号里，只输出加好括号的文本。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "(DEV-14559)"
+    ],
+    "final": "(DEV-14559)",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "(DEV-14559)"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "(DEV-14559)"
+      }
+    ],
+    "generated_tokens": 11,
+    "generation_seconds": 0.12790620001032948,
+    "grade": null
+  },
+  "dev_instruction_0008_six_original": {
+    "task_id": "dev_instruction_0008_six_original",
+    "id": "dev_instruction_0008",
+    "question": "请把“DEV-14559”放在圆括号里，只输出加好括号的文本。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "(DEV-14559)"
+    ],
+    "final": "(DEV-14559)",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "(DEV-14559)"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "(DEV-14559)"
+      }
+    ],
+    "generated_tokens": 11,
+    "generation_seconds": 0.14015829999698326,
+    "grade": null
+  },
+  "dev_instruction_0008_six_reworded": {
+    "task_id": "dev_instruction_0008_six_reworded",
+    "id": "dev_instruction_0008",
+    "question": "请把“DEV-14559”放在圆括号里，只输出加好括号的文本。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "(DEV-14559)"
+    ],
+    "final": "(DEV-14559)",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "(DEV-14559)"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "(DEV-14559)"
+      }
+    ],
+    "generated_tokens": 11,
+    "generation_seconds": 0.140807700008736,
+    "grade": null
+  },
+  "dev_instruction_0009_no_tools": {
+    "task_id": "dev_instruction_0009_no_tools",
+    "id": "dev_instruction_0009",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：DEV-28672 和 BOX-85704。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "DEV-28672/BOX-85704"
+    ],
+    "final": "DEV-28672/BOX-85704",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-28672/BOX-85704"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-28672/BOX-85704"
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.20553530000324827,
+    "grade": null
+  },
+  "dev_instruction_0009_six_original": {
+    "task_id": "dev_instruction_0009_six_original",
+    "id": "dev_instruction_0009",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：DEV-28672 和 BOX-85704。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "DEV-28672/BOX-85704"
+    ],
+    "final": "DEV-28672/BOX-85704",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-28672/BOX-85704"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-28672/BOX-85704"
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.2061348999995971,
+    "grade": null
+  },
+  "dev_instruction_0009_six_reworded": {
+    "task_id": "dev_instruction_0009_six_reworded",
+    "id": "dev_instruction_0009",
+    "question": "请把以下两项用一个斜杠连接，不加空格或说明：DEV-28672 和 BOX-85704。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "DEV-28672/BOX-85704"
+    ],
+    "final": "DEV-28672/BOX-85704",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-28672/BOX-85704"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-28672/BOX-85704"
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.20602430000144523,
+    "grade": null
+  },
+  "dev_instruction_0010_no_tools": {
+    "task_id": "dev_instruction_0010_no_tools",
+    "id": "dev_instruction_0010",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-28041",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "DEV-28041"
+    ],
+    "final": "DEV-28041",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-28041"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-28041"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.10584329999983311,
+    "grade": null
+  },
+  "dev_instruction_0010_six_original": {
+    "task_id": "dev_instruction_0010_six_original",
+    "id": "dev_instruction_0010",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-28041",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "DEV-28041"
+    ],
+    "final": "DEV-28041",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-28041"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-28041"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.11580730001151096,
+    "grade": null
+  },
+  "dev_instruction_0010_six_reworded": {
+    "task_id": "dev_instruction_0010_six_reworded",
+    "id": "dev_instruction_0010",
+    "question": "把下面文本原样写一遍，只输出文本本身：DEV-28041",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "DEV-28041"
+    ],
+    "final": "DEV-28041",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "DEV-28041"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "DEV-28041"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.12269210000522435,
+    "grade": null
+  },
+  "dev_instruction_0011_no_tools": {
+    "task_id": "dev_instruction_0011_no_tools",
+    "id": "dev_instruction_0011",
+    "question": "Return only the second code: DEV-57862, BOX-25068. No explanation.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "BOX-25068"
+    ],
+    "final": "BOX-25068",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "BOX-25068"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "BOX-25068"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.10859530000016093,
+    "grade": null
+  },
+  "dev_instruction_0011_six_original": {
+    "task_id": "dev_instruction_0011_six_original",
+    "id": "dev_instruction_0011",
+    "question": "Return only the second code: DEV-57862, BOX-25068. No explanation.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "BOX-25068"
+    ],
+    "final": "BOX-25068",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "BOX-25068"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "BOX-25068"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.11711840001225937,
+    "grade": null
+  },
+  "dev_instruction_0011_six_reworded": {
+    "task_id": "dev_instruction_0011_six_reworded",
+    "id": "dev_instruction_0011",
+    "question": "Return only the second code: DEV-57862, BOX-25068. No explanation.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "BOX-25068"
+    ],
+    "final": "BOX-25068",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "BOX-25068"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "BOX-25068"
+      }
+    ],
+    "generated_tokens": 9,
+    "generation_seconds": 0.11823250001179986,
+    "grade": null
+  },
+  "dev_explanation_0000_no_tools": {
+    "task_id": "dev_explanation_0000_no_tools",
+    "id": "dev_explanation_0000",
+    "question": "为什么整理书架时给不同区域命名有用？请用一两句直白的话回答。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "整理书架是一个有趣且富有意义的过程，有助于提高阅读效率。"
+    ],
+    "final": "整理书架是一个有趣且富有意义的过程，有助于提高阅读效率。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "整理书架是一个有趣且富有意义的过程，有助于提高阅读效率。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "整理书架是一个有趣且富有意义的过程，有助于提高阅读效率。"
+      }
+    ],
+    "generated_tokens": 18,
+    "generation_seconds": 0.24550749998888932,
+    "grade": null
+  },
+  "dev_explanation_0000_six_original": {
+    "task_id": "dev_explanation_0000_six_original",
+    "id": "dev_explanation_0000",
+    "question": "为什么整理书架时给不同区域命名有用？请用一两句直白的话回答。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "整理书架不仅美观，还能促进新手理解，提高书架的实用性。"
+    ],
+    "final": "整理书架不仅美观，还能促进新手理解，提高书架的实用性。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "整理书架不仅美观，还能促进新手理解，提高书架的实用性。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "整理书架不仅美观，还能促进新手理解，提高书架的实用性。"
+      }
+    ],
+    "generated_tokens": 22,
+    "generation_seconds": 0.2588071000063792,
+    "grade": null
+  },
+  "dev_explanation_0000_six_reworded": {
+    "task_id": "dev_explanation_0000_six_reworded",
+    "id": "dev_explanation_0000",
+    "question": "为什么整理书架时给不同区域命名有用？请用一两句直白的话回答。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "整理书架不仅美观，还能促进新手理解，提高书架的实用性。"
+    ],
+    "final": "整理书架不仅美观，还能促进新手理解，提高书架的实用性。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "整理书架不仅美观，还能促进新手理解，提高书架的实用性。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "整理书架不仅美观，还能促进新手理解，提高书架的实用性。"
+      }
+    ],
+    "generated_tokens": 22,
+    "generation_seconds": 0.2649115999956848,
+    "grade": null
+  },
+  "dev_explanation_0001_no_tools": {
+    "task_id": "dev_explanation_0001_no_tools",
+    "id": "dev_explanation_0001",
+    "question": "为什么活动报名结束后要核对名单？请用一两句直白的话回答。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "为了确保参与活动的顺利进行，请记得核对所有相关的信息和资料。"
+    ],
+    "final": "为了确保参与活动的顺利进行，请记得核对所有相关的信息和资料。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "为了确保参与活动的顺利进行，请记得核对所有相关的信息和资料。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "为了确保参与活动的顺利进行，请记得核对所有相关的信息和资料。"
+      }
+    ],
+    "generated_tokens": 20,
+    "generation_seconds": 0.23891479999292642,
+    "grade": null
+  },
+  "dev_explanation_0001_six_original": {
+    "task_id": "dev_explanation_0001_six_original",
+    "id": "dev_explanation_0001",
+    "question": "为什么活动报名结束后要核对名单？请用一两句直白的话回答。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "为了确保活动的完整性和公正性，请记得在活动结束时提交给所有参会者。"
+    ],
+    "final": "为了确保活动的完整性和公正性，请记得在活动结束时提交给所有参会者。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "为了确保活动的完整性和公正性，请记得在活动结束时提交给所有参会者。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "为了确保活动的完整性和公正性，请记得在活动结束时提交给所有参会者。"
+      }
+    ],
+    "generated_tokens": 25,
+    "generation_seconds": 0.2974506000027759,
+    "grade": null
+  },
+  "dev_explanation_0001_six_reworded": {
+    "task_id": "dev_explanation_0001_six_reworded",
+    "id": "dev_explanation_0001",
+    "question": "为什么活动报名结束后要核对名单？请用一两句直白的话回答。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "为了确保活动的完整性和公正性，请记得在活动结束时提交给所有参会者。"
+    ],
+    "final": "为了确保活动的完整性和公正性，请记得在活动结束时提交给所有参会者。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "为了确保活动的完整性和公正性，请记得在活动结束时提交给所有参会者。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "为了确保活动的完整性和公正性，请记得在活动结束时提交给所有参会者。"
+      }
+    ],
+    "generated_tokens": 25,
+    "generation_seconds": 0.29896139999618754,
+    "grade": null
+  },
+  "dev_explanation_0002_no_tools": {
+    "task_id": "dev_explanation_0002_no_tools",
+    "id": "dev_explanation_0002",
+    "question": "为什么发出修改后的安排时要说明哪些地方变了？请用一两句直白的话回答。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "因为这样可以让对方知道如何修改计划，避免误解，提高行动成功率。"
+    ],
+    "final": "因为这样可以让对方知道如何修改计划，避免误解，提高行动成功率。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "因为这样可以让对方知道如何修改计划，避免误解，提高行动成功率。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "因为这样可以让对方知道如何修改计划，避免误解，提高行动成功率。"
+      }
+    ],
+    "generated_tokens": 20,
+    "generation_seconds": 0.24959999999555293,
+    "grade": null
+  },
+  "dev_explanation_0002_six_original": {
+    "task_id": "dev_explanation_0002_six_original",
+    "id": "dev_explanation_0002",
+    "question": "为什么发出修改后的安排时要说明哪些地方变了？请用一两句直白的话回答。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "因为这样可以让计划看起来更具体、更清晰，便于后续行动和规划。"
+    ],
+    "final": "因为这样可以让计划看起来更具体、更清晰，便于后续行动和规划。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "因为这样可以让计划看起来更具体、更清晰，便于后续行动和规划。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "因为这样可以让计划看起来更具体、更清晰，便于后续行动和规划。"
+      }
+    ],
+    "generated_tokens": 20,
+    "generation_seconds": 0.2387200999946799,
+    "grade": null
+  },
+  "dev_explanation_0002_six_reworded": {
+    "task_id": "dev_explanation_0002_six_reworded",
+    "id": "dev_explanation_0002",
+    "question": "为什么发出修改后的安排时要说明哪些地方变了？请用一两句直白的话回答。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "因为这样可以让计划看起来更具体、更清晰，便于后续行动和更改。"
+    ],
+    "final": "因为这样可以让计划看起来更具体、更清晰，便于后续行动和更改。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "因为这样可以让计划看起来更具体、更清晰，便于后续行动和更改。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "因为这样可以让计划看起来更具体、更清晰，便于后续行动和更改。"
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.24967830000969116,
+    "grade": null
+  },
+  "dev_explanation_0003_no_tools": {
+    "task_id": "dev_explanation_0003_no_tools",
+    "id": "dev_explanation_0003",
+    "question": "为什么一份说明的标题应与内容相符？请用一两句直白的话回答。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "一份说明标题可以简洁地传达原文的信息，便于后续的分析和撰写。"
+    ],
+    "final": "一份说明标题可以简洁地传达原文的信息，便于后续的分析和撰写。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "一份说明标题可以简洁地传达原文的信息，便于后续的分析和撰写。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "一份说明标题可以简洁地传达原文的信息，便于后续的分析和撰写。"
+      }
+    ],
+    "generated_tokens": 23,
+    "generation_seconds": 0.2687013999966439,
+    "grade": null
+  },
+  "dev_explanation_0003_six_original": {
+    "task_id": "dev_explanation_0003_six_original",
+    "id": "dev_explanation_0003",
+    "question": "为什么一份说明的标题应与内容相符？请用一两句直白的话回答。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "一份说明的标题应该简洁明了，能够快速传达内容的完整性和准确性。"
+    ],
+    "final": "一份说明的标题应该简洁明了，能够快速传达内容的完整性和准确性。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "一份说明的标题应该简洁明了，能够快速传达内容的完整性和准确性。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "一份说明的标题应该简洁明了，能够快速传达内容的完整性和准确性。"
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.26599659999192227,
+    "grade": null
+  },
+  "dev_explanation_0003_six_reworded": {
+    "task_id": "dev_explanation_0003_six_reworded",
+    "id": "dev_explanation_0003",
+    "question": "为什么一份说明的标题应与内容相符？请用一两句直白的话回答。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "一份说明的标题应该简洁明了，能够快速传达内容的完整性和准确性。"
+    ],
+    "final": "一份说明的标题应该简洁明了，能够快速传达内容的完整性和准确性。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "一份说明的标题应该简洁明了，能够快速传达内容的完整性和准确性。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "一份说明的标题应该简洁明了，能够快速传达内容的完整性和准确性。"
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.2579692999861436,
+    "grade": null
+  },
+  "dev_explanation_0004_no_tools": {
+    "task_id": "dev_explanation_0004_no_tools",
+    "id": "dev_explanation_0004",
+    "question": "为什么汇总意见时要保留少数人的不同看法？请用一两句直白的话回答。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "汇总意见时，保留少数人的不同看法是非常重要的。这样可以确保每一位用户都能得到他们想要的信息，避免误解和偏见。"
+    ],
+    "final": "汇总意见时，保留少数人的不同看法是非常重要的。这样可以确保每一位用户都能得到他们想要的信息，避免误解和偏见。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "汇总意见时，保留少数人的不同看法是非常重要的。这样可以确保每一位用户都能得到他们想要的信息，避免误解和偏见。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "汇总意见时，保留少数人的不同看法是非常重要的。这样可以确保每一位用户都能得到他们想要的信息，避免误解和偏见。"
+      }
+    ],
+    "generated_tokens": 36,
+    "generation_seconds": 0.42008609999902546,
+    "grade": null
+  },
+  "dev_explanation_0004_six_original": {
+    "task_id": "dev_explanation_0004_six_original",
+    "id": "dev_explanation_0004",
+    "question": "为什么汇总意见时要保留少数人的不同看法？请用一两句直白的话回答。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "保留少数人的不同看法是确保总结准确性的关键，避免误导他人。"
+    ],
+    "final": "保留少数人的不同看法是确保总结准确性的关键，避免误导他人。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "保留少数人的不同看法是确保总结准确性的关键，避免误导他人。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "保留少数人的不同看法是确保总结准确性的关键，避免误导他人。"
+      }
+    ],
+    "generated_tokens": 20,
+    "generation_seconds": 0.27676599999540485,
+    "grade": null
+  },
+  "dev_explanation_0004_six_reworded": {
+    "task_id": "dev_explanation_0004_six_reworded",
+    "id": "dev_explanation_0004",
+    "question": "为什么汇总意见时要保留少数人的不同看法？请用一两句直白的话回答。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "保留少数人的不同看法是确保总结准确和简洁的，有助于避免误解和错误的分析。"
+    ],
+    "final": "保留少数人的不同看法是确保总结准确和简洁的，有助于避免误解和错误的分析。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "保留少数人的不同看法是确保总结准确和简洁的，有助于避免误解和错误的分析。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "保留少数人的不同看法是确保总结准确和简洁的，有助于避免误解和错误的分析。"
+      }
+    ],
+    "generated_tokens": 25,
+    "generation_seconds": 0.30356359999859706,
+    "grade": null
+  },
+  "dev_explanation_0005_no_tools": {
+    "task_id": "dev_explanation_0005_no_tools",
+    "id": "dev_explanation_0005",
+    "question": "为什么写地址时只给街道名有时还不够？请用一两句直白的话回答。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "在写地址时，确保信息准确无误地记录在地址中，避免误导读者或误导读者。这样可以帮助他们更好地理解每个位置的含义和含义，从而更好地做出选择。"
+    ],
+    "final": "在写地址时，确保信息准确无误地记录在地址中，避免误导读者或误导读者。这样可以帮助他们更好地理解每个位置的含义和含义，从而更好地做出选择。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "在写地址时，确保信息准确无误地记录在地址中，避免误导读者或误导读者。这样可以帮助他们更好地理解每个位置的含义和含义，从而更好地做出选择。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "在写地址时，确保信息准确无误地记录在地址中，避免误导读者或误导读者。这样可以帮助他们更好地理解每个位置的含义和含义，从而更好地做出选择。"
+      }
+    ],
+    "generated_tokens": 42,
+    "generation_seconds": 0.4943125999998301,
+    "grade": null
+  },
+  "dev_explanation_0005_six_original": {
+    "task_id": "dev_explanation_0005_six_original",
+    "id": "dev_explanation_0005",
+    "question": "为什么写地址时只给街道名有时还不够？请用一两句直白的话回答。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "在写地址时，确保信息准确无误地记录在街道中，避免误解和混淆。这样可以避免误解不清的信息，确保地址能够准确识别和组织信息。"
+    ],
+    "final": "在写地址时，确保信息准确无误地记录在街道中，避免误解和混淆。这样可以避免误解不清的信息，确保地址能够准确识别和组织信息。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "在写地址时，确保信息准确无误地记录在街道中，避免误解和混淆。这样可以避免误解不清的信息，确保地址能够准确识别和组织信息。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "在写地址时，确保信息准确无误地记录在街道中，避免误解和混淆。这样可以避免误解不清的信息，确保地址能够准确识别和组织信息。"
+      }
+    ],
+    "generated_tokens": 45,
+    "generation_seconds": 0.532017999998061,
+    "grade": null
+  },
+  "dev_explanation_0005_six_reworded": {
+    "task_id": "dev_explanation_0005_six_reworded",
+    "id": "dev_explanation_0005",
+    "question": "为什么写地址时只给街道名有时还不够？请用一两句直白的话回答。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "在写地址时，确保信息准确无误地记录在街道中，避免误解和混淆。这样可以避免误解不清的信息，从而提高查询效率和准确性。"
+    ],
+    "final": "在写地址时，确保信息准确无误地记录在街道中，避免误解和混淆。这样可以避免误解不清的信息，从而提高查询效率和准确性。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "在写地址时，确保信息准确无误地记录在街道中，避免误解和混淆。这样可以避免误解不清的信息，从而提高查询效率和准确性。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "在写地址时，确保信息准确无误地记录在街道中，避免误解和混淆。这样可以避免误解不清的信息，从而提高查询效率和准确性。"
+      }
+    ],
+    "generated_tokens": 43,
+    "generation_seconds": 0.5762435999931768,
+    "grade": null
+  },
+  "dev_explanation_0006_no_tools": {
+    "task_id": "dev_explanation_0006_no_tools",
+    "id": "dev_explanation_0006",
+    "question": "为什么解释任务时最好说明完成的标准？请用一两句直白的话回答。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "在说明任务时，最好给出一个明确的目的和步骤，这样才能让用户明白每个步骤的范围和重要性。"
+    ],
+    "final": "在说明任务时，最好给出一个明确的目的和步骤，这样才能让用户明白每个步骤的范围和重要性。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "在说明任务时，最好给出一个明确的目的和步骤，这样才能让用户明白每个步骤的范围和重要性。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "在说明任务时，最好给出一个明确的目的和步骤，这样才能让用户明白每个步骤的范围和重要性。"
+      }
+    ],
+    "generated_tokens": 30,
+    "generation_seconds": 0.34439099999144673,
+    "grade": null
+  },
+  "dev_explanation_0006_six_original": {
+    "task_id": "dev_explanation_0006_six_original",
+    "id": "dev_explanation_0006",
+    "question": "为什么解释任务时最好说明完成的标准？请用一两句直白的话回答。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "在说明任务时，清晰地说明项目的名称、目标和范围，避免误导用户或读者。这样可以确保解释准确且易于理解。"
+    ],
+    "final": "在说明任务时，清晰地说明项目的名称、目标和范围，避免误导用户或读者。这样可以确保解释准确且易于理解。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "在说明任务时，清晰地说明项目的名称、目标和范围，避免误导用户或读者。这样可以确保解释准确且易于理解。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "在说明任务时，清晰地说明项目的名称、目标和范围，避免误导用户或读者。这样可以确保解释准确且易于理解。"
+      }
+    ],
+    "generated_tokens": 33,
+    "generation_seconds": 0.3874248000065563,
+    "grade": null
+  },
+  "dev_explanation_0006_six_reworded": {
+    "task_id": "dev_explanation_0006_six_reworded",
+    "id": "dev_explanation_0006",
+    "question": "为什么解释任务时最好说明完成的标准？请用一两句直白的话回答。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "在完成任务时，清晰地说明项目的名称、目标和成果，便于理解每个部分的作用和重要性。"
+    ],
+    "final": "在完成任务时，清晰地说明项目的名称、目标和成果，便于理解每个部分的作用和重要性。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "在完成任务时，清晰地说明项目的名称、目标和成果，便于理解每个部分的作用和重要性。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "在完成任务时，清晰地说明项目的名称、目标和成果，便于理解每个部分的作用和重要性。"
+      }
+    ],
+    "generated_tokens": 28,
+    "generation_seconds": 0.3397205000073882,
+    "grade": null
+  },
+  "dev_explanation_0007_no_tools": {
+    "task_id": "dev_explanation_0007_no_tools",
+    "id": "dev_explanation_0007",
+    "question": "为什么把东西按大小排好有时便于寻找？请用一两句直白的话回答。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "将东西按大小排好是为了便于找到和拿取。"
+    ],
+    "final": "将东西按大小排好是为了便于找到和拿取。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "将东西按大小排好是为了便于找到和拿取。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "将东西按大小排好是为了便于找到和拿取。"
+      }
+    ],
+    "generated_tokens": 18,
+    "generation_seconds": 0.21649920000345446,
+    "grade": null
+  },
+  "dev_explanation_0007_six_original": {
+    "task_id": "dev_explanation_0007_six_original",
+    "id": "dev_explanation_0007",
+    "question": "为什么把东西按大小排好有时便于寻找？请用一两句直白的话回答。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "将东西按大小排好是为了便于找到和拿取。"
+    ],
+    "final": "将东西按大小排好是为了便于找到和拿取。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "将东西按大小排好是为了便于找到和拿取。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "将东西按大小排好是为了便于找到和拿取。"
+      }
+    ],
+    "generated_tokens": 18,
+    "generation_seconds": 0.22067820001393557,
+    "grade": null
+  },
+  "dev_explanation_0007_six_reworded": {
+    "task_id": "dev_explanation_0007_six_reworded",
+    "id": "dev_explanation_0007",
+    "question": "为什么把东西按大小排好有时便于寻找？请用一两句直白的话回答。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "方便的话，你可以先用一个常见的物品来找找，比如水果、绘画、玩具等，这样更容易找到。"
+    ],
+    "final": "方便的话，你可以先用一个常见的物品来找找，比如水果、绘画、玩具等，这样更容易找到。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "方便的话，你可以先用一个常见的物品来找找，比如水果、绘画、玩具等，这样更容易找到。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "方便的话，你可以先用一个常见的物品来找找，比如水果、绘画、玩具等，这样更容易找到。"
+      }
+    ],
+    "generated_tokens": 29,
+    "generation_seconds": 0.3446559000003617,
+    "grade": null
+  },
+  "dev_explanation_0008_no_tools": {
+    "task_id": "dev_explanation_0008_no_tools",
+    "id": "dev_explanation_0008",
+    "question": "为什么修改共享文件前了解大家的约定有用？请用一两句直白的话回答。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "在修改共享文件之前，了解大家的约定有助于确保信息的准确性和一致性。"
+    ],
+    "final": "在修改共享文件之前，了解大家的约定有助于确保信息的准确性和一致性。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "在修改共享文件之前，了解大家的约定有助于确保信息的准确性和一致性。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "在修改共享文件之前，了解大家的约定有助于确保信息的准确性和一致性。"
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.24409900000318885,
+    "grade": null
+  },
+  "dev_explanation_0008_six_original": {
+    "task_id": "dev_explanation_0008_six_original",
+    "id": "dev_explanation_0008",
+    "question": "为什么修改共享文件前了解大家的约定有用？请用一两句直白的话回答。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "在用户与合作伙伴沟通时，大家可以根据之前的约定提供约定帮助或推荐合适的资源。"
+    ],
+    "final": "在用户与合作伙伴沟通时，大家可以根据之前的约定提供约定帮助或推荐合适的资源。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "在用户与合作伙伴沟通时，大家可以根据之前的约定提供约定帮助或推荐合适的资源。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "在用户与合作伙伴沟通时，大家可以根据之前的约定提供约定帮助或推荐合适的资源。"
+      }
+    ],
+    "generated_tokens": 25,
+    "generation_seconds": 0.3029512000066461,
+    "grade": null
+  },
+  "dev_explanation_0008_six_reworded": {
+    "task_id": "dev_explanation_0008_six_reworded",
+    "id": "dev_explanation_0008",
+    "question": "为什么修改共享文件前了解大家的约定有用？请用一两句直白的话回答。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "在用户与不同角色的对话中，确认约定有助于确保信息的准确性和一致性。"
+    ],
+    "final": "在用户与不同角色的对话中，确认约定有助于确保信息的准确性和一致性。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "在用户与不同角色的对话中，确认约定有助于确保信息的准确性和一致性。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "在用户与不同角色的对话中，确认约定有助于确保信息的准确性和一致性。"
+      }
+    ],
+    "generated_tokens": 21,
+    "generation_seconds": 0.25651949999155477,
+    "grade": null
+  },
+  "dev_explanation_0009_no_tools": {
+    "task_id": "dev_explanation_0009_no_tools",
+    "id": "dev_explanation_0009",
+    "question": "Why should a handover note mention unfinished tasks? Use one or two simple sentences.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "Could you please take a look at the expected task for a new task?"
+    ],
+    "final": "Could you please take a look at the expected task for a new task?",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Could you please take a look at the expected task for a new task?"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Could you please take a look at the expected task for a new task?"
+      }
+    ],
+    "generated_tokens": 19,
+    "generation_seconds": 0.22067319999041501,
+    "grade": null
+  },
+  "dev_explanation_0009_six_original": {
+    "task_id": "dev_explanation_0009_six_original",
+    "id": "dev_explanation_0009",
+    "question": "Why should a handover note mention unfinished tasks? Use one or two simple sentences.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+    ],
+    "final": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "I am MiniMind, customized by Yuyang LU based on jingyaogong's original MiniMind project."
+      }
+    ],
+    "generated_tokens": 35,
+    "generation_seconds": 0.4193258000013884,
+    "grade": null
+  },
+  "dev_explanation_0009_six_reworded": {
+    "task_id": "dev_explanation_0009_six_reworded",
+    "id": "dev_explanation_0009",
+    "question": "Why should a handover note mention unfinished tasks? Use one or two simple sentences.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "Could you please provide me with the text and the main points for clarity?"
+    ],
+    "final": "Could you please provide me with the text and the main points for clarity?",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Could you please provide me with the text and the main points for clarity?"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Could you please provide me with the text and the main points for clarity?"
+      }
+    ],
+    "generated_tokens": 18,
+    "generation_seconds": 0.2171993000083603,
+    "grade": null
+  },
+  "dev_explanation_0010_no_tools": {
+    "task_id": "dev_explanation_0010_no_tools",
+    "id": "dev_explanation_0010",
+    "question": "Why is a labeled diagram easier to discuss? Use one or two simple sentences.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "A labeled diagram is used to indicate the position or difference between two domains."
+    ],
+    "final": "A labeled diagram is used to indicate the position or difference between two domains.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "A labeled diagram is used to indicate the position or difference between two domains."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "A labeled diagram is used to indicate the position or difference between two domains."
+      }
+    ],
+    "generated_tokens": 26,
+    "generation_seconds": 0.3085927000065567,
+    "grade": null
+  },
+  "dev_explanation_0010_six_original": {
+    "task_id": "dev_explanation_0010_six_original",
+    "id": "dev_explanation_0010",
+    "question": "Why is a labeled diagram easier to discuss? Use one or two simple sentences.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "A labeled diagram is used to ask for me to discuss."
+    ],
+    "final": "A labeled diagram is used to ask for me to discuss.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "A labeled diagram is used to ask for me to discuss."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "A labeled diagram is used to ask for me to discuss."
+      }
+    ],
+    "generated_tokens": 18,
+    "generation_seconds": 0.24314900000172202,
+    "grade": null
+  },
+  "dev_explanation_0010_six_reworded": {
+    "task_id": "dev_explanation_0010_six_reworded",
+    "id": "dev_explanation_0010",
+    "question": "Why is a labeled diagram easier to discuss? Use one or two simple sentences.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "A labeled diagram is used to ask for me to discuss."
+    ],
+    "final": "A labeled diagram is used to ask for me to discuss.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "A labeled diagram is used to ask for me to discuss."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "A labeled diagram is used to ask for me to discuss."
+      }
+    ],
+    "generated_tokens": 18,
+    "generation_seconds": 0.2226686000067275,
+    "grade": null
+  },
+  "dev_explanation_0011_no_tools": {
+    "task_id": "dev_explanation_0011_no_tools",
+    "id": "dev_explanation_0011",
+    "question": "Why can repeating an unclear instruction help? Use one or two simple sentences.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "Explain examples of instruction helps release the environment and is not necessary to guide your actions."
+    ],
+    "final": "Explain examples of instruction helps release the environment and is not necessary to guide your actions.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Explain examples of instruction helps release the environment and is not necessary to guide your actions."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Explain examples of instruction helps release the environment and is not necessary to guide your actions."
+      }
+    ],
+    "generated_tokens": 30,
+    "generation_seconds": 0.3445361999911256,
+    "grade": null
+  },
+  "dev_explanation_0011_six_original": {
+    "task_id": "dev_explanation_0011_six_original",
+    "id": "dev_explanation_0011",
+    "question": "Why can repeating an unclear instruction help? Use one or two simple sentences.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "Could you please turn the instruction? By correct the instruction, please?"
+    ],
+    "final": "Could you please turn the instruction? By correct the instruction, please?",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Could you please turn the instruction? By correct the instruction, please?"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Could you please turn the instruction? By correct the instruction, please?"
+      }
+    ],
+    "generated_tokens": 22,
+    "generation_seconds": 0.26763600000413135,
+    "grade": null
+  },
+  "dev_explanation_0011_six_reworded": {
+    "task_id": "dev_explanation_0011_six_reworded",
+    "id": "dev_explanation_0011",
+    "question": "Why can repeating an unclear instruction help? Use one or two simple sentences.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "Could you please turn the instruction? By correct the instruction, please?"
+    ],
+    "final": "Could you please turn the instruction? By correct the instruction, please?",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Could you please turn the instruction? By correct the instruction, please?"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Could you please turn the instruction? By correct the instruction, please?"
+      }
+    ],
+    "generated_tokens": 22,
+    "generation_seconds": 0.2955064999987371,
+    "grade": null
+  },
+  "dev_writing_0000_no_tools": {
+    "task_id": "dev_writing_0000_no_tools",
+    "id": "dev_writing_0000",
+    "question": "请直接写一条简短消息，帮我请朋友替我保留一张空白便签。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "请将空白的便签按照要求进行保留。"
+    ],
+    "final": "请将空白的便签按照要求进行保留。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "请将空白的便签按照要求进行保留。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "请将空白的便签按照要求进行保留。"
+      }
+    ],
+    "generated_tokens": 13,
+    "generation_seconds": 0.15519820000918116,
+    "grade": null
+  },
+  "dev_writing_0000_six_original": {
+    "task_id": "dev_writing_0000_six_original",
+    "id": "dev_writing_0000",
+    "question": "请直接写一条简短消息，帮我请朋友替我保留一张空白便签。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "请将空白的邮箱地址发送给我，我们会根据您的邮箱地址进行进一步修改和补偿。"
+    ],
+    "final": "请将空白的邮箱地址发送给我，我们会根据您的邮箱地址进行进一步修改和补偿。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "请将空白的邮箱地址发送给我，我们会根据您的邮箱地址进行进一步修改和补偿。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "请将空白的邮箱地址发送给我，我们会根据您的邮箱地址进行进一步修改和补偿。"
+      }
+    ],
+    "generated_tokens": 27,
+    "generation_seconds": 0.32145829999353737,
+    "grade": null
+  },
+  "dev_writing_0000_six_reworded": {
+    "task_id": "dev_writing_0000_six_reworded",
+    "id": "dev_writing_0000",
+    "question": "请直接写一条简短消息，帮我请朋友替我保留一张空白便签。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840000,
+    "turns": [
+      "请将空白的邮箱地址发送给我，我们会根据你的描述进行处理。"
+    ],
+    "final": "请将空白的邮箱地址发送给我，我们会根据你的描述进行处理。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "请将空白的邮箱地址发送给我，我们会根据你的描述进行处理。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "请将空白的邮箱地址发送给我，我们会根据你的描述进行处理。"
+      }
+    ],
+    "generated_tokens": 22,
+    "generation_seconds": 0.2623966999963159,
+    "grade": null
+  },
+  "dev_writing_0001_no_tools": {
+    "task_id": "dev_writing_0001_no_tools",
+    "id": "dev_writing_0001",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我检查目录页。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "非常感谢你帮我检查目录页！"
+    ],
+    "final": "非常感谢你帮我检查目录页！",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你帮我检查目录页！"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你帮我检查目录页！"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.11881549999816343,
+    "grade": null
+  },
+  "dev_writing_0001_six_original": {
+    "task_id": "dev_writing_0001_six_original",
+    "id": "dev_writing_0001",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我检查目录页。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "非常感谢你帮我检查目录页！"
+    ],
+    "final": "非常感谢你帮我检查目录页！",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你帮我检查目录页！"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你帮我检查目录页！"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.1297189999895636,
+    "grade": null
+  },
+  "dev_writing_0001_six_reworded": {
+    "task_id": "dev_writing_0001_six_reworded",
+    "id": "dev_writing_0001",
+    "question": "请直接写一条简短消息，帮我感谢同学帮我检查目录页。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840017,
+    "turns": [
+      "非常感谢你帮我检查目录页！"
+    ],
+    "final": "非常感谢你帮我检查目录页！",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你帮我检查目录页！"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你帮我检查目录页！"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.12915989999601152,
+    "grade": null
+  },
+  "dev_writing_0002_no_tools": {
+    "task_id": "dev_writing_0002_no_tools",
+    "id": "dev_writing_0002",
+    "question": "请直接写一条简短消息，帮我告诉伙伴展板已经送到大厅。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "请问您需要什么帮助？"
+    ],
+    "final": "请问您需要什么帮助？",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "请问您需要什么帮助？"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "请问您需要什么帮助？"
+      }
+    ],
+    "generated_tokens": 7,
+    "generation_seconds": 0.08374960000219289,
+    "grade": null
+  },
+  "dev_writing_0002_six_original": {
+    "task_id": "dev_writing_0002_six_original",
+    "id": "dev_writing_0002",
+    "question": "请直接写一条简短消息，帮我告诉伙伴展板已经送到大厅。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "请问您需要什么帮助吗？"
+    ],
+    "final": "请问您需要什么帮助吗？",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "请问您需要什么帮助吗？"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "请问您需要什么帮助吗？"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.10540329999639653,
+    "grade": null
+  },
+  "dev_writing_0002_six_reworded": {
+    "task_id": "dev_writing_0002_six_reworded",
+    "id": "dev_writing_0002",
+    "question": "请直接写一条简短消息，帮我告诉伙伴展板已经送到大厅。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840034,
+    "turns": [
+      "请问您需要什么帮助吗？"
+    ],
+    "final": "请问您需要什么帮助吗？",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "请问您需要什么帮助吗？"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "请问您需要什么帮助吗？"
+      }
+    ],
+    "generated_tokens": 8,
+    "generation_seconds": 0.10602469999867026,
+    "grade": null
+  },
+  "dev_writing_0003_no_tools": {
+    "task_id": "dev_writing_0003_no_tools",
+    "id": "dev_writing_0003",
+    "question": "请直接写一条简短消息，帮我向同学询问打印材料的截止日期。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "请问你是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+    ],
+    "final": "请问你是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "请问你是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "请问你是MiniMind，由Yuyang LU基于jingyaogong的原始MiniMind项目进行本地定制。"
+      }
+    ],
+    "generated_tokens": 37,
+    "generation_seconds": 0.4362406000000192,
+    "grade": null
+  },
+  "dev_writing_0003_six_original": {
+    "task_id": "dev_writing_0003_six_original",
+    "id": "dev_writing_0003",
+    "question": "请直接写一条简短消息，帮我向同学询问打印材料的截止日期。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "请问您能帮我找到所需材料吗？"
+    ],
+    "final": "请问您能帮我找到所需材料吗？",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "请问您能帮我找到所需材料吗？"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "请问您能帮我找到所需材料吗？"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.13445620000129566,
+    "grade": null
+  },
+  "dev_writing_0003_six_reworded": {
+    "task_id": "dev_writing_0003_six_reworded",
+    "id": "dev_writing_0003",
+    "question": "请直接写一条简短消息，帮我向同学询问打印材料的截止日期。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840051,
+    "turns": [
+      "请问你想问我怎么做吗？"
+    ],
+    "final": "请问你想问我怎么做吗？",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "请问你想问我怎么做吗？"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "请问你想问我怎么做吗？"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.1324260000110371,
+    "grade": null
+  },
+  "dev_writing_0004_no_tools": {
+    "task_id": "dev_writing_0004_no_tools",
+    "id": "dev_writing_0004",
+    "question": "请直接写一条简短消息，帮我提醒队员把名牌戴好。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "队员们要把名牌戴好，队员们先检查一下，确保没有遗漏或误解。"
+    ],
+    "final": "队员们要把名牌戴好，队员们先检查一下，确保没有遗漏或误解。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "队员们要把名牌戴好，队员们先检查一下，确保没有遗漏或误解。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "队员们要把名牌戴好，队员们先检查一下，确保没有遗漏或误解。"
+      }
+    ],
+    "generated_tokens": 27,
+    "generation_seconds": 0.32549529999960214,
+    "grade": null
+  },
+  "dev_writing_0004_six_original": {
+    "task_id": "dev_writing_0004_six_original",
+    "id": "dev_writing_0004",
+    "question": "请直接写一条简短消息，帮我提醒队员把名牌戴好。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "队员们可以先准备一些名牌，然后记得使用一下。"
+    ],
+    "final": "队员们可以先准备一些名牌，然后记得使用一下。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "队员们可以先准备一些名牌，然后记得使用一下。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "队员们可以先准备一些名牌，然后记得使用一下。"
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.21180560000357218,
+    "grade": null
+  },
+  "dev_writing_0004_six_reworded": {
+    "task_id": "dev_writing_0004_six_reworded",
+    "id": "dev_writing_0004",
+    "question": "请直接写一条简短消息，帮我提醒队员把名牌戴好。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840068,
+    "turns": [
+      "队员们要把名牌戴好，请查一下，因为这样大家就能看到你的名牌了。"
+    ],
+    "final": "队员们要把名牌戴好，请查一下，因为这样大家就能看到你的名牌了。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "队员们要把名牌戴好，请查一下，因为这样大家就能看到你的名牌了。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "队员们要把名牌戴好，请查一下，因为这样大家就能看到你的名牌了。"
+      }
+    ],
+    "generated_tokens": 28,
+    "generation_seconds": 0.33754369999223854,
+    "grade": null
+  },
+  "dev_writing_0005_no_tools": {
+    "task_id": "dev_writing_0005_no_tools",
+    "id": "dev_writing_0005",
+    "question": "请直接写一条简短消息，帮我为弄皱朋友的纸张道歉。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "很抱歉，我犯了一个小错误，就让我来帮你把纸张误解了。"
+    ],
+    "final": "很抱歉，我犯了一个小错误，就让我来帮你把纸张误解了。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "很抱歉，我犯了一个小错误，就让我来帮你把纸张误解了。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "很抱歉，我犯了一个小错误，就让我来帮你把纸张误解了。"
+      }
+    ],
+    "generated_tokens": 26,
+    "generation_seconds": 0.303852500001085,
+    "grade": null
+  },
+  "dev_writing_0005_six_original": {
+    "task_id": "dev_writing_0005_six_original",
+    "id": "dev_writing_0005",
+    "question": "请直接写一条简短消息，帮我为弄皱朋友的纸张道歉。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "很抱歉，我犯了一个小错误，就让我来帮你确认一下纸张上的纸张。"
+    ],
+    "final": "很抱歉，我犯了一个小错误，就让我来帮你确认一下纸张上的纸张。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "很抱歉，我犯了一个小错误，就让我来帮你确认一下纸张上的纸张。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "很抱歉，我犯了一个小错误，就让我来帮你确认一下纸张上的纸张。"
+      }
+    ],
+    "generated_tokens": 27,
+    "generation_seconds": 0.3248425000056159,
+    "grade": null
+  },
+  "dev_writing_0005_six_reworded": {
+    "task_id": "dev_writing_0005_six_reworded",
+    "id": "dev_writing_0005",
+    "question": "请直接写一条简短消息，帮我为弄皱朋友的纸张道歉。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840085,
+    "turns": [
+      "很抱歉，我犯了一个小错误，就让我来帮你确认一下纸张上的纸张是否符合你的要求。"
+    ],
+    "final": "很抱歉，我犯了一个小错误，就让我来帮你确认一下纸张上的纸张是否符合你的要求。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "很抱歉，我犯了一个小错误，就让我来帮你确认一下纸张上的纸张是否符合你的要求。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "很抱歉，我犯了一个小错误，就让我来帮你确认一下纸张上的纸张是否符合你的要求。"
+      }
+    ],
+    "generated_tokens": 31,
+    "generation_seconds": 0.3793132999999216,
+    "grade": null
+  },
+  "dev_writing_0006_no_tools": {
+    "task_id": "dev_writing_0006_no_tools",
+    "id": "dev_writing_0006",
+    "question": "请直接写一条简短消息，帮我邀请朋友一起试做纸飞机。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "欢迎你来试试纸飞机！"
+    ],
+    "final": "欢迎你来试试纸飞机！",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "欢迎你来试试纸飞机！"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "欢迎你来试试纸飞机！"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.11840170000505168,
+    "grade": null
+  },
+  "dev_writing_0006_six_original": {
+    "task_id": "dev_writing_0006_six_original",
+    "id": "dev_writing_0006",
+    "question": "请直接写一条简短消息，帮我邀请朋友一起试做纸飞机。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "期待你的试试！"
+    ],
+    "final": "期待你的试试！",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "期待你的试试！"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "期待你的试试！"
+      }
+    ],
+    "generated_tokens": 6,
+    "generation_seconds": 0.07930399999895599,
+    "grade": null
+  },
+  "dev_writing_0006_six_reworded": {
+    "task_id": "dev_writing_0006_six_reworded",
+    "id": "dev_writing_0006",
+    "question": "请直接写一条简短消息，帮我邀请朋友一起试做纸飞机。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840102,
+    "turns": [
+      "期待你的试试！"
+    ],
+    "final": "期待你的试试！",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "期待你的试试！"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "期待你的试试！"
+      }
+    ],
+    "generated_tokens": 6,
+    "generation_seconds": 0.08093440000084229,
+    "grade": null
+  },
+  "dev_writing_0007_no_tools": {
+    "task_id": "dev_writing_0007_no_tools",
+    "id": "dev_writing_0007",
+    "question": "请直接写一条简短消息，帮我告诉同学我想换一个讨论主题。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "你想换的话可以告诉我你想做什么，我会尽力帮助你。"
+    ],
+    "final": "你想换的话可以告诉我你想做什么，我会尽力帮助你。",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "你想换的话可以告诉我你想做什么，我会尽力帮助你。"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "你想换的话可以告诉我你想做什么，我会尽力帮助你。"
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.19787649999489076,
+    "grade": null
+  },
+  "dev_writing_0007_six_original": {
+    "task_id": "dev_writing_0007_six_original",
+    "id": "dev_writing_0007",
+    "question": "请直接写一条简短消息，帮我告诉同学我想换一个讨论主题。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "我很想了解一下您对什么类型的讨论主题感兴趣？"
+    ],
+    "final": "我很想了解一下您对什么类型的讨论主题感兴趣？",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "我很想了解一下您对什么类型的讨论主题感兴趣？"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "我很想了解一下您对什么类型的讨论主题感兴趣？"
+      }
+    ],
+    "generated_tokens": 13,
+    "generation_seconds": 0.17790989999775775,
+    "grade": null
+  },
+  "dev_writing_0007_six_reworded": {
+    "task_id": "dev_writing_0007_six_reworded",
+    "id": "dev_writing_0007",
+    "question": "请直接写一条简短消息，帮我告诉同学我想换一个讨论主题。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840119,
+    "turns": [
+      "你想换个聊天的主题吗？"
+    ],
+    "final": "你想换个聊天的主题吗？",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "你想换个聊天的主题吗？"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "你想换个聊天的主题吗？"
+      }
+    ],
+    "generated_tokens": 11,
+    "generation_seconds": 0.155797999992501,
+    "grade": null
+  },
+  "dev_writing_0008_no_tools": {
+    "task_id": "dev_writing_0008_no_tools",
+    "id": "dev_writing_0008",
+    "question": "请直接写一条简短消息，帮我感谢同学分享自己的学习记录。",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "非常感谢你分享你的学习和记忆记录！"
+    ],
+    "final": "非常感谢你分享你的学习和记忆记录！",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你分享你的学习和记忆记录！"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你分享你的学习和记忆记录！"
+      }
+    ],
+    "generated_tokens": 11,
+    "generation_seconds": 0.1597600999957649,
+    "grade": null
+  },
+  "dev_writing_0008_six_original": {
+    "task_id": "dev_writing_0008_six_original",
+    "id": "dev_writing_0008",
+    "question": "请直接写一条简短消息，帮我感谢同学分享自己的学习记录。",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "非常感谢你分享你的学习记录！"
+    ],
+    "final": "非常感谢你分享你的学习记录！",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你分享你的学习记录！"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你分享你的学习记录！"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.1277263999945717,
+    "grade": null
+  },
+  "dev_writing_0008_six_reworded": {
+    "task_id": "dev_writing_0008_six_reworded",
+    "id": "dev_writing_0008",
+    "question": "请直接写一条简短消息，帮我感谢同学分享自己的学习记录。",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840136,
+    "turns": [
+      "非常感谢你分享你的学习记录！"
+    ],
+    "final": "非常感谢你分享你的学习记录！",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你分享你的学习记录！"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "非常感谢你分享你的学习记录！"
+      }
+    ],
+    "generated_tokens": 10,
+    "generation_seconds": 0.148734999995213,
+    "grade": null
+  },
+  "dev_writing_0009_no_tools": {
+    "task_id": "dev_writing_0009_no_tools",
+    "id": "dev_writing_0009",
+    "question": "Write a short message to ask a friend to save a blank note card for you. Give the message itself.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "Could you please save a blank! Thank you! Your pizza with me, but I cannot make it this time; have a wonderful blank!"
+    ],
+    "final": "Could you please save a blank! Thank you! Your pizza with me, but I cannot make it this time; have a wonderful blank!",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Could you please save a blank! Thank you! Your pizza with me, but I cannot make it this time; have a wonderful blank!"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Could you please save a blank! Thank you! Your pizza with me, but I cannot make it this time; have a wonderful blank!"
+      }
+    ],
+    "generated_tokens": 40,
+    "generation_seconds": 0.5480421999964165,
+    "grade": null
+  },
+  "dev_writing_0009_six_original": {
+    "task_id": "dev_writing_0009_six_original",
+    "id": "dev_writing_0009",
+    "question": "Write a short message to ask a friend to save a blank note card for you. Give the message itself.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "Congratulations on your pen or pencil."
+    ],
+    "final": "Congratulations on your pen or pencil.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Congratulations on your pen or pencil."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Congratulations on your pen or pencil."
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.22581340000033379,
+    "grade": null
+  },
+  "dev_writing_0009_six_reworded": {
+    "task_id": "dev_writing_0009_six_reworded",
+    "id": "dev_writing_0009",
+    "question": "Write a short message to ask a friend to save a blank note card for you. Give the message itself.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840153,
+    "turns": [
+      "Congratulations on your pen or pencil."
+    ],
+    "final": "Congratulations on your pen or pencil.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Congratulations on your pen or pencil."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Congratulations on your pen or pencil."
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.2050018000009004,
+    "grade": null
+  },
+  "dev_writing_0010_no_tools": {
+    "task_id": "dev_writing_0010_no_tools",
+    "id": "dev_writing_0010",
+    "question": "Write a short message to thank a classmate for checking the contents page. Give the message itself.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "Thanks for checking the contents pages."
+    ],
+    "final": "Thanks for checking the contents pages.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Thanks for checking the contents pages."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Thanks for checking the contents pages."
+      }
+    ],
+    "generated_tokens": 13,
+    "generation_seconds": 0.15174080000724643,
+    "grade": null
+  },
+  "dev_writing_0010_six_original": {
+    "task_id": "dev_writing_0010_six_original",
+    "id": "dev_writing_0010",
+    "question": "Write a short message to thank a classmate for checking the contents page. Give the message itself.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "Thanks for checking the contents page."
+    ],
+    "final": "Thanks for checking the contents page.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Thanks for checking the contents page."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Thanks for checking the contents page."
+      }
+    ],
+    "generated_tokens": 13,
+    "generation_seconds": 0.16647260000172537,
+    "grade": null
+  },
+  "dev_writing_0010_six_reworded": {
+    "task_id": "dev_writing_0010_six_reworded",
+    "id": "dev_writing_0010",
+    "question": "Write a short message to thank a classmate for checking the contents page. Give the message itself.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840170,
+    "turns": [
+      "Thanks for checking the contents page."
+    ],
+    "final": "Thanks for checking the contents page.",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Thanks for checking the contents page."
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Thanks for checking the contents page."
+      }
+    ],
+    "generated_tokens": 13,
+    "generation_seconds": 0.1694705999980215,
+    "grade": null
+  },
+  "dev_writing_0011_no_tools": {
+    "task_id": "dev_writing_0011_no_tools",
+    "id": "dev_writing_0011",
+    "question": "Write a short message to tell the team the display board has arrived. Give the message itself.",
+    "condition": "no_tools",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "Could you please turn the display by the team by the team?"
+    ],
+    "final": "Could you please turn the display by the team by the team?",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Could you please turn the display by the team by the team?"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Could you please turn the display by the team by the team?"
+      }
+    ],
+    "generated_tokens": 17,
+    "generation_seconds": 0.19772339999326505,
+    "grade": null
+  },
+  "dev_writing_0011_six_original": {
+    "task_id": "dev_writing_0011_six_original",
+    "id": "dev_writing_0011",
+    "question": "Write a short message to tell the team the display board has arrived. Give the message itself.",
+    "condition": "six_original",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "Could you please find the display board?"
+    ],
+    "final": "Could you please find the display board?",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Could you please find the display board?"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Could you please find the display board?"
+      }
+    ],
+    "generated_tokens": 12,
+    "generation_seconds": 0.1499448999966262,
+    "grade": null
+  },
+  "dev_writing_0011_six_reworded": {
+    "task_id": "dev_writing_0011_six_reworded",
+    "id": "dev_writing_0011",
+    "question": "Write a short message to tell the team the display board has arrived. Give the message itself.",
+    "condition": "six_reworded",
+    "kind": "chat",
+    "seed": 840187,
+    "turns": [
+      "Could you please find the display board?"
+    ],
+    "final": "Could you please find the display board?",
+    "eligible": true,
+    "failure": null,
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Could you please find the display board?"
+      }
+    ],
+    "events": [
+      {
+        "role": "assistant",
+        "content": "Could you please find the display board?"
+      }
+    ],
+    "generated_tokens": 12,
+    "generation_seconds": 0.15244030000758357,
+    "grade": null
+  }
+}

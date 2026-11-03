@@ -12,7 +12,9 @@ Run:
 python tools/verify_results.py
 ```
 
-This standard-library script checks original file hashes, aggregates v4 chat scores, strict math outcomes, and answer prediction loss, and verifies key corrected-math and best-of-N results. It needs no model, GPU, or network access. It does not regenerate model responses.
+This standard-library script checks original file hashes, aggregates v4 and v5 chat scores, strict math outcomes, and answer prediction loss, and verifies teacher-screening counts, common-question counts, identity results, and key corrected-math and best-of-N results. It needs no model, GPU, or network access. It does not regenerate model responses.
+
+The `STATUS*.json` files from the 7B-teacher experiment are withheld. They only track run progress, contain cloud instance and account details, and feed no statistics. The `updates` field in `SNAPSHOT_MANIFEST.json` records the added files and what was withheld.
 
 ## Assets that must be supplied separately
 
@@ -29,6 +31,8 @@ Historical experiment locks sometimes reference local weights, token caches, or 
 Local experiments used Windows 11, an RTX 4070 Laptop GPU with 8GB VRAM, Python 3.10, PyTorch 2.6.0+cu126, Transformers 4.57.6, and Streamlit 1.50.0. Run only one GPU training or evaluation task at a time.
 
 Earlier cloud experiments used an AutoDL RTX 4090, Python 3.12, and PyTorch 2.8. Reported training times, prices, and memory figures are observations from those runs, not current quotes or performance guarantees across hardware.
+
+The 7B teacher answers were generated on an AutoDL RTX 4090 with Python 3.12 and Transformers 4.57.6, using `Qwen/Qwen2.5-7B-Instruct` at the pinned revision `a09a35458c702b33eeacc393d103063234e8bc28`. The weights were downloaded from ModelScope, and the SHA-256 hashes of the four weight files were compared with that Hugging Face revision. The automatic-shutdown call in `cloud_strong_teacher.py` failed on the instance with `Exec format error`: results were saved, but the instance stayed on until it was shut down manually. Mock tests had not executed that call. Fix it before another cloud run.
 
 The original local Python installation was on the D drive. Launchers and some helpers retain those paths. When migrating, explicitly configure project, model, Python, and cache locations. Historical source was not globally rewritten during archiving because its hashes are part of the evidence.
 

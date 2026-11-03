@@ -22,8 +22,13 @@ Follow-up work includes the official-model comparison, an identity patch with re
 
 The individual reports describe development iterations, preserved failed runs, acceptance conditions, and limitations. This repository is an attributed snapshot of completed work. Git commit dates indicate archiving dates rather than dates of the earlier experiments.
 
+## 7B-teacher experiment
+
+The plan, cloud package, and evaluation scripts were prepared during the Codex follow-up work. The project lead ran teacher generation on AutoDL. Claude Code assisted with teacher-answer review, training both arms, development and formal evaluation, response review, the independent recheck, and the v5 export. Response review was done by an assistant with model and teacher labels hidden; it is not independent human blind evaluation.
+
 ## External models and data
 
 - Qwen2.5-1.5B-Instruct supplies some black-box-distillation demonstrations. Teacher outputs require screening and are not assumed correct.
+- Qwen2.5-7B-Instruct, at pinned revision `a09a35458c702b33eeacc393d103063234e8bc28`, only generates training demonstrations for the 7B-teacher experiment. Its outputs are also screened, and the demo does not call it at answer time.
 - An InternLM2-1.8B reward model supplies some training rewards and candidate-preference scores. Reward scores are not proof of correctness.
 - Upstream MiniMind data, teachers, and reward models each retain their own licenses and provenance requirements. The root LICENSE applies to inherited and added code; it is not a blanket license for every external corpus or model weight.

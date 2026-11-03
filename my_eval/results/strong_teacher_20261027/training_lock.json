@@ -1,0 +1,21 @@
+{
+  "base": "chat_repair_id_e3",
+  "base_sha256": "e04a156d57d207f27c6d507d93b84010902d69b0fa826434f5afb8fc4ba4918f",
+  "train_sha256": {
+    "weak": "a0d4615664adb5a3c5c5b7df83380f4d6977295a509cd56d86548de785f2a494",
+    "strong": "5f8ee5702ed003fb64e37acbd8f58b5759445d45939cae7535802ee92ff9abdc"
+  },
+  "files_sha256": {
+    "plan.json": "fdcca0cadeb5e8661ec08564a2387d3248c14e53aa47bd017de2bc4822a95541",
+    "teacher_weak.jsonl": "f69479d6975ccd9c8ff6222e01d1e524d94fc1f25caba0a00e38cbade7f7359e",
+    "teacher_strong.jsonl": "d8c5d88c25aff066a738786597f8a953c02066ba5d271910bb5742c22f7319a3",
+    "teacher_content_reviews.json": "ce4a38e1b5b66a214bed77f8fee742e4719651d229bbe9c14e6d43e6b984c7be",
+    "teacher_screening.json": "e2390ac8484a0e1d7fcde3e9ff2024070a514c146e3ea5ec8d2d7e80060c79a5",
+    "matched_data_audit.json": "762f965eb903f4f96ba4d3579fac2445b1d8d0e2c86ef9fa7cd4bcaa80990a6d"
+  },
+  "source_sha256": {
+    "strong_teacher_common.py": "294510579cfd99bbf3654fd59dac8bde09a69af6bb4ef311273043d8d472f54d",
+    "train_strong_teacher.py": "0607cf151c62651e8928475d6ed3983d3f28d27eaa7fea5690c319d4db947ec4",
+    "curate_strong_teacher.py": "44117bc74de751ba9a8972077d34b18905af21b6c628f39e6990440f54b7c667"
+  }
+}

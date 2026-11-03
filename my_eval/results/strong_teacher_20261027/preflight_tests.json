@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": {
+    "v4_and_predeclared_inputs_unchanged": true,
+    "fresh_splits_unique_explicit_language": true,
+    "teacher_receives_no_reference_or_eval_prompts": true,
+    "retrieval_positions_and_language_not_confounded": true,
+    "retention_has_no_new_dev_final_questions": true,
+    "cloud_archive_minimal_and_hash_validated": true,
+    "python_sources_parse": true,
+    "download_manifest_is_valid_json_without_network": true,
+    "previous_published_experiment_unchanged": true
+  },
+  "cloud_runtime_tested": false,
+  "student_training_tested": false
+}
